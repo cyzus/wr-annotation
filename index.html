@@ -584,6 +584,42 @@
             align-items: center;
             justify-content: center;
         }
+        
+        /* ── Input Modal (for PID) ── */
+        #pid-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(15,23,42,0.92);
+            z-index: 400;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .pid-input {
+            width: 100%;
+            padding: 12px;
+            margin: 16px 0;
+            border: 2px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        .pid-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79,70,229,0.2);
+        }
+        .btn-start {
+            background: var(--primary);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            width: 100%;
+        }
+
         .overlay-card {
             background: white;
             border-radius: 16px;
@@ -608,6 +644,16 @@
     </style>
 </head>
 <body>
+    <!-- PID / Name Input Overlay -->
+    <div id="pid-overlay">
+        <div class="overlay-card">
+            <h2 style="font-size:1.4rem;font-weight:700;color:#0f172a;margin:0 0 8px;">Welcome</h2>
+            <p style="color:#64748b;margin-bottom:4px;font-size:0.92rem;">Please enter your Prolific PID or Name to start:</p>
+            <input type="text" id="pid-input-field" class="pid-input" placeholder="e.g. 5f9a3b... or John Doe" autofocus>
+            <button id="btn-start-study" class="btn-start">Start Study</button>
+        </div>
+    </div>
+
     <!-- Shown when all events are annotated -->
     <div id="completion-banner">
         <div style="flex:1">
@@ -681,7 +727,7 @@
 
         const _urlParams = new URLSearchParams(window.location.search);
         const SESSION_ID   = _urlParams.get('session') || null;
-        const PROLIFIC_PID = _urlParams.get('PROLIFIC_PID') || 'preview';
+        let PROLIFIC_PID = _urlParams.get('PROLIFIC_PID') || null;
 
         let currentQIndex = 0;
         let totalEvents = 0;
@@ -1334,6 +1380,30 @@
         };
 
         window.onload = function() {
+            // Check for PID
+            if (!PROLIFIC_PID) {
+                document.getElementById('pid-overlay').style.display = 'flex';
+                
+                document.getElementById('btn-start-study').addEventListener('click', () => {
+                    const inputVal = document.getElementById('pid-input-field').value.trim();
+                    if (!inputVal) {
+                        alert('Please enter your PID or Name.');
+                        return;
+                    }
+                    PROLIFIC_PID = inputVal;
+                    document.getElementById('pid-overlay').style.display = 'none';
+                    loadDataAndInit();
+                });
+                
+                document.getElementById('pid-input-field').addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') document.getElementById('btn-start-study').click();
+                });
+            } else {
+                loadDataAndInit();
+            }
+        };
+
+        function loadDataAndInit() {
             // Dynamically load session data file, then init.
             // Falls back to annotation_data.js for local testing (no ?session= param).
             const src = SESSION_ID ? `annotation_data_${SESSION_ID}.js` : 'annotation_data.js';
@@ -1356,7 +1426,7 @@
                      </p>`;
             };
             document.head.appendChild(script);
-        };
+        }
     </script>
 </body>
 </html>
