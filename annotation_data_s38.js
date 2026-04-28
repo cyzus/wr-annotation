@@ -907,10 +907,10 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260219_001_b9af621f",
+        "id": "evt_sports_20260219_001_26f199df",
         "date": "2026-02-19 12:00",
-        "title": "Sri Lanka wins the 1st ODI by 10 runs",
-        "description": "Sri Lanka secures a narrow 10-run victory in the 1st ODI.",
+        "title": "Stafanie Taylor scores a half-century in the 1st ODI",
+        "description": "Stafanie Taylor scored a half-century for the West Indies in the 1st ODI.",
         "impact": "No impact assessment provided.",
         "has_impact": false,
         "in_market_window": false,
@@ -959,14 +959,14 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260222_004_9aa4a790",
+        "id": "evt_sports_20260222_003_0df75881",
         "date": "2026-02-22 10:00",
-        "title": "West Indies chase loses momentum in 2nd ODI",
-        "description": "The West Indies run chase loses momentum following Dottin's dismissal.",
+        "title": "West Indies faces must-win situation in 2nd ODI",
+        "description": "West Indies enters the 2nd ODI in a must-win situation to save the series.",
         "impact": "No impact assessment provided.",
         "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
+        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
