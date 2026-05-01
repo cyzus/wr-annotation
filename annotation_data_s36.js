@@ -1,5 +1,382 @@
 var annotationData = [
   {
+    "id": "polymarket_0xc3c8a84db9fb4e3f2c67fe688e8b5b67e9c7f45cd8de844c26833658199761c3",
+    "title": "Will USD reach 1.7M Iranian rials by February 28?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to “Yes” if the finalized USD exchange rate on Bonbast reaches or exceeds 170,000 Iranian toman (equivalent to 1,700,000 Iranian rials) at any point between market creation and February 28, 2026. Otherwise, this market will resolve to “No”.\n\nThis market will resolve according to the daily finalized free-market USD exchange rate as displayed on Bonbast (https://www.bonbast.com/graph/usd), which publishes prices in Iranian toman, where 1 Iranian toman equals 10 Iranian rials (IRR).\n\nA daily figure will be considered finalized once the following day’s figure is released.\n\nRevisions or corrections to daily figures indicating a qualifying exchange rate will be considered only if they occur before all relevant figures for this market have been finalized.\n\nThe resolution source for this market will be Bonbast (https://www.bonbast.com/graph/usd). Resolution will occur once the February 28, 2026, exchange rate data is finalized. If the resolution source becomes permanently unavailable, another resolution source will be chosen.",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe depreciation of the Iranian rial to 1.7 million per USD by late February 2026 was primarily caused by a severe US-engineered dollar shortage. This economic warfare, as described by the US Treasury Secretary, crippled Iran's access to foreign exchange by sanctioning its oil exports and isolating it from the international banking system. This fundamental economic pressure was the main driver of the rial's collapse, with day-to-day fluctuations and market sentiment shifts reacting to this underlying reality, despite brief periods of misplaced optimism.\n\n## Timeline Of Key Events\n- **February 9, 2026:** The market sentiment flips, and 'No' becomes the favored outcome. This suggests a temporary and likely speculative belief that the rial would stabilize, possibly due to minor positive domestic news or a belief that the rial had been oversold.\n- **February 10, 2026:** 'Yes' becomes favored again, indicating that the fundamental downward pressure on the rial reasserted itself, overwhelming the previous day's brief optimism.\n- **February 13, 2026:** US Treasury Secretary Scott Bessent's statement about deliberately creating a dollar shortage in Iran is published, providing a clear and public explanation for the rial's freefall. [art_politics_20260213_002_4ae5b462]\n- **February 14, 2026:** In a seemingly counter-intuitive move, the market again flips to 'No'. This could be due to a variety of factors, including a belief that the US admission of economic warfare was already priced in, or perhaps a short-lived government intervention to support the currency.\n- **February 15 - 23, 2026:** The market continues to oscillate, reflecting a high degree of uncertainty and volatility. The underlying economic crisis is clear, but the market is struggling to price in the political and economic implications of the US's public statements and Iran's potential responses.\n- **February 27, 2026:** A significant trough in market price occurs, suggesting a major event or news story that caused a sharp, but temporary, loss of confidence.\n- **March 1, 2026:** The market decisively flips to 'Yes' with 99.8% confidence, indicating that the fundamental economic reality of the dollar shortage had become undeniable and any hope of the rial holding its value had evaporated.\n\n## Causal Chain Analysis\nThe root cause of the Iranian rial's depreciation was the United States' \"maximum pressure\" campaign, which took the form of economic warfare. This campaign led to the intermediate mechanism of a severe \"dollar shortage\" in Iran. This was achieved by sanctioning Iran's oil exports and cutting off its access to the international financial system. The proximate trigger for the rial's final plunge to 1.7M per USD was the public admission by the US Treasury Secretary of this strategy, which eliminated any remaining market confidence in the rial's stability. The public confirmation of the US's deliberate actions to devalue the rial, as reported by Al Jazeera [art_politics_20260213_002_4ae5b462], was the final nail in the coffin for the Iranian currency.\n\n## Countervailing Factors\nThe primary countervailing factor was likely the Iranian government's attempts to intervene in the currency market to stabilize the rial. This could explain some of the temporary flips in market sentiment to 'No'. Additionally, Iran has a history of using informal and illicit networks to bypass sanctions, which may have provided some temporary relief and created a false sense of security in the market. Ultimately, these measures were insufficient to counter the overwhelming pressure of the US sanctions and the engineered dollar shortage.\n\n## Event Candidate Inventory\n- **E1: US Admits to Engineering a Dollar Shortage:**\n    - **Date:** 2026-02-13\n    - **Causal Importance:** This event is the primary explanatory factor for the rial's depreciation. It removed all ambiguity about the cause of the economic crisis and made it clear that the downward pressure on the rial was a deliberate act of US policy.\n    - **Source Article IDs:** art_politics_20260213_002_4ae5b462\n- **E2: Market Flips to 'Yes' with 99.8% Confidence:**\n    - **Date:** 2026-03-01\n    - **Causal Importance:** This marks the point of no return, where the market fully accepted the inevitability of the rial reaching 1.7M per USD. It represents the culmination of the economic pressure and the psychological impact of the US's public statements.\n    - **Source Article IDs:** None\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| US engineered a dollar shortage in Iran. | art_politics_20260213_002_4ae5b462 | 2026-02-13 | 1.0 | The article directly quotes the US Treasury Secretary. |\n| The dollar shortage was the primary cause of the rial's depreciation. | art_politics_20260213_002_4ae5b462 | 2026-02-13 | 0.9 | While other factors may have contributed, the article provides strong evidence that this was the main driver. |\n| The market reacted to the news of the US's actions. | None | 2026-02-14 - 2026-03-01 | 0.7 | This is an inference based on the market data provided in the prompt. The specific reasons for each market flip are not detailed in the available evidence. |\n\n## Uncertainties And Alternative Paths\nThe most significant uncertainty in this analysis is the lack of a diverse range of evidence. The entire explanation rests on a single, albeit strong, article. This means that the day-to-day fluctuations in market sentiment are largely unexplained. An alternative causal path could be that domestic political instability or a sudden economic shock within Iran played a more significant role than the available evidence suggests. Without more data, it is impossible to rule out these alternative explanations.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2026-02-04T18:09:07.779791+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-03-02T02:17:55+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-usd-reach-1pt7m-iranian-rials-by-february-28",
+    "price_data": {
+      "history": [
+        {
+          "t": 1770249633,
+          "p": 0.72
+        },
+        {
+          "t": 1770292846,
+          "p": 0.84
+        },
+        {
+          "t": 1770336044,
+          "p": 0.83
+        },
+        {
+          "t": 1770379246,
+          "p": 0.77
+        },
+        {
+          "t": 1770422453,
+          "p": 0.8
+        },
+        {
+          "t": 1770465650,
+          "p": 0.765
+        },
+        {
+          "t": 1770508848,
+          "p": 0.655
+        },
+        {
+          "t": 1770595246,
+          "p": 0.3
+        },
+        {
+          "t": 1770681650,
+          "p": 0.665
+        },
+        {
+          "t": 1770811250,
+          "p": 0.74
+        },
+        {
+          "t": 1770854458,
+          "p": 0.745
+        },
+        {
+          "t": 1770897650,
+          "p": 0.685
+        },
+        {
+          "t": 1770940849,
+          "p": 0.685
+        },
+        {
+          "t": 1770984056,
+          "p": 0.67
+        },
+        {
+          "t": 1771027255,
+          "p": 0.38
+        },
+        {
+          "t": 1771113656,
+          "p": 0.525
+        },
+        {
+          "t": 1771286459,
+          "p": 0.475
+        },
+        {
+          "t": 1771588837,
+          "p": 0.46
+        },
+        {
+          "t": 1771632040,
+          "p": 0.465
+        },
+        {
+          "t": 1771675240,
+          "p": 0.435
+        },
+        {
+          "t": 1771718440,
+          "p": 0.525
+        },
+        {
+          "t": 1771761651,
+          "p": 0.52
+        },
+        {
+          "t": 1771804848,
+          "p": 0.43
+        },
+        {
+          "t": 1771848056,
+          "p": 0.325
+        },
+        {
+          "t": 1771891249,
+          "p": 0.29
+        },
+        {
+          "t": 1771977657,
+          "p": 0.195
+        },
+        {
+          "t": 1772064050,
+          "p": 0.235
+        },
+        {
+          "t": 1772150456,
+          "p": 0.0705
+        },
+        {
+          "t": 1772236852,
+          "p": 0.134
+        },
+        {
+          "t": 1772280013,
+          "p": 0.3905
+        },
+        {
+          "t": 1772366456,
+          "p": 0.9975
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1770292846,
+          "p": 0.84,
+          "delta": 0.12
+        },
+        {
+          "t": 1770379246,
+          "p": 0.77,
+          "delta": -0.07
+        },
+        {
+          "t": 1770508848,
+          "p": 0.655,
+          "delta": -0.115
+        },
+        {
+          "t": 1770595246,
+          "p": 0.3,
+          "delta": -0.355
+        },
+        {
+          "t": 1770681650,
+          "p": 0.665,
+          "delta": 0.365
+        },
+        {
+          "t": 1770811250,
+          "p": 0.74,
+          "delta": 0.075
+        },
+        {
+          "t": 1770897650,
+          "p": 0.685,
+          "delta": -0.055
+        },
+        {
+          "t": 1771027255,
+          "p": 0.38,
+          "delta": -0.305
+        },
+        {
+          "t": 1771113656,
+          "p": 0.525,
+          "delta": 0.145
+        },
+        {
+          "t": 1771286459,
+          "p": 0.475,
+          "delta": -0.05
+        },
+        {
+          "t": 1771718440,
+          "p": 0.525,
+          "delta": 0.05
+        },
+        {
+          "t": 1771804848,
+          "p": 0.43,
+          "delta": -0.095
+        },
+        {
+          "t": 1771848056,
+          "p": 0.325,
+          "delta": -0.105
+        },
+        {
+          "t": 1771977657,
+          "p": 0.195,
+          "delta": -0.13
+        },
+        {
+          "t": 1772150456,
+          "p": 0.0705,
+          "delta": -0.1245
+        },
+        {
+          "t": 1772236852,
+          "p": 0.134,
+          "delta": 0.0635
+        },
+        {
+          "t": 1772280013,
+          "p": 0.3905,
+          "delta": 0.2565
+        },
+        {
+          "t": 1772366456,
+          "p": 0.9975,
+          "delta": 0.607
+        }
+      ],
+      "price_at_open": 0.72,
+      "price_at_close": 0.9975,
+      "min_price": 0.0705,
+      "max_price": 0.9975,
+      "final_price": 0.9975,
+      "fetched_at": "2026-04-27T07:57:30.303372+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20260206_008_142030d0",
+        "date": "2026-02-06 00:00",
+        "title": "US Treasury Secretary tells Congress the US created a dollar shortage in Iran",
+        "description": "In a Congressional hearing in early February 2026, Treasury Secretary Scott Bessent stated that the Treasury had created a dollar shortage in Iran, leading to the currency's freefall and protests.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe official statement to Congress was a more formal and impactful confirmation of the U.S. policy, leaving no room for doubt about the deliberate nature of the economic pressure.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260301_010_974a1953",
+        "date": "2026-03-01 00:00",
+        "title": "Rial crossing the 1.7M per USD threshold",
+        "description": "The rial crossed the 1.7M per USD threshold.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/2026/04/13/us-naval-blockade-iran-economy-currency-devaluation-spiral-hyperinflation-oil-revenue",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260106_002_6034400a",
+        "date": "2026-01-06 00:00",
+        "title": "Currency hits new lows",
+        "description": "The Iranian currency began its slide to new lows.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.iranintl.com/en/202601061682",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260213_001_58787544",
+        "date": "2026-02-13 00:00",
+        "title": "U.S. orchestrates dollar shortage in Iran",
+        "description": "U.S. Treasury actively engineered a dollar shortage to destabilize the rial.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260213_009_0abe93dd",
+        "date": "2026-02-13 00:00",
+        "title": "Al Jazeera reports US Treasury Secretary's admission of engineering dollar shortage",
+        "description": "On February 13, 2026, Al Jazeera published an article detailing US Treasury Secretary Scott Bessent's admission that the US had deliberately engineered a dollar shortage in Iran.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe international media report amplified the Treasury Secretary's admission, ensuring it reached a global audience and solidified the collapse of market confidence.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260213_010_ab226599",
+        "date": "2026-02-13 00:00",
+        "title": "Market confidence in the Iranian rial collapses",
+        "description": "The public admission by the US Treasury Secretary, reported by Al Jazeera, eliminated any remaining market confidence in the rial's stability, confirming the downward pressure was a deliberate act of US policy.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis was the final psychological blow. With confidence gone, there was no countervailing force to prevent the rial from reaching the 1.7M mark, making the outcome a near certainty.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260213_004_3709eaf8",
+        "date": "2026-02-13 00:00",
+        "title": "Widespread antigovernment protests",
+        "description": "Widespread antigovernment protests due to economic instability.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260213_005_4b271f3a",
+        "date": "2026-02-13 00:00",
+        "title": "Public's loss of faith in Central Bank",
+        "description": "Public's loss of faith in the Central Bank's ability to defend the currency peg.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260213_006_cc4b58c0",
+        "date": "2026-02-13 00:00",
+        "title": "Capital flight",
+        "description": "Capital flight accelerated the rial's collapse.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260213_007_7ec48eb8",
+        "date": "2026-02-13 00:00",
+        "title": "Panic buying of foreign currency",
+        "description": "Panic buying of foreign currency accelerated the rial's collapse.",
+        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0xc645f98013096b0de16e4686c64103b157ed1c4d5674620b8658c42f2efd1f78",
     "title": "Will Putin meet with Zelenskyy by March 31, 2026?",
     "question_type": "binary",
@@ -641,191 +1018,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.politico.com/news/2025/12/28/trump-zelenskyy-peace-talks-putin-00707152",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xcd3156c9537be4494f31d2303c28a3eee9b685969d6fbfdbfea93de01b896085",
-    "title": "Hezbollah strike on Israel by March 7?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Hezbollah initiates a drone, missile, or air strike that impacts Israeli ground territory by March 7, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including cruise or ballistic missiles) launched by Hezbollah forces that physically impact land under Israeli control.\n\nIsraeli ground territory, for the purposes of this market, refers to land internationally recognized as part of the State of Israel, including all territory under de facto Israeli government administration as of October 31, 2025. This includes the Israeli-controlled Golan Heights and East Jerusalem, but excludes the West Bank and Gaza Strip.\n\nMissiles or drones that are intercepted before reaching the ground, or surface-to-air missile strikes, will not qualify for a \"Yes\" resolution—regardless of whether debris lands on Israeli soil or causes damage.\n\nThe resolution source will be a consensus of credible reporting.",
-    "outcome": "Yes",
-    "explanation": "\n# Executive Summary\nThe escalation between Israel and Hezbollah in late February and early March 2026 was the direct outcome of a wider conflict between the U.S., Israel, and Iran. Following joint U.S. and Israeli military strikes against Iran on February 28, Hezbollah, acting as an Iranian proxy, entered the fray to support Tehran by launching missiles across the Israeli border by early March. This triggered severe Israeli retaliation against Hezbollah targets in Lebanon, finalizing the positive outcome of the question that Hezbollah would strike Israel by March 7.\n\n# Timeline Of Key Events\n- **2026-02-28:** The United States and Israel launch coordinated military strikes against Iran, initiating a broader regional conflict [art_general_20260301_017_9739bb8d].\n- **2026-03-01/2026-03-02 (Early March):** Hezbollah, responding to the strikes on its patron Iran, fires missiles into northern Israel [art_politics_20260301_011_0bd3252e, art_general_20260301_017_9739bb8d].\n- **2026-03-02 onwards:** Israel retaliates with a widespread and intense bombardment campaign across Lebanon, displacing over a million people and prompting a ground operation [art_general_20260301_017_9739bb8d].\n\n# Causal Chain Analysis\nThe root cause was the broader geopolitical tension and the specific military action taken by the U.S. and Israel against Iran on February 28, 2026. This action triggered intermediate mechanisms: as an Iranian proxy, Hezbollah was structurally compelled to respond to defend or avenge its primary backer. This structural alignment led directly to the proximate trigger: Hezbollah firing missiles across the border into Israel in early March 2026. Consequently, this resulted in the positive resolution of the target event: Hezbollah striking Israel by March 7 [art_general_20260301_017_9739bb8d]. \n\n# Countervailing Factors\nThe main countervailing factor was the ongoing diplomatic efforts and backchannel discussions to maintain stability and negotiate ceasefires in the region. There were also hopes that Hezbollah might be deterred by the sheer scale of the U.S.-Israeli military capabilities demonstrated against Iran. However, these forces failed to prevent the strike because Hezbollah’s ideological and strategic commitments to Iran as its proxy overshadowed deterrence, compelling them to enter the conflict once Iran was directly attacked.\n\n# Event Candidate Inventory\n- **E1:** U.S. and Israel strike Iran.\n  - title: U.S. and Israel strike Iran\n  - date: 2026-02-28\n  - why it matters causally: Root cause and catalyst for the entire regional escalation.\n  - source article IDs: [art_general_20260301_017_9739bb8d]\n- **E2:** Hezbollah launches missiles into Israel.\n  - title: Hezbollah launches missiles into Israel\n  - date: 2026-03-01 to 2026-03-02\n  - why it matters causally: This is the exact event the question asks about, directly fulfilling the positive resolution.\n  - source article IDs: [art_politics_20260301_011_0bd3252e, art_general_20260301_017_9739bb8d]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| U.S. and Israel strike Iran | art_general_20260301_017_9739bb8d | 2026-02-28 | 1.0 | Clear start of the escalation. |\n| Hezbollah fires rockets into Israel | art_politics_20260301_011_0bd3252e, art_general_20260301_017_9739bb8d | Early March 2026 | 1.0 | Directly resolves the question as Yes. |\n\n# Uncertainties And Alternative Paths\nOne major uncertainty at the time was the exact scale of Hezbollah's involvement—whether it would be a symbolic retaliation or a full-scale war. An alternative path could have occurred if Iranian leadership ordered Hezbollah to stand down to preserve its capabilities, or if rapid international intervention immediately forced a pause before Hezbollah could mobilize its rocket forces. However, the momentum of the initial U.S.-Israel strikes against Iran rapidly foreclosed those de-escalatory paths.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2026-02-28T16:07:29.014586+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-03-02T03:15:39+00:00",
-    "polymarket_url": "https://polymarket.com/event/hezbollah-strike-on-israel-by-march-7",
-    "price_data": {
-      "history": [
-        {
-          "t": 1772323238,
-          "p": 0.44
-        },
-        {
-          "t": 1772366435,
-          "p": 0.55
-        },
-        {
-          "t": 1772409643,
-          "p": 0.885
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1772366435,
-          "p": 0.55,
-          "delta": 0.11
-        },
-        {
-          "t": 1772409643,
-          "p": 0.885,
-          "delta": 0.335
-        }
-      ],
-      "price_at_open": 0.44,
-      "price_at_close": 0.885,
-      "min_price": 0.44,
-      "max_price": 0.885,
-      "final_price": 0.885,
-      "fetched_at": "2026-04-27T07:57:57.013238+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20260228_003_99b2d045",
-        "date": "2026-02-28 18:00",
-        "title": "U.S.-Israeli military capabilities demonstrate massive scale",
-        "description": "The sheer scale of the U.S.-Israeli military capabilities is demonstrated against Iran.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-9402965418687c634d4a157c966ec6ea",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_004_18bd70e3",
-        "date": "2026-03-01 00:00",
-        "title": "Hezbollah's commitment to Iran overshadows deterrence",
-        "description": "Hezbollah’s ideological and strategic commitments to Iran as its proxy overshadow deterrence.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-9402965418687c634d4a157c966ec6ea",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_005_ffbbc26d",
-        "date": "2026-03-01 06:00",
-        "title": "Hezbollah enters the conflict to support Tehran",
-        "description": "Hezbollah enters the fray to support Tehran after Iran is directly attacked.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-9402965418687c634d4a157c966ec6ea",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_006_95d1c500",
-        "date": "2026-03-01 08:00",
-        "title": "Hezbollah forces fire rockets into northern Israel",
-        "description": "Hezbollah forces fire rockets into northern Israel in retaliation.",
-        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirectly constitutes the strike.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.jta.org/2026/03/26/israel/as-hezbollah-rockets-fall-emergency-medics-in-israels-north-work-double-shifts",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_007_7c70b103",
-        "date": "2026-03-01 10:00",
-        "title": "Hezbollah targets Israeli advance toward Litani River",
-        "description": "Hezbollah says it targeted an Israeli advance toward the Litani River.",
-        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirectly constitutes the strike.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-says-it-targeted-israeli-advance-toward-litani-river",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_010_617d8378",
-        "date": "2026-03-01 10:00",
-        "title": "Hezbollah fires missiles into northern Israel",
-        "description": "Hezbollah fires missiles into northern Israel in early March.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-diplomacy-ceasefire",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_008_943b2f83",
-        "date": "2026-03-01 11:00",
-        "title": "Hezbollah targets Israel's Ashdod naval base",
-        "description": "Hezbollah says it targeted Israel's Ashdod naval base with missiles.",
-        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirectly constitutes the strike.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.lbcgroup.tv/news/lebanon-news/923513/hezbollah-says-it-targeted-israels-ashdod-naval-base-with-missiles/en",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_007_2411dc7e",
-        "date": "2026-03-01 11:00",
-        "title": "Israel retaliates with widespread bombardment across Lebanon",
-        "description": "Israel retaliates with a widespread and intense bombardment campaign across Lebanon.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-9402965418687c634d4a157c966ec6ea",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_010_fffc525b",
-        "date": "2026-03-01 11:30",
-        "title": "Ten-day ceasefire between Israel and Lebanon begins",
-        "description": "A ten-day ceasefire between Israel and Lebanon begins.",
-        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nCeasefire ends hostilities.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-gb/news/world/iran-us-war-live-hegseth-warns-we-are-locked-and-loaded-to-attack/ar-AA2103Rr?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260301_008_0888d17b",
-        "date": "2026-03-01 11:30",
-        "title": "Over a million people displaced in Lebanon",
-        "description": "Over a million people are displaced in Lebanon due to the bombardment.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-9402965418687c634d4a157c966ec6ea",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

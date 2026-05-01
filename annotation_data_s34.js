@@ -1,5 +1,663 @@
 var annotationData = [
   {
+    "id": "polymarket_0xaf11eaf31826a155b5aa4d28fafcebfd641ed153210d547fb431b7797ef30d0c",
+    "title": "Will Elon Musk's net worth reach $1 trillion before December 31, 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk's net worth, as listed on the Bloomberg Billionaires Index, reaches or exceeds $1 trillion at any point by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market will be the Bloomberg Billionaires Index (https://www.bloomberg.com/billionaires/), however a consensus of credible reporting may also be used.\n",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nDespite Elon Musk's various ventures (Tesla, SpaceX, xAI, Twitter/X) reaching new heights in 2025, his net worth did not reach the $1 trillion mark by December 31, 2025. While market rallies, a potential SpaceX IPO, and the xAI merger provided significant momentum, broader market conditions, regulatory scrutiny, and volatility in Tesla's stock price constrained his total wealth accumulation just short of the trillion-dollar threshold.\n\n## Timeline Of Key Events\n- 2025-01-21: Peak market sentiment shift around Musk's wealth pushing boundaries [art_general_20251231_015_9533fbc6].\n- 2025-01-22: Trough and recovery in Tesla's stock price, demonstrating market volatility [art_general_20251223_012_c9b93a21].\n- Mid 2025: SpaceX's valuation surges, rumors of a potential IPO circulate, increasing Musk's theoretical net worth [art_general_20251218_008_498552c6].\n- Late 2025: xAI and SpaceX activities dominate headlines, with Musk's government efficiency role (DOGE) adding political complexities [art_general_20251118_016_f2c08a21].\n- 2025-12-31: Despite all positive catalysts, the cumulative valuation of his holdings fails to breach the $1 trillion mark.\n\n## Causal Chain Analysis\n- **Root Cause**: Musk's wealth is heavily tied to the equity of his companies (Tesla, SpaceX, xAI), which are subject to market volatility and investor sentiment [art_general_20251231_015_9533fbc6].\n- **Intermediate Mechanism**: Throughout 2025, while SpaceX saw significant valuation increases and xAI integration provided a boost, Tesla faced an uneven market environment. The turning points in January 2025 indicated early volatility that set a cautious tone for Tesla investors [art_general_20251223_012_c9b93a21].\n- **Proximate Trigger**: In the final quarter of 2025, market corrections and the sheer mathematical difficulty of reaching a $1 trillion personal net worth (requiring roughly a doubling or tripling of his early 2024 wealth) proved insurmountable within the timeframe [art_general_20251218_008_498552c6].\n- **Final Outcome**: Consequently, Musk's net worth remained below $1 trillion by December 31, 2025.\n\n## Countervailing Factors\n- **SpaceX Valuation Surge**: The massive increase in SpaceX's private market valuation was a strong force pushing towards the $1 trillion mark, but it was not enough to offset the total required growth [art_general_20251218_008_498552c6].\n- **xAI Development**: The growth of his AI venture added significant value, yet the illiquid nature of private holdings and market caps limited immediate net worth impact [art_general_20251118_016_f2c08a21].\n\n## Event Candidate Inventory\n- E1: Peak market sentiment shift.\n  - Date: 2025-01-21\n  - Why it matters causally: Showed resistance to continuous market surge.\n  - Source article IDs: [art_general_20251231_015_9533fbc6]\n- E2: Trough and recovery in Tesla stock.\n  - Date: 2025-01-22\n  - Why it matters causally: Re-established baseline volatility.\n  - Source article IDs: [art_general_20251223_012_c9b93a21]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Overall wealth trajectory | [art_general_20251231_015_9533fbc6] | 2025-01-21 | 0.9 | Musk's wealth grew but fell short of $1T |\n| SpaceX valuation | [art_general_20251218_008_498552c6] | 2025-06-15 | 0.8 | Significant contributor |\n| xAI impact | [art_general_20251118_016_f2c08a21] | 2025-11-01 | 0.8 | AI hype |\n\n## Uncertainties And Alternative Paths\n- If Tesla's stock had experienced another historic, sustained rally (similar to 2020-2021), the $1 trillion mark might have been achieved.\n- A sudden, massive public offering of SpaceX at a highly inflated valuation could have alternatively pushed his net worth over the line.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-01-07T17:00:33.133000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:32:53+00:00",
+    "polymarket_url": "https://polymarket.com/event/elon-musk-trillionaire-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1736294403,
+          "p": 0.085
+        },
+        {
+          "t": 1736510404,
+          "p": 0.085
+        },
+        {
+          "t": 1736769603,
+          "p": 0.09
+        },
+        {
+          "t": 1737028803,
+          "p": 0.095
+        },
+        {
+          "t": 1737288003,
+          "p": 0.135
+        },
+        {
+          "t": 1737547203,
+          "p": 0.095
+        },
+        {
+          "t": 1737806403,
+          "p": 0.115
+        },
+        {
+          "t": 1738065604,
+          "p": 0.11
+        },
+        {
+          "t": 1738324804,
+          "p": 0.095
+        },
+        {
+          "t": 1738584004,
+          "p": 0.095
+        },
+        {
+          "t": 1738843204,
+          "p": 0.095
+        },
+        {
+          "t": 1739102405,
+          "p": 0.105
+        },
+        {
+          "t": 1739361604,
+          "p": 0.115
+        },
+        {
+          "t": 1739620805,
+          "p": 0.115
+        },
+        {
+          "t": 1739880004,
+          "p": 0.115
+        },
+        {
+          "t": 1740139204,
+          "p": 0.115
+        },
+        {
+          "t": 1740398404,
+          "p": 0.115
+        },
+        {
+          "t": 1740657606,
+          "p": 0.115
+        },
+        {
+          "t": 1740916805,
+          "p": 0.115
+        },
+        {
+          "t": 1741176004,
+          "p": 0.095
+        },
+        {
+          "t": 1741435204,
+          "p": 0.095
+        },
+        {
+          "t": 1741694405,
+          "p": 0.09
+        },
+        {
+          "t": 1741953605,
+          "p": 0.08
+        },
+        {
+          "t": 1742212805,
+          "p": 0.08
+        },
+        {
+          "t": 1742472006,
+          "p": 0.075
+        },
+        {
+          "t": 1742731205,
+          "p": 0.075
+        },
+        {
+          "t": 1742990405,
+          "p": 0.075
+        },
+        {
+          "t": 1743249606,
+          "p": 0.065
+        },
+        {
+          "t": 1743508805,
+          "p": 0.065
+        },
+        {
+          "t": 1743768007,
+          "p": 0.075
+        },
+        {
+          "t": 1744027205,
+          "p": 0.075
+        },
+        {
+          "t": 1744243205,
+          "p": 0.075
+        },
+        {
+          "t": 1744502405,
+          "p": 0.075
+        },
+        {
+          "t": 1744761605,
+          "p": 0.065
+        },
+        {
+          "t": 1745020806,
+          "p": 0.065
+        },
+        {
+          "t": 1745280006,
+          "p": 0.07
+        },
+        {
+          "t": 1745539206,
+          "p": 0.065
+        },
+        {
+          "t": 1745798405,
+          "p": 0.065
+        },
+        {
+          "t": 1746057606,
+          "p": 0.06
+        },
+        {
+          "t": 1746316805,
+          "p": 0.06
+        },
+        {
+          "t": 1746576005,
+          "p": 0.055
+        },
+        {
+          "t": 1746835206,
+          "p": 0.055
+        },
+        {
+          "t": 1747094406,
+          "p": 0.055
+        },
+        {
+          "t": 1747353606,
+          "p": 0.055
+        },
+        {
+          "t": 1747612806,
+          "p": 0.065
+        },
+        {
+          "t": 1747872007,
+          "p": 0.065
+        },
+        {
+          "t": 1748131206,
+          "p": 0.065
+        },
+        {
+          "t": 1748390406,
+          "p": 0.06
+        },
+        {
+          "t": 1748649607,
+          "p": 0.055
+        },
+        {
+          "t": 1748908807,
+          "p": 0.06
+        },
+        {
+          "t": 1749168006,
+          "p": 0.055
+        },
+        {
+          "t": 1749427207,
+          "p": 0.05
+        },
+        {
+          "t": 1749686407,
+          "p": 0.05
+        },
+        {
+          "t": 1749945608,
+          "p": 0.055
+        },
+        {
+          "t": 1750204808,
+          "p": 0.055
+        },
+        {
+          "t": 1750464008,
+          "p": 0.05
+        },
+        {
+          "t": 1750723207,
+          "p": 0.045
+        },
+        {
+          "t": 1750982407,
+          "p": 0.045
+        },
+        {
+          "t": 1751241607,
+          "p": 0.045
+        },
+        {
+          "t": 1751500808,
+          "p": 0.045
+        },
+        {
+          "t": 1751760007,
+          "p": 0.045
+        },
+        {
+          "t": 1751976007,
+          "p": 0.045
+        },
+        {
+          "t": 1752235209,
+          "p": 0.045
+        },
+        {
+          "t": 1752494407,
+          "p": 0.04
+        },
+        {
+          "t": 1752753607,
+          "p": 0.04
+        },
+        {
+          "t": 1753012808,
+          "p": 0.055
+        },
+        {
+          "t": 1753272009,
+          "p": 0.033
+        },
+        {
+          "t": 1753531210,
+          "p": 0.032
+        },
+        {
+          "t": 1753790408,
+          "p": 0.0325
+        },
+        {
+          "t": 1754049609,
+          "p": 0.0345
+        },
+        {
+          "t": 1754308808,
+          "p": 0.035
+        },
+        {
+          "t": 1754568004,
+          "p": 0.032
+        },
+        {
+          "t": 1754827209,
+          "p": 0.0325
+        },
+        {
+          "t": 1755086414,
+          "p": 0.0325
+        },
+        {
+          "t": 1755345619,
+          "p": 0.032
+        },
+        {
+          "t": 1755604818,
+          "p": 0.032
+        },
+        {
+          "t": 1755864015,
+          "p": 0.032
+        },
+        {
+          "t": 1756123210,
+          "p": 0.032
+        },
+        {
+          "t": 1756382422,
+          "p": 0.0265
+        },
+        {
+          "t": 1756641615,
+          "p": 0.0265
+        },
+        {
+          "t": 1756900824,
+          "p": 0.0265
+        },
+        {
+          "t": 1757160005,
+          "p": 0.0265
+        },
+        {
+          "t": 1757419212,
+          "p": 0.0265
+        },
+        {
+          "t": 1757678437,
+          "p": 0.0315
+        },
+        {
+          "t": 1757937612,
+          "p": 0.035
+        },
+        {
+          "t": 1758196830,
+          "p": 0.0355
+        },
+        {
+          "t": 1758456022,
+          "p": 0.0425
+        },
+        {
+          "t": 1758715208,
+          "p": 0.047
+        },
+        {
+          "t": 1758974411,
+          "p": 0.046
+        },
+        {
+          "t": 1759233603,
+          "p": 0.0275
+        },
+        {
+          "t": 1759492806,
+          "p": 0.027
+        },
+        {
+          "t": 1759708809,
+          "p": 0.0275
+        },
+        {
+          "t": 1759968010,
+          "p": 0.035
+        },
+        {
+          "t": 1760227208,
+          "p": 0.0315
+        },
+        {
+          "t": 1760486411,
+          "p": 0.0335
+        },
+        {
+          "t": 1760745606,
+          "p": 0.0335
+        },
+        {
+          "t": 1761004817,
+          "p": 0.0305
+        },
+        {
+          "t": 1761264021,
+          "p": 0.0315
+        },
+        {
+          "t": 1761523220,
+          "p": 0.032
+        },
+        {
+          "t": 1761825629,
+          "p": 0.038
+        },
+        {
+          "t": 1762084828,
+          "p": 0.0335
+        },
+        {
+          "t": 1762344032,
+          "p": 0.0325
+        },
+        {
+          "t": 1762603243,
+          "p": 0.0255
+        },
+        {
+          "t": 1762862446,
+          "p": 0.0185
+        },
+        {
+          "t": 1763121636,
+          "p": 0.0145
+        },
+        {
+          "t": 1763380830,
+          "p": 0.0155
+        },
+        {
+          "t": 1763640019,
+          "p": 0.012
+        },
+        {
+          "t": 1763899218,
+          "p": 0.011
+        },
+        {
+          "t": 1764158449,
+          "p": 0.0155
+        },
+        {
+          "t": 1764417641,
+          "p": 0.0135
+        },
+        {
+          "t": 1764720028,
+          "p": 0.0085
+        },
+        {
+          "t": 1764979221,
+          "p": 0.0025
+        },
+        {
+          "t": 1765238430,
+          "p": 0.0095
+        },
+        {
+          "t": 1765497619,
+          "p": 0.005
+        },
+        {
+          "t": 1765756826,
+          "p": 0.005
+        },
+        {
+          "t": 1765972833,
+          "p": 0.0045
+        },
+        {
+          "t": 1766232024,
+          "p": 0.006
+        },
+        {
+          "t": 1766491226,
+          "p": 0.005
+        },
+        {
+          "t": 1766750420,
+          "p": 0.0035
+        },
+        {
+          "t": 1767009621,
+          "p": 0.0025
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1737288003,
+          "p": 0.135,
+          "delta": 0.05
+        },
+        {
+          "t": 1741737605,
+          "p": 0.08,
+          "delta": -0.055
+        },
+        {
+          "t": 1756252811,
+          "p": 0.028,
+          "delta": -0.052
+        }
+      ],
+      "price_at_open": 0.085,
+      "price_at_close": 0.001,
+      "min_price": 0.0005,
+      "max_price": 0.145,
+      "final_price": 0.001,
+      "fetched_at": "2026-04-27T07:57:45.032092+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20250121_001_ad2b0238",
+        "date": "2025-01-21 00:00",
+        "title": "Peak market sentiment shift",
+        "description": "Peak market sentiment shift around Musk's wealth pushing boundaries.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nShifted sentiment away from continuous growth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250122_002_de4008d5",
+        "date": "2025-01-22 00:00",
+        "title": "Trough and recovery in Tesla stock",
+        "description": "Trough and recovery in Tesla's stock price, demonstrating market volatility.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRe-established baseline volatility.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250601_007_89f0e0af",
+        "date": "2025-06-01 00:00",
+        "title": "Tesla faces uneven market environment",
+        "description": "Tesla faces an uneven market environment throughout 2025.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUneven market environment hindered growth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250615_003_1dcfdf00",
+        "date": "2025-06-15 00:00",
+        "title": "SpaceX valuation surges",
+        "description": "SpaceX's valuation surges, increasing Musk's theoretical net worth.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSurge in valuation pushed towards $1T.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250615_004_fd3d495c",
+        "date": "2025-06-15 00:00",
+        "title": "SpaceX IPO rumors circulate",
+        "description": "Rumors of a potential SpaceX IPO circulate.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIPO rumors increased theoretical net worth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251001_008_bf4ed231",
+        "date": "2025-10-01 00:00",
+        "title": "Market corrections in final quarter",
+        "description": "Market corrections in the final quarter of 2025.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket corrections constrained wealth accumulation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251101_005_8ef4942e",
+        "date": "2025-11-01 00:00",
+        "title": "xAI activities dominate headlines",
+        "description": "xAI activities dominate headlines, adding value.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nxAI growth added value.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251101_006_b53ea574",
+        "date": "2025-11-01 00:00",
+        "title": "Musk's DOGE role adds complexities",
+        "description": "Musk's government efficiency role (DOGE) adds political complexities.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPolitical complexities added risk.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251231_009_3fd58f92",
+        "date": "2025-12-31 00:00",
+        "title": "Cumulative valuation fails to breach $1 trillion",
+        "description": "The cumulative valuation of his holdings fails to breach the $1 trillion mark.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirectly resulted in failure to reach $1T.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250820_010_52a861ba",
+        "date": "2025-08-20 00:00",
+        "title": "DOGE data leak adds political complexities",
+        "description": "Musk's government efficiency role (DOGE) faces a data leak, adding political complexities.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nData leak added political complexities and risk.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/doge-datal-leak-did-elon-195152697.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0xb58d0e3b3dd34b2b8d8997e6ce36ca3873bdd6034fe0dde633f11e50d4b18c69",
     "title": "Will Ukrainian President Volodymyr Zelensky resign from office during 2025?",
     "question_type": "binary",
@@ -634,19 +1292,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251203_009_8b08e560",
-        "date": "2025-12-03 12:00",
-        "title": "Analysts suggest peace deal might finish Zelensky",
-        "description": "Analysts suggest that if scandal doesn't finish Zelensky, a peace deal might.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAnalysis suggests he might be finished, pushing towards resignation.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.telegraph.co.uk/news/2025/12/03/will-volodymyr-zelensky-survive-the-peace-talks",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20240522_001_32d9578c",
         "date": "2024-05-22 12:00",
         "title": "Martial law suspends elections",
@@ -668,944 +1313,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://edition.cnn.com/2025/02/23/europe/ukraine-zelensky-resign-nato-intl?Date=20250223&Profile=CNN",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xb643afacc478a059b67089ac1bca30cda972a006784ed51bae2241ce87d884d0",
-    "title": "Will the U.S. SEC approve a Dogecoin ETF before December 31, 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if any spot Dogecoin ETF receives approval from the SEC by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nApproval under Rule 19-4b will qualify for a \"Yes\" resolution, even if there has not been an S-1 approval. Similarly, an S-1 approval without a 19-4b approval will also qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe U.S. SEC's approval of a Dogecoin ETF before December 31, 2025, was primarily driven by the progressive institutionalization of memecoins and a broad regulatory easing pathway for crypto assets. Initially, the SEC pushed back decisions on filings from issuers like Bitwise and Grayscale, leading to significant market volatility and sentiment shifts. However, continued demand and a massive backlog forced the SEC to clarify its stance. By September 18, 2025, the SEC eased its regulatory pathway for alternative crypto ETFs, culminating in the official launch of the first Dogecoin ETF.\n\n## Timeline Of Key Events\n- **2025-01-23 to 2025-01-29**: The SEC delayed decisions on multiple Dogecoin and Hedera ETF applications, pushing potential approval dates to later in the year, which caused market sentiment to fluctuate wildly ([art_finance_20250124_003_b3dda15a], [art_finance_20250129_005_9b6f2a59]).\n- **2025-02-28**: A major trough occurred when the SEC reiterated its delays, reinforcing negative sentiment in the short term ([art_finance_20250228_006_5fc71406]).\n- **2025-06-04 to 2025-06-10**: The SEC extended its review period for the Bitwise Dogecoin ETF amid a record backlog, causing favored predictions to flip multiple times between 'Yes' and 'No' ([art_finance_20250604_007_fe345b77], [art_finance_20250610_011_e8f9cedc]).\n- **Late June to August 2025**: Sentiment recovered as demand rose and Grayscale actively pushed for its spot DOGE ETF, keeping hopes alive despite previous delays ([art_general_20250622_005_2bc0f741], [art_general_20250821_002_72616d79]).\n- **2025-09-18**: The SEC officially eased the regulatory pathway for crypto ETFs and approved the first Dogecoin ETF, resolving the question positively ([art_finance_20250918_009_817ac588]).\n\n## Causal Chain Analysis\nThe root cause was the initial wave of spot ETF filings by major institutional players like Bitwise and Grayscale, which established a formal regulatory dialogue for Dogecoin. This led to intermediate mechanisms where the SEC, faced with a record backlog and mounting institutional pressure, implemented standard delay tactics to buy time for policy formulation ([art_finance_20250604_007_fe345b77]). These delays triggered extreme market volatility and shifting predictions as traders speculated on the final outcome. The proximate trigger was the SEC's internal decision to ease the pathway for alternative crypto assets, resulting in the final outcome of the SEC approving a Dogecoin ETF on September 18, 2025 ([art_finance_20250918_009_817ac588]).\n\n## Countervailing Factors\nThe main countervailing factor was the SEC's historical reluctance to approve crypto assets beyond Bitcoin and Ethereum, citing concerns over market manipulation and lack of utility. This skepticism was reflected in the repeated delays and pushed back deadlines ([art_finance_20250124_003_b3dda15a]). However, this resistance was eventually overwhelmed by relentless institutional pressure, sustained retail demand, and a shifting broader regulatory framework that accommodated a wider array of crypto ETFs.\n\n## Event Candidate Inventory\n- E1: SEC delays initial key decisions on Dogecoin ETFs\n  - Date: 2025-01-24\n  - Why it matters causally: Reset market expectations and established a longer timeline for potential approval.\n  - Source: [art_finance_20250124_003_b3dda15a]\n- E2: SEC extends Bitwise Dogecoin ETF review amid backlog\n  - Date: 2025-06-10\n  - Why it matters causally: Confirmed the SEC was actively reviewing but needed more time, driving the massive prediction flips in early June.\n  - Source: [art_finance_20250610_011_e8f9cedc]\n- E3: Grayscale seeks SEC approval for spot DOGE ETF\n  - Date: August 2025\n  - Why it matters causally: Kept institutional pressure high leading up to the final decision.\n  - Source: [art_general_20250821_002_72616d79]\n- E4: SEC eases pathway and approves Dogecoin ETF\n  - Date: 2025-09-18\n  - Why it matters causally: The direct final event that resolved the question positively.\n  - Source: [art_finance_20250918_009_817ac588]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| SEC delays initial Dogecoin ETF decisions | [art_finance_20250124_003_b3dda15a], [art_finance_20250129_005_9b6f2a59] | 2025-01-24 to 2025-01-29 | 0.95 | Triggered January prediction flips. |\n| Record backlog causes further delays | [art_finance_20250604_007_fe345b77], [art_finance_20250610_011_e8f9cedc] | 2025-06-04 to 2025-06-10 | 0.95 | Caused massive June volatility. |\n| Institutional pressure continues with Grayscale | [art_general_20250821_002_72616d79] | August 2025 | 0.90 | Sustained momentum. |\n| SEC approves Dogecoin ETF | [art_finance_20250918_009_817ac588] | 2025-09-18 | 1.0 | Final positive resolution. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether the SEC would classify Dogecoin as a security or demand surveillance-sharing agreements that didn't exist, which could have led to outright denials instead of delays. An alternative path would have seen the SEC blanket-rejecting all altcoin ETFs, causing the market prediction to permanently stay 'No', resolving the question negatively. The broader crypto market conditions (like a potential massive crash) could also have derailed the approval process.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2024-12-31T18:50:59.285000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-09-18T17:40:04+00:00",
-    "polymarket_url": "https://polymarket.com/event/doge-etf-approved-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1735689604,
-          "p": 0.37
-        },
-        {
-          "t": 1735862404,
-          "p": 0.27
-        },
-        {
-          "t": 1736035203,
-          "p": 0.29
-        },
-        {
-          "t": 1736251203,
-          "p": 0.36
-        },
-        {
-          "t": 1736424003,
-          "p": 0.36
-        },
-        {
-          "t": 1736596803,
-          "p": 0.335
-        },
-        {
-          "t": 1736812803,
-          "p": 0.335
-        },
-        {
-          "t": 1736985604,
-          "p": 0.475
-        },
-        {
-          "t": 1737158404,
-          "p": 0.365
-        },
-        {
-          "t": 1737374404,
-          "p": 0.355
-        },
-        {
-          "t": 1737547203,
-          "p": 0.365
-        },
-        {
-          "t": 1737720003,
-          "p": 0.51
-        },
-        {
-          "t": 1737936004,
-          "p": 0.495
-        },
-        {
-          "t": 1738108804,
-          "p": 0.555
-        },
-        {
-          "t": 1738281604,
-          "p": 0.54
-        },
-        {
-          "t": 1738497604,
-          "p": 0.535
-        },
-        {
-          "t": 1738670404,
-          "p": 0.54
-        },
-        {
-          "t": 1738843204,
-          "p": 0.535
-        },
-        {
-          "t": 1739059206,
-          "p": 0.53
-        },
-        {
-          "t": 1739232004,
-          "p": 0.63
-        },
-        {
-          "t": 1739448004,
-          "p": 0.615
-        },
-        {
-          "t": 1739620805,
-          "p": 0.755
-        },
-        {
-          "t": 1739793604,
-          "p": 0.745
-        },
-        {
-          "t": 1740009604,
-          "p": 0.745
-        },
-        {
-          "t": 1740182405,
-          "p": 0.75
-        },
-        {
-          "t": 1740355204,
-          "p": 0.75
-        },
-        {
-          "t": 1740571204,
-          "p": 0.745
-        },
-        {
-          "t": 1740744005,
-          "p": 0.525
-        },
-        {
-          "t": 1740916805,
-          "p": 0.585
-        },
-        {
-          "t": 1741132804,
-          "p": 0.655
-        },
-        {
-          "t": 1741305605,
-          "p": 0.65
-        },
-        {
-          "t": 1741478405,
-          "p": 0.655
-        },
-        {
-          "t": 1741694405,
-          "p": 0.62
-        },
-        {
-          "t": 1741867205,
-          "p": 0.685
-        },
-        {
-          "t": 1742040004,
-          "p": 0.695
-        },
-        {
-          "t": 1742256005,
-          "p": 0.73
-        },
-        {
-          "t": 1742428805,
-          "p": 0.69
-        },
-        {
-          "t": 1742601606,
-          "p": 0.735
-        },
-        {
-          "t": 1742817604,
-          "p": 0.72
-        },
-        {
-          "t": 1742990405,
-          "p": 0.69
-        },
-        {
-          "t": 1743206406,
-          "p": 0.69
-        },
-        {
-          "t": 1743379205,
-          "p": 0.69
-        },
-        {
-          "t": 1743552006,
-          "p": 0.69
-        },
-        {
-          "t": 1743768007,
-          "p": 0.69
-        },
-        {
-          "t": 1743940805,
-          "p": 0.69
-        },
-        {
-          "t": 1744113606,
-          "p": 0.69
-        },
-        {
-          "t": 1744329605,
-          "p": 0.625
-        },
-        {
-          "t": 1744502405,
-          "p": 0.615
-        },
-        {
-          "t": 1744675205,
-          "p": 0.625
-        },
-        {
-          "t": 1744891205,
-          "p": 0.585
-        },
-        {
-          "t": 1745064006,
-          "p": 0.545
-        },
-        {
-          "t": 1745236806,
-          "p": 0.51
-        },
-        {
-          "t": 1745452806,
-          "p": 0.53
-        },
-        {
-          "t": 1745625606,
-          "p": 0.54
-        },
-        {
-          "t": 1745798405,
-          "p": 0.575
-        },
-        {
-          "t": 1746014406,
-          "p": 0.725
-        },
-        {
-          "t": 1746187206,
-          "p": 0.68
-        },
-        {
-          "t": 1746360005,
-          "p": 0.655
-        },
-        {
-          "t": 1746576005,
-          "p": 0.64
-        },
-        {
-          "t": 1746748807,
-          "p": 0.61
-        },
-        {
-          "t": 1746964807,
-          "p": 0.615
-        },
-        {
-          "t": 1747137607,
-          "p": 0.6
-        },
-        {
-          "t": 1747310407,
-          "p": 0.665
-        },
-        {
-          "t": 1747526406,
-          "p": 0.63
-        },
-        {
-          "t": 1747699206,
-          "p": 0.625
-        },
-        {
-          "t": 1747872007,
-          "p": 0.625
-        },
-        {
-          "t": 1748088006,
-          "p": 0.64
-        },
-        {
-          "t": 1748260806,
-          "p": 0.665
-        },
-        {
-          "t": 1748433607,
-          "p": 0.675
-        },
-        {
-          "t": 1748649607,
-          "p": 0.685
-        },
-        {
-          "t": 1748822406,
-          "p": 0.68
-        },
-        {
-          "t": 1748995206,
-          "p": 0.49
-        },
-        {
-          "t": 1749211206,
-          "p": 0.525
-        },
-        {
-          "t": 1749384007,
-          "p": 0.435
-        },
-        {
-          "t": 1749556807,
-          "p": 0.575
-        },
-        {
-          "t": 1749772807,
-          "p": 0.635
-        },
-        {
-          "t": 1749945608,
-          "p": 0.59
-        },
-        {
-          "t": 1750118408,
-          "p": 0.595
-        },
-        {
-          "t": 1750334407,
-          "p": 0.645
-        },
-        {
-          "t": 1750507208,
-          "p": 0.81
-        },
-        {
-          "t": 1750723207,
-          "p": 0.69
-        },
-        {
-          "t": 1750896008,
-          "p": 0.71
-        },
-        {
-          "t": 1751068807,
-          "p": 0.735
-        },
-        {
-          "t": 1751284807,
-          "p": 0.755
-        },
-        {
-          "t": 1751457607,
-          "p": 0.77
-        },
-        {
-          "t": 1751630407,
-          "p": 0.76
-        },
-        {
-          "t": 1751846407,
-          "p": 0.765
-        },
-        {
-          "t": 1752019207,
-          "p": 0.745
-        },
-        {
-          "t": 1752192008,
-          "p": 0.795
-        },
-        {
-          "t": 1752408007,
-          "p": 0.765
-        },
-        {
-          "t": 1752580808,
-          "p": 0.74
-        },
-        {
-          "t": 1752753607,
-          "p": 0.74
-        },
-        {
-          "t": 1752969608,
-          "p": 0.835
-        },
-        {
-          "t": 1753142409,
-          "p": 0.795
-        },
-        {
-          "t": 1753315209,
-          "p": 0.75
-        },
-        {
-          "t": 1753531210,
-          "p": 0.755
-        },
-        {
-          "t": 1753704009,
-          "p": 0.755
-        },
-        {
-          "t": 1753876809,
-          "p": 0.755
-        },
-        {
-          "t": 1754092809,
-          "p": 0.6
-        },
-        {
-          "t": 1754265607,
-          "p": 0.61
-        },
-        {
-          "t": 1754438409,
-          "p": 0.725
-        },
-        {
-          "t": 1754654406,
-          "p": 0.695
-        },
-        {
-          "t": 1754827202,
-          "p": 0.68
-        },
-        {
-          "t": 1755043214,
-          "p": 0.755
-        },
-        {
-          "t": 1755216010,
-          "p": 0.735
-        },
-        {
-          "t": 1755388808,
-          "p": 0.75
-        },
-        {
-          "t": 1755604809,
-          "p": 0.735
-        },
-        {
-          "t": 1755777614,
-          "p": 0.705
-        },
-        {
-          "t": 1755950412,
-          "p": 0.67
-        },
-        {
-          "t": 1756166404,
-          "p": 0.755
-        },
-        {
-          "t": 1756339207,
-          "p": 0.82
-        },
-        {
-          "t": 1756512008,
-          "p": 0.795
-        },
-        {
-          "t": 1756728019,
-          "p": 0.785
-        },
-        {
-          "t": 1756900811,
-          "p": 0.785
-        },
-        {
-          "t": 1757073614,
-          "p": 0.89
-        },
-        {
-          "t": 1757289612,
-          "p": 0.915
-        },
-        {
-          "t": 1757462408,
-          "p": 0.915
-        },
-        {
-          "t": 1757635207,
-          "p": 0.925
-        },
-        {
-          "t": 1757851217,
-          "p": 0.96
-        },
-        {
-          "t": 1758024005,
-          "p": 0.96
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1735776003,
-          "p": 0.265,
-          "delta": -0.105
-        },
-        {
-          "t": 1736078403,
-          "p": 0.32,
-          "delta": 0.055
-        },
-        {
-          "t": 1736856003,
-          "p": 0.385,
-          "delta": 0.065
-        },
-        {
-          "t": 1736985604,
-          "p": 0.475,
-          "delta": 0.09
-        },
-        {
-          "t": 1737072004,
-          "p": 0.36,
-          "delta": -0.115
-        },
-        {
-          "t": 1737590404,
-          "p": 0.525,
-          "delta": 0.165
-        },
-        {
-          "t": 1737633604,
-          "p": 0.475,
-          "delta": -0.05
-        },
-        {
-          "t": 1738108804,
-          "p": 0.555,
-          "delta": 0.08
-        },
-        {
-          "t": 1739232004,
-          "p": 0.63,
-          "delta": 0.075
-        },
-        {
-          "t": 1739534404,
-          "p": 0.7,
-          "delta": 0.07
-        },
-        {
-          "t": 1739620805,
-          "p": 0.755,
-          "delta": 0.055
-        },
-        {
-          "t": 1740700805,
-          "p": 0.575,
-          "delta": -0.18
-        },
-        {
-          "t": 1741046405,
-          "p": 0.665,
-          "delta": 0.09
-        },
-        {
-          "t": 1742256005,
-          "p": 0.73,
-          "delta": 0.065
-        },
-        {
-          "t": 1744200006,
-          "p": 0.635,
-          "delta": -0.095
-        },
-        {
-          "t": 1744804806,
-          "p": 0.545,
-          "delta": -0.09
-        },
-        {
-          "t": 1746014406,
-          "p": 0.725,
-          "delta": 0.18
-        },
-        {
-          "t": 1746316805,
-          "p": 0.655,
-          "delta": -0.07
-        },
-        {
-          "t": 1746489606,
-          "p": 0.59,
-          "delta": -0.065
-        },
-        {
-          "t": 1746532805,
-          "p": 0.64,
-          "delta": 0.05
-        },
-        {
-          "t": 1748995206,
-          "p": 0.49,
-          "delta": -0.15
-        },
-        {
-          "t": 1749340807,
-          "p": 0.435,
-          "delta": -0.055
-        },
-        {
-          "t": 1749513606,
-          "p": 0.545,
-          "delta": 0.11
-        },
-        {
-          "t": 1749600007,
-          "p": 0.685,
-          "delta": 0.14
-        },
-        {
-          "t": 1749772807,
-          "p": 0.635,
-          "delta": -0.05
-        },
-        {
-          "t": 1749902407,
-          "p": 0.585,
-          "delta": -0.05
-        },
-        {
-          "t": 1750291207,
-          "p": 0.655,
-          "delta": 0.07
-        },
-        {
-          "t": 1750464008,
-          "p": 0.755,
-          "delta": 0.1
-        },
-        {
-          "t": 1750507208,
-          "p": 0.81,
-          "delta": 0.055
-        },
-        {
-          "t": 1750550406,
-          "p": 0.75,
-          "delta": -0.06
-        },
-        {
-          "t": 1750593607,
-          "p": 0.675,
-          "delta": -0.075
-        },
-        {
-          "t": 1750636807,
-          "p": 0.765,
-          "delta": 0.09
-        },
-        {
-          "t": 1750723207,
-          "p": 0.69,
-          "delta": -0.075
-        },
-        {
-          "t": 1750766406,
-          "p": 0.745,
-          "delta": 0.055
-        },
-        {
-          "t": 1750982407,
-          "p": 0.68,
-          "delta": -0.065
-        },
-        {
-          "t": 1751068807,
-          "p": 0.735,
-          "delta": 0.055
-        },
-        {
-          "t": 1751155208,
-          "p": 0.665,
-          "delta": -0.07
-        },
-        {
-          "t": 1751241607,
-          "p": 0.75,
-          "delta": 0.085
-        },
-        {
-          "t": 1751328008,
-          "p": 0.62,
-          "delta": -0.13
-        },
-        {
-          "t": 1751371207,
-          "p": 0.73,
-          "delta": 0.11
-        },
-        {
-          "t": 1751500808,
-          "p": 0.785,
-          "delta": 0.055
-        },
-        {
-          "t": 1752667208,
-          "p": 0.735,
-          "delta": -0.05
-        },
-        {
-          "t": 1752710408,
-          "p": 0.795,
-          "delta": 0.06
-        },
-        {
-          "t": 1752753607,
-          "p": 0.74,
-          "delta": -0.055
-        },
-        {
-          "t": 1752796808,
-          "p": 0.81,
-          "delta": 0.07
-        },
-        {
-          "t": 1753315209,
-          "p": 0.75,
-          "delta": -0.06
-        },
-        {
-          "t": 1754092809,
-          "p": 0.6,
-          "delta": -0.15
-        },
-        {
-          "t": 1754308808,
-          "p": 0.765,
-          "delta": 0.165
-        },
-        {
-          "t": 1754481608,
-          "p": 0.715,
-          "delta": -0.05
-        },
-        {
-          "t": 1754524806,
-          "p": 0.66,
-          "delta": -0.055
-        },
-        {
-          "t": 1754870407,
-          "p": 0.755,
-          "delta": 0.095
-        },
-        {
-          "t": 1755086406,
-          "p": 0.695,
-          "delta": -0.06
-        },
-        {
-          "t": 1755129608,
-          "p": 0.61,
-          "delta": -0.085
-        },
-        {
-          "t": 1755216010,
-          "p": 0.735,
-          "delta": 0.125
-        },
-        {
-          "t": 1755864002,
-          "p": 0.675,
-          "delta": -0.06
-        },
-        {
-          "t": 1756080004,
-          "p": 0.73,
-          "delta": 0.055
-        },
-        {
-          "t": 1756339207,
-          "p": 0.82,
-          "delta": 0.09
-        },
-        {
-          "t": 1757030412,
-          "p": 0.885,
-          "delta": 0.065
-        },
-        {
-          "t": 1757116822,
-          "p": 0.935,
-          "delta": 0.05
-        }
-      ],
-      "price_at_open": 0.37,
-      "price_at_close": 0.9765,
-      "min_price": 0.265,
-      "max_price": 0.985,
-      "final_price": 0.9765,
-      "fetched_at": "2026-04-27T07:57:45.944142+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_finance_20250124_001_53eda005",
-        "date": "2025-01-24 12:00",
-        "title": "SEC delays key decisions on Dogecoin and Hedera ETFs",
-        "description": "The SEC delayed decisions on multiple Dogecoin and Hedera ETF applications, pushing potential approval dates to later in the year.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInitial delays made the approval seem less likely in the short term.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://coincodex.com/article/72928/sec-delays-dogecoin-hedera-etf-decisions-november-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250129_002_37a67581",
-        "date": "2025-01-29 12:00",
-        "title": "SEC delays decision on Bitwise Dogecoin ETF",
-        "description": "The SEC specifically delayed the decision on the Bitwise Dogecoin ETF launch.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSpecific delay on Bitwise further reduced short-term likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://coincentral.com/sec-delays-decision-on-bitwise-dogecoin-etf-ahead-first-doge-etf-launch",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250228_003_cf0010bf",
-        "date": "2025-02-28 12:00",
-        "title": "SEC reiterates delays on Dogecoin ETFs",
-        "description": "The SEC reiterated its delays on Dogecoin ETFs, reinforcing negative sentiment in the short term.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nReiterated delays reinforced negative sentiment.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cryptometer.io/news/sec-pushes-back-decisions-on-dogecoin-and-hedera-etfs-to-november",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250604_004_eda317e2",
-        "date": "2025-06-04 12:00",
-        "title": "SEC pushes Dogecoin ETF approval to November due to record backlog",
-        "description": "The SEC pushed the Dogecoin ETF approval to November as it faced a record backlog of applications.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushing to November due to backlog significantly delayed the timeline.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://parameter.io/dogecoin-etf-approval-pushed-to-november-as-sec-faces-record-backlog",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250610_005_ff426c23",
-        "date": "2025-06-10 12:00",
-        "title": "SEC extends Bitwise Dogecoin ETF review",
-        "description": "The SEC extended its review period for the Bitwise Dogecoin ETF amid market scrutiny.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nExtended review period added to the uncertainty.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://chainaffairs.com/sec-extends-bitwise-dogecoin-etf-review-to-november-amid-market-scrutiny",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250622_006_e563302d",
-        "date": "2025-06-22 01:10",
-        "title": "Dogecoin experiences V-shaped recovery showing rising demand",
-        "description": "Dogecoin jumped 5% in a V-shaped recovery, indicating rising market demand.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRising demand showed market resilience, slightly increasing likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/dogecoin-jumps-5-v-shaped-072236917.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250821_007_b72d6ed1",
-        "date": "2025-08-21 01:10",
-        "title": "Grayscale seeks SEC approval for spot DOGE ETF",
-        "description": "Grayscale actively pushed for its spot DOGE ETF, keeping institutional pressure high.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInstitutional pressure from Grayscale increased the likelihood of approval.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/dogecoin-holds-above-20-cents-150254168.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250918_008_82d1d1ee",
-        "date": "2025-09-18 10:00",
-        "title": "SEC eases regulatory pathway for alternative crypto ETFs",
-        "description": "The SEC officially eased the regulatory pathway for alternative crypto assets.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEasing the regulatory pathway was a major step towards approval.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250918_009_334a048c",
-        "date": "2025-09-18 11:00",
-        "title": "SEC approves the first Dogecoin ETF",
-        "description": "The SEC officially approved the first Dogecoin ETF.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirect approval of the ETF.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250918_010_99188f3e",
-        "date": "2025-09-18 12:00",
-        "title": "First Dogecoin ETF officially launches",
-        "description": "The first Dogecoin ETF officially launched following SEC approval.",
-        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLaunch of the ETF confirms the positive resolution.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

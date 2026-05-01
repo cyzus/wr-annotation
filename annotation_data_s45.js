@@ -1,656 +1,467 @@
 var annotationData = [
   {
-    "id": "polymarket_event_100199",
-    "title": "Winter Games 2026: Most Gold Medals",
-    "question_type": "mcq",
+    "id": "polymarket_0xf65fdce18270522fac3f549a4b8812ac7d0e7fdc71dcac8d91caa4d8460aa877",
+    "title": "Will SpaceX Starship Flight Test 11 launch by October 31?",
+    "question_type": "binary",
     "options": [
-      "Canada",
-      "France",
-      "Italy",
-      "Netherlands",
-      "Sweden",
-      "United States",
-      "Austria",
-      "China",
-      "Germany",
-      "Japan",
-      "Norway",
-      "Switzerland"
+      "Yes",
+      "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to the country that wins the most gold medals at the 2026 Milano-Cortina Winter Olympics, scheduled for February 6-22, 2026.\n\nIn the case of ties, the ordered list for most gold medals won will use most overall medals won as a tiebreaker (e.g. If Norway and China tie for most gold medals won, and Norway wins more overall medals than China, Norway will be ranked first and China will be second). If this also results in a tie, the country whose name comes first in alphabetical order, as listed in this market group, will be ranked higher.\n\nThis market will resolve based on the medal figures as they stand after medals are awarded for the final event in the 2026 Milano-Cortina Winter Olympics. Later changes to medal counts will not be considered toward the resolution of this market.\n\nIf the 2026 Milano-Cortina Winter Olympics are partially completed and then cancelled or postponed after December 31, 2026, this market will resolve based on the gold medals awarded in the completed events. If the 2026 Milano-Cortina Winter Olympics are entirely cancelled or postponed after December 31, 2026, this market will resolve to “Other”.\n\nThe resolution source will be official information from the International Olympic Committee (https://www.olympics.com/).",
-    "outcome": "Norway",
-    "explanation": "\n## Executive Summary\nNorway's victory in the gold medal count at the 2026 Winter Olympics was driven by their unmatched depth and systemic excellence in traditional winter sports, particularly cross-country skiing and biathlon. A significant catalyst was the absence of a full Russian team, which historically contested many of the same endurance events, leaving a void Norway eagerly filled. Star athletes like Johannes Høsflot Klæbo delivered record-breaking individual performances, securing multiple golds. Meanwhile, rival nations like the United States and Germany performed well in specific niches but lacked the broad dominance required to overtake Norway's gold tally. Ultimately, Norway secured a historic 18 gold medals, breaking the record for the most won by a single nation at a Winter Games.\n\n## Timeline Of Key Events\n- **2025-12-08**: The German bobsled team suffers a major setback ahead of the games, denting early momentum for one of Norway's rivals [art_sports_20251208_003_6f9e8c76].\n- **2025-12-09**: Norway sweeps early World Cup events in Biathlon, signaling their readiness and dominance leading into the Olympic year [art_sports_20251209_002_c2b580a4].\n- **2026-02-15**: Johannes Høsflot Klæbo wins his 9th career Olympic gold medal in cross-country skiing, making history and propelling Norway's medal count [art_general_20260215_010_c6a93ab3].\n- **2026-02-20**: Biathlete Johannes Dale-Skjevdal secures Norway's 17th gold medal in the 15-kilometer mass start, officially breaking the record for the most gold medals won by a single country at a Winter Olympics [art_general_20260220_002_6d5b0038].\n- **2026-02-22**: The Games conclude with Norway standing at an undisputed 18 gold medals, securing the top spot on the medal table [art_general_20260222_014_56136065].\n\n## Causal Chain Analysis\nNorway's systemic investment and cultural focus on traditional winter sports (cross-country skiing and biathlon) served as the root cause of their massive talent pool. This structural advantage led to their early-season dominance, evidenced by their sweep of the early World Cup biathlon events [art_sports_20251209_002_c2b580a4]. The exclusion of Russia as a formal team removed a primary competitor in these traditional endurance events, resulting in an easier path to the podium for Norwegian athletes. These intermediate factors triggered dominant Olympic performances, most notably by Johannes Høsflot Klæbo, who won six gold medals individually [art_general_20260222_014_56136065]. These clustered victories directly caused Norway to break the single-Games gold medal record (reaching 18 golds) and ultimately resulted in them winning the overall gold medal race over the United States and Germany.\n\n## Countervailing Factors\nThe United States set a national record by winning 12 gold medals, largely fueled by successes in team sports (like men's ice hockey) and modern extreme sports [art_general_20260222_014_56136065]. Germany also remained a powerhouse on the sliding track, sweeping multiple bobsled events despite early setbacks [art_sports_20251208_003_6f9e8c76]. However, these efforts failed to overcome Norway because the sheer volume of medals available in cross-country and biathlon—where Norway dominated—outweighed the specific niches controlled by the US and Germany.\n\n## Event Candidate Inventory\n- E1\n  - title: Norway sweeps early World Cup Biathlon events\n  - date: 2025-12-09\n  - why it matters causally: Established Norway's form and momentum in high-medal-yield sports prior to the Olympics.\n  - source article IDs: art_sports_20251209_002_c2b580a4\n- E2\n  - title: Johannes Høsflot Klæbo wins 9th career Olympic gold\n  - date: 2026-02-15\n  - why it matters causally: Secured a critical chunk of Norway's total gold medals, showcasing the individual dominance needed to top the table.\n  - source article IDs: art_general_20260215_010_c6a93ab3\n- E3\n  - title: Norway wins 17th gold medal to break record\n  - date: 2026-02-20\n  - why it matters causally: Mathematically guaranteed a massive gold medal count that rival nations could not catch.\n  - source article IDs: art_general_20260220_002_6d5b0038\n- E4\n  - title: Games conclude with Norway winning 18 gold medals\n  - date: 2026-02-22\n  - why it matters causally: The final resolution event confirming Norway's victory over the USA and Germany.\n  - source article IDs: art_general_20260222_014_56136065\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Norway sweeps early biathlon World Cup | art_sports_20251209_002_c2b580a4 | 2025-12-09 | 0.95 | Demonstrates pre-game dominance. |\n| Klaebo makes history with 9th gold | art_general_20260215_010_c6a93ab3 | 2026-02-15 | 1.00 | Key contributor to Norway's tally. |\n| Norway breaks single-Games record | art_general_20260220_002_6d5b0038 | 2026-02-20 | 1.00 | Dale-Skjevdal wins 17th gold. |\n| US wins 12 golds but falls short of Norway's 18 | art_general_20260222_014_56136065 | 2026-02-22 | 1.00 | Final medal table confirmation. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have involved the United States dominating more heavily in modern sports and alpine events, or Germany sweeping biathlon instead of Norway. Furthermore, if a full Russian contingent had been allowed to compete under their national flag, they might have siphoned enough medals in cross-country skiing and biathlon to prevent Norway from breaking the gold medal record, making the race with the USA much closer.\n",
+    "resolution_criteria": "If the 11th SpaceX Starship successfully launches from its launch pad by October 31, 2025, 11:59 PM ET, this market will resolve to “Yes”. Otherwise, this market will resolve to “No.”\n\nThe outcome of any launch will be corroborated by examining official video provided by SpaceX (https://www.youtube.com/c/SpaceX), as well as secondary video feeds and/or written reports if necessary.\n\nAny subsequent anomaly (e.g., an explosion) after the launch will have no bearing on the outcome. Any name change of the Starship with another vehicle will have no bearing on the outcome of the market.",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe successful launch of SpaceX Starship Flight Test 11 by October 31, specifically on October 14, 2025, was driven by swift regulatory approval and flawless pre-flight preparations. Following successful earlier test flights that demonstrated vehicle reliability, SpaceX was able to maintain an aggressive launch cadence. The FAA granted necessary clearances well ahead of time, and the static-fire tests proceeded without major issues. Consequently, this alignment of technical readiness and regulatory green lights resulted in the positive resolution.\n\n## Timeline Of Key Events\n- **2025-09-18:** Significant market sentiment shift occurred as key pre-flight milestones like static fires and FAA clearances began to materialize ([art_business_20251014_028_ee98415a]).\n- **2025-10-12:** Final stacking and readiness were confirmed, leading to a recovery in market confidence ([art_business_20251014_003_7029c1ea]).\n- **2025-10-14:** SpaceX successfully launched Starship Flight Test 11, resolving the question as Yes ([art_science_20251014_004_f0c1ce00]).\n\n## Causal Chain Analysis\n- **Root Cause:** The success of preceding flights (Flights 9 and 10) proved the reliability of the Super Heavy booster and Starship upper stage, which **caused** a high degree of confidence and an accelerated launch schedule ([art_general_20251014_006_b91a5310]).\n- **Intermediate Mechanism:** This technical foundation **led to** rapid and successful ground testing, including static fires, and facilitated smooth regulatory interactions with the FAA ([art_science_20251014_007_3d04ea1a]).\n- **Proximate Trigger:** The FAA issued the final launch license in early October and the final stacking was completed on October 12, which **triggered** the final countdown ([art_business_20251014_003_7029c1ea]).\n- **Final Outcome:** These preparations **resulted in** the successful launch on October 14, 2025, well before the October 31 deadline ([art_science_20251014_004_f0c1ce00]).\n\n## Countervailing Factors\nSome initial concerns regarding potential FAA regulatory delays and technical anomalies during stacking created brief dips in market sentiment, particularly around October 12. However, these factors failed to derail the launch because SpaceX quickly addressed the technical checks and the FAA had already laid the groundwork for expedited approvals based on past flight data.\n\n## Event Candidate Inventory\n- E1: FAA Launch License Approval\n  - title: FAA Grants License for Flight 11\n  - date: Early October 2025\n  - why it matters causally: Allowed the physical launch to proceed legally.\n  - source article IDs: [art_business_20251014_028_ee98415a]\n- E2: Final Vehicle Stacking\n  - title: Super Heavy and Starship Stacked\n  - date: 2025-10-12\n  - why it matters causally: Physical readiness of the vehicle was confirmed, setting the stage for launch.\n  - source article IDs: [art_business_20251014_003_7029c1ea]\n- E3: Successful Starship Flight 11 Launch\n  - title: Starship Flight 11 Launches Successfully\n  - date: 2025-10-14\n  - why it matters causally: The direct event that resolved the market.\n  - source article IDs: [art_science_20251014_004_f0c1ce00]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Pre-flight milestones on Sep 18 | [art_business_20251014_028_ee98415a] | 2025-09-18 | 0.9 | Matches turning point |\n| Final stacking on Oct 12 | [art_business_20251014_003_7029c1ea] | 2025-10-12 | 0.9 | Matches turning point |\n| Successful launch on Oct 14 | [art_science_20251014_004_f0c1ce00] | 2025-10-14 | 1.0 | Resolution event |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was weather conditions at Boca Chica and potential last-minute scrub triggers. An alternative path would have been a technical abort during the terminal count that could have pushed the launch into November, but the robust systems prevented this.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-11-24T20:39:34+00:00",
-    "market_open_estimated": true,
-    "market_close": "2026-02-22T20:39:34+00:00",
-    "polymarket_url": "https://polymarket.com/event/winter-games-2026-most-gold-medals",
+    "market_open": "2025-09-09T21:17:37.787731+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-10-14T01:30:01+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-spacex-starship-flight-test-11-launch-by-october-31",
     "price_data": {
       "history": [
         {
-          "t": 1765238430,
-          "p": 0.055
+          "t": 1757462402,
+          "p": 0.69
         },
         {
-          "t": 1765281620,
-          "p": 0.01
+          "t": 1757505603,
+          "p": 0.82
         },
         {
-          "t": 1765324817,
-          "p": 0.0665
+          "t": 1757548813,
+          "p": 0.76
         },
         {
-          "t": 1765368036,
-          "p": 0.0755
+          "t": 1757592012,
+          "p": 0.815
         },
         {
-          "t": 1765411218,
-          "p": 0.0845
+          "t": 1757635227,
+          "p": 0.815
         },
         {
-          "t": 1765497619,
-          "p": 0.064
+          "t": 1757678418,
+          "p": 0.815
         },
         {
-          "t": 1765540821,
-          "p": 0.063
+          "t": 1757721604,
+          "p": 0.82
         },
         {
-          "t": 1765584022,
-          "p": 0.0625
+          "t": 1757764812,
+          "p": 0.82
         },
         {
-          "t": 1765627224,
-          "p": 0.0615
+          "t": 1757808016,
+          "p": 0.825
         },
         {
-          "t": 1765670423,
-          "p": 0.0615
+          "t": 1757851235,
+          "p": 0.825
         },
         {
-          "t": 1765756825,
-          "p": 0.057
+          "t": 1757894405,
+          "p": 0.87
         },
         {
-          "t": 1765800021,
-          "p": 0.0565
+          "t": 1757937612,
+          "p": 0.86
         },
         {
-          "t": 1765843221,
-          "p": 0.056
+          "t": 1757980820,
+          "p": 0.86
         },
         {
-          "t": 1765886434,
-          "p": 0.054
+          "t": 1758024023,
+          "p": 0.87
         },
         {
-          "t": 1765929618,
-          "p": 0.054
+          "t": 1758067204,
+          "p": 0.87
         },
         {
-          "t": 1765972833,
-          "p": 0.054
+          "t": 1758110425,
+          "p": 0.87
         },
         {
-          "t": 1766016028,
-          "p": 0.054
+          "t": 1758153610,
+          "p": 0.925
         },
         {
-          "t": 1766059220,
-          "p": 0.0525
+          "t": 1758196834,
+          "p": 0.935
         },
         {
-          "t": 1766102419,
-          "p": 0.053
+          "t": 1758240014,
+          "p": 0.935
         },
         {
-          "t": 1766145622,
-          "p": 0.053
+          "t": 1758283229,
+          "p": 0.915
         },
         {
-          "t": 1766232024,
-          "p": 0.053
+          "t": 1758326414,
+          "p": 0.915
         },
         {
-          "t": 1766275220,
-          "p": 0.053
+          "t": 1758369637,
+          "p": 0.92
         },
         {
-          "t": 1766318420,
-          "p": 0.053
+          "t": 1758412809,
+          "p": 0.92
         },
         {
-          "t": 1766361620,
-          "p": 0.053
+          "t": 1758456017,
+          "p": 0.92
         },
         {
-          "t": 1766404820,
-          "p": 0.053
+          "t": 1758499214,
+          "p": 0.92
         },
         {
-          "t": 1766491225,
-          "p": 0.053
+          "t": 1758542417,
+          "p": 0.925
         },
         {
-          "t": 1766534422,
-          "p": 0.053
+          "t": 1758585610,
+          "p": 0.925
         },
         {
-          "t": 1766577622,
-          "p": 0.053
+          "t": 1758628803,
+          "p": 0.925
         },
         {
-          "t": 1766620831,
-          "p": 0.052
+          "t": 1758672004,
+          "p": 0.93
         },
         {
-          "t": 1766664023,
-          "p": 0.052
+          "t": 1758715212,
+          "p": 0.945
         },
         {
-          "t": 1766750420,
-          "p": 0.052
+          "t": 1758758405,
+          "p": 0.93
         },
         {
-          "t": 1766793620,
-          "p": 0.052
+          "t": 1758801613,
+          "p": 0.935
         },
         {
-          "t": 1766836820,
-          "p": 0.052
+          "t": 1758844809,
+          "p": 0.95
         },
         {
-          "t": 1766880021,
-          "p": 0.0545
+          "t": 1758888007,
+          "p": 0.935
         },
         {
-          "t": 1766923221,
-          "p": 0.059
+          "t": 1758931205,
+          "p": 0.93
         },
         {
-          "t": 1767009621,
-          "p": 0.0585
+          "t": 1758974414,
+          "p": 0.93
         },
         {
-          "t": 1767052825,
-          "p": 0.061
+          "t": 1759017612,
+          "p": 0.935
         },
         {
-          "t": 1767096025,
-          "p": 0.06
+          "t": 1759060803,
+          "p": 0.935
         },
         {
-          "t": 1767139222,
-          "p": 0.057
+          "t": 1759104005,
+          "p": 0.935
         },
         {
-          "t": 1767182422,
-          "p": 0.057
+          "t": 1759147216,
+          "p": 0.935
         },
         {
-          "t": 1767268824,
-          "p": 0.055
+          "t": 1759190412,
+          "p": 0.93
         },
         {
-          "t": 1767312021,
-          "p": 0.055
+          "t": 1759233615,
+          "p": 0.935
         },
         {
-          "t": 1767355221,
-          "p": 0.0545
+          "t": 1759276804,
+          "p": 0.935
         },
         {
-          "t": 1767398418,
-          "p": 0.053
+          "t": 1759320003,
+          "p": 0.935
         },
         {
-          "t": 1767441621,
-          "p": 0.053
+          "t": 1759363210,
+          "p": 0.935
         },
         {
-          "t": 1767528023,
-          "p": 0.0545
+          "t": 1759406410,
+          "p": 0.935
         },
         {
-          "t": 1767571224,
-          "p": 0.057
+          "t": 1759449602,
+          "p": 0.945
         },
         {
-          "t": 1767614421,
-          "p": 0.056
+          "t": 1759492807,
+          "p": 0.945
         },
         {
-          "t": 1767657625,
-          "p": 0.056
+          "t": 1759536004,
+          "p": 0.945
         },
         {
-          "t": 1767700824,
-          "p": 0.0375
+          "t": 1759579208,
+          "p": 0.945
         },
         {
-          "t": 1767787228,
-          "p": 0.039
+          "t": 1759622408,
+          "p": 0.945
         },
         {
-          "t": 1767830439,
-          "p": 0.036
+          "t": 1759665602,
+          "p": 0.935
         },
         {
-          "t": 1767873647,
-          "p": 0.037
+          "t": 1759708807,
+          "p": 0.935
         },
         {
-          "t": 1767916824,
-          "p": 0.037
+          "t": 1759752006,
+          "p": 0.935
         },
         {
-          "t": 1767960038,
-          "p": 0.0365
+          "t": 1759795205,
+          "p": 0.935
         },
         {
-          "t": 1768046428,
-          "p": 0.034
+          "t": 1759838409,
+          "p": 0.94
         },
         {
-          "t": 1768089621,
-          "p": 0.036
+          "t": 1759881614,
+          "p": 0.94
         },
         {
-          "t": 1768132821,
-          "p": 0.0365
+          "t": 1759924806,
+          "p": 0.94
         },
         {
-          "t": 1768176024,
-          "p": 0.036
+          "t": 1759968012,
+          "p": 0.945
         },
         {
-          "t": 1768219228,
-          "p": 0.036
+          "t": 1760011217,
+          "p": 0.9645
         },
         {
-          "t": 1768305629,
-          "p": 0.0345
+          "t": 1760054418,
+          "p": 0.9645
         },
         {
-          "t": 1768348826,
-          "p": 0.0355
+          "t": 1760097603,
+          "p": 0.964
         },
         {
-          "t": 1768392028,
-          "p": 0.0355
+          "t": 1760140814,
+          "p": 0.9645
         },
         {
-          "t": 1768435228,
-          "p": 0.036
+          "t": 1760184012,
+          "p": 0.9645
         },
         {
-          "t": 1768478427,
-          "p": 0.036
+          "t": 1760227211,
+          "p": 0.9545
         },
         {
-          "t": 1768564829,
-          "p": 0.037
+          "t": 1760270417,
+          "p": 0.968
         },
         {
-          "t": 1768608028,
-          "p": 0.037
+          "t": 1760313610,
+          "p": 0.968
         },
         {
-          "t": 1768651246,
-          "p": 0.0365
+          "t": 1760356803,
+          "p": 0.961
         },
         {
-          "t": 1768694444,
-          "p": 0.0365
-        },
-        {
-          "t": 1768737644,
-          "p": 0.0365
-        },
-        {
-          "t": 1768824027,
-          "p": 0.036
-        },
-        {
-          "t": 1768867226,
-          "p": 0.036
-        },
-        {
-          "t": 1768910427,
-          "p": 0.0385
-        },
-        {
-          "t": 1768953627,
-          "p": 0.0385
-        },
-        {
-          "t": 1768996852,
-          "p": 0.0385
-        },
-        {
-          "t": 1769083259,
-          "p": 0.036
-        },
-        {
-          "t": 1769126445,
-          "p": 0.034
-        },
-        {
-          "t": 1769212843,
-          "p": 0.034
-        },
-        {
-          "t": 1769256043,
-          "p": 0.034
-        },
-        {
-          "t": 1769299248,
-          "p": 0.0345
-        },
-        {
-          "t": 1769428841,
-          "p": 0.0355
-        },
-        {
-          "t": 1769472040,
-          "p": 0.0335
-        },
-        {
-          "t": 1769515227,
-          "p": 0.034
-        },
-        {
-          "t": 1769558429,
-          "p": 0.035
-        },
-        {
-          "t": 1769601631,
-          "p": 0.035
-        },
-        {
-          "t": 1769688035,
-          "p": 0.035
-        },
-        {
-          "t": 1769731234,
-          "p": 0.0355
-        },
-        {
-          "t": 1769774450,
-          "p": 0.036
-        },
-        {
-          "t": 1769817634,
-          "p": 0.0355
-        },
-        {
-          "t": 1769860840,
-          "p": 0.0355
-        },
-        {
-          "t": 1769947237,
-          "p": 0.0345
-        },
-        {
-          "t": 1769990433,
-          "p": 0.0325
-        },
-        {
-          "t": 1770033637,
-          "p": 0.0325
-        },
-        {
-          "t": 1770076837,
-          "p": 0.0345
-        },
-        {
-          "t": 1770120044,
-          "p": 0.0305
-        },
-        {
-          "t": 1770206437,
-          "p": 0.024
-        },
-        {
-          "t": 1770249631,
-          "p": 0.017
-        },
-        {
-          "t": 1770292843,
-          "p": 0.02
-        },
-        {
-          "t": 1770336040,
-          "p": 0.0195
-        },
-        {
-          "t": 1770379243,
-          "p": 0.0195
-        },
-        {
-          "t": 1770465647,
-          "p": 0.0275
-        },
-        {
-          "t": 1770508845,
-          "p": 0.018
-        },
-        {
-          "t": 1770552058,
-          "p": 0.0185
-        },
-        {
-          "t": 1770595243,
-          "p": 0.008
-        },
-        {
-          "t": 1770681646,
-          "p": 0.0055
-        },
-        {
-          "t": 1770811247,
-          "p": 0.0035
-        },
-        {
-          "t": 1770854455,
-          "p": 0.0025
-        },
-        {
-          "t": 1770897646,
-          "p": 0.0015
-        },
-        {
-          "t": 1770940846,
-          "p": 0.0005
-        },
-        {
-          "t": 1770984051,
-          "p": 0.0005
-        },
-        {
-          "t": 1771070456,
-          "p": 0.0005
-        },
-        {
-          "t": 1771113652,
-          "p": 0.0005
-        },
-        {
-          "t": 1771156857,
-          "p": 0.0005
-        },
-        {
-          "t": 1771286454,
-          "p": 0.0005
-        },
-        {
-          "t": 1771372859,
-          "p": 0.0005
-        },
-        {
-          "t": 1771545656,
-          "p": 0.0005
-        },
-        {
-          "t": 1771588834,
-          "p": 0.0005
-        },
-        {
-          "t": 1771632037,
-          "p": 0.0005
-        },
-        {
-          "t": 1771675237,
-          "p": 0.0005
-        },
-        {
-          "t": 1771718437,
-          "p": 0.0005
+          "t": 1760400008,
+          "p": 0.9995
         }
       ],
       "turning_points": [
         {
-          "t": 1770768055,
-          "p": 0.005,
-          "delta": -0.05
+          "t": 1757505603,
+          "p": 0.82,
+          "delta": 0.13
+        },
+        {
+          "t": 1757548813,
+          "p": 0.76,
+          "delta": -0.06
+        },
+        {
+          "t": 1757592012,
+          "p": 0.815,
+          "delta": 0.055
+        },
+        {
+          "t": 1757894405,
+          "p": 0.87,
+          "delta": 0.055
+        },
+        {
+          "t": 1758153610,
+          "p": 0.925,
+          "delta": 0.055
+        },
+        {
+          "t": 1760400008,
+          "p": 0.9995,
+          "delta": 0.0745
         }
       ],
-      "price_at_open": null,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.0845,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-20T17:08:11.359424+00:00"
+      "price_at_open": 0.69,
+      "price_at_close": 0.9995,
+      "min_price": 0.69,
+      "max_price": 0.9995,
+      "final_price": 0.9995,
+      "fetched_at": "2026-04-20T17:08:10.375184+00:00"
     },
     "events": [
       {
-        "id": "evt_sports_20251208_003_68b11329",
-        "date": "2025-12-08 00:00",
-        "title": "German bobsled team setback",
-        "description": "The German bobsled team suffered a major setback due to injuries.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
-        "has_impact": true,
+        "id": "evt_science_20250915_012_86b19002",
+        "date": "2025-09-15 00:00",
+        "title": "Successful Booster Static Fire Test for Flight 11",
+        "description": "SpaceX conducted a successful static fire test of the Super Heavy booster for Flight 11, ensuring the readiness of the first stage for launch.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://espn.com/winter-sports/german-bobsled-injury",
+        "source_url": "https://www.nasaspaceflight.com/2025/09/ten-flights-starship-program-successes-failures",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251209_004_63026705",
-        "date": "2025-12-09 00:00",
-        "title": "Norway sweeps early Biathlon World Cup",
-        "description": "Norway swept the early World Cup events in Biathlon.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
+        "id": "evt_tech_20250918_004_74b05e1a",
+        "date": "2025-09-18 00:00",
+        "title": "SpaceX conducts successful static fire tests",
+        "description": "SpaceX conducts successful static fire tests for Flight 11.",
+        "impact": "**Affects:** Yes - Will SpaceX Starship Flight Test 11 launch by Octo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSuccessful static fires were a key technical milestone.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://olympics.com/news/norway-biathlon-dominance-december-2025",
+        "source_url": "https://www.astronomy.com/space-exploration/starships-11th-test-flight-marks-new-era-for-spacex-rocket",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251209_008_106cef10",
-        "date": "2025-12-09 00:00",
-        "title": "Norway secures favorable starting positions",
-        "description": "Norway secured favorable starting positions for the upcoming games.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
-        "has_impact": true,
+        "id": "evt_science_20250920_010_51567ae4",
+        "date": "2025-09-20 00:00",
+        "title": "Starship Flight 11 Vehicle Rolled Out to Launch Pad",
+        "description": "The fully stacked Starship vehicle for Flight 11 was rolled out to the launch pad at Starbase, in preparation for pre-flight testing.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://olympics.com/news/norway-biathlon-dominance-december-2025",
+        "source_url": "https://spaceexplored.com/2025/09/26/is-starship-back-spacex-prepares-for-flight-11",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251209_009_053a376e",
-        "date": "2025-12-09 00:00",
-        "title": "Norway gains psychological advantages",
-        "description": "Norway gained psychological advantages over their competitors.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
-        "has_impact": true,
+        "id": "evt_science_20250923_007_cadfe0b4",
+        "date": "2025-09-23 00:00",
+        "title": "Starship Flight 11 Completes Static Fire Test",
+        "description": "The Starship vehicle for Flight 11 successfully completed a static fire test of its Raptor engines, a critical milestone before launch.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://olympics.com/news/norway-biathlon-dominance-december-2025",
+        "source_url": "https://www.digitaltrends.com/space/watch-spacex-blast-starship-engines-ahead-of-11th-flight",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260115_005_9a8606a4",
-        "date": "2026-01-15 00:00",
-        "title": "US Alpine team struggles",
-        "description": "The US Alpine team faced significant challenges in early-season qualifiers.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
-        "has_impact": true,
+        "id": "evt_tech_20250925_004_ebbba121",
+        "date": "2025-09-25 12:00",
+        "title": "Starship Flight 11 Vehicle Rolled Out",
+        "description": "The vehicle for Starship Flight 11 is rolled out to the launch pad.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://bbc.com/sport/winter-sports/usa-alpine-struggles",
+        "source_url": "https://tech.yahoo.com/science/articles/time-spacexs-starship-flight-11-120000460.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260201_006_ef075dd4",
-        "date": "2026-02-01 00:00",
-        "title": "Norway faces less resistance in key crossover events",
-        "description": "Norway faced less resistance in key crossover events.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
-        "has_impact": true,
+        "id": "evt_science_20251001_010_c6358a72",
+        "date": "2025-10-01 00:00",
+        "title": "SpaceX Announces Official Launch Date for Flight 11",
+        "description": "SpaceX officially announced the launch date for Starship Flight 11, confirming the mission's readiness for a specific launch window.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.nbcwashington.com/olympics/2026-milan-cortina/milan-cortina-medals-by-the-numbers/4064808",
+        "source_url": "https://tech.yahoo.com/science/articles/spacex-announces-october-date-next-154127223.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260220_002_a6c78acf",
-        "date": "2026-02-20 00:00",
-        "title": "Johannes Dale-Skjevdal secures Norway's 17th gold medal",
-        "description": "Biathlete Johannes Dale-Skjevdal secures Norway's 17th gold medal in the 15-kilometer mass start.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecuring the 17th gold broke the record and guaranteed Norway's win.",
+        "id": "evt_tech_20251010_007_6d1aa13d",
+        "date": "2025-10-10 00:00",
+        "title": "SpaceX addresses technical checks",
+        "description": "SpaceX quickly addresses technical checks during stacking.",
+        "impact": "**Affects:** Yes - Will SpaceX Starship Flight Test 11 launch by Octo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAddressing technical checks kept the timeline intact.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.aol.com/articles/norway-breaks-record-most-gold-145700033.html",
+        "source_url": "https://www.cnbc.com/2025/10/14/spacex-completes-11th-starship-test-before-debuting-upgraded-prototype.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260222_007_3c8d852c",
-        "date": "2026-02-22 00:00",
-        "title": "Milan Cortina conclusion",
-        "description": "The conclusion of the Milan-Cortina Winter Games.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Norway winning the most gold medals.",
-        "has_impact": true,
+        "id": "evt_science_20251012_011_91ffdbce",
+        "date": "2025-10-12 00:00",
+        "title": "Starship Flight 11 is the Final Test of the V2 Prototype",
+        "description": "SpaceX announces that the eleventh flight test will be the final one for the V2 prototype of Starship, with the next flights utilizing the upgraded V3 design.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.nbcwashington.com/olympics/2026-milan-cortina/milan-cortina-medals-by-the-numbers/4064808",
+        "source_url": "https://nasaspacenews.com/2025/10/spacex-starship-flight-11-final-version-2-test-before-revolutionary-v3-debut",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260222_005_b42ec35d",
-        "date": "2026-02-22 00:01",
-        "title": "United States wins 12 gold medals",
-        "description": "The United States set a national record by winning 12 gold medals.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUS winning 12 golds was a countervailing factor against Norway.",
-        "has_impact": true,
+        "id": "evt_science_20251013_012_ff0408ad",
+        "date": "2025-10-13 00:00",
+        "title": "SpaceX Completes Final Launch Readiness Review",
+        "description": "SpaceX's mission controllers complete the final launch readiness review, giving the green light for the countdown to proceed.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.csmonitor.com/layout/set/amphtml/World/olympics/2026/0222/winter-olympics-final-medal-count-2026",
+        "source_url": "https://arstechnica.com/science/2025/10/starships-elementary-era-ends-today-with-mega-rockets-11th-test-flight",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260222_007_a160d1c5",
-        "date": "2026-02-22 00:01",
-        "title": "Absence of a full Russian team",
-        "description": "Russia was not present as a full team, removing a primary competitor in endurance events.",
-        "impact": "**Affects:** Option 11: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAbsence of Russian team removed a primary competitor for Norway.",
+        "id": "evt_science_20251014_010_fa31b225",
+        "date": "2025-10-14 00:00",
+        "title": "SpaceX successfully launches Starship Flight 11",
+        "description": "SpaceX successfully launches Starship Flight Test 11.",
+        "impact": "**Affects:** Yes - Will SpaceX Starship Flight Test 11 launch by Octo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSuccessful launch resolved the question.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.csmonitor.com/layout/set/amphtml/World/olympics/2026/0222/winter-olympics-final-medal-count-2026",
+        "source_url": "https://www.scientificamerican.com/article/spacexs-starship-succeeds-in-final-test-flight-of-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -658,662 +469,877 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_event_100230",
-    "title": "2026 Winter Games: 3rd Most Gold Medals",
-    "question_type": "mcq",
+    "id": "polymarket_0xf723d076576a434c0b92914608ab73ba9c56b2197f5bd9476ccd48a2c6dee12b",
+    "title": "Will DraftKings launch a prediction market platform during 2025?",
+    "question_type": "binary",
     "options": [
-      "Austria",
-      "China",
-      "Germany",
-      "Japan",
-      "Norway",
-      "Switzerland",
-      "Canada",
-      "France",
-      "Italy",
-      "Netherlands",
-      "Sweden",
-      "United States"
+      "Yes",
+      "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to the country that wins the third most gold medals at the 2026 Milano-Cortina Winter Olympics, scheduled for February 6-22, 2026.\n\nIn the case of ties, the ordered list for most gold medals won will use most overall medals won as a tiebreaker (e.g. If Norway and China tie for most gold medals won, and Norway wins more overall medals than China, Norway will be ranked first and China will be second). If this also results in a tie, the country whose name comes first in alphabetical order, as listed in this market group, will be ranked higher.\n\nThis market will resolve based on the medal figures as they stand after medals are awarded for the final event in the 2026 Milano-Cortina Winter Olympics. Later changes to medal counts will not be considered toward the resolution of this market.\n\nIf the 2026 Milano-Cortina Winter Olympics are partially completed and then cancelled or postponed after December 31, 2026, this market will resolve based on the gold medals awarded in the completed events. If the 2026 Milano-Cortina Winter Olympics are entirely cancelled or postponed after December 31, 2026, this market will resolve to “Other”.\n\nThe resolution source will be official information from the International Olympic Committee (https://www.olympics.com/).",
-    "outcome": "Italy",
-    "explanation": "\n## Executive Summary\nThe 2026 Winter Olympics in Milan and Cortina d'Ampezzo saw Italy secure the third-most gold medals, a significant achievement driven largely by the \"home-field advantage\" and targeted funding in key winter sports. Early projections in late 2025 initially cast doubt on Italy breaking into the top three against established powerhouses like Norway and the United States. However, strong performances in alpine skiing, short track speed skating, and sliding events, culminating in crucial unexpected victories in early February 2026, cemented Italy's position. This strategic focus and the atmospheric boost of competing on home snow and ice enabled Italy to edge out competitors like Germany and Canada for the third spot in the gold medal tally.\n\n## Timeline Of Key Events\n- **2025-12-10**: Pre-Olympic qualifiers conclude, with Italian athletes showing unexpected strength in several sliding and skating events, marking the first significant shift in expectations and betting markets ([art_sports_20260406_013_cac5965b], [art_sports_20260317_005_e7786fe6]).\n- **2026-02-06**: The Winter Olympics officially open in Milan and Cortina d'Ampezzo.\n- **2026-02-07 to 2026-02-14**: Italy secures early gold medals in short track speed skating and alpine skiing, outperforming pre-game projections and stabilizing their position near the top of the medal table ([art_sports_20260316_015_1720bbb6]).\n- **2026-02-15 to 2026-02-20**: A string of clutch performances in luge and bobsleigh events results in vital gold medals, ensuring Italy maintains a narrow lead over Germany and Canada for the third-most golds ([art_sports_20260315_007_f0cf3847]).\n- **2026-02-22**: The 2026 Winter Games conclude, with Italy officially confirmed as having the third-most gold medals behind Norway and the United States ([art_sports_20260315_006_1784e68c]).\n\n## Causal Chain Analysis\nThe outcome of Italy winning the third-most gold medals at the 2026 Winter Games was rooted in the **hosting rights**, which triggered a multi-year cycle of **increased national funding and athletic development** focused specifically on high-yield sports like short track and alpine skiing ([art_sports_20260406_013_cac5965b]). This preparation led to **strong qualifier performances** (intermediate mechanism) in December 2025. The proximate trigger was the **home-field advantage** during the Games themselves, where familiar venues and partisan crowds resulted in several athletes outperforming their baseline metrics and winning gold in tight races ([art_sports_20260316_015_1720bbb6]). Consequently, these clutch victories, particularly the unexpected golds in sliding events in mid-February, caused Italy to surpass traditional rivals and secure the third position in the final gold medal count ([art_sports_20260315_006_1784e68c]).\n\n## Countervailing Factors\n- **Germany and Canada's Historical Strength**: Both nations have historically dominated sliding and skating events. They posed a significant threat to Italy's top-three ambitions. However, key injuries in the German bobsleigh team and underperformance by Canadian skaters in critical finals allowed Italy to capitalize on the resulting void.\n- **Pressure of Hosting**: Competing at home can sometimes lead to underperformance due to immense media and public pressure. While some Italian athletes struggled early on, the overall team dynamic overcame this, using the crowd as a catalyst rather than a detriment.\n\n## Event Candidate Inventory\n- E1: Italian athletes show unexpected strength in pre-Olympic qualifiers.\n  - Date: 2025-12-10\n  - Why it matters causally: Shifted expectations and demonstrated the efficacy of the home-nation funding boost.\n  - Source article IDs: [art_sports_20260406_013_cac5965b], [art_sports_20260317_005_e7786fe6]\n- E2: Italy secures early clutch gold medals in short track speed skating and alpine skiing.\n  - Date: 2026-02-07 to 2026-02-14\n  - Why it matters causally: Established early momentum and secured points in highly competitive events against direct rivals.\n  - Source article IDs: [art_sports_20260316_015_1720bbb6]\n- E3: Italian sliding teams win crucial late-stage golds, solidifying third place.\n  - Date: 2026-02-15 to 2026-02-20\n  - Why it matters causally: Provided the final margin of victory over Germany and Canada for the third spot in the gold medal count.\n  - Source article IDs: [art_sports_20260315_007_f0cf3847], [art_sports_20260315_006_1784e68c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Strong qualifier performances shift expectations | [art_sports_20260406_013_cac5965b], [art_sports_20260317_005_e7786fe6] | 2025-12-10 | 0.9 | Matches the 2025-12-10 turning point. |\n| Early gold medals in skiing/skating establish momentum | [art_sports_20260316_015_1720bbb6] | 2026-02-08 | 0.95 | Matches the 2026-02-07 turning point and initial Olympic action. |\n| Sliding event victories secure third place | [art_sports_20260315_007_f0cf3847], [art_sports_20260315_006_1784e68c] | 2026-02-20 | 0.95 | Confirms the final outcome against Germany/Canada. |\n\n## Uncertainties And Alternative Paths\n- **Weather and Venue Conditions**: If weather conditions had been less favorable or if venue ice/snow quality had differed, the home advantage in familiar settings might have been mitigated, potentially allowing Germany to secure the third spot.\n- **Injury Variables**: The absence or presence of a few key athletes in sliding events could have entirely altered the medal distribution between Italy and Canada.\n",
+    "resolution_criteria": "This market resolves to \"Yes\" if DraftKings makes at least one prediction market live and accessible to users on their U.S. platform in any U.S. state by December 31, 2025, 11:59 PM ET. Otherwise, it resolves to \"No.\"\n\nA “prediction market” refers to a tradable binary contract on a future event that is executed on an exchange venue (e.g., a CFTC-regulated Designated Contract Market) and offered on inside DraftKings’ U.S. site/app. Whitelabeling with a partner DCM via an FCM or other integration will qualify however fixed-odds sportsbook bets and fantasy contests do not qualify. Announcements alone do not qualify; the product must be operational.\n\nThe resolution's source will be a consensus of credible reporting.  \n",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nDraftKings successfully launched a prediction market platform in December 2025, driven by mounting competitive pressure and shifting regulatory landscapes. Initially hesitant, the company faced significant scrutiny from short-sellers who argued that emerging prediction markets like Kalshi posed a \"tectonic\" threat to traditional sports betting. In response to this pressure and analyst consensus that prediction markets are additive rather than cannibalistic, DraftKings accelerated its product development. The strategic pivot culminated in the launch of a CFTC-backed prediction market app on December 19, 2025, solidifying their competitive position.\n\n## Timeline Of Key Events\n- **2025-09-25**: Competitor Kalshi demonstrates strong early traction with its same-game parlays, highlighting consumer demand for prediction markets [art_general_20250925_003_156db0b2].\n- **2025-10-19**: A short-seller publicly bets against DraftKings, arguing that the company and analysts are downplaying the existential threat of prediction markets [art_general_20251019_005_b02cc61e]. Concurrently, friendly analysts publish reports arguing that prediction markets are 'additive' to the ecosystem [art_general_20251019_012_a4e34d4b].\n- **2025-11-18**: During its Q3 review, DraftKings hints strongly at product initiatives aimed at prediction market differentiation, signaling an imminent entry to attract a broader base [art_general_20251118_015_b0d24795, art_general_20251118_006_99de8f62].\n- **2025-12-19**: DraftKings officially launches its CFTC-backed prediction market app, resolving the market question [art_general_20251219_020_4dfb5e0c].\n\n## Causal Chain Analysis\nThe root cause of DraftKings' entry into prediction markets was the rapid mainstream success of pure-play prediction platforms like Kalshi, which proved the viability of the model [art_general_20250925_003_156db0b2]. This success triggered a secondary mechanism: financial market pressure. Short-sellers aggressively targeted DraftKings stock, asserting that the company was vulnerable to losing market share to these new prediction platforms [art_general_20251019_005_b02cc61e]. This caused DraftKings' management to pivot defensively. Reassured by analyst reports that prediction markets would be \"additive\" rather than cannibalistic [art_general_20251019_012_a4e34d4b], DraftKings allocated resources to develop their own platform. This strategic shift led directly to the Q3 announcement of new product initiatives [art_general_20251118_015_b0d24795], which culminated in the proximate trigger: securing CFTC backing and launching the app on December 19, 2025 [art_general_20251219_020_4dfb5e0c].\n\n## Countervailing Factors\nInitially, there were strong internal and external concerns that a prediction market would cannibalize DraftKings' highly profitable core sports betting product. The initial drop in DraftKings' stock price reflected investor anxiety over regulatory hurdles and execution risk in a novel market segment. However, these factors were overwhelmed by the strategic necessity to defend their market share against native prediction market disruptors and the realization that the products appealed to overlapping but distinct user psychologies.\n\n## Event Candidate Inventory\n- E1: Kalshi demonstrates early revenue success with prediction market features.\n  - Date: 2025-09-25\n  - Why it matters causally: Proved the commercial viability of the product, spurring competitors.\n  - Source article IDs: [art_general_20250925_003_156db0b2]\n- E2: Short-seller attacks DraftKings over prediction market vulnerability.\n  - Date: 2025-10-19\n  - Why it matters causally: Applied immense pressure on DraftKings management to announce a competing product.\n  - Source article IDs: [art_general_20251019_005_b02cc61e]\n- E3: DraftKings signals prediction market entry during Q3 update.\n  - Date: 2025-11-18\n  - Why it matters causally: Confirmed the company's intent and timeline, causing prediction market sentiment to shift favorably.\n  - Source article IDs: [art_general_20251118_015_b0d24795]\n- E4: DraftKings launches CFTC-backed prediction market app.\n  - Date: 2025-12-19\n  - Why it matters causally: The direct resolution event.\n  - Source article IDs: [art_general_20251219_020_4dfb5e0c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Kalshi success proves market | [art_general_20250925_003_156db0b2] | 2025-09-25 | 0.9 | High early volume reported |\n| Short-seller targets DraftKings | [art_general_20251019_005_b02cc61e] | 2025-10-19 | 1.0 | Clear financial pressure |\n| Analysts call markets additive | [art_general_20251019_012_a4e34d4b] | 2025-10-19 | 0.9 | Reassurance for DraftKings |\n| Q3 product initiatives announced | [art_general_20251118_015_b0d24795] | 2025-11-18 | 1.0 | Clear signaling of intent |\n| Final App Launch | [art_general_20251219_020_4dfb5e0c] | 2025-12-19 | 1.0 | Resolution of the market question |\n\n## Uncertainties And Alternative Paths\nOne major alternative path was that regulatory hurdles (e.g., CFTC pushback) could have delayed the launch into 2026. The stock price volatility in late November and early December reflects moments where market participants doubted the regulatory timeline. Furthermore, had DraftKings acquired an existing player instead of building their own CFTC-backed app, the timeline might have been faster but structurally different.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-11-24T21:31:18+00:00",
-    "market_open_estimated": true,
-    "market_close": "2026-02-22T21:31:18+00:00",
-    "polymarket_url": "https://polymarket.com/event/2026-winter-games-3rd-most-gold-medals",
+    "market_open": "2025-10-08T21:34:09.384850+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-12-19T15:20:04+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-draftkings-launch-a-prediction-market-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1765238418,
-          "p": 0.45
+          "t": 1759968008,
+          "p": 0.485
         },
         {
-          "t": 1765281607,
+          "t": 1760011205,
+          "p": 0.275
+        },
+        {
+          "t": 1760054408,
+          "p": 0.245
+        },
+        {
+          "t": 1760097617,
+          "p": 0.135
+        },
+        {
+          "t": 1760140803,
           "p": 0.085
         },
         {
-          "t": 1765324808,
-          "p": 0.08
+          "t": 1760227209,
+          "p": 0.095
         },
         {
-          "t": 1765368008,
-          "p": 0.05
+          "t": 1760270413,
+          "p": 0.13
         },
         {
-          "t": 1765454408,
-          "p": 0.055
+          "t": 1760313605,
+          "p": 0.12
         },
         {
-          "t": 1765497608,
-          "p": 0.055
+          "t": 1760356812,
+          "p": 0.12
         },
         {
-          "t": 1765540808,
-          "p": 0.055
+          "t": 1760400014,
+          "p": 0.13
         },
         {
-          "t": 1765584009,
-          "p": 0.055
-        },
-        {
-          "t": 1765670409,
-          "p": 0.055
-        },
-        {
-          "t": 1765713608,
-          "p": 0.065
-        },
-        {
-          "t": 1765756809,
-          "p": 0.065
-        },
-        {
-          "t": 1765843207,
-          "p": 0.065
-        },
-        {
-          "t": 1765886419,
-          "p": 0.055
-        },
-        {
-          "t": 1765929604,
-          "p": 0.055
-        },
-        {
-          "t": 1765929630,
-          "p": 0.055
-        },
-        {
-          "t": 1766016018,
-          "p": 0.065
-        },
-        {
-          "t": 1766059208,
-          "p": 0.065
-        },
-        {
-          "t": 1766102409,
-          "p": 0.065
-        },
-        {
-          "t": 1766145610,
-          "p": 0.065
-        },
-        {
-          "t": 1766232009,
-          "p": 0.045
-        },
-        {
-          "t": 1766275208,
-          "p": 0.045
-        },
-        {
-          "t": 1766318407,
-          "p": 0.045
-        },
-        {
-          "t": 1766404807,
-          "p": 0.045
-        },
-        {
-          "t": 1766448009,
-          "p": 0.05
-        },
-        {
-          "t": 1766491209,
-          "p": 0.05
-        },
-        {
-          "t": 1766534409,
-          "p": 0.05
-        },
-        {
-          "t": 1766620819,
-          "p": 0.045
-        },
-        {
-          "t": 1766664009,
-          "p": 0.045
-        },
-        {
-          "t": 1766707208,
-          "p": 0.045
-        },
-        {
-          "t": 1766750408,
-          "p": 0.045
-        },
-        {
-          "t": 1766836809,
-          "p": 0.045
-        },
-        {
-          "t": 1766880010,
-          "p": 0.045
-        },
-        {
-          "t": 1766923209,
-          "p": 0.045
-        },
-        {
-          "t": 1767009609,
-          "p": 0.045
-        },
-        {
-          "t": 1767052813,
-          "p": 0.06
-        },
-        {
-          "t": 1767096009,
-          "p": 0.045
-        },
-        {
-          "t": 1767139209,
-          "p": 0.045
-        },
-        {
-          "t": 1767225609,
-          "p": 0.045
-        },
-        {
-          "t": 1767268809,
-          "p": 0.045
-        },
-        {
-          "t": 1767312009,
-          "p": 0.045
-        },
-        {
-          "t": 1767398409,
-          "p": 0.045
-        },
-        {
-          "t": 1767441609,
-          "p": 0.045
-        },
-        {
-          "t": 1767484810,
-          "p": 0.045
-        },
-        {
-          "t": 1767528010,
-          "p": 0.045
-        },
-        {
-          "t": 1767614408,
-          "p": 0.05
-        },
-        {
-          "t": 1767657613,
-          "p": 0.05
-        },
-        {
-          "t": 1767700809,
-          "p": 0.05
-        },
-        {
-          "t": 1767744010,
-          "p": 0.05
-        },
-        {
-          "t": 1767830425,
-          "p": 0.05
-        },
-        {
-          "t": 1767873612,
-          "p": 0.05
-        },
-        {
-          "t": 1767916810,
-          "p": 0.05
-        },
-        {
-          "t": 1768003211,
-          "p": 0.05
-        },
-        {
-          "t": 1768046410,
-          "p": 0.045
-        },
-        {
-          "t": 1768089610,
-          "p": 0.075
-        },
-        {
-          "t": 1768132810,
-          "p": 0.075
-        },
-        {
-          "t": 1768219215,
-          "p": 0.075
-        },
-        {
-          "t": 1768262412,
-          "p": 0.075
-        },
-        {
-          "t": 1768305613,
-          "p": 0.075
-        },
-        {
-          "t": 1768348811,
-          "p": 0.075
-        },
-        {
-          "t": 1768435212,
-          "p": 0.075
-        },
-        {
-          "t": 1768478412,
-          "p": 0.075
-        },
-        {
-          "t": 1768521614,
-          "p": 0.075
-        },
-        {
-          "t": 1768608012,
-          "p": 0.075
-        },
-        {
-          "t": 1768651213,
-          "p": 0.075
-        },
-        {
-          "t": 1768694414,
-          "p": 0.075
-        },
-        {
-          "t": 1768737627,
-          "p": 0.075
-        },
-        {
-          "t": 1768824012,
-          "p": 0.075
-        },
-        {
-          "t": 1768867212,
-          "p": 0.075
-        },
-        {
-          "t": 1768910412,
-          "p": 0.075
-        },
-        {
-          "t": 1768953612,
-          "p": 0.075
-        },
-        {
-          "t": 1769040014,
-          "p": 0.075
-        },
-        {
-          "t": 1769083228,
-          "p": 0.075
-        },
-        {
-          "t": 1769126427,
-          "p": 0.075
-        },
-        {
-          "t": 1769212816,
-          "p": 0.075
-        },
-        {
-          "t": 1769256015,
-          "p": 0.075
-        },
-        {
-          "t": 1769299229,
-          "p": 0.075
-        },
-        {
-          "t": 1769342418,
-          "p": 0.075
-        },
-        {
-          "t": 1769428814,
-          "p": 0.075
-        },
-        {
-          "t": 1769472023,
-          "p": 0.075
-        },
-        {
-          "t": 1769515214,
-          "p": 0.075
-        },
-        {
-          "t": 1769601615,
-          "p": 0.055
-        },
-        {
-          "t": 1769644829,
-          "p": 0.055
-        },
-        {
-          "t": 1769688016,
-          "p": 0.105
-        },
-        {
-          "t": 1769731216,
+          "t": 1760486405,
           "p": 0.11
         },
         {
-          "t": 1769817615,
+          "t": 1760529616,
+          "p": 0.11
+        },
+        {
+          "t": 1760572819,
+          "p": 0.17
+        },
+        {
+          "t": 1760616024,
+          "p": 0.05
+        },
+        {
+          "t": 1760659208,
+          "p": 0.085
+        },
+        {
+          "t": 1760745605,
           "p": 0.115
         },
         {
-          "t": 1769860817,
-          "p": 0.11
+          "t": 1760788817,
+          "p": 0.115
         },
         {
-          "t": 1769904018,
-          "p": 0.1
+          "t": 1760832006,
+          "p": 0.115
         },
         {
-          "t": 1769947216,
-          "p": 0.1
+          "t": 1760875213,
+          "p": 0.115
         },
         {
-          "t": 1770033615,
-          "p": 0.085
+          "t": 1760918418,
+          "p": 0.115
         },
         {
-          "t": 1770076815,
-          "p": 0.075
+          "t": 1761004808,
+          "p": 0.105
         },
         {
-          "t": 1770120016,
-          "p": 0.075
+          "t": 1761048017,
+          "p": 0.105
         },
         {
-          "t": 1770206417,
-          "p": 0.055
+          "t": 1761091212,
+          "p": 0.57
         },
         {
-          "t": 1770249614,
-          "p": 0.041
+          "t": 1761134415,
+          "p": 0.61
         },
         {
-          "t": 1770292816,
-          "p": 0.0385
+          "t": 1761177608,
+          "p": 0.305
         },
         {
-          "t": 1770336016,
-          "p": 0.033
+          "t": 1761264011,
+          "p": 0.295
         },
         {
-          "t": 1770422419,
-          "p": 0.0125
+          "t": 1761307212,
+          "p": 0.265
         },
         {
-          "t": 1770465618,
-          "p": 0.0225
+          "t": 1761350411,
+          "p": 0.26
         },
         {
-          "t": 1770508817,
-          "p": 0.0235
+          "t": 1761393613,
+          "p": 0.275
         },
         {
-          "t": 1770552018,
-          "p": 0.019
+          "t": 1761436811,
+          "p": 0.28
         },
         {
-          "t": 1770638431,
-          "p": 0.0265
+          "t": 1761523210,
+          "p": 0.255
         },
         {
-          "t": 1770681617,
-          "p": 0.0225
+          "t": 1761566412,
+          "p": 0.255
         },
         {
-          "t": 1770724818,
-          "p": 0.0175
+          "t": 1761609613,
+          "p": 0.26
         },
         {
-          "t": 1770811216,
-          "p": 0.0065
+          "t": 1761652811,
+          "p": 0.26
         },
         {
-          "t": 1770854429,
-          "p": 0.0045
+          "t": 1761696012,
+          "p": 0.285
         },
         {
-          "t": 1770897616,
-          "p": 0.004
+          "t": 1761825611,
+          "p": 0.305
         },
         {
-          "t": 1770940818,
-          "p": 0.0025
+          "t": 1761868808,
+          "p": 0.34
         },
         {
-          "t": 1771027220,
-          "p": 0.003
+          "t": 1761912012,
+          "p": 0.335
         },
         {
-          "t": 1771070418,
-          "p": 0.002
+          "t": 1761955211,
+          "p": 0.41
         },
         {
-          "t": 1771113618,
-          "p": 0.004
+          "t": 1761998413,
+          "p": 0.395
         },
         {
-          "t": 1771156818,
-          "p": 0.025
+          "t": 1762084812,
+          "p": 0.445
         },
         {
-          "t": 1771243224,
-          "p": 0.0115
+          "t": 1762128010,
+          "p": 0.38
         },
         {
-          "t": 1771286419,
-          "p": 0.0105
+          "t": 1762171212,
+          "p": 0.56
         },
         {
-          "t": 1771329620,
-          "p": 0.0175
+          "t": 1762214411,
+          "p": 0.435
         },
         {
-          "t": 1771416020,
-          "p": 0.0135
+          "t": 1762257612,
+          "p": 0.445
         },
         {
-          "t": 1771459219,
-          "p": 0.013
+          "t": 1762344013,
+          "p": 0.46
         },
         {
-          "t": 1771502426,
-          "p": 0.0055
+          "t": 1762387207,
+          "p": 0.425
         },
         {
-          "t": 1771545621,
-          "p": 0.001
+          "t": 1762430414,
+          "p": 0.385
         },
         {
-          "t": 1771632018,
-          "p": 0.0005
+          "t": 1762473610,
+          "p": 0.43
         },
         {
-          "t": 1771675218,
-          "p": 0.0005
+          "t": 1762516813,
+          "p": 0.49
         },
         {
-          "t": 1771718419,
-          "p": 0.0005
+          "t": 1762603226,
+          "p": 0.54
+        },
+        {
+          "t": 1762646424,
+          "p": 0.41
+        },
+        {
+          "t": 1762689611,
+          "p": 0.335
+        },
+        {
+          "t": 1762732808,
+          "p": 0.345
+        },
+        {
+          "t": 1762776012,
+          "p": 0.51
+        },
+        {
+          "t": 1762862427,
+          "p": 0.385
+        },
+        {
+          "t": 1762905612,
+          "p": 0.39
+        },
+        {
+          "t": 1762948814,
+          "p": 0.43
+        },
+        {
+          "t": 1762992010,
+          "p": 0.435
+        },
+        {
+          "t": 1763035214,
+          "p": 0.47
+        },
+        {
+          "t": 1763121614,
+          "p": 0.615
+        },
+        {
+          "t": 1763164812,
+          "p": 0.64
+        },
+        {
+          "t": 1763208015,
+          "p": 0.615
+        },
+        {
+          "t": 1763251209,
+          "p": 0.645
+        },
+        {
+          "t": 1763294413,
+          "p": 0.625
+        },
+        {
+          "t": 1763380813,
+          "p": 0.57
+        },
+        {
+          "t": 1763424009,
+          "p": 0.605
+        },
+        {
+          "t": 1763467213,
+          "p": 0.57
+        },
+        {
+          "t": 1763510412,
+          "p": 0.565
+        },
+        {
+          "t": 1763553616,
+          "p": 0.535
+        },
+        {
+          "t": 1763640010,
+          "p": 0.435
+        },
+        {
+          "t": 1763683213,
+          "p": 0.43
+        },
+        {
+          "t": 1763726410,
+          "p": 0.43
+        },
+        {
+          "t": 1763769610,
+          "p": 0.43
+        },
+        {
+          "t": 1763812810,
+          "p": 0.425
+        },
+        {
+          "t": 1763899209,
+          "p": 0.44
+        },
+        {
+          "t": 1763942412,
+          "p": 0.505
+        },
+        {
+          "t": 1763985607,
+          "p": 0.555
+        },
+        {
+          "t": 1764028812,
+          "p": 0.505
+        },
+        {
+          "t": 1764072014,
+          "p": 0.515
+        },
+        {
+          "t": 1764158429,
+          "p": 0.45
+        },
+        {
+          "t": 1764201612,
+          "p": 0.515
+        },
+        {
+          "t": 1764244817,
+          "p": 0.515
+        },
+        {
+          "t": 1764288012,
+          "p": 0.485
+        },
+        {
+          "t": 1764331216,
+          "p": 0.475
+        },
+        {
+          "t": 1764417617,
+          "p": 0.475
+        },
+        {
+          "t": 1764460812,
+          "p": 0.51
+        },
+        {
+          "t": 1764504043,
+          "p": 0.455
+        },
+        {
+          "t": 1764547212,
+          "p": 0.44
+        },
+        {
+          "t": 1764590425,
+          "p": 0.455
+        },
+        {
+          "t": 1764676815,
+          "p": 0.41
+        },
+        {
+          "t": 1764720014,
+          "p": 0.41
+        },
+        {
+          "t": 1764763217,
+          "p": 0.405
+        },
+        {
+          "t": 1764806410,
+          "p": 0.41
+        },
+        {
+          "t": 1764849618,
+          "p": 0.48
+        },
+        {
+          "t": 1764936012,
+          "p": 0.655
+        },
+        {
+          "t": 1764979212,
+          "p": 0.75
+        },
+        {
+          "t": 1765022412,
+          "p": 0.765
+        },
+        {
+          "t": 1765065624,
+          "p": 0.835
+        },
+        {
+          "t": 1765108813,
+          "p": 0.875
+        },
+        {
+          "t": 1765195225,
+          "p": 0.81
+        },
+        {
+          "t": 1765238422,
+          "p": 0.845
+        },
+        {
+          "t": 1765281610,
+          "p": 0.765
+        },
+        {
+          "t": 1765324811,
+          "p": 0.835
+        },
+        {
+          "t": 1765368016,
+          "p": 0.62
+        },
+        {
+          "t": 1765454412,
+          "p": 0.615
+        },
+        {
+          "t": 1765497611,
+          "p": 0.565
+        },
+        {
+          "t": 1765540812,
+          "p": 0.765
+        },
+        {
+          "t": 1765584013,
+          "p": 0.69
+        },
+        {
+          "t": 1765627213,
+          "p": 0.715
+        },
+        {
+          "t": 1765713612,
+          "p": 0.755
+        },
+        {
+          "t": 1765756813,
+          "p": 0.76
+        },
+        {
+          "t": 1765800011,
+          "p": 0.755
+        },
+        {
+          "t": 1765843211,
+          "p": 0.715
+        },
+        {
+          "t": 1765886423,
+          "p": 0.755
+        },
+        {
+          "t": 1765929632,
+          "p": 0.71
+        },
+        {
+          "t": 1765972812,
+          "p": 0.795
+        },
+        {
+          "t": 1766016021,
+          "p": 0.89
+        },
+        {
+          "t": 1766059211,
+          "p": 0.825
+        },
+        {
+          "t": 1766102412,
+          "p": 0.78
         }
       ],
       "turning_points": [
         {
-          "t": 1765281607,
-          "p": 0.085,
-          "delta": -0.365
+          "t": 1760011205,
+          "p": 0.275,
+          "delta": -0.21
         },
         {
-          "t": 1770336016,
-          "p": 0.033,
-          "delta": -0.052
+          "t": 1760097617,
+          "p": 0.135,
+          "delta": -0.14
+        },
+        {
+          "t": 1760140803,
+          "p": 0.085,
+          "delta": -0.05
+        },
+        {
+          "t": 1760572819,
+          "p": 0.17,
+          "delta": 0.085
+        },
+        {
+          "t": 1760616024,
+          "p": 0.05,
+          "delta": -0.12
+        },
+        {
+          "t": 1760702421,
+          "p": 0.115,
+          "delta": 0.065
+        },
+        {
+          "t": 1761091212,
+          "p": 0.57,
+          "delta": 0.455
+        },
+        {
+          "t": 1761177608,
+          "p": 0.305,
+          "delta": -0.265
+        },
+        {
+          "t": 1761955211,
+          "p": 0.41,
+          "delta": 0.105
+        },
+        {
+          "t": 1762171212,
+          "p": 0.56,
+          "delta": 0.15
+        },
+        {
+          "t": 1762214411,
+          "p": 0.435,
+          "delta": -0.125
+        },
+        {
+          "t": 1762516813,
+          "p": 0.49,
+          "delta": 0.055
+        },
+        {
+          "t": 1762560009,
+          "p": 0.61,
+          "delta": 0.12
+        },
+        {
+          "t": 1762603226,
+          "p": 0.54,
+          "delta": -0.07
+        },
+        {
+          "t": 1762646424,
+          "p": 0.41,
+          "delta": -0.13
+        },
+        {
+          "t": 1762689611,
+          "p": 0.335,
+          "delta": -0.075
+        },
+        {
+          "t": 1762776012,
+          "p": 0.51,
+          "delta": 0.175
+        },
+        {
+          "t": 1762819212,
+          "p": 0.385,
+          "delta": -0.125
+        },
+        {
+          "t": 1763035214,
+          "p": 0.47,
+          "delta": 0.085
+        },
+        {
+          "t": 1763078410,
+          "p": 0.595,
+          "delta": 0.125
+        },
+        {
+          "t": 1763251209,
+          "p": 0.645,
+          "delta": 0.05
+        },
+        {
+          "t": 1763380813,
+          "p": 0.57,
+          "delta": -0.075
+        },
+        {
+          "t": 1763640010,
+          "p": 0.435,
+          "delta": -0.135
+        },
+        {
+          "t": 1763942412,
+          "p": 0.505,
+          "delta": 0.07
+        },
+        {
+          "t": 1763985607,
+          "p": 0.555,
+          "delta": 0.05
+        },
+        {
+          "t": 1764028812,
+          "p": 0.505,
+          "delta": -0.05
+        },
+        {
+          "t": 1764158429,
+          "p": 0.45,
+          "delta": -0.055
+        },
+        {
+          "t": 1764201612,
+          "p": 0.515,
+          "delta": 0.065
+        },
+        {
+          "t": 1764504043,
+          "p": 0.455,
+          "delta": -0.06
+        },
+        {
+          "t": 1764633610,
+          "p": 0.525,
+          "delta": 0.07
+        },
+        {
+          "t": 1764676815,
+          "p": 0.41,
+          "delta": -0.115
+        },
+        {
+          "t": 1764849618,
+          "p": 0.48,
+          "delta": 0.07
+        },
+        {
+          "t": 1764892811,
+          "p": 0.635,
+          "delta": 0.155
+        },
+        {
+          "t": 1764979212,
+          "p": 0.75,
+          "delta": 0.115
+        },
+        {
+          "t": 1765065624,
+          "p": 0.835,
+          "delta": 0.085
+        },
+        {
+          "t": 1765281610,
+          "p": 0.765,
+          "delta": -0.07
+        },
+        {
+          "t": 1765324811,
+          "p": 0.835,
+          "delta": 0.07
+        },
+        {
+          "t": 1765368016,
+          "p": 0.62,
+          "delta": -0.215
+        },
+        {
+          "t": 1765411211,
+          "p": 0.515,
+          "delta": -0.105
+        },
+        {
+          "t": 1765454412,
+          "p": 0.615,
+          "delta": 0.1
+        },
+        {
+          "t": 1765497611,
+          "p": 0.565,
+          "delta": -0.05
+        },
+        {
+          "t": 1765540812,
+          "p": 0.765,
+          "delta": 0.2
+        },
+        {
+          "t": 1765584013,
+          "p": 0.69,
+          "delta": -0.075
+        },
+        {
+          "t": 1765713612,
+          "p": 0.755,
+          "delta": 0.065
+        },
+        {
+          "t": 1766016021,
+          "p": 0.89,
+          "delta": 0.135
+        },
+        {
+          "t": 1766059211,
+          "p": 0.825,
+          "delta": -0.065
+        },
+        {
+          "t": 1766145613,
+          "p": 0.9265,
+          "delta": 0.1015
         }
       ],
-      "price_at_open": null,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.45,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-20T17:08:12.316794+00:00"
+      "price_at_open": 0.485,
+      "price_at_close": 0.9265,
+      "min_price": 0.05,
+      "max_price": 0.9265,
+      "final_price": 0.9265,
+      "fetched_at": "2026-04-27T07:57:51.401806+00:00"
     },
     "events": [
       {
-        "id": "evt_sports_20251210_003_91517480",
-        "date": "2025-12-10 00:00",
-        "title": "Italian athletes show unexpected strength in pre-Olympic qualifiers",
-        "description": "Pre-Olympic qualifiers conclude with Italian athletes showing unexpected strength in sliding and skating events.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nStrong qualifiers showed Italy's potential.",
+        "id": "evt_finance_20251019_002_d75f53cd",
+        "date": "2025-10-19 21:28",
+        "title": "Short-seller attacks DraftKings",
+        "description": "A short-seller publicly bets against DraftKings, arguing that the company and analysts are downplaying the existential threat of prediction markets.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/weekend-recovery-hopping-record-books-210044241.html?fr=sycsrp_catchall",
+        "source_url": "https://finance.yahoo.com/news/short-seller-bets-against-draftkings-140000227.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260206_004_dbccf4b7",
-        "date": "2026-02-06 00:00",
-        "title": "Winter Olympics officially open",
-        "description": "The Winter Olympics officially open in Milan and Cortina d'Ampezzo.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nOpening of the games is a neutral event.",
+        "id": "evt_finance_20251019_003_bd548b77",
+        "date": "2025-10-19 21:30",
+        "title": "Analysts call prediction markets additive",
+        "description": "Friendly analysts publish reports arguing that prediction markets are 'additive' to the ecosystem rather than cannibalistic.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.nbcnewyork.com/olympics/2026-milan-cortina/milan-cortina-paralympics-winter-games-photos/6477149",
+        "source_url": "https://finance.yahoo.com/news/analyst-prediction-markets-additive-not-201406874.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260207_008_4bff30a2",
-        "date": "2026-02-07 00:00",
-        "title": "Italian athletes struggle early on due to pressure",
-        "description": "Some Italian athletes struggle early on due to immense media and public pressure.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEarly struggles hindered Italy's chances initially.",
+        "id": "evt_finance_20251118_004_750eaf86",
+        "date": "2025-11-18 21:28",
+        "title": "DraftKings stock price drops",
+        "description": "DraftKings stock price drops reflecting investor anxiety over regulatory hurdles and execution risk.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.nbcnewyork.com/olympics/2026-milan-cortina/milan-cortina-paralympics-winter-games-photos/6477149",
+        "source_url": "https://finance.yahoo.com/news/draftkings-stock-down-28-three-155900324.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260208_005_609c7999",
-        "date": "2026-02-08 00:00",
-        "title": "Italy secures early clutch gold medals",
-        "description": "Italy secures early gold medals in short track speed skating and alpine skiing.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEarly gold medals built momentum for Italy.",
+        "id": "evt_finance_20251118_007_926f3f39",
+        "date": "2025-11-18 21:28",
+        "title": "DraftKings stock experiences volatility",
+        "description": "DraftKings stock experiences volatility over regulatory doubts.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.nbcnewyork.com/olympics/2026-milan-cortina/milan-cortina-paralympics-winter-games-photos/6477149",
+        "source_url": "https://finance.yahoo.com/news/draftkings-stock-down-28-three-155900324.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260210_006_4b6406e0",
-        "date": "2026-02-10 00:00",
-        "title": "Key injuries in the German bobsleigh team",
-        "description": "Key injuries occur in the German bobsleigh team, weakening their competitive edge.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nGerman injuries helped Italy's chances.",
+        "id": "evt_business_20251118_005_7dd63048",
+        "date": "2025-11-18 21:30",
+        "title": "DraftKings management pivots defensively",
+        "description": "DraftKings management pivots defensively and allocates resources to develop their own prediction market platform.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cbs8.com/article/sports/olympics/2026-paralympics-how-many-medals-team-usa-athletes-win-winter-games-milan-cortina/507-088e3d6e-abc1-48b7-b0aa-3a5707b04faa",
+        "source_url": "https://finance.yahoo.com/news/dkng-q3-deep-dive-sports-235101277.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260212_007_9fa8be49",
-        "date": "2026-02-12 00:00",
-        "title": "Underperformance by Canadian skaters",
-        "description": "Canadian skaters underperform in critical finals.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCanadian underperformance helped Italy's chances.",
+        "id": "evt_business_20251118_006_560d006f",
+        "date": "2025-11-18 21:30",
+        "title": "DraftKings signals prediction market entry",
+        "description": "During its Q3 review, DraftKings hints strongly at product initiatives aimed at prediction market differentiation.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cbs8.com/article/sports/olympics/2026-paralympics-how-many-medals-team-usa-athletes-win-winter-games-milan-cortina/507-088e3d6e-abc1-48b7-b0aa-3a5707b04faa",
+        "source_url": "https://finance.yahoo.com/news/dkng-q3-deep-dive-sports-235101277.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260214_009_e33ca459",
-        "date": "2026-02-14 00:00",
-        "title": "Overall team dynamic overcomes pressure",
-        "description": "The overall team dynamic overcomes the pressure, using the crowd as a catalyst.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOvercoming pressure boosted Italy's performance.",
+        "id": "evt_politics_20251219_008_b3fd60eb",
+        "date": "2025-12-19 15:17",
+        "title": "DraftKings secures CFTC backing",
+        "description": "DraftKings secures CFTC backing for its prediction market app.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.nbcnewyork.com/olympics/2026-milan-cortina/milan-cortina-paralympics-winter-games-photos/6477149",
+        "source_url": "https://www.webpronews.com/draftkings-bets-big-on-prediction-markets-with-cftc-backed-app-launch",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260220_010_add3238e",
-        "date": "2026-02-20 00:00",
-        "title": "Italian sliding teams win crucial late-stage golds",
-        "description": "A string of clutch performances in luge and bobsleigh events results in vital gold medals.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLate-stage golds secured the third spot for Italy.",
+        "id": "evt_business_20251219_009_f643cfe2",
+        "date": "2025-12-19 15:17",
+        "title": "DraftKings launches prediction market app",
+        "description": "DraftKings officially launches its CFTC-backed prediction market app.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cbs8.com/article/sports/olympics/2026-paralympics-how-many-medals-team-usa-athletes-win-winter-games-milan-cortina/507-088e3d6e-abc1-48b7-b0aa-3a5707b04faa",
+        "source_url": "https://www.webpronews.com/draftkings-bets-big-on-prediction-markets-with-cftc-backed-app-launch",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20190624_001_9597321c",
-        "date": "2019-06-24 00:00",
-        "title": "Italy awarded hosting rights for 2026 Winter Games",
-        "description": "Italy is awarded the hosting rights for the 2026 Winter Olympics in Milan and Cortina d'Ampezzo.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHosting rights provided the foundation for Italy's success.",
+        "id": "evt_finance_20251019_010_eb5e2ea1",
+        "date": "2025-10-19 21:28",
+        "title": "Cathie Wood buys DraftKings dip",
+        "description": "Cathie Wood buys the dip in DraftKings stock.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/cathie-wood-buying-dip-draftkings-130002256.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250925_001_35786f45",
+        "date": "2025-09-25 20:50",
+        "title": "Kalshi demonstrates early revenue success",
+        "description": "Kalshi demonstrates strong early traction with its same-game parlays, highlighting consumer demand for prediction markets.",
+        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://sports.yahoo.com/articles/weekend-recovery-hopping-record-books-210044241.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20200101_002_7affbed7",
-        "date": "2020-01-01 00:00",
-        "title": "Increased national funding and athletic development",
-        "description": "Italy initiates a multi-year cycle of increased national funding and athletic development focused on high-yield sports.",
-        "impact": "**Affects:** Option 9: Italy  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIncreased funding directly improved athletic performance.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://sports.yahoo.com/articles/weekend-recovery-hopping-record-books-210044241.html?fr=sycsrp_catchall",
+        "source_url": "https://sports.yahoo.com/article/kalshi-same-game-parlays-1-162722009.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

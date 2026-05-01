@@ -666,19 +666,6 @@ var annotationData = [
     },
     "events": [
       {
-        "id": "evt_finance_20250826_007_0b276b90",
-        "date": "2025-08-26 12:53",
-        "title": "Brazil's Mid-Month Inflation Index Posts First Drop in Two Years",
-        "description": "Brazil's Mid-Month Inflation Index Posts First Drop in Two Years.",
-        "impact": "**Affects:** Yes - Brazil’s 12-month inflation below 5.50% for Decemb  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInflation dropping made the outcome more likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://money.usnews.com/investing/news/articles/2025-08-26/brazils-mid-month-inflation-index-posts-first-drop-in-two-years",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_finance_20251230_008_10c58b8f",
         "date": "2025-12-30 13:59",
         "title": "Brazil inflation forecasts ease as central bank holds rates high",
@@ -692,14 +679,14 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20240607_006_bfaeee43",
-        "date": "2024-06-07 16:44",
-        "title": "Central Bank aligned over concern about market inflation expectations",
-        "description": "Central Bank aligned over concern about market inflation expectations.",
-        "impact": "**Affects:** Yes - Brazil’s 12-month inflation below 5.50% for Decemb  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCentral Bank concern aligned with tightening, making outcome more likely.",
+        "id": "evt_finance_20250826_007_0b276b90",
+        "date": "2025-08-26 12:53",
+        "title": "Brazil's Mid-Month Inflation Index Posts First Drop in Two Years",
+        "description": "Brazil's Mid-Month Inflation Index Posts First Drop in Two Years.",
+        "impact": "**Affects:** Yes - Brazil’s 12-month inflation below 5.50% for Decemb  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInflation dropping made the outcome more likely.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://money.usnews.com/investing/news/articles/2024-06-07/brazil-central-bank-aligned-over-concern-about-market-inflation-expectations",
+        "in_market_window": true,
+        "source_url": "https://money.usnews.com/investing/news/articles/2025-08-26/brazils-mid-month-inflation-index-posts-first-drop-in-two-years",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1419,32 +1406,6 @@ var annotationData = [
     },
     "events": [
       {
-        "id": "evt_business_20250508_007_2eafdb7e",
-        "date": "2025-05-08 12:00",
-        "title": "Boeing announces official delay of VC-25B delivery to 2027 or 2028",
-        "description": "Boeing officially updates its schedule, announcing it plans to deliver the new Air Force One jets in 2027 at the earliest.",
-        "impact": "**Affects:** Yes - Will the new U.S. Air Force One (VC-25B) aircraft   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nOfficial delay completely ruled out 2025 delivery.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnn.com/2025/05/08/business/boeing-trump-air-force-one",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250511_008_84edb842",
-        "date": "2025-05-11 10:00",
-        "title": "Trump administration accepts Qatari 747-8 as an interim aircraft",
-        "description": "The Trump administration signals it will accept a gifted Boeing 747-8 from Qatar to serve as an interim aircraft.",
-        "impact": "**Affects:** Yes - Will the new U.S. Air Force One (VC-25B) aircraft   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAccepting interim aircraft confirms 2025 delivery won't happen.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abcnews.go.com/Politics/trump-administration-poised-accept-palace-sky-gift-trump/story?id=121680511",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_business_20250324_002_1a28bb9d",
         "date": "2025-03-24 12:00",
         "title": "Boeing suffers from severe supply chain constraints",
@@ -1518,6 +1479,32 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.cnn.com/2025/05/08/business/boeing-trump-air-force-one",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20250508_007_2eafdb7e",
+        "date": "2025-05-08 12:00",
+        "title": "Boeing announces official delay of VC-25B delivery to 2027 or 2028",
+        "description": "Boeing officially updates its schedule, announcing it plans to deliver the new Air Force One jets in 2027 at the earliest.",
+        "impact": "**Affects:** Yes - Will the new U.S. Air Force One (VC-25B) aircraft   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nOfficial delay completely ruled out 2025 delivery.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/2025/05/08/business/boeing-trump-air-force-one",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250511_008_84edb842",
+        "date": "2025-05-11 10:00",
+        "title": "Trump administration accepts Qatari 747-8 as an interim aircraft",
+        "description": "The Trump administration signals it will accept a gifted Boeing 747-8 from Qatar to serve as an interim aircraft.",
+        "impact": "**Affects:** Yes - Will the new U.S. Air Force One (VC-25B) aircraft   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAccepting interim aircraft confirms 2025 delivery won't happen.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abcnews.go.com/Politics/trump-administration-poised-accept-palace-sky-gift-trump/story?id=121680511",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

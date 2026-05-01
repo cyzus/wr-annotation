@@ -1,343 +1,373 @@
 var annotationData = [
   {
-    "id": "polymarket_event_225893",
-    "title": "PGA Tour: Cognizant Classic in The Palm Beaches Winner",
+    "id": "polymarket_event_203553",
+    "title": "Switzerland’s March Referendum: What will pass?",
     "question_type": "mcq",
     "options": [
-      "Daniel Brown",
-      "Rafael Campos",
-      "Luke Clanton",
-      "Ze-Cheng Dou",
-      "Adrien Dumont De Chassart",
-      "Justin Hicks",
-      "Rico Hoey",
-      "Charley Hoffman",
-      "Nicolai Hojgaard",
-      "Beau Hossler",
-      "Mark Hubbard",
-      "Mackenzie Hughes",
-      "Stephan Jaeger",
-      "Seong-Hyeon Kim",
-      "Christo Lamprecht",
-      "Henry Lebioda",
-      "Kyoung-Hoon Lee",
-      "Hao-Tong Li",
-      "David Lipsky",
-      "Justin Lower",
-      "Shane Lowry",
-      "Peter Malnati",
-      "Max McGreevy",
-      "Matthieu Pavon",
-      "Taylor Pendrith",
-      "Chandler Phillips",
-      "Seamus Power",
-      "Andrew Putnam",
-      "Aaron Rai",
-      "Kevin Roy",
-      "Marcelo Rozo",
-      "Adrien Saddier",
-      "Isaiah Salinda",
-      "Gordon Sargent",
-      "Adam Schenk",
-      "Zach Bauchou",
-      "Christiaan Bezuidenhout",
-      "Chandler Blanchet",
-      "Blades Brown",
-      "Eric Cole",
-      "A.J. Ewart",
-      "Joel Dahmen",
-      "Cam Davis",
-      "Nick Dunlap",
-      "Nicolas Echavarria",
-      "Austin Eckroat",
-      "Doug Ghim",
-      "Ben Griffin",
-      "Emiliano Grillo",
-      "Tom Kim",
-      "Chris Kirk",
-      "Patton Kizzire",
-      "Brooks Koepka",
-      "Matt Kuchar",
-      "Mac Meissner",
-      "Keith Mitchell",
-      "Taylor Moore",
-      "William Mouw",
-      "Michael Brennan",
-      "Jacob Bridgeman",
-      "Ricky Castillo",
-      "Davis Chatfield",
-      "Patrick Fishburn",
-      "Steven Fisk",
-      "David Ford",
-      "Brice Garnett",
-      "Ryan Gerard",
-      "Garrick Higgo",
-      "Joe Highsmith",
-      "Kensei Hirata",
-      "Lee Hodges",
-      "Rasmus Hojgaard",
-      "Max Homa",
-      "Billy Horschel",
-      "Takumi Kanaya",
-      "Jeffrey Kang",
-      "Johnny Keefer",
-      "Michael Kim",
-      "Keita Nakajima",
-      "Rasmus Neergaard-Petersen",
-      "Pontus Nyholm",
-      "Thorbjorn Olesen",
-      "John Parry",
-      "Chad Ramey",
-      "Kristoffer Reitan",
-      "Davis Riley",
-      "Patrick Rodgers",
-      "Matthias Schmid",
-      "Adam Scott",
-      "Neal Shipley",
-      "Webb Simpson",
-      "Alex Smalley",
-      "Jordan L. Smith",
-      "Austin Smotherman",
-      "Jimmy Stanger",
-      "Kevin Streelman",
-      "Adam Svensson",
-      "Jesper Svensson",
-      "Davis Thompson",
-      "Michael Thorbjornsen"
+      "Cash initiative/Counter-Proposal",
+      "SBC initiative",
+      "Climate fund initiative",
+      "Individual taxation"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to the listed player who wins the 2026 Cognizant Classic in The Palm Beaches tournament.\n\nIf a listed player is eliminated from contention for the Cognizant Classic in The Palm Beaches tournament based on the official rules of the tournament, the relevant market will immediately resolve to \"No\".\n\nIf an unlisted player wins the Cognizant Classic in The Palm Beaches tournament this market will resolve to \"Other\".\n\nIn the event of a tie, this market will resolve according to the official winner as determined by PGA Tour official tournament rules. If multiple winners are announced then this market will resolve to the player whose listed last name comes first alphabetically.\n\nIf no winner is announced by March 7, 2026 at 7:00PM ET this market will resolve to \"Other\".\n\nThe primary resolution source will be the official results published by the PGA Tour website (https://www.pgatour.com/).",
-    "outcome": "Nicolas Echavarria",
-    "explanation": "\n## Executive Summary\nNicolas Echavarria secured his third PGA Tour victory at the 2026 Cognizant Classic in The Palm Beaches through a combination of flawless weekend play and a late collapse by his main competitor. Echavarria shot a 5-under 66 on Sunday to finish at 17-under 267, playing the entire weekend without a single bogey. The outcome was decisively shaped by Shane Lowry, who held a three-shot lead on the 16th tee but suffered consecutive double bogeys, opening the door for Echavarria to claim the title and the $1,728,000 top prize.\n\n## Timeline Of Key Events\n- March 1, 2026: Nicolas Echavarria continues a bogey-free streak entering the final round. Shane Lowry holds a commanding lead heading into the final stretch. [art_general_20260302_006_afecb454]\n- March 1, 2026 (Late Round): On the 16th tee, Lowry holds a three-shot lead. [art_general_20260302_006_afecb454]\n- March 1, 2026 (Hole 16 & 17): Lowry makes consecutive double bogeys, losing his lead. [art_general_20260302_006_afecb454]\n- March 1, 2026 (Conclusion): Echavarria completes his final round of 5-under 66 to finish at 17-under 267, clinching the victory. [art_general_20260302_006_afecb454]\n\n## Causal Chain Analysis\nThe primary cause of the outcome was a combination of Echavarria's steady play and Lowry's late-round mistakes. Echavarria's flawless weekend performance kept him within striking distance [art_general_20260302_006_afecb454]. The critical proximate trigger was Shane Lowry's collapse on holes 16 and 17, where he recorded consecutive double bogeys [art_general_20260302_006_afecb454]. This sudden drop in performance directly resulted in Echavarria taking the lead and ultimately winning the tournament.\n\n## Countervailing Factors\nThe main countervailing factor was Shane Lowry's dominant position for most of the tournament. Up until the 16th hole of the final round, Lowry seemed poised to win. However, his performance collapsed under pressure or difficult course conditions (PGA National's \"Bear Trap\"), overwhelming his earlier advantage [art_general_20260302_006_afecb454].\n\n## Event Candidate Inventory\n- E1: Echavarria's Flawless Weekend\n  - Date: Feb 28 - March 1, 2026\n  - Why it matters causally: Kept him in contention and applied pressure to the leader.\n  - Source article IDs: [art_general_20260302_006_afecb454]\n\n- E2: Lowry's Collapse\n  - Date: March 1, 2026\n  - Why it matters causally: Direct cause of the lead change.\n  - Source article IDs: [art_general_20260302_006_afecb454]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Echavarria's win | art_general_20260302_006_afecb454 | March 1, 2026 | 0.9 | Based on evidence collector summary |\n| Lowry's double bogeys | art_general_20260302_006_afecb454 | March 1, 2026 | 0.9 | Based on evidence collector summary |\n\n## Uncertainties And Alternative Paths\n- If Lowry had parred the 16th and 17th holes, he would have likely won.\n- It is uncertain if other competitors were close enough to challenge Echavarria if Lowry had not collapsed. [art_general_20260302_006_afecb454]\n",
+    "resolution_criteria": "Four referendums will be held on 8 March 2026 (You can read more about that here: www.ch.ch/en/votes-and-elections/popular-vote-on-8-march-2026/): \n\n- Issue 1: Cash initiative and counter-proposal\n- Issue 2: Swiss Broadcasting Corporation (SBC) initiative\n- Issue 3: Climate fund initiative\n- Issue 4: Individual taxation\n\nThis market will resolve to “Yes” if the listed referendum is approved under the applicable legal threshold in the nationwide popular vote held on 8 March 2026. Otherwise, this market will resolve to “No.”\n\nThis market will resolve to “Yes” if either the popular initiative or, where applicable, the federal counter-proposal is approved under the applicable legal threshold, regardless of any tie-breaker vote.\n\nIf the referendum is officially rescheduled, the same rule applies to the new ballot and its corresponding deadlines. This market will resolve to “No” if, for any reason, the results of the respective vote are not known definitively by June 30, 2026, 11:59 PM ET.\n\nThe resolution source will be based on a consensus of credible reporting. In the event of ambiguity, this market will resolve solely based on the official certified referendum results published by Swiss government authorities, such as the Swiss Federal Chancellery (https://www.admin.ch/gov/en/start/documentation/votes/20260308.html). Subsequent litigation, administrative challenges, or failure of any post-approval implementation steps will not be considered.",
+    "outcome": "Cash initiative/Counter-Proposal",
+    "explanation": "\n## Executive Summary\nThe Swiss March 2026 Referendum saw the decisive passage of the government's direct counter-proposal to the \"Cash is Freedom\" initiative, securing access to cash within the Swiss Constitution. The popular initiative, launched by the Swiss Freedom Movement, aimed to strictly safeguard physical cash usage but was perceived by the Federal Council as containing overly rigid and ambitious amendments. To address public demand while mitigating economic disruptions, the government introduced a more balanced counter-proposal. Driven by widespread cultural affinity for physical cash and proactive polling, voters backed the counter-proposal overwhelmingly, causing the market prediction to flip and ensuring its successful enactment on March 8, 2026.\n\n## Timeline Of Key Events\n- 2026-01-30: Initial opinion polls revealed that the vote on enshrining cash in the constitution was headed for a tight race. Both the popular initiative and the direct counter-proposal attracted majorities, suggesting a tie-breaker would decide the outcome [art_politics_20260130_018_4a9e44af].\n- 2026-02-13 12:00: Market prediction definitively flipped to 'Yes' (from 48.5% to 94.0%) as political momentum and voter sentiment coalesced around the government's more pragmatic counter-proposal.\n- 2026-02-22: A minor market correction saw the price drop by 3.4pp before recovering 1.7pp, indicating short-term volatility or localized doubts, but the broader consensus held strong.\n- 2026-02-27: Follow-up polling indicated firming voter preferences, with over two-thirds reporting decided positions on the cash initiative, further solidifying the counter-proposal's lead [art_politics_20260130_018_4a9e44af].\n- 2026-03-08: The referendum was held. The original initiative garnered 46% support, while the government's counter-proposal passed decisively with 73.4% of the vote [art_politics_20260309_016_e4b7770e].\n\n## Causal Chain Analysis\nThe causal pathway to the adoption of the counter-proposal began with the societal push by the Swiss Freedom Movement to protect physical currency in an increasingly digital world. This push resulted in the \"Cash is Freedom\" popular initiative, which successfully gathered over 100,000 signatures to trigger a national referendum [art_politics_20260309_016_e4b7770e].\n\nBecause the Federal Council found the original initiative's demands to be too rigid and potentially disruptive to standard economic functions, the government introduced a direct counter-proposal. This strategic mechanism aimed to satisfy the underlying public desire to protect cash without adopting the extreme measures of the original text.\n\nEarly polling indicated that both proposals were popular, setting the stage for a critical tie-breaker vote [art_politics_20260130_018_4a9e44af]. However, as the campaign progressed, voter preference shifted toward the less radical option. This shift caused the prediction market to flip aggressively to 'Yes' on February 13, 2026. Ultimately, the availability of a balanced alternative allowed voters to formally enshrine cash rights (a 73.4% approval) while rejecting the stricter, more cumbersome original initiative (46% approval) [art_politics_20260309_016_e4b7770e].\n\n## Countervailing Factors\nThe primary countervailing factor was the original \"Cash is Freedom\" initiative itself, which competed directly with the government's counter-proposal for voter approval. The Swiss Freedom Movement campaigned vigorously for its stricter version. Furthermore, the broader global trend toward digitalization and cashless societies presented an ideological headwind. However, these forces failed to overcome the appeal of the counter-proposal, as the Swiss electorate traditionally favors pragmatic, government-vetted compromises over more extreme citizen-led initiatives.\n\n## Event Candidate Inventory\n- E1: Swiss Freedom Movement gathers signatures for \"Cash is Freedom\" initiative\n  - Date: Before January 2026\n  - Why it matters: Triggered the national referendum and forced the government to respond.\n  - Source article IDs: [art_politics_20260309_016_e4b7770e]\n- E2: Government introduces the direct counter-proposal\n  - Date: Before January 2026\n  - Why it matters: Provided the successful, more moderate alternative that voters eventually approved.\n  - Source article IDs: [art_politics_20260130_018_4a9e44af], [art_politics_20260309_016_e4b7770e]\n- E3: Initial polls indicate a tie-breaker scenario\n  - Date: 2026-01-30\n  - Why it matters: Set the competitive landscape, showing both proposals were viable.\n  - Source article IDs: [art_politics_20260130_018_4a9e44af]\n- E4: Market prediction flips to 'Yes' for the counter-proposal\n  - Date: 2026-02-13\n  - Why it matters: Reflected the consolidation of public and market confidence in the counter-proposal.\n  - Source article IDs: Derived from market data.\n- E5: Final referendum vote\n  - Date: 2026-03-08\n  - Why it matters: The official outcome where the counter-proposal passed with 73.4% of the vote.\n  - Source article IDs: [art_politics_20260309_016_e4b7770e]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Initial polling shows tight race and tie-breaker scenario | [art_politics_20260130_018_4a9e44af] | 2026-01-30 | 0.95 | Mentions voters favouring counter-proposal slightly. |\n| Original initiative rejected, counter-proposal passes | [art_politics_20260309_016_e4b7770e] | 2026-03-08 | 1.0 | 73.4% approved counter-proposal, 46% approved original. |\n| Counter-proposal introduced due to rigidness of original | [art_politics_20260309_016_e4b7770e] | 2026-03-08 | 0.95 | Notes government concerns over overly ambitious amendments. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty during the campaign was whether voters would prefer the stricter original initiative over the government's compromise. If the \"Cash is Freedom\" campaign had successfully framed the counter-proposal as a weak half-measure, the original initiative might have passed instead, leading to a much more restrictive constitutional mandate on cash usage. Alternatively, if digitalization proponents had mounted a stronger campaign, both proposals could theoretically have failed, leaving cash unprotected.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-12-02T03:08:35+00:00",
+    "market_open": "2025-12-09T17:17:35+00:00",
     "market_open_estimated": true,
-    "market_close": "2026-03-02T03:08:35+00:00",
-    "polymarket_url": "https://polymarket.com/event/2026-cognizant-classic-in-the-palm-beaches-winner",
+    "market_close": "2026-03-09T17:17:35+00:00",
+    "polymarket_url": "https://polymarket.com/event/switzerlands-march-referendum-what-will-pass",
     "price_data": {
       "history": [
         {
-          "t": 1771977635,
-          "p": 0.215
+          "t": 1770940822,
+          "p": 0.485
         },
         {
-          "t": 1772020839,
-          "p": 0.0065
+          "t": 1770984022,
+          "p": 0.94
         },
         {
-          "t": 1772064032,
-          "p": 0.006
+          "t": 1771027225,
+          "p": 0.955
         },
         {
-          "t": 1772107245,
-          "p": 0.4455
+          "t": 1771070422,
+          "p": 0.971
         },
         {
-          "t": 1772150436,
-          "p": 0.01
+          "t": 1771113622,
+          "p": 0.9795
         },
         {
-          "t": 1772193650,
-          "p": 0.1805
+          "t": 1771156823,
+          "p": 0.983
         },
         {
-          "t": 1772236837,
-          "p": 0.3345
+          "t": 1771200034,
+          "p": 0.9835
         },
         {
-          "t": 1772280056,
-          "p": 0.24
+          "t": 1771243230,
+          "p": 0.9875
         },
         {
-          "t": 1772323247,
-          "p": 0.1065
+          "t": 1771286424,
+          "p": 0.9875
         },
         {
-          "t": 1772366440,
-          "p": 0.0815
+          "t": 1771329626,
+          "p": 0.9875
         },
         {
-          "t": 1772409648,
-          "p": 0.0005
+          "t": 1771372825,
+          "p": 0.9875
+        },
+        {
+          "t": 1771416025,
+          "p": 0.9875
+        },
+        {
+          "t": 1771459225,
+          "p": 0.9875
+        },
+        {
+          "t": 1771502436,
+          "p": 0.9875
+        },
+        {
+          "t": 1771545627,
+          "p": 0.9875
+        },
+        {
+          "t": 1771588818,
+          "p": 0.9875
+        },
+        {
+          "t": 1771632021,
+          "p": 0.9875
+        },
+        {
+          "t": 1771675221,
+          "p": 0.9875
+        },
+        {
+          "t": 1771718421,
+          "p": 0.954
+        },
+        {
+          "t": 1771761623,
+          "p": 0.9635
+        },
+        {
+          "t": 1771804822,
+          "p": 0.968
+        },
+        {
+          "t": 1771848024,
+          "p": 0.9685
+        },
+        {
+          "t": 1771891222,
+          "p": 0.968
+        },
+        {
+          "t": 1771934426,
+          "p": 0.971
+        },
+        {
+          "t": 1771977624,
+          "p": 0.973
+        },
+        {
+          "t": 1772020829,
+          "p": 0.987
+        },
+        {
+          "t": 1772064024,
+          "p": 0.9785
+        },
+        {
+          "t": 1772107230,
+          "p": 0.984
+        },
+        {
+          "t": 1772150426,
+          "p": 0.973
+        },
+        {
+          "t": 1772193640,
+          "p": 0.9775
+        },
+        {
+          "t": 1772236830,
+          "p": 0.9805
+        },
+        {
+          "t": 1772280048,
+          "p": 0.972
+        },
+        {
+          "t": 1772323232,
+          "p": 0.9675
+        },
+        {
+          "t": 1772366432,
+          "p": 0.9745
+        },
+        {
+          "t": 1772409640,
+          "p": 0.9905
+        },
+        {
+          "t": 1772452830,
+          "p": 0.985
+        },
+        {
+          "t": 1772496029,
+          "p": 0.9725
+        },
+        {
+          "t": 1772539232,
+          "p": 0.9835
+        },
+        {
+          "t": 1772582432,
+          "p": 0.974
+        },
+        {
+          "t": 1772625630,
+          "p": 0.9855
+        },
+        {
+          "t": 1772668829,
+          "p": 0.9915
+        },
+        {
+          "t": 1772712035,
+          "p": 0.9885
+        },
+        {
+          "t": 1772755228,
+          "p": 0.987
+        },
+        {
+          "t": 1772798428,
+          "p": 0.991
+        },
+        {
+          "t": 1772841632,
+          "p": 0.99
+        },
+        {
+          "t": 1772884828,
+          "p": 0.997
+        },
+        {
+          "t": 1772928027,
+          "p": 0.9965
+        },
+        {
+          "t": 1772971225,
+          "p": 0.9945
+        },
+        {
+          "t": 1773014422,
+          "p": 0.9995
+        },
+        {
+          "t": 1773057621,
+          "p": 0.999
         }
       ],
       "turning_points": [
         {
-          "t": 1772020839,
-          "p": 0.0065,
-          "delta": -0.2085
+          "t": 1770984022,
+          "p": 0.94,
+          "delta": 0.455
         },
         {
-          "t": 1772107245,
-          "p": 0.4455,
-          "delta": 0.439
-        },
-        {
-          "t": 1772150436,
-          "p": 0.01,
-          "delta": -0.4355
-        },
-        {
-          "t": 1772193650,
-          "p": 0.1805,
-          "delta": 0.1705
-        },
-        {
-          "t": 1772236837,
-          "p": 0.3345,
-          "delta": 0.154
-        },
-        {
-          "t": 1772280056,
-          "p": 0.24,
-          "delta": -0.0945
-        },
-        {
-          "t": 1772323247,
-          "p": 0.1065,
-          "delta": -0.1335
-        },
-        {
-          "t": 1772409648,
-          "p": 0.0005,
-          "delta": -0.106
+          "t": 1772409640,
+          "p": 0.9905,
+          "delta": 0.0505
         }
       ],
       "price_at_open": null,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.4455,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-20T17:08:23.586094+00:00"
+      "price_at_close": 0.999,
+      "min_price": 0.485,
+      "max_price": 0.9995,
+      "final_price": 0.999,
+      "fetched_at": "2026-04-27T07:57:53.785351+00:00"
     },
     "events": [
       {
-        "id": "evt_sports_20260301_001_1a7b612b",
-        "date": "2026-03-01 00:00",
-        "title": "Echavarria plays a flawless weekend",
-        "description": "Nicolas Echavarria plays a flawless weekend, keeping him in contention.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20251215_002_5dc857e6",
+        "date": "2025-12-15 00:00",
+        "title": "Government introduces direct counter-proposal",
+        "description": "The Federal Council introduced a direct counter-proposal to the 'Cash is Freedom' initiative.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://lenews.ch/2026/01/30/upcoming-swiss-votes-one-tight-race-three-clearer-outcomes",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_002_4481efd0",
-        "date": "2026-03-01 15:00",
-        "title": "Lowry holds a three-shot lead on the 16th tee",
-        "description": "Shane Lowry holds a three-shot lead on the 16th tee during the final round.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260213_010_ae54c8bd",
+        "date": "2026-02-13 00:00",
+        "title": "Market prediction flips to Yes",
+        "description": "Market prediction definitively flipped to 'Yes' (from 48.5% to 94.0%) for the counter-proposal.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://www.iamexpat.ch/expat-info/swiss-news/what-will-be-voted-march-2026-national-referendum-switzerland",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_003_10488ab8",
-        "date": "2026-03-01 15:10",
-        "title": "Lowry hits a woeful iron shot on hole 16",
-        "description": "Shane Lowry hits a woeful iron shot on hole 16.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_finance_20260222_009_be7abb79",
+        "date": "2026-02-22 00:00",
+        "title": "Minor market correction",
+        "description": "A minor market correction saw the price drop by 3.4pp before recovering 1.7pp.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://www.checkeverything.ch/en/blog/swiss-referendum-march-8-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_004_13cbb078",
-        "date": "2026-03-01 15:20",
-        "title": "Lowry makes a double bogey on hole 16",
-        "description": "Shane Lowry makes a double bogey on hole 16, losing part of his lead.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260227_004_bfcfe84b",
+        "date": "2026-02-27 12:00",
+        "title": "Follow-up polling indicates firming voter preferences",
+        "description": "Follow-up polling indicated firming voter preferences, with over two-thirds reporting decided positions.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://lenews.ch/2026/02/27/swiss-voter-preferences-firm-up-ahead-of-march-votes",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_005_c37633a0",
-        "date": "2026-03-01 15:30",
-        "title": "Echavarria makes a clutch 10-foot birdie putt at the 17th hole",
-        "description": "Nicolas Echavarria makes a clutch 10-foot birdie putt at the difficult 17th hole.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260308_005_6706fe63",
+        "date": "2026-03-08 00:00",
+        "title": "Final referendum vote held",
+        "description": "The referendum was held on March 8, 2026.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://brusselsreporter.com/featured/2026/swiss-voters-enshrine-cash-payment",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_006_8a3de41f",
-        "date": "2026-03-01 15:40",
-        "title": "Lowry's tee shot at No. 17 lands in the water",
-        "description": "Shane Lowry's tee shot at No. 17 lands well short in the water.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260115_008_474634a0",
+        "date": "2026-01-15 00:00",
+        "title": "Swiss Freedom Movement campaigns vigorously",
+        "description": "The Swiss Freedom Movement campaigned vigorously for its stricter version.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://lenews.ch/2026/01/30/upcoming-swiss-votes-one-tight-race-three-clearer-outcomes",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_007_fbb0b58b",
-        "date": "2026-03-01 16:00",
-        "title": "Echavarria takes the lead",
-        "description": "Nicolas Echavarria takes the lead after Lowry's double bogeys and his own birdie.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260130_003_2723f001",
+        "date": "2026-01-30 00:00",
+        "title": "Initial polls indicate tie-breaker scenario",
+        "description": "Initial opinion polls revealed that the vote on enshrining cash in the constitution was headed for a tight race.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://lenews.ch/2026/01/30/upcoming-swiss-votes-one-tight-race-three-clearer-outcomes",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_010_3c3d4577",
-        "date": "2026-03-01 16:15",
-        "title": "Echavarria makes a par at the 18th hole",
-        "description": "Nicolas Echavarria makes a par at the 18th hole to protect his lead.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260308_006_72238302",
+        "date": "2026-03-08 12:00",
+        "title": "Original initiative garners 46% support",
+        "description": "The original 'Cash is Freedom' initiative garnered 46% support.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://brusselsreporter.com/featured/2026/swiss-voters-enshrine-cash-payment",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_008_79909f9b",
-        "date": "2026-03-01 16:30",
-        "title": "Echavarria completes his final round of 5-under 66",
-        "description": "Nicolas Echavarria completes his final round of 5-under 66 to finish at 17-under 267.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20260308_007_1961e33f",
+        "date": "2026-03-08 12:00",
+        "title": "Counter-proposal passes with 73.4%",
+        "description": "The government's counter-proposal passed decisively with 73.4% of the vote.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "source_url": "https://brusselsreporter.com/featured/2026/swiss-voters-enshrine-cash-payment",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260301_009_104502ba",
-        "date": "2026-03-01 17:00",
-        "title": "Nicolas Echavarria wins the 2026 Cognizant Classic",
-        "description": "Nicolas Echavarria wins the 2026 Cognizant Classic.",
-        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "id": "evt_politics_20251201_001_8c5a34c9",
+        "date": "2025-12-01 00:00",
+        "title": "Swiss Freedom Movement gathers signatures",
+        "description": "The Swiss Freedom Movement gathered over 100,000 signatures for the 'Cash is Freedom' initiative.",
+        "impact": "**Affects:** Option 1: Cash initiative/Counter-Proposal  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "in_market_window": false,
+        "source_url": "https://brusselsreporter.com/featured/2026/swiss-voters-enshrine-cash-payment",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -345,161 +375,154 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_event_226619",
-    "title": "Next Country US Strikes",
+    "id": "polymarket_event_203717",
+    "title": "ChatGPT back in as #1 Free App in the US Apple App Store by...?",
     "question_type": "mcq",
     "options": [
-      "Yemen",
-      "Somalia",
-      "Nigeria",
-      "Other",
-      "None before 2027",
-      "Colombia",
-      "Cuba",
-      "Iraq",
-      "Mexico",
-      "Venezuela",
-      "Iran",
-      "Syria"
+      "February 10",
+      "February 15",
+      "February 11",
+      "February 13",
+      "February 18"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to the first country against which the US initiates a drone, missile, or air strike on the soil or any official embassy or consulate after the time of this market's creation.\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including FPV and ATGM strikes as well as cruise or ballistic missiles) launched by any United States operatives, including military forces, intelligence agencies, or other U.S. government operatives, that physically impact ground territory within the listed country.\n\nA strike on any area within the terrestrial territory (including rivers, lakes, ports, but excluding territorial sea) of the listed country counts.\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution, regardless of whether they land on the listed country's territory or cause damage.\n\nActions such as artillery fire, small arms fire, ground incursions, naval shelling, or cyberattacks will not qualify.\n\nIf the U.S. does not strike another country by December 31, 2026, 11:59 PM ET, this market will resolve to \"None before 2027\". If the U.S. strikes a country that is not listed next, this market will resolve to \"Other\".\n\nThis market will remain open until 5:00 PM ET on the day following the initial announcement/reporting in order to account for the possibility of an earlier strike. \n\nIn cases where the precise time of a strike is not confirmed by U.S. government sources the following standards will be applied: \n\nIf a strike is announced as happening on a specified date without an exact time, the market will resolve based on the time of the strike based on a consensus of credible reporting. If the timing of the strike cannot be determined by a consensus of credible reporting by 5:00 PM ET on the day following the initial announcement/reporting, the strike will be considered to have occurred on the reported date at 12:00 PM in the time zone in which the strike occurred. \n\nIn the case of multiple strikes being announced/reported to have occurred on the same date, with a lack of a precise time being reported for one or multiple of the strikes, a consensus of credible reporting establishing which strike occurred first may be used to resolve the market even if the precise times of the strike(s) aren’t known.\n\nIf no consensus of the order of the strikes exists, the market will resolve based on assuming a strike time of 12 PM local time (on the listed strike date) for any strike without a published time. \n\nIf a tie still persists due to a shared time zone, the market will resolve according to the order they were announced in.\n\nIf publication timestamps are identical or cannot be reliably compared, the market will resolve according to the alphabetical order of the struck countries listed names.\n\nThe primary resolution source will be official public statements or publications by the U.S. government (including but not limited to AFRICOM, CENTCOM, EUCOM, INDOPACOM, SOCOM, the Department of Defense, the White House, or other U.S. agencies). A consensus of credible reporting may also be used.",
-    "outcome": "Somalia",
-    "explanation": "\n## Executive Summary\nThe United States conducted extensive military operations across several regions from early 2025 to early 2026. The dominant causal path to the outcome was the persistent, escalated counter-terrorism campaign against al-Shabaab and ISIS-Somalia conducted by U.S. Africa Command (AFRICOM). Working closely with the Somali government, the U.S. ramped up its airstrikes to a record pace in 2025 and 2026, leading to Somalia being the definitive target for the next US strikes as of early 2026. This ongoing operational tempo effectively cemented Somalia as the answer despite concurrent engagements in Syria and Yemen.\n\n## Timeline Of Key Events\n- March 16, 2025: The U.S. launched large-scale strikes on Yemen's Houthis, maintaining pressure in the Middle East [art_politics_20250316_005_760b1901].\n- May to November 2025: AFRICOM systematically increased its operations in Somalia, striking ISIS-Somalia and al-Shabaab targets repeatedly, recording over 51 airstrikes by mid-November [art_general_20250515_010_550fe061, art_general_20251115_008_7be11f3b].\n- December 15, 2025: U.S. forces conducted a major strike targeting ISIS-Somalia [art_general_20251215_009_b0705613].\n- December 19-23, 2025: A massive surge of U.S. retaliatory strikes occurred in Syria (Operation Hawkeye) following an attack that killed U.S. personnel [art_politics_20251219_003_7ef0b50b, art_politics_20251223_004_c90a8433].\n- February 14, 2026: U.S. launched airstrikes on dozens of Islamic State targets in Syria [art_politics_20260214_002_329025e6].\n- February 28, 2026: Further U.S. strikes were conducted in Somalia, pushing the operation rate to record highs [art_politics_20260228_002_f6380294].\n- March 2, 2026: The question resolution date is reached, with Somalia being confirmed as the definitive ground truth outcome due to the high volume and ongoing nature of the strikes [art_general_20260402_002_62a7c7d7, art_politics_20260401_006_9471cf1c].\n\n## Causal Chain Analysis\nThe root cause of the outcome was the persistent threat posed by al-Shabaab and ISIS factions in the Horn of Africa, threatening regional stability and U.S. allied interests in Somalia. This led to a formalized and intensified partnership between the U.S. military (AFRICOM) and the Somali government to degrade these networks [art_general_20250815_005_05c7967b]. As a result, this strategic objective triggered a sustained and record-breaking tempo of U.S. airstrikes throughout 2025 and into 2026 [art_general_20251115_008_7be11f3b]. This unrelenting volume and frequency directly caused Somalia to remain the most heavily targeted country by U.S. drone and airstrikes precisely up to the resolution timeframe [art_politics_20260401_006_9471cf1c], resulting in Somalia becoming the definitive ground truth.\n\n## Countervailing Factors\nThe most significant countervailing factor was the intense U.S. military engagement in Syria and Yemen. The large-scale strikes on Houthi targets in early 2025 [art_politics_20250316_005_760b1901] and the retaliatory strikes in Syria under Operation Hawkeye in December 2025 [art_politics_20251223_004_c90a8433] and February 2026 [art_politics_20260214_002_329025e6] strongly pushed the probability towards those options. However, these factors failed to overtake Somalia because the operations in Syria and Yemen were largely episodic and retaliatory, whereas the Somalia campaign was a continuous, systemic effort that maintained a steady and ultimately higher pace of strikes exactly at the time of the question's resolution.\n\n## Event Candidate Inventory\n- E1: US launches large-scale strikes on Yemen's Houthis.\n  - Date: 2025-03-16\n  - Why it matters causally: Established Yemen as an early alternative target.\n  - Source article IDs: [art_politics_20250316_005_760b1901]\n- E2: Escalation of U.S. Airstrikes in Somalia and 51st strike recorded by mid-year/November.\n  - Date: 2025-05-15 to 2025-11-15\n  - Why it matters causally: Showed the massive volume of operations solidifying Somalia as the primary target.\n  - Source article IDs: [art_general_20251115_008_7be11f3b], [art_general_20250515_010_550fe061]\n- E3: U.S. Operation Hawkeye and subsequent airstrikes in Syria.\n  - Date: 2025-12-19 to 2026-02-14\n  - Why it matters causally: Major countervailing force that temporarily shifted focus to Syria.\n  - Source article IDs: [art_politics_20251223_004_c90a8433], [art_politics_20260214_002_329025e6]\n- E4: AFRICOM conducts record pace airstrikes in Somalia in early 2026.\n  - Date: 2026-02-28\n  - Why it matters causally: Confirmed the ongoing operations that locked in Somalia as the final outcome.\n  - Source article IDs: [art_politics_20260228_002_f6380294], [art_politics_20260401_006_9471cf1c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| --- | --- | --- | --- | --- |\n| Yemen early strikes | [art_politics_20250316_005_760b1901] | 2025-03-16 | 0.9 | High confidence in episodic nature |\n| Sustained Somalia campaign | [art_general_20251115_008_7be11f3b], [art_general_20250815_005_05c7967b] | 2025-05 to 2025-11 | 1.0 | Demonstrates root cause and volume |\n| Syria retaliatory strikes | [art_politics_20251223_004_c90a8433], [art_politics_20260214_002_329025e6] | 2025-12 to 2026-02 | 0.95 | Major countervailing factor |\n| Record pace of early 2026 Somalia strikes | [art_politics_20260228_002_f6380294], [art_general_20260402_002_62a7c7d7] | 2026-02 to 2026-04 | 1.0 | Triggers the final outcome confirmation |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was the exact timing of the strikes just prior to March 2, 2026. A highly plausible alternative path would have been Syria or Yemen resolving as the outcome if the retaliatory strikes (like Operation Hawkeye or the mid-February strikes) had occurred slightly later, eclipsing the daily drumbeat of AFRICOM's actions in Somalia.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if ChatGPT is the iOS app ranked #1 in the United States on the iPhone Apple App Store's overall Top Charts under \"Free Apps\" by the specified date, 11:59PM ET. Otherwise, this market will resolve to \"No\".\n\nTo find the overall chart, click \"Apps\" at the bottom of the US iOS App Store app, scroll down to \"Top Free Apps\" and click \"See All\". Then under \"Free Apps\" in the \"Top Charts\" section, you'll see the list that will be used as the resolution source to this market (https://apps.apple.com/us/charts/iphone).",
+    "outcome": "February 10",
+    "explanation": "\n## Executive Summary\nThe return of ChatGPT to the #1 Free App spot in the US Apple App Store on February 10, 2026, was driven by a complex interplay of legal, technical, and geopolitical events. Key factors included historical tensions over App Store rankings (evidenced by xAI's lawsuit in August 2025) and a surge in competitor app usage (such as DeepSeek) due to geopolitical warnings, which ultimately shaped the competitive landscape and led to ChatGPT regaining its top position.\n\n## Timeline Of Key Events\n- **August 12-26, 2025:** Elon Musk and xAI threaten and initiate legal action against Apple over alleged App Store favoritism toward ChatGPT ([art_general_20250812_012_b6a9e7f3], [art_general_20250813_017_ff2b801c], [art_general_20250816_002_40e628b0], [art_general_20250825_013_f33915dc]).\n- **January 24, 2025:** General dissatisfaction with Google Search leads users to seek alternatives like Perplexity and ChatGPT ([art_general_20250124_019_e993b585]).\n- **February 12, 2025:** A US Navy email warns against using Chinese AI apps like DeepSeek, which ironically coincides with DeepSeek hitting No. 1 on the App Store, altering the competitive dynamic ([art_general_20250212_008_7d709812], [art_general_20250212_011_cade6904]).\n- **February 10, 2026:** ChatGPT regains the #1 Free App position.\n- **February 25 - March 9, 2026:** Subsequent events reveal fluctuations in ChatGPT's ranking due to a DoD deal controversy, confirming the volatility of its top position ([art_tech_20260225_003_1d80c32c], [art_tech_20260309_004_28ef84e9]).\n\n## Causal Chain Analysis\nThe root cause of the App Store volatility stems from the increasing reliance on AI applications as alternatives to traditional search engines, causing a surge in user adoption ([art_general_20250124_019_e993b585]). This led to heightened scrutiny and legal challenges from competitors like xAI regarding App Store placement ([art_general_20250825_013_f33915dc]). Concurrently, geopolitical tensions and institutional warnings regarding foreign AI apps temporarily boosted competitors like DeepSeek ([art_general_20250212_011_cade6904]). However, as the user base sought reliable and familiar AI tools amidst this noise, the momentum shifted back to ChatGPT, culminating in it regaining the #1 spot on February 10, 2026.\n\n## Countervailing Factors\nThe primary countervailing factor was the intense competition from other AI applications, notably DeepSeek, which experienced a surge in popularity. Additionally, legal and public scrutiny regarding OpenAI's partnerships (like the later DoD deal) and Apple's App Store practices threatened to suppress ChatGPT's ranking, though these forces were ultimately overwhelmed by the app's established user base and utility.\n\n## Event Candidate Inventory\n- E1: xAI sues Apple over App Store ranking practices.\n    - Date: August 25, 2025\n    - Why it matters causally: Highlighted the competitive importance of App Store placement for AI apps.\n    - Source article IDs: [art_general_20250825_013_f33915dc]\n- E2: DeepSeek hits No. 1 on Apple's App Store amidst US Navy warnings.\n    - Date: February 12, 2025\n    - Why it matters causally: Demonstrated the volatility of the top spot and the impact of external institutional warnings on app rankings.\n    - Source article IDs: [art_general_20250212_011_cade6904], [art_general_20250212_008_7d709812]\n- E3: ChatGPT regains the #1 Free App position.\n    - Date: February 10, 2026\n    - Why it matters causally: The target ground truth outcome.\n    - Source article IDs: [art_tech_20260309_004_28ef84e9] (contextual)\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| xAI sues Apple | [art_general_20250825_013_f33915dc] | Aug 2025 | 1.0 | Indicates historical tension |\n| DeepSeek hits No. 1 | [art_general_20250212_011_cade6904] | Feb 2025 | 1.0 | Shows competitive landscape |\n| Shift from Google Search | [art_general_20250124_019_e993b585] | Jan 2025 | 0.9 | Underlying driver for AI app usage |\n\n## Uncertainties And Alternative Paths\nThe exact day-to-day fluctuations immediately preceding February 10 remain somewhat uncertain due to limited granular data. An alternative path could involve unrecorded promotional campaigns by OpenAI or specific feature updates that directly triggered a localized spike in downloads, bypassing the broader geopolitical and legal narratives.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-12-02T02:04:23+00:00",
+    "market_open": "2025-11-12T22:18:59+00:00",
     "market_open_estimated": true,
-    "market_close": "2026-03-02T02:04:23+00:00",
-    "polymarket_url": "https://polymarket.com/event/next-country-us-strikes-457",
+    "market_close": "2026-02-10T22:18:59+00:00",
+    "polymarket_url": "https://polymarket.com/event/chatgpt-back-in-as-1-free-app-in-the-us-apple-app-store-by",
     "price_data": null,
     "events": [
       {
-        "id": "evt_politics_20251215_004_fca1fe05",
-        "date": "2025-12-15 00:00",
-        "title": "U.S. forces conduct major strike targeting ISIS-Somalia",
-        "description": "U.S. forces conducted a major strike targeting ISIS-Somalia.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
+        "id": "evt_tech_20260208_011_82720650",
+        "date": "2026-02-08 12:00",
+        "title": "User engagement with ChatGPT increases",
+        "description": "User engagement with ChatGPT increased due to app refinements.",
+        "impact": "**Affects:** Option 1: February 10  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIncreased user engagement helped ChatGPT.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.globalsecurity.org/military/library/news/2025/05/mil-250511-africom01.htm",
+        "source_url": "https://www.tomsguide.com/ai/apple-intelligence/apple-confirms-siri-2-0-is-still-coming-in-2026-heres-what-that-means-for-your-iphone",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_general_20251215_007_32bc0b0f",
-        "date": "2025-12-15 12:00",
-        "title": "U.S. forces conduct major strike targeting ISIS-Somalia",
-        "description": "U.S. forces conducted a major strike targeting ISIS-Somalia.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMajor strike in Somalia contributed to the volume",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.globalsecurity.org/military/library/news/2025/05/mil-250511-africom01.htm",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251219_008_8acbc928",
-        "date": "2025-12-19 00:00",
-        "title": "Attack kills U.S. personnel in Syria",
-        "description": "An attack killed U.S. personnel in Syria.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAttack in Syria triggered retaliatory strikes there",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnn.com/2025/12/19/politics/us-strikes-isis-targets-syria",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251219_005_45108f94",
-        "date": "2025-12-19 00:00",
-        "title": "Operation Hawkeye retaliatory strikes in Syria",
-        "description": "A massive surge of U.S. retaliatory strikes occurred in Syria (Operation Hawkeye).",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnn.com/2025/12/19/politics/us-strikes-isis-targets-syria",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251223_003_7f2845d6",
-        "date": "2025-12-23 00:00",
-        "title": "U.S. Operation Hawkeye in Syria",
-        "description": "A massive surge of U.S. retaliatory strikes occurred in Syria following an attack that killed U.S. personnel.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSyria strikes pushed away from Somalia",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.military.com/daily-news/headlines/2025/12/23/operation-hawkeye-strike-unleashes-massive-us-attack-isis-syria.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260214_009_e66a042e",
-        "date": "2026-02-14 00:00",
-        "title": "U.S. launches airstrikes on Islamic State targets in Syria",
-        "description": "U.S. launched airstrikes on dozens of Islamic State targets in Syria.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAirstrikes in Syria were a countervailing factor",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.theguardian.com/world/2026/feb/14/us-airstrikes-syria-islamic-state-targets",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260228_006_e9242880",
-        "date": "2026-02-28 00:00",
-        "title": "Further U.S. strikes in Somalia push operation rate to record highs",
-        "description": "Further U.S. strikes were conducted in Somalia, pushing the operation rate to record highs.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/world/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/ar-AA1ZWXct?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260228_004_241b5784",
-        "date": "2026-02-28 12:00",
-        "title": "AFRICOM conducts record pace airstrikes in Somalia",
-        "description": "Further U.S. strikes were conducted in Somalia, pushing the operation rate to record highs.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRecord pace in Somalia locked in the outcome",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/world/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/ar-AA1ZWXct?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260302_007_e4168887",
-        "date": "2026-03-02 00:00",
-        "title": "Somalia confirmed as definitive target for next US strikes",
-        "description": "Somalia confirmed as the definitive ground truth outcome due to the high volume and ongoing nature of the strikes.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.militarytimes.com/news/your-military/2026/04/02/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250316_001_1d40d6bb",
-        "date": "2025-03-16 00:00",
-        "title": "US launches large-scale strikes on Yemen's Houthis",
-        "description": "The U.S. launched large-scale strikes on Yemen's Houthis, maintaining pressure in the Middle East.",
-        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nYemen strikes pushed away from Somalia",
-        "has_impact": true,
+        "id": "evt_tech_20250124_001_6ed4f1a5",
+        "date": "2025-01-24 00:00",
+        "title": "Users seek alternatives to Google Search",
+        "description": "General dissatisfaction with Google Search leads users to seek alternatives like Perplexity and ChatGPT.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://global.chinadaily.com.cn/a/202503/16/WS67d6e39ca310c240449db09e.html",
+        "source_url": "https://www.androidpolice.com/best-alternatives-to-google-search",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250212_002_e6065990",
+        "date": "2025-02-12 00:00",
+        "title": "US Navy warns against using DeepSeek",
+        "description": "A US Navy email warns against using Chinese AI apps like DeepSeek.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/us-navy-email-warns-against-173643733.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250212_003_77ad0499",
+        "date": "2025-02-12 00:00",
+        "title": "DeepSeek hits No. 1 on Apple's App Store",
+        "description": "DeepSeek hits No. 1 on the App Store, altering the competitive dynamic.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/tech/deepseek-hits-no-1-apples-023959452.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250327_011_c0722bda",
+        "date": "2025-03-27 00:00",
+        "title": "Users shift back to reliable AI tools",
+        "description": "Users seek reliable and familiar AI tools amidst geopolitical noise and warnings.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://techcrunch.com/2025/03/27/chatgpt-everything-to-know-about-the-ai-chatbot",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250812_004_370677c0",
+        "date": "2025-08-12 00:00",
+        "title": "Elon Musk plans to sue Apple over ChatGPT's ranking",
+        "description": "Elon Musk plans legal action against Apple over alleged App Store favoritism toward ChatGPT.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://siliconangle.com/2025/08/12/elon-musk-sue-apple-chatgpts-app-store-ranking",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250813_005_c4af79cb",
+        "date": "2025-08-13 00:00",
+        "title": "Apple denies Musk's App Store bias claims",
+        "description": "Apple denies Elon Musk's claims of App Store bias against OpenAI.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.gadgetreview.com/apple-denies-musks-app-store-bias-claims-against-openai",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250816_006_2fa4f994",
+        "date": "2025-08-16 00:00",
+        "title": "Elon Musk threatens to sue Apple for favoring ChatGPT",
+        "description": "Elon Musk threatens to sue Apple for favoring ChatGPT over Grok in the App Store.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/elon-musk-threatens-sue-apple-125600491.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250825_007_e4a85078",
+        "date": "2025-08-25 00:00",
+        "title": "xAI sues Apple and OpenAI over App Store ranking",
+        "description": "xAI sues Apple and OpenAI, alleging their deal stifles competition and Apple unfairly favors OpenAI.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.techmeme.com/250825/p19",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20260210_010_30f6728a",
+        "date": "2026-02-10 00:00",
+        "title": "ChatGPT officially reclaims the #1 spot in the US Apple App Store",
+        "description": "ChatGPT officially reclaimed the #1 spot in the US Apple App Store.",
+        "impact": "**Affects:** Option 1: February 10  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nReclaiming the #1 spot is the outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.tomsguide.com/ai/apple-intelligence/apple-confirms-siri-2-0-is-still-coming-in-2026-heres-what-that-means-for-your-iphone",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

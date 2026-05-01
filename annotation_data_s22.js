@@ -564,19 +564,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250304_004_e37c892a",
-        "date": "2025-03-04 00:00",
-        "title": "Congressional Leaders Reassure Markets",
-        "description": "Congressional leaders reassure that bipartisan legislation legally prevents unilateral presidential withdrawal from NATO.",
-        "impact": "**Affects:** No - Will Trump withdraw the U.S. from NATO in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nReassurances push towards staying.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/europeans-concerned-us-withdraw-support-124725881.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_finance_20250304_005_74397fad",
         "date": "2025-03-04 12:00",
         "title": "Market Sentiment Shifts Positively",
@@ -650,6 +637,19 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://6abc.com/post/trump-calls-nato-countries-stop-buying-russian-oil-threatens-50-100-tariffs-china/17820282",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250304_004_e37c892a",
+        "date": "2025-03-04 00:00",
+        "title": "Congressional Leaders Reassure Markets",
+        "description": "Congressional leaders reassure that bipartisan legislation legally prevents unilateral presidential withdrawal from NATO.",
+        "impact": "**Affects:** No - Will Trump withdraw the U.S. from NATO in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nReassurances push towards staying.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/europeans-concerned-us-withdraw-support-124725881.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -997,24 +997,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260215_006_f5113e06",
+        "id": "evt_politics_20260215_007_e9d9ea45",
         "date": "2026-02-15 00:00",
-        "title": "Ukraine demands robust security guarantees",
-        "description": "Ukraine maintained its existential need for sovereignty and robust security guarantees.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDemands for security guarantees complicate agreement.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260215_009_ec41fdf1",
-        "date": "2026-02-15 00:00",
-        "title": "Domestic political pressure reinforces hardline stances",
-        "description": "Escalations reinforced domestic political pressure on both sides to avoid perceived capitulation.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDomestic pressure prevents compromise.",
+        "title": "Ukrainian forces strike Russian oil hub",
+        "description": "Ukrainian forces launched strikes against a Russian oil hub ahead of a major European summit.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMilitary escalation undermines trust.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.msn.com/en-gb/news/world/ukraine-war-kyiv-strikes-russian-oil-hub-ahead-of-macron-summit/ar-AA1YrHKV?ocid=BingNewsVerp",
@@ -1049,19 +1036,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260218_002_afaa5573",
-        "date": "2026-02-18 00:00",
-        "title": "Geneva meetings fail to produce ceasefire",
-        "description": "The Geneva meetings failed to produce any significant breakthrough or agreement on ceasefire terms.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFailure of meetings directly prevents ceasefire.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Ukraine%E2%80%93Russia_meetings_in_Geneva",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20260223_003_653d2a19",
         "date": "2026-02-23 00:00",
         "title": "UN General Assembly gathers for 4th anniversary of war",
@@ -1075,11 +1049,24 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260226_004_dd3286e5",
-        "date": "2026-02-26 00:00",
-        "title": "Analysts conclude short-term ceasefire highly unlikely",
-        "description": "Analysts publicly concluded that clashing maximalist demands made a short-term ceasefire highly unlikely by the end of the month.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalysts concluding it's unlikely strongly supports no ceasefire.",
+        "id": "evt_politics_20260224_008_3e3f3c63",
+        "date": "2026-02-24 00:00",
+        "title": "Russia-Ukraine war enters fifth year",
+        "description": "The Russia-Ukraine war officially entered its fifth year with no end in sight.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEntering fifth year confirms ongoing war.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://foreignpolicy.com/2026/02/24/russia-ukraine-war-fourth-anniversary-peace-talks-zelensky-putin",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_006_f5113e06",
+        "date": "2026-02-15 00:00",
+        "title": "Ukraine demands robust security guarantees",
+        "description": "Ukraine maintained its existential need for sovereignty and robust security guarantees.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDemands for security guarantees complicate agreement.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
@@ -1088,14 +1075,27 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260226_003_508827cf",
-        "date": "2026-02-26 00:00",
-        "title": "Russia maintains maximalist demands",
-        "description": "Russia maintains maximalist territorial demands.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMaximalist demands prevent agreement.",
+        "id": "evt_politics_20260215_009_ec41fdf1",
+        "date": "2026-02-15 00:00",
+        "title": "Domestic political pressure reinforces hardline stances",
+        "description": "Escalations reinforced domestic political pressure on both sides to avoid perceived capitulation.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDomestic pressure prevents compromise.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
+        "source_url": "https://www.msn.com/en-gb/news/world/ukraine-war-kyiv-strikes-russian-oil-hub-ahead-of-macron-summit/ar-AA1YrHKV?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_001_293d16b3",
+        "date": "2026-02-15 00:00",
+        "title": "Trump administration launches diplomatic initiative",
+        "description": "The Trump administration launches a high-pressure diplomatic initiative aimed at securing a quick resolution.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDiplomatic initiative aimed at peace.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.adn.com/nation-world/2026/02/22/after-4-years-of-war-by-russia-in-ukraine-peace-is-still-elusive-despite-a-us-push-for-a-settlement",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

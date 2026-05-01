@@ -177,19 +177,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260113_009_4d131061",
-        "date": "2026-01-13 10:00",
-        "title": "Israeli forces move closer to borders",
-        "description": "Israeli forces move closer to northern and eastern borders, increasing preparedness.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMoving forces closer increases readiness for a strike.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20260114_002_f6501f56",
         "date": "2026-01-14 10:00",
         "title": "Israeli officials make aggressive statements",
@@ -203,37 +190,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260114_003_f4a82db6",
-        "date": "2026-01-14 15:00",
-        "title": "Iran issues stern warnings against attack",
-        "description": "Iran issues stern warnings against any attack.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nWarnings of retaliation deter a strike.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Iran",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20260115_004_f952eec6",
         "date": "2026-01-15 10:00",
         "title": "US forcefully urges restraint",
         "description": "The United States forcefully urges restraint.",
         "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUS urging restraint strongly deters a strike.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/United_States",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260115_010_879c75b9",
-        "date": "2026-01-15 10:00",
-        "title": "US initiates direct high-level contacts with Israel",
-        "description": "US initiates direct high-level contacts with Israeli leadership.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirect US contacts aim to prevent a strike.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://en.wikipedia.org/wiki/United_States",
@@ -292,476 +253,765 @@ var annotationData = [
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260113_009_4d131061",
+        "date": "2026-01-13 10:00",
+        "title": "Israeli forces move closer to borders",
+        "description": "Israeli forces move closer to northern and eastern borders, increasing preparedness.",
+        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMoving forces closer increases readiness for a strike.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260114_003_f4a82db6",
+        "date": "2026-01-14 15:00",
+        "title": "Iran issues stern warnings against attack",
+        "description": "Iran issues stern warnings against any attack.",
+        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nWarnings of retaliation deter a strike.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://en.wikipedia.org/wiki/Iran",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260115_010_879c75b9",
+        "date": "2026-01-15 10:00",
+        "title": "US initiates direct high-level contacts with Israel",
+        "description": "US initiates direct high-level contacts with Israeli leadership.",
+        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirect US contacts aim to prevent a strike.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://en.wikipedia.org/wiki/United_States",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
       }
     ]
   },
   {
-    "id": "polymarket_0xabe05aa3efb620cf283a9a7f967eaced0aee898b14f3b170347a3392d7401f03",
-    "title": "Will France, UK, or Germany strike Iran by February 28?",
+    "id": "polymarket_0xaa6003296f7eda1fab2513a054df1bebd4c28eb449d905efccb81ba2c612772b",
+    "title": "Will 'Superman' have the best domestic opening weekend in 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if France, the United Kingdom, or Germany initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by French, United Kingdom, or German military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by a French, United Kingdom, or German missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by French, United Kingdom, or German ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+    "resolution_criteria": "This is a market on how whether 'Superman' (2025) will gross more domestically on its opening weekend than any other movie in 2025. The “Weekend Box Office Performance” table on https://www.the-numbers.com/movie/Superman-(2025)#tab=box-office will be used to resolve this market once the values for the 3-day opening weekend (July 11 - 13) are final (i.e. not studio estimates).\n\nThis market will resolve to \"Yes\" if 'Superman' (2025) grosses more on its 3-day domestic opening weekend than any other movie in 2025. Otherwise, this market will resolve to \"No\".\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nResolution will be based specifically on the figures provided for this movie's 3-day opening weekend (Friday, Saturday, Sunday), regardless of whether the movie has a 4 or 5-day opening weekend.\n\nIf another movie's opening weekend box office performance surpasses that of 'Superman' (2025) after numbers for both are finalized, this market may immediately resolve to \"No\".\n\nIf this movie's opening weekend box office performance ties with any other's, the movie whose title comes first in alphabetical order will win.\n\nIf there is no final data available by January 31, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
     "outcome": "No",
-    "explanation": "\n# Required Output Format\n\n## Executive Summary\nFrance, the United Kingdom, and Germany (the E3) did not strike Iran by February 28, 2026, because they collectively chose a diplomatic and defensive posture over joining the ongoing US-Israel offensive (Operation 'Epic Fury'). Despite intense pressure from the United States, particularly from President Trump, who requested the use of UK bases for strikes, the European leaders consistently prioritized de-escalation. By enforcing a clear boundary between defensive support (such as protecting airspace) and offensive military action, the E3 successfully resisted direct entanglement in the broader regional war.\n\n## Timeline Of Key Events\n- **Late January 2026**: US and Israel launch a major military offensive against Iran following the reported killing of Iran's supreme leader [art_general_20260201_016_5ad942ce].\n- **2026-01-24**: The first major market turning point occurs as tensions rise and rumors of potential European involvement circulate, though the E3 reaffirm their defensive stance.\n- **2026-01-30**: A second significant market turning point happens as the UK, France, and Germany officially issue a joint statement urging a return to negotiations and condemning the escalating violence, effectively rejecting participation in US strikes [art_politics_20260130_005_313fc67e].\n- **2026-01-30**: EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war, further solidifying the European bloc's anti-escalation position [art_general_20260130_019_c1f21814].\n- **February 2026**: Throughout the month, E3 leaders (Macron, Starmer, Merz) consistently refuse to authorize offensive operations, even amid Iranian retaliatory actions and ongoing US pressure.\n- **2026-02-28**: The deadline passes with no offensive strikes conducted by France, the UK, or Germany against Iran.\n\n## Causal Chain Analysis\nThe root cause of the outcome was the European strategic consensus to prioritize regional stability and de-escalation over military retaliation. This caused E3 leaders to adopt a strictly defensive military posture, offering to protect airspace and maritime routes without joining offensive operations. When the US and Israel launched Operation 'Epic Fury' and subsequently pressured European allies for support (such as Trump's request for UK bases), this established defensive policy triggered an immediate diplomatic refusal. Consequently, this refusal led to the E3 issuing joint statements calling for negotiations [art_politics_20260130_005_313fc67e] rather than mobilizing forces. Ultimately, this steadfast adherence to diplomacy resulted in France, the UK, and Germany avoiding any direct strikes on Iran by the February 28 deadline.\n\n## Countervailing Factors\nThe primary countervailing factor was intense pressure from the United States and Israel to form a unified Western coalition against Iran. Additionally, Iranian retaliatory attacks (such as firing missiles toward Israel and near the US embassy in Baghdad [art_general_20260130_020_3d8b13da]) created immediate provocations that could have drawn E3 forces into the conflict under the guise of self-defense. However, these forces failed to alter the outcome because European domestic political opposition to another Middle Eastern war was too strong, and E3 leaders successfully compartmentalized their responses to purely defensive intercepts rather than retaliatory strikes.\n\n## Event Candidate Inventory\n- **E1**: US and Israel initiate large-scale military offensive (Operation 'Epic Fury') against Iran.\n  - Date: Late January 2026\n  - Why it matters causally: Created the context for the E3 to decide whether to participate in strikes.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n- **E2**: UK, France, and Germany issue joint statement urging negotiations and refusing offensive participation.\n  - Date: 2026-01-30\n  - Why it matters causally: Formalized the E3's refusal to join the US-Israel strikes, confirming their defensive posture.\n  - Source article IDs: [art_politics_20260130_005_313fc67e]\n- **E3**: US (Trump) requests use of UK bases for strikes against Iran, and the UK refuses/delays.\n  - Date: Late January 2026 (around Jan 24-30)\n  - Why it matters causally: Directly tested the UK's willingness to enable or participate in the strikes; the refusal was a critical non-event.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| US-Israel launch Operation Epic Fury | [art_general_20260201_016_5ad942ce] | Late Jan 2026 | 0.95 | Initiated the conflict context. |\n| E3 issue joint statement for negotiations | [art_politics_20260130_005_313fc67e] | 2026-01-30 | 0.95 | Directly answers the non-participation. |\n| EU foreign policy chief calls to end war | [art_general_20260130_019_c1f21814] | 2026-01-30 | 0.90 | Reinforces European diplomatic stance. |\n| Iranian retaliatory strikes | [art_general_20260130_020_3d8b13da] | 2026-01-30 | 0.90 | Provocations that failed to draw E3 in. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a direct Iranian attack on European assets (e.g., ships or bases) would cross a red line, forcing an E3 military response. An alternative path could have seen the UK cave to US pressure to allow base usage, which might have technically implicated them in the strikes, or a miscalculation during a defensive interception that escalated into a direct E3-Iran engagement.\n",
+    "explanation": "\n## Executive Summary\nSuperman's highly anticipated 2025 theatrical release opened to a robust $124 million domestic opening weekend, a strong showing but short of the highest estimates that reached $150M-$180M early in the year. The outcome of Superman having the \"best domestic opening weekend\" was driven primarily by stronger performance from competing franchise juggernauts. Although 'Superman' was a major box office success overall, other films in the summer and late-year slates ultimately claimed the title for the single best domestic opening weekend of 2025. \n\n## Timeline Of Key Events\n- **March 2025**: Early buzz around summer blockbusters begins, with high hopes for the new James Gunn-directed Superman reboot alongside returning mega-franchises like *Jurassic World* [art_general_20250305_004_6a8889e9].\n- **April 28, 2025**: Summer box office predictions emphasize the fierce competition, with *Superman* and new *Jurassic Park* entries highlighted as massive contenders [art_business_20250428_002_ea6b7d8c].\n- **May 2025**: Sentiment peaks multiple times (e.g., May 23) as tracking numbers suggest *Superman* could open as high as $150M+.\n- **July 11-13, 2025**: *Superman* hits theaters, grossing $124 million in its domestic opening weekend and $220M globally [art_business_20250713_002_4793704d, art_business_20250713_004_64d45cfc, art_business_20250713_005_6f3c0e43].\n- **July 2025**: *Fantastic Four: First Steps* opens strongly, while long-term milestones for *Jurassic World* and other titans solidify that *Superman* did not top the chart for the single biggest domestic opening weekend [art_business_20250713_012_d1ed3cd1].\n\n## Causal Chain Analysis\nThe outcome that *Superman* would not have the highest domestic opening weekend was caused by a few key factors:\n1. **Intense Franchise Competition**: 2025 featured major heavyweights like new installments in the *Jurassic* and *Minecraft* franchises. These established cinematic juggernauts triggered massive turnout, capturing higher opening weekend audience numbers [art_business_20251230_003_8ea9bae4].\n2. **DC Brand Rebuilding**: While James Gunn's reboot successfully resonated with audiences, resulting in $124 million, it was still a transitional piece for the DC Universe. This meant it lacked the peak momentum of an established cinematic universe's crescendo.\n3. **Crowded Summer Slate**: Releasing in the middle of a dense summer meant the target demographic's spending was divided among multiple massive genre films like *Fantastic Four: First Steps*, creating a ceiling on Superman's immediate weekend gross [art_business_20250722_003_be5a4d4c]. \nBecause of these dynamics, *Superman* earned a very respectable $124M but was ultimately outpaced for the top spot.\n\n## Countervailing Factors\n- **High Pre-Release Tracking**: Initial tracking algorithms and enthusiastic social media sentiment led to models projecting an opening potentially as high as $185 million.\n- **Strong Reviews and Word of Mouth**: The film ultimately garnered excellent reception, which propelled it past $200M quickly, but this success manifested in sustained legs rather than an overwhelming, record-shattering initial Friday-to-Sunday burst.\n\n## Event Candidate Inventory\n- E1: Release of early summer 2025 box office tracking highlighting heavy competition.\n  - Date: April 28, 2025\n  - Why it matters: Set expectations that *Superman* would face severe competition for the top spot.\n  - Source article IDs: [art_business_20250428_002_ea6b7d8c]\n- E2: *Superman* domestic opening weekend closes at $124 million.\n  - Date: July 11-13, 2025\n  - Why it matters: The hard data proving it fell short of the absolute top tier required to win the year.\n  - Source article IDs: [art_business_20250713_002_4793704d, art_business_20250713_005_6f3c0e43]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early projections saw *Superman* battling *Jurassic* and others | art_general_20250305_004_6a8889e9, art_business_20250428_002_ea6b7d8c | Mar-Apr 2025 | 0.9 | High confidence in competitive slate |\n| *Superman* opens to $124M domestically | art_business_20250713_002_4793704d, art_business_20250713_005_6f3c0e43 | July 13, 2025 | 1.0 | Reported final numbers |\n| Other 2025 movies outpaced it | art_business_20251230_003_8ea9bae4 | Dec 2025 | 1.0 | End of year recap confirms it wasn't the highest opening |\n\n## Uncertainties And Alternative Paths\n- If *Superman* had debuted later in the year with less direct immediate competition, or if the DC brand had not suffered in previous years, it might have achieved a slightly higher opening ceiling.\n- Conversely, had reviews been poor, the opening might have dropped entirely below $100M. The $124M represents a solid middle-path outcome.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2026-01-20T16:59:10.184000+00:00",
+    "market_open": "2025-01-14T19:26:33.214880+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-03-01T09:43:47+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-france-uk-or-germany-strike-iran-by-february-28",
+    "market_close": "2025-07-14T23:03:13+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-superman-have-the-best-domestic-opening-weekend-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1768953622,
-          "p": 0.07
+          "t": 1736899203,
+          "p": 0.18
         },
         {
-          "t": 1768996844,
-          "p": 0.07
+          "t": 1737028803,
+          "p": 0.18
         },
         {
-          "t": 1769040031,
+          "t": 1737158404,
+          "p": 0.13
+        },
+        {
+          "t": 1737288003,
+          "p": 0.195
+        },
+        {
+          "t": 1737417603,
+          "p": 0.145
+        },
+        {
+          "t": 1737547203,
+          "p": 0.14
+        },
+        {
+          "t": 1737676803,
+          "p": 0.14
+        },
+        {
+          "t": 1737806403,
+          "p": 0.185
+        },
+        {
+          "t": 1737936004,
+          "p": 0.195
+        },
+        {
+          "t": 1738065604,
+          "p": 0.17
+        },
+        {
+          "t": 1738195205,
+          "p": 0.165
+        },
+        {
+          "t": 1738324804,
+          "p": 0.17
+        },
+        {
+          "t": 1738454404,
+          "p": 0.205
+        },
+        {
+          "t": 1738584004,
+          "p": 0.22
+        },
+        {
+          "t": 1738713604,
+          "p": 0.22
+        },
+        {
+          "t": 1738843204,
+          "p": 0.22
+        },
+        {
+          "t": 1738972804,
+          "p": 0.215
+        },
+        {
+          "t": 1739102405,
+          "p": 0.215
+        },
+        {
+          "t": 1739232004,
+          "p": 0.215
+        },
+        {
+          "t": 1739361604,
+          "p": 0.215
+        },
+        {
+          "t": 1739491205,
+          "p": 0.185
+        },
+        {
+          "t": 1739620805,
+          "p": 0.215
+        },
+        {
+          "t": 1739750404,
+          "p": 0.215
+        },
+        {
+          "t": 1739880004,
+          "p": 0.225
+        },
+        {
+          "t": 1740009604,
+          "p": 0.23
+        },
+        {
+          "t": 1740139204,
+          "p": 0.23
+        },
+        {
+          "t": 1740268804,
+          "p": 0.235
+        },
+        {
+          "t": 1740398404,
+          "p": 0.23
+        },
+        {
+          "t": 1740528005,
+          "p": 0.235
+        },
+        {
+          "t": 1740657606,
+          "p": 0.235
+        },
+        {
+          "t": 1740787205,
+          "p": 0.23
+        },
+        {
+          "t": 1740916805,
+          "p": 0.23
+        },
+        {
+          "t": 1741046405,
+          "p": 0.23
+        },
+        {
+          "t": 1741176004,
+          "p": 0.23
+        },
+        {
+          "t": 1741305605,
+          "p": 0.275
+        },
+        {
+          "t": 1741435204,
+          "p": 0.225
+        },
+        {
+          "t": 1741564804,
+          "p": 0.225
+        },
+        {
+          "t": 1741694405,
+          "p": 0.2
+        },
+        {
+          "t": 1741824006,
+          "p": 0.2
+        },
+        {
+          "t": 1741953605,
+          "p": 0.2
+        },
+        {
+          "t": 1742083204,
+          "p": 0.185
+        },
+        {
+          "t": 1742212805,
+          "p": 0.185
+        },
+        {
+          "t": 1742342405,
+          "p": 0.16
+        },
+        {
+          "t": 1742472006,
+          "p": 0.18
+        },
+        {
+          "t": 1742601606,
+          "p": 0.19
+        },
+        {
+          "t": 1742731205,
+          "p": 0.195
+        },
+        {
+          "t": 1742860806,
+          "p": 0.175
+        },
+        {
+          "t": 1742990405,
+          "p": 0.185
+        },
+        {
+          "t": 1743120006,
+          "p": 0.185
+        },
+        {
+          "t": 1743249606,
+          "p": 0.185
+        },
+        {
+          "t": 1743379205,
+          "p": 0.185
+        },
+        {
+          "t": 1743508805,
+          "p": 0.195
+        },
+        {
+          "t": 1743638405,
+          "p": 0.185
+        },
+        {
+          "t": 1743768007,
+          "p": 0.135
+        },
+        {
+          "t": 1743897605,
+          "p": 0.105
+        },
+        {
+          "t": 1744027205,
+          "p": 0.12
+        },
+        {
+          "t": 1744156806,
+          "p": 0.12
+        },
+        {
+          "t": 1744286406,
+          "p": 0.12
+        },
+        {
+          "t": 1744416006,
           "p": 0.115
         },
         {
-          "t": 1769083249,
-          "p": 0.125
+          "t": 1744545605,
+          "p": 0.115
         },
         {
-          "t": 1769126438,
+          "t": 1744718405,
+          "p": 0.12
+        },
+        {
+          "t": 1744848006,
+          "p": 0.12
+        },
+        {
+          "t": 1744977605,
+          "p": 0.12
+        },
+        {
+          "t": 1745107206,
+          "p": 0.12
+        },
+        {
+          "t": 1745236806,
+          "p": 0.12
+        },
+        {
+          "t": 1745366407,
+          "p": 0.115
+        },
+        {
+          "t": 1745496006,
+          "p": 0.12
+        },
+        {
+          "t": 1745625606,
           "p": 0.085
         },
         {
-          "t": 1769169649,
-          "p": 0.095
-        },
-        {
-          "t": 1769212834,
-          "p": 0.095
-        },
-        {
-          "t": 1769256034,
-          "p": 0.11
-        },
-        {
-          "t": 1769299242,
-          "p": 0.095
-        },
-        {
-          "t": 1769342451,
+          "t": 1745755206,
           "p": 0.085
         },
         {
-          "t": 1769385641,
+          "t": 1745884805,
           "p": 0.085
         },
         {
-          "t": 1769428832,
-          "p": 0.085
-        },
-        {
-          "t": 1769472035,
-          "p": 0.085
-        },
-        {
-          "t": 1769515223,
-          "p": 0.075
-        },
-        {
-          "t": 1769558424,
-          "p": 0.08
-        },
-        {
-          "t": 1769601626,
+          "t": 1746014406,
           "p": 0.09
         },
         {
-          "t": 1769644839,
+          "t": 1746144006,
           "p": 0.08
         },
         {
-          "t": 1769688028,
-          "p": 0.08
-        },
-        {
-          "t": 1769731228,
+          "t": 1746273606,
           "p": 0.085
         },
         {
-          "t": 1769774442,
-          "p": 0.11
+          "t": 1746403205,
+          "p": 0.085
         },
         {
-          "t": 1769817628,
+          "t": 1746532805,
           "p": 0.1
         },
         {
-          "t": 1769860833,
-          "p": 0.095
+          "t": 1746662406,
+          "p": 0.075
         },
         {
-          "t": 1769904034,
+          "t": 1746792007,
+          "p": 0.075
+        },
+        {
+          "t": 1746921606,
+          "p": 0.06
+        },
+        {
+          "t": 1747051206,
+          "p": 0.05
+        },
+        {
+          "t": 1747180807,
+          "p": 0.065
+        },
+        {
+          "t": 1747310407,
+          "p": 0.065
+        },
+        {
+          "t": 1747440007,
+          "p": 0.055
+        },
+        {
+          "t": 1747569607,
+          "p": 0.06
+        },
+        {
+          "t": 1747699206,
+          "p": 0.065
+        },
+        {
+          "t": 1747828807,
+          "p": 0.085
+        },
+        {
+          "t": 1747958407,
+          "p": 0.175
+        },
+        {
+          "t": 1748088006,
+          "p": 0.165
+        },
+        {
+          "t": 1748217607,
+          "p": 0.165
+        },
+        {
+          "t": 1748347206,
+          "p": 0.17
+        },
+        {
+          "t": 1748476807,
+          "p": 0.185
+        },
+        {
+          "t": 1748606407,
+          "p": 0.17
+        },
+        {
+          "t": 1748736007,
+          "p": 0.19
+        },
+        {
+          "t": 1748865607,
+          "p": 0.19
+        },
+        {
+          "t": 1748995206,
+          "p": 0.205
+        },
+        {
+          "t": 1749124806,
+          "p": 0.205
+        },
+        {
+          "t": 1749254407,
+          "p": 0.215
+        },
+        {
+          "t": 1749384007,
+          "p": 0.2
+        },
+        {
+          "t": 1749513606,
+          "p": 0.205
+        },
+        {
+          "t": 1749643207,
+          "p": 0.215
+        },
+        {
+          "t": 1749772807,
+          "p": 0.135
+        },
+        {
+          "t": 1749902407,
+          "p": 0.125
+        },
+        {
+          "t": 1750032007,
+          "p": 0.14
+        },
+        {
+          "t": 1750161606,
+          "p": 0.15
+        },
+        {
+          "t": 1750291207,
+          "p": 0.16
+        },
+        {
+          "t": 1750420808,
+          "p": 0.135
+        },
+        {
+          "t": 1750550406,
+          "p": 0.14
+        },
+        {
+          "t": 1750680007,
+          "p": 0.14
+        },
+        {
+          "t": 1750809607,
+          "p": 0.14
+        },
+        {
+          "t": 1750939207,
+          "p": 0.145
+        },
+        {
+          "t": 1751068807,
+          "p": 0.145
+        },
+        {
+          "t": 1751198407,
+          "p": 0.115
+        },
+        {
+          "t": 1751328008,
+          "p": 0.115
+        },
+        {
+          "t": 1751457607,
+          "p": 0.055
+        },
+        {
+          "t": 1751587208,
           "p": 0.07
         },
         {
-          "t": 1769947230,
-          "p": 0.045
+          "t": 1751716808,
+          "p": 0.07
         },
         {
-          "t": 1769990427,
-          "p": 0.045
+          "t": 1751846407,
+          "p": 0.085
         },
         {
-          "t": 1770033631,
-          "p": 0.035
-        },
-        {
-          "t": 1770076830,
-          "p": 0.025
-        },
-        {
-          "t": 1770120035,
-          "p": 0.0225
-        },
-        {
-          "t": 1770163240,
-          "p": 0.026
-        },
-        {
-          "t": 1770206431,
-          "p": 0.0235
-        },
-        {
-          "t": 1770249626,
-          "p": 0.037
-        },
-        {
-          "t": 1770292834,
-          "p": 0.036
-        },
-        {
-          "t": 1770336033,
-          "p": 0.035
-        },
-        {
-          "t": 1770379234,
-          "p": 0.034
-        },
-        {
-          "t": 1770422439,
-          "p": 0.031
-        },
-        {
-          "t": 1770465638,
-          "p": 0.03
-        },
-        {
-          "t": 1770508836,
-          "p": 0.044
-        },
-        {
-          "t": 1770552045,
-          "p": 0.047
-        },
-        {
-          "t": 1770595235,
-          "p": 0.044
-        },
-        {
-          "t": 1770638451,
-          "p": 0.045
-        },
-        {
-          "t": 1770681638,
-          "p": 0.0505
-        },
-        {
-          "t": 1770724850,
-          "p": 0.0345
-        },
-        {
-          "t": 1770768039,
-          "p": 0.0285
-        },
-        {
-          "t": 1770811237,
-          "p": 0.023
-        },
-        {
-          "t": 1770854447,
-          "p": 0.025
-        },
-        {
-          "t": 1770897636,
-          "p": 0.0175
-        },
-        {
-          "t": 1770940836,
-          "p": 0.0145
-        },
-        {
-          "t": 1770984040,
-          "p": 0.014
-        },
-        {
-          "t": 1771027240,
-          "p": 0.015
-        },
-        {
-          "t": 1771070443,
-          "p": 0.014
-        },
-        {
-          "t": 1771113639,
-          "p": 0.014
-        },
-        {
-          "t": 1771156845,
-          "p": 0.015
-        },
-        {
-          "t": 1771200051,
-          "p": 0.0135
-        },
-        {
-          "t": 1771243251,
-          "p": 0.013
-        },
-        {
-          "t": 1771286441,
-          "p": 0.015
-        },
-        {
-          "t": 1771329658,
-          "p": 0.017
-        },
-        {
-          "t": 1771372846,
-          "p": 0.017
-        },
-        {
-          "t": 1771416044,
-          "p": 0.02
-        },
-        {
-          "t": 1771459247,
-          "p": 0.0245
-        },
-        {
-          "t": 1771545645,
-          "p": 0.024
-        },
-        {
-          "t": 1771588828,
-          "p": 0.0235
-        },
-        {
-          "t": 1771632031,
-          "p": 0.0215
-        },
-        {
-          "t": 1771675231,
-          "p": 0.0145
-        },
-        {
-          "t": 1771718431,
+          "t": 1751976007,
           "p": 0.019
         },
         {
-          "t": 1771761637,
-          "p": 0.009
+          "t": 1752105608,
+          "p": 0.0125
         },
         {
-          "t": 1771804835,
-          "p": 0.0085
-        },
-        {
-          "t": 1771848039,
-          "p": 0.0055
-        },
-        {
-          "t": 1771891236,
+          "t": 1752235209,
           "p": 0.007
         },
         {
-          "t": 1771934445,
-          "p": 0.007
-        },
-        {
-          "t": 1771977640,
-          "p": 0.0075
-        },
-        {
-          "t": 1772020844,
-          "p": 0.0045
-        },
-        {
-          "t": 1772064037,
-          "p": 0.004
-        },
-        {
-          "t": 1772107254,
-          "p": 0.0035
-        },
-        {
-          "t": 1772150442,
-          "p": 0.0025
-        },
-        {
-          "t": 1772193656,
-          "p": 0.003
-        },
-        {
-          "t": 1772236841,
-          "p": 0.0035
-        },
-        {
-          "t": 1772323255,
+          "t": 1752364808,
           "p": 0.002
         }
       ],
       "turning_points": [
         {
-          "t": 1769083249,
-          "p": 0.125,
-          "delta": 0.055
+          "t": 1736942403,
+          "p": 0.09,
+          "delta": -0.09
         },
         {
-          "t": 1769515223,
-          "p": 0.075,
+          "t": 1737028803,
+          "p": 0.18,
+          "delta": 0.09
+        },
+        {
+          "t": 1737504003,
+          "p": 0.125,
+          "delta": -0.055
+        },
+        {
+          "t": 1737806403,
+          "p": 0.185,
+          "delta": 0.06
+        },
+        {
+          "t": 1741262405,
+          "p": 0.275,
+          "delta": 0.09
+        },
+        {
+          "t": 1741435204,
+          "p": 0.225,
           "delta": -0.05
         },
         {
-          "t": 1770120035,
-          "p": 0.0225,
-          "delta": -0.0525
+          "t": 1742126404,
+          "p": 0.175,
+          "delta": -0.05
+        },
+        {
+          "t": 1743854406,
+          "p": 0.115,
+          "delta": -0.06
+        },
+        {
+          "t": 1746576005,
+          "p": 0.065,
+          "delta": -0.05
+        },
+        {
+          "t": 1747872007,
+          "p": 0.125,
+          "delta": 0.06
+        },
+        {
+          "t": 1748304006,
+          "p": 0.18,
+          "delta": 0.055
+        },
+        {
+          "t": 1749038406,
+          "p": 0.235,
+          "delta": 0.055
+        },
+        {
+          "t": 1749686407,
+          "p": 0.16,
+          "delta": -0.075
+        },
+        {
+          "t": 1750593607,
+          "p": 0.11,
+          "delta": -0.05
+        },
+        {
+          "t": 1751414407,
+          "p": 0.06,
+          "delta": -0.05
+        },
+        {
+          "t": 1752192008,
+          "p": 0.008,
+          "delta": -0.052
         }
       ],
-      "price_at_open": 0.07,
-      "price_at_close": 0.002,
-      "min_price": 0.002,
-      "max_price": 0.125,
-      "final_price": 0.002,
-      "fetched_at": "2026-04-27T07:57:44.581678+00:00"
+      "price_at_open": 0.18,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.275,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-20T17:08:07.598338+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20260122_001_cabfb6ce",
-        "date": "2026-01-22 00:00",
-        "title": "US and Israel launch Operation Epic Fury",
-        "description": "US and Israel launch a major military offensive against Iran.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE1 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_culture_20250327_029_96ccdeeb",
+        "date": "2025-03-27 12:00",
+        "title": "Positive Buzz from Early 'Superman' Screenings",
+        "description": "Early test screenings for 'Superman' generated positive buzz and strong word-of-mouth, boosting pre-release tracking.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.npr.org/2026/02/28/nx-s1-5730352/world-leaders-reaction-operation-epic-fury",
+        "source_url": "https://thedirect.com/article/superman-2025-movie-test-screening-rumor-reactions-dc",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260122_002_f2a70faf",
-        "date": "2026-01-22 00:00",
-        "title": "Trump requests use of UK bases",
-        "description": "US President Trump requests the use of UK bases for strikes against Iran.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE2 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_culture_20250401_024_7cdba5f3",
+        "date": "2025-04-01 12:00",
+        "title": "'Superman' Marketed as First DCU Installment",
+        "description": "The film is heavily marketed as the first official installment in the new DC Universe (DCU), setting high expectations for a fresh start.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
+        "source_url": "https://deadline.com/2025/07/superman-box-office-opening-forecast-1236452276",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260122_003_8ae7e707",
-        "date": "2026-01-22 00:00",
-        "title": "Starmer refuses UK involvement",
-        "description": "UK Prime Minister Starmer refuses to be drawn into the Iran war after Trump's request.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE3 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_business_20250406_011_5623b35d",
+        "date": "2025-04-06 00:00",
+        "title": "'A Minecraft Movie' has a massive $162 million opening weekend",
+        "description": "'A Minecraft Movie' debuted with a domestic box office of $162 million, making it the best opening weekend of 2025.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
+        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-1236459080",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260122_004_689ddc67",
-        "date": "2026-01-22 00:00",
-        "title": "Macron declares strikes illegal",
-        "description": "French President Macron declares the strikes against Iran to be illegal.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE4 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_culture_20250427_027_f2f1e0ee",
+        "date": "2025-04-27 12:00",
+        "title": "Highly Competitive Summer 2025 Film Slate",
+        "description": "The Summer 2025 film slate was highly competitive, with several major franchise releases scheduled, creating a crowded marketplace.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/macron-strikes-against-iran-illegal-033035836.html",
+        "source_url": "https://www.forbes.com/sites/markhughes/2025/04/28/summer-2025-box-office-predictions-superman-jurassic-park-and-more",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260124_005_e0dec2d3",
-        "date": "2026-01-24 00:00",
-        "title": "E3 leaders coordinate response",
-        "description": "Starmer, Macron, and Merz coordinate their response to the US-Israel attack.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE5 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_culture_20250515_007_55996fe6",
+        "date": "2025-05-15 00:00",
+        "title": "Favorable competitive landscape for 'Superman' in 2025",
+        "description": "The competitive landscape for superhero films in 2025 appears favorable for 'Superman', with some analysts suggesting that the MCU's slate is not as strong.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-xl/news/other/starmer-talks-to-france-s-macron-and-germany-s-merz-over-us-israel-attack-on-iran/ar-AA1XfT05?ocid=BingNewsVerp",
+        "source_url": "https://thedirect.com/article/superman-beat-mcu-theatrical-slate-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260130_006_1012368f",
-        "date": "2026-01-30 00:00",
-        "title": "Iran fires retaliatory missiles",
-        "description": "Iran fires missiles towards Israel and an explosive drone lands near the US embassy in Baghdad.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE6 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_finance_20250529_028_60c9bf86",
+        "date": "2025-05-29 12:00",
+        "title": "Strong Early Box Office Projections for 'Superman'",
+        "description": "Early box office projections for 'Superman' were strong, with analysts predicting a massive opening weekend.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-in/news/world/us-iran-war-highlights-iran-fires-missiles-towards-israel-explosive-drone-lands-near-us-embassy-in-baghdad/ar-AA1YH8k2?ocid=BingNewsVerp",
+        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-projection-1236448799",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260130_007_8a58cf76",
-        "date": "2026-01-30 00:00",
-        "title": "E3 issue joint statement",
-        "description": "UK, France, and Germany issue a joint statement urging a return to negotiations.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE7 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_business_20250613_010_3cbef0cd",
+        "date": "2025-06-13 00:00",
+        "title": "Box office projections for 'The Fantastic Four' rise",
+        "description": "Following the positive trailer reception, box office projections for 'The Fantastic Four' were revised upwards, with some predicting a $125M+ opening.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://thehill.com/policy/international/5760393-uk-france-germany-iran-strikes-negotiations",
+        "source_url": "https://boxofficetheory.com/box-office-tracking-f1-the-movie-56m-continues-to-impress-the-fantastic-four-125m-rolls-along",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260130_008_30da70aa",
-        "date": "2026-01-30 00:00",
-        "title": "EU foreign policy chief calls to end war",
-        "description": "EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE8 contributed to the E3 not striking Iran.",
-        "has_impact": true,
+        "id": "evt_business_20250701_004_69bb7bb9",
+        "date": "2025-07-01 00:00",
+        "title": "Sluggish summer box office in 2025",
+        "description": "The summer 2025 box office was generally considered sluggish, with many films underperforming, creating a challenging market for all new releases.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-gb/news/world/exclusive-eu-foreign-policy-chief-kallas-calls-on-us-israel-to-end-iran-war/ar-AA1YPjnY?ocid=BingNewsVerp",
+        "source_url": "https://businessinsider.com/2025-box-office-movie-quality-analysis-2025-12",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260212_009_a418b900",
-        "date": "2026-02-12 00:00",
-        "title": "E3 maintain defensive posture",
-        "description": "E3 leaders consistently refuse to authorize offensive operations throughout February.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE9 contributed to the E3 not striking Iran.",
+        "id": "evt_business_20250711_008_651ab9e5",
+        "date": "2025-07-11 00:00",
+        "title": "Superman hits theaters",
+        "description": "Superman hits theaters.",
+        "impact": "**Affects:** No - Will 'Superman' have the best domestic opening wee  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nSuperman hitting theaters is a prerequisite but neutral on its own.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cfr.org/articles/europes-disjointed-response-to-the-u-s-israeli-war-with-iran",
+        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-1236459080?_bhlid=e0377159e9a794da9aca9a0a2b4573393eca090b",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20250712_014_98a59f29",
+        "date": "2025-07-12 00:00",
+        "title": "High financial stakes and expectations for 'Superman'",
+        "description": "With a combined production and marketing budget of over $500M, and early box office projections and test screenings generating positive buzz, the financial stakes and expectations for 'Superman' were incredibly high. This immense pressure framed its solid $125M opening as a relative disappointment, especially in direct comparison to 'The Fantastic Four's' massive success.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://variety.com/2025/film/news/superman-success-budget-cast-salaries-1236462393",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

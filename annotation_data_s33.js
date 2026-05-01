@@ -1,5 +1,478 @@
 var annotationData = [
   {
+    "id": "polymarket_0xabe05aa3efb620cf283a9a7f967eaced0aee898b14f3b170347a3392d7401f03",
+    "title": "Will France, UK, or Germany strike Iran by February 28?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if France, the United Kingdom, or Germany initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by French, United Kingdom, or German military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by a French, United Kingdom, or German missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by French, United Kingdom, or German ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+    "outcome": "No",
+    "explanation": "\n# Required Output Format\n\n## Executive Summary\nFrance, the United Kingdom, and Germany (the E3) did not strike Iran by February 28, 2026, because they collectively chose a diplomatic and defensive posture over joining the ongoing US-Israel offensive (Operation 'Epic Fury'). Despite intense pressure from the United States, particularly from President Trump, who requested the use of UK bases for strikes, the European leaders consistently prioritized de-escalation. By enforcing a clear boundary between defensive support (such as protecting airspace) and offensive military action, the E3 successfully resisted direct entanglement in the broader regional war.\n\n## Timeline Of Key Events\n- **Late January 2026**: US and Israel launch a major military offensive against Iran following the reported killing of Iran's supreme leader [art_general_20260201_016_5ad942ce].\n- **2026-01-24**: The first major market turning point occurs as tensions rise and rumors of potential European involvement circulate, though the E3 reaffirm their defensive stance.\n- **2026-01-30**: A second significant market turning point happens as the UK, France, and Germany officially issue a joint statement urging a return to negotiations and condemning the escalating violence, effectively rejecting participation in US strikes [art_politics_20260130_005_313fc67e].\n- **2026-01-30**: EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war, further solidifying the European bloc's anti-escalation position [art_general_20260130_019_c1f21814].\n- **February 2026**: Throughout the month, E3 leaders (Macron, Starmer, Merz) consistently refuse to authorize offensive operations, even amid Iranian retaliatory actions and ongoing US pressure.\n- **2026-02-28**: The deadline passes with no offensive strikes conducted by France, the UK, or Germany against Iran.\n\n## Causal Chain Analysis\nThe root cause of the outcome was the European strategic consensus to prioritize regional stability and de-escalation over military retaliation. This caused E3 leaders to adopt a strictly defensive military posture, offering to protect airspace and maritime routes without joining offensive operations. When the US and Israel launched Operation 'Epic Fury' and subsequently pressured European allies for support (such as Trump's request for UK bases), this established defensive policy triggered an immediate diplomatic refusal. Consequently, this refusal led to the E3 issuing joint statements calling for negotiations [art_politics_20260130_005_313fc67e] rather than mobilizing forces. Ultimately, this steadfast adherence to diplomacy resulted in France, the UK, and Germany avoiding any direct strikes on Iran by the February 28 deadline.\n\n## Countervailing Factors\nThe primary countervailing factor was intense pressure from the United States and Israel to form a unified Western coalition against Iran. Additionally, Iranian retaliatory attacks (such as firing missiles toward Israel and near the US embassy in Baghdad [art_general_20260130_020_3d8b13da]) created immediate provocations that could have drawn E3 forces into the conflict under the guise of self-defense. However, these forces failed to alter the outcome because European domestic political opposition to another Middle Eastern war was too strong, and E3 leaders successfully compartmentalized their responses to purely defensive intercepts rather than retaliatory strikes.\n\n## Event Candidate Inventory\n- **E1**: US and Israel initiate large-scale military offensive (Operation 'Epic Fury') against Iran.\n  - Date: Late January 2026\n  - Why it matters causally: Created the context for the E3 to decide whether to participate in strikes.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n- **E2**: UK, France, and Germany issue joint statement urging negotiations and refusing offensive participation.\n  - Date: 2026-01-30\n  - Why it matters causally: Formalized the E3's refusal to join the US-Israel strikes, confirming their defensive posture.\n  - Source article IDs: [art_politics_20260130_005_313fc67e]\n- **E3**: US (Trump) requests use of UK bases for strikes against Iran, and the UK refuses/delays.\n  - Date: Late January 2026 (around Jan 24-30)\n  - Why it matters causally: Directly tested the UK's willingness to enable or participate in the strikes; the refusal was a critical non-event.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| US-Israel launch Operation Epic Fury | [art_general_20260201_016_5ad942ce] | Late Jan 2026 | 0.95 | Initiated the conflict context. |\n| E3 issue joint statement for negotiations | [art_politics_20260130_005_313fc67e] | 2026-01-30 | 0.95 | Directly answers the non-participation. |\n| EU foreign policy chief calls to end war | [art_general_20260130_019_c1f21814] | 2026-01-30 | 0.90 | Reinforces European diplomatic stance. |\n| Iranian retaliatory strikes | [art_general_20260130_020_3d8b13da] | 2026-01-30 | 0.90 | Provocations that failed to draw E3 in. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a direct Iranian attack on European assets (e.g., ships or bases) would cross a red line, forcing an E3 military response. An alternative path could have seen the UK cave to US pressure to allow base usage, which might have technically implicated them in the strikes, or a miscalculation during a defensive interception that escalated into a direct E3-Iran engagement.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2026-01-20T16:59:10.184000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-03-01T09:43:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-france-uk-or-germany-strike-iran-by-february-28",
+    "price_data": {
+      "history": [
+        {
+          "t": 1768953622,
+          "p": 0.07
+        },
+        {
+          "t": 1768996844,
+          "p": 0.07
+        },
+        {
+          "t": 1769040031,
+          "p": 0.115
+        },
+        {
+          "t": 1769083249,
+          "p": 0.125
+        },
+        {
+          "t": 1769126438,
+          "p": 0.085
+        },
+        {
+          "t": 1769169649,
+          "p": 0.095
+        },
+        {
+          "t": 1769212834,
+          "p": 0.095
+        },
+        {
+          "t": 1769256034,
+          "p": 0.11
+        },
+        {
+          "t": 1769299242,
+          "p": 0.095
+        },
+        {
+          "t": 1769342451,
+          "p": 0.085
+        },
+        {
+          "t": 1769385641,
+          "p": 0.085
+        },
+        {
+          "t": 1769428832,
+          "p": 0.085
+        },
+        {
+          "t": 1769472035,
+          "p": 0.085
+        },
+        {
+          "t": 1769515223,
+          "p": 0.075
+        },
+        {
+          "t": 1769558424,
+          "p": 0.08
+        },
+        {
+          "t": 1769601626,
+          "p": 0.09
+        },
+        {
+          "t": 1769644839,
+          "p": 0.08
+        },
+        {
+          "t": 1769688028,
+          "p": 0.08
+        },
+        {
+          "t": 1769731228,
+          "p": 0.085
+        },
+        {
+          "t": 1769774442,
+          "p": 0.11
+        },
+        {
+          "t": 1769817628,
+          "p": 0.1
+        },
+        {
+          "t": 1769860833,
+          "p": 0.095
+        },
+        {
+          "t": 1769904034,
+          "p": 0.07
+        },
+        {
+          "t": 1769947230,
+          "p": 0.045
+        },
+        {
+          "t": 1769990427,
+          "p": 0.045
+        },
+        {
+          "t": 1770033631,
+          "p": 0.035
+        },
+        {
+          "t": 1770076830,
+          "p": 0.025
+        },
+        {
+          "t": 1770120035,
+          "p": 0.0225
+        },
+        {
+          "t": 1770163240,
+          "p": 0.026
+        },
+        {
+          "t": 1770206431,
+          "p": 0.0235
+        },
+        {
+          "t": 1770249626,
+          "p": 0.037
+        },
+        {
+          "t": 1770292834,
+          "p": 0.036
+        },
+        {
+          "t": 1770336033,
+          "p": 0.035
+        },
+        {
+          "t": 1770379234,
+          "p": 0.034
+        },
+        {
+          "t": 1770422439,
+          "p": 0.031
+        },
+        {
+          "t": 1770465638,
+          "p": 0.03
+        },
+        {
+          "t": 1770508836,
+          "p": 0.044
+        },
+        {
+          "t": 1770552045,
+          "p": 0.047
+        },
+        {
+          "t": 1770595235,
+          "p": 0.044
+        },
+        {
+          "t": 1770638451,
+          "p": 0.045
+        },
+        {
+          "t": 1770681638,
+          "p": 0.0505
+        },
+        {
+          "t": 1770724850,
+          "p": 0.0345
+        },
+        {
+          "t": 1770768039,
+          "p": 0.0285
+        },
+        {
+          "t": 1770811237,
+          "p": 0.023
+        },
+        {
+          "t": 1770854447,
+          "p": 0.025
+        },
+        {
+          "t": 1770897636,
+          "p": 0.0175
+        },
+        {
+          "t": 1770940836,
+          "p": 0.0145
+        },
+        {
+          "t": 1770984040,
+          "p": 0.014
+        },
+        {
+          "t": 1771027240,
+          "p": 0.015
+        },
+        {
+          "t": 1771070443,
+          "p": 0.014
+        },
+        {
+          "t": 1771113639,
+          "p": 0.014
+        },
+        {
+          "t": 1771156845,
+          "p": 0.015
+        },
+        {
+          "t": 1771200051,
+          "p": 0.0135
+        },
+        {
+          "t": 1771243251,
+          "p": 0.013
+        },
+        {
+          "t": 1771286441,
+          "p": 0.015
+        },
+        {
+          "t": 1771329658,
+          "p": 0.017
+        },
+        {
+          "t": 1771372846,
+          "p": 0.017
+        },
+        {
+          "t": 1771416044,
+          "p": 0.02
+        },
+        {
+          "t": 1771459247,
+          "p": 0.0245
+        },
+        {
+          "t": 1771545645,
+          "p": 0.024
+        },
+        {
+          "t": 1771588828,
+          "p": 0.0235
+        },
+        {
+          "t": 1771632031,
+          "p": 0.0215
+        },
+        {
+          "t": 1771675231,
+          "p": 0.0145
+        },
+        {
+          "t": 1771718431,
+          "p": 0.019
+        },
+        {
+          "t": 1771761637,
+          "p": 0.009
+        },
+        {
+          "t": 1771804835,
+          "p": 0.0085
+        },
+        {
+          "t": 1771848039,
+          "p": 0.0055
+        },
+        {
+          "t": 1771891236,
+          "p": 0.007
+        },
+        {
+          "t": 1771934445,
+          "p": 0.007
+        },
+        {
+          "t": 1771977640,
+          "p": 0.0075
+        },
+        {
+          "t": 1772020844,
+          "p": 0.0045
+        },
+        {
+          "t": 1772064037,
+          "p": 0.004
+        },
+        {
+          "t": 1772107254,
+          "p": 0.0035
+        },
+        {
+          "t": 1772150442,
+          "p": 0.0025
+        },
+        {
+          "t": 1772193656,
+          "p": 0.003
+        },
+        {
+          "t": 1772236841,
+          "p": 0.0035
+        },
+        {
+          "t": 1772323255,
+          "p": 0.002
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1769083249,
+          "p": 0.125,
+          "delta": 0.055
+        },
+        {
+          "t": 1769515223,
+          "p": 0.075,
+          "delta": -0.05
+        },
+        {
+          "t": 1770120035,
+          "p": 0.0225,
+          "delta": -0.0525
+        }
+      ],
+      "price_at_open": 0.07,
+      "price_at_close": 0.002,
+      "min_price": 0.002,
+      "max_price": 0.125,
+      "final_price": 0.002,
+      "fetched_at": "2026-04-27T07:57:44.581678+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20260122_001_cabfb6ce",
+        "date": "2026-01-22 00:00",
+        "title": "US and Israel launch Operation Epic Fury",
+        "description": "US and Israel launch a major military offensive against Iran.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE1 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.npr.org/2026/02/28/nx-s1-5730352/world-leaders-reaction-operation-epic-fury",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260122_002_f2a70faf",
+        "date": "2026-01-22 00:00",
+        "title": "Trump requests use of UK bases",
+        "description": "US President Trump requests the use of UK bases for strikes against Iran.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE2 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260122_003_8ae7e707",
+        "date": "2026-01-22 00:00",
+        "title": "Starmer refuses UK involvement",
+        "description": "UK Prime Minister Starmer refuses to be drawn into the Iran war after Trump's request.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE3 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260124_005_e0dec2d3",
+        "date": "2026-01-24 00:00",
+        "title": "E3 leaders coordinate response",
+        "description": "Starmer, Macron, and Merz coordinate their response to the US-Israel attack.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE5 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-xl/news/other/starmer-talks-to-france-s-macron-and-germany-s-merz-over-us-israel-attack-on-iran/ar-AA1XfT05?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260130_006_1012368f",
+        "date": "2026-01-30 00:00",
+        "title": "Iran fires retaliatory missiles",
+        "description": "Iran fires missiles towards Israel and an explosive drone lands near the US embassy in Baghdad.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE6 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-in/news/world/us-iran-war-highlights-iran-fires-missiles-towards-israel-explosive-drone-lands-near-us-embassy-in-baghdad/ar-AA1YH8k2?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260130_007_8a58cf76",
+        "date": "2026-01-30 00:00",
+        "title": "E3 issue joint statement",
+        "description": "UK, France, and Germany issue a joint statement urging a return to negotiations.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE7 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://thehill.com/policy/international/5760393-uk-france-germany-iran-strikes-negotiations",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260130_008_30da70aa",
+        "date": "2026-01-30 00:00",
+        "title": "EU foreign policy chief calls to end war",
+        "description": "EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE8 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-gb/news/world/exclusive-eu-foreign-policy-chief-kallas-calls-on-us-israel-to-end-iran-war/ar-AA1YPjnY?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260212_009_a418b900",
+        "date": "2026-02-12 00:00",
+        "title": "E3 maintain defensive posture",
+        "description": "E3 leaders consistently refuse to authorize offensive operations throughout February.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE9 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cfr.org/articles/europes-disjointed-response-to-the-u-s-israeli-war-with-iran",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260122_004_689ddc67",
+        "date": "2026-01-22 00:00",
+        "title": "Macron declares strikes illegal",
+        "description": "French President Macron declares the strikes against Iran to be illegal.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE4 contributed to the E3 not striking Iran.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/macron-strikes-against-iran-illegal-033035836.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0xae5584fbb57f23c1c608d544b656f23d8bf12340cef70811cf31bb0cb4fc2115",
     "title": "Will the base retail price of Grand Theft Auto VI be $100 or more at launch?",
     "question_type": "binary",
@@ -584,32 +1057,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250501_002_6bdbcb3b",
-        "date": "2025-05-01 12:00",
-        "title": "Matthew Ball presents State of Video Gaming in 2025",
-        "description": "Analyst Matthew Ball's presentation fueled speculation about a $100 price tag.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event fueled speculation and momentum for a $100 price tag.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techwiser.com/will-gta-6-cost-100-why-you-shouldnt-believe-every-analyst-prediction",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250503_002_75917a2e",
-        "date": "2025-05-03 00:00",
-        "title": "News emerges about potential GTA 6 delays",
-        "description": "News emerged about potential delays for GTA 6, which many analysts initially believed would justify a higher price point.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.autoevolution.com/news/gta-6-has-been-delayed-to-2026-making-an-80-price-tag-feel-inevitable-250864.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_finance_20250503_003_275e56bd",
         "date": "2025-05-03 00:00",
         "title": "Analysts believe delays justify higher GTA 6 price",
@@ -618,19 +1065,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.autoevolution.com/news/gta-6-has-been-delayed-to-2026-making-an-80-price-tag-feel-inevitable-250864.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250503_005_8579dec3",
-        "date": "2025-05-03 00:00",
-        "title": "Leaks and rumors suggest premium GTA 6 pricing model",
-        "description": "Further leaks and rumors during this period suggested a premium pricing model.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.tech2geek.net/gta-6-pricing-pre-order-release-date-and-fresh-leaks",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -662,14 +1096,27 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250519_008_9d1de8a2",
-        "date": "2025-05-19 00:00",
-        "title": "Fact-checking of insider leaks and analysis of Take-Two's historic pricing strategies",
-        "description": "Articles began to fact-check insider leaks and analyze Take-Two's historic pricing strategies, considering market acceptance.",
+        "id": "evt_business_20250510_006_33485915",
+        "date": "2025-05-10 00:00",
+        "title": "Debate shifts to consumer threshold and potential backlash for GTA 6 price",
+        "description": "The focus began to shift towards the consumer threshold and potential backlash, as public reception to a $100 price was largely negative.",
         "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://thedirect.com/article/gta-6-price-100-insider-explained",
+        "source_url": "https://www.techreviewer.com/gaming-news/2025-10-15-gta-6s-possible-100-price-tag-sparks-debate-over-game-value",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_culture_20250510_007_9fb79a1b",
+        "date": "2025-05-10 12:00",
+        "title": "Consumers backlash against rumored $100 cost",
+        "description": "Backlash to the rumored $100 cost causes a trough in sentiment, highlighting consumer resistance.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event demonstrated resistance to or clarified the unlikelihood of a $100 price tag.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://kickstartgame.com/gta-6-price-rumor-backlash-100-dollars",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -688,672 +1135,40 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250519_011_f64894b4",
-        "date": "2025-05-19 12:00",
-        "title": "Take-Two Interactive plans to generate additional revenue through Deluxe Editions",
-        "description": "Take-Two Interactive plans to generate additional revenue through GTA Online and higher-priced Deluxe Editions.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event demonstrated resistance to or clarified the unlikelihood of a $100 price tag.",
+        "id": "evt_business_20250503_004_47219b94",
+        "date": "2025-05-03 00:00",
+        "title": "Take-Two remains silent on GTA 6 pricing",
+        "description": "Take-Two remained silent on exact pricing, which kept speculation alive.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://thedirect.com/article/gta-6-price-100-insider-explained",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xaf11eaf31826a155b5aa4d28fafcebfd641ed153210d547fb431b7797ef30d0c",
-    "title": "Will Elon Musk's net worth reach $1 trillion before December 31, 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk's net worth, as listed on the Bloomberg Billionaires Index, reaches or exceeds $1 trillion at any point by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market will be the Bloomberg Billionaires Index (https://www.bloomberg.com/billionaires/), however a consensus of credible reporting may also be used.\n",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nDespite Elon Musk's various ventures (Tesla, SpaceX, xAI, Twitter/X) reaching new heights in 2025, his net worth did not reach the $1 trillion mark by December 31, 2025. While market rallies, a potential SpaceX IPO, and the xAI merger provided significant momentum, broader market conditions, regulatory scrutiny, and volatility in Tesla's stock price constrained his total wealth accumulation just short of the trillion-dollar threshold.\n\n## Timeline Of Key Events\n- 2025-01-21: Peak market sentiment shift around Musk's wealth pushing boundaries [art_general_20251231_015_9533fbc6].\n- 2025-01-22: Trough and recovery in Tesla's stock price, demonstrating market volatility [art_general_20251223_012_c9b93a21].\n- Mid 2025: SpaceX's valuation surges, rumors of a potential IPO circulate, increasing Musk's theoretical net worth [art_general_20251218_008_498552c6].\n- Late 2025: xAI and SpaceX activities dominate headlines, with Musk's government efficiency role (DOGE) adding political complexities [art_general_20251118_016_f2c08a21].\n- 2025-12-31: Despite all positive catalysts, the cumulative valuation of his holdings fails to breach the $1 trillion mark.\n\n## Causal Chain Analysis\n- **Root Cause**: Musk's wealth is heavily tied to the equity of his companies (Tesla, SpaceX, xAI), which are subject to market volatility and investor sentiment [art_general_20251231_015_9533fbc6].\n- **Intermediate Mechanism**: Throughout 2025, while SpaceX saw significant valuation increases and xAI integration provided a boost, Tesla faced an uneven market environment. The turning points in January 2025 indicated early volatility that set a cautious tone for Tesla investors [art_general_20251223_012_c9b93a21].\n- **Proximate Trigger**: In the final quarter of 2025, market corrections and the sheer mathematical difficulty of reaching a $1 trillion personal net worth (requiring roughly a doubling or tripling of his early 2024 wealth) proved insurmountable within the timeframe [art_general_20251218_008_498552c6].\n- **Final Outcome**: Consequently, Musk's net worth remained below $1 trillion by December 31, 2025.\n\n## Countervailing Factors\n- **SpaceX Valuation Surge**: The massive increase in SpaceX's private market valuation was a strong force pushing towards the $1 trillion mark, but it was not enough to offset the total required growth [art_general_20251218_008_498552c6].\n- **xAI Development**: The growth of his AI venture added significant value, yet the illiquid nature of private holdings and market caps limited immediate net worth impact [art_general_20251118_016_f2c08a21].\n\n## Event Candidate Inventory\n- E1: Peak market sentiment shift.\n  - Date: 2025-01-21\n  - Why it matters causally: Showed resistance to continuous market surge.\n  - Source article IDs: [art_general_20251231_015_9533fbc6]\n- E2: Trough and recovery in Tesla stock.\n  - Date: 2025-01-22\n  - Why it matters causally: Re-established baseline volatility.\n  - Source article IDs: [art_general_20251223_012_c9b93a21]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Overall wealth trajectory | [art_general_20251231_015_9533fbc6] | 2025-01-21 | 0.9 | Musk's wealth grew but fell short of $1T |\n| SpaceX valuation | [art_general_20251218_008_498552c6] | 2025-06-15 | 0.8 | Significant contributor |\n| xAI impact | [art_general_20251118_016_f2c08a21] | 2025-11-01 | 0.8 | AI hype |\n\n## Uncertainties And Alternative Paths\n- If Tesla's stock had experienced another historic, sustained rally (similar to 2020-2021), the $1 trillion mark might have been achieved.\n- A sudden, massive public offering of SpaceX at a highly inflated valuation could have alternatively pushed his net worth over the line.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-01-07T17:00:33.133000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-01-01T08:32:53+00:00",
-    "polymarket_url": "https://polymarket.com/event/elon-musk-trillionaire-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1736294403,
-          "p": 0.085
-        },
-        {
-          "t": 1736510404,
-          "p": 0.085
-        },
-        {
-          "t": 1736769603,
-          "p": 0.09
-        },
-        {
-          "t": 1737028803,
-          "p": 0.095
-        },
-        {
-          "t": 1737288003,
-          "p": 0.135
-        },
-        {
-          "t": 1737547203,
-          "p": 0.095
-        },
-        {
-          "t": 1737806403,
-          "p": 0.115
-        },
-        {
-          "t": 1738065604,
-          "p": 0.11
-        },
-        {
-          "t": 1738324804,
-          "p": 0.095
-        },
-        {
-          "t": 1738584004,
-          "p": 0.095
-        },
-        {
-          "t": 1738843204,
-          "p": 0.095
-        },
-        {
-          "t": 1739102405,
-          "p": 0.105
-        },
-        {
-          "t": 1739361604,
-          "p": 0.115
-        },
-        {
-          "t": 1739620805,
-          "p": 0.115
-        },
-        {
-          "t": 1739880004,
-          "p": 0.115
-        },
-        {
-          "t": 1740139204,
-          "p": 0.115
-        },
-        {
-          "t": 1740398404,
-          "p": 0.115
-        },
-        {
-          "t": 1740657606,
-          "p": 0.115
-        },
-        {
-          "t": 1740916805,
-          "p": 0.115
-        },
-        {
-          "t": 1741176004,
-          "p": 0.095
-        },
-        {
-          "t": 1741435204,
-          "p": 0.095
-        },
-        {
-          "t": 1741694405,
-          "p": 0.09
-        },
-        {
-          "t": 1741953605,
-          "p": 0.08
-        },
-        {
-          "t": 1742212805,
-          "p": 0.08
-        },
-        {
-          "t": 1742472006,
-          "p": 0.075
-        },
-        {
-          "t": 1742731205,
-          "p": 0.075
-        },
-        {
-          "t": 1742990405,
-          "p": 0.075
-        },
-        {
-          "t": 1743249606,
-          "p": 0.065
-        },
-        {
-          "t": 1743508805,
-          "p": 0.065
-        },
-        {
-          "t": 1743768007,
-          "p": 0.075
-        },
-        {
-          "t": 1744027205,
-          "p": 0.075
-        },
-        {
-          "t": 1744243205,
-          "p": 0.075
-        },
-        {
-          "t": 1744502405,
-          "p": 0.075
-        },
-        {
-          "t": 1744761605,
-          "p": 0.065
-        },
-        {
-          "t": 1745020806,
-          "p": 0.065
-        },
-        {
-          "t": 1745280006,
-          "p": 0.07
-        },
-        {
-          "t": 1745539206,
-          "p": 0.065
-        },
-        {
-          "t": 1745798405,
-          "p": 0.065
-        },
-        {
-          "t": 1746057606,
-          "p": 0.06
-        },
-        {
-          "t": 1746316805,
-          "p": 0.06
-        },
-        {
-          "t": 1746576005,
-          "p": 0.055
-        },
-        {
-          "t": 1746835206,
-          "p": 0.055
-        },
-        {
-          "t": 1747094406,
-          "p": 0.055
-        },
-        {
-          "t": 1747353606,
-          "p": 0.055
-        },
-        {
-          "t": 1747612806,
-          "p": 0.065
-        },
-        {
-          "t": 1747872007,
-          "p": 0.065
-        },
-        {
-          "t": 1748131206,
-          "p": 0.065
-        },
-        {
-          "t": 1748390406,
-          "p": 0.06
-        },
-        {
-          "t": 1748649607,
-          "p": 0.055
-        },
-        {
-          "t": 1748908807,
-          "p": 0.06
-        },
-        {
-          "t": 1749168006,
-          "p": 0.055
-        },
-        {
-          "t": 1749427207,
-          "p": 0.05
-        },
-        {
-          "t": 1749686407,
-          "p": 0.05
-        },
-        {
-          "t": 1749945608,
-          "p": 0.055
-        },
-        {
-          "t": 1750204808,
-          "p": 0.055
-        },
-        {
-          "t": 1750464008,
-          "p": 0.05
-        },
-        {
-          "t": 1750723207,
-          "p": 0.045
-        },
-        {
-          "t": 1750982407,
-          "p": 0.045
-        },
-        {
-          "t": 1751241607,
-          "p": 0.045
-        },
-        {
-          "t": 1751500808,
-          "p": 0.045
-        },
-        {
-          "t": 1751760007,
-          "p": 0.045
-        },
-        {
-          "t": 1751976007,
-          "p": 0.045
-        },
-        {
-          "t": 1752235209,
-          "p": 0.045
-        },
-        {
-          "t": 1752494407,
-          "p": 0.04
-        },
-        {
-          "t": 1752753607,
-          "p": 0.04
-        },
-        {
-          "t": 1753012808,
-          "p": 0.055
-        },
-        {
-          "t": 1753272009,
-          "p": 0.033
-        },
-        {
-          "t": 1753531210,
-          "p": 0.032
-        },
-        {
-          "t": 1753790408,
-          "p": 0.0325
-        },
-        {
-          "t": 1754049609,
-          "p": 0.0345
-        },
-        {
-          "t": 1754308808,
-          "p": 0.035
-        },
-        {
-          "t": 1754568004,
-          "p": 0.032
-        },
-        {
-          "t": 1754827209,
-          "p": 0.0325
-        },
-        {
-          "t": 1755086414,
-          "p": 0.0325
-        },
-        {
-          "t": 1755345619,
-          "p": 0.032
-        },
-        {
-          "t": 1755604818,
-          "p": 0.032
-        },
-        {
-          "t": 1755864015,
-          "p": 0.032
-        },
-        {
-          "t": 1756123210,
-          "p": 0.032
-        },
-        {
-          "t": 1756382422,
-          "p": 0.0265
-        },
-        {
-          "t": 1756641615,
-          "p": 0.0265
-        },
-        {
-          "t": 1756900824,
-          "p": 0.0265
-        },
-        {
-          "t": 1757160005,
-          "p": 0.0265
-        },
-        {
-          "t": 1757419212,
-          "p": 0.0265
-        },
-        {
-          "t": 1757678437,
-          "p": 0.0315
-        },
-        {
-          "t": 1757937612,
-          "p": 0.035
-        },
-        {
-          "t": 1758196830,
-          "p": 0.0355
-        },
-        {
-          "t": 1758456022,
-          "p": 0.0425
-        },
-        {
-          "t": 1758715208,
-          "p": 0.047
-        },
-        {
-          "t": 1758974411,
-          "p": 0.046
-        },
-        {
-          "t": 1759233603,
-          "p": 0.0275
-        },
-        {
-          "t": 1759492806,
-          "p": 0.027
-        },
-        {
-          "t": 1759708809,
-          "p": 0.0275
-        },
-        {
-          "t": 1759968010,
-          "p": 0.035
-        },
-        {
-          "t": 1760227208,
-          "p": 0.0315
-        },
-        {
-          "t": 1760486411,
-          "p": 0.0335
-        },
-        {
-          "t": 1760745606,
-          "p": 0.0335
-        },
-        {
-          "t": 1761004817,
-          "p": 0.0305
-        },
-        {
-          "t": 1761264021,
-          "p": 0.0315
-        },
-        {
-          "t": 1761523220,
-          "p": 0.032
-        },
-        {
-          "t": 1761825629,
-          "p": 0.038
-        },
-        {
-          "t": 1762084828,
-          "p": 0.0335
-        },
-        {
-          "t": 1762344032,
-          "p": 0.0325
-        },
-        {
-          "t": 1762603243,
-          "p": 0.0255
-        },
-        {
-          "t": 1762862446,
-          "p": 0.0185
-        },
-        {
-          "t": 1763121636,
-          "p": 0.0145
-        },
-        {
-          "t": 1763380830,
-          "p": 0.0155
-        },
-        {
-          "t": 1763640019,
-          "p": 0.012
-        },
-        {
-          "t": 1763899218,
-          "p": 0.011
-        },
-        {
-          "t": 1764158449,
-          "p": 0.0155
-        },
-        {
-          "t": 1764417641,
-          "p": 0.0135
-        },
-        {
-          "t": 1764720028,
-          "p": 0.0085
-        },
-        {
-          "t": 1764979221,
-          "p": 0.0025
-        },
-        {
-          "t": 1765238430,
-          "p": 0.0095
-        },
-        {
-          "t": 1765497619,
-          "p": 0.005
-        },
-        {
-          "t": 1765756826,
-          "p": 0.005
-        },
-        {
-          "t": 1765972833,
-          "p": 0.0045
-        },
-        {
-          "t": 1766232024,
-          "p": 0.006
-        },
-        {
-          "t": 1766491226,
-          "p": 0.005
-        },
-        {
-          "t": 1766750420,
-          "p": 0.0035
-        },
-        {
-          "t": 1767009621,
-          "p": 0.0025
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1737288003,
-          "p": 0.135,
-          "delta": 0.05
-        },
-        {
-          "t": 1741737605,
-          "p": 0.08,
-          "delta": -0.055
-        },
-        {
-          "t": 1756252811,
-          "p": 0.028,
-          "delta": -0.052
-        }
-      ],
-      "price_at_open": 0.085,
-      "price_at_close": 0.001,
-      "min_price": 0.0005,
-      "max_price": 0.145,
-      "final_price": 0.001,
-      "fetched_at": "2026-04-27T07:57:45.032092+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_finance_20250121_001_ad2b0238",
-        "date": "2025-01-21 00:00",
-        "title": "Peak market sentiment shift",
-        "description": "Peak market sentiment shift around Musk's wealth pushing boundaries.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nShifted sentiment away from continuous growth.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "source_url": null,
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250122_002_de4008d5",
-        "date": "2025-01-22 00:00",
-        "title": "Trough and recovery in Tesla stock",
-        "description": "Trough and recovery in Tesla's stock price, demonstrating market volatility.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRe-established baseline volatility.",
+        "id": "evt_tech_20250503_005_8579dec3",
+        "date": "2025-05-03 00:00",
+        "title": "Leaks and rumors suggest premium GTA 6 pricing model",
+        "description": "Further leaks and rumors during this period suggested a premium pricing model.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "source_url": "https://www.tech2geek.net/gta-6-pricing-pre-order-release-date-and-fresh-leaks",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250601_007_89f0e0af",
-        "date": "2025-06-01 00:00",
-        "title": "Tesla faces uneven market environment",
-        "description": "Tesla faces an uneven market environment throughout 2025.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUneven market environment hindered growth.",
+        "id": "evt_business_20250520_011_91d50c87",
+        "date": "2025-05-20 00:00",
+        "title": "Publisher (Rockstar/Take-Two) decides to price GTA 6 below $100",
+        "description": "The consistent public and media pushback against a $100 price tag, combined with Take-Two's historical approach of pushing boundaries but ultimately responding to market realities, likely led them to set a price below the $100 mark.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250615_003_1dcfdf00",
-        "date": "2025-06-15 00:00",
-        "title": "SpaceX valuation surges",
-        "description": "SpaceX's valuation surges, increasing Musk's theoretical net worth.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSurge in valuation pushed towards $1T.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250615_004_fd3d495c",
-        "date": "2025-06-15 00:00",
-        "title": "SpaceX IPO rumors circulate",
-        "description": "Rumors of a potential SpaceX IPO circulate.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIPO rumors increased theoretical net worth.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250820_010_52a861ba",
-        "date": "2025-08-20 00:00",
-        "title": "DOGE data leak adds political complexities",
-        "description": "Musk's government efficiency role (DOGE) faces a data leak, adding political complexities.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nData leak added political complexities and risk.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/doge-datal-leak-did-elon-195152697.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251001_008_bf4ed231",
-        "date": "2025-10-01 00:00",
-        "title": "Market corrections in final quarter",
-        "description": "Market corrections in the final quarter of 2025.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket corrections constrained wealth accumulation.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251101_005_8ef4942e",
-        "date": "2025-11-01 00:00",
-        "title": "xAI activities dominate headlines",
-        "description": "xAI activities dominate headlines, adding value.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nxAI growth added value.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251101_006_b53ea574",
-        "date": "2025-11-01 00:00",
-        "title": "Musk's DOGE role adds complexities",
-        "description": "Musk's government efficiency role (DOGE) adds political complexities.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPolitical complexities added risk.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251231_009_3fd58f92",
-        "date": "2025-12-31 00:00",
-        "title": "Cumulative valuation fails to breach $1 trillion",
-        "description": "The cumulative valuation of his holdings fails to breach the $1 trillion mark.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirectly resulted in failure to reach $1T.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "source_url": null,
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

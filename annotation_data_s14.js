@@ -1,5 +1,778 @@
 var annotationData = [
   {
+    "id": "polymarket_0x2b935e7d326665f4d00d141bebbe4709ec08604c0b844cf4b9b990659f3d4288",
+    "title": "Will Apple release a new product line in 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Apple publicly announces and launches a new product line in 2025 ET. Otherwise this market will resolve to \"No\".\n\nA \"new product line\" is defined as a category of products Apple has not previously sold, rather than an iteration or update of an existing product. Examples of a new product line would include an Apple-branded home robot or gaming console, while a new iPhone, Mac, iPad, Apple Watch, or AirPods models would not qualify.\n\nThe resolution source will be official information from Apple. ",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nApple did not release a new product line in 2025. Initially, rumors suggested new hardware categories, leading to brief optimism in early April. However, as the year progressed, reports clarified that Apple would only release updates to existing product lines (like iPhones, iPads, and Macs) rather than introducing a completely new category like a foldable device or a smart ring. By mid-year, supply chain leaks and WWDC announcements confirmed the lack of a new product line, cementing the negative outcome.\n\n## Timeline Of Key Events\n- **2025-03-08**: Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines, shifting sentiment towards 'No'.\n- **2025-04-08**: Speculation around WWDC temporarily spikes 'Yes' predictions [art_general_20250318_002_f7e4951b].\n- **2025-04-12**: Further analysis of supply chain data strongly indicates no new categories are in production, flipping sentiment back to 'No'.\n- **2025-06-07**: WWDC rumors and announcements focus entirely on software and iterative hardware updates [art_general_20250607_007_ac4d280c].\n- **2025-09-19**: The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17 [art_general_20250919_004_d2220b20].\n\n## Causal Chain Analysis\nThe outcome was driven by Apple's strategic focus on existing product categories rather than rushing a new product line. This caused a lack of supply chain activity for novel devices, which led to analysts correctly predicting the absence of new categories. Consequently, key events like WWDC and the September keynote passed without new product line announcements, resulting in the final outcome of 'No' [art_tech_20250101_003_d0fda24c].\n\n## Countervailing Factors\nSome rumors throughout early 2025 suggested Apple might announce a foldable iPhone or a smart ring. These factors briefly pushed the market toward 'Yes', but they were overwhelmed by the reality of production constraints and Apple's typical cautious approach to new hardware categories.\n\n## Event Candidate Inventory\n- **Event Candidate 1**\n  - title: Early 2025 Product Rumors\n  - date: 2025-03-18\n  - why it matters causally: Spurred early market speculation.\n  - source article IDs: [art_general_20250318_002_f7e4951b]\n\n- **Event Candidate 2**\n  - title: WWDC 2025 Announcements\n  - date: 2025-06-07\n  - why it matters causally: Confirmed focus on existing hardware and software.\n  - source article IDs: [art_general_20250607_007_ac4d280c]\n\n- **Event Candidate 3**\n  - title: Apple Fall Event 2025\n  - date: 2025-09-19\n  - why it matters causally: The major hardware event of the year introduced only existing lines.\n  - source article IDs: [art_general_20250919_003_28ec0db4]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early rumors on new products | [art_general_20250318_002_f7e4951b] | 2025-03-18 | 0.8 | Showed market speculation. |\n| WWDC focus on existing hardware | [art_general_20250607_007_ac4d280c] | 2025-06-07 | 0.9 | Denied new product lines. |\n| Fall event focused on iPhone 17 | [art_general_20250919_004_d2220b20] | 2025-09-19 | 0.95 | Final confirmation. |\n\n## Uncertainties And Alternative Paths\nThere was brief uncertainty around whether Apple would surprise the market with an unexpected new device at WWDC, but this alternative path did not materialize due to a lack of supply chain readiness.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-03-05T20:55:05.032000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T10:01:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-apple-release-a-new-product-line-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1741219205,
+          "p": 0.645
+        },
+        {
+          "t": 1741435204,
+          "p": 0.485
+        },
+        {
+          "t": 1741651205,
+          "p": 0.475
+        },
+        {
+          "t": 1741867205,
+          "p": 0.415
+        },
+        {
+          "t": 1742083204,
+          "p": 0.415
+        },
+        {
+          "t": 1742299204,
+          "p": 0.36
+        },
+        {
+          "t": 1742515205,
+          "p": 0.34
+        },
+        {
+          "t": 1742731205,
+          "p": 0.34
+        },
+        {
+          "t": 1742947205,
+          "p": 0.34
+        },
+        {
+          "t": 1743163206,
+          "p": 0.34
+        },
+        {
+          "t": 1743379205,
+          "p": 0.335
+        },
+        {
+          "t": 1743595205,
+          "p": 0.315
+        },
+        {
+          "t": 1743811205,
+          "p": 0.31
+        },
+        {
+          "t": 1744027205,
+          "p": 0.43
+        },
+        {
+          "t": 1744243205,
+          "p": 0.525
+        },
+        {
+          "t": 1744459205,
+          "p": 0.405
+        },
+        {
+          "t": 1744675205,
+          "p": 0.31
+        },
+        {
+          "t": 1744891205,
+          "p": 0.365
+        },
+        {
+          "t": 1745107206,
+          "p": 0.36
+        },
+        {
+          "t": 1745323207,
+          "p": 0.36
+        },
+        {
+          "t": 1745539206,
+          "p": 0.36
+        },
+        {
+          "t": 1745755206,
+          "p": 0.36
+        },
+        {
+          "t": 1745971206,
+          "p": 0.36
+        },
+        {
+          "t": 1746187206,
+          "p": 0.315
+        },
+        {
+          "t": 1746403205,
+          "p": 0.26
+        },
+        {
+          "t": 1746619206,
+          "p": 0.295
+        },
+        {
+          "t": 1746835206,
+          "p": 0.35
+        },
+        {
+          "t": 1747051206,
+          "p": 0.34
+        },
+        {
+          "t": 1747267207,
+          "p": 0.415
+        },
+        {
+          "t": 1747483206,
+          "p": 0.35
+        },
+        {
+          "t": 1747699206,
+          "p": 0.445
+        },
+        {
+          "t": 1747915206,
+          "p": 0.4
+        },
+        {
+          "t": 1748131206,
+          "p": 0.335
+        },
+        {
+          "t": 1748347206,
+          "p": 0.335
+        },
+        {
+          "t": 1748563207,
+          "p": 0.335
+        },
+        {
+          "t": 1748779207,
+          "p": 0.33
+        },
+        {
+          "t": 1748995206,
+          "p": 0.335
+        },
+        {
+          "t": 1749211206,
+          "p": 0.345
+        },
+        {
+          "t": 1749427207,
+          "p": 0.415
+        },
+        {
+          "t": 1749643207,
+          "p": 0.41
+        },
+        {
+          "t": 1749902407,
+          "p": 0.36
+        },
+        {
+          "t": 1750118408,
+          "p": 0.335
+        },
+        {
+          "t": 1750334407,
+          "p": 0.335
+        },
+        {
+          "t": 1750550406,
+          "p": 0.325
+        },
+        {
+          "t": 1750766406,
+          "p": 0.325
+        },
+        {
+          "t": 1750982407,
+          "p": 0.255
+        },
+        {
+          "t": 1751198407,
+          "p": 0.225
+        },
+        {
+          "t": 1751414407,
+          "p": 0.195
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2
+        },
+        {
+          "t": 1751846407,
+          "p": 0.2
+        },
+        {
+          "t": 1752062408,
+          "p": 0.2
+        },
+        {
+          "t": 1752278409,
+          "p": 0.2
+        },
+        {
+          "t": 1752494407,
+          "p": 0.2
+        },
+        {
+          "t": 1752710408,
+          "p": 0.2
+        },
+        {
+          "t": 1752926408,
+          "p": 0.16
+        },
+        {
+          "t": 1753142409,
+          "p": 0.165
+        },
+        {
+          "t": 1753358409,
+          "p": 0.17
+        },
+        {
+          "t": 1753574410,
+          "p": 0.165
+        },
+        {
+          "t": 1753790408,
+          "p": 0.105
+        },
+        {
+          "t": 1754006409,
+          "p": 0.1
+        },
+        {
+          "t": 1754222408,
+          "p": 0.05
+        },
+        {
+          "t": 1754438409,
+          "p": 0.045
+        },
+        {
+          "t": 1754654412,
+          "p": 0.045
+        },
+        {
+          "t": 1754870414,
+          "p": 0.055
+        },
+        {
+          "t": 1755086414,
+          "p": 0.06
+        },
+        {
+          "t": 1755302406,
+          "p": 0.065
+        },
+        {
+          "t": 1755518414,
+          "p": 0.065
+        },
+        {
+          "t": 1755734410,
+          "p": 0.065
+        },
+        {
+          "t": 1755950421,
+          "p": 0.065
+        },
+        {
+          "t": 1756166408,
+          "p": 0.075
+        },
+        {
+          "t": 1756382422,
+          "p": 0.085
+        },
+        {
+          "t": 1756598402,
+          "p": 0.085
+        },
+        {
+          "t": 1756814405,
+          "p": 0.085
+        },
+        {
+          "t": 1757030404,
+          "p": 0.08
+        },
+        {
+          "t": 1757246411,
+          "p": 0.075
+        },
+        {
+          "t": 1757462411,
+          "p": 0.08
+        },
+        {
+          "t": 1757678427,
+          "p": 0.08
+        },
+        {
+          "t": 1757894413,
+          "p": 0.08
+        },
+        {
+          "t": 1758110425,
+          "p": 0.08
+        },
+        {
+          "t": 1758326410,
+          "p": 0.075
+        },
+        {
+          "t": 1758585611,
+          "p": 0.075
+        },
+        {
+          "t": 1758801610,
+          "p": 0.07
+        },
+        {
+          "t": 1759017610,
+          "p": 0.07
+        },
+        {
+          "t": 1759233603,
+          "p": 0.07
+        },
+        {
+          "t": 1759449611,
+          "p": 0.07
+        },
+        {
+          "t": 1759665607,
+          "p": 0.07
+        },
+        {
+          "t": 1759881607,
+          "p": 0.07
+        },
+        {
+          "t": 1760097617,
+          "p": 0.07
+        },
+        {
+          "t": 1760313608,
+          "p": 0.085
+        },
+        {
+          "t": 1760529609,
+          "p": 0.075
+        },
+        {
+          "t": 1760745611,
+          "p": 0.075
+        },
+        {
+          "t": 1760961622,
+          "p": 0.075
+        },
+        {
+          "t": 1761177610,
+          "p": 0.085
+        },
+        {
+          "t": 1761393622,
+          "p": 0.07
+        },
+        {
+          "t": 1761609620,
+          "p": 0.065
+        },
+        {
+          "t": 1761868812,
+          "p": 0.065
+        },
+        {
+          "t": 1762084821,
+          "p": 0.075
+        },
+        {
+          "t": 1762300818,
+          "p": 0.075
+        },
+        {
+          "t": 1762516824,
+          "p": 0.075
+        },
+        {
+          "t": 1762732812,
+          "p": 0.075
+        },
+        {
+          "t": 1762948823,
+          "p": 0.0505
+        },
+        {
+          "t": 1763164821,
+          "p": 0.0505
+        },
+        {
+          "t": 1763380822,
+          "p": 0.0415
+        },
+        {
+          "t": 1763596814,
+          "p": 0.036
+        },
+        {
+          "t": 1763812815,
+          "p": 0.0365
+        },
+        {
+          "t": 1764028819,
+          "p": 0.0455
+        },
+        {
+          "t": 1764244830,
+          "p": 0.0235
+        },
+        {
+          "t": 1764460818,
+          "p": 0.024
+        },
+        {
+          "t": 1764676826,
+          "p": 0.0235
+        },
+        {
+          "t": 1764892816,
+          "p": 0.0235
+        },
+        {
+          "t": 1765108821,
+          "p": 0.0215
+        },
+        {
+          "t": 1765324814,
+          "p": 0.016
+        },
+        {
+          "t": 1765540818,
+          "p": 0.016
+        },
+        {
+          "t": 1765756820,
+          "p": 0.0065
+        },
+        {
+          "t": 1765929635,
+          "p": 0.0055
+        },
+        {
+          "t": 1766145618,
+          "p": 0.0055
+        },
+        {
+          "t": 1766361616,
+          "p": 0.0045
+        },
+        {
+          "t": 1766577617,
+          "p": 0.004
+        },
+        {
+          "t": 1766793617,
+          "p": 0.0035
+        },
+        {
+          "t": 1767009618,
+          "p": 0.0015
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1741305605,
+          "p": 0.57,
+          "delta": -0.075
+        },
+        {
+          "t": 1741392005,
+          "p": 0.45,
+          "delta": -0.12
+        },
+        {
+          "t": 1742299204,
+          "p": 0.36,
+          "delta": -0.09
+        },
+        {
+          "t": 1743984006,
+          "p": 0.415,
+          "delta": 0.055
+        },
+        {
+          "t": 1744070406,
+          "p": 0.5,
+          "delta": 0.085
+        },
+        {
+          "t": 1744459205,
+          "p": 0.405,
+          "delta": -0.095
+        },
+        {
+          "t": 1744545605,
+          "p": 0.31,
+          "delta": -0.095
+        },
+        {
+          "t": 1744761605,
+          "p": 0.43,
+          "delta": 0.12
+        },
+        {
+          "t": 1744804806,
+          "p": 0.37,
+          "delta": -0.06
+        },
+        {
+          "t": 1746187206,
+          "p": 0.315,
+          "delta": -0.055
+        },
+        {
+          "t": 1746360005,
+          "p": 0.255,
+          "delta": -0.06
+        },
+        {
+          "t": 1746662406,
+          "p": 0.315,
+          "delta": 0.06
+        },
+        {
+          "t": 1747008006,
+          "p": 0.37,
+          "delta": 0.055
+        },
+        {
+          "t": 1747137607,
+          "p": 0.445,
+          "delta": 0.075
+        },
+        {
+          "t": 1747180807,
+          "p": 0.39,
+          "delta": -0.055
+        },
+        {
+          "t": 1747569607,
+          "p": 0.445,
+          "delta": 0.055
+        },
+        {
+          "t": 1748001607,
+          "p": 0.345,
+          "delta": -0.1
+        },
+        {
+          "t": 1749254407,
+          "p": 0.46,
+          "delta": 0.115
+        },
+        {
+          "t": 1749340807,
+          "p": 0.395,
+          "delta": -0.065
+        },
+        {
+          "t": 1750075208,
+          "p": 0.335,
+          "delta": -0.06
+        },
+        {
+          "t": 1750896008,
+          "p": 0.25,
+          "delta": -0.085
+        },
+        {
+          "t": 1751414407,
+          "p": 0.195,
+          "delta": -0.055
+        },
+        {
+          "t": 1752840008,
+          "p": 0.105,
+          "delta": -0.09
+        },
+        {
+          "t": 1752926408,
+          "p": 0.16,
+          "delta": 0.055
+        },
+        {
+          "t": 1753660809,
+          "p": 0.105,
+          "delta": -0.055
+        },
+        {
+          "t": 1754136010,
+          "p": 0.05,
+          "delta": -0.055
+        }
+      ],
+      "price_at_open": 0.645,
+      "price_at_close": 0.0025,
+      "min_price": 0.0015,
+      "max_price": 0.655,
+      "final_price": 0.0025,
+      "fetched_at": "2026-04-27T07:57:34.186777+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_tech_20250308_003_70781832",
+        "date": "2025-03-08 00:00",
+        "title": "Early skepticism sets in",
+        "description": "Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSkepticism reduces likelihood of new lines.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_002_8a0842ab",
+        "date": "2025-03-18 00:00",
+        "title": "Initial rumors suggest new hardware categories",
+        "description": "Rumors suggest Apple might announce a foldable iPhone or a smart ring.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRumors suggest new lines are possible.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250408_006_2ebc1f10",
+        "date": "2025-04-08 00:00",
+        "title": "Speculation around WWDC spikes 'Yes' predictions",
+        "description": "Speculation around WWDC temporarily spikes 'Yes' predictions for a new product line.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation temporarily increases perceived likelihood of new lines.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://nypost.com/2025/04/11/ticket-sales/the-avett-brothers-tour-2025-where-to-buy-tickets-best-prices",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250412_007_b73c94fe",
+        "date": "2025-04-12 00:00",
+        "title": "Lack of supply chain activity for novel devices",
+        "description": "There is a lack of supply chain activity for novel devices due to Apple's focus on existing products.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLack of supply chain activity strongly indicates no new lines.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250412_008_0d3b4769",
+        "date": "2025-04-12 12:00",
+        "title": "Supply chain data analysis indicates no new categories",
+        "description": "Further analysis of supply chain data strongly indicates no new categories are in production.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalysis confirming no new categories makes new lines less likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250501_009_8d042902",
+        "date": "2025-05-01 00:00",
+        "title": "Analysts predict absence of new categories",
+        "description": "Analysts correctly predict the absence of new categories based on supply chain data.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalyst predictions make new lines less likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/articles/yusuf-cat-stevens-extends-2025-211839787.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250607_004_3c302402",
+        "date": "2025-06-07 00:00",
+        "title": "WWDC announcements focus on existing hardware",
+        "description": "WWDC rumors and announcements focus entirely on software and iterative hardware updates.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFocus on existing hardware at WWDC makes new lines less likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.benzinga.com/markets/tech/25/06/45826757/apple-may-launch-new-hardware-at-wwdc-2025-mac-pro-homepad-airtag-2-expected",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250919_005_4102ef74",
+        "date": "2025-09-19 00:00",
+        "title": "Fall event focuses on iPhone 17",
+        "description": "The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFall event focusing on existing lines makes new lines very unlikely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/phones/articles/apple-event-2025-last-minute-214958593.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251231_010_a5e90f4d",
+        "date": "2025-12-31 00:00",
+        "title": "Apple does not release a new product line in 2025",
+        "description": "Apple does not release a new product line in 2025, cementing the negative outcome.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFinal outcome is no new lines.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.macworld.com/article/3023568/what-to-expect-from-apple-2026-part1-macworld-podcast.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250101_001_c224c8b7",
+        "date": "2025-01-01 00:00",
+        "title": "Apple's strategic focus on existing product categories",
+        "description": "Apple maintains a strategic focus on existing product categories rather than rushing a new product line.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStrategic focus on existing products makes new lines less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/lifestyle/shopping/every-new-apple-product-coming-in-2026-and-beyond/ar-AA1SaV5t?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0x2edc4292d155e5d93b6fd162f36b2dfcbf459f956c8d84355eaa1568e1cb3630",
     "title": "Will Xabi Alonso leave or be fired as Real Madrid manager during 2025?",
     "question_type": "binary",
@@ -453,32 +1226,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251223_010_05b5b33d",
-        "date": "2025-12-23 10:00",
-        "title": "Real Madrid names new manager",
-        "description": "Real Madrid names a new manager after sacking Alonso.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/real-madrid-name-manager-sacking-173500675.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20251223_008_384b13ec",
-        "date": "2025-12-23 12:00",
-        "title": "Xabi Alonso is sacked",
-        "description": "Real Madrid officially sacks Xabi Alonso.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/real-madrid-name-manager-sacking-173500675.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_sports_20251231_009_c7955e4e",
         "date": "2025-12-31 12:00",
         "title": "Final confirmations of firing",
@@ -487,158 +1234,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "q_tech_20251231_001_2c0949e1",
-    "title": "Will Google's AI agent shopping protocol face formal regulatory action in the US or EU by the end of 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "Formal regulatory action is defined as a lawsuit, fine, or official investigation from a government body like the FTC, DOJ, or European Commission.",
-    "outcome": "False",
-    "explanation": "\n## Executive Summary\nBy the end of 2025, Google's AI agent shopping protocol, known as the Universal Commerce Protocol (UCP), did not face any formal regulatory action in the US or EU. The protocol was introduced relatively late in the year, around September 2025, leaving regulators insufficient time to launch formal investigations or enforcement actions before the end of the year. Furthermore, in the US, President Trump signed an executive order blocking state-level AI regulations, which broadly hampered regulatory momentum and contributed to a wait-and-see approach from federal agencies. EU regulators, while actively monitoring the situation, similarly held back on formal actions, choosing to study the new protocol's implications under existing frameworks like the Digital Markets Act before moving forward.\n\n## Timeline Of Key Events\n- **2025-09-16**: Google officially launches the Universal Commerce Protocol (UCP) for agent-driven purchases [art_tech_20250916_011_903a7b3f].\n- **2025-09-19**: Google names dozens of partners for its new AI payments protocol, accelerating adoption [art_business_20250919_003_fde5fe4f].\n- **2025-10-05**: EU regulators publicly state they are closely monitoring Google's AI shopping agent, though no formal probe is launched [art_tech_20251005_016_adc17320].\n- **2025-11-15**: Google and retail leaders formally launch UCP as an open standard, aiming for widespread industry adoption [art_tech_20251115_016_b5b6c2f3].\n- **2025-12-11**: US President Trump signs an executive order blocking states from enforcing their own regulations around AI, shifting the regulatory landscape [art_general_20251212_006_d59105a7].\n- **2025-12-31**: The year concludes without any formal regulatory action taken against Google's UCP in either the US or the EU.\n\n## Causal Chain Analysis\nThe absence of formal regulatory action by the end of 2025 resulted from a combination of timing and shifting political landscapes. Google's introduction of the UCP in September 2025 [art_tech_20250916_011_903a7b3f] meant that the protocol was still in its early stages of deployment through the end of the year. This short timeframe caused regulators in both the US and the EU to adopt an observational stance rather than rushing into enforcement [art_tech_20251005_016_adc17320]. The situation was further influenced by political developments in the US, where an executive order signed by President Trump on December 11 blocked state-level AI regulations [art_general_20251212_006_d59105a7]. This action led to regulatory hesitation and a pause in aggressive federal enforcement, ultimately resulting in the outcome where no formal regulatory action was taken against the protocol before the resolution date.\n\n## Countervailing Factors\nThere was substantial theoretical pressure for regulation, particularly in the EU where the Digital Markets Act places heavy scrutiny on Big Tech. Early concerns about \"surveillance pricing\" and market monopolization through AI agents suggested that regulators might act swiftly. However, these forces failed to trigger formal action in 2025 because regulators required more time to gather evidence on actual market harm from the newly launched protocol, rather than acting on anticipated risks alone.\n\n## Event Candidate Inventory\n- E1: Google launches new protocol for agent-driven purchases (UCP).\n  - date: 2025-09-16\n  - why it matters causally: Initiated the existence of the protocol that was the subject of the question.\n  - source article IDs: [art_tech_20250916_011_903a7b3f], [art_tech_20250916_002_0b73804f]\n- E2: EU regulators announce they are closely watching Google's AI shopping agent.\n  - date: 2025-10-05\n  - why it matters causally: Confirmed regulatory interest but also confirmed the lack of immediate formal action.\n  - source article IDs: [art_tech_20251005_016_adc17320]\n- E3: Trump signs executive order blocking states from enforcing AI regulations.\n  - date: 2025-12-11\n  - why it matters causally: Chilled the US regulatory environment, making formal actions against specific AI technologies less likely in the short term.\n  - source article IDs: [art_general_20251212_006_d59105a7], [art_general_20251211_008_7ca2fc9b]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Google launches UCP | [art_tech_20250916_011_903a7b3f] | 2025-09-16 | 1.0 | Official launch of the protocol. |\n| EU regulators monitoring UCP | [art_tech_20251005_016_adc17320] | 2025-10-05 | 0.9 | Watchful stance confirmed. |\n| Trump blocks state AI regulations | [art_general_20251212_006_d59105a7] | 2025-12-11 | 1.0 | Executive order signed. |\n\n## Uncertainties And Alternative Paths\nIt remains uncertain how regulators will approach the UCP in 2026 once the protocol sees wider adoption. An alternative path could have seen the EU leverage the Digital Markets Act immediately upon launch to enforce interoperability standards, but they ultimately chose a slower, evidence-gathering approach.\n",
-    "is_polymarket": false,
-    "is_overlap": false,
-    "market_open": "2025-10-02T23:59:59+00:00",
-    "market_open_estimated": true,
-    "market_close": "2025-12-31T23:59:59+00:00",
-    "polymarket_url": null,
-    "price_data": null,
-    "events": [
-      {
-        "id": "evt_tech_20250916_001_9cb42e55",
-        "date": "2025-09-16 00:00",
-        "title": "Google launches new protocol for agent-driven purchases",
-        "description": "Google has launched a new protocol that allows AI agents to make purchases on behalf of users, a significant step towards 'agentic commerce'.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe launch of a new technology that has the potential to disrupt a major industry is likely to attract regulatory scrutiny.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://techcrunch.com/2025/09/16/google-launches-new-protocol-for-agent-driven-purchases",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250917_003_314495d3",
-        "date": "2025-09-17 00:00",
-        "title": "Google preps for bot payments",
-        "description": "Google is preparing its infrastructure for a significant increase in automated, bot-driven payments, indicating a strong commitment to its new AI agent shopping protocol.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis shows Google is serious about the protocol, increasing its potential market impact and thus the likelihood of regulatory action.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.paymentsdive.com/news/google-ai-commerce-bots-agentic-online-shopping/760339",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250922_005_c6fcba37",
-        "date": "2025-09-22 00:00",
-        "title": "Google Urges Reset of EU's Digital Markets Act Over Harms",
-        "description": "Google publicly calls for a 'reset' of the EU's Digital Markets Act (DMA), arguing that it is causing harm to consumers and businesses. This indicates a contentious relationship with EU regulators.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nGoogle's confrontational stance towards existing regulations like the DMA could make regulators more inclined to scrutinize new products like the AI shopping agent.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.medianama.com/2025/09/223-google-reset-eu-digital-markets-act",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251201_007_dde122b2",
-        "date": "2025-12-01 00:00",
-        "title": "New AI regulation gives Californians rare look inside development",
-        "description": "California passes a new AI regulation that increases transparency in the development of AI systems. This sets a precedent for other jurisdictions.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe Californian regulation could serve as a model for federal or EU-level regulation, increasing the likelihood of formal action against Google's protocol.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://calmatters.org/economy/technology/2025/12/new-ai-regulation",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251203_009_06130b2e",
-        "date": "2025-12-03 16:05",
-        "title": "Another bid to block state AI regulation has failed… for now",
-        "description": "An attempt to pass federal legislation that would pre-empt state-level AI regulations has failed, leaving the door open for states like California to enact their own rules.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe failure to block state-level regulation means that Google will have to contend with a more complex and potentially more stringent regulatory landscape.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://techcrunch.com/2025/12/03/another-bid-to-block-state-ai-regulation-has-failedfor-now",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251208_011_527ad314",
-        "date": "2025-12-08 00:00",
-        "title": "Trump says he’ll sign executive order blocking state AI regulations, despite safety fears",
-        "description": "Donald Trump announces his intention to sign an executive order that would block states from enacting their own AI regulations, citing the need for a unified national approach.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nIf successful, this executive order would eliminate the threat of state-level regulation, making formal action against Google less likely overall.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnn.com/2025/12/08/tech/trump-eo-blocking-ai-state-laws",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251211_013_03c633b7",
-        "date": "2025-12-11 00:00",
-        "title": "Trump signs order targeting ‘cumbersome’ state AI regulation",
-        "description": "Donald Trump signs an executive order aimed at pre-empting state-level AI regulations, in a move that is welcomed by the tech industry.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe executive order significantly reduces the regulatory risk for Google in the US, making formal action less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nextgov.com/artificial-intelligence/2025/12/trump-signs-order-targeting-cumbersome-state-ai-regulation/410120",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251212_015_f17a80a4",
-        "date": "2025-12-12 00:20",
-        "title": "Trump signs executive order blocking states from enforcing their own regulations around AI",
-        "description": "President Trump signs an executive order that pre-empts state and local regulations on artificial intelligence, a move that is seen as a major victory for the tech industry.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis executive order effectively removes the threat of state-level regulation in the US, which was a major potential source of formal action against Google.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnn.com/2025/12/11/tech/ai-trump-states-executive-order",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251212_017_b3b9ac44",
-        "date": "2025-12-12 23:37",
-        "title": "Tech honchos rejoice as Trump signs order kneecapping California AI regulation",
-        "description": "Leaders in the tech industry have praised President Trump's executive order on AI, which they see as a necessary step to prevent a patchwork of state-level regulations from stifling innovation.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe strong support from the tech industry for Trump's executive order makes it less likely that there will be a successful push for stricter regulation at the federal level.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://nypost.com/2025/12/12/us-news/silicon-valley-applauds-trump-executive-order-reducing-california-ai-regulation",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251217_019_cfe264e2",
-        "date": "2025-12-17 10:41",
-        "title": "Bursting AI bubble may be EU’s “secret weapon” in clash with Trump, expert says",
-        "description": "An expert suggests that a potential slowdown in the AI industry could strengthen the EU's position in its regulatory clash with the US, as it would be less vulnerable to accusations of stifling innovation.",
-        "impact": "**Affects:** Yes - Will Google's AI agent shopping protocol face form  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA bursting of the AI bubble could make regulators more confident in taking a tougher stance against Google, without fear of harming the economy.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://arstechnica.com/tech-policy/2025/12/us-threatens-crackdown-on-eu-firms-as-clash-over-tech-regulations-intensifies",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

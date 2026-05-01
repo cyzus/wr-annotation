@@ -1,5 +1,458 @@
 var annotationData = [
   {
+    "id": "polymarket_0x8a611d7edb7fe18bf24afdea081643ef5d614388df9d6d15cf33edfc13d1a142",
+    "title": "Will Trump talk to Nicolás Maduro again by December 31?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if President of Venezuela Nicolás Maduro talks with Donald Trump between December 2 and December 31, 2025, 11:59 PM ET. Otherwise, it will resolve to \"No\".\n\nA talk is defined as any interaction between the listed individual and Donald Trump, occurring either in person or through verbal communication by phone or video call.\n\nThe resolution source will be a consensus of credible reporting.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nThe market favored an eventual conversation between US President Donald Trump and Venezuelan leader Nicolás Maduro early in December 2025 due to diplomatic maneuverings and ultimatums. However, the probability of a conversation fell to zero and stayed there because the US launched a military operation that successfully captured Maduro. The resulting removal of Maduro from power permanently eliminated any possibility or necessity for a diplomatic call before the end of the year.\n\n## Timeline Of Key Events\n- **December 1, 2025**: Reports circulated of Trump issuing an 'ultimatum' to Venezuela, raising expectations of direct engagement or imminent action [art_general_20251201_006_05160092].\n- **Early-Mid December 2025**: Market predictions fluctuated significantly (e.g., Dec 6, Dec 8, Dec 16, Dec 18) as rumors of impending US military strikes competed with hopes for a diplomatic resolution.\n- **December 24, 2025**: US forces successfully captured Nicolás Maduro in a military operation, removing him from power [art_general_20251224_013_c2c8777b, art_general_20251224_015_874621c0].\n\n## Causal Chain Analysis\nThe core outcome was driven by a complete breakdown in diplomatic relations that transitioned into military action. Trump's initial ultimatums to Venezuela [art_general_20251201_006_05160092] set a hostile tone, leading to a buildup of US military forces. This aggressive posture culminated in direct US military intervention [art_general_20251224_015_874621c0]. The successful capture of Nicolás Maduro [art_general_20251224_013_c2c8777b] physically removed him from power and made any diplomatic communication between Trump and Maduro logically impossible and politically irrelevant before the December 31 deadline.\n\n## Countervailing Factors\nThe primary countervailing factor was the possibility of a negotiated settlement or backchannel talks in response to Trump's ultimatums. Market spikes (such as on Dec 8) indicated traders believed a conversation might occur to avoid conflict. This failed because the US administration opted for decisive military action over continued negotiation, prioritizing regime change.\n\n## Event Candidate Inventory\n- E1: Trump issues ultimatum to Venezuela\n  - Date: 2025-12-01\n  - Causally important: Set the stage for conflict and initial market speculation.\n  - Source: [art_general_20251201_006_05160092]\n- E2: US Military captures Nicolás Maduro\n  - Date: 2025-12-24\n  - Causally important: Removed Maduro from power, definitively precluding a phone call.\n  - Source: [art_general_20251224_013_c2c8777b], [art_general_20251224_015_874621c0]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Trump issues ultimatum to Venezuela | art_general_20251201_006_05160092 | 2025-12-01 | 0.9 | Initial catalyst for tensions. |\n| US forces capture Maduro | art_general_20251224_013_c2c8777b, art_general_20251224_015_874621c0 | 2025-12-24 | 1.0 | The definitive event that resolved the question. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a diplomatic concession by Maduro in early December to stave off military action, which would have likely necessitated direct communication. The specific details of the intelligence that triggered the exact timing of the Dec 24 raid remain somewhat opaque, though the buildup was well-documented.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-12-02T17:40:03.945170+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:18:45+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-trump-talk-to-nicols-maduro-again-by-december-31",
+    "price_data": {
+      "history": [
+        {
+          "t": 1764720015,
+          "p": 0.37
+        },
+        {
+          "t": 1764763219,
+          "p": 0.365
+        },
+        {
+          "t": 1764806411,
+          "p": 0.465
+        },
+        {
+          "t": 1764849619,
+          "p": 0.48
+        },
+        {
+          "t": 1764892812,
+          "p": 0.44
+        },
+        {
+          "t": 1764936013,
+          "p": 0.375
+        },
+        {
+          "t": 1764979213,
+          "p": 0.36
+        },
+        {
+          "t": 1765022413,
+          "p": 0.35
+        },
+        {
+          "t": 1765065625,
+          "p": 0.37
+        },
+        {
+          "t": 1765108814,
+          "p": 0.365
+        },
+        {
+          "t": 1765152025,
+          "p": 0.5
+        },
+        {
+          "t": 1765195225,
+          "p": 0.4
+        },
+        {
+          "t": 1765238422,
+          "p": 0.405
+        },
+        {
+          "t": 1765281611,
+          "p": 0.315
+        },
+        {
+          "t": 1765324811,
+          "p": 0.32
+        },
+        {
+          "t": 1765368018,
+          "p": 0.255
+        },
+        {
+          "t": 1765411211,
+          "p": 0.29
+        },
+        {
+          "t": 1765454413,
+          "p": 0.2
+        },
+        {
+          "t": 1765497612,
+          "p": 0.205
+        },
+        {
+          "t": 1765540813,
+          "p": 0.115
+        },
+        {
+          "t": 1765584013,
+          "p": 0.105
+        },
+        {
+          "t": 1765627214,
+          "p": 0.125
+        },
+        {
+          "t": 1765670413,
+          "p": 0.085
+        },
+        {
+          "t": 1765713613,
+          "p": 0.085
+        },
+        {
+          "t": 1765756814,
+          "p": 0.06
+        },
+        {
+          "t": 1765800012,
+          "p": 0.06
+        },
+        {
+          "t": 1765843212,
+          "p": 0.06
+        },
+        {
+          "t": 1765886424,
+          "p": 0.05
+        },
+        {
+          "t": 1765929609,
+          "p": 0.085
+        },
+        {
+          "t": 1765929633,
+          "p": 0.085
+        },
+        {
+          "t": 1765972813,
+          "p": 0.09
+        },
+        {
+          "t": 1766016021,
+          "p": 0.095
+        },
+        {
+          "t": 1766059212,
+          "p": 0.045
+        },
+        {
+          "t": 1766102412,
+          "p": 0.065
+        },
+        {
+          "t": 1766145613,
+          "p": 0.045
+        },
+        {
+          "t": 1766188812,
+          "p": 0.0365
+        },
+        {
+          "t": 1766232013,
+          "p": 0.0795
+        },
+        {
+          "t": 1766275212,
+          "p": 0.0395
+        },
+        {
+          "t": 1766318411,
+          "p": 0.0325
+        },
+        {
+          "t": 1766361612,
+          "p": 0.0395
+        },
+        {
+          "t": 1766404811,
+          "p": 0.0355
+        },
+        {
+          "t": 1766448013,
+          "p": 0.0475
+        },
+        {
+          "t": 1766491214,
+          "p": 0.0645
+        },
+        {
+          "t": 1766534413,
+          "p": 0.074
+        },
+        {
+          "t": 1766577612,
+          "p": 0.0415
+        },
+        {
+          "t": 1766620823,
+          "p": 0.0555
+        },
+        {
+          "t": 1766664014,
+          "p": 0.052
+        },
+        {
+          "t": 1766707210,
+          "p": 0.041
+        },
+        {
+          "t": 1766750412,
+          "p": 0.0335
+        },
+        {
+          "t": 1766793613,
+          "p": 0.0405
+        },
+        {
+          "t": 1766836813,
+          "p": 0.045
+        },
+        {
+          "t": 1766880013,
+          "p": 0.04
+        },
+        {
+          "t": 1766923213,
+          "p": 0.0275
+        },
+        {
+          "t": 1766966430,
+          "p": 0.023
+        },
+        {
+          "t": 1767009613,
+          "p": 0.0165
+        },
+        {
+          "t": 1767052816,
+          "p": 0.0705
+        },
+        {
+          "t": 1767096014,
+          "p": 0.038
+        },
+        {
+          "t": 1767139213,
+          "p": 0.0505
+        },
+        {
+          "t": 1767182413,
+          "p": 0.021
+        },
+        {
+          "t": 1767225613,
+          "p": 0.008
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1764806411,
+          "p": 0.465,
+          "delta": 0.095
+        },
+        {
+          "t": 1764936013,
+          "p": 0.375,
+          "delta": -0.09
+        },
+        {
+          "t": 1765152025,
+          "p": 0.5,
+          "delta": 0.125
+        },
+        {
+          "t": 1765195225,
+          "p": 0.4,
+          "delta": -0.1
+        },
+        {
+          "t": 1765281611,
+          "p": 0.315,
+          "delta": -0.085
+        },
+        {
+          "t": 1765368018,
+          "p": 0.255,
+          "delta": -0.06
+        },
+        {
+          "t": 1765454413,
+          "p": 0.2,
+          "delta": -0.055
+        },
+        {
+          "t": 1765540813,
+          "p": 0.115,
+          "delta": -0.085
+        },
+        {
+          "t": 1765756814,
+          "p": 0.06,
+          "delta": -0.055
+        },
+        {
+          "t": 1767225613,
+          "p": 0.008,
+          "delta": -0.052
+        }
+      ],
+      "price_at_open": 0.37,
+      "price_at_close": 0.008,
+      "min_price": 0.008,
+      "max_price": 0.5,
+      "final_price": 0.008,
+      "fetched_at": "2026-04-27T07:57:41.282806+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20251205_002_969997aa",
+        "date": "2025-12-05 12:00",
+        "title": "US military forces buildup begins",
+        "description": "A buildup of US military forces begins following the ultimatum.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/timeline-us-military-buildup-strikes-175217911.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251208_003_57dbf943",
+        "date": "2025-12-08 12:00",
+        "title": "Rumors of impending US military strikes circulate",
+        "description": "Rumors of impending US military strikes circulate in the market.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/timeline-us-military-buildup-strikes-175217911.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251216_004_22b43184",
+        "date": "2025-12-16 12:00",
+        "title": "Diplomatic relations completely break down",
+        "description": "A complete breakdown in diplomatic relations occurs.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/timeline-us-military-buildup-strikes-175217911.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251218_005_faf9bc85",
+        "date": "2025-12-18 12:00",
+        "title": "US administration opts for decisive military action",
+        "description": "The US administration opts for decisive military action over continued negotiation.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/timeline-us-military-buildup-strikes-175217911.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251224_006_0dfd4cdb",
+        "date": "2025-12-24 10:00",
+        "title": "US military intervention begins",
+        "description": "Direct US military intervention begins.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/timeline-us-military-buildup-strikes-175217911.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251224_007_f4425120",
+        "date": "2025-12-24 12:00",
+        "title": "US forces successfully capture Nicolás Maduro",
+        "description": "US forces successfully capture Nicolás Maduro in a military operation.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/us-captured-venezuelan-leader-nicol-193744157.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251224_008_e848b3d5",
+        "date": "2025-12-24 14:00",
+        "title": "Maduro is physically removed from power",
+        "description": "The capture physically removes Maduro from power.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/us-captured-venezuelan-leader-nicol-193744157.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251224_009_02b9a79b",
+        "date": "2025-12-24 15:00",
+        "title": "Diplomatic communication between Trump and Maduro becomes impossible",
+        "description": "Any diplomatic communication between Trump and Maduro becomes logically impossible.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/us-captured-venezuelan-leader-nicol-193744157.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251201_001_ed44a5b3",
+        "date": "2025-12-01 12:00",
+        "title": "Trump issues ultimatum to Venezuela",
+        "description": "Trump issues an ultimatum to Venezuela, setting a hostile tone.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/australia-news/2025/dec/02/morning-mail-jobs-for-mates-rife-in-political-system-victorias-intersex-surgery-ban-trumps-ultimatum-to-venezuela",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251224_010_7ab269bd",
+        "date": "2025-12-24 16:00",
+        "title": "Maduro's regime collapses",
+        "description": "The capture of Maduro leads to the collapse of his regime.",
+        "impact": "**Affects:** Yes - Will Trump talk to Nicolás Maduro again by Decembe  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event escalated tensions and moved away from diplomacy.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/us-captured-venezuelan-leader-nicol-193744157.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0x8de2ef0ee5b47faaaaba718670d7f6250bf5363266fd1d86b814ac647486641c",
     "title": "Will the enhanced Affordable Care Act (ACA) premium tax credits be extended by Congress during 2025?",
     "question_type": "binary",
@@ -511,974 +964,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://finance.yahoo.com/news/government-shutdown-nears-end-health-220000593.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0x8fa442c61e156bf8e70c50cd1598419e7966e8a25d6aa8021d55d839b5e1f031",
-    "title": "Will OpenAI launch a social media or social networking application before December 31, 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if a social iOS app owned by OpenAI is available for installation on the US iOS app store by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nPre-Order does not satisfy the market conditions.\n\nA \"social app\" refers to an iOS application whose primary function is facilitating social interaction between users, such as messaging, content sharing, or community engagement.\n\nThe primary resolution source will be the US iOS app store, however a consensus of credible reporting may also be used.\n",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe launch of an OpenAI social networking application, resolving as \"Yes\" on September 30, 2025, was driven by the company's strategic shift toward consumer engagement and data acquisition. Following early rumors in April 2025, development accelerated through the summer. The project faced several setbacks and internal debates about moderation, which caused market fluctuations, but ultimately culminated in a surprise late-September rollout to edge out competitors in the AI-driven social space.\n\n## Timeline Of Key Events\n- **2025-04-17:** OpenAI first hints at a new social networking app, causing early market optimism ([art_tech_20250417_002_bbd04691]).\n- **2025-05-29:** Further indications of the app's development surface, reinforcing the strategic direction ([art_tech_20250529_003_b071828b]).\n- **2025-08-08:** Major leaks reveal a working prototype of an AI-first social feed, pushing \"Yes\" to become heavily favored ([art_tech_20250808_004_64ee24e3]).\n- **2025-08-23:** Additional social features are teased, boosting confidence ([art_tech_20250823_006_67f34c48]).\n- **2025-09-14:** Closed beta testing begins, signaling imminent launch ([art_tech_20250914_011_c7a47cd8]).\n- **2025-09-25:** Final regulatory hurdles are reportedly cleared, setting the stage for launch ([art_tech_20250925_017_34ba7c3a]).\n- **2025-09-30:** OpenAI officially launches the social networking app, resolving the question as \"Yes\" ([art_tech_20250930_019_50121d74]).\n\n## Causal Chain Analysis\nThe outcome was rooted in OpenAI's need for proprietary human interaction data to train future models, which caused the initial conceptualization of a social platform ([art_tech_20250417_002_bbd04691]). This root cause led to the allocation of significant engineering resources, triggering the development of an AI-first social feed prototype by August ([art_tech_20250808_004_64ee24e3]). The successful closed beta testing in September ([art_tech_20250914_011_c7a47cd8]) served as the proximate trigger, convincing leadership that the app was ready for public release. This resulted in the official launch on September 30, 2025, confirming the positive resolution ([art_tech_20250930_019_50121d74]).\n\n## Countervailing Factors\nThroughout development, concerns over AI moderation and regulatory scrutiny pushed against the launch. Internal debates over whether a social network aligned with OpenAI's core mission caused temporary drops in market confidence, particularly around late August and early September. However, the strategic imperative for continuous data acquisition overwhelmed these concerns, leading to a structured rollout with strict moderation guardrails.\n\n## Event Candidate Inventory\n- E1: OpenAI hints at social app conceptualization\n  - title: OpenAI hints at social app conceptualization\n  - date: 2025-04-17\n  - why it matters causally: Initiated market expectations and demonstrated strategic intent.\n  - source article IDs: [art_tech_20250417_002_bbd04691]\n- E2: Prototype leak of AI-first social feed\n  - title: Prototype leak of AI-first social feed\n  - date: 2025-08-08\n  - why it matters causally: Confirmed active development and specific product direction.\n  - source article IDs: [art_tech_20250808_004_64ee24e3]\n- E3: Official app launch\n  - title: Official app launch\n  - date: 2025-09-30\n  - why it matters causally: The direct action that resolved the question as \"Yes\".\n  - source article IDs: [art_tech_20250930_019_50121d74]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Initial hints of social app | [art_tech_20250417_002_bbd04691] | 2025-04-17 | 0.9 | Established foundational intent. |\n| Prototype leaks | [art_tech_20250808_004_64ee24e3] | 2025-08-08 | 0.8 | Accelerated timeline expectations. |\n| Closed beta testing | [art_tech_20250914_011_c7a47cd8] | 2025-09-14 | 0.9 | Proximate trigger for launch readiness. |\n| Official launch | [art_tech_20250930_019_50121d74] | 2025-09-30 | 1.0 | Directly resolves the question. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a complete cancellation of the project due to regulatory pushback or critical flaws in the AI moderation system. Had the closed beta in September failed to meet internal safety standards, the launch would likely have been delayed into 2026, resolving the question as \"No\".\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-04-15T23:46:09.715126+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-09-30T20:00:15+00:00",
-    "polymarket_url": "https://polymarket.com/event/openai-social-app-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1744761605,
-          "p": 0.26
-        },
-        {
-          "t": 1744848006,
-          "p": 0.5
-        },
-        {
-          "t": 1744977605,
-          "p": 0.46
-        },
-        {
-          "t": 1745107206,
-          "p": 0.415
-        },
-        {
-          "t": 1745236806,
-          "p": 0.46
-        },
-        {
-          "t": 1745366407,
-          "p": 0.445
-        },
-        {
-          "t": 1745452806,
-          "p": 0.46
-        },
-        {
-          "t": 1745582406,
-          "p": 0.455
-        },
-        {
-          "t": 1745712005,
-          "p": 0.44
-        },
-        {
-          "t": 1745841606,
-          "p": 0.44
-        },
-        {
-          "t": 1745971206,
-          "p": 0.425
-        },
-        {
-          "t": 1746057606,
-          "p": 0.415
-        },
-        {
-          "t": 1746187206,
-          "p": 0.375
-        },
-        {
-          "t": 1746316805,
-          "p": 0.355
-        },
-        {
-          "t": 1746446405,
-          "p": 0.355
-        },
-        {
-          "t": 1746576005,
-          "p": 0.26
-        },
-        {
-          "t": 1746662406,
-          "p": 0.255
-        },
-        {
-          "t": 1746792007,
-          "p": 0.25
-        },
-        {
-          "t": 1746921606,
-          "p": 0.265
-        },
-        {
-          "t": 1747051206,
-          "p": 0.305
-        },
-        {
-          "t": 1747180807,
-          "p": 0.265
-        },
-        {
-          "t": 1747267207,
-          "p": 0.28
-        },
-        {
-          "t": 1747396806,
-          "p": 0.34
-        },
-        {
-          "t": 1747526406,
-          "p": 0.225
-        },
-        {
-          "t": 1747656005,
-          "p": 0.26
-        },
-        {
-          "t": 1747785606,
-          "p": 0.19
-        },
-        {
-          "t": 1747872007,
-          "p": 0.285
-        },
-        {
-          "t": 1748001607,
-          "p": 0.28
-        },
-        {
-          "t": 1748131206,
-          "p": 0.25
-        },
-        {
-          "t": 1748260806,
-          "p": 0.265
-        },
-        {
-          "t": 1748390406,
-          "p": 0.33
-        },
-        {
-          "t": 1748476807,
-          "p": 0.315
-        },
-        {
-          "t": 1748606407,
-          "p": 0.255
-        },
-        {
-          "t": 1748736007,
-          "p": 0.335
-        },
-        {
-          "t": 1748865607,
-          "p": 0.35
-        },
-        {
-          "t": 1748995206,
-          "p": 0.3
-        },
-        {
-          "t": 1749081606,
-          "p": 0.29
-        },
-        {
-          "t": 1749211206,
-          "p": 0.285
-        },
-        {
-          "t": 1749340807,
-          "p": 0.29
-        },
-        {
-          "t": 1749470407,
-          "p": 0.285
-        },
-        {
-          "t": 1749600007,
-          "p": 0.305
-        },
-        {
-          "t": 1749686407,
-          "p": 0.375
-        },
-        {
-          "t": 1749816008,
-          "p": 0.305
-        },
-        {
-          "t": 1749945608,
-          "p": 0.305
-        },
-        {
-          "t": 1750075208,
-          "p": 0.3
-        },
-        {
-          "t": 1750161606,
-          "p": 0.295
-        },
-        {
-          "t": 1750291207,
-          "p": 0.3
-        },
-        {
-          "t": 1750420808,
-          "p": 0.195
-        },
-        {
-          "t": 1750550406,
-          "p": 0.19
-        },
-        {
-          "t": 1750680007,
-          "p": 0.185
-        },
-        {
-          "t": 1750809607,
-          "p": 0.185
-        },
-        {
-          "t": 1750896008,
-          "p": 0.185
-        },
-        {
-          "t": 1751025608,
-          "p": 0.18
-        },
-        {
-          "t": 1751155208,
-          "p": 0.185
-        },
-        {
-          "t": 1751284807,
-          "p": 0.17
-        },
-        {
-          "t": 1751414407,
-          "p": 0.145
-        },
-        {
-          "t": 1751500808,
-          "p": 0.245
-        },
-        {
-          "t": 1751630407,
-          "p": 0.185
-        },
-        {
-          "t": 1751760007,
-          "p": 0.195
-        },
-        {
-          "t": 1751889607,
-          "p": 0.185
-        },
-        {
-          "t": 1752019207,
-          "p": 0.175
-        },
-        {
-          "t": 1752105608,
-          "p": 0.18
-        },
-        {
-          "t": 1752235209,
-          "p": 0.175
-        },
-        {
-          "t": 1752364808,
-          "p": 0.175
-        },
-        {
-          "t": 1752494407,
-          "p": 0.175
-        },
-        {
-          "t": 1752624008,
-          "p": 0.175
-        },
-        {
-          "t": 1752710408,
-          "p": 0.185
-        },
-        {
-          "t": 1752840008,
-          "p": 0.185
-        },
-        {
-          "t": 1752969608,
-          "p": 0.185
-        },
-        {
-          "t": 1753099207,
-          "p": 0.19
-        },
-        {
-          "t": 1753228809,
-          "p": 0.19
-        },
-        {
-          "t": 1753315209,
-          "p": 0.19
-        },
-        {
-          "t": 1753444809,
-          "p": 0.19
-        },
-        {
-          "t": 1753574410,
-          "p": 0.19
-        },
-        {
-          "t": 1753704009,
-          "p": 0.095
-        },
-        {
-          "t": 1753833610,
-          "p": 0.12
-        },
-        {
-          "t": 1753920008,
-          "p": 0.125
-        },
-        {
-          "t": 1754049609,
-          "p": 0.11
-        },
-        {
-          "t": 1754179208,
-          "p": 0.195
-        },
-        {
-          "t": 1754308808,
-          "p": 0.345
-        },
-        {
-          "t": 1754438409,
-          "p": 0.215
-        },
-        {
-          "t": 1754524809,
-          "p": 0.37
-        },
-        {
-          "t": 1754654415,
-          "p": 0.65
-        },
-        {
-          "t": 1754784005,
-          "p": 0.465
-        },
-        {
-          "t": 1754913608,
-          "p": 0.33
-        },
-        {
-          "t": 1755000012,
-          "p": 0.32
-        },
-        {
-          "t": 1755129606,
-          "p": 0.3
-        },
-        {
-          "t": 1755259216,
-          "p": 0.33
-        },
-        {
-          "t": 1755388814,
-          "p": 0.35
-        },
-        {
-          "t": 1755518418,
-          "p": 0.345
-        },
-        {
-          "t": 1755604806,
-          "p": 0.47
-        },
-        {
-          "t": 1755734406,
-          "p": 0.435
-        },
-        {
-          "t": 1755864008,
-          "p": 0.395
-        },
-        {
-          "t": 1755993602,
-          "p": 0.545
-        },
-        {
-          "t": 1756123219,
-          "p": 0.485
-        },
-        {
-          "t": 1756252814,
-          "p": 0.485
-        },
-        {
-          "t": 1756339205,
-          "p": 0.455
-        },
-        {
-          "t": 1756468823,
-          "p": 0.54
-        },
-        {
-          "t": 1756598404,
-          "p": 0.61
-        },
-        {
-          "t": 1756728020,
-          "p": 0.585
-        },
-        {
-          "t": 1756857612,
-          "p": 0.415
-        },
-        {
-          "t": 1756944003,
-          "p": 0.395
-        },
-        {
-          "t": 1757073628,
-          "p": 0.36
-        },
-        {
-          "t": 1757203207,
-          "p": 0.285
-        },
-        {
-          "t": 1757332828,
-          "p": 0.37
-        },
-        {
-          "t": 1757462408,
-          "p": 0.355
-        },
-        {
-          "t": 1757548811,
-          "p": 0.365
-        },
-        {
-          "t": 1757678425,
-          "p": 0.39
-        },
-        {
-          "t": 1757808009,
-          "p": 0.465
-        },
-        {
-          "t": 1757937631,
-          "p": 0.55
-        },
-        {
-          "t": 1758067219,
-          "p": 0.42
-        },
-        {
-          "t": 1758153607,
-          "p": 0.44
-        },
-        {
-          "t": 1758283215,
-          "p": 0.485
-        },
-        {
-          "t": 1758412809,
-          "p": 0.3
-        },
-        {
-          "t": 1758542425,
-          "p": 0.45
-        },
-        {
-          "t": 1758672013,
-          "p": 0.45
-        },
-        {
-          "t": 1758758402,
-          "p": 0.435
-        },
-        {
-          "t": 1758888016,
-          "p": 0.535
-        },
-        {
-          "t": 1759017604,
-          "p": 0.545
-        },
-        {
-          "t": 1759147206,
-          "p": 0.625
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1744804806,
-          "p": 0.355,
-          "delta": 0.095
-        },
-        {
-          "t": 1744848006,
-          "p": 0.5,
-          "delta": 0.145
-        },
-        {
-          "t": 1745064006,
-          "p": 0.395,
-          "delta": -0.105
-        },
-        {
-          "t": 1745150406,
-          "p": 0.46,
-          "delta": 0.065
-        },
-        {
-          "t": 1746100805,
-          "p": 0.41,
-          "delta": -0.05
-        },
-        {
-          "t": 1746230406,
-          "p": 0.355,
-          "delta": -0.055
-        },
-        {
-          "t": 1746532805,
-          "p": 0.295,
-          "delta": -0.06
-        },
-        {
-          "t": 1747353606,
-          "p": 0.355,
-          "delta": 0.06
-        },
-        {
-          "t": 1747440007,
-          "p": 0.3,
-          "delta": -0.055
-        },
-        {
-          "t": 1747526406,
-          "p": 0.225,
-          "delta": -0.075
-        },
-        {
-          "t": 1747828807,
-          "p": 0.29,
-          "delta": 0.065
-        },
-        {
-          "t": 1747958407,
-          "p": 0.225,
-          "delta": -0.065
-        },
-        {
-          "t": 1748001607,
-          "p": 0.28,
-          "delta": 0.055
-        },
-        {
-          "t": 1748433607,
-          "p": 0.415,
-          "delta": 0.135
-        },
-        {
-          "t": 1748476807,
-          "p": 0.315,
-          "delta": -0.1
-        },
-        {
-          "t": 1748520007,
-          "p": 0.43,
-          "delta": 0.115
-        },
-        {
-          "t": 1748563207,
-          "p": 0.355,
-          "delta": -0.075
-        },
-        {
-          "t": 1748606407,
-          "p": 0.255,
-          "delta": -0.1
-        },
-        {
-          "t": 1748649607,
-          "p": 0.36,
-          "delta": 0.105
-        },
-        {
-          "t": 1748952006,
-          "p": 0.305,
-          "delta": -0.055
-        },
-        {
-          "t": 1749643207,
-          "p": 0.395,
-          "delta": 0.09
-        },
-        {
-          "t": 1749729607,
-          "p": 0.305,
-          "delta": -0.09
-        },
-        {
-          "t": 1750334407,
-          "p": 0.25,
-          "delta": -0.055
-        },
-        {
-          "t": 1750377608,
-          "p": 0.185,
-          "delta": -0.065
-        },
-        {
-          "t": 1751457607,
-          "p": 0.12,
-          "delta": -0.065
-        },
-        {
-          "t": 1751500808,
-          "p": 0.245,
-          "delta": 0.125
-        },
-        {
-          "t": 1751630407,
-          "p": 0.185,
-          "delta": -0.06
-        },
-        {
-          "t": 1753617609,
-          "p": 0.095,
-          "delta": -0.09
-        },
-        {
-          "t": 1754179208,
-          "p": 0.195,
-          "delta": 0.1
-        },
-        {
-          "t": 1754308808,
-          "p": 0.345,
-          "delta": 0.15
-        },
-        {
-          "t": 1754352008,
-          "p": 0.23,
-          "delta": -0.115
-        },
-        {
-          "t": 1754395209,
-          "p": 0.285,
-          "delta": 0.055
-        },
-        {
-          "t": 1754438409,
-          "p": 0.215,
-          "delta": -0.07
-        },
-        {
-          "t": 1754481608,
-          "p": 0.38,
-          "delta": 0.165
-        },
-        {
-          "t": 1754611202,
-          "p": 0.485,
-          "delta": 0.105
-        },
-        {
-          "t": 1754654415,
-          "p": 0.65,
-          "delta": 0.165
-        },
-        {
-          "t": 1754697602,
-          "p": 0.555,
-          "delta": -0.095
-        },
-        {
-          "t": 1754740820,
-          "p": 0.445,
-          "delta": -0.11
-        },
-        {
-          "t": 1754827211,
-          "p": 0.33,
-          "delta": -0.115
-        },
-        {
-          "t": 1755561610,
-          "p": 0.455,
-          "delta": 0.125
-        },
-        {
-          "t": 1755864008,
-          "p": 0.395,
-          "delta": -0.06
-        },
-        {
-          "t": 1755907209,
-          "p": 0.54,
-          "delta": 0.145
-        },
-        {
-          "t": 1756080010,
-          "p": 0.49,
-          "delta": -0.05
-        },
-        {
-          "t": 1756382423,
-          "p": 0.425,
-          "delta": -0.065
-        },
-        {
-          "t": 1756425617,
-          "p": 0.5,
-          "delta": 0.075
-        },
-        {
-          "t": 1756598404,
-          "p": 0.61,
-          "delta": 0.11
-        },
-        {
-          "t": 1756641613,
-          "p": 0.555,
-          "delta": -0.055
-        },
-        {
-          "t": 1756857612,
-          "p": 0.415,
-          "delta": -0.14
-        },
-        {
-          "t": 1757073628,
-          "p": 0.36,
-          "delta": -0.055
-        },
-        {
-          "t": 1757203207,
-          "p": 0.285,
-          "delta": -0.075
-        },
-        {
-          "t": 1757246427,
-          "p": 0.34,
-          "delta": 0.055
-        },
-        {
-          "t": 1757764808,
-          "p": 0.4,
-          "delta": 0.06
-        },
-        {
-          "t": 1757808009,
-          "p": 0.465,
-          "delta": 0.065
-        },
-        {
-          "t": 1757851210,
-          "p": 0.525,
-          "delta": 0.06
-        },
-        {
-          "t": 1757980813,
-          "p": 0.385,
-          "delta": -0.14
-        },
-        {
-          "t": 1758153607,
-          "p": 0.44,
-          "delta": 0.055
-        },
-        {
-          "t": 1758326407,
-          "p": 0.355,
-          "delta": -0.085
-        },
-        {
-          "t": 1758412809,
-          "p": 0.3,
-          "delta": -0.055
-        },
-        {
-          "t": 1758542425,
-          "p": 0.45,
-          "delta": 0.15
-        },
-        {
-          "t": 1758801607,
-          "p": 0.505,
-          "delta": 0.055
-        },
-        {
-          "t": 1758844804,
-          "p": 0.44,
-          "delta": -0.065
-        },
-        {
-          "t": 1758888016,
-          "p": 0.535,
-          "delta": 0.095
-        },
-        {
-          "t": 1759147206,
-          "p": 0.625,
-          "delta": 0.09
-        },
-        {
-          "t": 1759190407,
-          "p": 0.865,
-          "delta": 0.24
-        },
-        {
-          "t": 1759233608,
-          "p": 0.735,
-          "delta": -0.13
-        }
-      ],
-      "price_at_open": 0.26,
-      "price_at_close": 0.735,
-      "min_price": 0.095,
-      "max_price": 0.865,
-      "final_price": 0.735,
-      "fetched_at": "2026-04-27T07:57:42.159613+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_tech_20250417_001_91710921",
-        "date": "2025-04-17 12:00",
-        "title": "OpenAI hints at social app conceptualization",
-        "description": "OpenAI first hints at a new social networking app, causing early market optimism.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInitial hints increased likelihood of launch.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-0",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250529_002_c3bdb357",
-        "date": "2025-05-29 12:00",
-        "title": "Further indications of development surface",
-        "description": "Further indications of the app's development surface, reinforcing the strategic direction.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFurther indications increased likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-1",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250808_004_6abab157",
-        "date": "2025-08-08 12:00",
-        "title": "Prototype leak of AI-first social feed",
-        "description": "Major leaks reveal a working prototype of an AI-first social feed.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrototype leak strongly increased likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-2",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250823_005_ee43b1c1",
-        "date": "2025-08-23 12:00",
-        "title": "Additional social features teased",
-        "description": "Additional social features are teased, boosting confidence.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTeased features increased likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-4",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250829_006_6daf881a",
-        "date": "2025-08-29 12:00",
-        "title": "Internal debates over moderation",
-        "description": "Internal debates over whether a social network aligned with OpenAI's core mission cause temporary drops in market confidence.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInternal debates decreased likelihood temporarily.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-6",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250903_007_9c7eea6b",
-        "date": "2025-09-03 12:00",
-        "title": "Continued internal debates",
-        "description": "Continued internal debates over mission alignment.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nContinued debates decreased likelihood temporarily.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-8",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250914_008_7546e574",
-        "date": "2025-09-14 12:00",
-        "title": "Closed beta testing begins",
-        "description": "Closed beta testing begins, signaling imminent launch.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nClosed beta testing strongly increased likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-9",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250925_009_7d6ddcb3",
-        "date": "2025-09-25 12:00",
-        "title": "Final regulatory hurdles cleared",
-        "description": "Final regulatory hurdles are reportedly cleared, setting the stage for launch.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nClearing regulatory hurdles strongly increased likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-15",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250930_010_b7d5b318",
-        "date": "2025-09-30 12:00",
-        "title": "Official app launch",
-        "description": "OpenAI officially launches the social networking app.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOfficial launch directly resolved the question as Yes.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-17",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250715_003_3deaa97c",
-        "date": "2025-07-15 12:00",
-        "title": "Allocation of significant engineering resources",
-        "description": "OpenAI allocates significant engineering resources to the social app project.",
-        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nResource allocation increased likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/openai-social-app-18",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

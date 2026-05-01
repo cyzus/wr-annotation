@@ -599,6 +599,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_tech_20251201_011_423fce18",
+        "date": "2025-12-01 00:00",
+        "title": "Widespread societal and economic impacts of AI throughout 2025",
+        "description": "The widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_tech_20251205_012_2d241d6e",
         "date": "2025-12-05 00:00",
         "title": "Significant media focus on AI technology",
@@ -698,19 +711,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251201_011_423fce18",
-        "date": "2025-12-01 00:00",
-        "title": "Widespread societal and economic impacts of AI throughout 2025",
-        "description": "The widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1321,19 +1321,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250925_004_21e19290",
-        "date": "2025-09-25 12:00",
-        "title": "Eric Adams abandons reelection bid",
-        "description": "NYC Mayor Eric Adams abandons his reelection bid.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/n-y-c-mayor-eric-173750835.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20250929_005_9fbedd46",
         "date": "2025-09-29 12:00",
         "title": "Mamdani holds lead over Cuomo in polls",
@@ -1360,19 +1347,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251015_007_4a43983d",
-        "date": "2025-10-15 12:00",
-        "title": "Mamdani blames Adams and Cuomo for budget deficit",
-        "description": "Zohran Mamdani blames Eric Adams and Andrew Cuomo for a $12 billion budget deficit.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/money/economy/mamdani-blames-eric-adams-and-cuomo-for-12-billion-budget-deficit/ar-AA1VbH5k?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20251025_008_84a8824a",
         "date": "2025-10-25 12:00",
         "title": "Late-stage mayoral debate includes Cuomo",
@@ -1381,6 +1355,32 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.yahoo.com/news/articles/mamdani-sliwa-cuomo-square-off-051659869.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250925_004_21e19290",
+        "date": "2025-09-25 12:00",
+        "title": "Eric Adams abandons reelection bid",
+        "description": "NYC Mayor Eric Adams abandons his reelection bid.",
+        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/n-y-c-mayor-eric-173750835.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251015_007_4a43983d",
+        "date": "2025-10-15 12:00",
+        "title": "Mamdani blames Adams and Cuomo for budget deficit",
+        "description": "Zohran Mamdani blames Eric Adams and Andrew Cuomo for a $12 billion budget deficit.",
+        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/money/economy/mamdani-blames-eric-adams-and-cuomo-for-12-billion-budget-deficit/ar-AA1VbH5k?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

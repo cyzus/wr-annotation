@@ -1,876 +1,137 @@
 var annotationData = [
   {
-    "id": "polymarket_0xf723d076576a434c0b92914608ab73ba9c56b2197f5bd9476ccd48a2c6dee12b",
-    "title": "Will DraftKings launch a prediction market platform during 2025?",
+    "id": "q_politics_20251231_044_55cd5793",
+    "title": "Will any new countries be admitted to NATO in 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
-    "background": "No background available.",
-    "resolution_criteria": "This market resolves to \"Yes\" if DraftKings makes at least one prediction market live and accessible to users on their U.S. platform in any U.S. state by December 31, 2025, 11:59 PM ET. Otherwise, it resolves to \"No.\"\n\nA “prediction market” refers to a tradable binary contract on a future event that is executed on an exchange venue (e.g., a CFTC-regulated Designated Contract Market) and offered on inside DraftKings’ U.S. site/app. Whitelabeling with a partner DCM via an FCM or other integration will qualify however fixed-odds sportsbook bets and fantasy contests do not qualify. Announcements alone do not qualify; the product must be operational.\n\nThe resolution's source will be a consensus of credible reporting.  \n",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nDraftKings successfully launched a prediction market platform in December 2025, driven by mounting competitive pressure and shifting regulatory landscapes. Initially hesitant, the company faced significant scrutiny from short-sellers who argued that emerging prediction markets like Kalshi posed a \"tectonic\" threat to traditional sports betting. In response to this pressure and analyst consensus that prediction markets are additive rather than cannibalistic, DraftKings accelerated its product development. The strategic pivot culminated in the launch of a CFTC-backed prediction market app on December 19, 2025, solidifying their competitive position.\n\n## Timeline Of Key Events\n- **2025-09-25**: Competitor Kalshi demonstrates strong early traction with its same-game parlays, highlighting consumer demand for prediction markets [art_general_20250925_003_156db0b2].\n- **2025-10-19**: A short-seller publicly bets against DraftKings, arguing that the company and analysts are downplaying the existential threat of prediction markets [art_general_20251019_005_b02cc61e]. Concurrently, friendly analysts publish reports arguing that prediction markets are 'additive' to the ecosystem [art_general_20251019_012_a4e34d4b].\n- **2025-11-18**: During its Q3 review, DraftKings hints strongly at product initiatives aimed at prediction market differentiation, signaling an imminent entry to attract a broader base [art_general_20251118_015_b0d24795, art_general_20251118_006_99de8f62].\n- **2025-12-19**: DraftKings officially launches its CFTC-backed prediction market app, resolving the market question [art_general_20251219_020_4dfb5e0c].\n\n## Causal Chain Analysis\nThe root cause of DraftKings' entry into prediction markets was the rapid mainstream success of pure-play prediction platforms like Kalshi, which proved the viability of the model [art_general_20250925_003_156db0b2]. This success triggered a secondary mechanism: financial market pressure. Short-sellers aggressively targeted DraftKings stock, asserting that the company was vulnerable to losing market share to these new prediction platforms [art_general_20251019_005_b02cc61e]. This caused DraftKings' management to pivot defensively. Reassured by analyst reports that prediction markets would be \"additive\" rather than cannibalistic [art_general_20251019_012_a4e34d4b], DraftKings allocated resources to develop their own platform. This strategic shift led directly to the Q3 announcement of new product initiatives [art_general_20251118_015_b0d24795], which culminated in the proximate trigger: securing CFTC backing and launching the app on December 19, 2025 [art_general_20251219_020_4dfb5e0c].\n\n## Countervailing Factors\nInitially, there were strong internal and external concerns that a prediction market would cannibalize DraftKings' highly profitable core sports betting product. The initial drop in DraftKings' stock price reflected investor anxiety over regulatory hurdles and execution risk in a novel market segment. However, these factors were overwhelmed by the strategic necessity to defend their market share against native prediction market disruptors and the realization that the products appealed to overlapping but distinct user psychologies.\n\n## Event Candidate Inventory\n- E1: Kalshi demonstrates early revenue success with prediction market features.\n  - Date: 2025-09-25\n  - Why it matters causally: Proved the commercial viability of the product, spurring competitors.\n  - Source article IDs: [art_general_20250925_003_156db0b2]\n- E2: Short-seller attacks DraftKings over prediction market vulnerability.\n  - Date: 2025-10-19\n  - Why it matters causally: Applied immense pressure on DraftKings management to announce a competing product.\n  - Source article IDs: [art_general_20251019_005_b02cc61e]\n- E3: DraftKings signals prediction market entry during Q3 update.\n  - Date: 2025-11-18\n  - Why it matters causally: Confirmed the company's intent and timeline, causing prediction market sentiment to shift favorably.\n  - Source article IDs: [art_general_20251118_015_b0d24795]\n- E4: DraftKings launches CFTC-backed prediction market app.\n  - Date: 2025-12-19\n  - Why it matters causally: The direct resolution event.\n  - Source article IDs: [art_general_20251219_020_4dfb5e0c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Kalshi success proves market | [art_general_20250925_003_156db0b2] | 2025-09-25 | 0.9 | High early volume reported |\n| Short-seller targets DraftKings | [art_general_20251019_005_b02cc61e] | 2025-10-19 | 1.0 | Clear financial pressure |\n| Analysts call markets additive | [art_general_20251019_012_a4e34d4b] | 2025-10-19 | 0.9 | Reassurance for DraftKings |\n| Q3 product initiatives announced | [art_general_20251118_015_b0d24795] | 2025-11-18 | 1.0 | Clear signaling of intent |\n| Final App Launch | [art_general_20251219_020_4dfb5e0c] | 2025-12-19 | 1.0 | Resolution of the market question |\n\n## Uncertainties And Alternative Paths\nOne major alternative path was that regulatory hurdles (e.g., CFTC pushback) could have delayed the launch into 2026. The stock price volatility in late November and early December reflects moments where market participants doubted the regulatory timeline. Furthermore, had DraftKings acquired an existing player instead of building their own CFTC-backed app, the timeline might have been faster but structurally different.\n",
-    "is_polymarket": true,
+    "background": "The expansion of NATO is a significant geopolitical event.",
+    "resolution_criteria": "The question will resolve to YES if any new country officially becomes a member of the North Atlantic Treaty Organization (NATO) in 2025. Otherwise, it will resolve to NO.",
+    "outcome": "False",
+    "explanation": "\n## Executive Summary\nIn 2025, no new countries were admitted to the North Atlantic Treaty Organization (NATO). The primary driver for this outcome was a strategic pivot within the alliance to consolidate existing commitments and prioritize defense spending and internal readiness over expansion. The most prominent candidate, Ukraine, formally dropped its goal of NATO membership as part of ongoing peace negotiations to end the war with Russia. Other candidate countries, such as Georgia and Bosnia and Herzegovina, saw their prospects stall due to internal political complexities and a lack of consensus among existing NATO members for further enlargement during a period of intense global instability.\n\n## Timeline Of Key Events\n- **March 20, 2025:** Major NATO exercises led by British troops commence in Eastern Europe, reflecting the alliance's focus on readiness rather than expansion [art_politics_20250320_018_31888182].\n- **June 15, 2025:** The 2025 NATO Summit concludes. The alliance agrees to an ambitious defense spending expansion and internal strengthening. Enlargement discussions are notably sidelined [art_politics_20250615_002_513cd1aa, art_politics_20250615_003_df0e2120].\n- **June 15, 2025:** Reports emerge indicating Ukraine is willing to drop its ambitions to join NATO in exchange for progress in peace talks [art_politics_20250615_014_4bdfef47, art_politics_20250615_015_8b4ee1d1].\n- **October 5, 2025:** Hopes for NATO membership for Bosnia and Georgia are explicitly dashed for the year 2025 [art_politics_20251005_003_fad7f01a].\n- **December 15, 2025:** Ukraine formally drops its NATO bid as a condition of a broader peace settlement framework [art_politics_20251215_002_ec1b1d0a].\n- **December 31, 2025:** The year concludes with official confirmation that no new members were admitted to NATO in 2025 [art_politics_20251231_004_acd70532].\n\n## Causal Chain Analysis\nThe lack of NATO expansion in 2025 was caused by a combination of strategic reprioritization and shifting geopolitical realities. The root cause was the prolonged war in Ukraine and the resulting strain on the alliance's resources. This led to an intermediate mechanism where NATO leadership determined that the priority must be internal consolidation and boosting defense production, as formalized at the June 2025 summit [art_politics_20250615_002_513cd1aa]. Consequently, a proximate trigger for the non-expansion was Ukraine's strategic decision to leverage its NATO aspirations as a bargaining chip, eventually dropping its membership goal to facilitate peace negotiations [art_politics_20251215_002_ec1b1d0a]. This, combined with the lack of momentum for other candidates like Georgia and Bosnia [art_politics_20251005_003_fad7f01a], resulted in the final outcome of zero new admissions.\n\n## Countervailing Factors\nThe main force pushing toward expansion was the continued desire from candidate nations for security guarantees against Russian aggression. Notably, Polish President Duda and other Eastern flank members advocated strongly for offering an invitation to Ukraine [art_politics_20250615_017_ca1a4b01]. However, this push was overwhelmed by the pragmatic reality of peace negotiations, which required concessions on the membership issue, and hesitation from key members like the US and Germany to escalate tensions by formalizing an invitation while the conflict was active.\n\n## Event Candidate Inventory\n- **E1**\n  - title: NATO agrees to defense spending expansion at 2025 Summit.\n  - date: 2025-06-15\n  - why it matters causally: Signals the pivot toward internal readiness over enlargement.\n  - source article IDs: [art_politics_20250615_002_513cd1aa]\n- **E2**\n  - title: Ukraine drops NATO goal amid peace talks.\n  - date: 2025-12-15\n  - why it matters causally: Removes the most prominent candidate from consideration, ensuring no expansion.\n  - source article IDs: [art_politics_20251215_002_ec1b1d0a]\n- **E3**\n  - title: Bosnia and Georgia NATO hopes dashed.\n  - date: 2025-10-05\n  - why it matters causally: Confirms that secondary candidates will not be admitted in 2025.\n  - source article IDs: [art_politics_20251005_003_fad7f01a]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| NATO Summit focuses on internal spending, not expansion | [art_politics_20250615_002_513cd1aa] | 2025-06-15 | 0.9 | Summit results explicitly state priorities. |\n| Ukraine drops NATO ambitions | [art_politics_20251215_002_ec1b1d0a] | 2025-12-15 | 0.95 | Key concession in peace process. |\n| Bosnia/Georgia stalled | [art_politics_20251005_003_fad7f01a] | 2025-10-05 | 0.9 | No progress for other candidates. |\n| No members admitted in 2025 | [art_politics_20251231_004_acd70532] | 2025-12-31 | 1.0 | Definitive end-of-year review. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a rapid collapse of Russian forces, which might have opened a window for immediate Ukrainian accession. However, this did not materialize. There remains uncertainty regarding the long-term security architecture for Ukraine post-war, as the alternative arrangements (e.g., bilateral guarantees) have yet to be fully defined and tested.\n",
+    "is_polymarket": false,
     "is_overlap": true,
-    "market_open": "2025-10-08T21:34:09.384850+00:00",
+    "market_open": "2025-01-01T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-12-19T15:20:04+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-draftkings-launch-a-prediction-market-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1759968008,
-          "p": 0.485
-        },
-        {
-          "t": 1760011205,
-          "p": 0.275
-        },
-        {
-          "t": 1760054408,
-          "p": 0.245
-        },
-        {
-          "t": 1760097617,
-          "p": 0.135
-        },
-        {
-          "t": 1760140803,
-          "p": 0.085
-        },
-        {
-          "t": 1760227209,
-          "p": 0.095
-        },
-        {
-          "t": 1760270413,
-          "p": 0.13
-        },
-        {
-          "t": 1760313605,
-          "p": 0.12
-        },
-        {
-          "t": 1760356812,
-          "p": 0.12
-        },
-        {
-          "t": 1760400014,
-          "p": 0.13
-        },
-        {
-          "t": 1760486405,
-          "p": 0.11
-        },
-        {
-          "t": 1760529616,
-          "p": 0.11
-        },
-        {
-          "t": 1760572819,
-          "p": 0.17
-        },
-        {
-          "t": 1760616024,
-          "p": 0.05
-        },
-        {
-          "t": 1760659208,
-          "p": 0.085
-        },
-        {
-          "t": 1760745605,
-          "p": 0.115
-        },
-        {
-          "t": 1760788817,
-          "p": 0.115
-        },
-        {
-          "t": 1760832006,
-          "p": 0.115
-        },
-        {
-          "t": 1760875213,
-          "p": 0.115
-        },
-        {
-          "t": 1760918418,
-          "p": 0.115
-        },
-        {
-          "t": 1761004808,
-          "p": 0.105
-        },
-        {
-          "t": 1761048017,
-          "p": 0.105
-        },
-        {
-          "t": 1761091212,
-          "p": 0.57
-        },
-        {
-          "t": 1761134415,
-          "p": 0.61
-        },
-        {
-          "t": 1761177608,
-          "p": 0.305
-        },
-        {
-          "t": 1761264011,
-          "p": 0.295
-        },
-        {
-          "t": 1761307212,
-          "p": 0.265
-        },
-        {
-          "t": 1761350411,
-          "p": 0.26
-        },
-        {
-          "t": 1761393613,
-          "p": 0.275
-        },
-        {
-          "t": 1761436811,
-          "p": 0.28
-        },
-        {
-          "t": 1761523210,
-          "p": 0.255
-        },
-        {
-          "t": 1761566412,
-          "p": 0.255
-        },
-        {
-          "t": 1761609613,
-          "p": 0.26
-        },
-        {
-          "t": 1761652811,
-          "p": 0.26
-        },
-        {
-          "t": 1761696012,
-          "p": 0.285
-        },
-        {
-          "t": 1761825611,
-          "p": 0.305
-        },
-        {
-          "t": 1761868808,
-          "p": 0.34
-        },
-        {
-          "t": 1761912012,
-          "p": 0.335
-        },
-        {
-          "t": 1761955211,
-          "p": 0.41
-        },
-        {
-          "t": 1761998413,
-          "p": 0.395
-        },
-        {
-          "t": 1762084812,
-          "p": 0.445
-        },
-        {
-          "t": 1762128010,
-          "p": 0.38
-        },
-        {
-          "t": 1762171212,
-          "p": 0.56
-        },
-        {
-          "t": 1762214411,
-          "p": 0.435
-        },
-        {
-          "t": 1762257612,
-          "p": 0.445
-        },
-        {
-          "t": 1762344013,
-          "p": 0.46
-        },
-        {
-          "t": 1762387207,
-          "p": 0.425
-        },
-        {
-          "t": 1762430414,
-          "p": 0.385
-        },
-        {
-          "t": 1762473610,
-          "p": 0.43
-        },
-        {
-          "t": 1762516813,
-          "p": 0.49
-        },
-        {
-          "t": 1762603226,
-          "p": 0.54
-        },
-        {
-          "t": 1762646424,
-          "p": 0.41
-        },
-        {
-          "t": 1762689611,
-          "p": 0.335
-        },
-        {
-          "t": 1762732808,
-          "p": 0.345
-        },
-        {
-          "t": 1762776012,
-          "p": 0.51
-        },
-        {
-          "t": 1762862427,
-          "p": 0.385
-        },
-        {
-          "t": 1762905612,
-          "p": 0.39
-        },
-        {
-          "t": 1762948814,
-          "p": 0.43
-        },
-        {
-          "t": 1762992010,
-          "p": 0.435
-        },
-        {
-          "t": 1763035214,
-          "p": 0.47
-        },
-        {
-          "t": 1763121614,
-          "p": 0.615
-        },
-        {
-          "t": 1763164812,
-          "p": 0.64
-        },
-        {
-          "t": 1763208015,
-          "p": 0.615
-        },
-        {
-          "t": 1763251209,
-          "p": 0.645
-        },
-        {
-          "t": 1763294413,
-          "p": 0.625
-        },
-        {
-          "t": 1763380813,
-          "p": 0.57
-        },
-        {
-          "t": 1763424009,
-          "p": 0.605
-        },
-        {
-          "t": 1763467213,
-          "p": 0.57
-        },
-        {
-          "t": 1763510412,
-          "p": 0.565
-        },
-        {
-          "t": 1763553616,
-          "p": 0.535
-        },
-        {
-          "t": 1763640010,
-          "p": 0.435
-        },
-        {
-          "t": 1763683213,
-          "p": 0.43
-        },
-        {
-          "t": 1763726410,
-          "p": 0.43
-        },
-        {
-          "t": 1763769610,
-          "p": 0.43
-        },
-        {
-          "t": 1763812810,
-          "p": 0.425
-        },
-        {
-          "t": 1763899209,
-          "p": 0.44
-        },
-        {
-          "t": 1763942412,
-          "p": 0.505
-        },
-        {
-          "t": 1763985607,
-          "p": 0.555
-        },
-        {
-          "t": 1764028812,
-          "p": 0.505
-        },
-        {
-          "t": 1764072014,
-          "p": 0.515
-        },
-        {
-          "t": 1764158429,
-          "p": 0.45
-        },
-        {
-          "t": 1764201612,
-          "p": 0.515
-        },
-        {
-          "t": 1764244817,
-          "p": 0.515
-        },
-        {
-          "t": 1764288012,
-          "p": 0.485
-        },
-        {
-          "t": 1764331216,
-          "p": 0.475
-        },
-        {
-          "t": 1764417617,
-          "p": 0.475
-        },
-        {
-          "t": 1764460812,
-          "p": 0.51
-        },
-        {
-          "t": 1764504043,
-          "p": 0.455
-        },
-        {
-          "t": 1764547212,
-          "p": 0.44
-        },
-        {
-          "t": 1764590425,
-          "p": 0.455
-        },
-        {
-          "t": 1764676815,
-          "p": 0.41
-        },
-        {
-          "t": 1764720014,
-          "p": 0.41
-        },
-        {
-          "t": 1764763217,
-          "p": 0.405
-        },
-        {
-          "t": 1764806410,
-          "p": 0.41
-        },
-        {
-          "t": 1764849618,
-          "p": 0.48
-        },
-        {
-          "t": 1764936012,
-          "p": 0.655
-        },
-        {
-          "t": 1764979212,
-          "p": 0.75
-        },
-        {
-          "t": 1765022412,
-          "p": 0.765
-        },
-        {
-          "t": 1765065624,
-          "p": 0.835
-        },
-        {
-          "t": 1765108813,
-          "p": 0.875
-        },
-        {
-          "t": 1765195225,
-          "p": 0.81
-        },
-        {
-          "t": 1765238422,
-          "p": 0.845
-        },
-        {
-          "t": 1765281610,
-          "p": 0.765
-        },
-        {
-          "t": 1765324811,
-          "p": 0.835
-        },
-        {
-          "t": 1765368016,
-          "p": 0.62
-        },
-        {
-          "t": 1765454412,
-          "p": 0.615
-        },
-        {
-          "t": 1765497611,
-          "p": 0.565
-        },
-        {
-          "t": 1765540812,
-          "p": 0.765
-        },
-        {
-          "t": 1765584013,
-          "p": 0.69
-        },
-        {
-          "t": 1765627213,
-          "p": 0.715
-        },
-        {
-          "t": 1765713612,
-          "p": 0.755
-        },
-        {
-          "t": 1765756813,
-          "p": 0.76
-        },
-        {
-          "t": 1765800011,
-          "p": 0.755
-        },
-        {
-          "t": 1765843211,
-          "p": 0.715
-        },
-        {
-          "t": 1765886423,
-          "p": 0.755
-        },
-        {
-          "t": 1765929632,
-          "p": 0.71
-        },
-        {
-          "t": 1765972812,
-          "p": 0.795
-        },
-        {
-          "t": 1766016021,
-          "p": 0.89
-        },
-        {
-          "t": 1766059211,
-          "p": 0.825
-        },
-        {
-          "t": 1766102412,
-          "p": 0.78
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1760011205,
-          "p": 0.275,
-          "delta": -0.21
-        },
-        {
-          "t": 1760097617,
-          "p": 0.135,
-          "delta": -0.14
-        },
-        {
-          "t": 1760140803,
-          "p": 0.085,
-          "delta": -0.05
-        },
-        {
-          "t": 1760572819,
-          "p": 0.17,
-          "delta": 0.085
-        },
-        {
-          "t": 1760616024,
-          "p": 0.05,
-          "delta": -0.12
-        },
-        {
-          "t": 1760702421,
-          "p": 0.115,
-          "delta": 0.065
-        },
-        {
-          "t": 1761091212,
-          "p": 0.57,
-          "delta": 0.455
-        },
-        {
-          "t": 1761177608,
-          "p": 0.305,
-          "delta": -0.265
-        },
-        {
-          "t": 1761955211,
-          "p": 0.41,
-          "delta": 0.105
-        },
-        {
-          "t": 1762171212,
-          "p": 0.56,
-          "delta": 0.15
-        },
-        {
-          "t": 1762214411,
-          "p": 0.435,
-          "delta": -0.125
-        },
-        {
-          "t": 1762516813,
-          "p": 0.49,
-          "delta": 0.055
-        },
-        {
-          "t": 1762560009,
-          "p": 0.61,
-          "delta": 0.12
-        },
-        {
-          "t": 1762603226,
-          "p": 0.54,
-          "delta": -0.07
-        },
-        {
-          "t": 1762646424,
-          "p": 0.41,
-          "delta": -0.13
-        },
-        {
-          "t": 1762689611,
-          "p": 0.335,
-          "delta": -0.075
-        },
-        {
-          "t": 1762776012,
-          "p": 0.51,
-          "delta": 0.175
-        },
-        {
-          "t": 1762819212,
-          "p": 0.385,
-          "delta": -0.125
-        },
-        {
-          "t": 1763035214,
-          "p": 0.47,
-          "delta": 0.085
-        },
-        {
-          "t": 1763078410,
-          "p": 0.595,
-          "delta": 0.125
-        },
-        {
-          "t": 1763251209,
-          "p": 0.645,
-          "delta": 0.05
-        },
-        {
-          "t": 1763380813,
-          "p": 0.57,
-          "delta": -0.075
-        },
-        {
-          "t": 1763640010,
-          "p": 0.435,
-          "delta": -0.135
-        },
-        {
-          "t": 1763942412,
-          "p": 0.505,
-          "delta": 0.07
-        },
-        {
-          "t": 1763985607,
-          "p": 0.555,
-          "delta": 0.05
-        },
-        {
-          "t": 1764028812,
-          "p": 0.505,
-          "delta": -0.05
-        },
-        {
-          "t": 1764158429,
-          "p": 0.45,
-          "delta": -0.055
-        },
-        {
-          "t": 1764201612,
-          "p": 0.515,
-          "delta": 0.065
-        },
-        {
-          "t": 1764504043,
-          "p": 0.455,
-          "delta": -0.06
-        },
-        {
-          "t": 1764633610,
-          "p": 0.525,
-          "delta": 0.07
-        },
-        {
-          "t": 1764676815,
-          "p": 0.41,
-          "delta": -0.115
-        },
-        {
-          "t": 1764849618,
-          "p": 0.48,
-          "delta": 0.07
-        },
-        {
-          "t": 1764892811,
-          "p": 0.635,
-          "delta": 0.155
-        },
-        {
-          "t": 1764979212,
-          "p": 0.75,
-          "delta": 0.115
-        },
-        {
-          "t": 1765065624,
-          "p": 0.835,
-          "delta": 0.085
-        },
-        {
-          "t": 1765281610,
-          "p": 0.765,
-          "delta": -0.07
-        },
-        {
-          "t": 1765324811,
-          "p": 0.835,
-          "delta": 0.07
-        },
-        {
-          "t": 1765368016,
-          "p": 0.62,
-          "delta": -0.215
-        },
-        {
-          "t": 1765411211,
-          "p": 0.515,
-          "delta": -0.105
-        },
-        {
-          "t": 1765454412,
-          "p": 0.615,
-          "delta": 0.1
-        },
-        {
-          "t": 1765497611,
-          "p": 0.565,
-          "delta": -0.05
-        },
-        {
-          "t": 1765540812,
-          "p": 0.765,
-          "delta": 0.2
-        },
-        {
-          "t": 1765584013,
-          "p": 0.69,
-          "delta": -0.075
-        },
-        {
-          "t": 1765713612,
-          "p": 0.755,
-          "delta": 0.065
-        },
-        {
-          "t": 1766016021,
-          "p": 0.89,
-          "delta": 0.135
-        },
-        {
-          "t": 1766059211,
-          "p": 0.825,
-          "delta": -0.065
-        },
-        {
-          "t": 1766145613,
-          "p": 0.9265,
-          "delta": 0.1015
-        }
-      ],
-      "price_at_open": 0.485,
-      "price_at_close": 0.9265,
-      "min_price": 0.05,
-      "max_price": 0.9265,
-      "final_price": 0.9265,
-      "fetched_at": "2026-04-27T07:57:51.401806+00:00"
-    },
+    "market_close": "2025-12-31T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
     "events": [
       {
-        "id": "evt_finance_20251019_002_d75f53cd",
-        "date": "2025-10-19 21:28",
-        "title": "Short-seller attacks DraftKings",
-        "description": "A short-seller publicly bets against DraftKings, arguing that the company and analysts are downplaying the existential threat of prediction markets.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/short-seller-bets-against-draftkings-140000227.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251019_010_eb5e2ea1",
-        "date": "2025-10-19 21:28",
-        "title": "Cathie Wood buys DraftKings dip",
-        "description": "Cathie Wood buys the dip in DraftKings stock.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/cathie-wood-buying-dip-draftkings-130002256.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251019_003_bd548b77",
-        "date": "2025-10-19 21:30",
-        "title": "Analysts call prediction markets additive",
-        "description": "Friendly analysts publish reports arguing that prediction markets are 'additive' to the ecosystem rather than cannibalistic.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/analyst-prediction-markets-additive-not-201406874.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251118_004_750eaf86",
-        "date": "2025-11-18 21:28",
-        "title": "DraftKings stock price drops",
-        "description": "DraftKings stock price drops reflecting investor anxiety over regulatory hurdles and execution risk.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/draftkings-stock-down-28-three-155900324.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251118_007_926f3f39",
-        "date": "2025-11-18 21:28",
-        "title": "DraftKings stock experiences volatility",
-        "description": "DraftKings stock experiences volatility over regulatory doubts.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/draftkings-stock-down-28-three-155900324.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251118_005_7dd63048",
-        "date": "2025-11-18 21:30",
-        "title": "DraftKings management pivots defensively",
-        "description": "DraftKings management pivots defensively and allocates resources to develop their own prediction market platform.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/dkng-q3-deep-dive-sports-235101277.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251118_006_560d006f",
-        "date": "2025-11-18 21:30",
-        "title": "DraftKings signals prediction market entry",
-        "description": "During its Q3 review, DraftKings hints strongly at product initiatives aimed at prediction market differentiation.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/dkng-q3-deep-dive-sports-235101277.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251219_008_b3fd60eb",
-        "date": "2025-12-19 15:17",
-        "title": "DraftKings secures CFTC backing",
-        "description": "DraftKings secures CFTC backing for its prediction market app.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.webpronews.com/draftkings-bets-big-on-prediction-markets-with-cftc-backed-app-launch",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251219_009_f643cfe2",
-        "date": "2025-12-19 15:17",
-        "title": "DraftKings launches prediction market app",
-        "description": "DraftKings officially launches its CFTC-backed prediction market app.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.webpronews.com/draftkings-bets-big-on-prediction-markets-with-cftc-backed-app-launch",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250925_001_35786f45",
-        "date": "2025-09-25 20:50",
-        "title": "Kalshi demonstrates early revenue success",
-        "description": "Kalshi demonstrates strong early traction with its same-game parlays, highlighting consumer demand for prediction markets.",
-        "impact": "**Affects:** Yes - Will DraftKings launch a prediction market platfor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the outcome.",
+        "id": "evt_politics_20250320_001_347e86bf",
+        "date": "2025-03-20 00:00",
+        "title": "Major NATO exercises commence in Eastern Europe",
+        "description": "Major NATO exercises led by British troops commence in Eastern Europe, reflecting the alliance's focus on readiness.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on readiness makes expansion less likely.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://sports.yahoo.com/article/kalshi-same-game-parlays-1-162722009.html?fr=sycsrp_catchall",
+        "source_url": "https://www.gov.uk/government/news/thousands-of-british-troops-to-lead-major-nato-exercise-in-eastern-europe",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250615_002_476223e6",
+        "date": "2025-06-15 00:00",
+        "title": "NATO agrees to defense spending expansion at 2025 Summit",
+        "description": "The alliance agrees to an ambitious defense spending expansion and internal strengthening.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on internal spending makes expansion less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.semafor.com/article/06/06/2025/nato-agrees-ambitious-defense-spending-expansion",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250615_003_9578da25",
+        "date": "2025-06-15 00:00",
+        "title": "NATO sidelines enlargement discussions at 2025 Summit",
+        "description": "Enlargement discussions are notably sidelined at the 2025 NATO Summit.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSidelining enlargement makes expansion less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.edrmagazine.eu/europe-insight-what-the-nato-summit-2025-means-for-eu-and-transatlantic-defense",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250615_004_a404e0b7",
+        "date": "2025-06-15 00:00",
+        "title": "Polish President Duda advocates for offering an invitation to Ukraine",
+        "description": "Polish President Duda and other Eastern flank members advocated strongly for offering an invitation to Ukraine.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAdvocacy for Ukraine makes expansion more likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://newsukraine.rbc.ua/news/nato-invitation-would-be-a-step-towards-real-1736956150.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250615_005_47ce40d5",
+        "date": "2025-06-15 00:00",
+        "title": "Reports emerge indicating Ukraine is willing to drop its ambitions to join NATO",
+        "description": "Reports emerge indicating Ukraine is willing to drop its ambitions to join NATO in exchange for progress in peace talks.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWillingness to drop ambitions makes expansion less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cnbc.com/2025/12/14/ukraines-zelenskyy-ditches-ambition-to-join-nato-ahead-of-peace-talks.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250615_009_bc489aea",
+        "date": "2025-06-15 00:00",
+        "title": "US and Germany hesitate to escalate tensions",
+        "description": "Hesitation from key members like the US and Germany to escalate tensions by formalizing an invitation while the conflict was active.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHesitation makes expansion less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.semafor.com/article/06/06/2025/nato-agrees-ambitious-defense-spending-expansion",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251215_007_00d70a4c",
+        "date": "2025-12-15 00:00",
+        "title": "Ukraine formally drops its NATO bid",
+        "description": "Ukraine formally drops its NATO bid as a condition of a broader peace settlement framework.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDropping bid makes expansion less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cnbc.com/2025/12/15/ukraine-gives-up-nato-bid-peace-talks.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251215_010_2d105f97",
+        "date": "2025-12-15 00:00",
+        "title": "Peace negotiations require concessions on the membership issue",
+        "description": "Peace negotiations required concessions on the membership issue.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConcessions make expansion less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cnbc.com/2025/12/15/ukraine-gives-up-nato-bid-peace-talks.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251231_008_b1651f99",
+        "date": "2025-12-31 00:00",
+        "title": "Official confirmation that no new members were admitted to NATO in 2025",
+        "description": "The year concludes with official confirmation that no new members were admitted to NATO in 2025.",
+        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOfficial confirmation makes expansion impossible.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.bbc.com/2025/12/31/nato-year-in-review-no-new-members.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -878,151 +139,153 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_science_20260105_008_529444fd",
-    "title": "Was a successful quantum entanglement demonstrated over a distance of 10 kilometers or more using 3D-printed light cage technology in 2025?",
-    "question_type": "binary",
+    "id": "q_sports_20260222_011_f522077b",
+    "title": "Which country will win the most gold medals at the 2026 Winter Olympics in Milano Cortina?",
+    "question_type": "mcq",
     "options": [
-      "Yes",
-      "No"
+      "Norway",
+      "Germany",
+      "Canada",
+      "United States"
     ],
-    "background": "No background available.",
-    "resolution_criteria": "A successful demonstration is defined by the publication of a peer-reviewed paper in a reputable scientific journal (e.g., Nature, Science) in 2025 detailing the experiment.",
-    "outcome": "False",
-    "explanation": "\n## Executive Summary\nThe proposed demonstration of quantum entanglement over a distance of 10 kilometers or more using 3D-printed light cage technology did not succeed in 2025. While 3D-printed light cages were successfully demonstrated as a scalable platform for quantum memories, their storage times remained limited to several hundred nanoseconds. This technical limitation, combined with the immense engineering challenges of integrating these memories with single-photon sources and Bell state measurement devices for long-distance communication, prevented the achievement of a 10 km entanglement swap. The focus of the research community remained on proving the viability of the technology rather than setting distance records.\n\n## Timeline Of Key Events\n- **Early 2025**: Research continues on 3D-nanoprinted hollow-core waveguides as atomic vapor-based quantum memories.\n- **Mid-2025**: Demonstrations of rapid filling times (days instead of months) for 3D-printed light cages prove their superiority over traditional hollow-core fibers for integration. [art_general_20260101_016_bc908ad7]\n- **Late 2025**: Investment in quantum communication reaches nearly $60 billion, fueling further research into practical quantum internets. [art_general_20251231_024_6af1955c]\n- **December 2025 - January 2026**: Breakthrough research published detailing the implementation of 3D-nanoprinted hollow-core waveguides as atomic vapor-based quantum memories, achieving storage times of several hundred nanoseconds. However, no 10 km entanglement is demonstrated. [art_science_20260101_004_ff8cf926]\n\n## Causal Chain Analysis\nThe failure to demonstrate a 10 km quantum entanglement using 3D-printed light cages in 2025 was rooted in the fundamental technical limitations of the nascent technology. The root cause was that the technology was still in its early stages of development, primarily focused on proving the viability of 3D-printed light cages as quantum memories [art_science_20260101_004_ff8cf926]. This focus led to the intermediate mechanism of achieving storage times of only several hundred nanoseconds, which is insufficient for the light to traverse 10 km of fiber (which requires approximately 50 microseconds). The proximate trigger for the negative outcome was the inability to overcome these storage time limitations and integrate the necessary components (single-photon sources, Bell state measurement devices) for long-distance entanglement swapping by the end of 2025 [art_general_20260101_046_2d1efac7]. Consequently, this resulted in the final outcome where a successful 10 km quantum entanglement was not demonstrated.\n\n## Countervailing Factors\nMassive financial investments in quantum communication ($60 billion) and the rapid advancement of 3D-nanoprinting (two-photon polymerization) techniques [art_general_20251231_024_6af1955c] acted as countervailing factors. These forces accelerated research and could have potentially led to faster breakthroughs. However, they failed to overcome the fundamental physical and engineering challenges associated with increasing storage times and integrating complex quantum repeater networks within the 2025 timeframe.\n\n## Event Candidate Inventory\n- E1: Demonstration of 3D-printed light cages as quantum memories\n  - Date: Late 2025 / Early 2026\n  - Why it matters causally: Proved the viability of the technology but revealed the limitations in storage time.\n  - Source article IDs: [art_science_20260101_004_ff8cf926]\n- E2: Attainment of several hundred nanoseconds storage time\n  - Date: Late 2025\n  - Why it matters causally: The limited storage time directly prevented long-distance (10 km) entanglement swapping.\n  - Source article IDs: [art_general_20260101_016_bc908ad7]\n- E3: Investment surge in quantum communication\n  - Date: Late 2025\n  - Why it matters causally: Accelerated research but was insufficient to overcome immediate technical hurdles by year's end.\n  - Source article IDs: [art_general_20251231_024_6af1955c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| 3D-printed light cages demonstrated as quantum memories | art_science_20260101_004_ff8cf926 | 2026-01-01 | 0.9 | Proof of concept achieved. |\n| Storage times limited to several hundred nanoseconds | art_general_20260101_016_bc908ad7 | 2026-01-01 | 0.9 | Technical limitation preventing 10 km transmission. |\n| Quantum communication investment reaches $60 billion | art_general_20251231_024_6af1955c | 2025-12-31 | 0.9 | Massive funding push. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty revolves around whether unpublished or classified research might have achieved longer storage times or partial entanglement over shorter distances. An alternative path could have occurred if researchers had prioritized cascading multiple short-storage repeater nodes instead of focusing on extending the storage time of individual memory nodes, although this would have presented its own severe integration challenges.\n",
+    "background": "The 2026 Winter Olympics will be held in Milano Cortina, Italy. This question asks which nation will top the gold medal table, a prestigious achievement in international sports.",
+    "resolution_criteria": "The question will resolve to the country that has won the most gold medals at the end of the 2026 Winter Olympics, as officially reported by the International Olympic Committee (IOC).",
+    "outcome": "Norway",
+    "explanation": "\n# Executive Summary\nNorway won the most gold medals at the 2026 Winter Olympics in Milano Cortina, setting a new single-Games record with 18 golds and 41 total medals. Their dominance was driven by unmatched performances in Nordic sports, specifically cross-country skiing, biathlon, and Nordic combined. Generational athletes like Johannes Hoesflot Klaebo and Jens Luras Oftebro executed flawless campaigns, sweeping multiple events and overwhelming the medal table. While nations like the United States performed exceptionally well in alpine, speedskating, and hockey, they could not match the sheer volume of Norway's victories in the endurance skiing disciplines.\n\n# Timeline Of Key Events\n- **2026-02-06 to 2026-02-21**: Johannes Hoesflot Klaebo wins six gold medals across cross-country skiing events, culminating in a historic victory in the men's 50km mass start, becoming the first Winter Olympian to win six golds at a single Games [art_sports_20260223_008_c20fc878].\n- **2026-02-20**: Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal and breaking their previous Winter Olympics record [art_sports_20260222_007_ecbd4ab5].\n- **2026-02-21**: Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal [art_general_20260221_017_57fbdfe9].\n- **2026-02-22**: The United States wins the men's ice hockey gold against Canada, securing their 12th gold medal and finishing second overall, but well behind Norway's total [art_general_20260222_007_a44504a4].\n\n# Causal Chain Analysis\nThe outcome was **caused** by Norway's deep-rooted systemic advantages and talent pipeline in Nordic skiing disciplines. This structural focus **led to** the emergence of dominant individual athletes capable of sweeping multiple events. The presence of these generational talents, such as Johannes Hoesflot Klaebo and Jens Luras Oftebro, **resulted in** near-perfect execution during the Games; for instance, Oftebro went undefeated to win three golds in Nordic combined, while Klaebo captured six [art_sports_20260223_008_c20fc878]. These compounding individual successes **triggered** a rapid accumulation of medals, effectively mathematical elimination for other countries. Ultimately, Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals) **resulted in** their final record-breaking tally of 18 gold medals.\n\n# Countervailing Factors\nThe United States mounted a strong challenge, putting together their best Winter Olympics performance in over two decades with 12 gold medals [art_sports_20260222_007_ecbd4ab5]. American athletes dominated in several areas, including Jordan Stolz winning three speedskating golds and Team USA capturing both men's and women's ice hockey titles [art_general_20260222_007_a44504a4]. However, this push was overwhelmed because the U.S. successes were spread across various disciplines, whereas Norway consolidated absolute dominance in sports that offered a high volume of medals, rendering the U.S. surge insufficient to contest the top spot.\n\n# Event Candidate Inventory\n- E1: Johannes Hoesflot Klaebo wins six gold medals, including the 50km mass start.\n  - Date: 2026-02-06 to 2026-02-21\n  - Causally matters: It contributed a massive one-third of Norway's total gold medal count, cementing their lead.\n  - Source: [art_sports_20260223_008_c20fc878], [art_general_20260221_017_57fbdfe9]\n- E2: Jens Luras Oftebro wins three gold medals in Nordic combined.\n  - Date: 2026-02-06 to 2026-02-21\n  - Causally matters: Undefeated sweep of the discipline added highly reliable golds to the Norwegian total.\n  - Source: [art_sports_20260223_008_c20fc878]\n- E3: Johannes Dale-Skjevdal wins the 15km mass start biathlon.\n  - Date: 2026-02-20\n  - Causally matters: It represented the record-breaking 17th gold medal for Norway, pushing them past their historical best.\n  - Source: [art_sports_20260222_007_ecbd4ab5]\n- E4: Team USA wins men's ice hockey gold.\n  - Date: 2026-02-22\n  - Causally matters: Capped the US medal count at 12 golds, finalizing their position as the runner-up and confirming Norway's unassailable lead.\n  - Source: [art_general_20260222_007_a44504a4], [art_sports_20260222_007_ecbd4ab5]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Norway sets record with 18 golds and 41 total medals | [art_sports_20260223_008_c20fc878] | 2026-02-23 | 1.0 | Official final medal tallies. |\n| Klaebo wins 6 golds including 50km mass start | [art_sports_20260223_008_c20fc878], [art_general_20260221_017_57fbdfe9] | 2026-02-21 | 1.0 | Historic individual performance. |\n| Oftebro sweeps Nordic combined with 3 golds | [art_sports_20260223_008_c20fc878] | 2026-02-23 | 0.9 | Matches Samppa Lajunen's 2002 feat. |\n| Dale-Skjevdal wins 15km biathlon (17th gold) | [art_sports_20260222_007_ecbd4ab5] | 2026-02-20 | 1.0 | Perfect 20/20 shooting mentioned. |\n| US finishes second with 12 golds (incl. hockey) | [art_general_20260222_007_a44504a4], [art_sports_20260222_007_ecbd4ab5] | 2026-02-22 | 1.0 | US beat Canada in OT. |\n\n# Uncertainties And Alternative Paths\nThe primary alternative path would have required catastrophic underperformance by Norwegian athletes in cross-country skiing and biathlon. Had illness or severe waxing issues affected the Norwegian ski team (as occasionally happens in Nordic sports), countries like the United States or the Netherlands could have narrowed the gap. However, the sheer margin of victory (18 to 12) means multiple top Norwegian favorites would have needed to fail simultaneously for the outcome to change.\n",
     "is_polymarket": false,
     "is_overlap": true,
-    "market_open": "2025-10-07T23:59:59+00:00",
-    "market_open_estimated": true,
-    "market_close": "2026-01-05T23:59:59+00:00",
+    "market_open": "2026-02-06T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-02-22T23:59:59+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_tech_20250101_025_8b19c7fb",
-        "date": "2025-01-01 00:00",
-        "title": "General Progress in Nanoscale 3D Printing",
-        "description": "Ongoing advancements in the field of nanoscale 3D printing have opened up new possibilities for fabricating complex structures with high precision, which has applications in many areas, including quantum technologies.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nGeneral progress in a key enabling technology provides the foundation for more specific breakthroughs, such as the 3D-printed light cages.",
+        "id": "evt_sports_20260206_001_c2d97cb4",
+        "date": "2026-02-06 00:00",
+        "title": "Norway establishes systemic advantages in Nordic skiing",
+        "description": "Norway's deep-rooted systemic advantages and talent pipeline in Nordic skiing disciplines.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260206_001_c2d97cb4 had a positive impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://scitechdaily.com/3d-printed-light-cages-could-solve-one-of-quantum-networkings-biggest-problems",
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250601_022_5b59962a",
-        "date": "2025-06-01 00:00",
-        "title": "Advancements in Two-Photon Polymerization Lithography",
-        "description": "Advances in two-photon polymerization lithography have enabled the fabrication of complex 3D nanostructures with high precision, making it possible to create devices like the 'light cages'.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis enabling technology is a prerequisite for the development of the 3D-printed light cages, and thus contributes to the overall progress in the field.",
+        "id": "evt_sports_20260220_004_bd419d95",
+        "date": "2026-02-20 12:00",
+        "title": "Johannes Dale-Skjevdal wins 15km mass start biathlon",
+        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260220_004_bd419d95 had a positive impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://scitechdaily.com/3d-printed-light-cages-could-solve-one-of-quantum-networkings-biggest-problems",
+        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251110_001_ad6f6fb8",
-        "date": "2025-11-10 00:00",
-        "title": "Development of 3D-Printed Light Cages for Quantum Memory",
-        "description": "Researchers from Humboldt-Universität zu Berlin, the Leibniz Institute of Photonic Technology, and the University of Stuttgart developed a new method for building quantum memories using 3D-nanoprinted 'light cages'.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe development of a novel technology that could solve key problems in quantum networking significantly increases the probability of a successful long-distance entanglement demonstration.",
+        "id": "evt_sports_20260221_003_92d0ced9",
+        "date": "2026-02-21 08:30",
+        "title": "Klaebo wins the men's 50km mass start",
+        "description": "Klaebo wins the men's 50km cross-country mass start.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWinning the 50km mass start secured the 18th gold medal, contributing to Norway's win.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://scitechdaily.com/3d-printed-light-cages-could-solve-one-of-quantum-networkings-biggest-problems",
+        "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251110_003_2c95cdbf",
-        "date": "2025-11-10 00:00",
-        "title": "Integration of Multiple Light Cages on a Single Chip",
-        "description": "Researchers successfully integrated multiple light cage memories onto a single chip, demonstrating the scalability of the technology.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nScalability is a crucial factor for building practical quantum networks, so this achievement significantly boosts the chances of a successful large-scale demonstration.",
+        "id": "evt_sports_20260222_006_c53fdbc9",
+        "date": "2026-02-22 12:00",
+        "title": "Jordan Stolz wins three speedskating golds",
+        "description": "Jordan Stolz wins three speedskating golds for the US.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEvent evt_sports_20260222_006_c53fdbc9 had a negative impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://scitechdaily.com/3d-printed-light-cages-could-solve-one-of-quantum-networkings-biggest-problems",
+        "source_url": "https://heavy.com/sports/olympics/usa-gold-medal-count-today",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251110_005_758516a4",
-        "date": "2025-11-10 00:00",
-        "title": "High Precision and Reproducibility in 3D-Nanoprinting",
-        "description": "The 3D-nanoprinting process used to create the light cages achieves intra-chip structure variations of less than 2 nanometers and inter-chip variations of less than 15 nanometers.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHigh precision in the fabrication process is essential for creating reliable and scalable quantum components, which increases the chances of a successful demonstration.",
+        "id": "evt_sports_20260206_002_d3f998c3",
+        "date": "2026-02-06 00:00",
+        "title": "Generational talents emerge in Norway",
+        "description": "The emergence of dominant individual athletes capable of sweeping multiple events.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260206_002_d3f998c3 had a positive impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://scitechdaily.com/3d-printed-light-cages-could-solve-one-of-quantum-networkings-biggest-problems",
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251201_006_40cd860b",
-        "date": "2025-12-01 12:00",
-        "title": "Photon Loss and Decoherence Limit Long-Distance Entanglement",
-        "description": "Decoherence and photon loss are the main challenges in long-distance quantum networking, with significant signal loss occurring over relatively short distances in fiber-optic cables.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis is a fundamental physical limitation that makes any long-distance quantum communication inherently difficult, thus decreasing the likelihood of a successful demonstration.",
+        "id": "evt_sports_20260220_001_6f1bed3a",
+        "date": "2026-02-20 12:00",
+        "title": "Johannes Dale-Skjevdal hits all 20 targets in 15km biathlon",
+        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHitting all targets led to winning the biathlon and securing the 17th gold, contributing to Norway's win.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://quantumcomputer.blog/quantum-entanglement-distribution-in-fiber",
+        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251201_008_172f6f5b",
-        "date": "2025-12-01 12:00",
-        "title": "Use of Satellite-Based Systems for Long-Distance Quantum Communication",
-        "description": "Satellite-based quantum communication is a promising alternative to fiber-optic cables, as it suffers from significantly less signal loss over long distances.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSatellite-based systems provide a viable path to achieving long-distance quantum communication, thus increasing the probability of a successful demonstration.",
+        "id": "evt_sports_20260221_011_525b56ab",
+        "date": "2026-02-21 08:00",
+        "title": "Johannes Hoesflot Klaebo wins six gold medals",
+        "description": "Johannes Hoesflot Klaebo wins six gold medals across cross-country skiing events, including the 50km mass start.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_011_525b56ab had a positive impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://quantumcomputer.blog/quantum-entanglement-distribution-in-fiber",
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251201_010_fed163c3",
-        "date": "2025-12-01 12:00",
-        "title": "Development of Quantum Memory for Synchronization",
-        "description": "Quantum memory is a crucial component of quantum repeaters, as it is needed to store entangled states and synchronize them across different segments of the network.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe development of effective quantum memory is a prerequisite for building functional quantum repeaters, so this progress increases the chances of a successful demonstration.",
+        "id": "evt_sports_20260221_004_a32ea3f8",
+        "date": "2026-02-21 08:45",
+        "title": "Norway secures its 18th gold medal",
+        "description": "Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecuring the 18th gold directly led to the final record of 18 golds, contributing to Norway's win.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://quantumcomputer.blog/quantum-entanglement-distribution-in-fiber",
+        "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251216_011_a3ef0cf2",
-        "date": "2025-12-16 00:00",
-        "title": "Successful Demonstration of Entanglement-Assisted Communication over 20 km",
-        "description": "Researchers experimentally demonstrated deterministic entanglement-assisted quantum communication over a 20 km commercial fiber channel, a crucial step towards metropolitan-scale quantum networks.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA successful demonstration of entanglement over a long distance, even without the specific technology in the question, makes the overall goal of the question significantly more likely to be achieved.",
+        "id": "evt_sports_20260221_003_5d6511de",
+        "date": "2026-02-21 12:00",
+        "title": "Jens Luras Oftebro wins three gold medals",
+        "description": "Jens Luras Oftebro goes undefeated to win three golds in Nordic combined.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_003_5d6511de had a positive impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.ncbi.nlm.nih.gov/pubmed/41577657",
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251216_013_75ba665a",
-        "date": "2025-12-16 00:00",
-        "title": "Application of Frequency Division Multiplexing",
-        "description": "The researchers used frequency division multiplexing to simultaneously decode 10 classical signals, improving the efficiency of the communication.",
-        "impact": "**Affects:** Yes - Was a successful quantum entanglement demonstrated  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproving the efficiency of quantum communication is an important step towards practical applications, so this achievement increases the chances of a successful demonstration.",
+        "id": "evt_sports_20260221_005_7f3b7d79",
+        "date": "2026-02-21 12:00",
+        "title": "Norway accumulates 25 medals in cross-country and biathlon",
+        "description": "Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals).",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_005_7f3b7d79 had a positive impact on Norway winning.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.ncbi.nlm.nih.gov/pubmed/41577657",
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -721,32 +721,6 @@ var annotationData = [
     },
     "events": [
       {
-        "id": "evt_politics_20250422_007_c8a6671f",
-        "date": "2025-04-22 00:00",
-        "title": "Constitutional Court upholds impeachment",
-        "description": "South Korea's Constitutional Court officially upholds the impeachment of President Yoon.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUpholding impeachment removed immunity, enabling prosecution.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/south-koreas-constitutional-court-removes-025054823.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250721_009_025c1bb6",
-        "date": "2025-07-21 00:00",
-        "title": "Yoon taken back into custody",
-        "description": "Yoon is taken back into custody over insurrection charges.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nBeing taken back into custody increased likelihood of prison.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/south-korea-former-president-yoon-060822966.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20250220_005_5c14b672",
         "date": "2025-02-20 00:00",
         "title": "Yoon goes on criminal trial",
@@ -773,6 +747,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_politics_20250422_007_c8a6671f",
+        "date": "2025-04-22 00:00",
+        "title": "Constitutional Court upholds impeachment",
+        "description": "South Korea's Constitutional Court officially upholds the impeachment of President Yoon.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUpholding impeachment removed immunity, enabling prosecution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/south-koreas-constitutional-court-removes-025054823.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_politics_20250709_008_638c4991",
         "date": "2025-07-09 00:00",
         "title": "Court approves new arrest warrant",
@@ -781,6 +768,19 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://nypost.com/2025/07/09/world-news/south-korean-court-approves-new-arrest-of-former-president-yoon-suk-yeol-over-martial-law-decree",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250721_009_025c1bb6",
+        "date": "2025-07-21 00:00",
+        "title": "Yoon taken back into custody",
+        "description": "Yoon is taken back into custody over insurrection charges.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nBeing taken back into custody increased likelihood of prison.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/south-korea-former-president-yoon-060822966.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

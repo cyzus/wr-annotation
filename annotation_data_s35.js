@@ -1,5 +1,943 @@
 var annotationData = [
   {
+    "id": "polymarket_0xb643afacc478a059b67089ac1bca30cda972a006784ed51bae2241ce87d884d0",
+    "title": "Will the U.S. SEC approve a Dogecoin ETF before December 31, 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if any spot Dogecoin ETF receives approval from the SEC by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nApproval under Rule 19-4b will qualify for a \"Yes\" resolution, even if there has not been an S-1 approval. Similarly, an S-1 approval without a 19-4b approval will also qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe U.S. SEC's approval of a Dogecoin ETF before December 31, 2025, was primarily driven by the progressive institutionalization of memecoins and a broad regulatory easing pathway for crypto assets. Initially, the SEC pushed back decisions on filings from issuers like Bitwise and Grayscale, leading to significant market volatility and sentiment shifts. However, continued demand and a massive backlog forced the SEC to clarify its stance. By September 18, 2025, the SEC eased its regulatory pathway for alternative crypto ETFs, culminating in the official launch of the first Dogecoin ETF.\n\n## Timeline Of Key Events\n- **2025-01-23 to 2025-01-29**: The SEC delayed decisions on multiple Dogecoin and Hedera ETF applications, pushing potential approval dates to later in the year, which caused market sentiment to fluctuate wildly ([art_finance_20250124_003_b3dda15a], [art_finance_20250129_005_9b6f2a59]).\n- **2025-02-28**: A major trough occurred when the SEC reiterated its delays, reinforcing negative sentiment in the short term ([art_finance_20250228_006_5fc71406]).\n- **2025-06-04 to 2025-06-10**: The SEC extended its review period for the Bitwise Dogecoin ETF amid a record backlog, causing favored predictions to flip multiple times between 'Yes' and 'No' ([art_finance_20250604_007_fe345b77], [art_finance_20250610_011_e8f9cedc]).\n- **Late June to August 2025**: Sentiment recovered as demand rose and Grayscale actively pushed for its spot DOGE ETF, keeping hopes alive despite previous delays ([art_general_20250622_005_2bc0f741], [art_general_20250821_002_72616d79]).\n- **2025-09-18**: The SEC officially eased the regulatory pathway for crypto ETFs and approved the first Dogecoin ETF, resolving the question positively ([art_finance_20250918_009_817ac588]).\n\n## Causal Chain Analysis\nThe root cause was the initial wave of spot ETF filings by major institutional players like Bitwise and Grayscale, which established a formal regulatory dialogue for Dogecoin. This led to intermediate mechanisms where the SEC, faced with a record backlog and mounting institutional pressure, implemented standard delay tactics to buy time for policy formulation ([art_finance_20250604_007_fe345b77]). These delays triggered extreme market volatility and shifting predictions as traders speculated on the final outcome. The proximate trigger was the SEC's internal decision to ease the pathway for alternative crypto assets, resulting in the final outcome of the SEC approving a Dogecoin ETF on September 18, 2025 ([art_finance_20250918_009_817ac588]).\n\n## Countervailing Factors\nThe main countervailing factor was the SEC's historical reluctance to approve crypto assets beyond Bitcoin and Ethereum, citing concerns over market manipulation and lack of utility. This skepticism was reflected in the repeated delays and pushed back deadlines ([art_finance_20250124_003_b3dda15a]). However, this resistance was eventually overwhelmed by relentless institutional pressure, sustained retail demand, and a shifting broader regulatory framework that accommodated a wider array of crypto ETFs.\n\n## Event Candidate Inventory\n- E1: SEC delays initial key decisions on Dogecoin ETFs\n  - Date: 2025-01-24\n  - Why it matters causally: Reset market expectations and established a longer timeline for potential approval.\n  - Source: [art_finance_20250124_003_b3dda15a]\n- E2: SEC extends Bitwise Dogecoin ETF review amid backlog\n  - Date: 2025-06-10\n  - Why it matters causally: Confirmed the SEC was actively reviewing but needed more time, driving the massive prediction flips in early June.\n  - Source: [art_finance_20250610_011_e8f9cedc]\n- E3: Grayscale seeks SEC approval for spot DOGE ETF\n  - Date: August 2025\n  - Why it matters causally: Kept institutional pressure high leading up to the final decision.\n  - Source: [art_general_20250821_002_72616d79]\n- E4: SEC eases pathway and approves Dogecoin ETF\n  - Date: 2025-09-18\n  - Why it matters causally: The direct final event that resolved the question positively.\n  - Source: [art_finance_20250918_009_817ac588]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| SEC delays initial Dogecoin ETF decisions | [art_finance_20250124_003_b3dda15a], [art_finance_20250129_005_9b6f2a59] | 2025-01-24 to 2025-01-29 | 0.95 | Triggered January prediction flips. |\n| Record backlog causes further delays | [art_finance_20250604_007_fe345b77], [art_finance_20250610_011_e8f9cedc] | 2025-06-04 to 2025-06-10 | 0.95 | Caused massive June volatility. |\n| Institutional pressure continues with Grayscale | [art_general_20250821_002_72616d79] | August 2025 | 0.90 | Sustained momentum. |\n| SEC approves Dogecoin ETF | [art_finance_20250918_009_817ac588] | 2025-09-18 | 1.0 | Final positive resolution. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether the SEC would classify Dogecoin as a security or demand surveillance-sharing agreements that didn't exist, which could have led to outright denials instead of delays. An alternative path would have seen the SEC blanket-rejecting all altcoin ETFs, causing the market prediction to permanently stay 'No', resolving the question negatively. The broader crypto market conditions (like a potential massive crash) could also have derailed the approval process.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2024-12-31T18:50:59.285000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-09-18T17:40:04+00:00",
+    "polymarket_url": "https://polymarket.com/event/doge-etf-approved-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1735689604,
+          "p": 0.37
+        },
+        {
+          "t": 1735862404,
+          "p": 0.27
+        },
+        {
+          "t": 1736035203,
+          "p": 0.29
+        },
+        {
+          "t": 1736251203,
+          "p": 0.36
+        },
+        {
+          "t": 1736424003,
+          "p": 0.36
+        },
+        {
+          "t": 1736596803,
+          "p": 0.335
+        },
+        {
+          "t": 1736812803,
+          "p": 0.335
+        },
+        {
+          "t": 1736985604,
+          "p": 0.475
+        },
+        {
+          "t": 1737158404,
+          "p": 0.365
+        },
+        {
+          "t": 1737374404,
+          "p": 0.355
+        },
+        {
+          "t": 1737547203,
+          "p": 0.365
+        },
+        {
+          "t": 1737720003,
+          "p": 0.51
+        },
+        {
+          "t": 1737936004,
+          "p": 0.495
+        },
+        {
+          "t": 1738108804,
+          "p": 0.555
+        },
+        {
+          "t": 1738281604,
+          "p": 0.54
+        },
+        {
+          "t": 1738497604,
+          "p": 0.535
+        },
+        {
+          "t": 1738670404,
+          "p": 0.54
+        },
+        {
+          "t": 1738843204,
+          "p": 0.535
+        },
+        {
+          "t": 1739059206,
+          "p": 0.53
+        },
+        {
+          "t": 1739232004,
+          "p": 0.63
+        },
+        {
+          "t": 1739448004,
+          "p": 0.615
+        },
+        {
+          "t": 1739620805,
+          "p": 0.755
+        },
+        {
+          "t": 1739793604,
+          "p": 0.745
+        },
+        {
+          "t": 1740009604,
+          "p": 0.745
+        },
+        {
+          "t": 1740182405,
+          "p": 0.75
+        },
+        {
+          "t": 1740355204,
+          "p": 0.75
+        },
+        {
+          "t": 1740571204,
+          "p": 0.745
+        },
+        {
+          "t": 1740744005,
+          "p": 0.525
+        },
+        {
+          "t": 1740916805,
+          "p": 0.585
+        },
+        {
+          "t": 1741132804,
+          "p": 0.655
+        },
+        {
+          "t": 1741305605,
+          "p": 0.65
+        },
+        {
+          "t": 1741478405,
+          "p": 0.655
+        },
+        {
+          "t": 1741694405,
+          "p": 0.62
+        },
+        {
+          "t": 1741867205,
+          "p": 0.685
+        },
+        {
+          "t": 1742040004,
+          "p": 0.695
+        },
+        {
+          "t": 1742256005,
+          "p": 0.73
+        },
+        {
+          "t": 1742428805,
+          "p": 0.69
+        },
+        {
+          "t": 1742601606,
+          "p": 0.735
+        },
+        {
+          "t": 1742817604,
+          "p": 0.72
+        },
+        {
+          "t": 1742990405,
+          "p": 0.69
+        },
+        {
+          "t": 1743206406,
+          "p": 0.69
+        },
+        {
+          "t": 1743379205,
+          "p": 0.69
+        },
+        {
+          "t": 1743552006,
+          "p": 0.69
+        },
+        {
+          "t": 1743768007,
+          "p": 0.69
+        },
+        {
+          "t": 1743940805,
+          "p": 0.69
+        },
+        {
+          "t": 1744113606,
+          "p": 0.69
+        },
+        {
+          "t": 1744329605,
+          "p": 0.625
+        },
+        {
+          "t": 1744502405,
+          "p": 0.615
+        },
+        {
+          "t": 1744675205,
+          "p": 0.625
+        },
+        {
+          "t": 1744891205,
+          "p": 0.585
+        },
+        {
+          "t": 1745064006,
+          "p": 0.545
+        },
+        {
+          "t": 1745236806,
+          "p": 0.51
+        },
+        {
+          "t": 1745452806,
+          "p": 0.53
+        },
+        {
+          "t": 1745625606,
+          "p": 0.54
+        },
+        {
+          "t": 1745798405,
+          "p": 0.575
+        },
+        {
+          "t": 1746014406,
+          "p": 0.725
+        },
+        {
+          "t": 1746187206,
+          "p": 0.68
+        },
+        {
+          "t": 1746360005,
+          "p": 0.655
+        },
+        {
+          "t": 1746576005,
+          "p": 0.64
+        },
+        {
+          "t": 1746748807,
+          "p": 0.61
+        },
+        {
+          "t": 1746964807,
+          "p": 0.615
+        },
+        {
+          "t": 1747137607,
+          "p": 0.6
+        },
+        {
+          "t": 1747310407,
+          "p": 0.665
+        },
+        {
+          "t": 1747526406,
+          "p": 0.63
+        },
+        {
+          "t": 1747699206,
+          "p": 0.625
+        },
+        {
+          "t": 1747872007,
+          "p": 0.625
+        },
+        {
+          "t": 1748088006,
+          "p": 0.64
+        },
+        {
+          "t": 1748260806,
+          "p": 0.665
+        },
+        {
+          "t": 1748433607,
+          "p": 0.675
+        },
+        {
+          "t": 1748649607,
+          "p": 0.685
+        },
+        {
+          "t": 1748822406,
+          "p": 0.68
+        },
+        {
+          "t": 1748995206,
+          "p": 0.49
+        },
+        {
+          "t": 1749211206,
+          "p": 0.525
+        },
+        {
+          "t": 1749384007,
+          "p": 0.435
+        },
+        {
+          "t": 1749556807,
+          "p": 0.575
+        },
+        {
+          "t": 1749772807,
+          "p": 0.635
+        },
+        {
+          "t": 1749945608,
+          "p": 0.59
+        },
+        {
+          "t": 1750118408,
+          "p": 0.595
+        },
+        {
+          "t": 1750334407,
+          "p": 0.645
+        },
+        {
+          "t": 1750507208,
+          "p": 0.81
+        },
+        {
+          "t": 1750723207,
+          "p": 0.69
+        },
+        {
+          "t": 1750896008,
+          "p": 0.71
+        },
+        {
+          "t": 1751068807,
+          "p": 0.735
+        },
+        {
+          "t": 1751284807,
+          "p": 0.755
+        },
+        {
+          "t": 1751457607,
+          "p": 0.77
+        },
+        {
+          "t": 1751630407,
+          "p": 0.76
+        },
+        {
+          "t": 1751846407,
+          "p": 0.765
+        },
+        {
+          "t": 1752019207,
+          "p": 0.745
+        },
+        {
+          "t": 1752192008,
+          "p": 0.795
+        },
+        {
+          "t": 1752408007,
+          "p": 0.765
+        },
+        {
+          "t": 1752580808,
+          "p": 0.74
+        },
+        {
+          "t": 1752753607,
+          "p": 0.74
+        },
+        {
+          "t": 1752969608,
+          "p": 0.835
+        },
+        {
+          "t": 1753142409,
+          "p": 0.795
+        },
+        {
+          "t": 1753315209,
+          "p": 0.75
+        },
+        {
+          "t": 1753531210,
+          "p": 0.755
+        },
+        {
+          "t": 1753704009,
+          "p": 0.755
+        },
+        {
+          "t": 1753876809,
+          "p": 0.755
+        },
+        {
+          "t": 1754092809,
+          "p": 0.6
+        },
+        {
+          "t": 1754265607,
+          "p": 0.61
+        },
+        {
+          "t": 1754438409,
+          "p": 0.725
+        },
+        {
+          "t": 1754654406,
+          "p": 0.695
+        },
+        {
+          "t": 1754827202,
+          "p": 0.68
+        },
+        {
+          "t": 1755043214,
+          "p": 0.755
+        },
+        {
+          "t": 1755216010,
+          "p": 0.735
+        },
+        {
+          "t": 1755388808,
+          "p": 0.75
+        },
+        {
+          "t": 1755604809,
+          "p": 0.735
+        },
+        {
+          "t": 1755777614,
+          "p": 0.705
+        },
+        {
+          "t": 1755950412,
+          "p": 0.67
+        },
+        {
+          "t": 1756166404,
+          "p": 0.755
+        },
+        {
+          "t": 1756339207,
+          "p": 0.82
+        },
+        {
+          "t": 1756512008,
+          "p": 0.795
+        },
+        {
+          "t": 1756728019,
+          "p": 0.785
+        },
+        {
+          "t": 1756900811,
+          "p": 0.785
+        },
+        {
+          "t": 1757073614,
+          "p": 0.89
+        },
+        {
+          "t": 1757289612,
+          "p": 0.915
+        },
+        {
+          "t": 1757462408,
+          "p": 0.915
+        },
+        {
+          "t": 1757635207,
+          "p": 0.925
+        },
+        {
+          "t": 1757851217,
+          "p": 0.96
+        },
+        {
+          "t": 1758024005,
+          "p": 0.96
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1735776003,
+          "p": 0.265,
+          "delta": -0.105
+        },
+        {
+          "t": 1736078403,
+          "p": 0.32,
+          "delta": 0.055
+        },
+        {
+          "t": 1736856003,
+          "p": 0.385,
+          "delta": 0.065
+        },
+        {
+          "t": 1736985604,
+          "p": 0.475,
+          "delta": 0.09
+        },
+        {
+          "t": 1737072004,
+          "p": 0.36,
+          "delta": -0.115
+        },
+        {
+          "t": 1737590404,
+          "p": 0.525,
+          "delta": 0.165
+        },
+        {
+          "t": 1737633604,
+          "p": 0.475,
+          "delta": -0.05
+        },
+        {
+          "t": 1738108804,
+          "p": 0.555,
+          "delta": 0.08
+        },
+        {
+          "t": 1739232004,
+          "p": 0.63,
+          "delta": 0.075
+        },
+        {
+          "t": 1739534404,
+          "p": 0.7,
+          "delta": 0.07
+        },
+        {
+          "t": 1739620805,
+          "p": 0.755,
+          "delta": 0.055
+        },
+        {
+          "t": 1740700805,
+          "p": 0.575,
+          "delta": -0.18
+        },
+        {
+          "t": 1741046405,
+          "p": 0.665,
+          "delta": 0.09
+        },
+        {
+          "t": 1742256005,
+          "p": 0.73,
+          "delta": 0.065
+        },
+        {
+          "t": 1744200006,
+          "p": 0.635,
+          "delta": -0.095
+        },
+        {
+          "t": 1744804806,
+          "p": 0.545,
+          "delta": -0.09
+        },
+        {
+          "t": 1746014406,
+          "p": 0.725,
+          "delta": 0.18
+        },
+        {
+          "t": 1746316805,
+          "p": 0.655,
+          "delta": -0.07
+        },
+        {
+          "t": 1746489606,
+          "p": 0.59,
+          "delta": -0.065
+        },
+        {
+          "t": 1746532805,
+          "p": 0.64,
+          "delta": 0.05
+        },
+        {
+          "t": 1748995206,
+          "p": 0.49,
+          "delta": -0.15
+        },
+        {
+          "t": 1749340807,
+          "p": 0.435,
+          "delta": -0.055
+        },
+        {
+          "t": 1749513606,
+          "p": 0.545,
+          "delta": 0.11
+        },
+        {
+          "t": 1749600007,
+          "p": 0.685,
+          "delta": 0.14
+        },
+        {
+          "t": 1749772807,
+          "p": 0.635,
+          "delta": -0.05
+        },
+        {
+          "t": 1749902407,
+          "p": 0.585,
+          "delta": -0.05
+        },
+        {
+          "t": 1750291207,
+          "p": 0.655,
+          "delta": 0.07
+        },
+        {
+          "t": 1750464008,
+          "p": 0.755,
+          "delta": 0.1
+        },
+        {
+          "t": 1750507208,
+          "p": 0.81,
+          "delta": 0.055
+        },
+        {
+          "t": 1750550406,
+          "p": 0.75,
+          "delta": -0.06
+        },
+        {
+          "t": 1750593607,
+          "p": 0.675,
+          "delta": -0.075
+        },
+        {
+          "t": 1750636807,
+          "p": 0.765,
+          "delta": 0.09
+        },
+        {
+          "t": 1750723207,
+          "p": 0.69,
+          "delta": -0.075
+        },
+        {
+          "t": 1750766406,
+          "p": 0.745,
+          "delta": 0.055
+        },
+        {
+          "t": 1750982407,
+          "p": 0.68,
+          "delta": -0.065
+        },
+        {
+          "t": 1751068807,
+          "p": 0.735,
+          "delta": 0.055
+        },
+        {
+          "t": 1751155208,
+          "p": 0.665,
+          "delta": -0.07
+        },
+        {
+          "t": 1751241607,
+          "p": 0.75,
+          "delta": 0.085
+        },
+        {
+          "t": 1751328008,
+          "p": 0.62,
+          "delta": -0.13
+        },
+        {
+          "t": 1751371207,
+          "p": 0.73,
+          "delta": 0.11
+        },
+        {
+          "t": 1751500808,
+          "p": 0.785,
+          "delta": 0.055
+        },
+        {
+          "t": 1752667208,
+          "p": 0.735,
+          "delta": -0.05
+        },
+        {
+          "t": 1752710408,
+          "p": 0.795,
+          "delta": 0.06
+        },
+        {
+          "t": 1752753607,
+          "p": 0.74,
+          "delta": -0.055
+        },
+        {
+          "t": 1752796808,
+          "p": 0.81,
+          "delta": 0.07
+        },
+        {
+          "t": 1753315209,
+          "p": 0.75,
+          "delta": -0.06
+        },
+        {
+          "t": 1754092809,
+          "p": 0.6,
+          "delta": -0.15
+        },
+        {
+          "t": 1754308808,
+          "p": 0.765,
+          "delta": 0.165
+        },
+        {
+          "t": 1754481608,
+          "p": 0.715,
+          "delta": -0.05
+        },
+        {
+          "t": 1754524806,
+          "p": 0.66,
+          "delta": -0.055
+        },
+        {
+          "t": 1754870407,
+          "p": 0.755,
+          "delta": 0.095
+        },
+        {
+          "t": 1755086406,
+          "p": 0.695,
+          "delta": -0.06
+        },
+        {
+          "t": 1755129608,
+          "p": 0.61,
+          "delta": -0.085
+        },
+        {
+          "t": 1755216010,
+          "p": 0.735,
+          "delta": 0.125
+        },
+        {
+          "t": 1755864002,
+          "p": 0.675,
+          "delta": -0.06
+        },
+        {
+          "t": 1756080004,
+          "p": 0.73,
+          "delta": 0.055
+        },
+        {
+          "t": 1756339207,
+          "p": 0.82,
+          "delta": 0.09
+        },
+        {
+          "t": 1757030412,
+          "p": 0.885,
+          "delta": 0.065
+        },
+        {
+          "t": 1757116822,
+          "p": 0.935,
+          "delta": 0.05
+        }
+      ],
+      "price_at_open": 0.37,
+      "price_at_close": 0.9765,
+      "min_price": 0.265,
+      "max_price": 0.985,
+      "final_price": 0.9765,
+      "fetched_at": "2026-04-27T07:57:45.944142+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20250124_001_53eda005",
+        "date": "2025-01-24 12:00",
+        "title": "SEC delays key decisions on Dogecoin and Hedera ETFs",
+        "description": "The SEC delayed decisions on multiple Dogecoin and Hedera ETF applications, pushing potential approval dates to later in the year.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInitial delays made the approval seem less likely in the short term.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://coincodex.com/article/72928/sec-delays-dogecoin-hedera-etf-decisions-november-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250129_002_37a67581",
+        "date": "2025-01-29 12:00",
+        "title": "SEC delays decision on Bitwise Dogecoin ETF",
+        "description": "The SEC specifically delayed the decision on the Bitwise Dogecoin ETF launch.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSpecific delay on Bitwise further reduced short-term likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://coincentral.com/sec-delays-decision-on-bitwise-dogecoin-etf-ahead-first-doge-etf-launch",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250228_003_cf0010bf",
+        "date": "2025-02-28 12:00",
+        "title": "SEC reiterates delays on Dogecoin ETFs",
+        "description": "The SEC reiterated its delays on Dogecoin ETFs, reinforcing negative sentiment in the short term.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nReiterated delays reinforced negative sentiment.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cryptometer.io/news/sec-pushes-back-decisions-on-dogecoin-and-hedera-etfs-to-november",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250604_004_eda317e2",
+        "date": "2025-06-04 12:00",
+        "title": "SEC pushes Dogecoin ETF approval to November due to record backlog",
+        "description": "The SEC pushed the Dogecoin ETF approval to November as it faced a record backlog of applications.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushing to November due to backlog significantly delayed the timeline.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://parameter.io/dogecoin-etf-approval-pushed-to-november-as-sec-faces-record-backlog",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250610_005_ff426c23",
+        "date": "2025-06-10 12:00",
+        "title": "SEC extends Bitwise Dogecoin ETF review",
+        "description": "The SEC extended its review period for the Bitwise Dogecoin ETF amid market scrutiny.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nExtended review period added to the uncertainty.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://chainaffairs.com/sec-extends-bitwise-dogecoin-etf-review-to-november-amid-market-scrutiny",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250821_007_b72d6ed1",
+        "date": "2025-08-21 01:10",
+        "title": "Grayscale seeks SEC approval for spot DOGE ETF",
+        "description": "Grayscale actively pushed for its spot DOGE ETF, keeping institutional pressure high.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInstitutional pressure from Grayscale increased the likelihood of approval.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/dogecoin-holds-above-20-cents-150254168.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250918_008_82d1d1ee",
+        "date": "2025-09-18 10:00",
+        "title": "SEC eases regulatory pathway for alternative crypto ETFs",
+        "description": "The SEC officially eased the regulatory pathway for alternative crypto assets.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEasing the regulatory pathway was a major step towards approval.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250918_009_334a048c",
+        "date": "2025-09-18 11:00",
+        "title": "SEC approves the first Dogecoin ETF",
+        "description": "The SEC officially approved the first Dogecoin ETF.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirect approval of the ETF.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250918_010_99188f3e",
+        "date": "2025-09-18 12:00",
+        "title": "First Dogecoin ETF officially launches",
+        "description": "The first Dogecoin ETF officially launched following SEC approval.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLaunch of the ETF confirms the positive resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250622_006_e563302d",
+        "date": "2025-06-22 01:10",
+        "title": "Dogecoin experiences V-shaped recovery showing rising demand",
+        "description": "Dogecoin jumped 5% in a V-shaped recovery, indicating rising market demand.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRising demand showed market resilience, slightly increasing likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/dogecoin-jumps-5-v-shaped-072236917.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0xbacb4cac4e7ceecce559529eb0111f0db4e45cbcc739db3957acc885a8f82173",
     "title": "Will Ghislaine Maxwell be released from federal prison during 2025?",
     "question_type": "binary",
@@ -671,383 +1609,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.yahoo.com/news/articles/lawmakers-ghislaine-maxwells-texas-prison-160401993.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xc3c8a84db9fb4e3f2c67fe688e8b5b67e9c7f45cd8de844c26833658199761c3",
-    "title": "Will USD reach 1.7M Iranian rials by February 28?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to “Yes” if the finalized USD exchange rate on Bonbast reaches or exceeds 170,000 Iranian toman (equivalent to 1,700,000 Iranian rials) at any point between market creation and February 28, 2026. Otherwise, this market will resolve to “No”.\n\nThis market will resolve according to the daily finalized free-market USD exchange rate as displayed on Bonbast (https://www.bonbast.com/graph/usd), which publishes prices in Iranian toman, where 1 Iranian toman equals 10 Iranian rials (IRR).\n\nA daily figure will be considered finalized once the following day’s figure is released.\n\nRevisions or corrections to daily figures indicating a qualifying exchange rate will be considered only if they occur before all relevant figures for this market have been finalized.\n\nThe resolution source for this market will be Bonbast (https://www.bonbast.com/graph/usd). Resolution will occur once the February 28, 2026, exchange rate data is finalized. If the resolution source becomes permanently unavailable, another resolution source will be chosen.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe depreciation of the Iranian rial to 1.7 million per USD by late February 2026 was primarily caused by a severe US-engineered dollar shortage. This economic warfare, as described by the US Treasury Secretary, crippled Iran's access to foreign exchange by sanctioning its oil exports and isolating it from the international banking system. This fundamental economic pressure was the main driver of the rial's collapse, with day-to-day fluctuations and market sentiment shifts reacting to this underlying reality, despite brief periods of misplaced optimism.\n\n## Timeline Of Key Events\n- **February 9, 2026:** The market sentiment flips, and 'No' becomes the favored outcome. This suggests a temporary and likely speculative belief that the rial would stabilize, possibly due to minor positive domestic news or a belief that the rial had been oversold.\n- **February 10, 2026:** 'Yes' becomes favored again, indicating that the fundamental downward pressure on the rial reasserted itself, overwhelming the previous day's brief optimism.\n- **February 13, 2026:** US Treasury Secretary Scott Bessent's statement about deliberately creating a dollar shortage in Iran is published, providing a clear and public explanation for the rial's freefall. [art_politics_20260213_002_4ae5b462]\n- **February 14, 2026:** In a seemingly counter-intuitive move, the market again flips to 'No'. This could be due to a variety of factors, including a belief that the US admission of economic warfare was already priced in, or perhaps a short-lived government intervention to support the currency.\n- **February 15 - 23, 2026:** The market continues to oscillate, reflecting a high degree of uncertainty and volatility. The underlying economic crisis is clear, but the market is struggling to price in the political and economic implications of the US's public statements and Iran's potential responses.\n- **February 27, 2026:** A significant trough in market price occurs, suggesting a major event or news story that caused a sharp, but temporary, loss of confidence.\n- **March 1, 2026:** The market decisively flips to 'Yes' with 99.8% confidence, indicating that the fundamental economic reality of the dollar shortage had become undeniable and any hope of the rial holding its value had evaporated.\n\n## Causal Chain Analysis\nThe root cause of the Iranian rial's depreciation was the United States' \"maximum pressure\" campaign, which took the form of economic warfare. This campaign led to the intermediate mechanism of a severe \"dollar shortage\" in Iran. This was achieved by sanctioning Iran's oil exports and cutting off its access to the international financial system. The proximate trigger for the rial's final plunge to 1.7M per USD was the public admission by the US Treasury Secretary of this strategy, which eliminated any remaining market confidence in the rial's stability. The public confirmation of the US's deliberate actions to devalue the rial, as reported by Al Jazeera [art_politics_20260213_002_4ae5b462], was the final nail in the coffin for the Iranian currency.\n\n## Countervailing Factors\nThe primary countervailing factor was likely the Iranian government's attempts to intervene in the currency market to stabilize the rial. This could explain some of the temporary flips in market sentiment to 'No'. Additionally, Iran has a history of using informal and illicit networks to bypass sanctions, which may have provided some temporary relief and created a false sense of security in the market. Ultimately, these measures were insufficient to counter the overwhelming pressure of the US sanctions and the engineered dollar shortage.\n\n## Event Candidate Inventory\n- **E1: US Admits to Engineering a Dollar Shortage:**\n    - **Date:** 2026-02-13\n    - **Causal Importance:** This event is the primary explanatory factor for the rial's depreciation. It removed all ambiguity about the cause of the economic crisis and made it clear that the downward pressure on the rial was a deliberate act of US policy.\n    - **Source Article IDs:** art_politics_20260213_002_4ae5b462\n- **E2: Market Flips to 'Yes' with 99.8% Confidence:**\n    - **Date:** 2026-03-01\n    - **Causal Importance:** This marks the point of no return, where the market fully accepted the inevitability of the rial reaching 1.7M per USD. It represents the culmination of the economic pressure and the psychological impact of the US's public statements.\n    - **Source Article IDs:** None\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| US engineered a dollar shortage in Iran. | art_politics_20260213_002_4ae5b462 | 2026-02-13 | 1.0 | The article directly quotes the US Treasury Secretary. |\n| The dollar shortage was the primary cause of the rial's depreciation. | art_politics_20260213_002_4ae5b462 | 2026-02-13 | 0.9 | While other factors may have contributed, the article provides strong evidence that this was the main driver. |\n| The market reacted to the news of the US's actions. | None | 2026-02-14 - 2026-03-01 | 0.7 | This is an inference based on the market data provided in the prompt. The specific reasons for each market flip are not detailed in the available evidence. |\n\n## Uncertainties And Alternative Paths\nThe most significant uncertainty in this analysis is the lack of a diverse range of evidence. The entire explanation rests on a single, albeit strong, article. This means that the day-to-day fluctuations in market sentiment are largely unexplained. An alternative causal path could be that domestic political instability or a sudden economic shock within Iran played a more significant role than the available evidence suggests. Without more data, it is impossible to rule out these alternative explanations.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2026-02-04T18:09:07.779791+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-03-02T02:17:55+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-usd-reach-1pt7m-iranian-rials-by-february-28",
-    "price_data": {
-      "history": [
-        {
-          "t": 1770249633,
-          "p": 0.72
-        },
-        {
-          "t": 1770292846,
-          "p": 0.84
-        },
-        {
-          "t": 1770336044,
-          "p": 0.83
-        },
-        {
-          "t": 1770379246,
-          "p": 0.77
-        },
-        {
-          "t": 1770422453,
-          "p": 0.8
-        },
-        {
-          "t": 1770465650,
-          "p": 0.765
-        },
-        {
-          "t": 1770508848,
-          "p": 0.655
-        },
-        {
-          "t": 1770595246,
-          "p": 0.3
-        },
-        {
-          "t": 1770681650,
-          "p": 0.665
-        },
-        {
-          "t": 1770811250,
-          "p": 0.74
-        },
-        {
-          "t": 1770854458,
-          "p": 0.745
-        },
-        {
-          "t": 1770897650,
-          "p": 0.685
-        },
-        {
-          "t": 1770940849,
-          "p": 0.685
-        },
-        {
-          "t": 1770984056,
-          "p": 0.67
-        },
-        {
-          "t": 1771027255,
-          "p": 0.38
-        },
-        {
-          "t": 1771113656,
-          "p": 0.525
-        },
-        {
-          "t": 1771286459,
-          "p": 0.475
-        },
-        {
-          "t": 1771588837,
-          "p": 0.46
-        },
-        {
-          "t": 1771632040,
-          "p": 0.465
-        },
-        {
-          "t": 1771675240,
-          "p": 0.435
-        },
-        {
-          "t": 1771718440,
-          "p": 0.525
-        },
-        {
-          "t": 1771761651,
-          "p": 0.52
-        },
-        {
-          "t": 1771804848,
-          "p": 0.43
-        },
-        {
-          "t": 1771848056,
-          "p": 0.325
-        },
-        {
-          "t": 1771891249,
-          "p": 0.29
-        },
-        {
-          "t": 1771977657,
-          "p": 0.195
-        },
-        {
-          "t": 1772064050,
-          "p": 0.235
-        },
-        {
-          "t": 1772150456,
-          "p": 0.0705
-        },
-        {
-          "t": 1772236852,
-          "p": 0.134
-        },
-        {
-          "t": 1772280013,
-          "p": 0.3905
-        },
-        {
-          "t": 1772366456,
-          "p": 0.9975
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1770292846,
-          "p": 0.84,
-          "delta": 0.12
-        },
-        {
-          "t": 1770379246,
-          "p": 0.77,
-          "delta": -0.07
-        },
-        {
-          "t": 1770508848,
-          "p": 0.655,
-          "delta": -0.115
-        },
-        {
-          "t": 1770595246,
-          "p": 0.3,
-          "delta": -0.355
-        },
-        {
-          "t": 1770681650,
-          "p": 0.665,
-          "delta": 0.365
-        },
-        {
-          "t": 1770811250,
-          "p": 0.74,
-          "delta": 0.075
-        },
-        {
-          "t": 1770897650,
-          "p": 0.685,
-          "delta": -0.055
-        },
-        {
-          "t": 1771027255,
-          "p": 0.38,
-          "delta": -0.305
-        },
-        {
-          "t": 1771113656,
-          "p": 0.525,
-          "delta": 0.145
-        },
-        {
-          "t": 1771286459,
-          "p": 0.475,
-          "delta": -0.05
-        },
-        {
-          "t": 1771718440,
-          "p": 0.525,
-          "delta": 0.05
-        },
-        {
-          "t": 1771804848,
-          "p": 0.43,
-          "delta": -0.095
-        },
-        {
-          "t": 1771848056,
-          "p": 0.325,
-          "delta": -0.105
-        },
-        {
-          "t": 1771977657,
-          "p": 0.195,
-          "delta": -0.13
-        },
-        {
-          "t": 1772150456,
-          "p": 0.0705,
-          "delta": -0.1245
-        },
-        {
-          "t": 1772236852,
-          "p": 0.134,
-          "delta": 0.0635
-        },
-        {
-          "t": 1772280013,
-          "p": 0.3905,
-          "delta": 0.2565
-        },
-        {
-          "t": 1772366456,
-          "p": 0.9975,
-          "delta": 0.607
-        }
-      ],
-      "price_at_open": 0.72,
-      "price_at_close": 0.9975,
-      "min_price": 0.0705,
-      "max_price": 0.9975,
-      "final_price": 0.9975,
-      "fetched_at": "2026-04-27T07:57:30.303372+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20260206_008_142030d0",
-        "date": "2026-02-06 00:00",
-        "title": "US Treasury Secretary tells Congress the US created a dollar shortage in Iran",
-        "description": "In a Congressional hearing in early February 2026, Treasury Secretary Scott Bessent stated that the Treasury had created a dollar shortage in Iran, leading to the currency's freefall and protests.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe official statement to Congress was a more formal and impactful confirmation of the U.S. policy, leaving no room for doubt about the deliberate nature of the economic pressure.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260210_011_1976b760",
-        "date": "2026-02-10 00:00",
-        "title": "Market favored 'Yes' reflecting initial panic",
-        "description": "Market favored 'Yes', reflecting initial panic over the currency freefall.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMarket favoring 'Yes' reflects the currency freefall.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://example.com/iran-rial-crash-article-1",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260213_001_58787544",
-        "date": "2026-02-13 00:00",
-        "title": "U.S. orchestrates dollar shortage in Iran",
-        "description": "U.S. Treasury actively engineered a dollar shortage to destabilize the rial.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260213_004_3709eaf8",
-        "date": "2026-02-13 00:00",
-        "title": "Widespread antigovernment protests",
-        "description": "Widespread antigovernment protests due to economic instability.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260213_005_4b271f3a",
-        "date": "2026-02-13 00:00",
-        "title": "Public's loss of faith in Central Bank",
-        "description": "Public's loss of faith in the Central Bank's ability to defend the currency peg.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260213_007_7ec48eb8",
-        "date": "2026-02-13 00:00",
-        "title": "Panic buying of foreign currency",
-        "description": "Panic buying of foreign currency accelerated the rial's collapse.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260213_009_0abe93dd",
-        "date": "2026-02-13 00:00",
-        "title": "Al Jazeera reports US Treasury Secretary's admission of engineering dollar shortage",
-        "description": "On February 13, 2026, Al Jazeera published an article detailing US Treasury Secretary Scott Bessent's admission that the US had deliberately engineered a dollar shortage in Iran.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe international media report amplified the Treasury Secretary's admission, ensuring it reached a global audience and solidified the collapse of market confidence.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260213_010_ab226599",
-        "date": "2026-02-13 00:00",
-        "title": "Market confidence in the Iranian rial collapses",
-        "description": "The public admission by the US Treasury Secretary, reported by Al Jazeera, eliminated any remaining market confidence in the rial's stability, confirming the downward pressure was a deliberate act of US policy.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis was the final psychological blow. With confidence gone, there was no countervailing force to prevent the rial from reaching the 1.7M mark, making the outcome a near certainty.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.aljazeera.com/economy/2026/2/13/us-says-it-caused-dollar-shortage-to-trigger-iran-protests-what-that-means",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260214_008_3f29a296",
-        "date": "2026-02-14 00:00",
-        "title": "Central Bank of Iran attempted periodic interventions",
-        "description": "The Central Bank of Iran attempted periodic interventions to stabilize the rial.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://example.com/iran-economy-2026",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260214_009_3780151c",
-        "date": "2026-02-14 00:00",
-        "title": "Foreign exchange reserves depleted",
-        "description": "Foreign exchange reserves were too depleted to sustain the peg.",
-        "impact": "**Affects:** Yes - Will USD reach 1.7M Iranian rials by February 28?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the rial's collapse.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://example.com/iran-economy-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

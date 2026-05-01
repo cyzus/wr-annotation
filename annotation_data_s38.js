@@ -1,5 +1,743 @@
 var annotationData = [
   {
+    "id": "polymarket_0xd1754bc54ec5b0af53339ad69d868bcdf5510242212a400db22bc865b103bbfb",
+    "title": "Israel and Lebanon normalize relations in 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if both Israel and Lebanon officially announce the establishment of diplomatic relations by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Israel and the Lebanon, however a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nThroughout 2025, Israel and Lebanon did not normalize relations, despite international efforts and periods of relative calm. The fundamental obstacle remained the ongoing state of war and the powerful influence of Hezbollah within Lebanon, which fundamentally rejects any normalization with Israel. While some tactical agreements regarding border demarcations and ceasefires were discussed and implemented, these were strictly security arrangements and not steps toward diplomatic normalization. Ultimately, the political and security environment in both countries precluded any possibility of a formal peace treaty or normalization of ties before the resolution date of January 1, 2026.\n\n## Timeline Of Key Events\n- **2025-06-06:** Tensions escalate along the border, reinforcing the impossibility of near-term normalization [art_politics_20251229_017_c5c736da].\n- **2025-06-18:** Diplomatic efforts focus purely on de-escalation, not normalization [art_general_20251215_003_ad4627c7].\n- **2025-06-25:** A significant spike in hostilities underscores the volatile security situation [art_politics_20251127_012_779e07bf].\n- **2025-06-28:** Cross-border incidents continue, further hardening political stances in both nations [art_politics_20251126_015_a41d7018].\n- **2025-06-30:** Public statements from Lebanese officials reiterate their refusal to normalize relations with Israel [art_politics_20251104_008_7c0cd5eb].\n- **Late 2025:** Despite some US mediation on border issues, both sides maintain their official state of hostility [art_general_20251024_002_3e4282ce].\n\n## Causal Chain Analysis\nThe failure to normalize relations was rooted in deep-seated historical and political realities. The primary root cause is the enduring ideological opposition to Israel by Hezbollah, a major political and military force in Lebanon, which effectively vetoes any normalization efforts [art_politics_20251010_011_db989242]. This structural barrier led to the intermediate mechanism: the Lebanese government's inability and unwillingness to pursue diplomatic ties, even if it desired economic benefits [art_politics_20250915_020_23a7cf60]. The proximate triggers were the ongoing cycles of violence and border skirmishes throughout 2025, which kept both nations on a war footing and made any political compromise politically toxic [art_politics_20250901_009_4907a3ce]. Consequently, this resulted in the final outcome: no normalization of relations by the end of 2025 [art_politics_20250820_022_ce2d0f4d].\n\n## Countervailing Factors\nThe main countervailing forces were international pressure, particularly from the United States, and the potential economic benefits of normalization, such as resolving maritime border disputes to facilitate natural gas extraction [art_politics_20250815_010_ed761891]. However, these factors were overwhelmed by the immediate security concerns and the entrenched political power of anti-Israel factions within Lebanon [art_politics_20250805_021_1666cdd1].\n\n## Event Candidate Inventory\n- **E1:** Ongoing Border Hostilities June 2025\n  - **Date:** June 2025\n  - **Why it matters:** Demonstrated the continuous state of conflict preventing normalization.\n  - **Source article IDs:** art_politics_20251127_012_779e07bf, art_politics_20251126_015_a41d7018\n- **E2:** Lebanese Rejection of Normalization\n  - **Date:** Mid-to-Late 2025\n  - **Why it matters:** Confirmed the political consensus in Lebanon against peace with Israel.\n  - **Source article IDs:** art_politics_20251104_008_7c0cd5eb, art_general_20251024_002_3e4282ce\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Ongoing hostilities prevent peace | art_politics_20251229_017_c5c736da, art_politics_20251127_012_779e07bf | June 2025 | 0.9 | Continuous border clashes |\n| Hezbollah's veto on normalization | art_politics_20251010_011_db989242, art_politics_20250915_020_23a7cf60 | 2025 | 0.95 | Structural political barrier |\n| Diplomatic focus on ceasefires only | art_general_20251215_003_ad4627c7, art_general_20251024_002_3e4282ce | 2025 | 0.9 | No political normalization discussed |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a sudden, massive shift in Lebanese domestic politics (e.g., the collapse of Hezbollah's influence) could open a path to normalization. However, this alternative path never materialized in 2025, keeping the status quo firmly in place.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-06-02T22:14:57.308000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:38:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/israel-and-lebanon-normalize-relations-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1748908807,
+          "p": 0.225
+        },
+        {
+          "t": 1749038406,
+          "p": 0.125
+        },
+        {
+          "t": 1749211206,
+          "p": 0.09
+        },
+        {
+          "t": 1749340807,
+          "p": 0.095
+        },
+        {
+          "t": 1749513606,
+          "p": 0.09
+        },
+        {
+          "t": 1749643207,
+          "p": 0.085
+        },
+        {
+          "t": 1749816008,
+          "p": 0.11
+        },
+        {
+          "t": 1749945608,
+          "p": 0.15
+        },
+        {
+          "t": 1750118408,
+          "p": 0.14
+        },
+        {
+          "t": 1750248007,
+          "p": 0.0645
+        },
+        {
+          "t": 1750420808,
+          "p": 0.062
+        },
+        {
+          "t": 1750550406,
+          "p": 0.0715
+        },
+        {
+          "t": 1750723207,
+          "p": 0.167
+        },
+        {
+          "t": 1750896008,
+          "p": 0.104
+        },
+        {
+          "t": 1751025608,
+          "p": 0.3
+        },
+        {
+          "t": 1751198407,
+          "p": 0.208
+        },
+        {
+          "t": 1751328008,
+          "p": 0.249
+        },
+        {
+          "t": 1751500808,
+          "p": 0.218
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2645
+        },
+        {
+          "t": 1751803207,
+          "p": 0.2465
+        },
+        {
+          "t": 1751932808,
+          "p": 0.2215
+        },
+        {
+          "t": 1752105608,
+          "p": 0.1855
+        },
+        {
+          "t": 1752235209,
+          "p": 0.181
+        },
+        {
+          "t": 1752408007,
+          "p": 0.163
+        },
+        {
+          "t": 1752580808,
+          "p": 0.1485
+        },
+        {
+          "t": 1752710408,
+          "p": 0.1025
+        },
+        {
+          "t": 1752883209,
+          "p": 0.1325
+        },
+        {
+          "t": 1753012808,
+          "p": 0.1485
+        },
+        {
+          "t": 1753185609,
+          "p": 0.139
+        },
+        {
+          "t": 1753315209,
+          "p": 0.151
+        },
+        {
+          "t": 1753488009,
+          "p": 0.1535
+        },
+        {
+          "t": 1753617609,
+          "p": 0.148
+        },
+        {
+          "t": 1753790408,
+          "p": 0.1455
+        },
+        {
+          "t": 1753920008,
+          "p": 0.145
+        },
+        {
+          "t": 1754092809,
+          "p": 0.086
+        },
+        {
+          "t": 1754222408,
+          "p": 0.117
+        },
+        {
+          "t": 1754395209,
+          "p": 0.092
+        },
+        {
+          "t": 1754568015,
+          "p": 0.0895
+        },
+        {
+          "t": 1754697602,
+          "p": 0.1035
+        },
+        {
+          "t": 1754870412,
+          "p": 0.105
+        },
+        {
+          "t": 1755000002,
+          "p": 0.106
+        },
+        {
+          "t": 1755172811,
+          "p": 0.1035
+        },
+        {
+          "t": 1755302409,
+          "p": 0.0985
+        },
+        {
+          "t": 1755475203,
+          "p": 0.119
+        },
+        {
+          "t": 1755604811,
+          "p": 0.101
+        },
+        {
+          "t": 1755777611,
+          "p": 0.095
+        },
+        {
+          "t": 1755907213,
+          "p": 0.097
+        },
+        {
+          "t": 1756080012,
+          "p": 0.0955
+        },
+        {
+          "t": 1756252811,
+          "p": 0.0955
+        },
+        {
+          "t": 1756382402,
+          "p": 0.0995
+        },
+        {
+          "t": 1756555229,
+          "p": 0.0855
+        },
+        {
+          "t": 1756684811,
+          "p": 0.087
+        },
+        {
+          "t": 1756857612,
+          "p": 0.0735
+        },
+        {
+          "t": 1756987220,
+          "p": 0.0755
+        },
+        {
+          "t": 1757160023,
+          "p": 0.076
+        },
+        {
+          "t": 1757289604,
+          "p": 0.0755
+        },
+        {
+          "t": 1757462407,
+          "p": 0.0755
+        },
+        {
+          "t": 1757592027,
+          "p": 0.0755
+        },
+        {
+          "t": 1757764820,
+          "p": 0.0645
+        },
+        {
+          "t": 1757894412,
+          "p": 0.0785
+        },
+        {
+          "t": 1758067210,
+          "p": 0.066
+        },
+        {
+          "t": 1758240009,
+          "p": 0.0655
+        },
+        {
+          "t": 1758369628,
+          "p": 0.065
+        },
+        {
+          "t": 1758542417,
+          "p": 0.067
+        },
+        {
+          "t": 1758672019,
+          "p": 0.0675
+        },
+        {
+          "t": 1758844813,
+          "p": 0.094
+        },
+        {
+          "t": 1758974418,
+          "p": 0.148
+        },
+        {
+          "t": 1759147204,
+          "p": 0.1295
+        },
+        {
+          "t": 1759276803,
+          "p": 0.103
+        },
+        {
+          "t": 1759449610,
+          "p": 0.0815
+        },
+        {
+          "t": 1759579216,
+          "p": 0.0705
+        },
+        {
+          "t": 1759752004,
+          "p": 0.072
+        },
+        {
+          "t": 1759924818,
+          "p": 0.063
+        },
+        {
+          "t": 1760054411,
+          "p": 0.066
+        },
+        {
+          "t": 1760227208,
+          "p": 0.067
+        },
+        {
+          "t": 1760356807,
+          "p": 0.0645
+        },
+        {
+          "t": 1760529606,
+          "p": 0.0415
+        },
+        {
+          "t": 1760659214,
+          "p": 0.0425
+        },
+        {
+          "t": 1760832019,
+          "p": 0.04
+        },
+        {
+          "t": 1760961615,
+          "p": 0.0405
+        },
+        {
+          "t": 1761134429,
+          "p": 0.042
+        },
+        {
+          "t": 1761264017,
+          "p": 0.0425
+        },
+        {
+          "t": 1761436819,
+          "p": 0.0495
+        },
+        {
+          "t": 1761566421,
+          "p": 0.035
+        },
+        {
+          "t": 1761782420,
+          "p": 0.0325
+        },
+        {
+          "t": 1761955219,
+          "p": 0.033
+        },
+        {
+          "t": 1762084823,
+          "p": 0.0415
+        },
+        {
+          "t": 1762257625,
+          "p": 0.032
+        },
+        {
+          "t": 1762387212,
+          "p": 0.034
+        },
+        {
+          "t": 1762560013,
+          "p": 0.0235
+        },
+        {
+          "t": 1762689623,
+          "p": 0.0235
+        },
+        {
+          "t": 1762862440,
+          "p": 0.0235
+        },
+        {
+          "t": 1762992020,
+          "p": 0.0235
+        },
+        {
+          "t": 1763164823,
+          "p": 0.0315
+        },
+        {
+          "t": 1763294425,
+          "p": 0.03
+        },
+        {
+          "t": 1763467226,
+          "p": 0.0255
+        },
+        {
+          "t": 1763640016,
+          "p": 0.024
+        },
+        {
+          "t": 1763769616,
+          "p": 0.0305
+        },
+        {
+          "t": 1763942415,
+          "p": 0.023
+        },
+        {
+          "t": 1764072028,
+          "p": 0.0285
+        },
+        {
+          "t": 1764244834,
+          "p": 0.0265
+        },
+        {
+          "t": 1764374427,
+          "p": 0.027
+        },
+        {
+          "t": 1764547223,
+          "p": 0.0215
+        },
+        {
+          "t": 1764676828,
+          "p": 0.0215
+        },
+        {
+          "t": 1764849632,
+          "p": 0.0295
+        },
+        {
+          "t": 1764979219,
+          "p": 0.0125
+        },
+        {
+          "t": 1765152030,
+          "p": 0.014
+        },
+        {
+          "t": 1765281617,
+          "p": 0.0145
+        },
+        {
+          "t": 1765454418,
+          "p": 0.0145
+        },
+        {
+          "t": 1765627221,
+          "p": 0.0115
+        },
+        {
+          "t": 1765756822,
+          "p": 0.0075
+        },
+        {
+          "t": 1765929615,
+          "p": 0.009
+        },
+        {
+          "t": 1766016026,
+          "p": 0.009
+        },
+        {
+          "t": 1766188817,
+          "p": 0.014
+        },
+        {
+          "t": 1766318418,
+          "p": 0.0075
+        },
+        {
+          "t": 1766491222,
+          "p": 0.0095
+        },
+        {
+          "t": 1766620829,
+          "p": 0.004
+        },
+        {
+          "t": 1766793618,
+          "p": 0.0055
+        },
+        {
+          "t": 1766923219,
+          "p": 0.0015
+        },
+        {
+          "t": 1767096022,
+          "p": 0.002
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1748952006,
+          "p": 0.15,
+          "delta": -0.075
+        },
+        {
+          "t": 1749081606,
+          "p": 0.095,
+          "delta": -0.055
+        },
+        {
+          "t": 1749945608,
+          "p": 0.15,
+          "delta": 0.055
+        },
+        {
+          "t": 1750204808,
+          "p": 0.0205,
+          "delta": -0.1295
+        },
+        {
+          "t": 1750550406,
+          "p": 0.0715,
+          "delta": 0.051
+        },
+        {
+          "t": 1750723207,
+          "p": 0.167,
+          "delta": 0.0955
+        },
+        {
+          "t": 1750809607,
+          "p": 0.1085,
+          "delta": -0.0585
+        },
+        {
+          "t": 1750939207,
+          "p": 0.2145,
+          "delta": 0.106
+        },
+        {
+          "t": 1750982407,
+          "p": 0.283,
+          "delta": 0.0685
+        },
+        {
+          "t": 1751198407,
+          "p": 0.208,
+          "delta": -0.075
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2645,
+          "delta": 0.0565
+        },
+        {
+          "t": 1751846407,
+          "p": 0.212,
+          "delta": -0.0525
+        },
+        {
+          "t": 1752451207,
+          "p": 0.1545,
+          "delta": -0.0575
+        },
+        {
+          "t": 1752667208,
+          "p": 0.1025,
+          "delta": -0.052
+        },
+        {
+          "t": 1753401609,
+          "p": 0.154,
+          "delta": 0.0515
+        },
+        {
+          "t": 1753963208,
+          "p": 0.092,
+          "delta": -0.062
+        },
+        {
+          "t": 1758931208,
+          "p": 0.148,
+          "delta": 0.056
+        },
+        {
+          "t": 1759363209,
+          "p": 0.086,
+          "delta": -0.062
+        },
+        {
+          "t": 1761523217,
+          "p": 0.035,
+          "delta": -0.051
+        }
+      ],
+      "price_at_open": 0.225,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.3325,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:46.403307+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250606_002_8e9134ed",
+        "date": "2025-06-06 00:00",
+        "title": "Tensions escalate along the Israel-Lebanon border",
+        "description": "Tensions escalate along the border, reinforcing the impossibility of near-term normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEscalating tensions prevent normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.longwarjournal.org/archives/2025/12/israeli-operations-in-lebanon-against-hezbollah-december-22-28-2025.php",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250618_003_90fbf168",
+        "date": "2025-06-18 00:00",
+        "title": "Diplomatic efforts focus purely on de-escalation",
+        "description": "Diplomatic efforts focus purely on de-escalation, not normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on de-escalation means no normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.washingtonpost.com/world/2025/12/15/israel-lebanon-hezbollah-airstrikes-escalation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250625_004_445cffff",
+        "date": "2025-06-25 00:00",
+        "title": "Significant spike in hostilities occurs",
+        "description": "A significant spike in hostilities underscores the volatile security situation.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpike in hostilities prevents normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://theconversation.com/a-year-on-the-israeli-lebanese-ceasefire-looks-increasingly-fragile-could-a-return-to-cyclical-violence-come-next-270423",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250628_005_c2b86f11",
+        "date": "2025-06-28 00:00",
+        "title": "Cross-border incidents continue",
+        "description": "Cross-border incidents continue, further hardening political stances in both nations.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContinued incidents prevent normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.independent.co.uk/news/world/middle-east/israel-lebanon-hezbollah-ceasefire-deal-terms-biden-b2656811.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250630_006_ee555c44",
+        "date": "2025-06-30 00:00",
+        "title": "Lebanese officials reiterate refusal to normalize relations",
+        "description": "Public statements from Lebanese officials reiterate their refusal to normalize relations with Israel.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRefusal to normalize directly supports the NO outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/features/2025/11/4/how-israel-is-using-no-war-no-peace-lebanonisation-model-in-gaza",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250815_009_1bdcb4ed",
+        "date": "2025-08-15 00:00",
+        "title": "International pressure for normalization",
+        "description": "International pressure, particularly from the United States, pushes for normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInternational pressure pushes for YES outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.newarab.com/analysis/lebanon-israel-truce-will-not-lead-normalisation-heres-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250815_010_852e1920",
+        "date": "2025-08-15 00:00",
+        "title": "Potential economic benefits of normalization discussed",
+        "description": "Potential economic benefits of normalization, such as resolving maritime border disputes to facilitate natural gas extraction, are discussed.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEconomic benefits push for YES outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.newarab.com/analysis/lebanon-israel-truce-will-not-lead-normalisation-heres-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250915_008_8622016c",
+        "date": "2025-09-15 00:00",
+        "title": "Lebanese government fails to pursue diplomatic ties",
+        "description": "The Lebanese government's inability and unwillingness to pursue diplomatic ties, even if it desired economic benefits.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFailure to pursue ties supports NO outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.al-monitor.com/originals/2025/09/lebanon-israel-conflict-escalates",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251001_007_12311542",
+        "date": "2025-10-01 00:00",
+        "title": "US mediates on border issues",
+        "description": "Despite some US mediation on border issues, both sides maintain their official state of hostility.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUS mediation could have led to normalization, but failed.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-kills-elderly-lebanese-woman-south-lebanon",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250101_001_f73f7860",
+        "date": "2025-01-01 00:00",
+        "title": "Hezbollah maintains ideological opposition to Israel",
+        "description": "Hezbollah continues its enduring ideological opposition to Israel, effectively vetoing any normalization efforts.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHezbollah's veto makes normalization impossible.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://english.aawsat.com/arab-world/5121469-israel-shocks-lebanon-plan-link-withdrawal-normalization",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0xd3a26e8ca4f4dd9a7933e65fb1a36851b4527f7adadf477ca65106714ee26335",
     "title": "Will Apple release the Apple Vision Pro 2 before December 31, 2025?",
     "question_type": "binary",
@@ -689,6 +1427,58 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_tech_20251019_008_15f307b7",
+        "date": "2025-10-19 16:27",
+        "title": "Apple focuses October 2025 event on MacBooks and iPads",
+        "description": "Apple focuses its October 2025 event on MacBooks and iPads, not Vision Pro 2.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apples-m5-powered-ipad-pro-173013642.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250315_005_9a44d572",
+        "date": "2025-03-15 00:00",
+        "title": "Apple delays development of direct successor to Vision Pro",
+        "description": "Apple delays the costly development of a direct successor to the Vision Pro.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/entertainment/articles/production-3-500-apple-vision-160838599.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_002_6620ff38",
+        "date": "2025-03-18 16:27",
+        "title": "Tim Cook faces scrutiny over hardware bets",
+        "description": "Tim Cook faces scrutiny over the company's bets on new hardware categories.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://finance.yahoo.com/news/tim-cook-uphill-battle-2025-114857490.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_003_7aefb3a7",
+        "date": "2025-03-18 16:27",
+        "title": "Rumors suggest Vision Pro 2 could come in 2025",
+        "description": "Rumors suggest that a Vision Pro 2 could still arrive in 2025 to maintain momentum in the spatial computing market.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/tech/apple-vision-pro-2-still-140000387.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_tech_20251002_004_62d2a345",
         "date": "2025-10-02 12:00",
         "title": "Rumors emerge that Apple is pivoting its hardware strategy",
@@ -749,250 +1539,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251019_008_15f307b7",
-        "date": "2025-10-19 16:27",
-        "title": "Apple focuses October 2025 event on MacBooks and iPads",
-        "description": "Apple focuses its October 2025 event on MacBooks and iPads, not Vision Pro 2.",
-        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apples-m5-powered-ipad-pro-173013642.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251019_007_50c04b2a",
-        "date": "2025-10-19 16:32",
-        "title": "Apple launches new M5-powered iPad Pro",
-        "description": "Apple launches new versions of its iPad Pro powered by the M5 processor.",
-        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apples-m5-powered-ipad-pro-173013642.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250315_005_9a44d572",
-        "date": "2025-03-15 00:00",
-        "title": "Apple delays development of direct successor to Vision Pro",
-        "description": "Apple delays the costly development of a direct successor to the Vision Pro.",
-        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.yahoo.com/entertainment/articles/production-3-500-apple-vision-160838599.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250318_002_6620ff38",
-        "date": "2025-03-18 16:27",
-        "title": "Tim Cook faces scrutiny over hardware bets",
-        "description": "Tim Cook faces scrutiny over the company's bets on new hardware categories.",
-        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://finance.yahoo.com/news/tim-cook-uphill-battle-2025-114857490.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xd7e56a7799ba9c0874f925d51e11fbaf17000b7c94dd0e0ac84f753d839fc615",
-    "title": "ODI Series West Indies vs Sri Lanka, Women: West Indies vs Sri Lanka",
-    "question_type": "binary",
-    "options": [
-      "West Indies",
-      "Sri Lanka"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market refers to the cricket match between West Indies and Sri Lanka scheduled for February 22 2026 in ODI Series West Indies vs Sri Lanka, Women.\n\n  This market resolves according to the finalized match result as published by https://www.espncricinfo.com/.  \n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition to declare a winner are treated as ordinary wins.\n\nIf the match ends tied and the playing conditions provide an on-field tiebreak (e.g., Super Over), the winner determined by that tiebreak will be used for resolution. If the match ends tied and no on-field tiebreak is used or available under the playing conditions (e.g., group-stage ODI with no Super Over), the market will resolve 50-50.\n\nIf the match is postponed/rescheduled, the market remains open until the listed fixture is completed. If the match is permanently canceled or abandoned or otherwise is completed without a winner, the market resolves 50-50.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.\n",
-    "outcome": "Sri Lanka",
-    "explanation": "\n## Executive Summary\nSri Lanka Women secured a series victory over the West Indies Women in the February 2026 ODI series primarily through clutch bowling performances and unexpected dismissals that halted West Indies run chases. In the crucial first ODI, despite strong batting performances from the West Indies, Sri Lanka won a narrow 10-run victory driven by Inoka Ranaweera's four-wicket haul. The series was sealed in the second ODI following a bizarre obstructing the field dismissal of Deandra Dottin, which completely derailed the West Indies chase and cemented Sri Lanka's triumph.\n\n## Timeline Of Key Events\n- 2026-02-19: Sri Lanka and West Indies played the 1st ODI. West Indies' Stafanie Taylor and Jannilea Glasgow scored half-centuries, but Inoka Ranaweera's 4-wicket haul restricted the chase, leading to a 10-run victory for Sri Lanka [art_sports_20260219_003_05cfa109].\n- 2026-02-22: In the 2nd ODI, West Indies batter Deandra Dottin was controversially given out for obstructing the field [art_sports_20260222_007_f87e5100].\n- 2026-02-22: The dismissal broke the momentum of the West Indies chase, allowing Sri Lanka to seal the ODI series [art_sports_20260222_019_24af8123].\n\n## Causal Chain Analysis\nThe outcome was caused by Sri Lanka's ability to win key moments during tight run chases. First, in the opening match, the West Indies were building a strong foundation with half-centuries from Taylor and Glasgow. However, Inoka Ranaweera's pivotal 4-wicket haul resulted in a collapse that secured a narrow 10-run win for Sri Lanka, providing them with early series momentum [art_sports_20260219_003_05cfa109]. This led to a must-win situation for the West Indies in the subsequent match. During the critical chase in the second ODI, Deandra Dottin's bizarre dismissal for obstructing the field triggered a loss of momentum, because she was a key player anchoring the innings [art_sports_20260222_007_f87e5100]. This unusual setback directly caused the West Indies chase to falter, ultimately leading to Sri Lanka winning the match and securing the series victory [art_sports_20260222_019_24af8123].\n\n## Countervailing Factors\nThe West Indies had significant batting power, as evidenced by Stafanie Taylor and Jannilea Glasgow both scoring half-centuries in the first match. This initially threatened Sri Lanka's total and posed a strong countervailing force against Sri Lanka's series win. However, this factor failed to overcome Sri Lanka because the West Indies middle and lower order could not withstand Inoka Ranaweera's bowling, and bizarre dismissals later broke their resistance.\n\n## Event Candidate Inventory\n- E1: Inoka Ranaweera takes a 4-wicket haul in the 1st ODI\n  - Date: 2026-02-19\n  - Why it matters causally: Secured a narrow 10-run victory for Sri Lanka, establishing series momentum.\n  - Source article IDs: art_sports_20260219_003_05cfa109\n- E2: Deandra Dottin given out obstructing the field in 2nd ODI\n  - Date: 2026-02-22\n  - Why it matters causally: Derailed the West Indies run chase when they were in contention to tie the series.\n  - Source article IDs: art_sports_20260222_007_f87e5100\n- E3: Sri Lanka seals the ODI series against West Indies\n  - Date: 2026-02-22\n  - Why it matters causally: The direct final outcome.\n  - Source article IDs: art_sports_20260222_019_24af8123\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| --- | --- | --- | --- | --- |\n| Sri Lanka wins 1st ODI by 10 runs | art_sports_20260219_003_05cfa109 | 2026-02-19 | 1.0 | Ranaweera took 4 wickets |\n| Dottin given out obstructing the field | art_sports_20260222_007_f87e5100 | 2026-02-22 | 1.0 | Bizarre dismissal in 2nd ODI |\n| Sri Lanka seals series | art_sports_20260222_019_24af8123 | 2026-02-22 | 1.0 | Overcame WI batting |\n\n## Uncertainties And Alternative Paths\nThe main alternative path would have occurred if West Indies had successfully completed the chase in the 1st ODI or if Deandra Dottin had not been dismissed in such a bizarre manner. If Dottin had continued batting, the West Indies might have leveled the series, pushing it to a decider. The margins of victory were relatively narrow, indicating a highly competitive series.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2026-02-19T17:18:13.701035+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-02-22T23:53:04+00:00",
-    "polymarket_url": "https://polymarket.com/event/crint-wst-lka-2026-02-22",
-    "price_data": {
-      "history": [
-        {
-          "t": 1771545631,
-          "p": 0.705
-        },
-        {
-          "t": 1771588821,
-          "p": 0.69
-        },
-        {
-          "t": 1771632023,
-          "p": 0.56
-        },
-        {
-          "t": 1771675224,
-          "p": 0.56
-        },
-        {
-          "t": 1771718424,
-          "p": 0.595
-        },
-        {
-          "t": 1771761627,
-          "p": 0.61
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1771632023,
-          "p": 0.56,
-          "delta": -0.145
-        }
-      ],
-      "price_at_open": 0.705,
-      "price_at_close": 0.61,
-      "min_price": 0.56,
-      "max_price": 0.705,
-      "final_price": 0.61,
-      "fetched_at": "2026-04-27T07:57:52.762500+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_sports_20260219_001_72e37ec8",
-        "date": "2026-02-19 12:00",
-        "title": "Stafanie Taylor scores half-century",
-        "description": "Stafanie Taylor scores a half-century in the 1st ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260219_003_afeca27a",
-        "date": "2026-02-19 12:00",
-        "title": "Inoka Ranaweera takes 4-wicket haul",
-        "description": "Inoka Ranaweera takes a 4-wicket haul in the 1st ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260219_001_90ced73d",
-        "date": "2026-02-19 12:00",
-        "title": "West Indies builds strong foundation in 1st ODI",
-        "description": "West Indies builds a strong foundation in the 1st ODI run chase.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260219_001_26f199df",
-        "date": "2026-02-19 12:00",
-        "title": "Stafanie Taylor scores a half-century in the 1st ODI",
-        "description": "Stafanie Taylor scored a half-century for the West Indies in the 1st ODI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260219_003_a3e58e5b",
-        "date": "2026-02-19 12:00",
-        "title": "Inoka Ranaweera takes a 4-wicket haul in the 1st ODI",
-        "description": "Inoka Ranaweera took a 4-wicket haul for Sri Lanka in the 1st ODI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260219_001_6e70b10d",
-        "date": "2026-02-19 12:00",
-        "title": "West Indies batting collapse",
-        "description": "West Indies experiences a batting collapse in the 1st ODI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_006_7c782311",
-        "date": "2026-02-22 10:00",
-        "title": "Deandra Dottin anchors innings",
-        "description": "Deandra Dottin anchors the innings in the 2nd ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_003_0df75881",
-        "date": "2026-02-22 10:00",
-        "title": "West Indies faces must-win situation in 2nd ODI",
-        "description": "West Indies enters the 2nd ODI in a must-win situation to save the series.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_005_87c4eefa",
-        "date": "2026-02-22 10:00",
-        "title": "Deandra Dottin anchors the innings in the 2nd ODI",
-        "description": "Deandra Dottin anchored the innings for the West Indies in the 2nd ODI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_010_1788eef6",
-        "date": "2026-02-22 11:00",
-        "title": "Sri Lanka seals ODI series",
-        "description": "Sri Lanka seals the ODI series against West Indies.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

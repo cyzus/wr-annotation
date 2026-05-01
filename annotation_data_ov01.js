@@ -1,771 +1,174 @@
 var annotationData = [
   {
-    "id": "polymarket_0x2b935e7d326665f4d00d141bebbe4709ec08604c0b844cf4b9b990659f3d4288",
-    "title": "Will Apple release a new product line in 2025?",
+    "id": "polymarket_0x9fb9b793fcfa0eab5667a4308d97796ab062acad3d0f5837931cbf5fbe563a16",
+    "title": "NYSE trading floor opening delayed Monday?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Apple publicly announces and launches a new product line in 2025 ET. Otherwise this market will resolve to \"No\".\n\nA \"new product line\" is defined as a category of products Apple has not previously sold, rather than an iteration or update of an existing product. Examples of a new product line would include an Apple-branded home robot or gaming console, while a new iPhone, Mac, iPad, Apple Watch, or AirPods models would not qualify.\n\nThe resolution source will be official information from Apple. ",
+    "resolution_criteria": "This market will resolve to \"Yes\" if the New York Stock Exchange (NYSE) trading floor  located at 11 Wall Street, New York City does not begin in-person floor-based trading at  9:30 AM ET, the regularly scheduled start of the trading session, on Monday, February 23, 2026. Otherwise, this market will resolve to \"No.\"                                        \n\n\"In-person floor-based trading\" refers specifically to trading activity conducted on the NYSE physical trading floor. Electronic trading systems, including NYSE Arca and other electronic platforms, are not considered part of the trading floor for the purposes of this market.\n\nIf the NYSE trading floor does not open at any time during the regular trading session,\nthis market will also resolve to \"Yes.\"\n\nAn official announcement from NYSE that a qualifying delayed opening will occur will qualify to immediately resolve the market.\n\nThe primary resolution source will be official announcements from the NYSE however a consensus of credible reporting may also be used.",
     "outcome": "No",
-    "explanation": "\n## Executive Summary\nApple did not release a new product line in 2025. Initially, rumors suggested new hardware categories, leading to brief optimism in early April. However, as the year progressed, reports clarified that Apple would only release updates to existing product lines (like iPhones, iPads, and Macs) rather than introducing a completely new category like a foldable device or a smart ring. By mid-year, supply chain leaks and WWDC announcements confirmed the lack of a new product line, cementing the negative outcome.\n\n## Timeline Of Key Events\n- **2025-03-08**: Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines, shifting sentiment towards 'No'.\n- **2025-04-08**: Speculation around WWDC temporarily spikes 'Yes' predictions [art_general_20250318_002_f7e4951b].\n- **2025-04-12**: Further analysis of supply chain data strongly indicates no new categories are in production, flipping sentiment back to 'No'.\n- **2025-06-07**: WWDC rumors and announcements focus entirely on software and iterative hardware updates [art_general_20250607_007_ac4d280c].\n- **2025-09-19**: The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17 [art_general_20250919_004_d2220b20].\n\n## Causal Chain Analysis\nThe outcome was driven by Apple's strategic focus on existing product categories rather than rushing a new product line. This caused a lack of supply chain activity for novel devices, which led to analysts correctly predicting the absence of new categories. Consequently, key events like WWDC and the September keynote passed without new product line announcements, resulting in the final outcome of 'No' [art_tech_20250101_003_d0fda24c].\n\n## Countervailing Factors\nSome rumors throughout early 2025 suggested Apple might announce a foldable iPhone or a smart ring. These factors briefly pushed the market toward 'Yes', but they were overwhelmed by the reality of production constraints and Apple's typical cautious approach to new hardware categories.\n\n## Event Candidate Inventory\n- **Event Candidate 1**\n  - title: Early 2025 Product Rumors\n  - date: 2025-03-18\n  - why it matters causally: Spurred early market speculation.\n  - source article IDs: [art_general_20250318_002_f7e4951b]\n\n- **Event Candidate 2**\n  - title: WWDC 2025 Announcements\n  - date: 2025-06-07\n  - why it matters causally: Confirmed focus on existing hardware and software.\n  - source article IDs: [art_general_20250607_007_ac4d280c]\n\n- **Event Candidate 3**\n  - title: Apple Fall Event 2025\n  - date: 2025-09-19\n  - why it matters causally: The major hardware event of the year introduced only existing lines.\n  - source article IDs: [art_general_20250919_003_28ec0db4]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early rumors on new products | [art_general_20250318_002_f7e4951b] | 2025-03-18 | 0.8 | Showed market speculation. |\n| WWDC focus on existing hardware | [art_general_20250607_007_ac4d280c] | 2025-06-07 | 0.9 | Denied new product lines. |\n| Fall event focused on iPhone 17 | [art_general_20250919_004_d2220b20] | 2025-09-19 | 0.95 | Final confirmation. |\n\n## Uncertainties And Alternative Paths\nThere was brief uncertainty around whether Apple would surprise the market with an unexpected new device at WWDC, but this alternative path did not materialize due to a lack of supply chain readiness.\n",
+    "explanation": "\n## Executive Summary\nIn late February 2026, a massive East Coast blizzard (bomb cyclone/nor'easter) struck New York City, leading to a state of emergency and travel bans. Due to the extreme weather, market prediction markets saw a spike in the probability that the NYSE trading floor opening would be delayed on Monday, February 23. However, despite the historic blizzard and citywide travel ban, the New York Stock Exchange announced that market hours would remain unchanged. The trading floor opened at its normal 9:30 AM ET time, leading to a negative resolution for the question.\n\n## Timeline Of Key Events\n- **February 22-23, 2026**: A massive East Coast blizzard clobbers the region, including New York City, prompting states of emergency and travel bans ([art_general_20260223_004_ff6f4c69], [art_culture_20260223_048_408cd6bf]).\n- **February 22, 2026**: Speculation rises among traders and betting markets that the NYSE trading floor will face closures or delayed openings on Monday due to the intense storm ([art_finance_20260222_005_e2df7081]).\n- **February 23, 2026, ~09:00 ET**: The NYSE and Nasdaq officially announce that stock market hours will remain unchanged and the trading floor will open as normal ([art_finance_20260223_002_16bc6c57], [art_general_20260223_002_55ea877e]).\n- **February 23, 2026, 09:30 ET**: The NYSE trading floor opens on time despite the blizzard and travel restrictions, solidifying the 'No' outcome ([art_finance_20260223_003_c516d025], [art_general_20260223_004_c17247a8]).\n\n## Causal Chain Analysis\nThe root cause of the speculation was a severe bomb cyclone and blizzard hitting New York City on February 22-23, 2026 ([art_general_20260223_004_ff6f4c69]). This extreme weather triggered a state of emergency and a citywide travel ban ([art_culture_20260223_048_408cd6bf], [art_general_20260223_004_c17247a8]), which led to widespread market speculation that the NYSE would delay its in-person floor trading ([art_finance_20260222_005_e2df7081]). However, the proximate trigger for the 'No' resolution was the explicit decision by the NYSE management to proceed with normal operations. The exchange issued advisories confirming that the trading floor would open on schedule ([art_finance_20260223_002_16bc6c57], [art_general_20260223_002_55ea877e]), resulting in the trading floor opening on time despite the severe logistical challenges ([art_finance_20260223_003_c516d025]).\n\n## Countervailing Factors\nThe massive blizzard and the implementation of a citywide travel ban in New York City were strong factors pushing toward a delay. Typically, travel bans severely restrict the ability of floor traders and staff to reach Wall Street. However, the NYSE's robust contingency plans and determination to maintain operations, possibly relying on fully electronic trading mechanisms complementing a skeleton crew on the floor, overwhelmed the physical barriers posed by the weather.\n\n## Event Candidate Inventory\n- **E1**: East Coast blizzard hits New York City\n  - **Date**: February 22-23, 2026\n  - **Why it matters**: Created the severe weather conditions that led to speculation about a delayed NYSE opening.\n  - **Source**: [art_general_20260223_004_ff6f4c69], [art_culture_20260223_048_408cd6bf]\n- **E2**: NYC implements travel ban and state of emergency\n  - **Date**: February 23, 2026\n  - **Why it matters**: Logistically restricted travel, heightening expectations of a floor closure.\n  - **Source**: [art_general_20260223_004_c17247a8], [art_culture_20260223_048_408cd6bf]\n- **E3**: NYSE announces trading floor will open on time\n  - **Date**: February 23, 2026\n  - **Why it matters**: The direct action by exchange authorities that prevented the delay.\n  - **Source**: [art_finance_20260223_002_16bc6c57], [art_general_20260223_002_55ea877e]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Massive blizzard hits NYC | [art_general_20260223_004_ff6f4c69], [art_culture_20260223_048_408cd6bf] | Feb 22-23, 2026 | 1.0 | Created extreme weather conditions. |\n| Speculation of NYSE delay | [art_finance_20260222_005_e2df7081] | Feb 22, 2026 | 0.9 | Market anticipated disruption. |\n| NYSE confirms normal open | [art_finance_20260223_002_16bc6c57], [art_general_20260223_002_55ea877e] | Feb 23, 2026 | 1.0 | Official announcement defying travel ban. |\n| Floor opens despite ban | [art_finance_20260223_003_c516d025], [art_general_20260223_004_c17247a8] | Feb 23, 2026 | 1.0 | Event occurs as scheduled. |\n\n## Uncertainties And Alternative Paths\n- If the power grid had failed in lower Manhattan or if exchange leadership had deemed the liability too high, a delay could have easily occurred.\n- There is some uncertainty around exactly how many traders made it to the floor versus operating remotely, but the floor officially opened.\n",
     "is_polymarket": true,
     "is_overlap": true,
-    "market_open": "2025-03-05T20:55:05.032000+00:00",
+    "market_open": "2026-02-22T21:41:57.424159+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T10:01:47+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-apple-release-a-new-product-line-in-2025",
+    "market_close": "2026-02-23T23:34:12+00:00",
+    "polymarket_url": "https://polymarket.com/event/nyse-trading-floor-opening-delayed-monday",
     "price_data": {
       "history": [
         {
-          "t": 1741219205,
-          "p": 0.645
+          "t": 1771804820,
+          "p": 0.24
         },
         {
-          "t": 1741435204,
-          "p": 0.485
-        },
-        {
-          "t": 1741651205,
-          "p": 0.475
-        },
-        {
-          "t": 1741867205,
-          "p": 0.415
-        },
-        {
-          "t": 1742083204,
-          "p": 0.415
-        },
-        {
-          "t": 1742299204,
-          "p": 0.36
-        },
-        {
-          "t": 1742515205,
-          "p": 0.34
-        },
-        {
-          "t": 1742731205,
-          "p": 0.34
-        },
-        {
-          "t": 1742947205,
-          "p": 0.34
-        },
-        {
-          "t": 1743163206,
-          "p": 0.34
-        },
-        {
-          "t": 1743379205,
-          "p": 0.335
-        },
-        {
-          "t": 1743595205,
-          "p": 0.315
-        },
-        {
-          "t": 1743811205,
-          "p": 0.31
-        },
-        {
-          "t": 1744027205,
-          "p": 0.43
-        },
-        {
-          "t": 1744243205,
-          "p": 0.525
-        },
-        {
-          "t": 1744459205,
-          "p": 0.405
-        },
-        {
-          "t": 1744675205,
-          "p": 0.31
-        },
-        {
-          "t": 1744891205,
-          "p": 0.365
-        },
-        {
-          "t": 1745107206,
-          "p": 0.36
-        },
-        {
-          "t": 1745323207,
-          "p": 0.36
-        },
-        {
-          "t": 1745539206,
-          "p": 0.36
-        },
-        {
-          "t": 1745755206,
-          "p": 0.36
-        },
-        {
-          "t": 1745971206,
-          "p": 0.36
-        },
-        {
-          "t": 1746187206,
-          "p": 0.315
-        },
-        {
-          "t": 1746403205,
-          "p": 0.26
-        },
-        {
-          "t": 1746619206,
-          "p": 0.295
-        },
-        {
-          "t": 1746835206,
-          "p": 0.35
-        },
-        {
-          "t": 1747051206,
-          "p": 0.34
-        },
-        {
-          "t": 1747267207,
-          "p": 0.415
-        },
-        {
-          "t": 1747483206,
-          "p": 0.35
-        },
-        {
-          "t": 1747699206,
-          "p": 0.445
-        },
-        {
-          "t": 1747915206,
-          "p": 0.4
-        },
-        {
-          "t": 1748131206,
-          "p": 0.335
-        },
-        {
-          "t": 1748347206,
-          "p": 0.335
-        },
-        {
-          "t": 1748563207,
-          "p": 0.335
-        },
-        {
-          "t": 1748779207,
-          "p": 0.33
-        },
-        {
-          "t": 1748995206,
-          "p": 0.335
-        },
-        {
-          "t": 1749211206,
-          "p": 0.345
-        },
-        {
-          "t": 1749427207,
-          "p": 0.415
-        },
-        {
-          "t": 1749643207,
-          "p": 0.41
-        },
-        {
-          "t": 1749902407,
-          "p": 0.36
-        },
-        {
-          "t": 1750118408,
-          "p": 0.335
-        },
-        {
-          "t": 1750334407,
-          "p": 0.335
-        },
-        {
-          "t": 1750550406,
-          "p": 0.325
-        },
-        {
-          "t": 1750766406,
-          "p": 0.325
-        },
-        {
-          "t": 1750982407,
-          "p": 0.255
-        },
-        {
-          "t": 1751198407,
-          "p": 0.225
-        },
-        {
-          "t": 1751414407,
-          "p": 0.195
-        },
-        {
-          "t": 1751630407,
-          "p": 0.2
-        },
-        {
-          "t": 1751846407,
-          "p": 0.2
-        },
-        {
-          "t": 1752062408,
-          "p": 0.2
-        },
-        {
-          "t": 1752278409,
-          "p": 0.2
-        },
-        {
-          "t": 1752494407,
-          "p": 0.2
-        },
-        {
-          "t": 1752710408,
-          "p": 0.2
-        },
-        {
-          "t": 1752926408,
-          "p": 0.16
-        },
-        {
-          "t": 1753142409,
-          "p": 0.165
-        },
-        {
-          "t": 1753358409,
-          "p": 0.17
-        },
-        {
-          "t": 1753574410,
-          "p": 0.165
-        },
-        {
-          "t": 1753790408,
-          "p": 0.105
-        },
-        {
-          "t": 1754006409,
-          "p": 0.1
-        },
-        {
-          "t": 1754222408,
-          "p": 0.05
-        },
-        {
-          "t": 1754438409,
-          "p": 0.045
-        },
-        {
-          "t": 1754654412,
-          "p": 0.045
-        },
-        {
-          "t": 1754870414,
-          "p": 0.055
-        },
-        {
-          "t": 1755086414,
-          "p": 0.06
-        },
-        {
-          "t": 1755302406,
-          "p": 0.065
-        },
-        {
-          "t": 1755518414,
-          "p": 0.065
-        },
-        {
-          "t": 1755734410,
-          "p": 0.065
-        },
-        {
-          "t": 1755950421,
-          "p": 0.065
-        },
-        {
-          "t": 1756166408,
-          "p": 0.075
-        },
-        {
-          "t": 1756382422,
-          "p": 0.085
-        },
-        {
-          "t": 1756598402,
-          "p": 0.085
-        },
-        {
-          "t": 1756814405,
-          "p": 0.085
-        },
-        {
-          "t": 1757030404,
-          "p": 0.08
-        },
-        {
-          "t": 1757246411,
-          "p": 0.075
-        },
-        {
-          "t": 1757462411,
-          "p": 0.08
-        },
-        {
-          "t": 1757678427,
-          "p": 0.08
-        },
-        {
-          "t": 1757894413,
-          "p": 0.08
-        },
-        {
-          "t": 1758110425,
-          "p": 0.08
-        },
-        {
-          "t": 1758326410,
-          "p": 0.075
-        },
-        {
-          "t": 1758585611,
-          "p": 0.075
-        },
-        {
-          "t": 1758801610,
-          "p": 0.07
-        },
-        {
-          "t": 1759017610,
-          "p": 0.07
-        },
-        {
-          "t": 1759233603,
-          "p": 0.07
-        },
-        {
-          "t": 1759449611,
-          "p": 0.07
-        },
-        {
-          "t": 1759665607,
-          "p": 0.07
-        },
-        {
-          "t": 1759881607,
-          "p": 0.07
-        },
-        {
-          "t": 1760097617,
-          "p": 0.07
-        },
-        {
-          "t": 1760313608,
-          "p": 0.085
-        },
-        {
-          "t": 1760529609,
-          "p": 0.075
-        },
-        {
-          "t": 1760745611,
-          "p": 0.075
-        },
-        {
-          "t": 1760961622,
-          "p": 0.075
-        },
-        {
-          "t": 1761177610,
-          "p": 0.085
-        },
-        {
-          "t": 1761393622,
-          "p": 0.07
-        },
-        {
-          "t": 1761609620,
-          "p": 0.065
-        },
-        {
-          "t": 1761868812,
-          "p": 0.065
-        },
-        {
-          "t": 1762084821,
-          "p": 0.075
-        },
-        {
-          "t": 1762300818,
-          "p": 0.075
-        },
-        {
-          "t": 1762516824,
-          "p": 0.075
-        },
-        {
-          "t": 1762732812,
-          "p": 0.075
-        },
-        {
-          "t": 1762948823,
-          "p": 0.0505
-        },
-        {
-          "t": 1763164821,
-          "p": 0.0505
-        },
-        {
-          "t": 1763380822,
-          "p": 0.0415
-        },
-        {
-          "t": 1763596814,
-          "p": 0.036
-        },
-        {
-          "t": 1763812815,
-          "p": 0.0365
-        },
-        {
-          "t": 1764028819,
-          "p": 0.0455
-        },
-        {
-          "t": 1764244830,
-          "p": 0.0235
-        },
-        {
-          "t": 1764460818,
-          "p": 0.024
-        },
-        {
-          "t": 1764676826,
-          "p": 0.0235
-        },
-        {
-          "t": 1764892816,
-          "p": 0.0235
-        },
-        {
-          "t": 1765108821,
-          "p": 0.0215
-        },
-        {
-          "t": 1765324814,
-          "p": 0.016
-        },
-        {
-          "t": 1765540818,
-          "p": 0.016
-        },
-        {
-          "t": 1765756820,
-          "p": 0.0065
-        },
-        {
-          "t": 1765929635,
-          "p": 0.0055
-        },
-        {
-          "t": 1766145618,
-          "p": 0.0055
-        },
-        {
-          "t": 1766361616,
-          "p": 0.0045
-        },
-        {
-          "t": 1766577617,
-          "p": 0.004
-        },
-        {
-          "t": 1766793617,
-          "p": 0.0035
-        },
-        {
-          "t": 1767009618,
-          "p": 0.0015
+          "t": 1771848020,
+          "p": 0.84
         }
       ],
       "turning_points": [
         {
-          "t": 1741305605,
-          "p": 0.57,
-          "delta": -0.075
-        },
-        {
-          "t": 1741392005,
-          "p": 0.45,
-          "delta": -0.12
-        },
-        {
-          "t": 1742299204,
-          "p": 0.36,
-          "delta": -0.09
-        },
-        {
-          "t": 1743984006,
-          "p": 0.415,
-          "delta": 0.055
-        },
-        {
-          "t": 1744070406,
-          "p": 0.5,
-          "delta": 0.085
-        },
-        {
-          "t": 1744459205,
-          "p": 0.405,
-          "delta": -0.095
-        },
-        {
-          "t": 1744545605,
-          "p": 0.31,
-          "delta": -0.095
-        },
-        {
-          "t": 1744761605,
-          "p": 0.43,
-          "delta": 0.12
-        },
-        {
-          "t": 1744804806,
-          "p": 0.37,
-          "delta": -0.06
-        },
-        {
-          "t": 1746187206,
-          "p": 0.315,
-          "delta": -0.055
-        },
-        {
-          "t": 1746360005,
-          "p": 0.255,
-          "delta": -0.06
-        },
-        {
-          "t": 1746662406,
-          "p": 0.315,
-          "delta": 0.06
-        },
-        {
-          "t": 1747008006,
-          "p": 0.37,
-          "delta": 0.055
-        },
-        {
-          "t": 1747137607,
-          "p": 0.445,
-          "delta": 0.075
-        },
-        {
-          "t": 1747180807,
-          "p": 0.39,
-          "delta": -0.055
-        },
-        {
-          "t": 1747569607,
-          "p": 0.445,
-          "delta": 0.055
-        },
-        {
-          "t": 1748001607,
-          "p": 0.345,
-          "delta": -0.1
-        },
-        {
-          "t": 1749254407,
-          "p": 0.46,
-          "delta": 0.115
-        },
-        {
-          "t": 1749340807,
-          "p": 0.395,
-          "delta": -0.065
-        },
-        {
-          "t": 1750075208,
-          "p": 0.335,
-          "delta": -0.06
-        },
-        {
-          "t": 1750896008,
-          "p": 0.25,
-          "delta": -0.085
-        },
-        {
-          "t": 1751414407,
-          "p": 0.195,
-          "delta": -0.055
-        },
-        {
-          "t": 1752840008,
-          "p": 0.105,
-          "delta": -0.09
-        },
-        {
-          "t": 1752926408,
-          "p": 0.16,
-          "delta": 0.055
-        },
-        {
-          "t": 1753660809,
-          "p": 0.105,
-          "delta": -0.055
-        },
-        {
-          "t": 1754136010,
-          "p": 0.05,
-          "delta": -0.055
+          "t": 1771848020,
+          "p": 0.84,
+          "delta": 0.6
         }
       ],
-      "price_at_open": 0.645,
-      "price_at_close": 0.0025,
-      "min_price": 0.0015,
-      "max_price": 0.655,
-      "final_price": 0.0025,
-      "fetched_at": "2026-04-27T07:57:34.186777+00:00"
+      "price_at_open": 0.24,
+      "price_at_close": 0.84,
+      "min_price": 0.24,
+      "max_price": 0.84,
+      "final_price": 0.84,
+      "fetched_at": "2026-04-27T07:57:35.062824+00:00"
     },
     "events": [
       {
-        "id": "evt_tech_20250308_003_70781832",
-        "date": "2025-03-08 00:00",
-        "title": "Early skepticism sets in",
-        "description": "Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSkepticism reduces likelihood of new lines.",
-        "has_impact": true,
+        "id": "evt_finance_20260222_004_56be8b59",
+        "date": "2026-02-22 22:00",
+        "title": "Prediction markets spike to 84% for delay",
+        "description": "Market predictions flip heavily to 'Yes' for a delay, reaching 84.0%.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
+        "source_url": "https://polymarket.com/event/nyse-trading-floor-opening-delayed-monday",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250408_006_2ebc1f10",
-        "date": "2025-04-08 00:00",
-        "title": "Speculation around WWDC spikes 'Yes' predictions",
-        "description": "Speculation around WWDC temporarily spikes 'Yes' predictions for a new product line.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation temporarily increases perceived likelihood of new lines.",
+        "id": "evt_finance_20260222_007_eaa69d9f",
+        "date": "2026-02-22 23:00",
+        "title": "Traders face logistical restrictions",
+        "description": "The travel ban severely restricts the ability of floor traders and staff to reach Wall Street.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLogistical restrictions made opening difficult",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://nypost.com/2025/04/11/ticket-sales/the-avett-brothers-tour-2025-where-to-buy-tickets-best-prices",
+        "source_url": "https://www.aol.com/articles/massive-blizzard-hernando-could-slam-145133092.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250412_007_b73c94fe",
-        "date": "2025-04-12 00:00",
-        "title": "Lack of supply chain activity for novel devices",
-        "description": "There is a lack of supply chain activity for novel devices due to Apple's focus on existing products.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLack of supply chain activity strongly indicates no new lines.",
+        "id": "evt_finance_20260222_008_3d24da81",
+        "date": "2026-02-22 23:30",
+        "title": "NYSE issues advisories confirming normal open",
+        "description": "The exchange officially announces that stock market hours will remain unchanged.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAdvisory confirmed normal opening",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-02-23/nyse-and-nasdaq-say-stock-market-hours-unchanged-amid-blizzard",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250412_008_0d3b4769",
-        "date": "2025-04-12 12:00",
-        "title": "Supply chain data analysis indicates no new categories",
-        "description": "Further analysis of supply chain data strongly indicates no new categories are in production.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalysis confirming no new categories makes new lines less likely.",
-        "has_impact": true,
+        "id": "evt_finance_20260222_009_8d205551",
+        "date": "2026-02-22 23:45",
+        "title": "NYSE decides to maintain normal operations",
+        "description": "NYSE management makes a proactive decision to maintain normal operations.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
+        "source_url": "https://www.prnewswire.com/news-releases/nyse-content-update-stock-market-to-open-like-normal-amid-historic-nyc-blizzard-302694589.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250501_009_8d042902",
-        "date": "2025-05-01 00:00",
-        "title": "Analysts predict absence of new categories",
-        "description": "Analysts correctly predict the absence of new categories based on supply chain data.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalyst predictions make new lines less likely.",
+        "id": "evt_finance_20260222_009_07a61621",
+        "date": "2026-02-22 23:45",
+        "title": "NYSE relies on contingency plans and electronic trading",
+        "description": "NYSE utilizes robust contingency plans, possibly relying on fully electronic trading mechanisms and a skeleton crew.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContingency plans enabled normal opening",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/yusuf-cat-stevens-extends-2025-211839787.html?fr=sycsrp_catchall",
+        "source_url": "https://www.stocktitan.net/news/ICE/nyse-content-update-stock-market-to-open-like-normal-amid-historic-nyb9lfyrqtxd.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250607_004_3c302402",
-        "date": "2025-06-07 00:00",
-        "title": "WWDC announcements focus on existing hardware",
-        "description": "WWDC rumors and announcements focus entirely on software and iterative hardware updates.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFocus on existing hardware at WWDC makes new lines less likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.benzinga.com/markets/tech/25/06/45826757/apple-may-launch-new-hardware-at-wwdc-2025-mac-pro-homepad-airtag-2-expected",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250318_002_8a0842ab",
-        "date": "2025-03-18 00:00",
-        "title": "Initial rumors suggest new hardware categories",
-        "description": "Rumors suggest Apple might announce a foldable iPhone or a smart ring.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRumors suggest new lines are possible.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250919_005_4102ef74",
-        "date": "2025-09-19 00:00",
-        "title": "Fall event focuses on iPhone 17",
-        "description": "The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFall event focusing on existing lines makes new lines very unlikely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/phones/articles/apple-event-2025-last-minute-214958593.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251231_010_a5e90f4d",
-        "date": "2025-12-31 00:00",
-        "title": "Apple does not release a new product line in 2025",
-        "description": "Apple does not release a new product line in 2025, cementing the negative outcome.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFinal outcome is no new lines.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.macworld.com/article/3023568/what-to-expect-from-apple-2026-part1-macworld-podcast.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250101_001_c224c8b7",
-        "date": "2025-01-01 00:00",
-        "title": "Apple's strategic focus on existing product categories",
-        "description": "Apple maintains a strategic focus on existing product categories rather than rushing a new product line.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStrategic focus on existing products makes new lines less likely.",
+        "id": "evt_finance_20260221_006_bf4b9278",
+        "date": "2026-02-21 22:00",
+        "title": "Market speculation of NYSE delay rises",
+        "description": "Prediction markets and traders speculate that the NYSE trading floor will face closures or delayed openings.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket speculation reflected likelihood of delay",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/lifestyle/shopping/every-new-apple-product-coming-in-2026-and-beyond/ar-AA1SaV5t?ocid=BingNewsVerp",
+        "source_url": "https://www.ainvest.com/news/smart-money-watching-nyse-floor-closure-monday-2602",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_climate_20260222_001_efe03744",
+        "date": "2026-02-22 00:00",
+        "title": "Historic blizzard strikes the U.S. East Coast",
+        "description": "A massive and historic winter storm and blizzard began to strike the U.S. East Coast, including New York City.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.syracuse.com/news/2026/03/gov-hochul-is-asking-trump-for-federal-disaster-money-after-new-yorks-record-breaking-blizzard.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_general_20260222_001_2ce154f3",
+        "date": "2026-02-22 00:00",
+        "title": "Winter Storm Hernando hits East Coast",
+        "description": "Winter Storm Hernando hits the East Coast with severe weather.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.aol.com/east-coast-blizzard-bomb-cyclone-111500530.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260222_002_7f70c8af",
+        "date": "2026-02-22 12:00",
+        "title": "State of emergency declared in New York City",
+        "description": "Due to the severe blizzard, a state of emergency was declared in New York City, leading to widespread travel bans and disruptions.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://apnews.com/live/winter-snow-storm-new-york",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260222_008_a9200faf",
+        "date": "2026-02-22 23:30",
+        "title": "Prediction market favors NYSE delay",
+        "description": "Prediction markets favor a delay to the NYSE trading floor opening.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://polymarket.com/event/nyse-trading-floor-opening-delayed-monday",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -773,151 +176,151 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_culture_20260215_004_55cf4a7b",
-    "title": "Will 'Antiheroine' receive a Rotten Tomatoes score of 80% or higher from critics following its Sundance premiere?",
+    "id": "q_climate_20241231_001_3a73f771",
+    "title": "Will the UN General Assembly adopt Vanuatu's resolution for an advisory opinion from the International Court of Justice on climate change by the end of 2024?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
-    "background": "The documentary is about a polarizing figure, which could lead to a wide range of critical reviews.",
-    "resolution_criteria": "The 'Tomatometer' score on Rotten Tomatoes will be checked on this date. It must be 80% or higher based on at least 10 critic reviews.",
+    "background": "Vanuatu has been leading a campaign to take the issue of climate change to the International Court of Justice (ICJ). The campaign seeks a UN General Assembly resolution to request an advisory opinion from the ICJ on the rights of present and future generations to be protected from climate change. This question forecasts the success of this diplomatic effort.",
+    "resolution_criteria": "The question will be resolved as 'Yes' if the UN General Assembly officially adopts the resolution proposed by Vanuatu seeking an advisory opinion from the ICJ on climate change by December 31, 2024. Otherwise, it will be resolved as 'No'.",
     "outcome": "True",
-    "explanation": "\n# Required Output Format (use these exact section headings)\n\n## Executive Summary\nThe documentary 'Antiheroine', focusing on the life of Courtney Love, premiered at the 2026 Sundance Film Festival. It garnered significant critical acclaim, quickly establishing itself as a standout film of the festival. Critics praised Love's raw and intimate portrayal, leading to an overwhelmingly positive reception. Consequently, 'Antiheroine' secured a Rotten Tomatoes score well above the 80% threshold, resolving the question affirmatively.\n\n## Timeline Of Key Events\n* 2026-01-29: 'Antiheroine', a documentary about Courtney Love, premieres at the Sundance Film Festival ([art_culture_20260129_003_a5034e6d], [art_culture_20250101_004_47bdeaf8]).\n* 2026-01-31: Early reviews praise the film's intimate and raw look at Love's life ([art_culture_20250101_004_47bdeaf8]).\n* 2026-02-05: Widespread critical acclaim solidifies the film's positive reception, with reviewers noting Love's successful reclamation of her narrative ([art_culture_20260205_005_0032f807], [art_culture_20260205_003_2e6f9aaf]).\n* 2026-02-15: 'Antiheroine' maintains a Rotten Tomatoes score of 80% or higher, reflecting the consensus of the critical community.\n\n## Causal Chain Analysis\nThe premiere of 'Antiheroine' at the prestigious Sundance Film Festival provided a high-profile platform for the documentary ([art_culture_20260129_003_a5034e6d]). The film's content, which offered a raw, intimate, and unfiltered perspective on Courtney Love's life, strongly resonated with critics looking for authentic and compelling biographical narratives ([art_culture_20250101_004_47bdeaf8]). This positive critical consensus directly led to highly favorable reviews being published across various entertainment and film critique platforms. As these reviews were aggregated by Rotten Tomatoes, the overwhelming proportion of positive critical assessments resulted in a \"Fresh\" score that easily surpassed the 80% mark required for a positive resolution ([art_culture_20260205_005_0032f807]).\n\n## Countervailing Factors\nThe primary countervailing factor was Courtney Love's historically controversial public persona, which could have biased some critics against the film. However, this factor was overcome by the documentary's compelling execution and the perception that it allowed Love to successfully \"reclaim her narrative\" in a genuine manner ([art_culture_20260205_003_2e6f9aaf]). The quality of the filmmaking overshadowed any preconceived notions held by individual reviewers.\n\n## Event Candidate Inventory\n* E1\n  * title: Premiere of 'Antiheroine' at Sundance\n  * date: 2026-01-29\n  * why it matters causally: Initiated the critical review process by debuting the film to key reviewers and tastemakers.\n  * source article IDs: [art_culture_20260129_003_a5034e6d]\n* E2\n  * title: Accumulation of positive critical reviews\n  * date: 2026-01-31 to 2026-02-10\n  * why it matters causally: The direct driver of the Rotten Tomatoes score; positive reviews mathematically calculate to a higher percentage.\n  * source article IDs: [art_culture_20250101_004_47bdeaf8], [art_culture_20260205_005_0032f807]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| 'Antiheroine' premiered at Sundance | [art_culture_20260129_003_a5034e6d] | 2026-01-29 | 1.0 | Confirms the setting and subject. |\n| Critics praised the film's raw/intimate nature | [art_culture_20250101_004_47bdeaf8], [art_culture_20260205_005_0032f807] | 2026-01-31, 2026-02-05 | 0.9 | Explains *why* the reviews were positive. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether the positive sentiment from Sundance would be sustained as the film reached a broader pool of critics. An alternative path could have occurred if the wider critical community found the documentary self-serving or unrevealing, which would have driven the score below 80%. However, the initial momentum from the festival proved robust enough to secure the high rating.\n",
+    "explanation": "## Executive Summary\nVanuatu, a small island developing state highly vulnerable to climate change, spearheaded a historic diplomatic campaign to seek legal clarity on climate obligations. By forming a core group of 18 nations and securing co-sponsorship from over 130 member states, Vanuatu successfully built overwhelming international support. This momentum culminated on March 29, 2023, when the UN General Assembly adopted by consensus a resolution requesting an advisory opinion from the International Court of Justice. The adoption definitively answered the question with a True outcome well before the end of 2024.\n\n## Timeline Of Key Events\n- **Pre-2023**: Vanuatu, alongside Pacific Island students and a core group of nations, begins the campaign for an ICJ advisory opinion on climate change.\n- **Early 2023**: The draft resolution secures over 130 co-sponsors, demonstrating broad international consensus.\n- **2023-03-29**: The United Nations General Assembly adopts the resolution by consensus, officially requesting the ICJ's advisory opinion [art_general_20241212_005_8c8e70e8].\n- **2024-12-02 to 2024-12-13**: The ICJ holds public hearings regarding the advisory opinion, as nations including China present their arguments [art_general_20241203_006_33bc6fba], [art_general_20241215_004_91f99653].\n\n## Causal Chain Analysis\nThe disproportionate impacts of climate change on small island developing states **caused** Vanuatu to seek legal recourse and clarity through international institutions. This existential threat **triggered** a widespread diplomatic campaign, which **led to** the formation of a core coalition and the eventual co-sponsorship of over 130 countries. The overwhelming global support **resulted in** the UN General Assembly adopting the resolution by consensus on March 29, 2023, **because** the broad co-sponsorship made opposition diplomatically untenable [art_general_20241212_005_8c8e70e8].\n\n## Countervailing Factors\nSome large emitting nations historically resist efforts that could create binding legal obligations regarding climate change. However, because the resolution sought an *advisory* opinion rather than a binding judgment, and because the moral and diplomatic pressure from the coalition was immense, direct opposition was minimal at the UNGA, leading to a consensus adoption.\n\n## Event Candidate Inventory\n- **E1**: UN General Assembly adopts Vanuatu's resolution.\n  - Date: 2023-03-29\n  - Why it matters: This is the definitive event that resolves the question as True.\n  - Source: [art_general_20241212_005_8c8e70e8]\n- **E2**: ICJ holds public hearings on the climate change advisory opinion.\n  - Date: December 2024\n  - Why it matters: It represents the downstream consequence of the UNGA adoption.\n  - Source: [art_general_20241215_004_91f99653]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| UNGA adopts the resolution | [art_general_20241212_005_8c8e70e8] | 2023-03-29 | 1.0 | Adopted by consensus |\n| ICJ holds hearings | [art_general_20241215_004_91f99653], [art_general_20241203_006_33bc6fba] | Dec 2024 | 1.0 | Confirms the process moved to the court |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether the resolution would be adopted by consensus or face a vote where major emitters might vote against it. Had it gone to a vote, it might still have passed given the 130+ co-sponsors, but it would have shown a divided international community.\n",
     "is_polymarket": false,
     "is_overlap": true,
-    "market_open": "2026-01-28T00:00:00+00:00",
+    "market_open": "2023-03-29T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-02-15T23:59:59+00:00",
+    "market_close": "2024-12-31T23:59:59+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_culture_20250101_001_01628de7",
-        "date": "2025-01-01 00:00",
-        "title": "Director presents uncompromising deep dive",
-        "description": "Director Edward Lovelace decides to present an uncompromising, non-linear deep dive into Courtney Love's turbulent life.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe director's decision to present an uncompromising deep dive set the stage for critical acclaim.",
+        "id": "evt_politics_20210101_001_ebf53c66",
+        "date": "2021-01-01 00:00",
+        "title": "Pacific Island law students launch campaign for ICJ advisory opinion",
+        "description": "Pacific Island law students begin campaigning for an ICJ advisory opinion on climate change.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.upi.com/Entertainment_News/Movies/2026/01/31/Courtney-Love-documentary-Sundance-review/5001769878827",
+        "source_url": "https://www.unep.org/news-and-stories/story/un-resolution-billed-turning-point-climate-justice",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20250101_003_9b1b3c6a",
-        "date": "2025-01-01 00:00",
-        "title": "Documentary includes raw addiction footage",
-        "description": "The documentary includes raw footage about addiction and past controversies.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe raw footage was praised by critics.",
+        "id": "evt_climate_20220101_001_7a75b256",
+        "date": "2022-01-01 00:00",
+        "title": "Climate change disproportionately impacts small island developing states",
+        "description": "Small island developing states like Vanuatu face existential threats from the disproportionate impacts of climate change.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nExistential threat drove the campaign.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.upi.com/Entertainment_News/Movies/2026/01/31/Courtney-Love-documentary-Sundance-review/5001769878827",
+        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260115_001_f18f3b7a",
-        "date": "2026-01-15 00:00",
-        "title": "James Hall and Edward Lovelace direct 'Antiheroine'",
-        "description": "James Hall and Edward Lovelace direct 'Antiheroine' with an unfiltered approach.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPositive event driving the score up.",
+        "id": "evt_politics_20220601_003_0f3120b1",
+        "date": "2022-06-01 00:00",
+        "title": "Vanuatu forms a core group of 18 countries",
+        "description": "Vanuatu forms a core group of 18 countries to draft the UN General Assembly resolution.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/antiheroine-review-courtney-love-documentary-hole-1236487385",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260129_004_65014a3a",
-        "date": "2026-01-29 12:00",
-        "title": "Rolling Stone publishes positive review",
-        "description": "Rolling Stone publishes a positive review of 'Antiheroine'.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPositive event driving the score up.",
+        "id": "evt_politics_20241202_007_6f03d9e3",
+        "date": "2024-12-02 00:00",
+        "title": "ICJ holds public hearings on the climate change advisory opinion",
+        "description": "The International Court of Justice holds public hearings regarding the advisory opinion on climate change.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHearings are the direct result of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.rollingstone.com/music/music-news/courtney-love-antiheroine-sundance-1234567",
+        "source_url": "https://www.thedailystar.net/opinion/views/news/international-courts-impel-advisory-climate-action-3776086",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260205_005_ba3277ee",
-        "date": "2026-02-05 00:00",
-        "title": "Sundance scorecard confirms positive sentiment",
-        "description": "Sundance scorecard aggregations confirm strong positive sentiment.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPositive event driving the score up.",
+        "id": "evt_politics_20241203_008_c4086fd1",
+        "date": "2024-12-03 00:00",
+        "title": "China presents arguments at ICJ public hearings",
+        "description": "China presents its arguments during the ICJ public hearings regarding the climate change advisory opinion.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nChina's arguments are part of the hearings process.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://editorial.rottentomatoes.com/guide/sundance-2026-scorecard",
+        "source_url": "https://www.voanews.com/a/china-tells-world-court-that-un-treaties-should-cover-states-climate-obligations/7886106.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260205_006_7bbe2490",
-        "date": "2026-02-05 00:00",
-        "title": "Conservative critics alienated",
-        "description": "The film's subject matter alienates some conservative critics.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAlienated conservative critics could have lowered the score.",
+        "id": "evt_politics_20210601_002_1347865a",
+        "date": "2021-06-01 00:00",
+        "title": "Vanuatu government formally adopts the initiative",
+        "description": "Inspired by the students, Vanuatu takes up the cause globally.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://shadestudios.com/film-and-tv-reviews/f/sundance-2026-antiheroine-review",
+        "source_url": "https://www.unep.org/news-and-stories/story/un-resolution-billed-turning-point-climate-justice",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260205_004_3f592fab",
-        "date": "2026-02-05 00:00",
-        "title": "Widespread critical acclaim solidifies the film's positive reception",
-        "description": "Widespread critical acclaim solidifies the positive reception of 'Antiheroine'.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive reception and high Rotten Tomatoes score.",
+        "id": "evt_politics_20220101_009_0c23f054",
+        "date": "2022-01-01 00:00",
+        "title": "Large emitting nations historically resist binding legal obligations",
+        "description": "Some large emitting nations historically resist efforts that could create binding legal obligations regarding climate change.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHistorical resistance was a countervailing factor.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://shadestudios.com/film-and-tv-reviews/f/sundance-2026-antiheroine-review",
+        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260205_001_3ce8b12d",
-        "date": "2026-02-05 10:00",
-        "title": "Critics note Love's successful reclamation of her narrative",
-        "description": "Reviewers note that Courtney Love successfully reclaims her narrative in a genuine manner.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive reception and high Rotten Tomatoes score.",
+        "id": "evt_politics_20220601_002_316c2501",
+        "date": "2022-06-01 00:00",
+        "title": "Vanuatu and Pacific Island students begin campaign for ICJ advisory opinion",
+        "description": "Vanuatu, alongside Pacific Island students, begins a diplomatic campaign to seek legal clarity on climate obligations from the ICJ.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCampaign initiation was the first step.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://awardsbuzz.com/sundance-review-antiheroine-is-a-chance-to-hear-from-courtney-love-in-her-own-words",
+        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260208_009_52f7769d",
-        "date": "2026-02-08 12:00",
-        "title": "'Antiheroine' Rotten Tomatoes score sustains above 80%",
-        "description": "'Antiheroine' Rotten Tomatoes score sustains above 80%.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPositive event driving the score up.",
+        "id": "evt_politics_20220901_004_ce2cd5de",
+        "date": "2022-09-01 00:00",
+        "title": "Core group drafts the UN General Assembly resolution",
+        "description": "The core group drafts the resolution focusing on clarifying existing legal obligations.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://shadestudios.com/antiheroine-courtney-love-sundance-review",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260210_008_4d4e55b8",
-        "date": "2026-02-10 00:00",
-        "title": "The overwhelming proportion of positive critical assessments results in a Fresh score",
-        "description": "The overwhelming proportion of positive critical assessments results in a 'Fresh' score for 'Antiheroine'.",
-        "impact": "**Affects:** Yes - Will 'Antiheroine' receive a Rotten Tomatoes score  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive reception and high Rotten Tomatoes score.",
+        "id": "evt_politics_20220901_003_3eb0970a",
+        "date": "2022-09-01 00:00",
+        "title": "Vanuatu forms a core group of 18 nations",
+        "description": "Vanuatu forms a core coalition of 18 nations to support the campaign for an ICJ advisory opinion.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCore group formation built momentum.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.rottentomatoes.com/m/antiheroine",
+        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
