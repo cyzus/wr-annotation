@@ -1,851 +1,183 @@
 var annotationData = [
   {
-    "id": "polymarket_0x4bcdc5f24786e4ea5279a4f859d8879cc08b98cfaa2924862947c65db0f010ae",
-    "title": "Will Yoon be sentenced to prison in 2025?",
+    "id": "polymarket_0xcd3156c9537be4494f31d2303c28a3eee9b685969d6fbfdbfea93de01b896085",
+    "title": "Hezbollah strike on Israel by March 7?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Yoon Suk Yeol is sentenced to any time in jail/prison for charges related to the 2024 South Korean political crisis, including but not limited to allegations of insurrection, abuse of power, or other criminal acts stemming from his martial law declaration and related subsequent actions by December 31, 2025, 11:59 PM. Otherwise, this market will resolve to \"No\".\n\nThis market will remain open through 2025 regardless of whether Yoon's initial sentencing includes prison.  Any sentencing will qualify, regardless of subsequent appeals or changes to the sentence.\n\nThe primary resolution source for this market will be official information from the South Korean government and law enforcement, however a consensus of credible reporting may also be used.",
-    "outcome": "No",
-    "explanation": "\n# Executive Summary\nYoon Suk Yeol was not sentenced to prison in 2025 primarily because the complex legal processes surrounding his impeachment and subsequent criminal trials for insurrection were too lengthy to conclude within the calendar year. Although he faced intense legal scrutiny, including impeachment proceedings, arrests, and the commencement of multiple trials [art_general_20250428_015_683d8652], the judicial timeline for such unprecedented and high-stakes charges extended beyond 2025. Procedural delays, constitutional debates, and the sheer volume of evidence meant that while he was held in custody at times, a final criminal sentencing was delayed into 2026 or later.\n\n# Timeline Of Key Events\n- **2025-01-14:** Trial of suspended South Korean president Yoon begins regarding his impeachment [art_general_20250114_011_4cb5b098].\n- **2025-02-20:** Yoon Suk Yeol becomes the first sitting South Korean president to go on criminal trial, appearing in multiple courts to defend his martial law decree [art_general_20250220_009_31d06c3b].\n- **2025-03-07:** A South Korean court orders the release of President Yoon Suk Yeol as he awaits his impeachment ruling [art_general_20250307_026_4740924e]. This event correlates with a significant drop in market expectations for a prison sentence.\n- **2025-04-22 to 2025-04-28:** South Korea's Constitutional Court officially upholds the impeachment of President Yoon Suk Yeol, removing him from office [art_general_20250422_024_4fdb46f3] [art_general_20250428_015_683d8652].\n- **2025-07-09:** A South Korean court approves a new arrest warrant for former President Yoon over the martial law decree [art_general_20250709_020_826e493c].\n- **2025-07-21:** Yoon is taken back into custody over insurrection charges [art_general_20250721_023_5c68b4fe].\n\n# Causal Chain Analysis\nThe root cause of Yoon's legal troubles was his declaration of martial law, which triggered immediate political backlash and an impeachment vote [art_general_20250404_021_223e0567]. This led to his suspension from office and the initiation of both a Constitutional Court review and parallel criminal investigations [art_general_20250114_011_4cb5b098]. Because the Constitutional Court took until late April to finalize his removal [art_general_20250428_015_683d8652], the full weight of criminal prosecution as a private citizen was delayed. Furthermore, the complexities of the insurrection charges and the defense's legal maneuvering resulted in a prolonged trial process. Consequently, while Yoon was repeatedly arrested and held in custody [art_general_20250721_023_5c68b4fe], the judicial system could not reach a final verdict and sentencing phase before the end of 2025.\n\n# Countervailing Factors\nThe primary countervailing factor was the aggressive push by anti-corruption investigators and political opponents to expedite the trials and secure an immediate conviction following his removal from office. Additionally, his temporary releases, such as the court order on March 7 [art_general_20250307_026_4740924e], periodically reduced the perceived likelihood of a swift prison sentence, while his re-arrests (e.g., in July) temporarily spiked expectations. However, the inherent slowness of the South Korean appellate and constitutional legal frameworks overwhelmed any attempts at a speedy resolution.\n\n# Event Candidate Inventory\n- **E1:** Constitutional Court upholds Yoon's impeachment\n  - Date: 2025-04-22 to 2025-04-28\n  - Why it matters: Stripped Yoon of presidential immunity and finalized his removal, paving the way for further criminal prosecution.\n  - Source: [art_general_20250428_015_683d8652], [art_general_20250422_024_4fdb46f3]\n\n- **E2:** Yoon released from custody awaiting ruling\n  - Date: 2025-03-07\n  - Why it matters: Demonstrated the judicial system's willingness to grant bail/release during the prolonged legal process, reducing the immediate prospect of a continuous prison term in 2025.\n  - Source: [art_general_20250307_026_4740924e]\n\n- **E3:** Yoon re-arrested on insurrection charges\n  - Date: 2025-07-09 to 2025-07-21\n  - Why it matters: Kept him in custody and ensured the criminal trial for insurrection would continue into late 2025 and beyond, without concluding.\n  - Source: [art_general_20250709_020_826e493c], [art_general_20250721_023_5c68b4fe]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Impeachment trial begins | [art_general_20250114_011_4cb5b098] | 2025-01-14 | 1.0 | Confirmed start of legal woes |\n| Yoon released awaiting ruling | [art_general_20250307_026_4740924e] | 2025-03-07 | 1.0 | Corresponds to market trough |\n| Impeachment upheld | [art_general_20250428_015_683d8652], [art_general_20250422_024_4fdb46f3] | April 2025 | 1.0 | Finalized removal |\n| Re-arrested for insurrection | [art_general_20250709_020_826e493c], [art_general_20250721_023_5c68b4fe] | July 2025 | 1.0 | Protracted the legal battle |\n\n# Uncertainties And Alternative Paths\nThe main uncertainty during 2025 was whether the courts would expedite the insurrection trial given the severity of the martial law decree. An alternative path would have seen a rapid guilty verdict and sentencing immediately following his formal removal from office in April or May. However, the complexity of defending against insurrection charges and procedural motions by his legal team successfully stretched the timeline into 2026.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Hezbollah initiates a drone, missile, or air strike that impacts Israeli ground territory by March 7, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including cruise or ballistic missiles) launched by Hezbollah forces that physically impact land under Israeli control.\n\nIsraeli ground territory, for the purposes of this market, refers to land internationally recognized as part of the State of Israel, including all territory under de facto Israeli government administration as of October 31, 2025. This includes the Israeli-controlled Golan Heights and East Jerusalem, but excludes the West Bank and Gaza Strip.\n\nMissiles or drones that are intercepted before reaching the ground, or surface-to-air missile strikes, will not qualify for a \"Yes\" resolution—regardless of whether debris lands on Israeli soil or causes damage.\n\nThe resolution source will be a consensus of credible reporting.",
+    "outcome": "Yes",
+    "explanation": "\n# Executive Summary\nThe escalation between Israel and Hezbollah in late February and early March 2026 was the direct outcome of a wider conflict between the U.S., Israel, and Iran. Following joint U.S. and Israeli military strikes against Iran on February 28, Hezbollah, acting as an Iranian proxy, entered the fray to support Tehran by launching missiles across the Israeli border by early March. This triggered severe Israeli retaliation against Hezbollah targets in Lebanon, finalizing the positive outcome of the question that Hezbollah would strike Israel by March 7.\n\n# Timeline Of Key Events\n- **2026-02-28:** The United States and Israel launch coordinated military strikes against Iran, initiating a broader regional conflict [art_general_20260301_017_9739bb8d].\n- **2026-03-01/2026-03-02 (Early March):** Hezbollah, responding to the strikes on its patron Iran, fires missiles into northern Israel [art_politics_20260301_011_0bd3252e, art_general_20260301_017_9739bb8d].\n- **2026-03-02 onwards:** Israel retaliates with a widespread and intense bombardment campaign across Lebanon, displacing over a million people and prompting a ground operation [art_general_20260301_017_9739bb8d].\n\n# Causal Chain Analysis\nThe root cause was the broader geopolitical tension and the specific military action taken by the U.S. and Israel against Iran on February 28, 2026. This action triggered intermediate mechanisms: as an Iranian proxy, Hezbollah was structurally compelled to respond to defend or avenge its primary backer. This structural alignment led directly to the proximate trigger: Hezbollah firing missiles across the border into Israel in early March 2026. Consequently, this resulted in the positive resolution of the target event: Hezbollah striking Israel by March 7 [art_general_20260301_017_9739bb8d]. \n\n# Countervailing Factors\nThe main countervailing factor was the ongoing diplomatic efforts and backchannel discussions to maintain stability and negotiate ceasefires in the region. There were also hopes that Hezbollah might be deterred by the sheer scale of the U.S.-Israeli military capabilities demonstrated against Iran. However, these forces failed to prevent the strike because Hezbollah’s ideological and strategic commitments to Iran as its proxy overshadowed deterrence, compelling them to enter the conflict once Iran was directly attacked.\n\n# Event Candidate Inventory\n- **E1:** U.S. and Israel strike Iran.\n  - title: U.S. and Israel strike Iran\n  - date: 2026-02-28\n  - why it matters causally: Root cause and catalyst for the entire regional escalation.\n  - source article IDs: [art_general_20260301_017_9739bb8d]\n- **E2:** Hezbollah launches missiles into Israel.\n  - title: Hezbollah launches missiles into Israel\n  - date: 2026-03-01 to 2026-03-02\n  - why it matters causally: This is the exact event the question asks about, directly fulfilling the positive resolution.\n  - source article IDs: [art_politics_20260301_011_0bd3252e, art_general_20260301_017_9739bb8d]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| U.S. and Israel strike Iran | art_general_20260301_017_9739bb8d | 2026-02-28 | 1.0 | Clear start of the escalation. |\n| Hezbollah fires rockets into Israel | art_politics_20260301_011_0bd3252e, art_general_20260301_017_9739bb8d | Early March 2026 | 1.0 | Directly resolves the question as Yes. |\n\n# Uncertainties And Alternative Paths\nOne major uncertainty at the time was the exact scale of Hezbollah's involvement—whether it would be a symbolic retaliation or a full-scale war. An alternative path could have occurred if Iranian leadership ordered Hezbollah to stand down to preserve its capabilities, or if rapid international intervention immediately forced a pause before Hezbollah could mobilize its rocket forces. However, the momentum of the initial U.S.-Israel strikes against Iran rapidly foreclosed those de-escalatory paths.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-01-15T01:07:59.538000+00:00",
+    "market_open": "2026-02-28T16:07:29.014586+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T09:47:31+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-yoon-be-sentenced-to-prison-in-2025",
+    "market_close": "2026-03-02T03:15:39+00:00",
+    "polymarket_url": "https://polymarket.com/event/hezbollah-strike-on-israel-by-march-7",
     "price_data": {
       "history": [
         {
-          "t": 1736942403,
-          "p": 0.78
-        },
-        {
-          "t": 1737158404,
-          "p": 0.765
-        },
-        {
-          "t": 1737417603,
-          "p": 0.77
-        },
-        {
-          "t": 1737676803,
-          "p": 0.775
-        },
-        {
-          "t": 1737936004,
-          "p": 0.755
-        },
-        {
-          "t": 1738195205,
-          "p": 0.765
-        },
-        {
-          "t": 1738454404,
-          "p": 0.765
-        },
-        {
-          "t": 1738670404,
-          "p": 0.79
-        },
-        {
-          "t": 1738929606,
-          "p": 0.785
-        },
-        {
-          "t": 1739188804,
-          "p": 0.795
-        },
-        {
-          "t": 1739448004,
-          "p": 0.79
-        },
-        {
-          "t": 1739707205,
-          "p": 0.79
-        },
-        {
-          "t": 1739966404,
-          "p": 0.785
-        },
-        {
-          "t": 1740225605,
-          "p": 0.775
-        },
-        {
-          "t": 1740441604,
-          "p": 0.77
-        },
-        {
-          "t": 1740700805,
-          "p": 0.765
-        },
-        {
-          "t": 1740960005,
-          "p": 0.765
-        },
-        {
-          "t": 1741219205,
-          "p": 0.775
-        },
-        {
-          "t": 1741478405,
-          "p": 0.685
-        },
-        {
-          "t": 1741737605,
-          "p": 0.685
-        },
-        {
-          "t": 1741996804,
-          "p": 0.685
-        },
-        {
-          "t": 1742212805,
-          "p": 0.68
-        },
-        {
-          "t": 1742472006,
-          "p": 0.525
-        },
-        {
-          "t": 1742731205,
-          "p": 0.505
-        },
-        {
-          "t": 1742990405,
-          "p": 0.595
-        },
-        {
-          "t": 1743249606,
-          "p": 0.565
-        },
-        {
-          "t": 1743508805,
-          "p": 0.515
-        },
-        {
-          "t": 1743724805,
-          "p": 0.725
-        },
-        {
-          "t": 1743984006,
-          "p": 0.575
-        },
-        {
-          "t": 1744243205,
-          "p": 0.595
-        },
-        {
-          "t": 1744502405,
-          "p": 0.595
-        },
-        {
-          "t": 1744761605,
-          "p": 0.51
-        },
-        {
-          "t": 1745020806,
-          "p": 0.505
-        },
-        {
-          "t": 1745280006,
+          "t": 1772323238,
           "p": 0.44
         },
         {
-          "t": 1745496006,
-          "p": 0.435
+          "t": 1772366435,
+          "p": 0.55
         },
         {
-          "t": 1745755206,
-          "p": 0.4
-        },
-        {
-          "t": 1746014406,
-          "p": 0.425
-        },
-        {
-          "t": 1746273606,
-          "p": 0.24
-        },
-        {
-          "t": 1746532805,
-          "p": 0.295
-        },
-        {
-          "t": 1746792007,
-          "p": 0.425
-        },
-        {
-          "t": 1747051206,
-          "p": 0.405
-        },
-        {
-          "t": 1747267207,
-          "p": 0.34
-        },
-        {
-          "t": 1747526406,
-          "p": 0.39
-        },
-        {
-          "t": 1747785606,
-          "p": 0.38
-        },
-        {
-          "t": 1748044807,
-          "p": 0.39
-        },
-        {
-          "t": 1748304006,
-          "p": 0.4
-        },
-        {
-          "t": 1748563207,
-          "p": 0.465
-        },
-        {
-          "t": 1748779207,
-          "p": 0.445
-        },
-        {
-          "t": 1749038406,
-          "p": 0.515
-        },
-        {
-          "t": 1749297608,
-          "p": 0.375
-        },
-        {
-          "t": 1749556807,
-          "p": 0.375
-        },
-        {
-          "t": 1749816008,
-          "p": 0.34
-        },
-        {
-          "t": 1750075208,
-          "p": 0.295
-        },
-        {
-          "t": 1750334407,
-          "p": 0.325
-        },
-        {
-          "t": 1750550406,
-          "p": 0.355
-        },
-        {
-          "t": 1750809607,
-          "p": 0.395
-        },
-        {
-          "t": 1751068807,
-          "p": 0.425
-        },
-        {
-          "t": 1751328008,
-          "p": 0.36
-        },
-        {
-          "t": 1751587208,
-          "p": 0.35
-        },
-        {
-          "t": 1751846407,
-          "p": 0.345
-        },
-        {
-          "t": 1752105608,
-          "p": 0.37
-        },
-        {
-          "t": 1752321608,
-          "p": 0.34
-        },
-        {
-          "t": 1752580808,
-          "p": 0.225
-        },
-        {
-          "t": 1752840008,
-          "p": 0.205
-        },
-        {
-          "t": 1753099207,
-          "p": 0.185
-        },
-        {
-          "t": 1753358409,
-          "p": 0.235
-        },
-        {
-          "t": 1753617609,
-          "p": 0.21
-        },
-        {
-          "t": 1753833610,
-          "p": 0.245
-        },
-        {
-          "t": 1754092809,
-          "p": 0.235
-        },
-        {
-          "t": 1754352008,
-          "p": 0.235
-        },
-        {
-          "t": 1754611202,
-          "p": 0.23
-        },
-        {
-          "t": 1754870412,
-          "p": 0.215
-        },
-        {
-          "t": 1755129607,
-          "p": 0.215
-        },
-        {
-          "t": 1755388804,
-          "p": 0.205
-        },
-        {
-          "t": 1755604811,
-          "p": 0.205
-        },
-        {
-          "t": 1755864018,
-          "p": 0.155
-        },
-        {
-          "t": 1756123206,
-          "p": 0.15
-        },
-        {
-          "t": 1756382418,
-          "p": 0.165
-        },
-        {
-          "t": 1756641621,
-          "p": 0.205
-        },
-        {
-          "t": 1756900803,
-          "p": 0.16
-        },
-        {
-          "t": 1757160009,
-          "p": 0.165
-        },
-        {
-          "t": 1757376003,
-          "p": 0.165
-        },
-        {
-          "t": 1757635207,
-          "p": 0.185
-        },
-        {
-          "t": 1757894408,
-          "p": 0.185
-        },
-        {
-          "t": 1758153610,
-          "p": 0.195
-        },
-        {
-          "t": 1758412806,
-          "p": 0.185
-        },
-        {
-          "t": 1758672018,
-          "p": 0.17
-        },
-        {
-          "t": 1758888012,
-          "p": 0.155
-        },
-        {
-          "t": 1759147210,
-          "p": 0.19
-        },
-        {
-          "t": 1759406405,
-          "p": 0.165
-        },
-        {
-          "t": 1759665605,
-          "p": 0.165
-        },
-        {
-          "t": 1759924809,
-          "p": 0.155
-        },
-        {
-          "t": 1760184027,
-          "p": 0.155
-        },
-        {
-          "t": 1760443221,
-          "p": 0.14
-        },
-        {
-          "t": 1760659205,
-          "p": 0.105
-        },
-        {
-          "t": 1760918406,
-          "p": 0.105
-        },
-        {
-          "t": 1761177605,
-          "p": 0.07
-        },
-        {
-          "t": 1761436804,
-          "p": 0.075
-        },
-        {
-          "t": 1761696006,
-          "p": 0.0245
-        },
-        {
-          "t": 1761998406,
-          "p": 0.066
-        },
-        {
-          "t": 1762257606,
-          "p": 0.0515
-        },
-        {
-          "t": 1762473604,
-          "p": 0.0535
-        },
-        {
-          "t": 1762732805,
-          "p": 0.0495
-        },
-        {
-          "t": 1762992004,
-          "p": 0.0355
-        },
-        {
-          "t": 1763251206,
-          "p": 0.024
-        },
-        {
-          "t": 1763510406,
-          "p": 0.025
-        },
-        {
-          "t": 1763769606,
-          "p": 0.024
-        },
-        {
-          "t": 1763985605,
-          "p": 0.028
-        },
-        {
-          "t": 1764244807,
-          "p": 0.018
-        },
-        {
-          "t": 1764504033,
-          "p": 0.019
-        },
-        {
-          "t": 1764763207,
-          "p": 0.0105
-        },
-        {
-          "t": 1765022408,
-          "p": 0.0135
-        },
-        {
-          "t": 1765281606,
-          "p": 0.0155
-        },
-        {
-          "t": 1765540806,
-          "p": 0.0255
-        },
-        {
-          "t": 1765756807,
-          "p": 0.0115
-        },
-        {
-          "t": 1765972807,
-          "p": 0.006
-        },
-        {
-          "t": 1766232007,
-          "p": 0.0065
-        },
-        {
-          "t": 1766491208,
-          "p": 0.0105
-        },
-        {
-          "t": 1766750407,
-          "p": 0.0065
-        },
-        {
-          "t": 1767009608,
-          "p": 0.0015
+          "t": 1772409643,
+          "p": 0.885
         }
       ],
       "turning_points": [
         {
-          "t": 1741348804,
-          "p": 0.635,
-          "delta": -0.145
+          "t": 1772366435,
+          "p": 0.55,
+          "delta": 0.11
         },
         {
-          "t": 1741478405,
-          "p": 0.685,
-          "delta": 0.05
-        },
-        {
-          "t": 1742428805,
-          "p": 0.63,
-          "delta": -0.055
-        },
-        {
-          "t": 1742472006,
-          "p": 0.525,
-          "delta": -0.105
-        },
-        {
-          "t": 1742990405,
-          "p": 0.595,
-          "delta": 0.07
-        },
-        {
-          "t": 1743292806,
-          "p": 0.525,
-          "delta": -0.07
-        },
-        {
-          "t": 1743681606,
-          "p": 0.64,
-          "delta": 0.115
-        },
-        {
-          "t": 1743724805,
-          "p": 0.725,
-          "delta": 0.085
-        },
-        {
-          "t": 1743768007,
-          "p": 0.61,
-          "delta": -0.115
-        },
-        {
-          "t": 1743854406,
-          "p": 0.665,
-          "delta": 0.055
-        },
-        {
-          "t": 1743984006,
-          "p": 0.575,
-          "delta": -0.09
-        },
-        {
-          "t": 1744632004,
-          "p": 0.52,
-          "delta": -0.055
-        },
-        {
-          "t": 1744675205,
-          "p": 0.47,
-          "delta": -0.05
-        },
-        {
-          "t": 1745323207,
-          "p": 0.415,
-          "delta": -0.055
-        },
-        {
-          "t": 1746230406,
-          "p": 0.35,
-          "delta": -0.065
-        },
-        {
-          "t": 1746273606,
-          "p": 0.24,
-          "delta": -0.11
-        },
-        {
-          "t": 1746403205,
-          "p": 0.305,
-          "delta": 0.065
-        },
-        {
-          "t": 1746705606,
-          "p": 0.39,
-          "delta": 0.085
-        },
-        {
-          "t": 1748563207,
-          "p": 0.465,
-          "delta": 0.075
-        },
-        {
-          "t": 1748606407,
-          "p": 0.535,
-          "delta": 0.07
-        },
-        {
-          "t": 1748736007,
-          "p": 0.465,
-          "delta": -0.07
-        },
-        {
-          "t": 1749168006,
-          "p": 0.385,
-          "delta": -0.08
-        },
-        {
-          "t": 1749686407,
-          "p": 0.325,
-          "delta": -0.06
-        },
-        {
-          "t": 1750593607,
-          "p": 0.39,
-          "delta": 0.065
-        },
-        {
-          "t": 1751155208,
-          "p": 0.445,
-          "delta": 0.055
-        },
-        {
-          "t": 1751328008,
-          "p": 0.36,
-          "delta": -0.085
-        },
-        {
-          "t": 1751673608,
-          "p": 0.28,
-          "delta": -0.08
-        },
-        {
-          "t": 1751846407,
-          "p": 0.345,
-          "delta": 0.065
-        },
-        {
-          "t": 1752451207,
-          "p": 0.28,
-          "delta": -0.065
-        },
-        {
-          "t": 1752580808,
-          "p": 0.225,
-          "delta": -0.055
-        },
-        {
-          "t": 1753272009,
-          "p": 0.275,
-          "delta": 0.05
-        },
-        {
-          "t": 1753444809,
-          "p": 0.22,
-          "delta": -0.055
-        },
-        {
-          "t": 1755864018,
-          "p": 0.155,
-          "delta": -0.065
-        },
-        {
-          "t": 1756468816,
-          "p": 0.215,
-          "delta": 0.06
-        },
-        {
-          "t": 1756728008,
-          "p": 0.145,
-          "delta": -0.07
-        },
-        {
-          "t": 1757980808,
-          "p": 0.2,
-          "delta": 0.055
-        },
-        {
-          "t": 1760140806,
-          "p": 0.13,
-          "delta": -0.07
-        },
-        {
-          "t": 1760745612,
-          "p": 0.08,
-          "delta": -0.05
-        },
-        {
-          "t": 1761696006,
-          "p": 0.0245,
-          "delta": -0.0555
-        },
-        {
-          "t": 1761825605,
-          "p": 0.117,
-          "delta": 0.0925
-        },
-        {
-          "t": 1761998406,
-          "p": 0.066,
-          "delta": -0.051
-        },
-        {
-          "t": 1764547205,
-          "p": 0.015,
-          "delta": -0.051
+          "t": 1772409643,
+          "p": 0.885,
+          "delta": 0.335
         }
       ],
-      "price_at_open": 0.78,
-      "price_at_close": 0.0015,
-      "min_price": 0.0015,
-      "max_price": 0.805,
-      "final_price": 0.0015,
-      "fetched_at": "2026-04-27T07:57:37.248236+00:00"
+      "price_at_open": 0.44,
+      "price_at_close": 0.885,
+      "min_price": 0.44,
+      "max_price": 0.885,
+      "final_price": 0.885,
+      "fetched_at": "2026-04-27T07:57:57.013238+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250220_005_5c14b672",
-        "date": "2025-02-20 00:00",
-        "title": "Yoon goes on criminal trial",
-        "description": "Yoon becomes the first sitting South Korean president to go on criminal trial.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCriminal trial beginning is a direct step toward sentencing.",
+        "id": "evt_politics_20260228_003_99b2d045",
+        "date": "2026-02-28 18:00",
+        "title": "U.S.-Israeli military capabilities demonstrate massive scale",
+        "description": "The sheer scale of the U.S.-Israeli military capabilities is demonstrated against Iran.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-9402965418687c634d4a157c966ec6ea",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260301_006_95d1c500",
+        "date": "2026-03-01 08:00",
+        "title": "Hezbollah forces fire rockets into northern Israel",
+        "description": "Hezbollah forces fire rockets into northern Israel in retaliation.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirectly constitutes the strike.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.independent.co.uk/asia/east-asia/south-korea-yoon-suk-yeol-president-impeachment-trial-b2701308.html",
+        "source_url": "https://www.jta.org/2026/03/26/israel/as-hezbollah-rockets-fall-emergency-medics-in-israels-north-work-double-shifts",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250307_006_cd586097",
-        "date": "2025-03-07 00:00",
-        "title": "Yoon released awaiting ruling",
-        "description": "A South Korean court orders the release of President Yoon as he awaits his impeachment ruling.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRelease from custody reduced immediate prospect of prison.",
+        "id": "evt_politics_20260301_010_617d8378",
+        "date": "2026-03-01 10:00",
+        "title": "Hezbollah fires missiles into northern Israel",
+        "description": "Hezbollah fires missiles into northern Israel in early March.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-diplomacy-ceasefire",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260301_010_fffc525b",
+        "date": "2026-03-01 11:30",
+        "title": "Ten-day ceasefire between Israel and Lebanon begins",
+        "description": "A ten-day ceasefire between Israel and Lebanon begins.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nCeasefire ends hostilities.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cnn.com/2025/03/07/asia/south-korea-yoon-suk-yeol-released-detention-intl-hnk/index.html",
+        "source_url": "https://www.msn.com/en-gb/news/world/iran-us-war-live-hegseth-warns-we-are-locked-and-loaded-to-attack/ar-AA2103Rr?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250422_007_c8a6671f",
-        "date": "2025-04-22 00:00",
-        "title": "Constitutional Court upholds impeachment",
-        "description": "South Korea's Constitutional Court officially upholds the impeachment of President Yoon.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUpholding impeachment removed immunity, enabling prosecution.",
+        "id": "evt_politics_20260301_007_7c70b103",
+        "date": "2026-03-01 10:00",
+        "title": "Hezbollah targets Israeli advance toward Litani River",
+        "description": "Hezbollah says it targeted an Israeli advance toward the Litani River.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirectly constitutes the strike.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/south-koreas-constitutional-court-removes-025054823.html?fr=sycsrp_catchall",
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-says-it-targeted-israeli-advance-toward-litani-river",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250709_008_638c4991",
-        "date": "2025-07-09 00:00",
-        "title": "Court approves new arrest warrant",
-        "description": "A South Korean court approves a new arrest warrant for former President Yoon.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nNew arrest warrant increased likelihood of prison.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://nypost.com/2025/07/09/world-news/south-korean-court-approves-new-arrest-of-former-president-yoon-suk-yeol-over-martial-law-decree",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250721_009_025c1bb6",
-        "date": "2025-07-21 00:00",
-        "title": "Yoon taken back into custody",
-        "description": "Yoon is taken back into custody over insurrection charges.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nBeing taken back into custody increased likelihood of prison.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/south-korea-former-president-yoon-060822966.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20241203_001_37d3c437",
-        "date": "2024-12-03 00:00",
-        "title": "Yoon declares martial law",
-        "description": "President Yoon Suk Yeol declares martial law in South Korea.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMartial law declaration initiated the legal troubles.",
+        "id": "evt_politics_20260101_001_0c022bf2",
+        "date": "2026-01-01 00:00",
+        "title": "Decades of conflict between Israel and Hezbollah",
+        "description": "Historical and deeply entrenched animosity between Israel and Hezbollah.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHistorical conflict increases likelihood of strikes.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://nypost.com/2025/04/04/world-news/south-korea-impeached-president-yoon-suk-yeol-removed-from-office-after-martial-law-declaration",
+        "source_url": "https://apnews.com/article/israel-hezbollah-conflict-timeline-a2f7978dee7f29af1d50f690d032e4d3",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241214_002_98b6b80e",
-        "date": "2024-12-14 00:00",
-        "title": "Parliament votes to impeach Yoon",
-        "description": "South Korean parliament votes to impeach President Yoon.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpeachment vote increased likelihood of criminal prosecution.",
+        "id": "evt_politics_20260228_005_16f6ac2d",
+        "date": "2026-02-28 00:00",
+        "title": "Israeli military launches widespread attacks on Lebanon",
+        "description": "Israeli military launches widespread attacks on Lebanon causing over 300 deaths.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIsraeli attacks provoke retaliation.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://nypost.com/2025/04/04/world-news/south-korea-impeached-president-yoon-suk-yeol-removed-from-office-after-martial-law-declaration",
+        "source_url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-46a82d3758b7d0df9ac6df7bd18f936a",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241214_003_ea13f618",
-        "date": "2024-12-14 00:00",
-        "title": "Yoon suspended from office",
-        "description": "Yoon is suspended from office following the impeachment vote.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSuspension from office paved the way for trials.",
+        "id": "evt_politics_20260228_002_a0efceec",
+        "date": "2026-02-28 12:00",
+        "title": "Mass displacement in south Lebanon",
+        "description": "Mass displacement reported in south Lebanon after Israeli attacks.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDisplacement adds pressure for retaliation.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.theguardian.com/world/2025/jan/14/yoon-suk-yeol-impeachment-trial-south-korea-begins-updates-martial-law",
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/mass-displacement-reported-south-lebanon-after-israeli-attacks",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241214_010_84415baa",
-        "date": "2024-12-14 00:00",
-        "title": "Constitutional Court review initiated",
-        "description": "A Constitutional Court review of Yoon's impeachment is initiated.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConstitutional Court review was a necessary step for removal and prosecution.",
+        "id": "evt_health_20260228_003_1a74d4da",
+        "date": "2026-02-28 14:00",
+        "title": "Hospitals overwhelmed in Lebanon",
+        "description": "Hospitals overwhelmed in Lebanon from Israel's unprecedented attacks.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOverwhelmed hospitals add pressure for retaliation.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.theguardian.com/world/2025/jan/14/yoon-suk-yeol-impeachment-trial-south-korea-begins-updates-martial-law",
+        "source_url": "https://www.msn.com/en-us/news/world/hospitals-overwhelmed-and-communities-destroyed-lebanon-reels-from-israel-s-unprecedented-attacks/ar-AA212R8h?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250114_004_2bef5eb3",
-        "date": "2025-01-14 00:00",
-        "title": "Impeachment trial begins",
-        "description": "The trial regarding Yoon's impeachment begins.",
-        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpeachment trial beginning moved the process forward.",
+        "id": "evt_politics_20260228_004_23dc14b2",
+        "date": "2026-02-28 16:00",
+        "title": "US hosts rare Israel-Lebanon talks",
+        "description": "US hosts rare Israel-Lebanon talks to agree on a framework for peace.",
+        "impact": "**Affects:** Yes - Hezbollah strike on Israel by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPeace talks decrease likelihood of strikes.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.theguardian.com/world/2025/jan/14/yoon-suk-yeol-impeachment-trial-south-korea-begins-updates-martial-law",
+        "source_url": "https://www.straitstimes.com/world/middle-east/lebanese-and-israeli-envoys-to-meet-as-israel-presses-war-on-hezbollah",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -853,204 +185,1785 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x50ee3dc6eb95a801236fa1efddc2d643d2fc5eda6effa401a4e97593e4e80b3f",
-    "title": "Will AMC Entertainment (AMC) beat quarterly earnings?",
+    "id": "polymarket_0xce4b52a6bcbea0b9a388b4c927e2473acc515f974d62ac8e40c577e009329190",
+    "title": "Will a federal bill or resolution requiring disclosure of Jeffrey Epstein-related documents be enacted during 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "As of market creation, AMC Entertainment is estimated to release earnings on February 24, 2026. The Street consensus estimate for AMC Entertainment’s non-GAAP EPS for the relevant quarter is $-0.25 as of market creation. This market will resolve to \"Yes\" if AMC Entertainment reports non-GAAP EPS greater than $-0.25 for the relevant quarter in its next quarterly earnings release. Otherwise, it will resolve to \"No.\" The resolution source will be the non-GAAP EPS listed in the company’s official earnings documents. \n\nIf AMC Entertainment releases earnings without non-GAAP EPS, then the market will resolve according to the non-GAAP EPS figure reported by SeekingAlpha. If no such figure is published within 96h of market close (4:00:00pm ET) on the day earnings are announced, the market will resolve according to the GAAP EPS listed in the company’s official earnings documents; or, if not published there, according to the GAAP EPS provided by SeekingAlpha. If no GAAP EPS number is available from either source at that time, the market will resolve to “No.” (For the purposes of this market, GAAP EPS refers to diluted GAAP EPS, unless it is not published, in which case it refers to basic GAAP EPS.)\n\nIf the company does not release earnings within 45 calendar days of the estimated earnings date, this market will resolve to “No.” \n\nNote: Subsequent restatements, corrections, or revisions made to the initially announced non-GAAP EPS figure will not qualify for resolution, except in the case of obvious and immediate mistakes (e.g., fat finger errors, as with Lyft's (LYFT) earnings release in February 2024).\nNote: The strike prices used in these markets are derived from SeekingAlpha estimates, and reflect the consensus of sell-side analyst estimates for non-GAAP EPS.\nNote: All figures will be rounded to the nearest cent using standard rounding.\nNote: For the purposes of this market, IFRS EPS will be treated as GAAP EPS.\nNote: If multiple versions of non-GAAP EPS are published, the market will resolve according to the primary headline non-GAAP EPS number, which is typically presented on a diluted basis. If diluted is not published, then basic non-GAAP EPS will qualify.\nNote: All figures are expressed in USD, unless otherwise indicated.\nNote: For primarily internationally listed companies, this market refers specifically to the shares traded in the United States on U.S. stock exchanges such as the NYSE or Nasdaq. In cases where the company trades in the U.S. through an American Depositary Receipt (ADR) or American Depositary Share (ADS), this market will refer to the ADR/ADS.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if a bill, measure, or resolution that explicitly mandates, compels, or formally calls for the public release of documents related to Jeffrey Epstein is signed into federal law in the United States by December 31, 2025, at 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source will be official information from the U.S. federal government (e.g., Congress.gov) however a consensus of credible reporting may also be used.",
     "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nAMC Entertainment beat quarterly earnings expectations on February 24, 2026, driven primarily by the massive success of high-profile concert films. Leading up to the earnings release, sentiment shifted significantly on February 22 as box office surprises indicated stronger-than-expected revenue. The inclusion of unique content like the Taylor Swift and Beyoncé concert films provided a crucial boost to AMC's top and bottom lines, offsetting traditional box office sluggishness. Furthermore, ongoing debt restructuring efforts contributed to a more stable financial outlook, ultimately culminating in the earnings beat.\n\n## Timeline Of Key Events\n- **2026-02-18 to 2026-02-21**: Pre-earnings previews highlighted the potential impact of AMC's debt restructuring efforts on its financial health, setting a cautiously optimistic tone [art_finance_20260218_002_c2d8ccf7, art_finance_20260221_011_c6cb7500].\n- **2026-02-22**: A significant positive shift in market sentiment occurred as news of box office surprises broke, indicating that Q4 revenue might exceed expectations [art_finance_20260222_014_8599939a].\n- **2026-02-23**: Early reports of Q4 results began to surface, confirming strong revenue figures, partly attributed to alternative content [art_business_20260223_004_6d973ce0].\n- **2026-02-24**: AMC officially announced its earnings beat, directly citing the massive success of concert films as a primary driver [art_finance_20260224_020_9740cada].\n\n## Causal Chain Analysis\nThe root cause of AMC's earnings beat was the strategic decision to distribute and heavily promote major concert films (like Taylor Swift's The Eras Tour and Beyoncé's Renaissance), which drew massive audiences to theaters during otherwise slow periods [art_finance_20260224_020_9740cada]. This strategic move *caused* a significant influx of high-margin ticket and concession revenue. Consequently, intermediate mechanisms such as the positive sentiment shift on February 22, driven by early indicators of these box office surprises [art_finance_20260222_014_8599939a], *led to* heightened market expectations. Furthermore, AMC's ongoing debt restructuring efforts *contributed* to an improved balance sheet, reducing interest burdens [art_finance_20260221_011_c6cb7500]. Ultimately, these factors *resulted in* the proximate trigger: the Q4 earnings report that revealed revenue and earnings per share significantly above analyst estimates, securing the \"Yes\" outcome [art_business_20260224_006_8be03c8e].\n\n## Countervailing Factors\nThe primary countervailing factor was the broader industry strike (WGA and SAG-AFTRA) earlier in the year, which delayed several major theatrical releases and threatened to severely depress Q4 box office numbers. This caused initial pessimism among analysts. However, this force was overwhelmed by AMC's pivot to alternative content, specifically the unprecedented success of the concert films, which single-handedly salvaged the quarter's revenue.\n\n## Event Candidate Inventory\n- **E1**: Pre-earnings focus on debt restructuring.\n  - **Date**: 2026-02-18 to 2026-02-21\n  - **Why it matters**: Set the baseline financial expectations and highlighted AMC's efforts to improve profitability.\n  - **Source article IDs**: art_finance_20260218_002_c2d8ccf7, art_finance_20260221_011_c6cb7500\n- **E2**: Positive sentiment shift due to box office surprises.\n  - **Date**: 2026-02-22\n  - **Why it matters**: Marked the turning point where the market realized Q4 performance would likely beat expectations.\n  - **Source article IDs**: art_finance_20260222_014_8599939a\n- **E3**: AMC Q4 earnings release beating expectations due to concert films.\n  - **Date**: 2026-02-24\n  - **Why it matters**: The official confirmation and proximate cause of the resolution.\n  - **Source article IDs**: art_finance_20260224_020_9740cada, art_business_20260224_006_8be03c8e\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Pre-earnings focus on debt | art_finance_20260221_011_c6cb7500 | 2026-02-21 | 0.9 | Established baseline expectations. |\n| Sentiment shifts on box office | art_finance_20260222_014_8599939a | 2026-02-22 | 0.95 | The key turning point event. |\n| Earnings beat driven by concert films | art_finance_20260224_020_9740cada | 2026-02-24 | 1.0 | The ground truth resolution. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether the concert films would generate enough revenue to offset the lack of traditional blockbuster movies due to the Hollywood strikes. An alternative path would have occurred if the concert films had underperformed, leaving AMC exposed to the negative impacts of the delayed movie slate, which likely would have resulted in an earnings miss.\n",
+    "explanation": "\n## Executive Summary\nA federal bill requiring the disclosure of Jeffrey Epstein-related documents, known as the \"Epstein Files Transparency Act\" (H.R.4405), was enacted in 2025. The legislation was introduced in July 2025 and sought to force the Justice Department to release all unclassified records regarding Epstein. The market began heavily favoring a \"Yes\" outcome around November 18, 2025, after significant political momentum and the end of the government shutdown. The bill was subsequently passed and signed by President Donald Trump on November 19, 2025, confirming the resolution.\n\n## Timeline Of Key Events\n- **2025-07-15**: The \"Epstein Files Transparency Act\" (H.R.4405) is originally introduced in the House by Rep. Ro Khanna [art_general_20251118_003_68b95795].\n- **2025-11-12**: The House passes a deal to end the longest government shutdown, allowing Congress to return to regular legislative business [art_general_20251112_018_12ec2b80].\n- **2025-11-15**: Lawmakers and victims advocate for the release of the Epstein files, indicating strong bipartisan pressure [art_politics_20251115_005_f955f1ce].\n- **2025-11-18**: Prediction markets flip to favor a \"Yes\" outcome as signs of the bill's impending passage become apparent, despite legal challenges from individuals like Ghislaine Maxwell trying to block document releases [art_politics_20251118_002_5439f4aa].\n- **2025-11-19**: President Donald Trump signs the Epstein Files Transparency Act into law, officially mandating the DOJ to release the files.\n\n## Causal Chain Analysis\nThe root cause for the bill's enactment was the long-standing public and political demand for transparency surrounding the DOJ's investigation into Jeffrey Epstein [art_politics_20251115_005_f955f1ce]. This led to the introduction of H.R.4405. The end of the government shutdown in November 2025 [art_general_20251112_018_12ec2b80] served as an intermediate mechanism, clearing the legislative backlog and allowing the bill to move forward. The proximate trigger was the overwhelming bipartisan support and final congressional approval in mid-November, which caused the bill to be sent to the President's desk. This resulted in the final outcome when President Trump signed the bill on November 19, 2025.\n\n## Countervailing Factors\nGhislaine Maxwell and her legal team attempted to fight the release of more Epstein documents, calling the disclosure laws unconstitutional [art_politics_20251118_002_5439f4aa]. However, these efforts failed to halt the legislative momentum because the public and congressional consensus for transparency outweighed the privacy or constitutional concerns raised by Epstein's associates.\n\n## Event Candidate Inventory\n- **E1**: Introduction of the Epstein Files Transparency Act (H.R.4405).\n  - Date: 2025-07-15\n  - Why it matters causally: Initiated the legislative process for mandatory disclosure.\n  - Source: [art_general_20251118_003_68b95795]\n- **E2**: Congress ends government shutdown.\n  - Date: 2025-11-12\n  - Why it matters causally: Allowed Congress to resume voting on bills like H.R.4405.\n  - Source: [art_general_20251112_018_12ec2b80]\n- **E3**: President Trump signs H.R.4405 into law.\n  - Date: 2025-11-19\n  - Why it matters causally: Directly satisfied the resolution criteria.\n  - Source: [art_politics_20251118_006_5e61063b]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Introduction of H.R.4405 | [art_general_20251118_003_68b95795] | 2025-07-15 | 0.9 | Established the legislative vehicle. |\n| End of government shutdown | [art_general_20251112_018_12ec2b80] | 2025-11-12 | 0.9 | Cleared legislative path. |\n| Maxwell opposes disclosure | [art_politics_20251118_002_5439f4aa] | 2025-11-18 | 0.9 | Countervailing factor. |\n| Enactment of bill | [art_politics_20251118_006_5e61063b] | 2025-11-19 | 1.0 | Meets the ground truth. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty leading up to the resolution was whether legal challenges by Epstein's associates or partisan gridlock (like the government shutdown) would delay the bill beyond 2025. If the shutdown had persisted or legal injunctions had succeeded, the resolution could have resolved as \"No\".\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2026-02-18T00:56:09.588081+00:00",
+    "market_open": "2025-11-13T23:12:30.126652+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-02-24T08:48:30+00:00",
-    "polymarket_url": "https://polymarket.com/event/amc-quarterly-earnings-nongaap-eps-02-24-2026-neg0pt25",
+    "market_close": "2025-11-20T03:53:53+00:00",
+    "polymarket_url": "https://polymarket.com/event/epstein-disclosure-billresolution-enacted-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1771416056,
-          "p": 0.635
+          "t": 1763078420,
+          "p": 0.48
         },
         {
-          "t": 1771545655,
-          "p": 0.565
+          "t": 1763121632,
+          "p": 0.085
         },
         {
-          "t": 1771588834,
-          "p": 0.595
+          "t": 1763164825,
+          "p": 0.06
         },
         {
-          "t": 1771632036,
-          "p": 0.72
+          "t": 1763208033,
+          "p": 0.055
         },
         {
-          "t": 1771675237,
-          "p": 0.735
+          "t": 1763251216,
+          "p": 0.075
         },
         {
-          "t": 1771718437,
-          "p": 0.735
+          "t": 1763294428,
+          "p": 0.065
         },
         {
-          "t": 1771761647,
-          "p": 0.74
+          "t": 1763337621,
+          "p": 0.085
         },
         {
-          "t": 1771804844,
-          "p": 0.73
+          "t": 1763380827,
+          "p": 0.425
         },
         {
-          "t": 1771848051,
-          "p": 0.72
+          "t": 1763424016,
+          "p": 0.27
         },
         {
-          "t": 1771891245,
-          "p": 0.99
+          "t": 1763467229,
+          "p": 0.5
+        },
+        {
+          "t": 1763510425,
+          "p": 0.978
+        },
+        {
+          "t": 1763553632,
+          "p": 0.9715
+        },
+        {
+          "t": 1763596816,
+          "p": 0.959
         }
       ],
       "turning_points": [
         {
-          "t": 1771545655,
-          "p": 0.565,
-          "delta": -0.07
+          "t": 1763121632,
+          "p": 0.085,
+          "delta": -0.395
         },
         {
-          "t": 1771632036,
-          "p": 0.72,
-          "delta": 0.155
+          "t": 1763380827,
+          "p": 0.425,
+          "delta": 0.34
         },
         {
-          "t": 1771891245,
-          "p": 0.99,
-          "delta": 0.27
+          "t": 1763424016,
+          "p": 0.27,
+          "delta": -0.155
+        },
+        {
+          "t": 1763467229,
+          "p": 0.5,
+          "delta": 0.23
+        },
+        {
+          "t": 1763510425,
+          "p": 0.978,
+          "delta": 0.478
         }
       ],
-      "price_at_open": 0.635,
-      "price_at_close": 0.99,
-      "min_price": 0.565,
-      "max_price": 0.99,
-      "final_price": 0.99,
-      "fetched_at": "2026-04-27T07:57:29.884970+00:00"
+      "price_at_open": 0.48,
+      "price_at_close": 0.959,
+      "min_price": 0.055,
+      "max_price": 0.978,
+      "final_price": 0.959,
+      "fetched_at": "2026-04-27T07:57:47.333537+00:00"
     },
     "events": [
       {
-        "id": "evt_finance_20260221_001_2b355e1b",
-        "date": "2026-02-21 10:00",
-        "title": "AMC undertakes debt restructuring efforts",
-        "description": "AMC engages in debt restructuring to improve its balance sheet and reduce interest burdens.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDebt restructuring improved balance sheet.",
+        "id": "evt_politics_20251115_013_c827fe8c",
+        "date": "2025-11-15 11:00",
+        "title": "Lawmakers and victims advocate for Epstein files release",
+        "description": "Lawmakers and victims advocate for the release of the Epstein files.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-21-0.html",
+        "source_url": "https://www.cnn.com/2026/03/19/politics/epstein-files-next-steps-congress-victims-law",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260221_002_80f23274",
-        "date": "2026-02-21 10:00",
-        "title": "Analysts express initial pessimism",
-        "description": "Analysts express initial pessimism regarding AMC's Q4 performance due to Hollywood strikes.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInitial pessimism reflected expectations of a miss.",
+        "id": "evt_politics_20251118_015_da616148",
+        "date": "2025-11-18 11:00",
+        "title": "Ghislaine Maxwell fights release of Epstein documents",
+        "description": "Ghislaine Maxwell and her legal team attempt to fight the release of more Epstein documents.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAttempted to block the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-21-0.html",
+        "source_url": "https://www.nbcconnecticut.com/news/national-international/ghislaine-maxwell-fights-release-more-epstein-documents-disclosure-law/3705838",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260221_003_fb0c239b",
-        "date": "2026-02-21 10:00",
-        "title": "Hollywood strikes delay major theatrical releases",
-        "description": "Broader industry strikes (WGA and SAG-AFTRA) delay several major theatrical releases.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStrikes delayed releases, hurting revenue potential.",
+        "id": "evt_politics_20251118_010_77350af1",
+        "date": "2025-11-18 11:45",
+        "title": "Congress approves Epstein Files Transparency Act",
+        "description": "Congress approves the Epstein Files Transparency Act.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-21-0.html",
+        "source_url": "https://www.cbsnews.com/live-updates/epstein-files-released-doj-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20260222_004_30db42f1",
-        "date": "2026-02-22 10:00",
-        "title": "AMC distributes major concert films",
-        "description": "AMC makes a strategic decision to distribute and heavily promote major concert films like Taylor Swift's The Eras Tour.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDistributing concert films was the key strategic move.",
+        "id": "evt_politics_20251112_003_f884a209",
+        "date": "2025-11-12 12:00",
+        "title": "House passes deal to end government shutdown",
+        "description": "The House passes a deal to end the longest government shutdown.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-22-0.html",
+        "in_market_window": false,
+        "source_url": "https://triblive.com/news/world/house-passes-deal-to-end-longest-government-shutdown-trump-to-sign-tonight",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20260222_005_5888d56c",
-        "date": "2026-02-22 10:00",
-        "title": "Concert films draw massive audiences",
-        "description": "Concert films draw massive audiences to theaters during otherwise slow periods.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMassive audiences drove revenue.",
+        "id": "evt_politics_20250715_002_fe4558cf",
+        "date": "2025-07-15 12:00",
+        "title": "Rep. Ro Khanna introduces H.R.4405",
+        "description": "The Epstein Files Transparency Act (H.R.4405) is introduced in the House by Rep. Ro Khanna.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-22-0.html",
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/fact-check-fbi-paid-nearly-223000399.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260222_007_7615a8cd",
-        "date": "2026-02-22 10:00",
-        "title": "Box office surprises indicate strong Q4 revenue",
-        "description": "Box office surprises indicate that Q4 revenue might exceed expectations.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nBox office surprises indicated a beat.",
+        "id": "evt_politics_20251115_014_4cc0ca13",
+        "date": "2025-11-15 11:30",
+        "title": "Bipartisan pressure builds for H.R.4405",
+        "description": "Strong bipartisan pressure builds for the passage of the Epstein Files Transparency Act.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-22-0.html",
+        "source_url": "https://www.cnn.com/2026/03/19/politics/epstein-files-next-steps-congress-victims-law",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260222_008_9e080600",
-        "date": "2026-02-22 10:00",
-        "title": "Market sentiment shifts positively",
-        "description": "A significant positive shift in market sentiment occurs regarding AMC.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPositive sentiment reflected growing confidence in a beat.",
+        "id": "evt_politics_20251118_016_9be5ef1e",
+        "date": "2025-11-18 11:30",
+        "title": "Maxwell calls disclosure laws unconstitutional",
+        "description": "Ghislaine Maxwell calls the disclosure laws unconstitutional.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAttempted to block the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/amc-earnings-update-22-0.html",
+        "source_url": "https://www.nbcconnecticut.com/news/national-international/ghislaine-maxwell-fights-release-more-epstein-documents-disclosure-law/3705838",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260223_006_8cf93542",
-        "date": "2026-02-23 12:00",
-        "title": "AMC experiences influx of high-margin revenue",
-        "description": "AMC sees a significant influx of high-margin ticket and concession revenue from concert films.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHigh-margin revenue directly boosted earnings.",
+        "id": "evt_politics_20251118_011_bd1945b6",
+        "date": "2025-11-18 11:55",
+        "title": "President Trump signs H.R.4405 into law",
+        "description": "President Donald Trump signs the Epstein Files Transparency Act into law.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://grafa.com/en/news/world/amc-entertainment-q4-2025-results-narrower-loss-adjusted-ebitda-decline",
+        "source_url": "https://www.cbsnews.com/live-updates/epstein-files-released-doj-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260223_009_b5b38d3e",
-        "date": "2026-02-23 12:00",
-        "title": "Early reports confirm strong Q4 revenue",
-        "description": "Early reports of Q4 results surface, confirming strong revenue figures.",
-        "impact": "**Affects:** Yes - Will AMC Entertainment (AMC) beat quarterly earnin  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEarly reports confirmed the beat.",
+        "id": "evt_politics_20251118_012_5e01b022",
+        "date": "2025-11-18 12:00",
+        "title": "Prediction markets favor Yes outcome",
+        "description": "Prediction markets flip to favor a Yes outcome as signs of the bill's impending passage become apparent.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://grafa.com/en/news/world/amc-entertainment-q4-2025-results-narrower-loss-adjusted-ebitda-decline",
+        "source_url": "https://www.nbcconnecticut.com/news/national-international/ghislaine-maxwell-fights-release-more-epstein-documents-disclosure-law/3705838",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251112_006_c6843fbb",
+        "date": "2025-11-12 22:00",
+        "title": "Congress resumes regular legislative business",
+        "description": "Congress returns to regular legislative business after the government shutdown ends.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://triblive.com/news/world/house-passes-deal-to-end-longest-government-shutdown-trump-to-sign-tonight",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xd1754bc54ec5b0af53339ad69d868bcdf5510242212a400db22bc865b103bbfb",
+    "title": "Israel and Lebanon normalize relations in 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if both Israel and Lebanon officially announce the establishment of diplomatic relations by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Israel and the Lebanon, however a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nThroughout 2025, Israel and Lebanon did not normalize relations, despite international efforts and periods of relative calm. The fundamental obstacle remained the ongoing state of war and the powerful influence of Hezbollah within Lebanon, which fundamentally rejects any normalization with Israel. While some tactical agreements regarding border demarcations and ceasefires were discussed and implemented, these were strictly security arrangements and not steps toward diplomatic normalization. Ultimately, the political and security environment in both countries precluded any possibility of a formal peace treaty or normalization of ties before the resolution date of January 1, 2026.\n\n## Timeline Of Key Events\n- **2025-06-06:** Tensions escalate along the border, reinforcing the impossibility of near-term normalization [art_politics_20251229_017_c5c736da].\n- **2025-06-18:** Diplomatic efforts focus purely on de-escalation, not normalization [art_general_20251215_003_ad4627c7].\n- **2025-06-25:** A significant spike in hostilities underscores the volatile security situation [art_politics_20251127_012_779e07bf].\n- **2025-06-28:** Cross-border incidents continue, further hardening political stances in both nations [art_politics_20251126_015_a41d7018].\n- **2025-06-30:** Public statements from Lebanese officials reiterate their refusal to normalize relations with Israel [art_politics_20251104_008_7c0cd5eb].\n- **Late 2025:** Despite some US mediation on border issues, both sides maintain their official state of hostility [art_general_20251024_002_3e4282ce].\n\n## Causal Chain Analysis\nThe failure to normalize relations was rooted in deep-seated historical and political realities. The primary root cause is the enduring ideological opposition to Israel by Hezbollah, a major political and military force in Lebanon, which effectively vetoes any normalization efforts [art_politics_20251010_011_db989242]. This structural barrier led to the intermediate mechanism: the Lebanese government's inability and unwillingness to pursue diplomatic ties, even if it desired economic benefits [art_politics_20250915_020_23a7cf60]. The proximate triggers were the ongoing cycles of violence and border skirmishes throughout 2025, which kept both nations on a war footing and made any political compromise politically toxic [art_politics_20250901_009_4907a3ce]. Consequently, this resulted in the final outcome: no normalization of relations by the end of 2025 [art_politics_20250820_022_ce2d0f4d].\n\n## Countervailing Factors\nThe main countervailing forces were international pressure, particularly from the United States, and the potential economic benefits of normalization, such as resolving maritime border disputes to facilitate natural gas extraction [art_politics_20250815_010_ed761891]. However, these factors were overwhelmed by the immediate security concerns and the entrenched political power of anti-Israel factions within Lebanon [art_politics_20250805_021_1666cdd1].\n\n## Event Candidate Inventory\n- **E1:** Ongoing Border Hostilities June 2025\n  - **Date:** June 2025\n  - **Why it matters:** Demonstrated the continuous state of conflict preventing normalization.\n  - **Source article IDs:** art_politics_20251127_012_779e07bf, art_politics_20251126_015_a41d7018\n- **E2:** Lebanese Rejection of Normalization\n  - **Date:** Mid-to-Late 2025\n  - **Why it matters:** Confirmed the political consensus in Lebanon against peace with Israel.\n  - **Source article IDs:** art_politics_20251104_008_7c0cd5eb, art_general_20251024_002_3e4282ce\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Ongoing hostilities prevent peace | art_politics_20251229_017_c5c736da, art_politics_20251127_012_779e07bf | June 2025 | 0.9 | Continuous border clashes |\n| Hezbollah's veto on normalization | art_politics_20251010_011_db989242, art_politics_20250915_020_23a7cf60 | 2025 | 0.95 | Structural political barrier |\n| Diplomatic focus on ceasefires only | art_general_20251215_003_ad4627c7, art_general_20251024_002_3e4282ce | 2025 | 0.9 | No political normalization discussed |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a sudden, massive shift in Lebanese domestic politics (e.g., the collapse of Hezbollah's influence) could open a path to normalization. However, this alternative path never materialized in 2025, keeping the status quo firmly in place.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-06-02T22:14:57.308000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:38:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/israel-and-lebanon-normalize-relations-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1748908807,
+          "p": 0.225
+        },
+        {
+          "t": 1749038406,
+          "p": 0.125
+        },
+        {
+          "t": 1749211206,
+          "p": 0.09
+        },
+        {
+          "t": 1749340807,
+          "p": 0.095
+        },
+        {
+          "t": 1749513606,
+          "p": 0.09
+        },
+        {
+          "t": 1749643207,
+          "p": 0.085
+        },
+        {
+          "t": 1749816008,
+          "p": 0.11
+        },
+        {
+          "t": 1749945608,
+          "p": 0.15
+        },
+        {
+          "t": 1750118408,
+          "p": 0.14
+        },
+        {
+          "t": 1750248007,
+          "p": 0.0645
+        },
+        {
+          "t": 1750420808,
+          "p": 0.062
+        },
+        {
+          "t": 1750550406,
+          "p": 0.0715
+        },
+        {
+          "t": 1750723207,
+          "p": 0.167
+        },
+        {
+          "t": 1750896008,
+          "p": 0.104
+        },
+        {
+          "t": 1751025608,
+          "p": 0.3
+        },
+        {
+          "t": 1751198407,
+          "p": 0.208
+        },
+        {
+          "t": 1751328008,
+          "p": 0.249
+        },
+        {
+          "t": 1751500808,
+          "p": 0.218
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2645
+        },
+        {
+          "t": 1751803207,
+          "p": 0.2465
+        },
+        {
+          "t": 1751932808,
+          "p": 0.2215
+        },
+        {
+          "t": 1752105608,
+          "p": 0.1855
+        },
+        {
+          "t": 1752235209,
+          "p": 0.181
+        },
+        {
+          "t": 1752408007,
+          "p": 0.163
+        },
+        {
+          "t": 1752580808,
+          "p": 0.1485
+        },
+        {
+          "t": 1752710408,
+          "p": 0.1025
+        },
+        {
+          "t": 1752883209,
+          "p": 0.1325
+        },
+        {
+          "t": 1753012808,
+          "p": 0.1485
+        },
+        {
+          "t": 1753185609,
+          "p": 0.139
+        },
+        {
+          "t": 1753315209,
+          "p": 0.151
+        },
+        {
+          "t": 1753488009,
+          "p": 0.1535
+        },
+        {
+          "t": 1753617609,
+          "p": 0.148
+        },
+        {
+          "t": 1753790408,
+          "p": 0.1455
+        },
+        {
+          "t": 1753920008,
+          "p": 0.145
+        },
+        {
+          "t": 1754092809,
+          "p": 0.086
+        },
+        {
+          "t": 1754222408,
+          "p": 0.117
+        },
+        {
+          "t": 1754395209,
+          "p": 0.092
+        },
+        {
+          "t": 1754568015,
+          "p": 0.0895
+        },
+        {
+          "t": 1754697602,
+          "p": 0.1035
+        },
+        {
+          "t": 1754870412,
+          "p": 0.105
+        },
+        {
+          "t": 1755000002,
+          "p": 0.106
+        },
+        {
+          "t": 1755172811,
+          "p": 0.1035
+        },
+        {
+          "t": 1755302409,
+          "p": 0.0985
+        },
+        {
+          "t": 1755475203,
+          "p": 0.119
+        },
+        {
+          "t": 1755604811,
+          "p": 0.101
+        },
+        {
+          "t": 1755777611,
+          "p": 0.095
+        },
+        {
+          "t": 1755907213,
+          "p": 0.097
+        },
+        {
+          "t": 1756080012,
+          "p": 0.0955
+        },
+        {
+          "t": 1756252811,
+          "p": 0.0955
+        },
+        {
+          "t": 1756382402,
+          "p": 0.0995
+        },
+        {
+          "t": 1756555229,
+          "p": 0.0855
+        },
+        {
+          "t": 1756684811,
+          "p": 0.087
+        },
+        {
+          "t": 1756857612,
+          "p": 0.0735
+        },
+        {
+          "t": 1756987220,
+          "p": 0.0755
+        },
+        {
+          "t": 1757160023,
+          "p": 0.076
+        },
+        {
+          "t": 1757289604,
+          "p": 0.0755
+        },
+        {
+          "t": 1757462407,
+          "p": 0.0755
+        },
+        {
+          "t": 1757592027,
+          "p": 0.0755
+        },
+        {
+          "t": 1757764820,
+          "p": 0.0645
+        },
+        {
+          "t": 1757894412,
+          "p": 0.0785
+        },
+        {
+          "t": 1758067210,
+          "p": 0.066
+        },
+        {
+          "t": 1758240009,
+          "p": 0.0655
+        },
+        {
+          "t": 1758369628,
+          "p": 0.065
+        },
+        {
+          "t": 1758542417,
+          "p": 0.067
+        },
+        {
+          "t": 1758672019,
+          "p": 0.0675
+        },
+        {
+          "t": 1758844813,
+          "p": 0.094
+        },
+        {
+          "t": 1758974418,
+          "p": 0.148
+        },
+        {
+          "t": 1759147204,
+          "p": 0.1295
+        },
+        {
+          "t": 1759276803,
+          "p": 0.103
+        },
+        {
+          "t": 1759449610,
+          "p": 0.0815
+        },
+        {
+          "t": 1759579216,
+          "p": 0.0705
+        },
+        {
+          "t": 1759752004,
+          "p": 0.072
+        },
+        {
+          "t": 1759924818,
+          "p": 0.063
+        },
+        {
+          "t": 1760054411,
+          "p": 0.066
+        },
+        {
+          "t": 1760227208,
+          "p": 0.067
+        },
+        {
+          "t": 1760356807,
+          "p": 0.0645
+        },
+        {
+          "t": 1760529606,
+          "p": 0.0415
+        },
+        {
+          "t": 1760659214,
+          "p": 0.0425
+        },
+        {
+          "t": 1760832019,
+          "p": 0.04
+        },
+        {
+          "t": 1760961615,
+          "p": 0.0405
+        },
+        {
+          "t": 1761134429,
+          "p": 0.042
+        },
+        {
+          "t": 1761264017,
+          "p": 0.0425
+        },
+        {
+          "t": 1761436819,
+          "p": 0.0495
+        },
+        {
+          "t": 1761566421,
+          "p": 0.035
+        },
+        {
+          "t": 1761782420,
+          "p": 0.0325
+        },
+        {
+          "t": 1761955219,
+          "p": 0.033
+        },
+        {
+          "t": 1762084823,
+          "p": 0.0415
+        },
+        {
+          "t": 1762257625,
+          "p": 0.032
+        },
+        {
+          "t": 1762387212,
+          "p": 0.034
+        },
+        {
+          "t": 1762560013,
+          "p": 0.0235
+        },
+        {
+          "t": 1762689623,
+          "p": 0.0235
+        },
+        {
+          "t": 1762862440,
+          "p": 0.0235
+        },
+        {
+          "t": 1762992020,
+          "p": 0.0235
+        },
+        {
+          "t": 1763164823,
+          "p": 0.0315
+        },
+        {
+          "t": 1763294425,
+          "p": 0.03
+        },
+        {
+          "t": 1763467226,
+          "p": 0.0255
+        },
+        {
+          "t": 1763640016,
+          "p": 0.024
+        },
+        {
+          "t": 1763769616,
+          "p": 0.0305
+        },
+        {
+          "t": 1763942415,
+          "p": 0.023
+        },
+        {
+          "t": 1764072028,
+          "p": 0.0285
+        },
+        {
+          "t": 1764244834,
+          "p": 0.0265
+        },
+        {
+          "t": 1764374427,
+          "p": 0.027
+        },
+        {
+          "t": 1764547223,
+          "p": 0.0215
+        },
+        {
+          "t": 1764676828,
+          "p": 0.0215
+        },
+        {
+          "t": 1764849632,
+          "p": 0.0295
+        },
+        {
+          "t": 1764979219,
+          "p": 0.0125
+        },
+        {
+          "t": 1765152030,
+          "p": 0.014
+        },
+        {
+          "t": 1765281617,
+          "p": 0.0145
+        },
+        {
+          "t": 1765454418,
+          "p": 0.0145
+        },
+        {
+          "t": 1765627221,
+          "p": 0.0115
+        },
+        {
+          "t": 1765756822,
+          "p": 0.0075
+        },
+        {
+          "t": 1765929615,
+          "p": 0.009
+        },
+        {
+          "t": 1766016026,
+          "p": 0.009
+        },
+        {
+          "t": 1766188817,
+          "p": 0.014
+        },
+        {
+          "t": 1766318418,
+          "p": 0.0075
+        },
+        {
+          "t": 1766491222,
+          "p": 0.0095
+        },
+        {
+          "t": 1766620829,
+          "p": 0.004
+        },
+        {
+          "t": 1766793618,
+          "p": 0.0055
+        },
+        {
+          "t": 1766923219,
+          "p": 0.0015
+        },
+        {
+          "t": 1767096022,
+          "p": 0.002
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1748952006,
+          "p": 0.15,
+          "delta": -0.075
+        },
+        {
+          "t": 1749081606,
+          "p": 0.095,
+          "delta": -0.055
+        },
+        {
+          "t": 1749945608,
+          "p": 0.15,
+          "delta": 0.055
+        },
+        {
+          "t": 1750204808,
+          "p": 0.0205,
+          "delta": -0.1295
+        },
+        {
+          "t": 1750550406,
+          "p": 0.0715,
+          "delta": 0.051
+        },
+        {
+          "t": 1750723207,
+          "p": 0.167,
+          "delta": 0.0955
+        },
+        {
+          "t": 1750809607,
+          "p": 0.1085,
+          "delta": -0.0585
+        },
+        {
+          "t": 1750939207,
+          "p": 0.2145,
+          "delta": 0.106
+        },
+        {
+          "t": 1750982407,
+          "p": 0.283,
+          "delta": 0.0685
+        },
+        {
+          "t": 1751198407,
+          "p": 0.208,
+          "delta": -0.075
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2645,
+          "delta": 0.0565
+        },
+        {
+          "t": 1751846407,
+          "p": 0.212,
+          "delta": -0.0525
+        },
+        {
+          "t": 1752451207,
+          "p": 0.1545,
+          "delta": -0.0575
+        },
+        {
+          "t": 1752667208,
+          "p": 0.1025,
+          "delta": -0.052
+        },
+        {
+          "t": 1753401609,
+          "p": 0.154,
+          "delta": 0.0515
+        },
+        {
+          "t": 1753963208,
+          "p": 0.092,
+          "delta": -0.062
+        },
+        {
+          "t": 1758931208,
+          "p": 0.148,
+          "delta": 0.056
+        },
+        {
+          "t": 1759363209,
+          "p": 0.086,
+          "delta": -0.062
+        },
+        {
+          "t": 1761523217,
+          "p": 0.035,
+          "delta": -0.051
+        }
+      ],
+      "price_at_open": 0.225,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.3325,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:46.403307+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250606_002_8e9134ed",
+        "date": "2025-06-06 00:00",
+        "title": "Tensions escalate along the Israel-Lebanon border",
+        "description": "Tensions escalate along the border, reinforcing the impossibility of near-term normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEscalating tensions prevent normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.longwarjournal.org/archives/2025/12/israeli-operations-in-lebanon-against-hezbollah-december-22-28-2025.php",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250618_003_90fbf168",
+        "date": "2025-06-18 00:00",
+        "title": "Diplomatic efforts focus purely on de-escalation",
+        "description": "Diplomatic efforts focus purely on de-escalation, not normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on de-escalation means no normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.washingtonpost.com/world/2025/12/15/israel-lebanon-hezbollah-airstrikes-escalation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250625_004_445cffff",
+        "date": "2025-06-25 00:00",
+        "title": "Significant spike in hostilities occurs",
+        "description": "A significant spike in hostilities underscores the volatile security situation.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpike in hostilities prevents normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://theconversation.com/a-year-on-the-israeli-lebanese-ceasefire-looks-increasingly-fragile-could-a-return-to-cyclical-violence-come-next-270423",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250628_005_c2b86f11",
+        "date": "2025-06-28 00:00",
+        "title": "Cross-border incidents continue",
+        "description": "Cross-border incidents continue, further hardening political stances in both nations.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContinued incidents prevent normalization.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.independent.co.uk/news/world/middle-east/israel-lebanon-hezbollah-ceasefire-deal-terms-biden-b2656811.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250630_006_ee555c44",
+        "date": "2025-06-30 00:00",
+        "title": "Lebanese officials reiterate refusal to normalize relations",
+        "description": "Public statements from Lebanese officials reiterate their refusal to normalize relations with Israel.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRefusal to normalize directly supports the NO outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/features/2025/11/4/how-israel-is-using-no-war-no-peace-lebanonisation-model-in-gaza",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250815_009_1bdcb4ed",
+        "date": "2025-08-15 00:00",
+        "title": "International pressure for normalization",
+        "description": "International pressure, particularly from the United States, pushes for normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInternational pressure pushes for YES outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.newarab.com/analysis/lebanon-israel-truce-will-not-lead-normalisation-heres-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250815_010_852e1920",
+        "date": "2025-08-15 00:00",
+        "title": "Potential economic benefits of normalization discussed",
+        "description": "Potential economic benefits of normalization, such as resolving maritime border disputes to facilitate natural gas extraction, are discussed.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEconomic benefits push for YES outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.newarab.com/analysis/lebanon-israel-truce-will-not-lead-normalisation-heres-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250915_008_8622016c",
+        "date": "2025-09-15 00:00",
+        "title": "Lebanese government fails to pursue diplomatic ties",
+        "description": "The Lebanese government's inability and unwillingness to pursue diplomatic ties, even if it desired economic benefits.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFailure to pursue ties supports NO outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.al-monitor.com/originals/2025/09/lebanon-israel-conflict-escalates",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251001_007_12311542",
+        "date": "2025-10-01 00:00",
+        "title": "US mediates on border issues",
+        "description": "Despite some US mediation on border issues, both sides maintain their official state of hostility.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUS mediation could have led to normalization, but failed.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-kills-elderly-lebanese-woman-south-lebanon",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250101_001_f73f7860",
+        "date": "2025-01-01 00:00",
+        "title": "Hezbollah maintains ideological opposition to Israel",
+        "description": "Hezbollah continues its enduring ideological opposition to Israel, effectively vetoing any normalization efforts.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHezbollah's veto makes normalization impossible.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://english.aawsat.com/arab-world/5121469-israel-shocks-lebanon-plan-link-withdrawal-normalization",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xd3a26e8ca4f4dd9a7933e65fb1a36851b4527f7adadf477ca65106714ee26335",
+    "title": "Will Apple release the Apple Vision Pro 2 before December 31, 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Apple releases a new Vision Pro product by December 31, 2025 ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying product must be named \"Apple Vision\" and be recognized as a successor to the original Apple Vision Pro product, similar to the relationship between iPhone 14 and iPhone 15. A new Apple Vision product released without a number, under a designation other than Apple Vision Pro 2 will qualify if it retains the original functions of the Apple Vision Pro and expands on them in such a way that it is clear that this product is a successor.\n\nIn order to be considered released, the product must be available for purchase by the general public within the specified timeframe. An announcement or unveiling alone is not sufficient.\n\nThe primary resolution source for this market will be official statements from Apple. However, a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nApple will not release the Apple Vision Pro 2 before December 31, 2025. Although there was initial excitement following the release of the first Vision Pro, poor sales and manufacturing challenges forced Apple to pivot its strategy. Instead of focusing on a quick iteration of its high-end headset, Apple decided to cut production of the original model and delay the release of a direct successor, shifting attention toward a more affordable \"non-Pro\" version and potentially smart glasses. As a result, the market prediction flipped definitively to \"No\" in mid-October 2025 as the reality of Apple's revised product roadmap became clear.\n\n## Timeline Of Key Events\n- **March 2025:** Reports emerge that Apple is slowing down production of the $3,500 Vision Pro due to falling short of sales expectations ([art_general_20250318_029_c9935655]). Tim Cook faces scrutiny over the company's bets on new hardware categories ([art_general_20250318_026_45f3648c]).\n- **Mid-2025:** Despite some rumors that a Vision Pro 2 could still arrive in 2025 ([art_general_20250318_028_03295629]), skepticism grows as Apple focuses on software updates at WWDC and other product lines like the iPad Pro and MacBooks.\n- **October 2, 2025:** The \"Yes\" probability spikes briefly but then falls as investors digest rumors that Apple is pivoting its hardware strategy.\n- **October 8, 2025:** A turning point where the market begins to heavily discount the likelihood of a 2025 release.\n- **October 13, 2025:** The favored outcome flips to \"Yes\" temporarily due to speculative reports about an upcoming Apple event, but quickly reverses.\n- **October 16, 2025:** The \"No\" outcome becomes definitively favored, holding for an extended period, as consensus solidifies that no Vision Pro 2 will be announced at the October event ([art_general_20251019_027_65fa7f58]), which focuses instead on the M5 iPad Pro and MacBooks ([art_general_20251019_044_bcb796db]).\n\n## Causal Chain Analysis\nThe outcome was driven by a combination of weak consumer demand for the first-generation device and strategic shifts within Apple. The high $3,500 price point of the original Vision Pro resulted in lower-than-expected sales, which caused Apple to slow down production ([art_general_20250318_029_c9935655]). This poor performance triggered a reevaluation of the product roadmap, leading Apple to delay the costly development of a direct successor. Because the company needed to focus its resources on more viable hardware like updated MacBooks and iPads ([art_general_20251019_044_bcb796db]), the Vision Pro 2 was pushed out of the 2025 release window, resulting in the negative resolution.\n\n## Countervailing Factors\nSome rumors throughout 2025 suggested that Apple could still release a Vision Pro 2 by the end of the year to maintain momentum in the spatial computing market ([art_general_20250318_028_03295629]). Additionally, Apple's substantial R&D investments in AI and mixed reality could have accelerated hardware development. However, these factors were overwhelmed by the practical realities of low sales volume for the first iteration, supply chain complexities, and the strategic decision to prioritize a more affordable AR/VR device over another premium model.\n\n## Event Candidate Inventory\n- **E1:** Apple slows production of the original Vision Pro\n  - Date: March 2025\n  - Why it matters causally: Indicates weak demand and initiates the shift in Apple's hardware strategy away from the high-end headset.\n  - Source article IDs: [art_general_20250318_029_c9935655]\n- **E2:** Apple focuses October 2025 event on MacBooks and iPads, not Vision Pro 2\n  - Date: October 2025\n  - Why it matters causally: Confirms that the Vision Pro 2 is not part of Apple's late-2025 product lineup, finalizing the \"No\" outcome for the year.\n  - Source article IDs: [art_general_20251019_044_bcb796db], [art_general_20251019_027_65fa7f58]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Apple slows production of Vision Pro due to poor sales | [art_general_20250318_029_c9935655] | March 2025 | 0.9 | Confirms the root cause of the delay. |\n| Tim Cook faces uphill battle regarding Vision Pro bets | [art_general_20250318_026_45f3648c] | March 2025 | 0.8 | Highlights internal and external pressure. |\n| Rumors suggest Vision Pro 2 could come in 2025 | [art_general_20250318_028_03295629] | March 2025 | 0.7 | Countervailing factor that ultimately failed. |\n| October 2025 event focuses on MacBooks and iPads | [art_general_20251019_044_bcb796db], [art_general_20251019_027_65fa7f58] | October 2025 | 0.95 | Proximate trigger confirming no 2025 release. |\n\n## Uncertainties And Alternative Paths\nIt remains slightly uncertain exactly when Apple decided to definitively pull the plug on a 2025 Vision Pro 2 release, though the signs were clear by March. An alternative path could have occurred if Apple had managed to significantly reduce manufacturing costs and accelerate the M5 chip integration, potentially allowing for a late 2025 release to capture holiday sales, but this did not materialize.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-08-27T22:30:45.170000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:26:57+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-apple-vision-pro-2-be-released-by-december-31",
+    "price_data": {
+      "history": [
+        {
+          "t": 1756339209,
+          "p": 0.355
+        },
+        {
+          "t": 1756425610,
+          "p": 0.29
+        },
+        {
+          "t": 1756512012,
+          "p": 0.26
+        },
+        {
+          "t": 1756598410,
+          "p": 0.27
+        },
+        {
+          "t": 1756684804,
+          "p": 0.165
+        },
+        {
+          "t": 1756771214,
+          "p": 0.385
+        },
+        {
+          "t": 1756857608,
+          "p": 0.46
+        },
+        {
+          "t": 1756944013,
+          "p": 0.46
+        },
+        {
+          "t": 1757030409,
+          "p": 0.405
+        },
+        {
+          "t": 1757116820,
+          "p": 0.43
+        },
+        {
+          "t": 1757246432,
+          "p": 0.47
+        },
+        {
+          "t": 1757332807,
+          "p": 0.445
+        },
+        {
+          "t": 1757419209,
+          "p": 0.09
+        },
+        {
+          "t": 1757505603,
+          "p": 0.175
+        },
+        {
+          "t": 1757592033,
+          "p": 0.205
+        },
+        {
+          "t": 1757678423,
+          "p": 0.2
+        },
+        {
+          "t": 1757764826,
+          "p": 0.21
+        },
+        {
+          "t": 1757851226,
+          "p": 0.215
+        },
+        {
+          "t": 1757937618,
+          "p": 0.205
+        },
+        {
+          "t": 1758067210,
+          "p": 0.205
+        },
+        {
+          "t": 1758153609,
+          "p": 0.15
+        },
+        {
+          "t": 1758240018,
+          "p": 0.125
+        },
+        {
+          "t": 1758326407,
+          "p": 0.1
+        },
+        {
+          "t": 1758412807,
+          "p": 0.1
+        },
+        {
+          "t": 1758499210,
+          "p": 0.1
+        },
+        {
+          "t": 1758585608,
+          "p": 0.1
+        },
+        {
+          "t": 1758672009,
+          "p": 0.1
+        },
+        {
+          "t": 1758758404,
+          "p": 0.115
+        },
+        {
+          "t": 1758888006,
+          "p": 0.115
+        },
+        {
+          "t": 1758974414,
+          "p": 0.115
+        },
+        {
+          "t": 1759060817,
+          "p": 0.115
+        },
+        {
+          "t": 1759147213,
+          "p": 0.12
+        },
+        {
+          "t": 1759233614,
+          "p": 0.13
+        },
+        {
+          "t": 1759320008,
+          "p": 0.14
+        },
+        {
+          "t": 1759406418,
+          "p": 0.17
+        },
+        {
+          "t": 1759492806,
+          "p": 0.36
+        },
+        {
+          "t": 1759579208,
+          "p": 0.215
+        },
+        {
+          "t": 1759708804,
+          "p": 0.235
+        },
+        {
+          "t": 1759795212,
+          "p": 0.265
+        },
+        {
+          "t": 1759881612,
+          "p": 0.3
+        },
+        {
+          "t": 1759968011,
+          "p": 0.25
+        },
+        {
+          "t": 1760054414,
+          "p": 0.295
+        },
+        {
+          "t": 1760140814,
+          "p": 0.365
+        },
+        {
+          "t": 1760227211,
+          "p": 0.335
+        },
+        {
+          "t": 1760313613,
+          "p": 0.755
+        },
+        {
+          "t": 1760400010,
+          "p": 0.62
+        },
+        {
+          "t": 1760486404,
+          "p": 0.67
+        },
+        {
+          "t": 1760616030,
+          "p": 0.125
+        },
+        {
+          "t": 1760702411,
+          "p": 0.09
+        },
+        {
+          "t": 1760788828,
+          "p": 0.075
+        },
+        {
+          "t": 1760875219,
+          "p": 0.07
+        },
+        {
+          "t": 1760961607,
+          "p": 0.07
+        },
+        {
+          "t": 1761048021,
+          "p": 0.065
+        },
+        {
+          "t": 1761134417,
+          "p": 0.075
+        },
+        {
+          "t": 1761220811,
+          "p": 0.064
+        },
+        {
+          "t": 1761307212,
+          "p": 0.071
+        },
+        {
+          "t": 1761436811,
+          "p": 0.066
+        },
+        {
+          "t": 1761523211,
+          "p": 0.065
+        },
+        {
+          "t": 1761609613,
+          "p": 0.0505
+        },
+        {
+          "t": 1761696012,
+          "p": 0.039
+        },
+        {
+          "t": 1761825612,
+          "p": 0.033
+        },
+        {
+          "t": 1761912013,
+          "p": 0.0305
+        },
+        {
+          "t": 1761998414,
+          "p": 0.0295
+        },
+        {
+          "t": 1762084813,
+          "p": 0.029
+        },
+        {
+          "t": 1762171212,
+          "p": 0.031
+        },
+        {
+          "t": 1762300811,
+          "p": 0.026
+        },
+        {
+          "t": 1762387207,
+          "p": 0.0135
+        },
+        {
+          "t": 1762473611,
+          "p": 0.0195
+        },
+        {
+          "t": 1762560009,
+          "p": 0.0215
+        },
+        {
+          "t": 1762646424,
+          "p": 0.0155
+        },
+        {
+          "t": 1762732808,
+          "p": 0.012
+        },
+        {
+          "t": 1762819212,
+          "p": 0.016
+        },
+        {
+          "t": 1762905612,
+          "p": 0.016
+        },
+        {
+          "t": 1762992011,
+          "p": 0.0155
+        },
+        {
+          "t": 1763121616,
+          "p": 0.014
+        },
+        {
+          "t": 1763208016,
+          "p": 0.0135
+        },
+        {
+          "t": 1763294414,
+          "p": 0.0135
+        },
+        {
+          "t": 1763380814,
+          "p": 0.011
+        },
+        {
+          "t": 1763467215,
+          "p": 0.013
+        },
+        {
+          "t": 1763553617,
+          "p": 0.014
+        },
+        {
+          "t": 1763640010,
+          "p": 0.014
+        },
+        {
+          "t": 1763726410,
+          "p": 0.0215
+        },
+        {
+          "t": 1763812811,
+          "p": 0.024
+        },
+        {
+          "t": 1763899210,
+          "p": 0.0185
+        },
+        {
+          "t": 1764028812,
+          "p": 0.0195
+        },
+        {
+          "t": 1764115211,
+          "p": 0.016
+        },
+        {
+          "t": 1764201613,
+          "p": 0.019
+        },
+        {
+          "t": 1764288013,
+          "p": 0.0175
+        },
+        {
+          "t": 1764374416,
+          "p": 0.0205
+        },
+        {
+          "t": 1764460812,
+          "p": 0.0205
+        },
+        {
+          "t": 1764547213,
+          "p": 0.019
+        },
+        {
+          "t": 1764633610,
+          "p": 0.018
+        },
+        {
+          "t": 1764720014,
+          "p": 0.018
+        },
+        {
+          "t": 1764849619,
+          "p": 0.01
+        },
+        {
+          "t": 1764936012,
+          "p": 0.0115
+        },
+        {
+          "t": 1765022413,
+          "p": 0.011
+        },
+        {
+          "t": 1765108814,
+          "p": 0.0045
+        },
+        {
+          "t": 1765195225,
+          "p": 0.006
+        },
+        {
+          "t": 1765281611,
+          "p": 0.0065
+        },
+        {
+          "t": 1765368018,
+          "p": 0.011
+        },
+        {
+          "t": 1765454413,
+          "p": 0.008
+        },
+        {
+          "t": 1765540812,
+          "p": 0.0065
+        },
+        {
+          "t": 1765670413,
+          "p": 0.0075
+        },
+        {
+          "t": 1765756813,
+          "p": 0.0075
+        },
+        {
+          "t": 1765843212,
+          "p": 0.006
+        },
+        {
+          "t": 1765929608,
+          "p": 0.0065
+        },
+        {
+          "t": 1765972812,
+          "p": 0.007
+        },
+        {
+          "t": 1766059211,
+          "p": 0.003
+        },
+        {
+          "t": 1766145613,
+          "p": 0.004
+        },
+        {
+          "t": 1766232013,
+          "p": 0.0045
+        },
+        {
+          "t": 1766318411,
+          "p": 0.005
+        },
+        {
+          "t": 1766448013,
+          "p": 0.0035
+        },
+        {
+          "t": 1766534413,
+          "p": 0.0035
+        },
+        {
+          "t": 1766620823,
+          "p": 0.0035
+        },
+        {
+          "t": 1766707210,
+          "p": 0.0045
+        },
+        {
+          "t": 1766793613,
+          "p": 0.0045
+        },
+        {
+          "t": 1766880013,
+          "p": 0.004
+        },
+        {
+          "t": 1766966430,
+          "p": 0.004
+        },
+        {
+          "t": 1767052816,
+          "p": 0.004
+        },
+        {
+          "t": 1767139213,
+          "p": 0.0045
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1756382422,
+          "p": 0.265,
+          "delta": -0.09
+        },
+        {
+          "t": 1756468811,
+          "p": 0.18,
+          "delta": -0.085
+        },
+        {
+          "t": 1756512012,
+          "p": 0.26,
+          "delta": 0.08
+        },
+        {
+          "t": 1756684804,
+          "p": 0.165,
+          "delta": -0.095
+        },
+        {
+          "t": 1756771214,
+          "p": 0.385,
+          "delta": 0.22
+        },
+        {
+          "t": 1756814419,
+          "p": 0.31,
+          "delta": -0.075
+        },
+        {
+          "t": 1756857608,
+          "p": 0.46,
+          "delta": 0.15
+        },
+        {
+          "t": 1757030409,
+          "p": 0.405,
+          "delta": -0.055
+        },
+        {
+          "t": 1757203211,
+          "p": 0.47,
+          "delta": 0.065
+        },
+        {
+          "t": 1757419209,
+          "p": 0.09,
+          "delta": -0.38
+        },
+        {
+          "t": 1757505603,
+          "p": 0.175,
+          "delta": 0.085
+        },
+        {
+          "t": 1758326407,
+          "p": 0.1,
+          "delta": -0.075
+        },
+        {
+          "t": 1759363204,
+          "p": 0.395,
+          "delta": 0.295
+        },
+        {
+          "t": 1759406418,
+          "p": 0.17,
+          "delta": -0.225
+        },
+        {
+          "t": 1759492806,
+          "p": 0.36,
+          "delta": 0.19
+        },
+        {
+          "t": 1759536004,
+          "p": 0.185,
+          "delta": -0.175
+        },
+        {
+          "t": 1759665608,
+          "p": 0.29,
+          "delta": 0.105
+        },
+        {
+          "t": 1759708804,
+          "p": 0.235,
+          "delta": -0.055
+        },
+        {
+          "t": 1759881612,
+          "p": 0.3,
+          "delta": 0.065
+        },
+        {
+          "t": 1759924806,
+          "p": 0.235,
+          "delta": -0.065
+        },
+        {
+          "t": 1760054414,
+          "p": 0.295,
+          "delta": 0.06
+        },
+        {
+          "t": 1760097605,
+          "p": 0.48,
+          "delta": 0.185
+        },
+        {
+          "t": 1760140814,
+          "p": 0.365,
+          "delta": -0.115
+        },
+        {
+          "t": 1760184013,
+          "p": 0.31,
+          "delta": -0.055
+        },
+        {
+          "t": 1760270422,
+          "p": 0.47,
+          "delta": 0.16
+        },
+        {
+          "t": 1760313613,
+          "p": 0.755,
+          "delta": 0.285
+        },
+        {
+          "t": 1760356807,
+          "p": 0.69,
+          "delta": -0.065
+        },
+        {
+          "t": 1760400010,
+          "p": 0.62,
+          "delta": -0.07
+        },
+        {
+          "t": 1760443208,
+          "p": 0.725,
+          "delta": 0.105
+        },
+        {
+          "t": 1760486404,
+          "p": 0.67,
+          "delta": -0.055
+        },
+        {
+          "t": 1760529614,
+          "p": 0.52,
+          "delta": -0.15
+        },
+        {
+          "t": 1760572818,
+          "p": 0.08,
+          "delta": -0.44
+        },
+        {
+          "t": 1761652812,
+          "p": 0.0275,
+          "delta": -0.0525
+        }
+      ],
+      "price_at_open": 0.355,
+      "price_at_close": 0.003,
+      "min_price": 0.0015,
+      "max_price": 0.755,
+      "final_price": 0.003,
+      "fetched_at": "2026-04-27T07:57:46.883905+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20251002_002_c063f713",
+        "date": "2025-10-02 00:00",
+        "title": "Investors digest rumors of Apple pivoting hardware strategy",
+        "description": "Investors digest rumors that Apple is pivoting its hardware strategy.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251019_008_15f307b7",
+        "date": "2025-10-19 16:27",
+        "title": "Apple focuses October 2025 event on MacBooks and iPads",
+        "description": "Apple focuses its October 2025 event on MacBooks and iPads, not Vision Pro 2.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apples-m5-powered-ipad-pro-173013642.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250315_005_9a44d572",
+        "date": "2025-03-15 00:00",
+        "title": "Apple delays development of direct successor to Vision Pro",
+        "description": "Apple delays the costly development of a direct successor to the Vision Pro.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/entertainment/articles/production-3-500-apple-vision-160838599.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_002_6620ff38",
+        "date": "2025-03-18 16:27",
+        "title": "Tim Cook faces scrutiny over hardware bets",
+        "description": "Tim Cook faces scrutiny over the company's bets on new hardware categories.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://finance.yahoo.com/news/tim-cook-uphill-battle-2025-114857490.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_003_7aefb3a7",
+        "date": "2025-03-18 16:27",
+        "title": "Rumors suggest Vision Pro 2 could come in 2025",
+        "description": "Rumors suggest that a Vision Pro 2 could still arrive in 2025 to maintain momentum in the spatial computing market.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/tech/apple-vision-pro-2-still-140000387.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251002_004_62d2a345",
+        "date": "2025-10-02 12:00",
+        "title": "Rumors emerge that Apple is pivoting its hardware strategy",
+        "description": "Investors digest rumors that Apple is pivoting its hardware strategy.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251008_003_d1cd79e7",
+        "date": "2025-10-08 00:00",
+        "title": "Market heavily discounts likelihood of 2025 release",
+        "description": "The market begins to heavily discount the likelihood of a 2025 release.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251013_004_c4a09b48",
+        "date": "2025-10-13 00:00",
+        "title": "Speculative reports emerge about upcoming Apple event",
+        "description": "Speculative reports emerge about an upcoming Apple event.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251013_005_69445820",
+        "date": "2025-10-13 12:00",
+        "title": "Speculative reports suggest an upcoming Apple event",
+        "description": "Speculative reports about an upcoming Apple event cause the favored outcome to flip to 'Yes' temporarily.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251016_006_f92e3a4e",
+        "date": "2025-10-16 12:00",
+        "title": "Consensus solidifies that no Vision Pro 2 will be announced at the October event",
+        "description": "Consensus solidifies that no Vision Pro 2 will be announced at the October event.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -1,716 +1,471 @@
 var annotationData = [
   {
-    "id": "polymarket_0x3f6280821a315c7d1a00de390faa21bcd55eb338a7ebdd994c107ac53b62a542",
-    "title": "Will TIME's Person of the Year for 2025 be a woman?",
+    "id": "polymarket_0xabe05aa3efb620cf283a9a7f967eaced0aee898b14f3b170347a3392d7401f03",
+    "title": "Will France, UK, or Germany strike Iran by February 28?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if the individual named as TIME's Person of the Year for 2025 is a woman. Otherwise, this market will resolve to \"No\".\n\nIn the event that multiple individuals are named TIME's 2025 Person of the Year, this market will resolve to \"Yes\" if at least one of them is a woman.\n\nIf for any reason the 2025 TIME's Person of the Year is not announced by January 31, 2026 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on Time's cover. However, a consensus of credible reporting may also be used.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if France, the United Kingdom, or Germany initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by French, United Kingdom, or German military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by a French, United Kingdom, or German missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by French, United Kingdom, or German ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
     "outcome": "No",
-    "explanation": "\n## Executive Summary\nTIME's 2025 Person of the Year was awarded to a group, \"The Architects of AI,\" rather than to an individual woman. Speculation and betting markets shifted significantly over the months leading up to the announcement, often favoring AI or male candidates like Pope Leo XIV. Ultimately, the decision to honor the collective developers of artificial intelligence sealed the outcome that the recipient would not be a woman.\n\n## Timeline Of Key Events\n- 2025-08-21: Pope Leo XIV emerged as a strong contender with 33% odds in betting markets ([art_business_20250821_003_b4f87bcb]).\n- 2025-12-10: AI surged as the clear favorite, reaching 68% probability according to betting odds ([art_business_20251210_004_fa176b9d]).\n- 2025-12-11: TIME officially announced \"The Architects of AI\" as the 2025 Person of the Year ([art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f], [art_general_20251211_002_09433497]).\n\n## Causal Chain Analysis\nThe widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology. This led to prediction markets heavily favoring AI as the likely recipient of TIME's Person of the Year. Because the recognition was ultimately awarded to a collective, \"The Architects of AI,\" rather than a specific individual, the result resolved as a \"No\" for whether the recipient would be a woman ([art_tech_20251211_005_1919a648]).\n\n## Countervailing Factors\nWhile individual women may have been considered as candidates in the lead-up to the announcement, the overwhelming cultural impact of AI outshone individual human achievements. Thus, any momentum for a female candidate was overwhelmed by the collective recognition of AI developers.\n\n## Event Candidate Inventory\n- E1: Pope Leo XIV given 33% chance of being TIME's Person of the Year.\n  - Date: 2025-08-21\n  - Why it matters: Highlighted a non-female candidate gaining significant traction early on.\n  - Source article IDs: [art_business_20250821_003_b4f87bcb]\n- E2: AI surges to 68% clear favorite for TIME Person of the Year.\n  - Date: 2025-12-10\n  - Why it matters: Showed market confidence in a non-human/collective outcome right before the announcement.\n  - Source article IDs: [art_business_20251210_004_fa176b9d]\n- E3: TIME names \"The Architects of AI\" as Person of the Year.\n  - Date: 2025-12-11\n  - Why it matters: Conclusively resolved the question, cementing that the winner was not a woman.\n  - Source article IDs: [art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Pope Leo XIV gains 33% odds | [art_business_20250821_003_b4f87bcb] | 2025-08-21 | 0.9 | Strong early indicator of non-female preference |\n| AI odds surge to 68% | [art_business_20251210_004_fa176b9d] | 2025-12-10 | 0.95 | Showed market consensus on the eve of announcement |\n| \"Architects of AI\" win | [art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f] | 2025-12-11 | 1.0 | Official resolution |\n\n## Uncertainties And Alternative Paths\nThe only alternative path would have been TIME selecting an individual female leader, activist, or innovator. However, this path was closed once the editorial decision was made to recognize the collective effort behind the defining technological breakthrough of the year.\n",
+    "explanation": "\n# Required Output Format\n\n## Executive Summary\nFrance, the United Kingdom, and Germany (the E3) did not strike Iran by February 28, 2026, because they collectively chose a diplomatic and defensive posture over joining the ongoing US-Israel offensive (Operation 'Epic Fury'). Despite intense pressure from the United States, particularly from President Trump, who requested the use of UK bases for strikes, the European leaders consistently prioritized de-escalation. By enforcing a clear boundary between defensive support (such as protecting airspace) and offensive military action, the E3 successfully resisted direct entanglement in the broader regional war.\n\n## Timeline Of Key Events\n- **Late January 2026**: US and Israel launch a major military offensive against Iran following the reported killing of Iran's supreme leader [art_general_20260201_016_5ad942ce].\n- **2026-01-24**: The first major market turning point occurs as tensions rise and rumors of potential European involvement circulate, though the E3 reaffirm their defensive stance.\n- **2026-01-30**: A second significant market turning point happens as the UK, France, and Germany officially issue a joint statement urging a return to negotiations and condemning the escalating violence, effectively rejecting participation in US strikes [art_politics_20260130_005_313fc67e].\n- **2026-01-30**: EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war, further solidifying the European bloc's anti-escalation position [art_general_20260130_019_c1f21814].\n- **February 2026**: Throughout the month, E3 leaders (Macron, Starmer, Merz) consistently refuse to authorize offensive operations, even amid Iranian retaliatory actions and ongoing US pressure.\n- **2026-02-28**: The deadline passes with no offensive strikes conducted by France, the UK, or Germany against Iran.\n\n## Causal Chain Analysis\nThe root cause of the outcome was the European strategic consensus to prioritize regional stability and de-escalation over military retaliation. This caused E3 leaders to adopt a strictly defensive military posture, offering to protect airspace and maritime routes without joining offensive operations. When the US and Israel launched Operation 'Epic Fury' and subsequently pressured European allies for support (such as Trump's request for UK bases), this established defensive policy triggered an immediate diplomatic refusal. Consequently, this refusal led to the E3 issuing joint statements calling for negotiations [art_politics_20260130_005_313fc67e] rather than mobilizing forces. Ultimately, this steadfast adherence to diplomacy resulted in France, the UK, and Germany avoiding any direct strikes on Iran by the February 28 deadline.\n\n## Countervailing Factors\nThe primary countervailing factor was intense pressure from the United States and Israel to form a unified Western coalition against Iran. Additionally, Iranian retaliatory attacks (such as firing missiles toward Israel and near the US embassy in Baghdad [art_general_20260130_020_3d8b13da]) created immediate provocations that could have drawn E3 forces into the conflict under the guise of self-defense. However, these forces failed to alter the outcome because European domestic political opposition to another Middle Eastern war was too strong, and E3 leaders successfully compartmentalized their responses to purely defensive intercepts rather than retaliatory strikes.\n\n## Event Candidate Inventory\n- **E1**: US and Israel initiate large-scale military offensive (Operation 'Epic Fury') against Iran.\n  - Date: Late January 2026\n  - Why it matters causally: Created the context for the E3 to decide whether to participate in strikes.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n- **E2**: UK, France, and Germany issue joint statement urging negotiations and refusing offensive participation.\n  - Date: 2026-01-30\n  - Why it matters causally: Formalized the E3's refusal to join the US-Israel strikes, confirming their defensive posture.\n  - Source article IDs: [art_politics_20260130_005_313fc67e]\n- **E3**: US (Trump) requests use of UK bases for strikes against Iran, and the UK refuses/delays.\n  - Date: Late January 2026 (around Jan 24-30)\n  - Why it matters causally: Directly tested the UK's willingness to enable or participate in the strikes; the refusal was a critical non-event.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| US-Israel launch Operation Epic Fury | [art_general_20260201_016_5ad942ce] | Late Jan 2026 | 0.95 | Initiated the conflict context. |\n| E3 issue joint statement for negotiations | [art_politics_20260130_005_313fc67e] | 2026-01-30 | 0.95 | Directly answers the non-participation. |\n| EU foreign policy chief calls to end war | [art_general_20260130_019_c1f21814] | 2026-01-30 | 0.90 | Reinforces European diplomatic stance. |\n| Iranian retaliatory strikes | [art_general_20260130_020_3d8b13da] | 2026-01-30 | 0.90 | Provocations that failed to draw E3 in. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a direct Iranian attack on European assets (e.g., ships or bases) would cross a red line, forcing an E3 military response. An alternative path could have seen the UK cave to US pressure to allow base usage, which might have technically implicated them in the strikes, or a miscalculation during a defensive interception that escalated into a direct E3-Iran engagement.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-07-15T16:39:26.338019+00:00",
+    "market_open": "2026-01-20T16:59:10.184000+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-12-11T14:59:03+00:00",
-    "polymarket_url": "https://polymarket.com/event/times-person-of-the-year-for-2025-is-a-woman",
+    "market_close": "2026-03-01T09:43:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-france-uk-or-germany-strike-iran-by-february-28",
     "price_data": {
       "history": [
         {
-          "t": 1752624008,
-          "p": 0.17
+          "t": 1768953622,
+          "p": 0.07
         },
         {
-          "t": 1752710408,
-          "p": 0.16
+          "t": 1768996844,
+          "p": 0.07
         },
         {
-          "t": 1752796808,
-          "p": 0.16
+          "t": 1769040031,
+          "p": 0.115
         },
         {
-          "t": 1752926408,
-          "p": 0.16
+          "t": 1769083249,
+          "p": 0.125
         },
         {
-          "t": 1753012808,
-          "p": 0.175
+          "t": 1769126438,
+          "p": 0.085
         },
         {
-          "t": 1753142409,
-          "p": 0.175
+          "t": 1769169649,
+          "p": 0.095
         },
         {
-          "t": 1753228809,
-          "p": 0.18
+          "t": 1769212834,
+          "p": 0.095
         },
         {
-          "t": 1753358409,
-          "p": 0.18
+          "t": 1769256034,
+          "p": 0.11
         },
         {
-          "t": 1753444809,
-          "p": 0.175
+          "t": 1769299242,
+          "p": 0.095
         },
         {
-          "t": 1753574410,
-          "p": 0.175
+          "t": 1769342451,
+          "p": 0.085
         },
         {
-          "t": 1753660809,
-          "p": 0.17
+          "t": 1769385641,
+          "p": 0.085
         },
         {
-          "t": 1753790408,
-          "p": 0.165
+          "t": 1769428832,
+          "p": 0.085
         },
         {
-          "t": 1753876809,
-          "p": 0.165
+          "t": 1769472035,
+          "p": 0.085
         },
         {
-          "t": 1754006409,
-          "p": 0.23
+          "t": 1769515223,
+          "p": 0.075
         },
         {
-          "t": 1754092809,
-          "p": 0.305
-        },
-        {
-          "t": 1754222408,
-          "p": 0.305
-        },
-        {
-          "t": 1754308808,
-          "p": 0.295
-        },
-        {
-          "t": 1754438409,
-          "p": 0.295
-        },
-        {
-          "t": 1754524806,
-          "p": 0.29
-        },
-        {
-          "t": 1754654412,
-          "p": 0.23
-        },
-        {
-          "t": 1754740803,
-          "p": 0.23
-        },
-        {
-          "t": 1754827219,
-          "p": 0.23
-        },
-        {
-          "t": 1754956808,
-          "p": 0.235
-        },
-        {
-          "t": 1755043204,
-          "p": 0.234
-        },
-        {
-          "t": 1755172802,
-          "p": 0.235
-        },
-        {
-          "t": 1755259204,
-          "p": 0.235
-        },
-        {
-          "t": 1755388809,
-          "p": 0.1705
-        },
-        {
-          "t": 1755475209,
-          "p": 0.1675
-        },
-        {
-          "t": 1755604806,
-          "p": 0.1705
-        },
-        {
-          "t": 1755691213,
-          "p": 0.1055
-        },
-        {
-          "t": 1755820810,
-          "p": 0.0855
-        },
-        {
-          "t": 1755907209,
-          "p": 0.1005
-        },
-        {
-          "t": 1756036802,
-          "p": 0.1005
-        },
-        {
-          "t": 1756123209,
-          "p": 0.1005
-        },
-        {
-          "t": 1756252810,
-          "p": 0.1005
-        },
-        {
-          "t": 1756339208,
-          "p": 0.1005
-        },
-        {
-          "t": 1756468802,
-          "p": 0.0835
-        },
-        {
-          "t": 1756555225,
+          "t": 1769558424,
           "p": 0.08
         },
         {
-          "t": 1756684809,
-          "p": 0.0755
+          "t": 1769601626,
+          "p": 0.09
         },
         {
-          "t": 1756771217,
-          "p": 0.0755
-        },
-        {
-          "t": 1756900812,
-          "p": 0.0755
-        },
-        {
-          "t": 1756987237,
-          "p": 0.079
-        },
-        {
-          "t": 1757073629,
-          "p": 0.079
-        },
-        {
-          "t": 1757203203,
-          "p": 0.077
-        },
-        {
-          "t": 1757289618,
-          "p": 0.0765
-        },
-        {
-          "t": 1757419229,
-          "p": 0.0765
-        },
-        {
-          "t": 1757505621,
-          "p": 0.0765
-        },
-        {
-          "t": 1757635227,
-          "p": 0.0765
-        },
-        {
-          "t": 1757721605,
-          "p": 0.0765
-        },
-        {
-          "t": 1757851202,
-          "p": 0.077
-        },
-        {
-          "t": 1757937623,
-          "p": 0.077
-        },
-        {
-          "t": 1758067215,
-          "p": 0.0765
-        },
-        {
-          "t": 1758153608,
-          "p": 0.0745
-        },
-        {
-          "t": 1758283231,
-          "p": 0.0745
-        },
-        {
-          "t": 1758369635,
-          "p": 0.0715
-        },
-        {
-          "t": 1758499214,
-          "p": 0.0715
-        },
-        {
-          "t": 1758585604,
-          "p": 0.0745
-        },
-        {
-          "t": 1758715213,
-          "p": 0.0745
-        },
-        {
-          "t": 1758801617,
-          "p": 0.0775
-        },
-        {
-          "t": 1758931211,
-          "p": 0.1055
-        },
-        {
-          "t": 1759017608,
-          "p": 0.1055
-        },
-        {
-          "t": 1759104007,
-          "p": 0.1055
-        },
-        {
-          "t": 1759233609,
-          "p": 0.1055
-        },
-        {
-          "t": 1759320013,
-          "p": 0.236
-        },
-        {
-          "t": 1759449602,
-          "p": 0.1775
-        },
-        {
-          "t": 1759536006,
-          "p": 0.198
-        },
-        {
-          "t": 1759665605,
-          "p": 0.1735
-        },
-        {
-          "t": 1759752007,
-          "p": 0.1785
-        },
-        {
-          "t": 1759881610,
-          "p": 0.1535
-        },
-        {
-          "t": 1759968014,
-          "p": 0.153
-        },
-        {
-          "t": 1760097622,
-          "p": 0.144
-        },
-        {
-          "t": 1760184027,
-          "p": 0.1435
-        },
-        {
-          "t": 1760313606,
-          "p": 0.1435
-        },
-        {
-          "t": 1760400018,
-          "p": 0.144
-        },
-        {
-          "t": 1760529622,
-          "p": 0.1445
-        },
-        {
-          "t": 1760616012,
-          "p": 0.143
-        },
-        {
-          "t": 1760745614,
-          "p": 0.1405
-        },
-        {
-          "t": 1760832012,
-          "p": 0.14
-        },
-        {
-          "t": 1760961622,
-          "p": 0.137
-        },
-        {
-          "t": 1761048025,
-          "p": 0.133
-        },
-        {
-          "t": 1761177607,
-          "p": 0.152
-        },
-        {
-          "t": 1761264009,
-          "p": 0.1645
-        },
-        {
-          "t": 1761350409,
-          "p": 0.147
-        },
-        {
-          "t": 1761480011,
-          "p": 0.225
-        },
-        {
-          "t": 1761566410,
-          "p": 0.2245
-        },
-        {
-          "t": 1761696010,
-          "p": 0.1315
-        },
-        {
-          "t": 1761825609,
-          "p": 0.126
-        },
-        {
-          "t": 1761955209,
-          "p": 0.126
-        },
-        {
-          "t": 1762041608,
-          "p": 0.132
-        },
-        {
-          "t": 1762171209,
-          "p": 0.127
-        },
-        {
-          "t": 1762257610,
-          "p": 0.1265
-        },
-        {
-          "t": 1762387206,
-          "p": 0.1265
-        },
-        {
-          "t": 1762473608,
-          "p": 0.1025
-        },
-        {
-          "t": 1762603224,
-          "p": 0.101
-        },
-        {
-          "t": 1762689609,
-          "p": 0.1005
-        },
-        {
-          "t": 1762819210,
-          "p": 0.0865
-        },
-        {
-          "t": 1762905610,
-          "p": 0.0695
-        },
-        {
-          "t": 1763035210,
-          "p": 0.06
-        },
-        {
-          "t": 1763121612,
-          "p": 0.0535
-        },
-        {
-          "t": 1763251208,
-          "p": 0.0545
-        },
-        {
-          "t": 1763337609,
-          "p": 0.0545
-        },
-        {
-          "t": 1763424008,
+          "t": 1769644839,
           "p": 0.08
         },
         {
-          "t": 1763553612,
-          "p": 0.0785
+          "t": 1769688028,
+          "p": 0.08
         },
         {
-          "t": 1763640008,
-          "p": 0.0715
+          "t": 1769731228,
+          "p": 0.085
         },
         {
-          "t": 1763769609,
-          "p": 0.127
+          "t": 1769774442,
+          "p": 0.11
         },
         {
-          "t": 1763856009,
-          "p": 0.0795
+          "t": 1769817628,
+          "p": 0.1
         },
         {
-          "t": 1763985607,
-          "p": 0.0795
+          "t": 1769860833,
+          "p": 0.095
         },
         {
-          "t": 1764072012,
-          "p": 0.0435
+          "t": 1769904034,
+          "p": 0.07
         },
         {
-          "t": 1764201610,
-          "p": 0.0635
+          "t": 1769947230,
+          "p": 0.045
         },
         {
-          "t": 1764288011,
-          "p": 0.0625
+          "t": 1769990427,
+          "p": 0.045
         },
         {
-          "t": 1764417615,
-          "p": 0.053
+          "t": 1770033631,
+          "p": 0.035
         },
         {
-          "t": 1764504039,
-          "p": 0.057
+          "t": 1770076830,
+          "p": 0.025
         },
         {
-          "t": 1764633608,
-          "p": 0.056
+          "t": 1770120035,
+          "p": 0.0225
         },
         {
-          "t": 1764720011,
-          "p": 0.0535
+          "t": 1770163240,
+          "p": 0.026
         },
         {
-          "t": 1764849614,
-          "p": 0.056
+          "t": 1770206431,
+          "p": 0.0235
         },
         {
-          "t": 1764936010,
-          "p": 0.069
+          "t": 1770249626,
+          "p": 0.037
         },
         {
-          "t": 1765065623,
+          "t": 1770292834,
+          "p": 0.036
+        },
+        {
+          "t": 1770336033,
+          "p": 0.035
+        },
+        {
+          "t": 1770379234,
+          "p": 0.034
+        },
+        {
+          "t": 1770422439,
+          "p": 0.031
+        },
+        {
+          "t": 1770465638,
+          "p": 0.03
+        },
+        {
+          "t": 1770508836,
+          "p": 0.044
+        },
+        {
+          "t": 1770552045,
           "p": 0.047
         },
         {
-          "t": 1765152022,
-          "p": 0.0765
+          "t": 1770595235,
+          "p": 0.044
         },
         {
-          "t": 1765281609,
-          "p": 0.074
+          "t": 1770638451,
+          "p": 0.045
         },
         {
-          "t": 1765368013,
+          "t": 1770681638,
+          "p": 0.0505
+        },
+        {
+          "t": 1770724850,
           "p": 0.0345
+        },
+        {
+          "t": 1770768039,
+          "p": 0.0285
+        },
+        {
+          "t": 1770811237,
+          "p": 0.023
+        },
+        {
+          "t": 1770854447,
+          "p": 0.025
+        },
+        {
+          "t": 1770897636,
+          "p": 0.0175
+        },
+        {
+          "t": 1770940836,
+          "p": 0.0145
+        },
+        {
+          "t": 1770984040,
+          "p": 0.014
+        },
+        {
+          "t": 1771027240,
+          "p": 0.015
+        },
+        {
+          "t": 1771070443,
+          "p": 0.014
+        },
+        {
+          "t": 1771113639,
+          "p": 0.014
+        },
+        {
+          "t": 1771156845,
+          "p": 0.015
+        },
+        {
+          "t": 1771200051,
+          "p": 0.0135
+        },
+        {
+          "t": 1771243251,
+          "p": 0.013
+        },
+        {
+          "t": 1771286441,
+          "p": 0.015
+        },
+        {
+          "t": 1771329658,
+          "p": 0.017
+        },
+        {
+          "t": 1771372846,
+          "p": 0.017
+        },
+        {
+          "t": 1771416044,
+          "p": 0.02
+        },
+        {
+          "t": 1771459247,
+          "p": 0.0245
+        },
+        {
+          "t": 1771545645,
+          "p": 0.024
+        },
+        {
+          "t": 1771588828,
+          "p": 0.0235
+        },
+        {
+          "t": 1771632031,
+          "p": 0.0215
+        },
+        {
+          "t": 1771675231,
+          "p": 0.0145
+        },
+        {
+          "t": 1771718431,
+          "p": 0.019
+        },
+        {
+          "t": 1771761637,
+          "p": 0.009
+        },
+        {
+          "t": 1771804835,
+          "p": 0.0085
+        },
+        {
+          "t": 1771848039,
+          "p": 0.0055
+        },
+        {
+          "t": 1771891236,
+          "p": 0.007
+        },
+        {
+          "t": 1771934445,
+          "p": 0.007
+        },
+        {
+          "t": 1771977640,
+          "p": 0.0075
+        },
+        {
+          "t": 1772020844,
+          "p": 0.0045
+        },
+        {
+          "t": 1772064037,
+          "p": 0.004
+        },
+        {
+          "t": 1772107254,
+          "p": 0.0035
+        },
+        {
+          "t": 1772150442,
+          "p": 0.0025
+        },
+        {
+          "t": 1772193656,
+          "p": 0.003
+        },
+        {
+          "t": 1772236841,
+          "p": 0.0035
+        },
+        {
+          "t": 1772323255,
+          "p": 0.002
         }
       ],
       "turning_points": [
         {
-          "t": 1754006409,
-          "p": 0.23,
-          "delta": 0.06
+          "t": 1769083249,
+          "p": 0.125,
+          "delta": 0.055
         },
         {
-          "t": 1754049609,
-          "p": 0.305,
-          "delta": 0.075
+          "t": 1769515223,
+          "p": 0.075,
+          "delta": -0.05
         },
         {
-          "t": 1754654412,
-          "p": 0.23,
-          "delta": -0.075
-        },
-        {
-          "t": 1755388809,
-          "p": 0.1705,
-          "delta": -0.0595
-        },
-        {
-          "t": 1755691213,
-          "p": 0.1055,
-          "delta": -0.065
-        },
-        {
-          "t": 1759276802,
-          "p": 0.2355,
-          "delta": 0.13
-        },
-        {
-          "t": 1759449602,
-          "p": 0.1775,
-          "delta": -0.058
-        },
-        {
-          "t": 1760572805,
-          "p": 0.1105,
-          "delta": -0.067
-        },
-        {
-          "t": 1761264009,
-          "p": 0.1645,
-          "delta": 0.054
-        },
-        {
-          "t": 1761436810,
-          "p": 0.225,
-          "delta": 0.0605
-        },
-        {
-          "t": 1761652809,
-          "p": 0.1555,
-          "delta": -0.0695
-        },
-        {
-          "t": 1762473608,
-          "p": 0.1025,
-          "delta": -0.053
-        },
-        {
-          "t": 1764028809,
-          "p": 0.0425,
-          "delta": -0.06
-        },
-        {
-          "t": 1765411210,
-          "p": 0.1995,
-          "delta": 0.157
-        },
-        {
-          "t": 1765454411,
-          "p": 0.0925,
-          "delta": -0.107
+          "t": 1770120035,
+          "p": 0.0225,
+          "delta": -0.0525
         }
       ],
-      "price_at_open": 0.17,
-      "price_at_close": 0.0925,
-      "min_price": 0.0345,
-      "max_price": 0.305,
-      "final_price": 0.0925,
-      "fetched_at": "2026-04-27T07:57:35.492440+00:00"
+      "price_at_open": 0.07,
+      "price_at_close": 0.002,
+      "min_price": 0.002,
+      "max_price": 0.125,
+      "final_price": 0.002,
+      "fetched_at": "2026-04-27T07:57:44.581678+00:00"
     },
     "events": [
       {
-        "id": "evt_business_20250821_001_e43be763",
-        "date": "2025-08-21 00:00",
-        "title": "Pope Leo XIV given 33% chance of being TIME's Person of the Year",
-        "description": "Pope Leo XIV emerged as a strong contender with 33% odds in betting markets.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260122_001_cabfb6ce",
+        "date": "2026-01-22 00:00",
+        "title": "US and Israel launch Operation Epic Fury",
+        "description": "US and Israel launch a major military offensive against Iran.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE1 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20250821-2025-time-person-of-the-year-odds-pope-leo-xiv-given-33pp-chance-to-be-named-person-of-the-year",
+        "source_url": "https://www.npr.org/2026/02/28/nx-s1-5730352/world-leaders-reaction-operation-epic-fury",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251201_011_423fce18",
-        "date": "2025-12-01 00:00",
-        "title": "Widespread societal and economic impacts of AI throughout 2025",
-        "description": "The widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260122_002_f2a70faf",
+        "date": "2026-01-22 00:00",
+        "title": "Trump requests use of UK bases",
+        "description": "US President Trump requests the use of UK bases for strikes against Iran.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE2 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
+        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251205_012_2d241d6e",
-        "date": "2025-12-05 00:00",
-        "title": "Significant media focus on AI technology",
-        "description": "Significant media focus on AI technology due to its widespread societal and economic impacts.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260122_003_8ae7e707",
+        "date": "2026-01-22 00:00",
+        "title": "Starmer refuses UK involvement",
+        "description": "UK Prime Minister Starmer refuses to be drawn into the Iran war after Trump's request.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE3 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
+        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20251210_002_0375e80a",
-        "date": "2025-12-10 00:00",
-        "title": "AI surges to 68% clear favorite for TIME Person of the Year",
-        "description": "AI surged as the clear favorite, reaching 68% probability according to betting odds.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260124_005_e0dec2d3",
+        "date": "2026-01-24 00:00",
+        "title": "E3 leaders coordinate response",
+        "description": "Starmer, Macron, and Merz coordinate their response to the US-Israel attack.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE5 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20251210-2025-time-person-of-the-year-odds-ai-clear-favorite-surges-to-68pp-chance-ahead-of-december-11th-announcement",
+        "source_url": "https://www.msn.com/en-xl/news/other/starmer-talks-to-france-s-macron-and-germany-s-merz-over-us-israel-attack-on-iran/ar-AA1XfT05?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20251210_006_8eb40b52",
-        "date": "2025-12-10 00:00",
-        "title": "Prediction markets heavily favor AI",
-        "description": "Prediction markets heavily favored AI as the likely recipient of TIME's Person of the Year.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260130_006_1012368f",
+        "date": "2026-01-30 00:00",
+        "title": "Iran fires retaliatory missiles",
+        "description": "Iran fires missiles towards Israel and an explosive drone lands near the US embassy in Baghdad.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE6 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20251210-2025-time-person-of-the-year-odds-ai-clear-favorite-surges-to-68pp-chance-ahead-of-december-11th-announcement",
+        "source_url": "https://www.msn.com/en-in/news/world/us-iran-war-highlights-iran-fires-missiles-towards-israel-explosive-drone-lands-near-us-embassy-in-baghdad/ar-AA1YH8k2?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251211_003_5011002c",
-        "date": "2025-12-11 00:00",
-        "title": "TIME names 'The Architects of AI' as Person of the Year",
-        "description": "TIME officially announced 'The Architects of AI' as the 2025 Person of the Year.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260130_007_8a58cf76",
+        "date": "2026-01-30 00:00",
+        "title": "E3 issue joint statement",
+        "description": "UK, France, and Germany issue a joint statement urging a return to negotiations.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE7 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
+        "source_url": "https://thehill.com/policy/international/5760393-uk-france-germany-iran-strikes-negotiations",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251211_007_84769e2b",
-        "date": "2025-12-11 00:00",
-        "title": "TIME decides to honor a collective rather than an individual",
-        "description": "TIME decided to honor the collective developers of artificial intelligence.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260130_008_30da70aa",
+        "date": "2026-01-30 00:00",
+        "title": "EU foreign policy chief calls to end war",
+        "description": "EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE8 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
+        "source_url": "https://www.msn.com/en-gb/news/world/exclusive-eu-foreign-policy-chief-kallas-calls-on-us-israel-to-end-iran-war/ar-AA1YPjnY?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20251211_008_4da9818a",
-        "date": "2025-12-11 00:00",
-        "title": "Momentum for a female candidate overwhelmed",
-        "description": "Any momentum for a female candidate was overwhelmed by the collective recognition of AI developers.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260212_009_a418b900",
+        "date": "2026-02-12 00:00",
+        "title": "E3 maintain defensive posture",
+        "description": "E3 leaders consistently refuse to authorize offensive operations throughout February.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE9 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
+        "source_url": "https://www.cfr.org/articles/europes-disjointed-response-to-the-u-s-israeli-war-with-iran",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20251211_009_28efd2d3",
-        "date": "2025-12-11 00:00",
-        "title": "TIME's Person of the Year is not a woman",
-        "description": "The result resolved as a 'No' for whether the recipient would be a woman.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
+        "id": "evt_politics_20260122_004_689ddc67",
+        "date": "2026-01-22 00:00",
+        "title": "Macron declares strikes illegal",
+        "description": "French President Macron declares the strikes against Iran to be illegal.",
+        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE4 contributed to the E3 not striking Iran.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_general_20251211_010_b0042ef5",
-        "date": "2025-12-11 00:00",
-        "title": "Actual Outcome: No",
-        "description": "The actual outcome is No.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
+        "source_url": "https://www.yahoo.com/news/articles/macron-strikes-against-iran-illegal-033035836.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -718,682 +473,2022 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x4312fc012e315252ece189e1b0f77dfdedf6b27e06bd2fbffb9ee8c9ff023601",
-    "title": "Will Andrew Cuomo drop out of the 2025 New York City mayoral race?",
+    "id": "polymarket_0xae5584fbb57f23c1c608d544b656f23d8bf12340cef70811cf31bb0cb4fc2115",
+    "title": "Will the base retail price of Grand Theft Auto VI be $100 or more at launch?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Andrew Cuomo withdraws from or officially announces his withdrawal from the 2025 New York City Mayoral election, or announces the suspension of his 2025 NYC Mayoral campaign, by November 3, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Andrew Cuomo or his official/legal representatives, however a consensus of credible reporting will also be used.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if the standard edition of Grand Theft Auto VI (GTA 6) launches at $100.00 or more. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve based on the pre-tax launch price in USD of the standard edition of GTA 6 on Xbox or PlayStation as listed on the Microsoft Store or PlayStation Store on the first official day of its release in the United States.\n\nIf the price differs between the Microsoft and PlayStation stores, this market will resolve according to the lower price.\n\nThis market will resolve based on the lowest price version that includes the full standard game with no DLC, etc.\n\nIf GTA 6 is not released by February 28, 2026, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the Microsoft Store/PlayStation Store, however a consensus of credible reporting will also be used.",
     "outcome": "No",
-    "explanation": "\n## Executive Summary\nAndrew Cuomo did not drop out of the 2025 New York City mayoral race. Despite various challenges and changing political dynamics, he stayed in the race, banking on his strong fundraising numbers, name recognition, and the weakened state of his primary moderate rival, incumbent Eric Adams. Ultimately, he remained in the race through Election Day, where he was defeated by progressive candidate Zohran Mamdani.\n\n## Timeline Of Key Events\n- 2025-07-31: Early debates and polls highlight Cuomo's position in the race. [art_politics_20250731_010_952a0f34]\n- 2025-08-03: Reports show Cuomo dominating the fundraising field, raising 42 times more money than Eric Adams in 2025, solidifying his rationale to stay in. [art_politics_20250803_003_2b4dbba6]\n- 2025-08-28: Eric Adams agrees to pay fines, highlighting his weakened position, leaving a lane open for Cuomo. [art_politics_20250828_014_dc087870]\n- 2025-10-25: Late-stage debates feature Mamdani, Sliwa, and Cuomo. [art_general_20251025_029_75eb43d8]\n- 2025-11-04: Election day arrives with Cuomo still on the ballot. Mamdani wins the election. [art_politics_20250803_007_edd071b6]\n\n## Causal Chain Analysis\nThe outcome that Cuomo did not drop out resulted from several overlapping factors. Root causes included his massive fundraising advantage [art_politics_20250803_003_2b4dbba6] and strong name recognition. This led to a strategic calculus that the moderate lane was winnable, especially because the incumbent, Eric Adams, was financially and politically weakened [art_politics_20250828_014_dc087870]. Because Cuomo believed he was the most viable moderate candidate, he stayed in the race, which resulted in his continued presence through the debates [art_general_20251025_029_75eb43d8] and all the way to Election Day, where he ultimately lost to Zohran Mamdani [art_politics_20250803_007_edd071b6].\n\n## Countervailing Factors\nMamdani's strong progressive campaign and eventual victory were major forces working against Cuomo's success. The changing demographics and progressive shift in the city were hurdles. Additionally, his past scandals were an ongoing liability. However, these factors failed to push him out of the race because his financial backing and confidence in his moderate coalition kept his campaign viable in his eyes.\n\n## Event Candidate Inventory\n- E1\n  - title: Andrew Cuomo out-raises Eric Adams by 42x\n  - date: 2025-08-03\n  - why it matters causally: Demonstrated his massive financial backing, eliminating the need to drop out for financial reasons.\n  - source article IDs: [art_politics_20250803_003_2b4dbba6]\n- E2\n  - title: Late-stage mayoral debate includes Cuomo\n  - date: 2025-10-25\n  - why it matters causally: Shows he was actively participating until the end.\n  - source article IDs: [art_general_20251025_029_75eb43d8]\n- E3\n  - title: Zohran Mamdani wins NYC mayoral election\n  - date: 2025-11-04\n  - why it matters causally: Marks the end of the race where Cuomo officially competed and lost, proving he did not drop out.\n  - source article IDs: [art_politics_20250803_007_edd071b6]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Cuomo massively out-raises Adams | [art_politics_20250803_003_2b4dbba6] | 2025-08-03 | 0.9 | Strong financial backing |\n| Adams pays fine, weakened | [art_politics_20250828_014_dc087870] | 2025-08-28 | 0.8 | Shows incumbent weakness |\n| Mamdani wins the election | [art_politics_20250803_007_edd071b6] | 2025-11-04 | 1.0 | Defines final outcome |\n\n## Uncertainties And Alternative Paths\nIt was uncertain if an external scandal or legal issue could have forced Cuomo out. An alternative path would have been Cuomo striking a deal to exit the race and support another moderate to prevent a progressive victory, but his fundraising numbers likely convinced him he was the best option.\n",
+    "explanation": "\n# Required Output Format\n\n## Executive Summary\nThe rumor that Grand Theft Auto VI would cost $100 at launch originated from speculative analyst reports, primarily from Matthew Ball and Michael Pachter, who suggested the game's massive development costs could justify an unprecedented price point. This speculation peaked in May 2025, causing significant market sentiment shifts and debates among gamers. However, industry veterans like former Rockstar technical director Obbe Vermeij clarified that the game would likely stick to the standard $70 price tag to maximize the player base for the highly lucrative GTA Online component. Ultimately, parent company Take-Two Interactive opted not to increase the base retail price to $100, relying instead on standard and deluxe editions to generate revenue without alienating the broader consumer market.\n\n## Timeline Of Key Events\n- **Early May 2025**: Speculation begins surrounding GTA 6's pricing, fueled by analyst Matthew Ball's presentation \"The State of Video Gaming in 2025\" and Michael Pachter's claims [art_general_20250515_002_b68d2534].\n- **2025-05-03**: Price sentiment drops slightly but recovers as discussions about game value and inflation surface [art_general_20250503_003_1b86ceb6].\n- **2025-05-07 13:00**: A major sentiment peak occurs, driven by rumors of a $100 price tag spreading across gaming news outlets [art_general_20250507_016_6435a0d3].\n- **2025-05-10 13:00**: Backlash to the rumored $100 cost causes a trough in sentiment, highlighting consumer resistance [art_general_20250510_018_9470f5ab].\n- **2025-05-15**: Obbe Vermeij, former technical director at Rockstar North, pushes back against the $100 rumor, stating the company will likely stick to the standard $70 price to ensure a large user base for GTA Online [art_general_20250515_002_b68d2534].\n- **2025-05-19**: Further clarification and insider speculation help settle the market, solidifying the expectation that the base price will not hit $100 [art_general_20250519_006_53cf242f].\n\n## Causal Chain Analysis\nThe massive $2 billion development budget for GTA 6 caused early speculation by financial analysts that Rockstar might break the industry-standard $70 price point and charge $100 [art_general_20250515_002_b68d2534]. This triggered widespread debate and backlash within the gaming community, as consumers pushed back against the idea of an unprecedented price hike [art_general_20250510_018_9470f5ab]. In response to this speculation, industry insiders like Obbe Vermeij clarified that charging $100 would be too risky and could alienate casual gamers [art_general_20250515_002_b68d2534]. Consequently, Take-Two Interactive chose to rely on the traditional $70 base price and generate additional revenue through GTA Online and higher-priced Deluxe Editions, resulting in the negative resolution of the $100 base price question.\n\n## Countervailing Factors\nThe massive development budget (upwards of $2 billion) was a strong countervailing factor that pushed toward a higher price point. Analysts argued that to recoup these costs, a $100 price tag might be necessary and even acceptable given the expected hundreds of hours of gameplay value. However, this pressure was overwhelmed by the strategic importance of the online component; maintaining a lower entry price ensures a massive player base, which is crucial for the long-term, high-margin revenue generated by in-game microtransactions.\n\n## Event Candidate Inventory\n- **E1: Analyst Price Speculation Begins**\n  - Date: Early May 2025\n  - Why it matters causally: Initiated the rumors and market sentiment shifts regarding a $100 price point.\n  - Source article IDs: [art_general_20250515_002_b68d2534]\n- **E2: Consumer Backlash to Price Rumors**\n  - Date: 2025-05-10\n  - Why it matters causally: Demonstrated market resistance, influencing expectations against a price hike.\n  - Source article IDs: [art_general_20250510_018_9470f5ab]\n- **E3: Obbe Vermeij Clarifies Pricing Strategy**\n  - Date: 2025-05-15\n  - Why it matters causally: Provided credible insider perspective that deflated the $100 rumors.\n  - Source article IDs: [art_general_20250515_002_b68d2534]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Analysts speculate $100 price | [art_general_20250515_002_b68d2534] | Early May 2025 | 0.9 | Led by Ball and Pachter. |\n| Consumer backlash | [art_general_20250510_018_9470f5ab] | 2025-05-10 | 0.8 | Highlighted in multiple outlets. |\n| Insider debunking | [art_general_20250515_002_b68d2534] | 2025-05-15 | 0.9 | Obbe Vermeij interview. |\n\n## Uncertainties And Alternative Paths\nOne alternative path was that Take-Two could have offered a basic version at $70 but heavily restricted content, pushing the \"true\" base experience to a $100 deluxe tier. The main uncertainty was exactly how the various editions would be tiered and whether any region-specific pricing would effectively reach $100 equivalent in USD.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-07-15T00:06:24.444448+00:00",
+    "market_open": "2025-03-06T20:51:01.626726+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-11-04T07:13:49+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-andrew-cuomo-drop-out-155",
+    "market_close": "2026-03-01T07:38:17+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-gta-6-cost-100",
     "price_data": {
       "history": [
         {
-          "t": 1752580808,
-          "p": 0.275
+          "t": 1741305605,
+          "p": 0.165
         },
         {
-          "t": 1752624008,
-          "p": 0.295
+          "t": 1741521605,
+          "p": 0.12
         },
         {
-          "t": 1752710408,
-          "p": 0.295
-        },
-        {
-          "t": 1752796808,
-          "p": 0.29
-        },
-        {
-          "t": 1752883209,
-          "p": 0.305
-        },
-        {
-          "t": 1752969608,
-          "p": 0.285
-        },
-        {
-          "t": 1753056007,
-          "p": 0.28
-        },
-        {
-          "t": 1753142409,
-          "p": 0.27
-        },
-        {
-          "t": 1753185609,
-          "p": 0.27
-        },
-        {
-          "t": 1753272009,
-          "p": 0.27
-        },
-        {
-          "t": 1753358409,
-          "p": 0.265
-        },
-        {
-          "t": 1753444809,
-          "p": 0.275
-        },
-        {
-          "t": 1753531210,
-          "p": 0.275
-        },
-        {
-          "t": 1753617609,
-          "p": 0.275
-        },
-        {
-          "t": 1753704009,
-          "p": 0.275
-        },
-        {
-          "t": 1753747210,
-          "p": 0.295
-        },
-        {
-          "t": 1753833610,
-          "p": 0.33
-        },
-        {
-          "t": 1753920008,
-          "p": 0.335
-        },
-        {
-          "t": 1754006409,
-          "p": 0.33
-        },
-        {
-          "t": 1754092809,
-          "p": 0.335
-        },
-        {
-          "t": 1754179208,
-          "p": 0.36
-        },
-        {
-          "t": 1754265607,
-          "p": 0.37
-        },
-        {
-          "t": 1754308808,
-          "p": 0.37
-        },
-        {
-          "t": 1754395209,
-          "p": 0.36
-        },
-        {
-          "t": 1754481608,
-          "p": 0.325
-        },
-        {
-          "t": 1754568005,
-          "p": 0.335
-        },
-        {
-          "t": 1754654408,
-          "p": 0.32
-        },
-        {
-          "t": 1754740814,
-          "p": 0.27
-        },
-        {
-          "t": 1754827221,
-          "p": 0.27
-        },
-        {
-          "t": 1754870405,
-          "p": 0.285
-        },
-        {
-          "t": 1754956802,
-          "p": 0.285
-        },
-        {
-          "t": 1755043208,
-          "p": 0.275
-        },
-        {
-          "t": 1755129603,
-          "p": 0.295
-        },
-        {
-          "t": 1755216007,
-          "p": 0.275
-        },
-        {
-          "t": 1755302404,
-          "p": 0.265
-        },
-        {
-          "t": 1755388812,
-          "p": 0.265
-        },
-        {
-          "t": 1755432009,
-          "p": 0.245
-        },
-        {
-          "t": 1755518415,
-          "p": 0.26
-        },
-        {
-          "t": 1755604805,
-          "p": 0.195
-        },
-        {
-          "t": 1755691215,
-          "p": 0.19
-        },
-        {
-          "t": 1755777612,
-          "p": 0.19
-        },
-        {
-          "t": 1755864011,
-          "p": 0.19
-        },
-        {
-          "t": 1755950415,
-          "p": 0.19
-        },
-        {
-          "t": 1755993606,
-          "p": 0.19
-        },
-        {
-          "t": 1756080002,
-          "p": 0.185
-        },
-        {
-          "t": 1756166409,
+          "t": 1741780805,
           "p": 0.13
         },
         {
-          "t": 1756252805,
+          "t": 1742040004,
+          "p": 0.135
+        },
+        {
+          "t": 1742299204,
+          "p": 0.12
+        },
+        {
+          "t": 1742558406,
           "p": 0.125
         },
         {
-          "t": 1756339204,
-          "p": 0.09
-        },
-        {
-          "t": 1756425610,
+          "t": 1742817604,
           "p": 0.095
         },
         {
-          "t": 1756512005,
-          "p": 0.095
+          "t": 1743076805,
+          "p": 0.115
         },
         {
-          "t": 1756555214,
+          "t": 1743336006,
+          "p": 0.105
+        },
+        {
+          "t": 1743595205,
           "p": 0.1
         },
         {
-          "t": 1756641623,
-          "p": 0.1
+          "t": 1743854406,
+          "p": 0.11
         },
         {
-          "t": 1756728017,
-          "p": 0.095
+          "t": 1744113606,
+          "p": 0.135
         },
         {
-          "t": 1756814416,
-          "p": 0.075
+          "t": 1744372806,
+          "p": 0.13
         },
         {
-          "t": 1756900818,
-          "p": 0.075
+          "t": 1744632004,
+          "p": 0.135
         },
         {
-          "t": 1756987220,
+          "t": 1744891205,
+          "p": 0.145
+        },
+        {
+          "t": 1745150406,
+          "p": 0.135
+        },
+        {
+          "t": 1745409606,
+          "p": 0.14
+        },
+        {
+          "t": 1745668806,
+          "p": 0.135
+        },
+        {
+          "t": 1745928005,
+          "p": 0.145
+        },
+        {
+          "t": 1746187206,
+          "p": 0.032
+        },
+        {
+          "t": 1746446405,
+          "p": 0.077
+        },
+        {
+          "t": 1746705606,
+          "p": 0.125
+        },
+        {
+          "t": 1746964807,
+          "p": 0.1205
+        },
+        {
+          "t": 1747224007,
+          "p": 0.1075
+        },
+        {
+          "t": 1747483206,
+          "p": 0.112
+        },
+        {
+          "t": 1747742407,
+          "p": 0.1635
+        },
+        {
+          "t": 1748001607,
+          "p": 0.1325
+        },
+        {
+          "t": 1748260806,
+          "p": 0.1285
+        },
+        {
+          "t": 1748520007,
+          "p": 0.123
+        },
+        {
+          "t": 1748779207,
+          "p": 0.139
+        },
+        {
+          "t": 1749038406,
+          "p": 0.1215
+        },
+        {
+          "t": 1749297608,
+          "p": 0.07
+        },
+        {
+          "t": 1749556807,
+          "p": 0.076
+        },
+        {
+          "t": 1749816008,
+          "p": 0.081
+        },
+        {
+          "t": 1750075208,
+          "p": 0.087
+        },
+        {
+          "t": 1750334407,
+          "p": 0.0875
+        },
+        {
+          "t": 1750593607,
+          "p": 0.072
+        },
+        {
+          "t": 1750852808,
+          "p": 0.0615
+        },
+        {
+          "t": 1751112007,
+          "p": 0.064
+        },
+        {
+          "t": 1751371207,
+          "p": 0.0805
+        },
+        {
+          "t": 1751630407,
+          "p": 0.08
+        },
+        {
+          "t": 1751889607,
+          "p": 0.073
+        },
+        {
+          "t": 1752148808,
+          "p": 0.074
+        },
+        {
+          "t": 1752408007,
+          "p": 0.067
+        },
+        {
+          "t": 1752667208,
+          "p": 0.0565
+        },
+        {
+          "t": 1752926408,
+          "p": 0.072
+        },
+        {
+          "t": 1753185609,
           "p": 0.065
         },
         {
-          "t": 1757073628,
-          "p": 0.065
+          "t": 1753444809,
+          "p": 0.0705
         },
         {
-          "t": 1757116813,
-          "p": 0.065
+          "t": 1753704009,
+          "p": 0.063
         },
         {
-          "t": 1757203212,
-          "p": 0.065
+          "t": 1753963208,
+          "p": 0.069
         },
         {
-          "t": 1757289620,
-          "p": 0.065
+          "t": 1754222408,
+          "p": 0.07
         },
         {
-          "t": 1757376004,
-          "p": 0.065
+          "t": 1754481608,
+          "p": 0.0705
         },
         {
-          "t": 1757462411,
-          "p": 0.06
+          "t": 1754740811,
+          "p": 0.0815
         },
         {
-          "t": 1757548808,
+          "t": 1755000012,
+          "p": 0.063
+        },
+        {
+          "t": 1755259216,
+          "p": 0.0755
+        },
+        {
+          "t": 1755518411,
+          "p": 0.079
+        },
+        {
+          "t": 1755777612,
+          "p": 0.0845
+        },
+        {
+          "t": 1756036818,
+          "p": 0.0755
+        },
+        {
+          "t": 1756296019,
+          "p": 0.071
+        },
+        {
+          "t": 1756555203,
+          "p": 0.0815
+        },
+        {
+          "t": 1756814409,
+          "p": 0.0795
+        },
+        {
+          "t": 1757073616,
+          "p": 0.0645
+        },
+        {
+          "t": 1757332810,
+          "p": 0.057
+        },
+        {
+          "t": 1757592012,
+          "p": 0.0505
+        },
+        {
+          "t": 1757851226,
+          "p": 0.0535
+        },
+        {
+          "t": 1758110421,
+          "p": 0.048
+        },
+        {
+          "t": 1758369615,
+          "p": 0.064
+        },
+        {
+          "t": 1758628805,
+          "p": 0.063
+        },
+        {
+          "t": 1758888019,
           "p": 0.055
         },
         {
-          "t": 1757635205,
+          "t": 1759147203,
+          "p": 0.062
+        },
+        {
+          "t": 1759406402,
           "p": 0.055
         },
         {
-          "t": 1757678420,
-          "p": 0.055
+          "t": 1759665606,
+          "p": 0.0525
         },
         {
-          "t": 1757764826,
-          "p": 0.055
+          "t": 1759924805,
+          "p": 0.048
         },
         {
-          "t": 1757851233,
-          "p": 0.055
-        },
-        {
-          "t": 1757937610,
-          "p": 0.045
-        },
-        {
-          "t": 1758024027,
-          "p": 0.05
-        },
-        {
-          "t": 1758110426,
-          "p": 0.055
-        },
-        {
-          "t": 1758196812,
-          "p": 0.045
-        },
-        {
-          "t": 1758240013,
-          "p": 0.045
-        },
-        {
-          "t": 1758326409,
-          "p": 0.045
-        },
-        {
-          "t": 1758412804,
-          "p": 0.045
-        },
-        {
-          "t": 1758499219,
-          "p": 0.04
-        },
-        {
-          "t": 1758585610,
-          "p": 0.042
-        },
-        {
-          "t": 1758672011,
-          "p": 0.044
-        },
-        {
-          "t": 1758758406,
-          "p": 0.035
-        },
-        {
-          "t": 1758801612,
-          "p": 0.036
-        },
-        {
-          "t": 1758888004,
-          "p": 0.0355
-        },
-        {
-          "t": 1758974407,
+          "t": 1760184006,
           "p": 0.054
         },
         {
-          "t": 1759060815,
-          "p": 0.045
+          "t": 1760443210,
+          "p": 0.0445
         },
         {
-          "t": 1759147211,
-          "p": 0.031
+          "t": 1760702422,
+          "p": 0.043
         },
         {
-          "t": 1759233609,
-          "p": 0.0325
+          "t": 1760961628,
+          "p": 0.0405
         },
         {
-          "t": 1759320002,
-          "p": 0.022
+          "t": 1761220810,
+          "p": 0.042
         },
         {
-          "t": 1759363209,
-          "p": 0.019
+          "t": 1761480013,
+          "p": 0.041
         },
         {
-          "t": 1759449607,
-          "p": 0.019
+          "t": 1761782411,
+          "p": 0.0415
         },
         {
-          "t": 1759536011,
-          "p": 0.019
+          "t": 1762041610,
+          "p": 0.044
         },
         {
-          "t": 1759622408,
-          "p": 0.0185
+          "t": 1762300810,
+          "p": 0.037
         },
         {
-          "t": 1759708810,
-          "p": 0.017
+          "t": 1762560008,
+          "p": 0.0275
         },
         {
-          "t": 1759795205,
-          "p": 0.017
+          "t": 1762819212,
+          "p": 0.03
         },
         {
-          "t": 1759881602,
-          "p": 0.0175
+          "t": 1763078410,
+          "p": 0.028
         },
         {
-          "t": 1759924818,
-          "p": 0.0175
+          "t": 1763337610,
+          "p": 0.029
         },
         {
-          "t": 1760011210,
-          "p": 0.022
+          "t": 1763596809,
+          "p": 0.0335
         },
         {
-          "t": 1760097611,
-          "p": 0.0225
+          "t": 1763856010,
+          "p": 0.0335
         },
         {
-          "t": 1760184020,
-          "p": 0.0165
+          "t": 1764115211,
+          "p": 0.03
         },
         {
-          "t": 1760270417,
-          "p": 0.0145
+          "t": 1764374414,
+          "p": 0.0275
         },
         {
-          "t": 1760356807,
-          "p": 0.0095
+          "t": 1764633609,
+          "p": 0.026
         },
         {
-          "t": 1760443221,
-          "p": 0.0105
+          "t": 1764892811,
+          "p": 0.027
         },
         {
-          "t": 1760486406,
-          "p": 0.008
-        },
-        {
-          "t": 1760572819,
-          "p": 0.011
-        },
-        {
-          "t": 1760659205,
-          "p": 0.0125
-        },
-        {
-          "t": 1760745609,
-          "p": 0.0105
-        },
-        {
-          "t": 1760832005,
-          "p": 0.0195
-        },
-        {
-          "t": 1760918423,
-          "p": 0.0315
-        },
-        {
-          "t": 1761004813,
-          "p": 0.035
-        },
-        {
-          "t": 1761048023,
-          "p": 0.0255
-        },
-        {
-          "t": 1761134404,
+          "t": 1765152023,
           "p": 0.024
         },
         {
-          "t": 1761220804,
-          "p": 0.0185
+          "t": 1765411211,
+          "p": 0.0245
         },
         {
-          "t": 1761307204,
-          "p": 0.0155
+          "t": 1765670412,
+          "p": 0.0235
         },
         {
-          "t": 1761393606,
-          "p": 0.0125
+          "t": 1765929608,
+          "p": 0.024
         },
         {
-          "t": 1761480006,
-          "p": 0.0155
+          "t": 1766145612,
+          "p": 0.024
         },
         {
-          "t": 1761566406,
-          "p": 0.013
+          "t": 1766404810,
+          "p": 0.022
         },
         {
-          "t": 1761609604,
-          "p": 0.0165
+          "t": 1766664012,
+          "p": 0.022
         },
         {
-          "t": 1761696006,
+          "t": 1766923212,
+          "p": 0.022
+        },
+        {
+          "t": 1767182412,
+          "p": 0.0225
+        },
+        {
+          "t": 1767441612,
+          "p": 0.0195
+        },
+        {
+          "t": 1767700813,
           "p": 0.0115
         },
         {
-          "t": 1761825605,
-          "p": 0.0105
+          "t": 1767960027,
+          "p": 0.0145
         },
         {
-          "t": 1761912006,
+          "t": 1768219218,
+          "p": 0.013
+        },
+        {
+          "t": 1768478415,
+          "p": 0.0155
+        },
+        {
+          "t": 1768737631,
+          "p": 0.0135
+        },
+        {
+          "t": 1768996831,
+          "p": 0.015
+        },
+        {
+          "t": 1769256022,
+          "p": 0.017
+        },
+        {
+          "t": 1769515217,
+          "p": 0.0095
+        },
+        {
+          "t": 1769774430,
+          "p": 0.0135
+        },
+        {
+          "t": 1770033621,
+          "p": 0.008
+        },
+        {
+          "t": 1770292823,
+          "p": 0.011
+        },
+        {
+          "t": 1770552029,
+          "p": 0.008
+        },
+        {
+          "t": 1770811224,
           "p": 0.0075
         },
         {
-          "t": 1761998406,
-          "p": 0.004
+          "t": 1771070427,
+          "p": 0.0065
         },
         {
-          "t": 1762084805,
-          "p": 0.003
+          "t": 1771329631,
+          "p": 0.0065
         },
         {
-          "t": 1762171204,
-          "p": 0.0015
+          "t": 1771588820,
+          "p": 0.005
+        },
+        {
+          "t": 1771848027,
+          "p": 0.0065
+        },
+        {
+          "t": 1772107235,
+          "p": 0.0045
         }
       ],
       "turning_points": [
         {
-          "t": 1753833610,
-          "p": 0.33,
-          "delta": 0.055
-        },
-        {
-          "t": 1754222408,
-          "p": 0.415,
-          "delta": 0.085
-        },
-        {
-          "t": 1754395209,
-          "p": 0.36,
-          "delta": -0.055
-        },
-        {
-          "t": 1754697610,
-          "p": 0.28,
-          "delta": -0.08
-        },
-        {
-          "t": 1755604805,
-          "p": 0.195,
-          "delta": -0.085
-        },
-        {
-          "t": 1756166409,
-          "p": 0.13,
-          "delta": -0.065
-        },
-        {
-          "t": 1756771214,
-          "p": 0.08,
+          "t": 1742385605,
+          "p": 0.115,
           "delta": -0.05
         },
         {
-          "t": 1759320002,
-          "p": 0.022,
-          "delta": -0.058
+          "t": 1746187206,
+          "p": 0.032,
+          "delta": -0.083
+        },
+        {
+          "t": 1746576005,
+          "p": 0.1005,
+          "delta": 0.0685
+        },
+        {
+          "t": 1746619206,
+          "p": 0.261,
+          "delta": 0.1605
+        },
+        {
+          "t": 1746662406,
+          "p": 0.166,
+          "delta": -0.095
+        },
+        {
+          "t": 1746748807,
+          "p": 0.109,
+          "delta": -0.057
+        },
+        {
+          "t": 1747612806,
+          "p": 0.1665,
+          "delta": 0.0575
+        },
+        {
+          "t": 1747699206,
+          "p": 0.108,
+          "delta": -0.0585
+        },
+        {
+          "t": 1747742407,
+          "p": 0.1635,
+          "delta": 0.0555
+        },
+        {
+          "t": 1749081606,
+          "p": 0.103,
+          "delta": -0.0605
+        },
+        {
+          "t": 1752494407,
+          "p": 0.0525,
+          "delta": -0.0505
+        },
+        {
+          "t": 1772150429,
+          "p": 0.0015,
+          "delta": -0.051
         }
       ],
-      "price_at_open": 0.275,
-      "price_at_close": 0.0015,
-      "min_price": 0.0015,
-      "max_price": 0.415,
-      "final_price": 0.0015,
-      "fetched_at": "2026-04-27T07:57:36.354740+00:00"
+      "price_at_open": 0.165,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.261,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-20T17:08:08.091894+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250731_001_7039ad65",
-        "date": "2025-07-31 12:00",
-        "title": "Early debates highlight Cuomo's position",
-        "description": "Early debates and polls highlight Andrew Cuomo's position in the NYC mayoral race.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_finance_20250501_001_578aa7f5",
+        "date": "2025-05-01 00:00",
+        "title": "Rockstar allocates $2 billion budget for GTA 6",
+        "description": "The massive $2 billion development budget for GTA 6 caused early speculation by financial analysts.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event fueled speculation and momentum for a $100 price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/politics/nyc-mayoral-debate-night-list-of-candidates-latest-polls/ar-AA1GC309?ocid=BingNewsVerp",
+        "source_url": "https://techwiser.com/will-gta-6-cost-100-why-you-shouldnt-believe-every-analyst-prediction",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250803_002_cd3703e0",
-        "date": "2025-08-03 12:00",
-        "title": "Cuomo raises 42 times more money than Eric Adams",
-        "description": "Reports show Andrew Cuomo dominating the fundraising field, raising 42 times more money than Eric Adams in 2025.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_finance_20250503_003_275e56bd",
+        "date": "2025-05-03 00:00",
+        "title": "Analysts believe delays justify higher GTA 6 price",
+        "description": "Many analysts initially believed that potential delays for GTA 6 would justify a higher price point, specifically an $80 price tag.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/politics/andrew-cuomo-has-raised-42-times-more-money-than-eric-adams-in-2025/ar-AA1BbjjV?ocid=BingNewsVerp",
+        "source_url": "https://www.autoevolution.com/news/gta-6-has-been-delayed-to-2026-making-an-80-price-tag-feel-inevitable-250864.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250803_010_4a88a1ea",
-        "date": "2025-08-03 12:00",
-        "title": "Zohran Mamdani wins NYC mayoral election",
-        "description": "Election day arrives and Zohran Mamdani wins the NYC mayoral election, defeating Cuomo.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_tech_20250507_009_dfe4ba9c",
+        "date": "2025-05-07 12:00",
+        "title": "$100 price rumor for GTA 6 gains significant traction",
+        "description": "By 2025-05-07, the $100 price rumor gained significant traction, becoming a central point of discussion.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc7ny.com/live-updates/election-day-2025-nyc-mayoral-race-nj-governor-live-results-updates/18108070/entry/18112123?userab=abcn_du_cat_topic_feature_holdout-474%2Avariant_a_control-1938%2Cabcn_popular_reads_exp-497%2Avariant_b_7days_filter-2077%2Cabcn_ad_cadence-481%2Acontrol-a-1962%2Cabcn_news_for_you_exp-496%2Avariant_b_test-2075",
+        "source_url": "https://www.ign.com/articles/how-much-will-gta-6-cost-new-research-claims-100-price-point-would-actually-leave-money-on-the-table",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250828_003_8185109f",
-        "date": "2025-08-28 12:00",
-        "title": "Eric Adams agrees to pay $4,000 fine",
-        "description": "Eric Adams agrees to pay a fine to the NYC Conflicts of Interest Board, highlighting his weakened position.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_culture_20250507_010_6a906db0",
+        "date": "2025-05-07 12:00",
+        "title": "Community backlash and resistance to $100 GTA 6 price",
+        "description": "Articles began to evaluate the validity and community backlash associated with such a high price, suggesting early resistance.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cbsnews.com/newyork/news/eric-adams-nyc-conflicts-of-interest-board",
+        "source_url": "https://www.sportskeeda.com/gta/gta-6-price-rumor-100-explored",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250929_005_9fbedd46",
-        "date": "2025-09-29 12:00",
-        "title": "Mamdani holds lead over Cuomo in polls",
-        "description": "Analysts say Zohran Mamdani is seen holding a lead over Andrew Cuomo in the NYC mayoral race.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_business_20250510_006_33485915",
+        "date": "2025-05-10 00:00",
+        "title": "Debate shifts to consumer threshold and potential backlash for GTA 6 price",
+        "description": "The focus began to shift towards the consumer threshold and potential backlash, as public reception to a $100 price was largely negative.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.usnews.com/news/world/articles/2025-09-29/mamdani-seen-holding-lead-over-cuomo-in-new-york-city-mayoral-race-analysts-say",
+        "source_url": "https://www.techreviewer.com/gaming-news/2025-10-15-gta-6s-possible-100-price-tag-sparks-debate-over-game-value",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251009_006_80081af1",
-        "date": "2025-10-09 12:00",
-        "title": "Cuomo gains in race against Mamdani in new poll",
-        "description": "A new poll shows Andrew Cuomo gaining in the race against Zohran Mamdani.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_culture_20250510_007_9fb79a1b",
+        "date": "2025-05-10 12:00",
+        "title": "Consumers backlash against rumored $100 cost",
+        "description": "Backlash to the rumored $100 cost causes a trough in sentiment, highlighting consumer resistance.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event demonstrated resistance to or clarified the unlikelihood of a $100 price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.newsweek.com/andrew-cuomo-gains-in-race-against-zohran-mamdaninew-poll-10856490",
+        "source_url": "https://kickstartgame.com/gta-6-price-rumor-backlash-100-dollars",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251025_008_84a8824a",
-        "date": "2025-10-25 12:00",
-        "title": "Late-stage mayoral debate includes Cuomo",
-        "description": "Late-stage debates feature Mamdani, Sliwa, and Cuomo squaring off.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_business_20250519_005_cb8bc8ae",
+        "date": "2025-05-19 12:00",
+        "title": "Insider speculation helps settle the market",
+        "description": "Further clarification and insider speculation help settle the market, solidifying the expectation that the base price will not hit $100.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event demonstrated resistance to or clarified the unlikelihood of a $100 price tag.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/mamdani-sliwa-cuomo-square-off-051659869.html?fr=sycsrp_catchall",
+        "source_url": "https://thedirect.com/article/gta-6-price-100-insider-explained",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250925_004_21e19290",
+        "id": "evt_business_20250503_004_47219b94",
+        "date": "2025-05-03 00:00",
+        "title": "Take-Two remains silent on GTA 6 pricing",
+        "description": "Take-Two remained silent on exact pricing, which kept speculation alive.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": null,
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250503_005_8579dec3",
+        "date": "2025-05-03 00:00",
+        "title": "Leaks and rumors suggest premium GTA 6 pricing model",
+        "description": "Further leaks and rumors during this period suggested a premium pricing model.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.tech2geek.net/gta-6-pricing-pre-order-release-date-and-fresh-leaks",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20250520_011_91d50c87",
+        "date": "2025-05-20 00:00",
+        "title": "Publisher (Rockstar/Take-Two) decides to price GTA 6 below $100",
+        "description": "The consistent public and media pushback against a $100 price tag, combined with Take-Two's historical approach of pushing boundaries but ultimately responding to market realities, likely led them to set a price below the $100 mark.",
+        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": null,
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xaf11eaf31826a155b5aa4d28fafcebfd641ed153210d547fb431b7797ef30d0c",
+    "title": "Will Elon Musk's net worth reach $1 trillion before December 31, 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk's net worth, as listed on the Bloomberg Billionaires Index, reaches or exceeds $1 trillion at any point by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market will be the Bloomberg Billionaires Index (https://www.bloomberg.com/billionaires/), however a consensus of credible reporting may also be used.\n",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nDespite Elon Musk's various ventures (Tesla, SpaceX, xAI, Twitter/X) reaching new heights in 2025, his net worth did not reach the $1 trillion mark by December 31, 2025. While market rallies, a potential SpaceX IPO, and the xAI merger provided significant momentum, broader market conditions, regulatory scrutiny, and volatility in Tesla's stock price constrained his total wealth accumulation just short of the trillion-dollar threshold.\n\n## Timeline Of Key Events\n- 2025-01-21: Peak market sentiment shift around Musk's wealth pushing boundaries [art_general_20251231_015_9533fbc6].\n- 2025-01-22: Trough and recovery in Tesla's stock price, demonstrating market volatility [art_general_20251223_012_c9b93a21].\n- Mid 2025: SpaceX's valuation surges, rumors of a potential IPO circulate, increasing Musk's theoretical net worth [art_general_20251218_008_498552c6].\n- Late 2025: xAI and SpaceX activities dominate headlines, with Musk's government efficiency role (DOGE) adding political complexities [art_general_20251118_016_f2c08a21].\n- 2025-12-31: Despite all positive catalysts, the cumulative valuation of his holdings fails to breach the $1 trillion mark.\n\n## Causal Chain Analysis\n- **Root Cause**: Musk's wealth is heavily tied to the equity of his companies (Tesla, SpaceX, xAI), which are subject to market volatility and investor sentiment [art_general_20251231_015_9533fbc6].\n- **Intermediate Mechanism**: Throughout 2025, while SpaceX saw significant valuation increases and xAI integration provided a boost, Tesla faced an uneven market environment. The turning points in January 2025 indicated early volatility that set a cautious tone for Tesla investors [art_general_20251223_012_c9b93a21].\n- **Proximate Trigger**: In the final quarter of 2025, market corrections and the sheer mathematical difficulty of reaching a $1 trillion personal net worth (requiring roughly a doubling or tripling of his early 2024 wealth) proved insurmountable within the timeframe [art_general_20251218_008_498552c6].\n- **Final Outcome**: Consequently, Musk's net worth remained below $1 trillion by December 31, 2025.\n\n## Countervailing Factors\n- **SpaceX Valuation Surge**: The massive increase in SpaceX's private market valuation was a strong force pushing towards the $1 trillion mark, but it was not enough to offset the total required growth [art_general_20251218_008_498552c6].\n- **xAI Development**: The growth of his AI venture added significant value, yet the illiquid nature of private holdings and market caps limited immediate net worth impact [art_general_20251118_016_f2c08a21].\n\n## Event Candidate Inventory\n- E1: Peak market sentiment shift.\n  - Date: 2025-01-21\n  - Why it matters causally: Showed resistance to continuous market surge.\n  - Source article IDs: [art_general_20251231_015_9533fbc6]\n- E2: Trough and recovery in Tesla stock.\n  - Date: 2025-01-22\n  - Why it matters causally: Re-established baseline volatility.\n  - Source article IDs: [art_general_20251223_012_c9b93a21]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Overall wealth trajectory | [art_general_20251231_015_9533fbc6] | 2025-01-21 | 0.9 | Musk's wealth grew but fell short of $1T |\n| SpaceX valuation | [art_general_20251218_008_498552c6] | 2025-06-15 | 0.8 | Significant contributor |\n| xAI impact | [art_general_20251118_016_f2c08a21] | 2025-11-01 | 0.8 | AI hype |\n\n## Uncertainties And Alternative Paths\n- If Tesla's stock had experienced another historic, sustained rally (similar to 2020-2021), the $1 trillion mark might have been achieved.\n- A sudden, massive public offering of SpaceX at a highly inflated valuation could have alternatively pushed his net worth over the line.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-01-07T17:00:33.133000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:32:53+00:00",
+    "polymarket_url": "https://polymarket.com/event/elon-musk-trillionaire-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1736294403,
+          "p": 0.085
+        },
+        {
+          "t": 1736510404,
+          "p": 0.085
+        },
+        {
+          "t": 1736769603,
+          "p": 0.09
+        },
+        {
+          "t": 1737028803,
+          "p": 0.095
+        },
+        {
+          "t": 1737288003,
+          "p": 0.135
+        },
+        {
+          "t": 1737547203,
+          "p": 0.095
+        },
+        {
+          "t": 1737806403,
+          "p": 0.115
+        },
+        {
+          "t": 1738065604,
+          "p": 0.11
+        },
+        {
+          "t": 1738324804,
+          "p": 0.095
+        },
+        {
+          "t": 1738584004,
+          "p": 0.095
+        },
+        {
+          "t": 1738843204,
+          "p": 0.095
+        },
+        {
+          "t": 1739102405,
+          "p": 0.105
+        },
+        {
+          "t": 1739361604,
+          "p": 0.115
+        },
+        {
+          "t": 1739620805,
+          "p": 0.115
+        },
+        {
+          "t": 1739880004,
+          "p": 0.115
+        },
+        {
+          "t": 1740139204,
+          "p": 0.115
+        },
+        {
+          "t": 1740398404,
+          "p": 0.115
+        },
+        {
+          "t": 1740657606,
+          "p": 0.115
+        },
+        {
+          "t": 1740916805,
+          "p": 0.115
+        },
+        {
+          "t": 1741176004,
+          "p": 0.095
+        },
+        {
+          "t": 1741435204,
+          "p": 0.095
+        },
+        {
+          "t": 1741694405,
+          "p": 0.09
+        },
+        {
+          "t": 1741953605,
+          "p": 0.08
+        },
+        {
+          "t": 1742212805,
+          "p": 0.08
+        },
+        {
+          "t": 1742472006,
+          "p": 0.075
+        },
+        {
+          "t": 1742731205,
+          "p": 0.075
+        },
+        {
+          "t": 1742990405,
+          "p": 0.075
+        },
+        {
+          "t": 1743249606,
+          "p": 0.065
+        },
+        {
+          "t": 1743508805,
+          "p": 0.065
+        },
+        {
+          "t": 1743768007,
+          "p": 0.075
+        },
+        {
+          "t": 1744027205,
+          "p": 0.075
+        },
+        {
+          "t": 1744243205,
+          "p": 0.075
+        },
+        {
+          "t": 1744502405,
+          "p": 0.075
+        },
+        {
+          "t": 1744761605,
+          "p": 0.065
+        },
+        {
+          "t": 1745020806,
+          "p": 0.065
+        },
+        {
+          "t": 1745280006,
+          "p": 0.07
+        },
+        {
+          "t": 1745539206,
+          "p": 0.065
+        },
+        {
+          "t": 1745798405,
+          "p": 0.065
+        },
+        {
+          "t": 1746057606,
+          "p": 0.06
+        },
+        {
+          "t": 1746316805,
+          "p": 0.06
+        },
+        {
+          "t": 1746576005,
+          "p": 0.055
+        },
+        {
+          "t": 1746835206,
+          "p": 0.055
+        },
+        {
+          "t": 1747094406,
+          "p": 0.055
+        },
+        {
+          "t": 1747353606,
+          "p": 0.055
+        },
+        {
+          "t": 1747612806,
+          "p": 0.065
+        },
+        {
+          "t": 1747872007,
+          "p": 0.065
+        },
+        {
+          "t": 1748131206,
+          "p": 0.065
+        },
+        {
+          "t": 1748390406,
+          "p": 0.06
+        },
+        {
+          "t": 1748649607,
+          "p": 0.055
+        },
+        {
+          "t": 1748908807,
+          "p": 0.06
+        },
+        {
+          "t": 1749168006,
+          "p": 0.055
+        },
+        {
+          "t": 1749427207,
+          "p": 0.05
+        },
+        {
+          "t": 1749686407,
+          "p": 0.05
+        },
+        {
+          "t": 1749945608,
+          "p": 0.055
+        },
+        {
+          "t": 1750204808,
+          "p": 0.055
+        },
+        {
+          "t": 1750464008,
+          "p": 0.05
+        },
+        {
+          "t": 1750723207,
+          "p": 0.045
+        },
+        {
+          "t": 1750982407,
+          "p": 0.045
+        },
+        {
+          "t": 1751241607,
+          "p": 0.045
+        },
+        {
+          "t": 1751500808,
+          "p": 0.045
+        },
+        {
+          "t": 1751760007,
+          "p": 0.045
+        },
+        {
+          "t": 1751976007,
+          "p": 0.045
+        },
+        {
+          "t": 1752235209,
+          "p": 0.045
+        },
+        {
+          "t": 1752494407,
+          "p": 0.04
+        },
+        {
+          "t": 1752753607,
+          "p": 0.04
+        },
+        {
+          "t": 1753012808,
+          "p": 0.055
+        },
+        {
+          "t": 1753272009,
+          "p": 0.033
+        },
+        {
+          "t": 1753531210,
+          "p": 0.032
+        },
+        {
+          "t": 1753790408,
+          "p": 0.0325
+        },
+        {
+          "t": 1754049609,
+          "p": 0.0345
+        },
+        {
+          "t": 1754308808,
+          "p": 0.035
+        },
+        {
+          "t": 1754568004,
+          "p": 0.032
+        },
+        {
+          "t": 1754827209,
+          "p": 0.0325
+        },
+        {
+          "t": 1755086414,
+          "p": 0.0325
+        },
+        {
+          "t": 1755345619,
+          "p": 0.032
+        },
+        {
+          "t": 1755604818,
+          "p": 0.032
+        },
+        {
+          "t": 1755864015,
+          "p": 0.032
+        },
+        {
+          "t": 1756123210,
+          "p": 0.032
+        },
+        {
+          "t": 1756382422,
+          "p": 0.0265
+        },
+        {
+          "t": 1756641615,
+          "p": 0.0265
+        },
+        {
+          "t": 1756900824,
+          "p": 0.0265
+        },
+        {
+          "t": 1757160005,
+          "p": 0.0265
+        },
+        {
+          "t": 1757419212,
+          "p": 0.0265
+        },
+        {
+          "t": 1757678437,
+          "p": 0.0315
+        },
+        {
+          "t": 1757937612,
+          "p": 0.035
+        },
+        {
+          "t": 1758196830,
+          "p": 0.0355
+        },
+        {
+          "t": 1758456022,
+          "p": 0.0425
+        },
+        {
+          "t": 1758715208,
+          "p": 0.047
+        },
+        {
+          "t": 1758974411,
+          "p": 0.046
+        },
+        {
+          "t": 1759233603,
+          "p": 0.0275
+        },
+        {
+          "t": 1759492806,
+          "p": 0.027
+        },
+        {
+          "t": 1759708809,
+          "p": 0.0275
+        },
+        {
+          "t": 1759968010,
+          "p": 0.035
+        },
+        {
+          "t": 1760227208,
+          "p": 0.0315
+        },
+        {
+          "t": 1760486411,
+          "p": 0.0335
+        },
+        {
+          "t": 1760745606,
+          "p": 0.0335
+        },
+        {
+          "t": 1761004817,
+          "p": 0.0305
+        },
+        {
+          "t": 1761264021,
+          "p": 0.0315
+        },
+        {
+          "t": 1761523220,
+          "p": 0.032
+        },
+        {
+          "t": 1761825629,
+          "p": 0.038
+        },
+        {
+          "t": 1762084828,
+          "p": 0.0335
+        },
+        {
+          "t": 1762344032,
+          "p": 0.0325
+        },
+        {
+          "t": 1762603243,
+          "p": 0.0255
+        },
+        {
+          "t": 1762862446,
+          "p": 0.0185
+        },
+        {
+          "t": 1763121636,
+          "p": 0.0145
+        },
+        {
+          "t": 1763380830,
+          "p": 0.0155
+        },
+        {
+          "t": 1763640019,
+          "p": 0.012
+        },
+        {
+          "t": 1763899218,
+          "p": 0.011
+        },
+        {
+          "t": 1764158449,
+          "p": 0.0155
+        },
+        {
+          "t": 1764417641,
+          "p": 0.0135
+        },
+        {
+          "t": 1764720028,
+          "p": 0.0085
+        },
+        {
+          "t": 1764979221,
+          "p": 0.0025
+        },
+        {
+          "t": 1765238430,
+          "p": 0.0095
+        },
+        {
+          "t": 1765497619,
+          "p": 0.005
+        },
+        {
+          "t": 1765756826,
+          "p": 0.005
+        },
+        {
+          "t": 1765972833,
+          "p": 0.0045
+        },
+        {
+          "t": 1766232024,
+          "p": 0.006
+        },
+        {
+          "t": 1766491226,
+          "p": 0.005
+        },
+        {
+          "t": 1766750420,
+          "p": 0.0035
+        },
+        {
+          "t": 1767009621,
+          "p": 0.0025
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1737288003,
+          "p": 0.135,
+          "delta": 0.05
+        },
+        {
+          "t": 1741737605,
+          "p": 0.08,
+          "delta": -0.055
+        },
+        {
+          "t": 1756252811,
+          "p": 0.028,
+          "delta": -0.052
+        }
+      ],
+      "price_at_open": 0.085,
+      "price_at_close": 0.001,
+      "min_price": 0.0005,
+      "max_price": 0.145,
+      "final_price": 0.001,
+      "fetched_at": "2026-04-27T07:57:45.032092+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20250121_001_ad2b0238",
+        "date": "2025-01-21 00:00",
+        "title": "Peak market sentiment shift",
+        "description": "Peak market sentiment shift around Musk's wealth pushing boundaries.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nShifted sentiment away from continuous growth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250122_002_de4008d5",
+        "date": "2025-01-22 00:00",
+        "title": "Trough and recovery in Tesla stock",
+        "description": "Trough and recovery in Tesla's stock price, demonstrating market volatility.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRe-established baseline volatility.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250601_007_89f0e0af",
+        "date": "2025-06-01 00:00",
+        "title": "Tesla faces uneven market environment",
+        "description": "Tesla faces an uneven market environment throughout 2025.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUneven market environment hindered growth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250615_003_1dcfdf00",
+        "date": "2025-06-15 00:00",
+        "title": "SpaceX valuation surges",
+        "description": "SpaceX's valuation surges, increasing Musk's theoretical net worth.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSurge in valuation pushed towards $1T.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250615_004_fd3d495c",
+        "date": "2025-06-15 00:00",
+        "title": "SpaceX IPO rumors circulate",
+        "description": "Rumors of a potential SpaceX IPO circulate.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIPO rumors increased theoretical net worth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251001_008_bf4ed231",
+        "date": "2025-10-01 00:00",
+        "title": "Market corrections in final quarter",
+        "description": "Market corrections in the final quarter of 2025.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket corrections constrained wealth accumulation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251101_005_8ef4942e",
+        "date": "2025-11-01 00:00",
+        "title": "xAI activities dominate headlines",
+        "description": "xAI activities dominate headlines, adding value.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nxAI growth added value.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251101_006_b53ea574",
+        "date": "2025-11-01 00:00",
+        "title": "Musk's DOGE role adds complexities",
+        "description": "Musk's government efficiency role (DOGE) adds political complexities.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPolitical complexities added risk.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251231_009_3fd58f92",
+        "date": "2025-12-31 00:00",
+        "title": "Cumulative valuation fails to breach $1 trillion",
+        "description": "The cumulative valuation of his holdings fails to breach the $1 trillion mark.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirectly resulted in failure to reach $1T.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250820_010_52a861ba",
+        "date": "2025-08-20 00:00",
+        "title": "DOGE data leak adds political complexities",
+        "description": "Musk's government efficiency role (DOGE) faces a data leak, adding political complexities.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nData leak added political complexities and risk.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/doge-datal-leak-did-elon-195152697.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xb58d0e3b3dd34b2b8d8997e6ce36ca3873bdd6034fe0dde633f11e50d4b18c69",
+    "title": "Will Ukrainian President Volodymyr Zelensky resign from office during 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if President of Ukraine Volodymyr Zelenskyy announces he has resigned or will resign the presidency by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Volodymyr Zelenskyy to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Zelenskyy announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the government of Ukraine; however, a consensus of credible reporting will also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nDespite significant domestic and international pressure, Ukrainian President Volodymyr Zelensky did not resign during 2025. Rumors of his resignation spiked multiple times due to war fatigue, international political shifts (particularly the new US administration under Donald Trump), and domestic corruption scandals. However, Zelensky maintained his position, stating he would only step down after the war concluded or if it guaranteed a favorable peace. The lack of a clear successor and the ongoing state of martial law further cemented his continuation in office through the end of the year.\n\n## Timeline Of Key Events\n- **February 23, 2025:** Zelensky states he is \"ready to quit if it brings peace\" but pushes back against US demands, setting a conditional tone for any resignation rumors [art_politics_20250223_003_59bef146].\n- **March 18, 2025:** Donald Trump labels Zelensky a \"dictator,\" increasing international pressure and straining US-Ukraine relations [art_general_20250318_030_b4071990].\n- **June 1, 2025:** Speculation peaks again as MPs claim Zelensky was \"ordered to resign,\" and he confirms he would resign under specific conditions, though no action is taken [art_politics_20250601_004_810ca962].\n- **July 15, 2025:** Ukraine's Prime Minister resigns, increasing instability and pressure on Zelensky's administration [art_politics_20250715_006_e8e45301].\n- **July 21, 2025:** Public anger against Zelensky grows, marking a watershed moment for wartime Ukraine [art_general_20250721_015_a673bc48].\n- **September 25, 2025:** Zelensky announces he will hold elections during a ceasefire and step down *after* the war, confirming his intention to stay through the immediate conflict [art_politics_20250925_009_01dac203].\n- **November 18, 2025:** The \"Golden toilet scandal\" puts extreme pressure on Zelensky to fire his chief of staff, fueling further resignation rumors [art_general_20251118_013_76611005].\n- **December 3, 2025:** Analysts suggest that if scandal doesn't finish Zelensky, a peace deal might, though he survives the year [art_politics_20251203_005_ad5f563a].\n\n## Causal Chain Analysis\nThe outcome of Zelensky remaining in office was caused by a combination of constitutional constraints and strategic political maneuvering. \n- The ongoing martial law caused elections to be suspended, providing a legal basis for him to remain in power beyond his original term [art_general_20240522_040_70a216c5].\n- External pressure, particularly from the US administration under Donald Trump, triggered intense scrutiny and rumors of forced resignation [art_general_20250318_030_b4071990].\n- This led to Zelensky strategically offering to resign *only* if it guaranteed peace, effectively countering demands for immediate resignation [art_politics_20250223_003_59bef146].\n- Despite domestic scandals like the \"Golden toilet\" affair causing significant public anger [art_general_20251118_013_76611005], the lack of a viable alternative during wartime resulted in his administration weathering these crises.\n- Ultimately, Zelensky's commitment to step down only *after* the war [art_politics_20250925_009_01dac203] ensured he remained in office through the end of 2025.\n\n## Countervailing Factors\nSeveral strong forces pushed towards resignation:\n1. **US Pressure:** The incoming Trump administration's hostility, including labeling him a dictator, created massive diplomatic friction [art_general_20250318_030_b4071990].\n2. **Domestic Scandals:** High-level corruption, notably the \"Golden toilet\" scandal, eroded public trust [art_general_20251118_013_76611005].\n3. **Political Instability:** The resignation of his Prime Minister in July signaled internal fractures [art_politics_20250715_006_e8e45301].\nThese factors failed because the necessity of unified leadership during an active war, combined with martial law preventing immediate elections, outweighed the pressures to resign.\n\n## Event Candidate Inventory\n- E1: Zelensky offers conditional resignation for peace\n  - date: 2025-02-23\n  - why it matters causally: Addressed early rumors and set his baseline condition for leaving office.\n  - source article IDs: art_politics_20250223_003_59bef146\n- E2: Trump labels Zelensky a dictator\n  - date: 2025-03-18\n  - why it matters causally: Spiked international pressure and strained crucial US support.\n  - source article IDs: art_general_20250318_030_b4071990\n- E3: Ukraine Prime Minister resigns\n  - date: 2025-07-15\n  - why it matters causally: Increased domestic instability, though Zelensky absorbed the shock.\n  - source article IDs: art_politics_20250715_006_e8e45301\n- E4: Zelensky commits to post-war departure\n  - date: 2025-09-25\n  - why it matters causally: Clarified his timeline, effectively confirming he would stay through the immediate term.\n  - source article IDs: art_politics_20250925_009_01dac203\n- E5: Golden toilet scandal peaks\n  - date: 2025-11-18\n  - why it matters causally: Created the strongest domestic pressure for leadership change late in the year.\n  - source article IDs: art_general_20251118_013_76611005\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Conditional offer to quit | art_politics_20250223_003_59bef146 | 2025-02-23 | 0.9 | Video evidence exists |\n| Trump's 'dictator' comment | art_general_20250318_030_b4071990 | 2025-03-18 | 0.9 | Widely reported shift in US stance |\n| PM Resignation | art_politics_20250715_006_e8e45301 | 2025-07-15 | 0.9 | Major internal political shift |\n| Post-war departure plan | art_politics_20250925_009_01dac203 | 2025-09-25 | 0.9 | Direct quote from Zelensky |\n| Golden toilet scandal | art_general_20251118_013_76611005 | 2025-11-18 | 0.8 | Highlighted late-year vulnerability |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a forced resignation tied to a US-brokered peace deal that explicitly required his removal as a condition for Russian compliance or continued US aid. Additionally, the corruption scandals could have triggered a vote of no confidence or a military coup, though wartime martial law mitigated these risks.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-02-25T00:09:12.975789+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:36:55+00:00",
+    "polymarket_url": "https://polymarket.com/event/zelensky-resigns-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1740484805,
+          "p": 0.33
+        },
+        {
+          "t": 1740700805,
+          "p": 0.29
+        },
+        {
+          "t": 1740916805,
+          "p": 0.255
+        },
+        {
+          "t": 1741132804,
+          "p": 0.235
+        },
+        {
+          "t": 1741348804,
+          "p": 0.235
+        },
+        {
+          "t": 1741564804,
+          "p": 0.235
+        },
+        {
+          "t": 1741780805,
+          "p": 0.235
+        },
+        {
+          "t": 1742040004,
+          "p": 0.225
+        },
+        {
+          "t": 1742256005,
+          "p": 0.23
+        },
+        {
+          "t": 1742472006,
+          "p": 0.26
+        },
+        {
+          "t": 1742688006,
+          "p": 0.265
+        },
+        {
+          "t": 1742904006,
+          "p": 0.23
+        },
+        {
+          "t": 1743120006,
+          "p": 0.23
+        },
+        {
+          "t": 1743379205,
+          "p": 0.215
+        },
+        {
+          "t": 1743595205,
+          "p": 0.2
+        },
+        {
+          "t": 1743811205,
+          "p": 0.135
+        },
+        {
+          "t": 1744027205,
+          "p": 0.15
+        },
+        {
+          "t": 1744243205,
+          "p": 0.15
+        },
+        {
+          "t": 1744459205,
+          "p": 0.15
+        },
+        {
+          "t": 1744718405,
+          "p": 0.15
+        },
+        {
+          "t": 1744934404,
+          "p": 0.14
+        },
+        {
+          "t": 1745150406,
+          "p": 0.15
+        },
+        {
+          "t": 1745366407,
+          "p": 0.155
+        },
+        {
+          "t": 1745582406,
+          "p": 0.145
+        },
+        {
+          "t": 1745798405,
+          "p": 0.13
+        },
+        {
+          "t": 1746014406,
+          "p": 0.145
+        },
+        {
+          "t": 1746273606,
+          "p": 0.13
+        },
+        {
+          "t": 1746489606,
+          "p": 0.115
+        },
+        {
+          "t": 1746705606,
+          "p": 0.12
+        },
+        {
+          "t": 1746921606,
+          "p": 0.12
+        },
+        {
+          "t": 1747137607,
+          "p": 0.115
+        },
+        {
+          "t": 1747353606,
+          "p": 0.115
+        },
+        {
+          "t": 1747612806,
+          "p": 0.115
+        },
+        {
+          "t": 1747828807,
+          "p": 0.105
+        },
+        {
+          "t": 1748044807,
+          "p": 0.105
+        },
+        {
+          "t": 1748260806,
+          "p": 0.105
+        },
+        {
+          "t": 1748476807,
+          "p": 0.105
+        },
+        {
+          "t": 1748692807,
+          "p": 0.11
+        },
+        {
+          "t": 1748952006,
+          "p": 0.115
+        },
+        {
+          "t": 1749168006,
+          "p": 0.11
+        },
+        {
+          "t": 1749384007,
+          "p": 0.105
+        },
+        {
+          "t": 1749600007,
+          "p": 0.105
+        },
+        {
+          "t": 1749816008,
+          "p": 0.105
+        },
+        {
+          "t": 1750032007,
+          "p": 0.1
+        },
+        {
+          "t": 1750248007,
+          "p": 0.095
+        },
+        {
+          "t": 1750507208,
+          "p": 0.095
+        },
+        {
+          "t": 1750723207,
+          "p": 0.09
+        },
+        {
+          "t": 1750939207,
+          "p": 0.09
+        },
+        {
+          "t": 1751155208,
+          "p": 0.08
+        },
+        {
+          "t": 1751371207,
+          "p": 0.07
+        },
+        {
+          "t": 1751587208,
+          "p": 0.065
+        },
+        {
+          "t": 1751846407,
+          "p": 0.065
+        },
+        {
+          "t": 1752062408,
+          "p": 0.085
+        },
+        {
+          "t": 1752278409,
+          "p": 0.085
+        },
+        {
+          "t": 1752494407,
+          "p": 0.085
+        },
+        {
+          "t": 1752710408,
+          "p": 0.065
+        },
+        {
+          "t": 1752926408,
+          "p": 0.095
+        },
+        {
+          "t": 1753185609,
+          "p": 0.1
+        },
+        {
+          "t": 1753401609,
+          "p": 0.11
+        },
+        {
+          "t": 1753617609,
+          "p": 0.145
+        },
+        {
+          "t": 1753833610,
+          "p": 0.155
+        },
+        {
+          "t": 1754049609,
+          "p": 0.13
+        },
+        {
+          "t": 1754265607,
+          "p": 0.1
+        },
+        {
+          "t": 1754481608,
+          "p": 0.095
+        },
+        {
+          "t": 1754740812,
+          "p": 0.105
+        },
+        {
+          "t": 1754956807,
+          "p": 0.115
+        },
+        {
+          "t": 1755172810,
+          "p": 0.115
+        },
+        {
+          "t": 1755388815,
+          "p": 0.115
+        },
+        {
+          "t": 1755604811,
+          "p": 0.12
+        },
+        {
+          "t": 1755820804,
+          "p": 0.085
+        },
+        {
+          "t": 1756080004,
+          "p": 0.085
+        },
+        {
+          "t": 1756296024,
+          "p": 0.085
+        },
+        {
+          "t": 1756512007,
+          "p": 0.085
+        },
+        {
+          "t": 1756728013,
+          "p": 0.085
+        },
+        {
+          "t": 1756944011,
+          "p": 0.085
+        },
+        {
+          "t": 1757160005,
+          "p": 0.075
+        },
+        {
+          "t": 1757419202,
+          "p": 0.07
+        },
+        {
+          "t": 1757635223,
+          "p": 0.07
+        },
+        {
+          "t": 1757851224,
+          "p": 0.065
+        },
+        {
+          "t": 1758067217,
+          "p": 0.06
+        },
+        {
+          "t": 1758283217,
+          "p": 0.06
+        },
+        {
+          "t": 1758499206,
+          "p": 0.045
+        },
+        {
+          "t": 1758715213,
+          "p": 0.045
+        },
+        {
+          "t": 1758974414,
+          "p": 0.045
+        },
+        {
+          "t": 1759190406,
+          "p": 0.045
+        },
+        {
+          "t": 1759406409,
+          "p": 0.045
+        },
+        {
+          "t": 1759622404,
+          "p": 0.045
+        },
+        {
+          "t": 1759838402,
+          "p": 0.045
+        },
+        {
+          "t": 1760054414,
+          "p": 0.045
+        },
+        {
+          "t": 1760313607,
+          "p": 0.045
+        },
+        {
+          "t": 1760529621,
+          "p": 0.045
+        },
+        {
+          "t": 1760745610,
+          "p": 0.045
+        },
+        {
+          "t": 1760961622,
+          "p": 0.05
+        },
+        {
+          "t": 1761177612,
+          "p": 0.045
+        },
+        {
+          "t": 1761393628,
+          "p": 0.045
+        },
+        {
+          "t": 1761652824,
+          "p": 0.045
+        },
+        {
+          "t": 1761912028,
+          "p": 0.045
+        },
+        {
+          "t": 1762128022,
+          "p": 0.045
+        },
+        {
+          "t": 1762344031,
+          "p": 0.045
+        },
+        {
+          "t": 1762560016,
+          "p": 0.0225
+        },
+        {
+          "t": 1762776027,
+          "p": 0.016
+        },
+        {
+          "t": 1762992023,
+          "p": 0.024
+        },
+        {
+          "t": 1763251218,
+          "p": 0.0605
+        },
+        {
+          "t": 1763467232,
+          "p": 0.0355
+        },
+        {
+          "t": 1763683230,
+          "p": 0.047
+        },
+        {
+          "t": 1763899218,
+          "p": 0.0505
+        },
+        {
+          "t": 1764115219,
+          "p": 0.04
+        },
+        {
+          "t": 1764331239,
+          "p": 0.0435
+        },
+        {
+          "t": 1764633617,
+          "p": 0.045
+        },
+        {
+          "t": 1764849638,
+          "p": 0.024
+        },
+        {
+          "t": 1765065634,
+          "p": 0.0275
+        },
+        {
+          "t": 1765281620,
+          "p": 0.0265
+        },
+        {
+          "t": 1765497618,
+          "p": 0.0145
+        },
+        {
+          "t": 1765713622,
+          "p": 0.0105
+        },
+        {
+          "t": 1765929637,
+          "p": 0.0095
+        },
+        {
+          "t": 1766145622,
+          "p": 0.008
+        },
+        {
+          "t": 1766361620,
+          "p": 0.0065
+        },
+        {
+          "t": 1766577622,
+          "p": 0.0035
+        },
+        {
+          "t": 1766793620,
+          "p": 0.0045
+        },
+        {
+          "t": 1767009621,
+          "p": 0.0035
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1740830405,
+          "p": 0.275,
+          "delta": -0.055
+        },
+        {
+          "t": 1741824006,
+          "p": 0.22,
+          "delta": -0.055
+        },
+        {
+          "t": 1743638405,
+          "p": 0.135,
+          "delta": -0.085
+        },
+        {
+          "t": 1751112007,
+          "p": 0.08,
+          "delta": -0.055
+        },
+        {
+          "t": 1753315209,
+          "p": 0.135,
+          "delta": 0.055
+        },
+        {
+          "t": 1755734408,
+          "p": 0.085,
+          "delta": -0.05
+        },
+        {
+          "t": 1762387214,
+          "p": 0.025,
+          "delta": -0.06
+        },
+        {
+          "t": 1763596817,
+          "p": 0.092,
+          "delta": 0.067
+        },
+        {
+          "t": 1764072033,
+          "p": 0.0395,
+          "delta": -0.0525
+        }
+      ],
+      "price_at_open": 0.33,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.33,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-27T07:57:45.481278+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250318_003_3c6c83b9",
+        "date": "2025-03-18 12:00",
+        "title": "Trump labels Zelensky a dictator",
+        "description": "Donald Trump labels Zelensky a dictator, increasing international pressure.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTrump's comments increase international pressure, pushing towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/trump-zelensky-ukraine-dictator-russia-putin-112845224.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250601_004_96f368e5",
+        "date": "2025-06-01 12:00",
+        "title": "MPs claim Zelensky ordered to resign",
+        "description": "Speculation peaks as MPs claim Zelensky was ordered to resign.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation and claims by MPs push towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.express.co.uk/news/world/2021583/ukraine-president-volodymyr-zelensky-confirms",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250715_005_24fb7e67",
+        "date": "2025-07-15 12:00",
+        "title": "Ukraine Prime Minister resigns",
+        "description": "Ukraine's Prime Minister resigns, increasing instability.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPM's resignation increases instability, pushing towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.latimes.com/world-nation/story/2025-07-15/ukraines-prime-minister-resigns-opening-the-door-to-a-broad-government-reshuffle",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250721_006_8b200cc4",
+        "date": "2025-07-21 12:00",
+        "title": "Public anger against Zelensky grows",
+        "description": "Public anger against Zelensky grows, marking a watershed moment.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPublic anger pushes towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/zelensky-united-ukraine-fight-russia-120000099.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250925_007_836bacd5",
         "date": "2025-09-25 12:00",
-        "title": "Eric Adams abandons reelection bid",
-        "description": "NYC Mayor Eric Adams abandons his reelection bid.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "title": "Zelensky commits to post-war departure",
+        "description": "Zelensky announces he will hold elections during a ceasefire and step down after the war.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nCommitment to step down only after the war makes resignation in 2025 less likely.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/n-y-c-mayor-eric-173750835.html?fr=sycsrp_catchall",
+        "source_url": "https://www.axios.com/2025/09/25/zelensky-elections-ukraine-axios-show",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251015_007_4a43983d",
-        "date": "2025-10-15 12:00",
-        "title": "Mamdani blames Adams and Cuomo for budget deficit",
-        "description": "Zohran Mamdani blames Eric Adams and Andrew Cuomo for a $12 billion budget deficit.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_politics_20251118_008_b03724ee",
+        "date": "2025-11-18 12:00",
+        "title": "Golden toilet scandal peaks",
+        "description": "The Golden toilet scandal puts extreme pressure on Zelensky.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nScandal puts extreme pressure on Zelensky, pushing towards resignation.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/money/economy/mamdani-blames-eric-adams-and-cuomo-for-12-billion-budget-deficit/ar-AA1VbH5k?ocid=BingNewsVerp",
+        "source_url": "https://www.yahoo.com/news/articles/zelensky-under-pressure-fire-chief-104427574.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251025_009_0a6001e8",
-        "date": "2025-10-25 12:00",
-        "title": "Prediction platforms take in $500M in NYC mayoral election trading volume",
-        "description": "Prediction platforms take in $500M in trading volume for the NYC mayoral election.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
+        "id": "evt_politics_20240522_001_32d9578c",
+        "date": "2024-05-22 12:00",
+        "title": "Martial law suspends elections",
+        "description": "Ongoing martial law causes elections to be suspended, providing a legal basis for Zelensky to remain in power.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMartial law suspends elections, making resignation less likely.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/prediction-platforms-500m-nyc-mayoral-144900989.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://townhall.com/tipsheet/leahbarkoukis/2024/05/22/zelensky-term-n2639342",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250223_002_57b8b1ff",
+        "date": "2025-02-23 12:00",
+        "title": "Zelensky offers conditional resignation",
+        "description": "Zelensky states he is ready to quit if it brings peace, pushing back against US demands.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nConditional offer counters demands for immediate resignation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://edition.cnn.com/2025/02/23/europe/ukraine-zelensky-resign-nato-intl?Date=20250223&Profile=CNN",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
