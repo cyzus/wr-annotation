@@ -1410,19 +1410,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250327_011_c0722bda",
-        "date": "2025-03-27 00:00",
-        "title": "Users shift back to reliable AI tools",
-        "description": "Users seek reliable and familiar AI tools amidst geopolitical noise and warnings.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://techcrunch.com/2025/03/27/chatgpt-everything-to-know-about-the-ai-chatbot",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_tech_20250812_004_370677c0",
         "date": "2025-08-12 00:00",
         "title": "Elon Musk plans to sue Apple over ChatGPT's ranking",
@@ -1480,6 +1467,19 @@ var annotationData = [
         "title": "ChatGPT officially reclaims the #1 spot in the US Apple App Store",
         "description": "ChatGPT officially reclaimed the #1 spot in the US Apple App Store.",
         "impact": "**Affects:** Option 1: February 10  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nReclaiming the #1 spot is the outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.tomsguide.com/ai/apple-intelligence/apple-confirms-siri-2-0-is-still-coming-in-2026-heres-what-that-means-for-your-iphone",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20260115_001_b14e4e81",
+        "date": "2026-01-15 00:00",
+        "title": "Competing AI apps face scrutiny and operational limits",
+        "description": "Competing AI apps faced scrutiny and operational limits in early 2026.",
+        "impact": "**Affects:** Option 1: February 10  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCompetitor scrutiny helped ChatGPT.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.tomsguide.com/ai/apple-intelligence/apple-confirms-siri-2-0-is-still-coming-in-2026-heres-what-that-means-for-your-iphone",

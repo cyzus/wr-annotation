@@ -209,19 +209,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20220101_001_7a75b256",
-        "date": "2022-01-01 00:00",
-        "title": "Climate change disproportionately impacts small island developing states",
-        "description": "Small island developing states like Vanuatu face existential threats from the disproportionate impacts of climate change.",
-        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nExistential threat drove the campaign.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20220601_003_0f3120b1",
         "date": "2022-06-01 00:00",
         "title": "Vanuatu forms a core group of 18 countries",
@@ -274,32 +261,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20220101_009_0c23f054",
-        "date": "2022-01-01 00:00",
-        "title": "Large emitting nations historically resist binding legal obligations",
-        "description": "Some large emitting nations historically resist efforts that could create binding legal obligations regarding climate change.",
-        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHistorical resistance was a countervailing factor.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20220601_002_316c2501",
-        "date": "2022-06-01 00:00",
-        "title": "Vanuatu and Pacific Island students begin campaign for ICJ advisory opinion",
-        "description": "Vanuatu, alongside Pacific Island students, begins a diplomatic campaign to seek legal clarity on climate obligations from the ICJ.",
-        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCampaign initiation was the first step.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20220901_004_ce2cd5de",
         "date": "2022-09-01 00:00",
         "title": "Core group drafts the UN General Assembly resolution",
@@ -313,14 +274,53 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20220901_003_3eb0970a",
-        "date": "2022-09-01 00:00",
-        "title": "Vanuatu forms a core group of 18 nations",
-        "description": "Vanuatu forms a core coalition of 18 nations to support the campaign for an ICJ advisory opinion.",
-        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCore group formation built momentum.",
+        "id": "evt_politics_20221001_005_0cd8c623",
+        "date": "2022-10-01 00:00",
+        "title": "Vanuatu launches global diplomatic lobbying campaign",
+        "description": "Vanuatu actively lobbies other member states.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://phys.org/news/2024-12-historic-climate-advisory-case-international.html",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20230101_006_f0c231c0",
+        "date": "2023-01-01 00:00",
+        "title": "Vanuatu frames the resolution around clarification of existing law",
+        "description": "Vanuatu emphasizes an advisory opinion focused on clarification rather than a contentious, legally binding judgment.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20230201_007_a1dda474",
+        "date": "2023-02-01 00:00",
+        "title": "Heavy-emitting countries express initial concern",
+        "description": "Major greenhouse gas-emitting nations express concern over potential financial liability or strict emissions mandates.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInitial concerns from heavy emitters hindered the resolution's progress.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20230215_008_d288bc08",
+        "date": "2023-02-15 00:00",
+        "title": "Vanuatu's diplomatic strategy overwhelms countervailing forces",
+        "description": "The cooperative framing and relentless global diplomacy overcome initial concerns from heavy emitters.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
