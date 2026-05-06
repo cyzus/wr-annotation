@@ -936,11 +936,23 @@
         let PROLIFIC_PID = _urlParams.get('PROLIFIC_PID') || null;
 
         // Assign session via POST (no CORS redirect issue unlike GET).
+        // Caches result in localStorage so the same PID always gets the same session locally.
         // Retries up to 3 times on failure.
         async function maybeAssignSession(attempt) {
             if (SESSION_ID) return;
             if (!PROLIFIC_PID) return;
             attempt = attempt || 0;
+
+            // Check localStorage cache first
+            const cacheKey = 'session_assignment_' + PROLIFIC_PID;
+            const cached = localStorage.getItem(cacheKey);
+            if (cached) {
+                SESSION_ID = cached;
+                const newUrl = new URL(window.location.href);
+                newUrl.searchParams.set('session', SESSION_ID);
+                window.history.replaceState({}, '', newUrl.toString());
+                return;
+            }
 
             try {
                 const res  = await fetch(SUBMIT_ENDPOINT, {
@@ -950,6 +962,7 @@
                 const data = await res.json();
                 if (data.ok && data.session) {
                     SESSION_ID = data.session;
+                    localStorage.setItem(cacheKey, SESSION_ID);
                     const newUrl = new URL(window.location.href);
                     newUrl.searchParams.set('session', SESSION_ID);
                     window.history.replaceState({}, '', newUrl.toString());
