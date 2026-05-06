@@ -1,124 +1,467 @@
 var annotationData = [
   {
-    "id": "q_health_20260131_056_e1a2ca07",
-    "title": "Will the global number of deaths from drug-resistant infections exceed 1 million in 2025?",
+    "id": "polymarket_0xf65fdce18270522fac3f549a4b8812ac7d0e7fdc71dcac8d91caa4d8460aa877",
+    "title": "Will SpaceX Starship Flight Test 11 launch by October 31?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
-    "background": "A question about a major global health threat.",
-    "resolution_criteria": "The question will resolve to YES if the World Health Organization (WHO) reports that the global number of deaths from drug-resistant infections in 2025 was 1 million or more. Otherwise, it will resolve to NO.",
-    "outcome": "True",
-    "explanation": "\n# Required Output Format (use these exact section headings)\n\n## Executive Summary\nThe global number of deaths from drug-resistant infections exceeded 1 million in 2025, driven by systemic failures in antimicrobial stewardship and a rapidly stalling antibiotic pipeline. Widespread and inappropriate use of antibiotics in human medicine and agriculture accelerated the evolution of resistant pathogens. Additionally, high rates of hospital-acquired infections, especially in low- and middle-income countries, compounded the crisis. Reports late in the year confirmed that critical antibiotics were facing unprecedented resistance rates, pushing the global mortality burden well past the 1 million mark.\n\n## Timeline Of Key Events\n- **Mid-2025**: Ongoing struggles with drug-resistant strains like multidrug-resistant TB and malaria exacerbate baseline AMR mortality rates [art_general_20251201_020_555917b7].\n- **October 13, 2025**: The WHO and other surveillance bodies publish global reports highlighting a sharp rise in antibiotic-resistant infections in hospitals [art_health_20251013_004_45456594], alongside comprehensive surveillance summaries [art_health_20251013_002_b2d8de9c].\n- **October 14, 2025**: Clinical data reveals that some critical antibiotics are now showing 79-97% resistance, severely limiting treatment options for severe infections [art_general_20251014_021_f3abcc18].\n- **October 16, 2025**: Consolidated public health data confirms that rising antimicrobial resistance is causing approximately 1.2 million deaths yearly, definitively resolving the threshold question [art_general_20251016_003_b55202c3].\n\n## Causal Chain Analysis\nThe root cause was the decades-long overuse and misuse of antimicrobials across medical, agricultural, and environmental sectors, which fueled selective evolutionary pressure on pathogens. This led to intermediate mechanisms where common bacterial strains developed robust resistance profiles against first- and second-line drugs. Proximate triggers included surges in hospital-acquired infections (often post-pandemic) where vulnerable patients contracted these highly resistant \"superbugs.\" Ultimately, when critical antibiotics demonstrated resistance rates as high as 79-97% [art_general_20251014_021_f3abcc18], clinical interventions failed at unprecedented rates, resulting in the final outcome of over 1.2 million direct AMR deaths in 2025 [art_general_20251016_003_b55202c3].\n\n## Countervailing Factors\nSeveral forces attempted to mitigate this outcome, including global awareness campaigns, enhanced antimicrobial stewardship programs in high-income hospitals, and investments in alternative therapies like phage research. However, these efforts failed to prevent the 1 million death milestone because the economic model for developing new antibiotics remained broken, meaning the pipeline of novel treatments could not keep pace with the rapid mutation and global transmission of resistant pathogens. \n\n## Event Candidate Inventory\n- **E1: Publication of WHO Global Surveillance Report**\n  - **Date**: October 13, 2025\n  - **Why it matters**: Confirmed the widespread nature of the crisis, specifically the sharp rise in hospital-based resistant infections.\n  - **Source article IDs**: [art_health_20251013_004_45456594], [art_health_20251013_002_b2d8de9c]\n- **E2: Clinical Confirmation of Critical Resistance Thresholds**\n  - **Date**: October 14, 2025\n  - **Why it matters**: Provided the mechanistic reason for rising mortality; with 79-97% resistance to critical antibiotics, doctors were left without viable treatments.\n  - **Source article IDs**: [art_general_20251014_021_f3abcc18]\n- **E3: Public Release of Annual AMR Mortality Estimates**\n  - **Date**: October 16, 2025\n  - **Why it matters**: Provided the definitive statistical evidence that the 1 million death threshold had been breached (1.2M deaths).\n  - **Source article IDs**: [art_general_20251016_003_b55202c3]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Critical antibiotics show 79-97% resistance | [art_general_20251014_021_f3abcc18] | October 14, 2025 | 0.95 | Explains why treatments failed. |\n| Sharp rise in hospital-acquired resistant infections | [art_health_20251013_004_45456594], [art_health_20251013_002_b2d8de9c] | October 13, 2025 | 0.95 | WHO surveillance data. |\n| AMR causes 1.2 million deaths yearly | [art_general_20251016_003_b55202c3] | October 16, 2025 | 0.99 | Direct evidence of the 1 million threshold being exceeded. |\n\n## Uncertainties And Alternative Paths\nWhile the 1 million threshold was officially exceeded, there remains uncertainty around the exact number due to variations in how cause of death is recorded in low-resource settings (i.e., dying *with* AMR vs. dying *from* AMR). An alternative path could have occurred if a major breakthrough in broad-spectrum novel antibiotics or rapid point-of-care diagnostics had been deployed globally early in the decade, which might have suppressed mortality growth just enough to keep it under 1 million for 2025.\n",
-    "is_polymarket": false,
+    "background": "No background available.",
+    "resolution_criteria": "If the 11th SpaceX Starship successfully launches from its launch pad by October 31, 2025, 11:59 PM ET, this market will resolve to “Yes”. Otherwise, this market will resolve to “No.”\n\nThe outcome of any launch will be corroborated by examining official video provided by SpaceX (https://www.youtube.com/c/SpaceX), as well as secondary video feeds and/or written reports if necessary.\n\nAny subsequent anomaly (e.g., an explosion) after the launch will have no bearing on the outcome. Any name change of the Starship with another vehicle will have no bearing on the outcome of the market.",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe successful launch of SpaceX Starship Flight Test 11 by October 31, specifically on October 14, 2025, was driven by swift regulatory approval and flawless pre-flight preparations. Following successful earlier test flights that demonstrated vehicle reliability, SpaceX was able to maintain an aggressive launch cadence. The FAA granted necessary clearances well ahead of time, and the static-fire tests proceeded without major issues. Consequently, this alignment of technical readiness and regulatory green lights resulted in the positive resolution.\n\n## Timeline Of Key Events\n- **2025-09-18:** Significant market sentiment shift occurred as key pre-flight milestones like static fires and FAA clearances began to materialize ([art_business_20251014_028_ee98415a]).\n- **2025-10-12:** Final stacking and readiness were confirmed, leading to a recovery in market confidence ([art_business_20251014_003_7029c1ea]).\n- **2025-10-14:** SpaceX successfully launched Starship Flight Test 11, resolving the question as Yes ([art_science_20251014_004_f0c1ce00]).\n\n## Causal Chain Analysis\n- **Root Cause:** The success of preceding flights (Flights 9 and 10) proved the reliability of the Super Heavy booster and Starship upper stage, which **caused** a high degree of confidence and an accelerated launch schedule ([art_general_20251014_006_b91a5310]).\n- **Intermediate Mechanism:** This technical foundation **led to** rapid and successful ground testing, including static fires, and facilitated smooth regulatory interactions with the FAA ([art_science_20251014_007_3d04ea1a]).\n- **Proximate Trigger:** The FAA issued the final launch license in early October and the final stacking was completed on October 12, which **triggered** the final countdown ([art_business_20251014_003_7029c1ea]).\n- **Final Outcome:** These preparations **resulted in** the successful launch on October 14, 2025, well before the October 31 deadline ([art_science_20251014_004_f0c1ce00]).\n\n## Countervailing Factors\nSome initial concerns regarding potential FAA regulatory delays and technical anomalies during stacking created brief dips in market sentiment, particularly around October 12. However, these factors failed to derail the launch because SpaceX quickly addressed the technical checks and the FAA had already laid the groundwork for expedited approvals based on past flight data.\n\n## Event Candidate Inventory\n- E1: FAA Launch License Approval\n  - title: FAA Grants License for Flight 11\n  - date: Early October 2025\n  - why it matters causally: Allowed the physical launch to proceed legally.\n  - source article IDs: [art_business_20251014_028_ee98415a]\n- E2: Final Vehicle Stacking\n  - title: Super Heavy and Starship Stacked\n  - date: 2025-10-12\n  - why it matters causally: Physical readiness of the vehicle was confirmed, setting the stage for launch.\n  - source article IDs: [art_business_20251014_003_7029c1ea]\n- E3: Successful Starship Flight 11 Launch\n  - title: Starship Flight 11 Launches Successfully\n  - date: 2025-10-14\n  - why it matters causally: The direct event that resolved the market.\n  - source article IDs: [art_science_20251014_004_f0c1ce00]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Pre-flight milestones on Sep 18 | [art_business_20251014_028_ee98415a] | 2025-09-18 | 0.9 | Matches turning point |\n| Final stacking on Oct 12 | [art_business_20251014_003_7029c1ea] | 2025-10-12 | 0.9 | Matches turning point |\n| Successful launch on Oct 14 | [art_science_20251014_004_f0c1ce00] | 2025-10-14 | 1.0 | Resolution event |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was weather conditions at Boca Chica and potential last-minute scrub triggers. An alternative path would have been a technical abort during the terminal count that could have pushed the launch into November, but the robust systems prevented this.\n",
+    "is_polymarket": true,
     "is_overlap": true,
-    "market_open": "2025-01-01T00:00:00+00:00",
+    "market_open": "2025-09-09T21:17:37.787731+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-31T23:59:59+00:00",
-    "polymarket_url": null,
-    "price_data": null,
+    "market_close": "2025-10-14T01:30:01+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-spacex-starship-flight-test-11-launch-by-october-31",
+    "price_data": {
+      "history": [
+        {
+          "t": 1757462402,
+          "p": 0.69
+        },
+        {
+          "t": 1757505603,
+          "p": 0.82
+        },
+        {
+          "t": 1757548813,
+          "p": 0.76
+        },
+        {
+          "t": 1757592012,
+          "p": 0.815
+        },
+        {
+          "t": 1757635227,
+          "p": 0.815
+        },
+        {
+          "t": 1757678418,
+          "p": 0.815
+        },
+        {
+          "t": 1757721604,
+          "p": 0.82
+        },
+        {
+          "t": 1757764812,
+          "p": 0.82
+        },
+        {
+          "t": 1757808016,
+          "p": 0.825
+        },
+        {
+          "t": 1757851235,
+          "p": 0.825
+        },
+        {
+          "t": 1757894405,
+          "p": 0.87
+        },
+        {
+          "t": 1757937612,
+          "p": 0.86
+        },
+        {
+          "t": 1757980820,
+          "p": 0.86
+        },
+        {
+          "t": 1758024023,
+          "p": 0.87
+        },
+        {
+          "t": 1758067204,
+          "p": 0.87
+        },
+        {
+          "t": 1758110425,
+          "p": 0.87
+        },
+        {
+          "t": 1758153610,
+          "p": 0.925
+        },
+        {
+          "t": 1758196834,
+          "p": 0.935
+        },
+        {
+          "t": 1758240014,
+          "p": 0.935
+        },
+        {
+          "t": 1758283229,
+          "p": 0.915
+        },
+        {
+          "t": 1758326414,
+          "p": 0.915
+        },
+        {
+          "t": 1758369637,
+          "p": 0.92
+        },
+        {
+          "t": 1758412809,
+          "p": 0.92
+        },
+        {
+          "t": 1758456017,
+          "p": 0.92
+        },
+        {
+          "t": 1758499214,
+          "p": 0.92
+        },
+        {
+          "t": 1758542417,
+          "p": 0.925
+        },
+        {
+          "t": 1758585610,
+          "p": 0.925
+        },
+        {
+          "t": 1758628803,
+          "p": 0.925
+        },
+        {
+          "t": 1758672004,
+          "p": 0.93
+        },
+        {
+          "t": 1758715212,
+          "p": 0.945
+        },
+        {
+          "t": 1758758405,
+          "p": 0.93
+        },
+        {
+          "t": 1758801613,
+          "p": 0.935
+        },
+        {
+          "t": 1758844809,
+          "p": 0.95
+        },
+        {
+          "t": 1758888007,
+          "p": 0.935
+        },
+        {
+          "t": 1758931205,
+          "p": 0.93
+        },
+        {
+          "t": 1758974414,
+          "p": 0.93
+        },
+        {
+          "t": 1759017612,
+          "p": 0.935
+        },
+        {
+          "t": 1759060803,
+          "p": 0.935
+        },
+        {
+          "t": 1759104005,
+          "p": 0.935
+        },
+        {
+          "t": 1759147216,
+          "p": 0.935
+        },
+        {
+          "t": 1759190412,
+          "p": 0.93
+        },
+        {
+          "t": 1759233615,
+          "p": 0.935
+        },
+        {
+          "t": 1759276804,
+          "p": 0.935
+        },
+        {
+          "t": 1759320003,
+          "p": 0.935
+        },
+        {
+          "t": 1759363210,
+          "p": 0.935
+        },
+        {
+          "t": 1759406410,
+          "p": 0.935
+        },
+        {
+          "t": 1759449602,
+          "p": 0.945
+        },
+        {
+          "t": 1759492807,
+          "p": 0.945
+        },
+        {
+          "t": 1759536004,
+          "p": 0.945
+        },
+        {
+          "t": 1759579208,
+          "p": 0.945
+        },
+        {
+          "t": 1759622408,
+          "p": 0.945
+        },
+        {
+          "t": 1759665602,
+          "p": 0.935
+        },
+        {
+          "t": 1759708807,
+          "p": 0.935
+        },
+        {
+          "t": 1759752006,
+          "p": 0.935
+        },
+        {
+          "t": 1759795205,
+          "p": 0.935
+        },
+        {
+          "t": 1759838409,
+          "p": 0.94
+        },
+        {
+          "t": 1759881614,
+          "p": 0.94
+        },
+        {
+          "t": 1759924806,
+          "p": 0.94
+        },
+        {
+          "t": 1759968012,
+          "p": 0.945
+        },
+        {
+          "t": 1760011217,
+          "p": 0.9645
+        },
+        {
+          "t": 1760054418,
+          "p": 0.9645
+        },
+        {
+          "t": 1760097603,
+          "p": 0.964
+        },
+        {
+          "t": 1760140814,
+          "p": 0.9645
+        },
+        {
+          "t": 1760184012,
+          "p": 0.9645
+        },
+        {
+          "t": 1760227211,
+          "p": 0.9545
+        },
+        {
+          "t": 1760270417,
+          "p": 0.968
+        },
+        {
+          "t": 1760313610,
+          "p": 0.968
+        },
+        {
+          "t": 1760356803,
+          "p": 0.961
+        },
+        {
+          "t": 1760400008,
+          "p": 0.9995
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1757505603,
+          "p": 0.82,
+          "delta": 0.13
+        },
+        {
+          "t": 1757548813,
+          "p": 0.76,
+          "delta": -0.06
+        },
+        {
+          "t": 1757592012,
+          "p": 0.815,
+          "delta": 0.055
+        },
+        {
+          "t": 1757894405,
+          "p": 0.87,
+          "delta": 0.055
+        },
+        {
+          "t": 1758153610,
+          "p": 0.925,
+          "delta": 0.055
+        },
+        {
+          "t": 1760400008,
+          "p": 0.9995,
+          "delta": 0.0745
+        }
+      ],
+      "price_at_open": 0.69,
+      "price_at_close": 0.9995,
+      "min_price": 0.69,
+      "max_price": 0.9995,
+      "final_price": 0.9995,
+      "fetched_at": "2026-04-20T17:08:10.375184+00:00"
+    },
     "events": [
       {
-        "id": "evt_tech_20250814_008_d1b7084a",
-        "date": "2025-08-14 15:00",
-        "title": "Generative AI designs compounds to kill drug-resistant bacteria",
-        "description": "Generative AI is used to design new compounds capable of killing drug-resistant bacteria.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nNew antibiotics could mitigate AMR deaths, making the 1 million threshold less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://phys.org/news/2025-08-generative-ai-compounds-drug-resistant.html",
+        "id": "evt_science_20250915_012_86b19002",
+        "date": "2025-09-15 00:00",
+        "title": "Successful Booster Static Fire Test for Flight 11",
+        "description": "SpaceX conducted a successful static fire test of the Super Heavy booster for Flight 11, ensuring the readiness of the first stage for launch.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.nasaspaceflight.com/2025/09/ten-flights-starship-program-successes-failures",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_health_20251013_001_4749c372",
+        "id": "evt_tech_20250918_004_74b05e1a",
+        "date": "2025-09-18 00:00",
+        "title": "SpaceX conducts successful static fire tests",
+        "description": "SpaceX conducts successful static fire tests for Flight 11.",
+        "impact": "**Affects:** Yes - Will SpaceX Starship Flight Test 11 launch by Octo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSuccessful static fires were a key technical milestone.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.astronomy.com/space-exploration/starships-11th-test-flight-marks-new-era-for-spacex-rocket",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_science_20250920_010_51567ae4",
+        "date": "2025-09-20 00:00",
+        "title": "Starship Flight 11 Vehicle Rolled Out to Launch Pad",
+        "description": "The fully stacked Starship vehicle for Flight 11 was rolled out to the launch pad at Starbase, in preparation for pre-flight testing.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://spaceexplored.com/2025/09/26/is-starship-back-spacex-prepares-for-flight-11",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_science_20250923_007_cadfe0b4",
+        "date": "2025-09-23 00:00",
+        "title": "Starship Flight 11 Completes Static Fire Test",
+        "description": "The Starship vehicle for Flight 11 successfully completed a static fire test of its Raptor engines, a critical milestone before launch.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.digitaltrends.com/space/watch-spacex-blast-starship-engines-ahead-of-11th-flight",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250925_004_ebbba121",
+        "date": "2025-09-25 12:00",
+        "title": "Starship Flight 11 Vehicle Rolled Out",
+        "description": "The vehicle for Starship Flight 11 is rolled out to the launch pad.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/science/articles/time-spacexs-starship-flight-11-120000460.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_science_20251001_010_c6358a72",
+        "date": "2025-10-01 00:00",
+        "title": "SpaceX Announces Official Launch Date for Flight 11",
+        "description": "SpaceX officially announced the launch date for Starship Flight 11, confirming the mission's readiness for a specific launch window.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/science/articles/spacex-announces-october-date-next-154127223.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251010_007_6d1aa13d",
+        "date": "2025-10-10 00:00",
+        "title": "SpaceX addresses technical checks",
+        "description": "SpaceX quickly addresses technical checks during stacking.",
+        "impact": "**Affects:** Yes - Will SpaceX Starship Flight Test 11 launch by Octo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAddressing technical checks kept the timeline intact.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnbc.com/2025/10/14/spacex-completes-11th-starship-test-before-debuting-upgraded-prototype.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_science_20251012_011_91ffdbce",
+        "date": "2025-10-12 00:00",
+        "title": "Starship Flight 11 is the Final Test of the V2 Prototype",
+        "description": "SpaceX announces that the eleventh flight test will be the final one for the V2 prototype of Starship, with the next flights utilizing the upgraded V3 design.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://nasaspacenews.com/2025/10/spacex-starship-flight-11-final-version-2-test-before-revolutionary-v3-debut",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_science_20251013_012_ff0408ad",
         "date": "2025-10-13 00:00",
-        "title": "WHO publishes global antibiotic resistance surveillance report",
-        "description": "The WHO publishes a comprehensive global surveillance report highlighting the state of antimicrobial resistance.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.who.int/publications/i/item/B09585",
+        "title": "SpaceX Completes Final Launch Readiness Review",
+        "description": "SpaceX's mission controllers complete the final launch readiness review, giving the green light for the countdown to proceed.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://arstechnica.com/science/2025/10/starships-elementary-era-ends-today-with-mega-rockets-11th-test-flight",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_health_20251013_002_df7050a7",
-        "date": "2025-10-13 00:00",
-        "title": "WHO reports sharp global rise in hospital antibiotic-resistant infections",
-        "description": "The WHO reports a sharp increase in antibiotic-resistant infections specifically within hospital settings globally.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
+        "id": "evt_science_20251014_010_fa31b225",
+        "date": "2025-10-14 00:00",
+        "title": "SpaceX successfully launches Starship Flight 11",
+        "description": "SpaceX successfully launches Starship Flight Test 11.",
+        "impact": "**Affects:** Yes - Will SpaceX Starship Flight Test 11 launch by Octo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSuccessful launch resolved the question.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.theguardian.com/world/2025/oct/13/sharp-global-rise-in-antibiotic-resistant-infections-in-hospitals-who-finds",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251013_006_3a17c8d4",
-        "date": "2025-10-13 00:00",
-        "title": "UN health agency warns of surging antibiotic resistance globally",
-        "description": "The UN health agency issues a warning about the global surge in antibiotic resistance.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://news.un.org/en/story/2025/10/1166087",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251013_007_733ed169",
-        "date": "2025-10-13 00:00",
-        "title": "WHO warns of widespread resistance to common antibiotics worldwide",
-        "description": "The WHO issues a warning regarding widespread resistance to common antibiotics across the globe.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.who.int/news/item/13-10-2025-who-warns-of-widespread-resistance-to-common-antibiotics-worldwide",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251014_003_ef9fa98b",
-        "date": "2025-10-14 18:27",
-        "title": "Clinical data reveals 79-97% resistance in critical antibiotics",
-        "description": "Clinical data shows that some critical antibiotics are experiencing resistance rates between 79% and 97%.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.thedailystar.net/health/disease/who/news/some-critical-antibiotics-now-show-79-97-resistance-4010276",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251016_004_5fd78a19",
-        "date": "2025-10-16 12:30",
-        "title": "Public health data confirms 1.2 million yearly AMR deaths",
-        "description": "Consolidated public health data confirms that antimicrobial resistance is causing approximately 1.2 million deaths yearly.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.webpronews.com/rising-antimicrobial-resistance-1-2m-deaths-yearly-10m-projected-by-2050",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251201_005_9dd671e8",
-        "date": "2025-12-01 21:00",
-        "title": "Researchers report ongoing struggles with multidrug-resistant TB",
-        "description": "Reports indicate ongoing struggles with drug-resistant strains like multidrug-resistant TB, exacerbating baseline AMR mortality rates.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://phys.org/news/2025-12-heart-barrier-drug-resistant-tb.html",
+        "in_market_window": true,
+        "source_url": "https://www.scientificamerican.com/article/spacexs-starship-succeeds-in-final-test-flight-of-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -126,444 +469,1413 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_politics_20241106_041_0b38c65c",
-    "title": "Will there be a change in the party that controls the US Senate after the 2024 elections?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "A key outcome of the 2024 US elections with significant implications for the legislative agenda.",
-    "resolution_criteria": "The question will resolve to YES if the party with the majority of seats in the US Senate changes as a result of the 2024 elections. Otherwise, it will resolve to NO.",
-    "outcome": "True",
-    "explanation": "\n## Executive Summary\nThe change in party control of the US Senate after the 2024 elections, resulting in a Republican majority, was primarily driven by a highly favorable electoral map for Republicans. Democrats had to defend multiple seats in deep-red states (such as West Virginia, Montana, and Ohio), which made retaining their narrow majority extremely difficult. The retirement of Joe Manchin in West Virginia essentially guaranteed a Republican pickup, while strong Republican challengers and national political dynamics in states like Montana and Ohio further tipped the balance. Consequently, Republicans successfully flipped enough seats to gain control of the chamber.\n\n## Timeline Of Key Events\n- Early 2024: The electoral map is widely recognized as heavily favoring Republicans, with Democrats defending seats in red states. (e.g. art_general_20241106_004_906d92c5)\n- Spring/Summer 2024: Polling and fundraising numbers solidify the vulnerability of Democratic incumbents in Montana (Jon Tester) and Ohio (Sherrod Brown).\n- November 5-6, 2024: Election Day results confirm Republican victories in key battleground states, officially flipping control of the Senate.\n\n## Causal Chain Analysis\n- **Root Cause: The Electoral Map:** The 2024 Senate map required Democrats to defend far more seats than Republicans, including several in states that heavily favor the GOP. (art_general_20241106_004_906d92c5)\n- **Intermediate Mechanism: Key Retirements and Vulnerabilities:** The retirement of Senator Joe Manchin in West Virginia removed a crucial Democratic incumbent in a deeply red state, effectively guaranteeing a Republican pickup. Additionally, incumbents in Montana and Ohio faced uphill battles.\n- **Proximate Trigger: Election Results:** On Election Day, Republican candidates successfully capitalized on their structural advantages and national party strength to defeat Democratic incumbents and win open seats.\n- **Final Outcome:** The accumulation of these victories resulted in a net gain of seats for the Republican Party, giving them majority control of the US Senate. (art_general_20240101_002_fd68d184)\n\n## Countervailing Factors\n- **Democratic Fundraising:** Democratic incumbents generally had strong fundraising advantages, allowing them to run extensive ad campaigns.\n- **Candidate Quality:** Some Republican candidates faced scrutiny or primary challenges, but this was ultimately insufficient to overcome the structural advantages of the red states they ran in.\n\n## Event Candidate Inventory\n- E1: West Virginia Senate Seat Flip\n  - Date: 2024-11-05\n  - Why it matters causally: Guaranteed a Republican pickup due to the retirement of the Democratic incumbent in a red state.\n  - Source article IDs: art_general_20241106_004_906d92c5\n- E2: Ohio Senate Seat Flip\n  - Date: 2024-11-05\n  - Why it matters causally: A key victory over a vulnerable Democratic incumbent, necessary for Republicans to gain the majority.\n  - Source article IDs: art_general_20241106_004_906d92c5\n- E3: Montana Senate Seat Flip\n  - Date: 2024-11-05\n  - Why it matters causally: Another crucial victory in a red state, cementing the Republican majority.\n  - Source article IDs: art_general_20241106_004_906d92c5\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Highly favorable map for Republicans | art_general_20241106_004_906d92c5 | 2024-01 to 2024-11 | 0.95 | Structural advantage widely acknowledged |\n| West Virginia seat flip | art_politics_20241106_002_349b6417 | 2024-11-05 | 1.0 | Manchin retirement made it a lock |\n| Ohio and Montana flips | art_politics_20241106_003_b0ee5c66 | 2024-11-05 | 0.9 | Key battlegrounds won by GOP |\n\n## Uncertainties And Alternative Paths\n- If Democratic incumbents in Ohio or Montana had managed to hold on due to their incumbency advantage or strong fundraising, the Senate might have remained split 50-50 or under narrow Democratic control.\n- If Republican primary voters had selected candidates deemed less electable in the general election, Democrats might have retained some of these vulnerable seats.\n",
-    "is_polymarket": false,
-    "is_overlap": true,
-    "market_open": "2024-01-01T00:00:00+00:00",
-    "market_open_estimated": false,
-    "market_close": "2024-11-06T23:59:59+00:00",
-    "polymarket_url": null,
-    "price_data": null,
-    "events": [
-      {
-        "id": "evt_politics_20240101_001_aad83686",
-        "date": "2024-01-01 00:00",
-        "title": "2024 Senate Electoral Map Favors Republicans",
-        "description": "The 2024 Senate map required Democrats to defend far more seats than Republicans, including several in states that heavily favor the GOP.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.ft.com/content/002fe4ce-14f3-44b5-a617-6015d0c3e11d",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20240630_004_cdc32fae",
-        "date": "2024-06-30 00:00",
-        "title": "Sherrod Brown Vulnerability Solidifies in Ohio",
-        "description": "Polling and fundraising numbers solidify the vulnerability of Democratic incumbent Sherrod Brown in Ohio.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.yahoo.com/news/articles/10-senate-races-could-decide-100020321.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20240708_003_3b9e9c35",
-        "date": "2024-07-08 00:00",
-        "title": "Jon Tester Vulnerability Solidifies in Montana",
-        "description": "Polling and fundraising numbers solidify the vulnerability of Democratic incumbent Jon Tester in Montana.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.politico.com/live-updates/2024/07/08/congress/biden-cbc-meeting-readout-00166962",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20240722_002_3ba2c625",
-        "date": "2024-07-22 00:00",
-        "title": "Joe Manchin Retires in West Virginia",
-        "description": "The retirement of Senator Joe Manchin in West Virginia removed a crucial Democratic incumbent in a deeply red state.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nytimes.com/2024/07/22/us/politics/joe-manchin-presidential-run.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20240822_008_f6c67a77",
-        "date": "2024-08-22 00:00",
-        "title": "Democratic Incumbents Raise Strong Funds",
-        "description": "Democratic incumbents generally had strong fundraising advantages, allowing them to run extensive ad campaigns.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInhibited Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.politico.com/live-updates/2024/08/22/dnc-live-updates-coverage/ann-coulter-tweet-gus-walz-00175842",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20240915_009_b55f07aa",
-        "date": "2024-09-15 00:00",
-        "title": "Republican Candidates Face Scrutiny",
-        "description": "Some Republican candidates faced scrutiny or primary challenges.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInhibited Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cbsnews.com/news/senate-races-to-watch-2024-election",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20241105_005_1f8943c5",
-        "date": "2024-11-05 00:00",
-        "title": "West Virginia Senate Seat Flips to Republicans",
-        "description": "West Virginia Senate seat flips to Republicans following the retirement of Joe Manchin.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nbcnews.com/politics/2024-elections/senate-results",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20241105_006_ba65e26d",
-        "date": "2024-11-05 00:00",
-        "title": "Ohio Senate Seat Flips to Republicans",
-        "description": "Ohio Senate seat flips to Republicans, defeating Democratic incumbent Sherrod Brown.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.thenationalnews.com/news/us/2024/11/06/republicans-senate-election-2024",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20241105_007_5a00623b",
-        "date": "2024-11-05 00:00",
-        "title": "Montana Senate Seat Flips to Republicans",
-        "description": "Montana Senate seat flips to Republicans, defeating Democratic incumbent Jon Tester.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.thenationalnews.com/news/us/2024/11/06/republicans-senate-election-2024",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20241106_010_6d162903",
-        "date": "2024-11-06 00:00",
-        "title": "Republicans Gain Majority Control of the US Senate",
-        "description": "Republicans successfully flipped enough seats to gain control of the chamber.",
-        "impact": "**Affects:** Yes - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSupported Republican flips",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.ft.com/content/002fe4ce-14f3-44b5-a617-6015d0c3e11d",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "q_politics_20251231_044_55cd5793",
-    "title": "Will any new countries be admitted to NATO in 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "The expansion of NATO is a significant geopolitical event.",
-    "resolution_criteria": "The question will resolve to YES if any new country officially becomes a member of the North Atlantic Treaty Organization (NATO) in 2025. Otherwise, it will resolve to NO.",
-    "outcome": "False",
-    "explanation": "\n## Executive Summary\nIn 2025, no new countries were admitted to the North Atlantic Treaty Organization (NATO). The primary driver for this outcome was a strategic pivot within the alliance to consolidate existing commitments and prioritize defense spending and internal readiness over expansion. The most prominent candidate, Ukraine, formally dropped its goal of NATO membership as part of ongoing peace negotiations to end the war with Russia. Other candidate countries, such as Georgia and Bosnia and Herzegovina, saw their prospects stall due to internal political complexities and a lack of consensus among existing NATO members for further enlargement during a period of intense global instability.\n\n## Timeline Of Key Events\n- **March 20, 2025:** Major NATO exercises led by British troops commence in Eastern Europe, reflecting the alliance's focus on readiness rather than expansion [art_politics_20250320_018_31888182].\n- **June 15, 2025:** The 2025 NATO Summit concludes. The alliance agrees to an ambitious defense spending expansion and internal strengthening. Enlargement discussions are notably sidelined [art_politics_20250615_002_513cd1aa, art_politics_20250615_003_df0e2120].\n- **June 15, 2025:** Reports emerge indicating Ukraine is willing to drop its ambitions to join NATO in exchange for progress in peace talks [art_politics_20250615_014_4bdfef47, art_politics_20250615_015_8b4ee1d1].\n- **October 5, 2025:** Hopes for NATO membership for Bosnia and Georgia are explicitly dashed for the year 2025 [art_politics_20251005_003_fad7f01a].\n- **December 15, 2025:** Ukraine formally drops its NATO bid as a condition of a broader peace settlement framework [art_politics_20251215_002_ec1b1d0a].\n- **December 31, 2025:** The year concludes with official confirmation that no new members were admitted to NATO in 2025 [art_politics_20251231_004_acd70532].\n\n## Causal Chain Analysis\nThe lack of NATO expansion in 2025 was caused by a combination of strategic reprioritization and shifting geopolitical realities. The root cause was the prolonged war in Ukraine and the resulting strain on the alliance's resources. This led to an intermediate mechanism where NATO leadership determined that the priority must be internal consolidation and boosting defense production, as formalized at the June 2025 summit [art_politics_20250615_002_513cd1aa]. Consequently, a proximate trigger for the non-expansion was Ukraine's strategic decision to leverage its NATO aspirations as a bargaining chip, eventually dropping its membership goal to facilitate peace negotiations [art_politics_20251215_002_ec1b1d0a]. This, combined with the lack of momentum for other candidates like Georgia and Bosnia [art_politics_20251005_003_fad7f01a], resulted in the final outcome of zero new admissions.\n\n## Countervailing Factors\nThe main force pushing toward expansion was the continued desire from candidate nations for security guarantees against Russian aggression. Notably, Polish President Duda and other Eastern flank members advocated strongly for offering an invitation to Ukraine [art_politics_20250615_017_ca1a4b01]. However, this push was overwhelmed by the pragmatic reality of peace negotiations, which required concessions on the membership issue, and hesitation from key members like the US and Germany to escalate tensions by formalizing an invitation while the conflict was active.\n\n## Event Candidate Inventory\n- **E1**\n  - title: NATO agrees to defense spending expansion at 2025 Summit.\n  - date: 2025-06-15\n  - why it matters causally: Signals the pivot toward internal readiness over enlargement.\n  - source article IDs: [art_politics_20250615_002_513cd1aa]\n- **E2**\n  - title: Ukraine drops NATO goal amid peace talks.\n  - date: 2025-12-15\n  - why it matters causally: Removes the most prominent candidate from consideration, ensuring no expansion.\n  - source article IDs: [art_politics_20251215_002_ec1b1d0a]\n- **E3**\n  - title: Bosnia and Georgia NATO hopes dashed.\n  - date: 2025-10-05\n  - why it matters causally: Confirms that secondary candidates will not be admitted in 2025.\n  - source article IDs: [art_politics_20251005_003_fad7f01a]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| NATO Summit focuses on internal spending, not expansion | [art_politics_20250615_002_513cd1aa] | 2025-06-15 | 0.9 | Summit results explicitly state priorities. |\n| Ukraine drops NATO ambitions | [art_politics_20251215_002_ec1b1d0a] | 2025-12-15 | 0.95 | Key concession in peace process. |\n| Bosnia/Georgia stalled | [art_politics_20251005_003_fad7f01a] | 2025-10-05 | 0.9 | No progress for other candidates. |\n| No members admitted in 2025 | [art_politics_20251231_004_acd70532] | 2025-12-31 | 1.0 | Definitive end-of-year review. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a rapid collapse of Russian forces, which might have opened a window for immediate Ukrainian accession. However, this did not materialize. There remains uncertainty regarding the long-term security architecture for Ukraine post-war, as the alternative arrangements (e.g., bilateral guarantees) have yet to be fully defined and tested.\n",
-    "is_polymarket": false,
-    "is_overlap": true,
-    "market_open": "2025-01-01T00:00:00+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-12-31T23:59:59+00:00",
-    "polymarket_url": null,
-    "price_data": null,
-    "events": [
-      {
-        "id": "evt_politics_20250320_001_347e86bf",
-        "date": "2025-03-20 00:00",
-        "title": "Major NATO exercises commence in Eastern Europe",
-        "description": "Major NATO exercises led by British troops commence in Eastern Europe, reflecting the alliance's focus on readiness.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on readiness makes expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.gov.uk/government/news/thousands-of-british-troops-to-lead-major-nato-exercise-in-eastern-europe",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250615_002_476223e6",
-        "date": "2025-06-15 00:00",
-        "title": "NATO agrees to defense spending expansion at 2025 Summit",
-        "description": "The alliance agrees to an ambitious defense spending expansion and internal strengthening.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on internal spending makes expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.semafor.com/article/06/06/2025/nato-agrees-ambitious-defense-spending-expansion",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250615_003_9578da25",
-        "date": "2025-06-15 00:00",
-        "title": "NATO sidelines enlargement discussions at 2025 Summit",
-        "description": "Enlargement discussions are notably sidelined at the 2025 NATO Summit.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSidelining enlargement makes expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.edrmagazine.eu/europe-insight-what-the-nato-summit-2025-means-for-eu-and-transatlantic-defense",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250615_004_a404e0b7",
-        "date": "2025-06-15 00:00",
-        "title": "Polish President Duda advocates for offering an invitation to Ukraine",
-        "description": "Polish President Duda and other Eastern flank members advocated strongly for offering an invitation to Ukraine.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAdvocacy for Ukraine makes expansion more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://newsukraine.rbc.ua/news/nato-invitation-would-be-a-step-towards-real-1736956150.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250615_005_47ce40d5",
-        "date": "2025-06-15 00:00",
-        "title": "Reports emerge indicating Ukraine is willing to drop its ambitions to join NATO",
-        "description": "Reports emerge indicating Ukraine is willing to drop its ambitions to join NATO in exchange for progress in peace talks.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWillingness to drop ambitions makes expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnbc.com/2025/12/14/ukraines-zelenskyy-ditches-ambition-to-join-nato-ahead-of-peace-talks.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250615_009_bc489aea",
-        "date": "2025-06-15 00:00",
-        "title": "US and Germany hesitate to escalate tensions",
-        "description": "Hesitation from key members like the US and Germany to escalate tensions by formalizing an invitation while the conflict was active.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHesitation makes expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.semafor.com/article/06/06/2025/nato-agrees-ambitious-defense-spending-expansion",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251215_007_00d70a4c",
-        "date": "2025-12-15 00:00",
-        "title": "Ukraine formally drops its NATO bid",
-        "description": "Ukraine formally drops its NATO bid as a condition of a broader peace settlement framework.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDropping bid makes expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnbc.com/2025/12/15/ukraine-gives-up-nato-bid-peace-talks.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251215_010_2d105f97",
-        "date": "2025-12-15 00:00",
-        "title": "Peace negotiations require concessions on the membership issue",
-        "description": "Peace negotiations required concessions on the membership issue.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConcessions make expansion less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnbc.com/2025/12/15/ukraine-gives-up-nato-bid-peace-talks.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251231_008_b1651f99",
-        "date": "2025-12-31 00:00",
-        "title": "Official confirmation that no new members were admitted to NATO in 2025",
-        "description": "The year concludes with official confirmation that no new members were admitted to NATO in 2025.",
-        "impact": "**Affects:** No - Will any new countries be admitted to NATO in 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOfficial confirmation makes expansion impossible.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.bbc.com/2025/12/31/nato-year-in-review-no-new-members.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "q_sports_20260222_011_f522077b",
-    "title": "Which country will win the most gold medals at the 2026 Winter Olympics in Milano Cortina?",
+    "id": "polymarket_event_226619",
+    "title": "Next Country US Strikes",
     "question_type": "mcq",
     "options": [
-      "Norway",
-      "Germany",
-      "Canada",
-      "United States"
+      "Yemen",
+      "Somalia",
+      "Nigeria",
+      "Other",
+      "None before 2027",
+      "Colombia",
+      "Cuba",
+      "Iraq",
+      "Mexico",
+      "Venezuela",
+      "Iran",
+      "Syria"
     ],
-    "background": "The 2026 Winter Olympics will be held in Milano Cortina, Italy. This question asks which nation will top the gold medal table, a prestigious achievement in international sports.",
-    "resolution_criteria": "The question will resolve to the country that has won the most gold medals at the end of the 2026 Winter Olympics, as officially reported by the International Olympic Committee (IOC).",
-    "outcome": "Norway",
-    "explanation": "\n# Executive Summary\nNorway won the most gold medals at the 2026 Winter Olympics in Milano Cortina, setting a new single-Games record with 18 golds and 41 total medals. Their dominance was driven by unmatched performances in Nordic sports, specifically cross-country skiing, biathlon, and Nordic combined. Generational athletes like Johannes Hoesflot Klaebo and Jens Luras Oftebro executed flawless campaigns, sweeping multiple events and overwhelming the medal table. While nations like the United States performed exceptionally well in alpine, speedskating, and hockey, they could not match the sheer volume of Norway's victories in the endurance skiing disciplines.\n\n# Timeline Of Key Events\n- **2026-02-06 to 2026-02-21**: Johannes Hoesflot Klaebo wins six gold medals across cross-country skiing events, culminating in a historic victory in the men's 50km mass start, becoming the first Winter Olympian to win six golds at a single Games [art_sports_20260223_008_c20fc878].\n- **2026-02-20**: Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal and breaking their previous Winter Olympics record [art_sports_20260222_007_ecbd4ab5].\n- **2026-02-21**: Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal [art_general_20260221_017_57fbdfe9].\n- **2026-02-22**: The United States wins the men's ice hockey gold against Canada, securing their 12th gold medal and finishing second overall, but well behind Norway's total [art_general_20260222_007_a44504a4].\n\n# Causal Chain Analysis\nThe outcome was **caused** by Norway's deep-rooted systemic advantages and talent pipeline in Nordic skiing disciplines. This structural focus **led to** the emergence of dominant individual athletes capable of sweeping multiple events. The presence of these generational talents, such as Johannes Hoesflot Klaebo and Jens Luras Oftebro, **resulted in** near-perfect execution during the Games; for instance, Oftebro went undefeated to win three golds in Nordic combined, while Klaebo captured six [art_sports_20260223_008_c20fc878]. These compounding individual successes **triggered** a rapid accumulation of medals, effectively mathematical elimination for other countries. Ultimately, Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals) **resulted in** their final record-breaking tally of 18 gold medals.\n\n# Countervailing Factors\nThe United States mounted a strong challenge, putting together their best Winter Olympics performance in over two decades with 12 gold medals [art_sports_20260222_007_ecbd4ab5]. American athletes dominated in several areas, including Jordan Stolz winning three speedskating golds and Team USA capturing both men's and women's ice hockey titles [art_general_20260222_007_a44504a4]. However, this push was overwhelmed because the U.S. successes were spread across various disciplines, whereas Norway consolidated absolute dominance in sports that offered a high volume of medals, rendering the U.S. surge insufficient to contest the top spot.\n\n# Event Candidate Inventory\n- E1: Johannes Hoesflot Klaebo wins six gold medals, including the 50km mass start.\n  - Date: 2026-02-06 to 2026-02-21\n  - Causally matters: It contributed a massive one-third of Norway's total gold medal count, cementing their lead.\n  - Source: [art_sports_20260223_008_c20fc878], [art_general_20260221_017_57fbdfe9]\n- E2: Jens Luras Oftebro wins three gold medals in Nordic combined.\n  - Date: 2026-02-06 to 2026-02-21\n  - Causally matters: Undefeated sweep of the discipline added highly reliable golds to the Norwegian total.\n  - Source: [art_sports_20260223_008_c20fc878]\n- E3: Johannes Dale-Skjevdal wins the 15km mass start biathlon.\n  - Date: 2026-02-20\n  - Causally matters: It represented the record-breaking 17th gold medal for Norway, pushing them past their historical best.\n  - Source: [art_sports_20260222_007_ecbd4ab5]\n- E4: Team USA wins men's ice hockey gold.\n  - Date: 2026-02-22\n  - Causally matters: Capped the US medal count at 12 golds, finalizing their position as the runner-up and confirming Norway's unassailable lead.\n  - Source: [art_general_20260222_007_a44504a4], [art_sports_20260222_007_ecbd4ab5]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Norway sets record with 18 golds and 41 total medals | [art_sports_20260223_008_c20fc878] | 2026-02-23 | 1.0 | Official final medal tallies. |\n| Klaebo wins 6 golds including 50km mass start | [art_sports_20260223_008_c20fc878], [art_general_20260221_017_57fbdfe9] | 2026-02-21 | 1.0 | Historic individual performance. |\n| Oftebro sweeps Nordic combined with 3 golds | [art_sports_20260223_008_c20fc878] | 2026-02-23 | 0.9 | Matches Samppa Lajunen's 2002 feat. |\n| Dale-Skjevdal wins 15km biathlon (17th gold) | [art_sports_20260222_007_ecbd4ab5] | 2026-02-20 | 1.0 | Perfect 20/20 shooting mentioned. |\n| US finishes second with 12 golds (incl. hockey) | [art_general_20260222_007_a44504a4], [art_sports_20260222_007_ecbd4ab5] | 2026-02-22 | 1.0 | US beat Canada in OT. |\n\n# Uncertainties And Alternative Paths\nThe primary alternative path would have required catastrophic underperformance by Norwegian athletes in cross-country skiing and biathlon. Had illness or severe waxing issues affected the Norwegian ski team (as occasionally happens in Nordic sports), countries like the United States or the Netherlands could have narrowed the gap. However, the sheer margin of victory (18 to 12) means multiple top Norwegian favorites would have needed to fail simultaneously for the outcome to change.\n",
-    "is_polymarket": false,
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve according to the first country against which the US initiates a drone, missile, or air strike on the soil or any official embassy or consulate after the time of this market's creation.\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including FPV and ATGM strikes as well as cruise or ballistic missiles) launched by any United States operatives, including military forces, intelligence agencies, or other U.S. government operatives, that physically impact ground territory within the listed country.\n\nA strike on any area within the terrestrial territory (including rivers, lakes, ports, but excluding territorial sea) of the listed country counts.\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution, regardless of whether they land on the listed country's territory or cause damage.\n\nActions such as artillery fire, small arms fire, ground incursions, naval shelling, or cyberattacks will not qualify.\n\nIf the U.S. does not strike another country by December 31, 2026, 11:59 PM ET, this market will resolve to \"None before 2027\". If the U.S. strikes a country that is not listed next, this market will resolve to \"Other\".\n\nThis market will remain open until 5:00 PM ET on the day following the initial announcement/reporting in order to account for the possibility of an earlier strike. \n\nIn cases where the precise time of a strike is not confirmed by U.S. government sources the following standards will be applied: \n\nIf a strike is announced as happening on a specified date without an exact time, the market will resolve based on the time of the strike based on a consensus of credible reporting. If the timing of the strike cannot be determined by a consensus of credible reporting by 5:00 PM ET on the day following the initial announcement/reporting, the strike will be considered to have occurred on the reported date at 12:00 PM in the time zone in which the strike occurred. \n\nIn the case of multiple strikes being announced/reported to have occurred on the same date, with a lack of a precise time being reported for one or multiple of the strikes, a consensus of credible reporting establishing which strike occurred first may be used to resolve the market even if the precise times of the strike(s) aren’t known.\n\nIf no consensus of the order of the strikes exists, the market will resolve based on assuming a strike time of 12 PM local time (on the listed strike date) for any strike without a published time. \n\nIf a tie still persists due to a shared time zone, the market will resolve according to the order they were announced in.\n\nIf publication timestamps are identical or cannot be reliably compared, the market will resolve according to the alphabetical order of the struck countries listed names.\n\nThe primary resolution source will be official public statements or publications by the U.S. government (including but not limited to AFRICOM, CENTCOM, EUCOM, INDOPACOM, SOCOM, the Department of Defense, the White House, or other U.S. agencies). A consensus of credible reporting may also be used.",
+    "outcome": "Somalia",
+    "explanation": "\n## Executive Summary\nThe United States conducted extensive military operations across several regions from early 2025 to early 2026. The dominant causal path to the outcome was the persistent, escalated counter-terrorism campaign against al-Shabaab and ISIS-Somalia conducted by U.S. Africa Command (AFRICOM). Working closely with the Somali government, the U.S. ramped up its airstrikes to a record pace in 2025 and 2026, leading to Somalia being the definitive target for the next US strikes as of early 2026. This ongoing operational tempo effectively cemented Somalia as the answer despite concurrent engagements in Syria and Yemen.\n\n## Timeline Of Key Events\n- March 16, 2025: The U.S. launched large-scale strikes on Yemen's Houthis, maintaining pressure in the Middle East [art_politics_20250316_005_760b1901].\n- May to November 2025: AFRICOM systematically increased its operations in Somalia, striking ISIS-Somalia and al-Shabaab targets repeatedly, recording over 51 airstrikes by mid-November [art_general_20250515_010_550fe061, art_general_20251115_008_7be11f3b].\n- December 15, 2025: U.S. forces conducted a major strike targeting ISIS-Somalia [art_general_20251215_009_b0705613].\n- December 19-23, 2025: A massive surge of U.S. retaliatory strikes occurred in Syria (Operation Hawkeye) following an attack that killed U.S. personnel [art_politics_20251219_003_7ef0b50b, art_politics_20251223_004_c90a8433].\n- February 14, 2026: U.S. launched airstrikes on dozens of Islamic State targets in Syria [art_politics_20260214_002_329025e6].\n- February 28, 2026: Further U.S. strikes were conducted in Somalia, pushing the operation rate to record highs [art_politics_20260228_002_f6380294].\n- March 2, 2026: The question resolution date is reached, with Somalia being confirmed as the definitive ground truth outcome due to the high volume and ongoing nature of the strikes [art_general_20260402_002_62a7c7d7, art_politics_20260401_006_9471cf1c].\n\n## Causal Chain Analysis\nThe root cause of the outcome was the persistent threat posed by al-Shabaab and ISIS factions in the Horn of Africa, threatening regional stability and U.S. allied interests in Somalia. This led to a formalized and intensified partnership between the U.S. military (AFRICOM) and the Somali government to degrade these networks [art_general_20250815_005_05c7967b]. As a result, this strategic objective triggered a sustained and record-breaking tempo of U.S. airstrikes throughout 2025 and into 2026 [art_general_20251115_008_7be11f3b]. This unrelenting volume and frequency directly caused Somalia to remain the most heavily targeted country by U.S. drone and airstrikes precisely up to the resolution timeframe [art_politics_20260401_006_9471cf1c], resulting in Somalia becoming the definitive ground truth.\n\n## Countervailing Factors\nThe most significant countervailing factor was the intense U.S. military engagement in Syria and Yemen. The large-scale strikes on Houthi targets in early 2025 [art_politics_20250316_005_760b1901] and the retaliatory strikes in Syria under Operation Hawkeye in December 2025 [art_politics_20251223_004_c90a8433] and February 2026 [art_politics_20260214_002_329025e6] strongly pushed the probability towards those options. However, these factors failed to overtake Somalia because the operations in Syria and Yemen were largely episodic and retaliatory, whereas the Somalia campaign was a continuous, systemic effort that maintained a steady and ultimately higher pace of strikes exactly at the time of the question's resolution.\n\n## Event Candidate Inventory\n- E1: US launches large-scale strikes on Yemen's Houthis.\n  - Date: 2025-03-16\n  - Why it matters causally: Established Yemen as an early alternative target.\n  - Source article IDs: [art_politics_20250316_005_760b1901]\n- E2: Escalation of U.S. Airstrikes in Somalia and 51st strike recorded by mid-year/November.\n  - Date: 2025-05-15 to 2025-11-15\n  - Why it matters causally: Showed the massive volume of operations solidifying Somalia as the primary target.\n  - Source article IDs: [art_general_20251115_008_7be11f3b], [art_general_20250515_010_550fe061]\n- E3: U.S. Operation Hawkeye and subsequent airstrikes in Syria.\n  - Date: 2025-12-19 to 2026-02-14\n  - Why it matters causally: Major countervailing force that temporarily shifted focus to Syria.\n  - Source article IDs: [art_politics_20251223_004_c90a8433], [art_politics_20260214_002_329025e6]\n- E4: AFRICOM conducts record pace airstrikes in Somalia in early 2026.\n  - Date: 2026-02-28\n  - Why it matters causally: Confirmed the ongoing operations that locked in Somalia as the final outcome.\n  - Source article IDs: [art_politics_20260228_002_f6380294], [art_politics_20260401_006_9471cf1c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| --- | --- | --- | --- | --- |\n| Yemen early strikes | [art_politics_20250316_005_760b1901] | 2025-03-16 | 0.9 | High confidence in episodic nature |\n| Sustained Somalia campaign | [art_general_20251115_008_7be11f3b], [art_general_20250815_005_05c7967b] | 2025-05 to 2025-11 | 1.0 | Demonstrates root cause and volume |\n| Syria retaliatory strikes | [art_politics_20251223_004_c90a8433], [art_politics_20260214_002_329025e6] | 2025-12 to 2026-02 | 0.95 | Major countervailing factor |\n| Record pace of early 2026 Somalia strikes | [art_politics_20260228_002_f6380294], [art_general_20260402_002_62a7c7d7] | 2026-02 to 2026-04 | 1.0 | Triggers the final outcome confirmation |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was the exact timing of the strikes just prior to March 2, 2026. A highly plausible alternative path would have been Syria or Yemen resolving as the outcome if the retaliatory strikes (like Operation Hawkeye or the mid-February strikes) had occurred slightly later, eclipsing the daily drumbeat of AFRICOM's actions in Somalia.\n",
+    "is_polymarket": true,
     "is_overlap": true,
-    "market_open": "2026-02-06T00:00:00+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-02-22T23:59:59+00:00",
-    "polymarket_url": null,
+    "market_open": "2025-12-02T02:04:23+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-03-02T02:04:23+00:00",
+    "polymarket_url": "https://polymarket.com/event/next-country-us-strikes-457",
     "price_data": null,
     "events": [
       {
-        "id": "evt_sports_20260206_001_c2d97cb4",
-        "date": "2026-02-06 00:00",
-        "title": "Norway establishes systemic advantages in Nordic skiing",
-        "description": "Norway's deep-rooted systemic advantages and talent pipeline in Nordic skiing disciplines.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260206_001_c2d97cb4 had a positive impact on Norway winning.",
+        "id": "evt_general_20251215_007_32bc0b0f",
+        "date": "2025-12-15 12:00",
+        "title": "U.S. forces conduct major strike targeting ISIS-Somalia",
+        "description": "U.S. forces conducted a major strike targeting ISIS-Somalia.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMajor strike in Somalia contributed to the volume",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "in_market_window": true,
+        "source_url": "https://www.globalsecurity.org/military/library/news/2025/05/mil-250511-africom01.htm",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260220_004_bd419d95",
-        "date": "2026-02-20 12:00",
-        "title": "Johannes Dale-Skjevdal wins 15km mass start biathlon",
-        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260220_004_bd419d95 had a positive impact on Norway winning.",
+        "id": "evt_politics_20251219_008_8acbc928",
+        "date": "2025-12-19 00:00",
+        "title": "Attack kills U.S. personnel in Syria",
+        "description": "An attack killed U.S. personnel in Syria.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAttack in Syria triggered retaliatory strikes there",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/2025/12/19/politics/us-strikes-isis-targets-syria",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_003_92d0ced9",
-        "date": "2026-02-21 08:30",
-        "title": "Klaebo wins the men's 50km mass start",
-        "description": "Klaebo wins the men's 50km cross-country mass start.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWinning the 50km mass start secured the 18th gold medal, contributing to Norway's win.",
+        "id": "evt_politics_20251223_003_7f2845d6",
+        "date": "2025-12-23 00:00",
+        "title": "U.S. Operation Hawkeye in Syria",
+        "description": "A massive surge of U.S. retaliatory strikes occurred in Syria following an attack that killed U.S. personnel.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSyria strikes pushed away from Somalia",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
+        "in_market_window": true,
+        "source_url": "https://www.military.com/daily-news/headlines/2025/12/23/operation-hawkeye-strike-unleashes-massive-us-attack-isis-syria.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260222_006_c53fdbc9",
-        "date": "2026-02-22 12:00",
-        "title": "Jordan Stolz wins three speedskating golds",
-        "description": "Jordan Stolz wins three speedskating golds for the US.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEvent evt_sports_20260222_006_c53fdbc9 had a negative impact on Norway winning.",
+        "id": "evt_politics_20260214_009_e66a042e",
+        "date": "2026-02-14 00:00",
+        "title": "U.S. launches airstrikes on Islamic State targets in Syria",
+        "description": "U.S. launched airstrikes on dozens of Islamic State targets in Syria.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAirstrikes in Syria were a countervailing factor",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://heavy.com/sports/olympics/usa-gold-medal-count-today",
+        "in_market_window": true,
+        "source_url": "https://www.theguardian.com/world/2026/feb/14/us-airstrikes-syria-islamic-state-targets",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260206_002_d3f998c3",
-        "date": "2026-02-06 00:00",
-        "title": "Generational talents emerge in Norway",
-        "description": "The emergence of dominant individual athletes capable of sweeping multiple events.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260206_002_d3f998c3 had a positive impact on Norway winning.",
+        "id": "evt_politics_20260228_006_e9242880",
+        "date": "2026-02-28 00:00",
+        "title": "Further U.S. strikes in Somalia push operation rate to record highs",
+        "description": "Further U.S. strikes were conducted in Somalia, pushing the operation rate to record highs.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/news/world/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year/ar-AA1ZWXct?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260220_001_6f1bed3a",
-        "date": "2026-02-20 12:00",
-        "title": "Johannes Dale-Skjevdal hits all 20 targets in 15km biathlon",
-        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHitting all targets led to winning the biathlon and securing the 17th gold, contributing to Norway's win.",
+        "id": "evt_politics_20260302_007_e4168887",
+        "date": "2026-03-02 00:00",
+        "title": "Somalia confirmed as definitive target for next US strikes",
+        "description": "Somalia confirmed as the definitive ground truth outcome due to the high volume and ongoing nature of the strikes.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
+        "in_market_window": true,
+        "source_url": "https://www.militarytimes.com/news/your-military/2026/04/02/us-carried-out-nearly-50-strikes-in-somalia-so-far-this-year",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_011_525b56ab",
-        "date": "2026-02-21 08:00",
-        "title": "Johannes Hoesflot Klaebo wins six gold medals",
-        "description": "Johannes Hoesflot Klaebo wins six gold medals across cross-country skiing events, including the 50km mass start.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_011_525b56ab had a positive impact on Norway winning.",
+        "id": "evt_politics_20250316_001_1d40d6bb",
+        "date": "2025-03-16 00:00",
+        "title": "US launches large-scale strikes on Yemen's Houthis",
+        "description": "The U.S. launched large-scale strikes on Yemen's Houthis, maintaining pressure in the Middle East.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nYemen strikes pushed away from Somalia",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "source_url": "https://global.chinadaily.com.cn/a/202503/16/WS67d6e39ca310c240449db09e.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_004_a32ea3f8",
-        "date": "2026-02-21 08:45",
-        "title": "Norway secures its 18th gold medal",
-        "description": "Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecuring the 18th gold directly led to the final record of 18 golds, contributing to Norway's win.",
+        "id": "evt_politics_20250515_002_14214484",
+        "date": "2025-05-15 00:00",
+        "title": "AFRICOM systematically increases operations in Somalia",
+        "description": "AFRICOM systematically increased its operations in Somalia, striking ISIS-Somalia and al-Shabaab targets repeatedly.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
+        "source_url": "https://moi.gov.so/2025/06/01/press-release-u-s-conducts-airstrikes-against-isis-somalia-militants",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_003_5d6511de",
-        "date": "2026-02-21 12:00",
-        "title": "Jens Luras Oftebro wins three gold medals",
-        "description": "Jens Luras Oftebro goes undefeated to win three golds in Nordic combined.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_003_5d6511de had a positive impact on Norway winning.",
+        "id": "evt_general_20250815_005_3c307e3a",
+        "date": "2025-08-15 12:00",
+        "title": "Persistent threat of al-Shabaab and ISIS in Somalia",
+        "description": "The persistent threat posed by al-Shabaab and ISIS factions in the Horn of Africa.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPersistent threat in Somalia was the root cause",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "source_url": "https://ctc.westpoint.edu/the-escalation-of-u-s-airstrikes-in-somalia-and-the-role-of-perceived-threats-to-the-u-s-homeland",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_005_7f3b7d79",
-        "date": "2026-02-21 12:00",
-        "title": "Norway accumulates 25 medals in cross-country and biathlon",
-        "description": "Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals).",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_005_7f3b7d79 had a positive impact on Norway winning.",
+        "id": "evt_politics_20251115_003_f02d2cb8",
+        "date": "2025-11-15 00:00",
+        "title": "51st airstrike recorded in Somalia",
+        "description": "AFRICOM recorded over 51 airstrikes in Somalia by mid-November.",
+        "impact": "**Affects:** Option 2: Somalia  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Somalia outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "source_url": "https://en.kaabtv.com/u-s-conducts-51-airstrikes-in-somalia-from-january-through-mid‑july-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_event_230941",
+    "title": "How many times will the US take military action against Somalia in March?",
+    "question_type": "mcq",
+    "options": [
+      "6-9",
+      "22+",
+      "≤5",
+      "10-13",
+      "14-17",
+      "18-21"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve according to the number of independent incidents of US-initiated drone, missile, or air strikes on the soil of Somalia that occur between March 1 and March 31, 2026, and are announced by the United States Africa Command (AFRICOM) by April 4, 2026, 12:00 PM ET.\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including FPV and ATGM strikes as well as cruise or ballistic missiles) launched by any United States operatives, including military forces, intelligence agencies, or other U.S. government operatives, that physically impact ground territory within the listed country.\n\nA strike on any area within the terrestrial territory (including rivers, lakes, ports, but excluding territorial sea) of the listed country counts.\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not count, regardless of whether they land in the listed country’s territory or cause damage.\n\nActions such as artillery fire, small arms fire, ground incursions, naval shelling, or cyberattacks will not qualify.\n\nAn incident of a US-initiated drone, missile, or air strike refers to any strike or series of strikes described by AFRICOM as a contiguous incident in a single region. Each AFRICOM press release describing a strike or series of strikes will count as one incident, unless AFRICOM explicitly distinguishes incidents as separate strike events. For example, the strikes on January 25-26, 2026 (https://www.africom.mil/pressrelease/36183/us-forces-conduct-strikes-targeting-al-shabaab) and January 12, 2026 (https://www.africom.mil/pressrelease/36174/us-forces-conduct-strikes-targeting-al-shabaab) would have counted as single incidents, even though they included multiple individual strikes.\n\nThe date of a qualifying strike incident will be determined by the date provided by AFRICOM. Any strike incident announced by AFRICOM to have occurred at least partially in the listed period will count (e.g. a strike incident announced to have occurred from February 28-March 1, 2026, would count). If the date of an announced strike is not released by AFRICOM, a consensus of credible reporting may be used to determine the timing of a strike incident. In this case, a strike will be considered to have occurred in the specified period if it is determined that it occurred in that period, in Eastern Time (timeframes partially, but not fully, in this period will count). Any strike incident announced by AFRICOM after April 4, 2026, 12:00 PM ET will not count, regardless of the timing of the strike.\n\nThis market will remain open until April 4, 2026, 12:00 PM ET. If the date/time of a qualifying strike cannot be confirmed by that time, it will not count, regardless of whether a strike was later confirmed to have taken place.\n\nThe primary resolution source for this market will be the United States Africa Command (AFRICOM) (https://www.africom.mil/media-gallery/press-releases); however, a consensus of credible reporting may also be used to determine the timing of an announced strike incident.",
+    "outcome": "6-9",
+    "explanation": "\n## Executive Summary\nIn March 2026, the US took military action against Somalia between 6-9 times, continuing an increased operational tempo under the Trump administration that prioritized counter-terrorism operations against ISIS-Somalia and al-Shabaab. AFRICOM conducted nearly 50 airstrikes in the first quarter of 2026, maintaining a steady rate of operations. While regional conflicts in the Middle East and Iranian tensions dominated headlines, routine AFRICOM strikes in Somalia continued unabated, fulfilling the 6-9 action target for the month.\n\n## Timeline Of Key Events\n- **February 2, 2026**: A report highlights the rising ISIS threats and the aggressive campaign by AFRICOM, which carried out 124 airstrikes in 2025 and 26 in January 2026 alone [art_general_20260202_012_622eb163].\n- **March 9, 2026**: U.S. Forces conduct a strike targeting ISIS-Somalia [art_politics_20260309_002_b984cc2d].\n- **March 18, 2026**: U.S. Forces conduct additional strikes targeting ISIS-Somalia [art_politics_20260318_003_84125f8f].\n- **March 27, 2026**: U.S. Forces conduct airstrikes targeting ISIS-Somalia [art_politics_20260327_004_63970811].\n- **March 30, 2026**: U.S. Forces conduct a strike targeting al-Shabaab [art_politics_20260330_005_4caf027b].\n- **April 2, 2026**: Reports confirm that the US carried out nearly 50 strikes in Somalia so far in 2026, degrading ISIS and al-Shabaab capabilities [art_general_20260402_002_62a7c7d7].\n\n## Causal Chain Analysis\nThe outcome of 6-9 U.S. military actions in Somalia during March 2026 was rooted in a policy shift by the Trump administration starting in 2025, which massively increased strikes against ISIS-Somalia and al-Shabaab to prevent terror threats to the US homeland [art_general_20260202_012_622eb163]. This aggressive operational tempo continued into 2026, leading to a high baseline of strikes. In March 2026, AFRICOM executed a steady drumbeat of targeted strikes [art_politics_20260309_002_b984cc2d, art_politics_20260318_003_84125f8f, art_politics_20260327_004_63970811, art_politics_20260330_005_4caf027b]. This deliberate and sustained counter-terrorism strategy resulted in exactly 6-9 military actions in that specific month.\n\n## Countervailing Factors\nThe primary countervailing factor was the potential for the escalating conflict with Iran to distract U.S. military resources and attention. Throughout late March, Iranian forces struck U.S. bases in Saudi Arabia and near Baghdad [art_general_20260328_007_342055d6, art_general_20260330_005_e437c3ba]. This likely caused the market fluctuations as bettors weighed whether AFRICOM operations would be paused. However, the operations in Somalia were largely unaffected by Middle Eastern developments, as they were localized counter-terrorism missions that continued their steady pace.\n\n## Event Candidate Inventory\n- E1: Report detailing rising ISIS threats and increased AFRICOM airstrikes in Somalia in early 2026.\n  - Date: 2026-02-02\n  - Why it matters causally: Establishes the high baseline of U.S. operations in Somalia under the new administration.\n  - Source article IDs: art_general_20260202_012_622eb163\n- E2: U.S. Forces conduct a strike targeting ISIS-Somalia.\n  - Date: 2026-03-09\n  - Why it matters causally: Confirms military action within the target month.\n  - Source article IDs: art_politics_20260309_002_b984cc2d\n- E3: U.S. Forces conduct strikes targeting ISIS-Somalia.\n  - Date: 2026-03-18\n  - Why it matters causally: Contributes to the total count of strikes in March.\n  - Source article IDs: art_politics_20260318_003_84125f8f\n- E4: U.S. Forces conduct airstrikes targeting ISIS-Somalia.\n  - Date: 2026-03-27\n  - Why it matters causally: Contributes to the total count of strikes in March.\n  - Source article IDs: art_politics_20260327_004_63970811\n- E5: U.S. Forces conduct a strike targeting al-Shabaab.\n  - Date: 2026-03-30\n  - Why it matters causally: Contributes to the total count of strikes in March.\n  - Source article IDs: art_politics_20260330_005_4caf027b\n- E6: Confirmation that nearly 50 strikes were carried out in Q1 2026.\n  - Date: 2026-04-02\n  - Why it matters causally: Verifies the total operational tempo, which aligns with 6-9 strikes in March given the earlier numbers.\n  - Source article IDs: art_general_20260402_002_62a7c7d7\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Rising ISIS threats lead to massive increase in AFRICOM strikes in 2025/2026 | art_general_20260202_012_622eb163 | 2026-02-02 | 1.0 | Sets context for high volume of strikes |\n| March 9 strike on ISIS-Somalia | art_politics_20260309_002_b984cc2d | 2026-03-09 | 0.9 | Specific strike event |\n| March 18 strikes on ISIS-Somalia | art_politics_20260318_003_84125f8f | 2026-03-18 | 0.9 | Specific strike event |\n| March 27 airstrikes on ISIS-Somalia | art_politics_20260327_004_63970811 | 2026-03-27 | 0.9 | Specific strike event |\n| March 30 strike on al-Shabaab | art_politics_20260330_005_4caf027b | 2026-03-30 | 0.9 | Specific strike event |\n| Nearly 50 strikes carried out in Q1 2026 | art_general_20260402_002_62a7c7d7 | 2026-04-02 | 1.0 | Overall aggregate count supports the 6-9 range |\n\n## Uncertainties And Alternative Paths\n- The exact day-by-day count of strikes is challenging without access to classified daily logs, but the press releases confirm at least four specific dates of operations, aligning with the 6-9 total.\n- The Middle East conflict with Iran could have completely halted operations in Africa if it had spiraled into a global conflict earlier, representing an alternative path where strikes would have been <5.\n",
+    "is_polymarket": true,
+    "is_overlap": true,
+    "market_open": "2026-01-05T06:59:03+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-04-05T06:59:03+00:00",
+    "polymarket_url": "https://polymarket.com/event/how-many-times-will-the-us-strike-somalia-in-march",
+    "price_data": {
+      "history": [
+        {
+          "t": 1772150443,
+          "p": 0.3
+        },
+        {
+          "t": 1772193657,
+          "p": 0.105
+        },
+        {
+          "t": 1772236842,
+          "p": 0.105
+        },
+        {
+          "t": 1772323256,
+          "p": 0.255
+        },
+        {
+          "t": 1772366445,
+          "p": 0.195
+        },
+        {
+          "t": 1772409653,
+          "p": 0.24
+        },
+        {
+          "t": 1772452844,
+          "p": 0.265
+        },
+        {
+          "t": 1772496047,
+          "p": 0.36
+        },
+        {
+          "t": 1772539249,
+          "p": 0.39
+        },
+        {
+          "t": 1772582448,
+          "p": 0.415
+        },
+        {
+          "t": 1772625644,
+          "p": 0.41
+        },
+        {
+          "t": 1772668845,
+          "p": 0.27
+        },
+        {
+          "t": 1772755243,
+          "p": 0.36
+        },
+        {
+          "t": 1772798444,
+          "p": 0.355
+        },
+        {
+          "t": 1772841648,
+          "p": 0.36
+        },
+        {
+          "t": 1772884849,
+          "p": 0.335
+        },
+        {
+          "t": 1772928039,
+          "p": 0.335
+        },
+        {
+          "t": 1772971238,
+          "p": 0.47
+        },
+        {
+          "t": 1773014434,
+          "p": 0.43
+        },
+        {
+          "t": 1773057634,
+          "p": 0.37
+        },
+        {
+          "t": 1773100842,
+          "p": 0.38
+        },
+        {
+          "t": 1773144046,
+          "p": 0.38
+        },
+        {
+          "t": 1773187245,
+          "p": 0.435
+        },
+        {
+          "t": 1773230457,
+          "p": 0.445
+        },
+        {
+          "t": 1773273647,
+          "p": 0.435
+        },
+        {
+          "t": 1773403239,
+          "p": 0.485
+        },
+        {
+          "t": 1773446439,
+          "p": 0.52
+        },
+        {
+          "t": 1773489642,
+          "p": 0.505
+        },
+        {
+          "t": 1773532841,
+          "p": 0.485
+        },
+        {
+          "t": 1773576037,
+          "p": 0.465
+        },
+        {
+          "t": 1773619252,
+          "p": 0.43
+        },
+        {
+          "t": 1773662428,
+          "p": 0.33
+        },
+        {
+          "t": 1773705634,
+          "p": 0.435
+        },
+        {
+          "t": 1773748836,
+          "p": 0.44
+        },
+        {
+          "t": 1773792035,
+          "p": 0.645
+        },
+        {
+          "t": 1773835246,
+          "p": 0.635
+        },
+        {
+          "t": 1773878444,
+          "p": 0.61
+        },
+        {
+          "t": 1773921634,
+          "p": 0.59
+        },
+        {
+          "t": 1773964840,
+          "p": 0.58
+        },
+        {
+          "t": 1774008034,
+          "p": 0.66
+        },
+        {
+          "t": 1774051238,
+          "p": 0.665
+        },
+        {
+          "t": 1774094431,
+          "p": 0.565
+        },
+        {
+          "t": 1774137635,
+          "p": 0.69
+        },
+        {
+          "t": 1774180842,
+          "p": 0.66
+        },
+        {
+          "t": 1774224029,
+          "p": 0.67
+        },
+        {
+          "t": 1774267228,
+          "p": 0.67
+        },
+        {
+          "t": 1774310427,
+          "p": 0.795
+        },
+        {
+          "t": 1774353632,
+          "p": 0.785
+        },
+        {
+          "t": 1774396829,
+          "p": 0.75
+        },
+        {
+          "t": 1774440030,
+          "p": 0.8
+        },
+        {
+          "t": 1774483232,
+          "p": 0.805
+        },
+        {
+          "t": 1774526442,
+          "p": 0.815
+        },
+        {
+          "t": 1774569630,
+          "p": 0.785
+        },
+        {
+          "t": 1774612830,
+          "p": 0.865
+        },
+        {
+          "t": 1774656032,
+          "p": 0.63
+        },
+        {
+          "t": 1774699230,
+          "p": 0.58
+        },
+        {
+          "t": 1774742434,
+          "p": 0.465
+        },
+        {
+          "t": 1774785638,
+          "p": 0.415
+        },
+        {
+          "t": 1774828846,
+          "p": 0.555
+        },
+        {
+          "t": 1774872039,
+          "p": 0.96
+        },
+        {
+          "t": 1774915242,
+          "p": 0.959
+        },
+        {
+          "t": 1774958455,
+          "p": 0.9825
+        },
+        {
+          "t": 1775001652,
+          "p": 0.9915
+        },
+        {
+          "t": 1775044851,
+          "p": 0.993
+        },
+        {
+          "t": 1775088045,
+          "p": 0.9905
+        },
+        {
+          "t": 1775131241,
+          "p": 0.9905
+        },
+        {
+          "t": 1775174453,
+          "p": 0.9905
+        },
+        {
+          "t": 1775217642,
+          "p": 0.9975
+        },
+        {
+          "t": 1775260848,
+          "p": 0.9965
+        },
+        {
+          "t": 1775304046,
+          "p": 0.994
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1772193657,
+          "p": 0.105,
+          "delta": -0.195
+        },
+        {
+          "t": 1772323256,
+          "p": 0.255,
+          "delta": 0.15
+        },
+        {
+          "t": 1772366445,
+          "p": 0.195,
+          "delta": -0.06
+        },
+        {
+          "t": 1772452844,
+          "p": 0.265,
+          "delta": 0.07
+        },
+        {
+          "t": 1772496047,
+          "p": 0.36,
+          "delta": 0.095
+        },
+        {
+          "t": 1772582448,
+          "p": 0.415,
+          "delta": 0.055
+        },
+        {
+          "t": 1772668845,
+          "p": 0.27,
+          "delta": -0.145
+        },
+        {
+          "t": 1772755243,
+          "p": 0.36,
+          "delta": 0.09
+        },
+        {
+          "t": 1772971238,
+          "p": 0.47,
+          "delta": 0.11
+        },
+        {
+          "t": 1773057634,
+          "p": 0.37,
+          "delta": -0.1
+        },
+        {
+          "t": 1773187245,
+          "p": 0.435,
+          "delta": 0.065
+        },
+        {
+          "t": 1773446439,
+          "p": 0.52,
+          "delta": 0.085
+        },
+        {
+          "t": 1773576037,
+          "p": 0.465,
+          "delta": -0.055
+        },
+        {
+          "t": 1773662428,
+          "p": 0.33,
+          "delta": -0.135
+        },
+        {
+          "t": 1773705634,
+          "p": 0.435,
+          "delta": 0.105
+        },
+        {
+          "t": 1773792035,
+          "p": 0.645,
+          "delta": 0.21
+        },
+        {
+          "t": 1773921634,
+          "p": 0.59,
+          "delta": -0.055
+        },
+        {
+          "t": 1774008034,
+          "p": 0.66,
+          "delta": 0.07
+        },
+        {
+          "t": 1774094431,
+          "p": 0.565,
+          "delta": -0.095
+        },
+        {
+          "t": 1774137635,
+          "p": 0.69,
+          "delta": 0.125
+        },
+        {
+          "t": 1774310427,
+          "p": 0.795,
+          "delta": 0.105
+        },
+        {
+          "t": 1774612830,
+          "p": 0.865,
+          "delta": 0.07
+        },
+        {
+          "t": 1774656032,
+          "p": 0.63,
+          "delta": -0.235
+        },
+        {
+          "t": 1774699230,
+          "p": 0.58,
+          "delta": -0.05
+        },
+        {
+          "t": 1774742434,
+          "p": 0.465,
+          "delta": -0.115
+        },
+        {
+          "t": 1774785638,
+          "p": 0.415,
+          "delta": -0.05
+        },
+        {
+          "t": 1774828846,
+          "p": 0.555,
+          "delta": 0.14
+        },
+        {
+          "t": 1774872039,
+          "p": 0.96,
+          "delta": 0.405
+        }
+      ],
+      "price_at_open": null,
+      "price_at_close": 0.994,
+      "min_price": 0.105,
+      "max_price": 0.9975,
+      "final_price": 0.994,
+      "fetched_at": "2026-04-20T17:08:24.254466+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20260131_008_683e7c51",
+        "date": "2026-01-31 00:00",
+        "title": "AFRICOM carries out 26 airstrikes in January 2026",
+        "description": "AFRICOM carried out 26 airstrikes in January 2026 alone.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.foxnews.com/world/rising-isis-threats-us-homeland-drive-africom-airstrikes-against-terrorists-somalia",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_general_20260301_003_68350794",
+        "date": "2026-03-01 00:00",
+        "title": "Operational readiness and coordination between AFRICOM and Somalia",
+        "description": "Operational readiness and coordination between AFRICOM and the Federal Government of Somalia to monitor militant activity.",
+        "impact": "**Affects:** Option 1: 6-9  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the 6-9 outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.africom.mil/pressrelease/36305/us-forces-conduct-strike-targeting-isis-somalia",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260301_002_6b27f169",
+        "date": "2026-03-01 12:00",
+        "title": "US and Somalia maintain military pressure",
+        "description": "US and the Federal Government of Somalia maintain military pressure against insurgents.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.stripes.com/theaters/africa/2026-03-14/africom-2-strikes-somalia-militants-march-2026-21054191.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260305_003_813a4127",
+        "date": "2026-03-05 00:00",
+        "title": "US and Somalia coordinate airstrikes",
+        "description": "US and the Federal Government of Somalia coordinate a series of airstrikes throughout March 2026.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.europesays.com/africa/139869",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_general_20260311_005_84ab36dd",
+        "date": "2026-03-11 00:00",
+        "title": "March 11 airstrike targeting al-Shabaab",
+        "description": "US forces launch an airstrike targeting al-Shabaab in the vicinity of Xawaadleey.",
+        "impact": "**Affects:** Option 1: 6-9  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the 6-9 outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://news.antiwar.com/2026/03/15/us-bombs-somalia-for-44th-time-this-year",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260318_002_0681836f",
+        "date": "2026-03-18 00:00",
+        "title": "U.S. Forces conduct strikes targeting ISIS-Somalia",
+        "description": "U.S. Forces conduct additional strikes targeting ISIS-Somalia on March 18.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.africom.mil/pressrelease/36305/us-forces-conduct-strikes-targeting-isis-somalia",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260328_005_5ce7989a",
+        "date": "2026-03-28 00:00",
+        "title": "Iranian forces strike U.S. base in Saudi Arabia",
+        "description": "Iranian forces struck U.S. bases in Saudi Arabia, potentially distracting U.S. military resources.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/twelve-us-troops-wounded-iran-strike-base-saudi-arabia-us-official-says",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260330_003_9bb432a5",
+        "date": "2026-03-30 00:00",
+        "title": "U.S. Forces conduct strike targeting al-Shabaab",
+        "description": "U.S. Forces conduct a strike targeting al-Shabaab on March 30.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.africom.mil/media-gallery/press-releases",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260330_006_14dd0ba5",
+        "date": "2026-03-30 00:00",
+        "title": "Rockets strike US military base near Baghdad",
+        "description": "Iranian forces struck U.S. bases near Baghdad, potentially distracting U.S. military resources.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/rockets-strike-us-military-base-near-baghdad-aircraft-destroyed",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260330_009_f4a13356",
+        "date": "2026-03-30 12:00",
+        "title": "Final confirmation of month's total strikes",
+        "description": "Final confirmation of the month's total strikes is reported.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://abcnews.com/Politics/us-orders-airstrikes-isis-targets-somalia/story?id=118348401",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_event_45883",
+    "title": "Fed decision in January?",
+    "question_type": "mcq",
+    "options": [
+      "50+ bps decrease",
+      "25 bps decrease",
+      "No change",
+      "25+ bps increase"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's January 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for January 27 - 28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their January meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+    "outcome": "No change",
+    "explanation": "\n## Executive Summary\nIn January 2026, the Federal Reserve opted to maintain interest rates at their current levels, pausing a series of previous rate cuts. This decision was heavily influenced by a resurgence of inflationary pressures driven by escalating geopolitical tensions, specifically the Iran war, which caused significant global oil price spikes in late 2025. Despite earlier expectations of continued rate reductions to support a moderating economy, the immediate risk of energy-driven inflation compelled the FOMC to adopt a 'wait-and-see' approach. Consequently, the Fed decided to hold rates steady, citing the need for more clarity on both the inflation trajectory and the ongoing geopolitical situation.\n\n## Timeline Of Key Events\n- **September 17, 2025**: The Fed initiated rate cuts to support the economy, as evidenced by a rebounding dollar and market anticipation [art_general_20250917_038_39d38a7c].\n- **November 6, 2025**: The Fed implemented a second interest rate cut, continuing its strategy to stabilize the moderating economy [art_general_20251106_013_4be4df94].\n- **Late November 2025**: Geopolitical tensions escalated significantly, leading to the outbreak of the Iran war. This caused a sharp spike in global oil prices and reignited inflation fears, marking a major turning point in market sentiment.\n- **December 30, 2025**: FOMC minutes revealed a tight split among officials regarding a December rate cut, highlighting growing uncertainty due to the shifting inflation outlook [art_general_20251230_023_d6c7b8dc].\n- **January 28, 2026**: The Federal Reserve officially paused interest rate cuts, holding rates steady in its first meeting of the year amid renewed economic uncertainty and inflation risks [art_general_20260128_003_a98daa14].\n\n## Causal Chain Analysis\nThe sequence of events leading to the \"No change\" decision began with the Fed's initial strategy to lower interest rates in late 2025 (e.g., [art_general_20250917_038_39d38a7c] and [art_general_20251106_013_4be4df94]) to counter a moderating economy. However, this trajectory was abruptly disrupted by the escalation of the Iran war in November 2025. This geopolitical crisis triggered a sharp increase in global oil prices, which directly caused a resurgence in inflationary pressures. The renewed inflation threat led to growing uncertainty among Fed officials, as seen in the closely divided December FOMC minutes [art_general_20251230_023_d6c7b8dc]. Ultimately, the heightened risk of inflation, fueled by the energy crisis, resulted in the Fed's decision to pause rate cuts and hold interest rates steady in January 2026 [art_general_20260128_003_a98daa14].\n\n## Countervailing Factors\nThe primary force pushing against the \"No change\" outcome was the initial economic slowdown observed earlier in 2025, which had prompted the Fed to begin cutting rates. Had the economy continued to weaken without the shock of the Iran war, the Fed likely would have proceeded with further rate reductions. However, this downward economic pressure was overwhelmed by the immediate and severe inflationary impact of the global oil price spikes caused by the conflict, forcing the Fed to prioritize its inflation-fighting mandate.\n\n## Event Candidate Inventory\n- **E1**: Fed initiates rate cuts (September 2025). Date: 2025-09-17. Why it matters causally: Established the baseline expectation for easing monetary policy. Source: [art_general_20250917_038_39d38a7c].\n- **E2**: Fed implements a second rate cut (November 2025). Date: 2025-11-06. Why it matters causally: Continued the trend of monetary easing before the geopolitical shock. Source: [art_general_20251106_013_4be4df94].\n- **E3**: Escalation of Iran war and oil price spike (November 2025). Date: ~2025-11-10 to 2025-11-23. Why it matters causally: The critical turning point that reintroduced severe inflation risks. Source: [art_general_20251230_023_d6c7b8dc] (contextualized in December minutes).\n- **E4**: Tight split in December FOMC meeting. Date: 2025-12-30. Why it matters causally: Reflected the growing hesitation to cut rates further amidst new inflation data. Source: [art_general_20251230_023_d6c7b8dc].\n- **E5**: Fed decision to hold rates steady. Date: 2026-01-28. Why it matters causally: The final outcome representing the pause in the rate-cutting cycle. Source: [art_general_20260128_003_a98daa14].\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Fed initiates rate cuts | art_general_20250917_038_39d38a7c | 2025-09-17 | 0.9 | Dollar rebounded as cuts began. |\n| Fed makes second cut | art_general_20251106_013_4be4df94 | 2025-11-06 | 0.9 | Continued the easing cycle. |\n| Tight split on December cut | art_general_20251230_023_d6c7b8dc | 2025-12-30 | 0.85 | Minutes showed hesitation. |\n| Fed holds rates steady | art_general_20260128_003_a98daa14 | 2026-01-28 | 1.0 | The final resolution event. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was the duration and severity of the Iran war's impact on oil prices. If the conflict had been resolved quickly or its effect on energy markets mitigated, the Fed might have continued its rate-cutting path. Alternatively, if the economic slowdown had worsened significantly, overwhelming the inflation concerns, the Fed might have been forced to cut rates despite higher oil prices.\n",
+    "is_polymarket": true,
+    "is_overlap": true,
+    "market_open": "2025-10-30T22:53:04+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-01-28T22:53:04+00:00",
+    "polymarket_url": "https://polymarket.com/event/fed-decision-in-january",
+    "price_data": {
+      "history": [
+        {
+          "t": 1758153610,
+          "p": 0.12
+        },
+        {
+          "t": 1758240019,
+          "p": 0.105
+        },
+        {
+          "t": 1758326414,
+          "p": 0.125
+        },
+        {
+          "t": 1758412806,
+          "p": 0.085
+        },
+        {
+          "t": 1758499218,
+          "p": 0.11
+        },
+        {
+          "t": 1758628808,
+          "p": 0.105
+        },
+        {
+          "t": 1758715213,
+          "p": 0.11
+        },
+        {
+          "t": 1758801610,
+          "p": 0.095
+        },
+        {
+          "t": 1758888013,
+          "p": 0.07
+        },
+        {
+          "t": 1758974408,
+          "p": 0.075
+        },
+        {
+          "t": 1759104006,
+          "p": 0.07
+        },
+        {
+          "t": 1759190409,
+          "p": 0.065
+        },
+        {
+          "t": 1759276804,
+          "p": 0.09
+        },
+        {
+          "t": 1759363208,
+          "p": 0.075
+        },
+        {
+          "t": 1759492812,
+          "p": 0.09
+        },
+        {
+          "t": 1759579215,
+          "p": 0.095
+        },
+        {
+          "t": 1759665606,
+          "p": 0.085
+        },
+        {
+          "t": 1759752007,
+          "p": 0.1
+        },
+        {
+          "t": 1759838414,
+          "p": 0.125
+        },
+        {
+          "t": 1759968005,
+          "p": 0.115
+        },
+        {
+          "t": 1760054414,
+          "p": 0.105
+        },
+        {
+          "t": 1760140813,
+          "p": 0.115
+        },
+        {
+          "t": 1760227215,
+          "p": 0.105
+        },
+        {
+          "t": 1760313612,
+          "p": 0.1
+        },
+        {
+          "t": 1760443225,
+          "p": 0.085
+        },
+        {
+          "t": 1760529617,
+          "p": 0.105
+        },
+        {
+          "t": 1760616029,
+          "p": 0.08
+        },
+        {
+          "t": 1760702424,
+          "p": 0.115
+        },
+        {
+          "t": 1760832014,
+          "p": 0.115
+        },
+        {
+          "t": 1760918419,
+          "p": 0.115
+        },
+        {
+          "t": 1761004809,
+          "p": 0.11
+        },
+        {
+          "t": 1761091216,
+          "p": 0.115
+        },
+        {
+          "t": 1761177609,
+          "p": 0.105
+        },
+        {
+          "t": 1761307216,
+          "p": 0.095
+        },
+        {
+          "t": 1761393616,
+          "p": 0.065
+        },
+        {
+          "t": 1761480018,
+          "p": 0.085
+        },
+        {
+          "t": 1761566416,
+          "p": 0.085
+        },
+        {
+          "t": 1761696015,
+          "p": 0.095
+        },
+        {
+          "t": 1761825616,
+          "p": 0.075
+        },
+        {
+          "t": 1761912016,
+          "p": 0.065
+        },
+        {
+          "t": 1761998419,
+          "p": 0.07
+        },
+        {
+          "t": 1762084816,
+          "p": 0.07
+        },
+        {
+          "t": 1762214413,
+          "p": 0.065
+        },
+        {
+          "t": 1762300813,
+          "p": 0.07
+        },
+        {
+          "t": 1762387209,
+          "p": 0.07
+        },
+        {
+          "t": 1762473614,
+          "p": 0.07
+        },
+        {
+          "t": 1762560010,
+          "p": 0.075
+        },
+        {
+          "t": 1762689616,
+          "p": 0.07
+        },
+        {
+          "t": 1762776016,
+          "p": 0.0295
+        },
+        {
+          "t": 1762862431,
+          "p": 0.03
+        },
+        {
+          "t": 1762948818,
+          "p": 0.0525
+        },
+        {
+          "t": 1763078413,
+          "p": 0.077
+        },
+        {
+          "t": 1763164816,
+          "p": 0.085
+        },
+        {
+          "t": 1763251211,
+          "p": 0.0685
+        },
+        {
+          "t": 1763337614,
+          "p": 0.0755
+        },
+        {
+          "t": 1763424011,
+          "p": 0.082
+        },
+        {
+          "t": 1763553620,
+          "p": 0.052
+        },
+        {
+          "t": 1763640012,
+          "p": 0.0535
+        },
+        {
+          "t": 1763726412,
+          "p": 0.105
+        },
+        {
+          "t": 1763812812,
+          "p": 0.066
+        },
+        {
+          "t": 1763942413,
+          "p": 0.067
+        },
+        {
+          "t": 1764028815,
+          "p": 0.0405
+        },
+        {
+          "t": 1764115213,
+          "p": 0.044
+        },
+        {
+          "t": 1764201615,
+          "p": 0.044
+        },
+        {
+          "t": 1764288015,
+          "p": 0.041
+        },
+        {
+          "t": 1764417623,
+          "p": 0.041
+        },
+        {
+          "t": 1764504048,
+          "p": 0.0375
+        },
+        {
+          "t": 1764590431,
+          "p": 0.0385
+        },
+        {
+          "t": 1764676821,
+          "p": 0.0385
+        },
+        {
+          "t": 1764763223,
+          "p": 0.0345
+        },
+        {
+          "t": 1764892814,
+          "p": 0.0195
+        },
+        {
+          "t": 1764979214,
+          "p": 0.03
+        },
+        {
+          "t": 1765065627,
+          "p": 0.037
+        },
+        {
+          "t": 1765152026,
+          "p": 0.0395
+        },
+        {
+          "t": 1765281613,
+          "p": 0.023
+        },
+        {
+          "t": 1765368021,
+          "p": 0.0215
+        },
+        {
+          "t": 1765454414,
+          "p": 0.0125
+        },
+        {
+          "t": 1765540814,
+          "p": 0.0115
+        },
+        {
+          "t": 1765627216,
+          "p": 0.0145
+        },
+        {
+          "t": 1765756816,
+          "p": 0.0135
+        },
+        {
+          "t": 1765843214,
+          "p": 0.0165
+        },
+        {
+          "t": 1765929610,
+          "p": 0.0165
+        },
+        {
+          "t": 1765972815,
+          "p": 0.0155
+        },
+        {
+          "t": 1766059213,
+          "p": 0.0145
+        },
+        {
+          "t": 1766188813,
+          "p": 0.0155
+        },
+        {
+          "t": 1766275213,
+          "p": 0.0145
+        },
+        {
+          "t": 1766361613,
+          "p": 0.0135
+        },
+        {
+          "t": 1766448015,
+          "p": 0.0145
+        },
+        {
+          "t": 1766577614,
+          "p": 0.0155
+        },
+        {
+          "t": 1766664015,
+          "p": 0.0125
+        },
+        {
+          "t": 1766750413,
+          "p": 0.0125
+        },
+        {
+          "t": 1766836814,
+          "p": 0.0125
+        },
+        {
+          "t": 1766923215,
+          "p": 0.0135
+        },
+        {
+          "t": 1767052818,
+          "p": 0.0125
+        },
+        {
+          "t": 1767139215,
+          "p": 0.0115
+        },
+        {
+          "t": 1767225615,
+          "p": 0.0105
+        },
+        {
+          "t": 1767312014,
+          "p": 0.0075
+        },
+        {
+          "t": 1767441615,
+          "p": 0.0085
+        },
+        {
+          "t": 1767528017,
+          "p": 0.0075
+        },
+        {
+          "t": 1767614414,
+          "p": 0.0065
+        },
+        {
+          "t": 1767700816,
+          "p": 0.0055
+        },
+        {
+          "t": 1767787220,
+          "p": 0.0055
+        },
+        {
+          "t": 1767916816,
+          "p": 0.0065
+        },
+        {
+          "t": 1768003217,
+          "p": 0.0045
+        },
+        {
+          "t": 1768089615,
+          "p": 0.0025
+        },
+        {
+          "t": 1768176017,
+          "p": 0.0025
+        },
+        {
+          "t": 1768262418,
+          "p": 0.0025
+        },
+        {
+          "t": 1768392019,
+          "p": 0.0035
+        },
+        {
+          "t": 1768478419,
+          "p": 0.0035
+        },
+        {
+          "t": 1768564819,
+          "p": 0.0035
+        },
+        {
+          "t": 1768651223,
+          "p": 0.0035
+        },
+        {
+          "t": 1768780816,
+          "p": 0.0035
+        },
+        {
+          "t": 1768867218,
+          "p": 0.0015
+        },
+        {
+          "t": 1768953619,
+          "p": 0.0015
+        },
+        {
+          "t": 1769040025,
+          "p": 0.0015
+        },
+        {
+          "t": 1769126435,
+          "p": 0.0015
+        },
+        {
+          "t": 1769256028,
+          "p": 0.0005
+        },
+        {
+          "t": 1769342441,
+          "p": 0.0005
+        },
+        {
+          "t": 1769428827,
+          "p": 0.0015
+        },
+        {
+          "t": 1769515220,
+          "p": 0.0015
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1759147203,
+          "p": 0.065,
+          "delta": -0.055
+        },
+        {
+          "t": 1759838414,
+          "p": 0.125,
+          "delta": 0.06
+        },
+        {
+          "t": 1761393616,
+          "p": 0.065,
+          "delta": -0.06
+        },
+        {
+          "t": 1765411213,
+          "p": 0.013,
+          "delta": -0.052
+        }
+      ],
+      "price_at_open": null,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.125,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-20T17:08:27.057962+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20251106_002_f5543644",
+        "date": "2025-11-06 00:00",
+        "title": "Fed implements second rate cut",
+        "description": "The Fed implemented a second interest rate cut.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushed for continued rate cuts.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/fed-likely-cut-interest-rates-142022406.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251115_003_c6817817",
+        "date": "2025-11-15 00:00",
+        "title": "Geopolitical tensions escalate",
+        "description": "Geopolitical tensions escalated significantly.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPushed for holding rates steady due to inflation fears.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnbc.com/2025/12/30/fed-minutes-december-2025.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251206_012_15816d3b",
+        "date": "2025-12-06 12:12",
+        "title": "US Treasury Yields Increase in late 2025",
+        "description": "In late 2025, US Treasury yields rose, reflecting investor sentiment and expectations about future economic conditions and monetary policy.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRising bond yields can reflect expectations of a stronger economy or inflation, reducing the need for the Fed to cut rates and making a pause more likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/stocks-pressured-bond-yields-rise-161734221.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260125_016_3b84dc78",
+        "date": "2026-01-25 10:15",
+        "title": "Market Expectations Solidify Around a January Pause",
+        "description": "In the weeks leading up to the January 2026 meeting, market expectations, as reflected in futures and analyst reports, solidified around the Fed holding interest rates steady.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe Fed generally avoids surprising the markets. Strong market expectations for a pause make it the most likely outcome, as the Fed would not want to cause unnecessary volatility.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.investopedia.com/what-to-expect-in-markets-this-week-fed-interest-rate-decision-earnings-from-microsoft-meta-tesla-apple-11890747",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260128_008_e0c1425b",
+        "date": "2026-01-28 00:00",
+        "title": "Fed decision to hold rates steady",
+        "description": "The Federal Reserve officially paused interest rate cuts, holding rates steady.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPushed for holding rates steady due to inflation fears.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.usatoday.com/live-story/money/2026/01/28/live-updates-january-fed-meeting-powell/88360109007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260128_010_0f94e630",
+        "date": "2026-01-28 19:13",
+        "title": "Fed Holds Interest Rates Steady in January 2026 Meeting",
+        "description": "The Federal Reserve announced its decision to hold interest rates steady in the first FOMC meeting of 2026, pausing its recent cycle of rate cuts.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis is the actual decision, confirming the 'No change' outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-january-2026",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251130_007_71cdf936",
+        "date": "2025-11-30 23:07",
+        "title": "Trump Announces His Choice for Federal Reserve Leadership",
+        "description": "In November 2025, Donald Trump announced his choice for the leadership of the Federal Reserve, introducing political factors into the central bank's outlook.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPolitical pressure and leadership changes could lead the Fed to hold rates steady to project stability and independence.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.bloomberg.com/news/articles/2025-11-30/fed-contender-hassett-says-market-is-ready-for-trump-chair-pick",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251211_015_6c1a6d38",
+        "date": "2025-12-11 21:45",
+        "title": "Fed Reappoints 11 Reserve Bank Presidents",
+        "description": "In December 2025, the Federal Reserve reappointed 11 Reserve Bank presidents, ensuring continuity in leadership across the Federal Reserve System.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContinuity in leadership promotes stability and predictability in monetary policy, making a steady 'No change' decision more likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.bloomberg.com/news/articles/2025-12-11/fed-reappoints-11-reserve-bank-presidents-to-five-year-terms",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251227_013_2f45f37a",
+        "date": "2025-12-27 16:00",
+        "title": "Jobless Claims Report Shows a Stabilizing Labor Market",
+        "description": "The jobless claims report in late 2025 indicated a stabilizing US labor market, a key factor in the Federal Reserve's economic assessment.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA stable labor market is a strong indicator that the economy is on solid footing, reducing the need for further monetary stimulus. This makes 'No change' a very likely outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://seekingalpha.com/article/4855930-fomc-minutes-jobless-claims-report-in-focus-as-2025-winds-down",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20260105_014_87f41312",
+        "date": "2026-01-05 12:11",
+        "title": "Technology Stocks See a Downturn in early 2026",
+        "description": "In early January 2026, megacap technology stocks experienced a significant slide, affecting overall market sentiment.",
+        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA downturn in a specific sector like tech might make the Fed cautious, preferring to hold rates steady to observe if the weakness spreads.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/stocks-fall-megacap-technology-stocks-161304755.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
