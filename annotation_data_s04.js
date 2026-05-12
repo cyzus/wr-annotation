@@ -1,843 +1,1172 @@
 var annotationData = [
   {
-    "id": "polymarket_0x1d039941b393f61a08567d37ef2e45bc3e7b19984d186c5e7ab4e06243c3ad9d",
-    "title": "Will Trump establish a Gaza “Board of Peace” in 2025?",
+    "id": "polymarket_0x26dbea7f252b7d6bb1e69057f59e12d8545f06af2afb60bf1e68c9c43aacaf82",
+    "title": "Will rock climber Alex Honnold successfully free solo Taipei 101 skyscraper?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to “Yes” if the Trump Administration formally announces the establishment of the “Board of Peace” (or a clearly equivalent oversight board fulfilling the same role) by December 31, 2025, 11:59 PM ET. Otherwise, resolve “No.”\n\nOnly official policy announcements will qualify.\n\nInformal statements, plans contingent on future conditions, statements of intent without a formal policy directive, or any other statements that do not constitute a formal policy announcement will not be considered.\n\nA consensus of credible reporting confirming that the “Board of Peace” or equivalent Gaza oversight board has been established, includes U.S. participation and is operational will also qualify.  \n\nThe resolution source will be official announcements from the Trump administration however a consensus for credible reporting may also be used.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nPresident Donald Trump proposed a 20-point Gaza peace plan that included the creation of a \"Board of Peace\" to oversee rebuilding efforts. While the plan gained significant international momentum and was endorsed by a UN Security Council resolution in late 2025 that named Trump as the board's chairman, the actual establishment and inaugural meeting of the board did not occur until early 2026. Delays related to logistical planning, international coordination, and infrastructure debates (such as implementing a stablecoin) pushed the official launch past the 2025 deadline, resulting in a negative resolution for the question.\n\n## Timeline Of Key Events\n- **2025-09-29**: Trump unveils his 20-point Gaza cease-fire plan, which includes him running a \"Board of Peace\" [art_general_20250929_019_00e36aab].\n- **2025-10-25**: Hostages are released as part of the initial phases of the peace plan, generating optimism [art_general_20251025_006_846b431d].\n- **2025-11-18**: The U.N. Security Council passes a resolution endorsing Trump's peace plan and officially naming him chairman of the \"Board of Peace\" [art_general_20251118_002_5a0d01dd].\n- **2025-11-20 to 2025-11-22**: Reports circulate about the power dynamics and initial pledges for the board [art_politics_20251120_003_41373bb3, art_politics_20251121_004_18d18c98].\n- **2025-12-10**: It is announced that the Board of Peace will hold its first meeting in early 2026, specifically February 2026, confirming it would not be established in 2025 [art_politics_20251210_006_c5020e28].\n- **2025-12-18**: Further details emerge about the board's delayed plans, including proposals to put Gaza on the blockchain, with the inaugural meeting scheduled for February 2026 [art_politics_20251218_009_9bcda2d1].\n\n## Causal Chain Analysis\n1. **Initial Proposal and Momentum**: Trump's 20-point peace plan, featuring the \"Board of Peace,\" was proposed and gained international traction (e.g., hostage releases in October), which initially drove prediction markets toward a \"Yes\" resolution [art_general_20250929_019_00e36aab, art_general_20251025_006_846b431d].\n2. **Official Endorsement**: The U.N. Security Council passed a resolution in November 2025 endorsing the plan and naming Trump the chairman, which acted as a major catalyst for belief that the board would be established imminently [art_general_20251118_002_5a0d01dd].\n3. **Logistical and Diplomatic Delays**: Despite the official endorsements and financial pledges, the complex logistics of organizing the board, securing international cooperation, and planning infrastructure (like internet and financial systems) required more time [art_politics_20251218_009_9bcda2d1].\n4. **Postponement to 2026**: These complexities caused the official establishment and the inaugural meeting of the board to be scheduled for February 2026, definitively pushing the event outside the 2025 window and resulting in a \"No\" outcome [art_politics_20251210_006_c5020e28].\n\n## Countervailing Factors\n- **Strong Early Momentum**: The UN Security Council resolution and the release of hostages created a strong expectation that the board would be rapidly established before the end of 2025.\n- **Financial Pledges**: Early commitments of billions of dollars from various nations could have accelerated the timeline, but administrative hurdles ultimately prevailed.\n\n## Event Candidate Inventory\n- E1: Trump unveils 20-point Gaza cease-fire plan including the Board of Peace.\n  - Date: 2025-09-29\n  - Causality: Initiated the proposal that became the subject of the prediction market.\n  - Source: [art_general_20250929_019_00e36aab]\n- E2: U.N. Security Council passes resolution endorsing the Board of Peace.\n  - Date: 2025-11-18\n  - Causality: Provided official international backing, significantly boosting the likelihood of the board's creation.\n  - Source: [art_general_20251118_002_5a0d01dd]\n- E3: Announcement that the Board of Peace's first meeting is scheduled for February 2026.\n  - Date: 2025-12-10\n  - Causality: Confirmed that the establishment of the board would not occur in 2025, leading to the final negative resolution.\n  - Source: [art_politics_20251210_006_c5020e28]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Trump proposes 20-point peace plan | [art_general_20250929_019_00e36aab] | 2025-09-29 | 1.0 | Clear announcement of the plan. |\n| UN Security Council endorses plan | [art_general_20251118_002_5a0d01dd] | 2025-11-18 | 1.0 | Official international backing. |\n| Board's first meeting delayed to 2026 | [art_politics_20251210_006_c5020e28, art_politics_20251218_009_9bcda2d1] | 2025-12-10 | 1.0 | Proximate cause for the 'No' resolution in 2025. |\n\n## Uncertainties And Alternative Paths\n- If logistical hurdles had been overcome more quickly, a nominal or ceremonial first meeting could have been held in December 2025, which might have satisfied the criteria for a \"Yes\" resolution.\n- Political opposition or failure to secure funding could have derailed the board entirely, rather than just delaying it to 2026.\n",
+    "resolution_criteria": "Alex Honnold is scheduled to free solo (climb without ropes or protective equipment) the tallest building in Taiwan (Taipei 101) on a Netflix livestream on January 23, 2026.\n\nThis market will resolve to “Yes” if Alex Honnold completes a free solo of Taipei 101 by January 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nAlex Honnold’s free solo will be considered completed if he finishes the full route depicted as the official climb in the Netflix livestream of the event without the use of ropes or protective equipment. If the livestream presents the climb as ending upon reaching the roof or 101st floor of Taipei 101, the climb will be considered completed once Honnold reaches that point. If the livestream presents the official route as continuing beyond the 101st floor to the top of the building’s spire, the climb will be considered completed once Honnold reaches the top of the spire.\n\nIf Honnold abandons his free solo before completion (e.g. he climbs back down or enters the building through a window), this market will resolve to “No”.\n\nIf Honnold’s free solo attempt is canceled, postponed after January 31, 2026, or otherwise not completed within that timeframe, this market will resolve to “No”.\n\nThe resolution sources for this market will be the Netflix livestream of Honnold’s climb and official information from Alex Honnold or Netflix; however, a consensus of credible reporting may also be used.",
+    "outcome": "Yes",
+    "explanation": "\n# Required Output Format (use these exact section headings)\n\n## Executive Summary\nAlex Honnold successfully free-soloed the Taipei 101 skyscraper, leading to a positive resolution of the question. The event, titled \"Skyscraper Live,\" was broadcast globally on Netflix. The climb was initially scheduled for January 23/24, 2026, but was delayed due to rain. He eventually completed the 508-meter ascent without ropes or a safety net on January 24/25, 2026, taking about 90 minutes.\n\n## Timeline Of Key Events\n- Late December 2025 (around 2025-12-28): Announcement of \"Skyscraper Live\", generating initial market interest. [art_sports_20260125_002_ce2524e1]\n- Early January 2026 (around 2026-01-02): Preparation and training details become public, shifting sentiment as the reality of the attempt sets in. [art_sports_20260125_018_c3d3f203]\n- Mid-January 2026 (around 2026-01-14): Discussions regarding the official permits to climb Taipei 101 surface. [art_sports_20260125_013_09469c90]\n- Late January 2026 (around 2026-01-19): Weather concerns and a subsequent rain delay push the event from its original schedule. [art_sports_20260125_014_a5d11440]\n- January 25, 2026: Alex Honnold successfully completes the free solo climb of Taipei 101, taking 1 hour and 31 minutes. [art_sports_20260125_003_f00555a3]\n\n## Causal Chain Analysis\nThe root cause was Honnold's long-standing ambition (since 2012) to climb Taipei 101 and Netflix's decision to sponsor and broadcast the event as \"Skyscraper Live\" [art_sports_20260125_002_ce2524e1]. This led to extensive preparation and the securing of necessary permits [art_sports_20260125_013_09469c90]. The intermediate mechanism was the physical execution of the climb, which was briefly threatened by adverse weather conditions, leading to a 24-hour postponement [art_sports_20260125_014_a5d11440]. The proximate trigger was the clearing of the weather, allowing Honnold to commence and complete the climb on January 25, 2026 [art_sports_20260125_003_f00555a3]. This resulted in the successful free solo of the 508-meter building, confirming the positive resolution of the question.\n\n## Countervailing Factors\nThe primary countervailing factor was the weather. Rain creates extremely dangerous, slippery conditions for free soloing, especially on a glass and steel skyscraper. This factor actually forced a 24-hour delay from the original January 23/24 date. However, this factor was overcome when the weather cleared sufficiently for the climb to proceed safely. Additionally, the sheer physical and psychological difficulty of climbing a 508-meter building without ropes was a constant countervailing force that Honnold's skill and preparation overcame.\n\n## Event Candidate Inventory\n- E1\n    - title: Announcement of \"Skyscraper Live\" on Netflix\n    - date: 2025-12-28\n    - why it matters causally: Established the event's reality and timeline, setting the market expectations.\n    - source article IDs: art_sports_20260125_002_ce2524e1\n- E2\n    - title: Weather delay pushes climb by 24 hours\n    - date: 2026-01-19\n    - why it matters causally: Showed that the event was dependent on uncontrollable environmental factors, temporarily decreasing confidence.\n    - source article IDs: art_sports_20260125_014_a5d11440\n- E3\n    - title: Alex Honnold successfully completes the free solo of Taipei 101\n    - date: 2026-01-25\n    - why it matters causally: Directly resolves the question positively.\n    - source article IDs: art_sports_20260125_003_f00555a3\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Announcement of Skyscraper Live | art_sports_20260125_002_ce2524e1 | 2025-12-28 | 0.9 | Mentioned in retrospective coverage. |\n| Permits and preparation | art_sports_20260125_013_09469c90 | 2026-01-14 | 0.8 | Inferred from context of climbing a major skyscraper. |\n| Weather delay due to rain | art_sports_20260125_014_a5d11440 | 2026-01-19 | 0.9 | Key factor in the timeline shift. |\n| Successful completion of the climb | art_sports_20260125_003_f00555a3 | 2026-01-25 | 1.0 | Absolute confirmation of the outcome. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was that persistent bad weather or a sudden denial of permits could have led to the event's cancellation, resulting in a 'No' resolution. Another alternative was a tragic failure during the climb, which also would have resulted in a 'No' (and a major tragedy). The uncertainty surrounding the weather was the most significant variable leading up to the final day.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-10-08T22:00:48.655000+00:00",
+    "market_open": "2025-12-23T00:56:21.785132+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T08:41:47+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-trump-establish-a-gaza-board-of-peace-in-2025",
+    "market_close": "2026-01-25T05:31:30+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-alex-honnold-free-solo-taipei-101",
     "price_data": {
       "history": [
         {
-          "t": 1759968003,
-          "p": 0.685
-        },
-        {
-          "t": 1760011204,
-          "p": 0.765
-        },
-        {
-          "t": 1760054407,
-          "p": 0.745
-        },
-        {
-          "t": 1760140803,
-          "p": 0.82
-        },
-        {
-          "t": 1760184020,
-          "p": 0.775
-        },
-        {
-          "t": 1760270402,
-          "p": 0.745
-        },
-        {
-          "t": 1760313615,
-          "p": 0.77
-        },
-        {
-          "t": 1760356809,
-          "p": 0.78
-        },
-        {
-          "t": 1760443212,
-          "p": 0.81
-        },
-        {
-          "t": 1760486412,
-          "p": 0.825
-        },
-        {
-          "t": 1760572818,
-          "p": 0.775
-        },
-        {
-          "t": 1760616024,
-          "p": 0.775
-        },
-        {
-          "t": 1760659209,
-          "p": 0.715
-        },
-        {
-          "t": 1760745614,
-          "p": 0.615
-        },
-        {
-          "t": 1760788808,
-          "p": 0.615
-        },
-        {
-          "t": 1760875209,
-          "p": 0.6
-        },
-        {
-          "t": 1760918415,
-          "p": 0.48
-        },
-        {
-          "t": 1760961624,
-          "p": 0.49
-        },
-        {
-          "t": 1761048024,
-          "p": 0.515
-        },
-        {
-          "t": 1761091220,
-          "p": 0.53
-        },
-        {
-          "t": 1761177610,
-          "p": 0.45
-        },
-        {
-          "t": 1761220817,
-          "p": 0.31
-        },
-        {
-          "t": 1761264016,
-          "p": 0.36
-        },
-        {
-          "t": 1761350415,
-          "p": 0.315
-        },
-        {
-          "t": 1761393622,
-          "p": 0.365
-        },
-        {
-          "t": 1761480024,
-          "p": 0.35
-        },
-        {
-          "t": 1761523216,
-          "p": 0.35
-        },
-        {
-          "t": 1761609620,
-          "p": 0.355
-        },
-        {
-          "t": 1761652818,
-          "p": 0.365
-        },
-        {
-          "t": 1761696018,
-          "p": 0.355
-        },
-        {
-          "t": 1761825621,
-          "p": 0.3
-        },
-        {
-          "t": 1761868812,
-          "p": 0.3
-        },
-        {
-          "t": 1761955218,
-          "p": 0.275
-        },
-        {
-          "t": 1761998424,
-          "p": 0.245
-        },
-        {
-          "t": 1762041615,
-          "p": 0.19
-        },
-        {
-          "t": 1762128016,
-          "p": 0.18
-        },
-        {
-          "t": 1762171221,
-          "p": 0.195
-        },
-        {
-          "t": 1762257623,
-          "p": 0.32
-        },
-        {
-          "t": 1762300818,
-          "p": 0.575
-        },
-        {
-          "t": 1762344023,
-          "p": 0.575
-        },
-        {
-          "t": 1762430425,
-          "p": 0.575
-        },
-        {
-          "t": 1762473618,
-          "p": 0.56
-        },
-        {
-          "t": 1762560012,
-          "p": 0.485
-        },
-        {
-          "t": 1762603237,
-          "p": 0.465
-        },
-        {
-          "t": 1762646430,
-          "p": 0.38
-        },
-        {
-          "t": 1762732812,
-          "p": 0.38
-        },
-        {
-          "t": 1762776021,
-          "p": 0.4
-        },
-        {
-          "t": 1762862437,
-          "p": 0.56
-        },
-        {
-          "t": 1762905617,
-          "p": 0.655
-        },
-        {
-          "t": 1762992017,
-          "p": 0.64
-        },
-        {
-          "t": 1763035226,
-          "p": 0.625
-        },
-        {
-          "t": 1763078417,
-          "p": 0.61
-        },
-        {
-          "t": 1763164821,
-          "p": 0.47
-        },
-        {
-          "t": 1763208027,
-          "p": 0.455
-        },
-        {
-          "t": 1763294424,
-          "p": 0.635
-        },
-        {
-          "t": 1763337618,
-          "p": 0.705
-        },
-        {
-          "t": 1763380822,
-          "p": 0.775
-        },
-        {
-          "t": 1763467224,
-          "p": 0.795
-        },
-        {
-          "t": 1763510421,
-          "p": 0.35
-        },
-        {
-          "t": 1763596814,
-          "p": 0.45
-        },
-        {
-          "t": 1763640015,
-          "p": 0.425
-        },
-        {
-          "t": 1763683223,
-          "p": 0.425
-        },
-        {
-          "t": 1763769615,
-          "p": 0.35
-        },
-        {
-          "t": 1763812815,
-          "p": 0.34
-        },
-        {
-          "t": 1763899215,
-          "p": 0.325
-        },
-        {
-          "t": 1763942414,
-          "p": 0.355
-        },
-        {
-          "t": 1763985610,
-          "p": 0.295
-        },
-        {
-          "t": 1764072025,
-          "p": 0.28
-        },
-        {
-          "t": 1764115216,
-          "p": 0.155
-        },
-        {
-          "t": 1764201620,
-          "p": 0.175
-        },
-        {
-          "t": 1764244830,
-          "p": 0.165
-        },
-        {
-          "t": 1764288018,
-          "p": 0.235
-        },
-        {
-          "t": 1764374425,
-          "p": 0.16
-        },
-        {
-          "t": 1764417631,
-          "p": 0.14
-        },
-        {
-          "t": 1764504055,
-          "p": 0.115
-        },
-        {
-          "t": 1764547221,
-          "p": 0.145
-        },
-        {
-          "t": 1764633614,
-          "p": 0.095
-        },
-        {
-          "t": 1764676826,
-          "p": 0.085
-        },
-        {
-          "t": 1764720022,
-          "p": 0.09
-        },
-        {
-          "t": 1764806415,
-          "p": 0.195
-        },
-        {
-          "t": 1764849629,
-          "p": 0.185
-        },
-        {
-          "t": 1764936018,
-          "p": 0.465
-        },
-        {
-          "t": 1764979217,
-          "p": 0.585
-        },
-        {
-          "t": 1765022418,
-          "p": 0.56
-        },
-        {
-          "t": 1765108821,
-          "p": 0.595
-        },
-        {
-          "t": 1765152029,
-          "p": 0.625
-        },
-        {
-          "t": 1765238427,
-          "p": 0.66
-        },
-        {
-          "t": 1765281616,
-          "p": 0.665
-        },
-        {
-          "t": 1765324814,
-          "p": 0.695
-        },
-        {
-          "t": 1765411215,
-          "p": 0.075
-        },
-        {
-          "t": 1765454417,
-          "p": 0.045
-        },
-        {
-          "t": 1765540818,
-          "p": 0.031
-        },
-        {
-          "t": 1765584018,
-          "p": 0.0385
-        },
-        {
-          "t": 1765627219,
-          "p": 0.034
-        },
-        {
-          "t": 1765713618,
-          "p": 0.0325
-        },
-        {
-          "t": 1765756820,
-          "p": 0.0315
-        },
-        {
-          "t": 1765843217,
-          "p": 0.0425
-        },
-        {
-          "t": 1765886430,
-          "p": 0.0485
-        },
-        {
-          "t": 1765929635,
-          "p": 0.0235
-        },
-        {
-          "t": 1765972823,
-          "p": 0.0235
-        },
-        {
-          "t": 1766016025,
-          "p": 0.016
-        },
-        {
-          "t": 1766102416,
-          "p": 0.0235
-        },
-        {
-          "t": 1766145618,
-          "p": 0.0235
-        },
-        {
-          "t": 1766232019,
-          "p": 0.035
-        },
-        {
-          "t": 1766275216,
-          "p": 0.0345
-        },
-        {
-          "t": 1766318416,
-          "p": 0.0345
-        },
-        {
-          "t": 1766404816,
-          "p": 0.0345
-        },
-        {
-          "t": 1766448018,
-          "p": 0.043
+          "t": 1766491221,
+          "p": 0.85
         },
         {
           "t": 1766534418,
-          "p": 0.0415
+          "p": 0.865
         },
         {
-          "t": 1766577617,
-          "p": 0.033
+          "t": 1766577618,
+          "p": 0.84
         },
         {
-          "t": 1766620827,
-          "p": 0.033
+          "t": 1766620828,
+          "p": 0.785
+        },
+        {
+          "t": 1766664019,
+          "p": 0.78
         },
         {
           "t": 1766707213,
-          "p": 0.0265
+          "p": 0.805
         },
         {
-          "t": 1766750416,
-          "p": 0.0325
+          "t": 1766750417,
+          "p": 0.8
         },
         {
-          "t": 1766836817,
-          "p": 0.0285
+          "t": 1766793618,
+          "p": 0.775
         },
         {
-          "t": 1766880017,
-          "p": 0.0175
+          "t": 1766836818,
+          "p": 0.775
+        },
+        {
+          "t": 1766880018,
+          "p": 0.77
         },
         {
           "t": 1766923218,
-          "p": 0.017
+          "p": 0.77
+        },
+        {
+          "t": 1766966435,
+          "p": 0.785
         },
         {
           "t": 1767009618,
-          "p": 0.0155
+          "p": 0.79
         },
         {
           "t": 1767052821,
-          "p": 0.0175
+          "p": 0.79
         },
         {
-          "t": 1767139218,
-          "p": 0.0115
+          "t": 1767096021,
+          "p": 0.81
         },
         {
-          "t": 1767182418,
-          "p": 0.0055
+          "t": 1767139219,
+          "p": 0.805
+        },
+        {
+          "t": 1767182419,
+          "p": 0.805
+        },
+        {
+          "t": 1767225618,
+          "p": 0.805
+        },
+        {
+          "t": 1767268820,
+          "p": 0.805
+        },
+        {
+          "t": 1767312017,
+          "p": 0.81
+        },
+        {
+          "t": 1767355218,
+          "p": 0.805
+        },
+        {
+          "t": 1767398416,
+          "p": 0.805
+        },
+        {
+          "t": 1767441618,
+          "p": 0.82
+        },
+        {
+          "t": 1767484818,
+          "p": 0.825
+        },
+        {
+          "t": 1767528020,
+          "p": 0.85
+        },
+        {
+          "t": 1767571221,
+          "p": 0.85
+        },
+        {
+          "t": 1767614417,
+          "p": 0.855
+        },
+        {
+          "t": 1767657622,
+          "p": 0.845
+        },
+        {
+          "t": 1767700820,
+          "p": 0.84
+        },
+        {
+          "t": 1767744020,
+          "p": 0.855
+        },
+        {
+          "t": 1767787224,
+          "p": 0.85
+        },
+        {
+          "t": 1767830435,
+          "p": 0.85
+        },
+        {
+          "t": 1767873637,
+          "p": 0.845
+        },
+        {
+          "t": 1767916820,
+          "p": 0.855
+        },
+        {
+          "t": 1767960034,
+          "p": 0.85
+        },
+        {
+          "t": 1768003221,
+          "p": 0.855
+        },
+        {
+          "t": 1768046423,
+          "p": 0.855
+        },
+        {
+          "t": 1768089618,
+          "p": 0.855
+        },
+        {
+          "t": 1768132818,
+          "p": 0.855
+        },
+        {
+          "t": 1768176021,
+          "p": 0.855
+        },
+        {
+          "t": 1768219225,
+          "p": 0.86
+        },
+        {
+          "t": 1768262421,
+          "p": 0.86
+        },
+        {
+          "t": 1768305625,
+          "p": 0.855
+        },
+        {
+          "t": 1768348822,
+          "p": 0.855
+        },
+        {
+          "t": 1768392024,
+          "p": 0.845
+        },
+        {
+          "t": 1768435224,
+          "p": 0.87
+        },
+        {
+          "t": 1768478423,
+          "p": 0.89
+        },
+        {
+          "t": 1768521627,
+          "p": 0.89
+        },
+        {
+          "t": 1768564824,
+          "p": 0.895
+        },
+        {
+          "t": 1768608024,
+          "p": 0.9
+        },
+        {
+          "t": 1768651234,
+          "p": 0.91
+        },
+        {
+          "t": 1768694436,
+          "p": 0.91
+        },
+        {
+          "t": 1768737639,
+          "p": 0.935
+        },
+        {
+          "t": 1768780820,
+          "p": 0.935
+        },
+        {
+          "t": 1768824023,
+          "p": 0.91
+        },
+        {
+          "t": 1768867222,
+          "p": 0.915
+        },
+        {
+          "t": 1768910423,
+          "p": 0.925
+        },
+        {
+          "t": 1768953623,
+          "p": 0.945
+        },
+        {
+          "t": 1768996846,
+          "p": 0.935
+        },
+        {
+          "t": 1769040033,
+          "p": 0.93
+        },
+        {
+          "t": 1769083250,
+          "p": 0.955
+        },
+        {
+          "t": 1769126440,
+          "p": 0.945
+        },
+        {
+          "t": 1769169653,
+          "p": 0.945
+        },
+        {
+          "t": 1769212836,
+          "p": 0.925
+        },
+        {
+          "t": 1769256036,
+          "p": 0.91
+        },
+        {
+          "t": 1769299243,
+          "p": 0.935
         }
       ],
       "turning_points": [
         {
-          "t": 1760011204,
-          "p": 0.765,
-          "delta": 0.08
-        },
-        {
-          "t": 1760140803,
-          "p": 0.82,
-          "delta": 0.055
-        },
-        {
-          "t": 1760227217,
-          "p": 0.735,
-          "delta": -0.085
-        },
-        {
-          "t": 1760400011,
-          "p": 0.795,
-          "delta": 0.06
-        },
-        {
-          "t": 1760659209,
-          "p": 0.715,
-          "delta": -0.08
-        },
-        {
-          "t": 1760702410,
-          "p": 0.615,
-          "delta": -0.1
-        },
-        {
-          "t": 1760918415,
-          "p": 0.48,
-          "delta": -0.135
-        },
-        {
-          "t": 1761004805,
-          "p": 0.55,
-          "delta": 0.07
-        },
-        {
-          "t": 1761177610,
-          "p": 0.45,
-          "delta": -0.1
-        },
-        {
-          "t": 1761220817,
-          "p": 0.31,
-          "delta": -0.14
-        },
-        {
-          "t": 1761393622,
-          "p": 0.365,
-          "delta": 0.055
-        },
-        {
-          "t": 1761782419,
-          "p": 0.3,
+          "t": 1766620828,
+          "p": 0.785,
           "delta": -0.065
         },
         {
-          "t": 1761998424,
-          "p": 0.245,
-          "delta": -0.055
+          "t": 1767528020,
+          "p": 0.85,
+          "delta": 0.065
         },
         {
-          "t": 1762041615,
-          "p": 0.19,
-          "delta": -0.055
+          "t": 1768608024,
+          "p": 0.9,
+          "delta": 0.05
         },
         {
-          "t": 1762257623,
-          "p": 0.32,
-          "delta": 0.13
-        },
-        {
-          "t": 1762300818,
-          "p": 0.575,
-          "delta": 0.255
-        },
-        {
-          "t": 1762516824,
-          "p": 0.475,
-          "delta": -0.1
-        },
-        {
-          "t": 1762646430,
-          "p": 0.38,
-          "delta": -0.095
-        },
-        {
-          "t": 1762819219,
-          "p": 0.68,
-          "delta": 0.3
-        },
-        {
-          "t": 1762862437,
-          "p": 0.56,
-          "delta": -0.12
-        },
-        {
-          "t": 1762905617,
-          "p": 0.655,
-          "delta": 0.095
-        },
-        {
-          "t": 1763121626,
-          "p": 0.435,
-          "delta": -0.22
-        },
-        {
-          "t": 1763294424,
-          "p": 0.635,
-          "delta": 0.2
-        },
-        {
-          "t": 1763337618,
-          "p": 0.705,
-          "delta": 0.07
-        },
-        {
-          "t": 1763380822,
-          "p": 0.775,
-          "delta": 0.07
-        },
-        {
-          "t": 1763424014,
-          "p": 0.87,
-          "delta": 0.095
-        },
-        {
-          "t": 1763467224,
-          "p": 0.795,
-          "delta": -0.075
-        },
-        {
-          "t": 1763510421,
-          "p": 0.35,
-          "delta": -0.445
-        },
-        {
-          "t": 1763553627,
-          "p": 0.63,
-          "delta": 0.28
-        },
-        {
-          "t": 1763596814,
-          "p": 0.45,
-          "delta": -0.18
-        },
-        {
-          "t": 1763726415,
-          "p": 0.335,
-          "delta": -0.115
-        },
-        {
-          "t": 1764072025,
-          "p": 0.28,
-          "delta": -0.055
-        },
-        {
-          "t": 1764115216,
-          "p": 0.155,
-          "delta": -0.125
-        },
-        {
-          "t": 1764288018,
-          "p": 0.235,
-          "delta": 0.08
-        },
-        {
-          "t": 1764331229,
-          "p": 0.165,
-          "delta": -0.07
-        },
-        {
-          "t": 1764504055,
-          "p": 0.115,
-          "delta": -0.05
-        },
-        {
-          "t": 1764806415,
-          "p": 0.195,
-          "delta": 0.08
-        },
-        {
-          "t": 1764892816,
-          "p": 0.34,
-          "delta": 0.145
-        },
-        {
-          "t": 1764936018,
-          "p": 0.465,
-          "delta": 0.125
-        },
-        {
-          "t": 1764979217,
-          "p": 0.585,
-          "delta": 0.12
-        },
-        {
-          "t": 1765238427,
-          "p": 0.66,
-          "delta": 0.075
-        },
-        {
-          "t": 1765411215,
-          "p": 0.075,
-          "delta": -0.585
-        },
-        {
-          "t": 1765929614,
-          "p": 0.0235,
-          "delta": -0.0515
+          "t": 1769083250,
+          "p": 0.955,
+          "delta": 0.055
         }
       ],
-      "price_at_open": 0.685,
-      "price_at_close": 0.0025,
-      "min_price": 0.0025,
-      "max_price": 0.87,
-      "final_price": 0.0025,
-      "fetched_at": "2026-04-27T07:57:31.986222+00:00"
+      "price_at_open": 0.85,
+      "price_at_close": 0.935,
+      "min_price": 0.77,
+      "max_price": 0.955,
+      "final_price": 0.935,
+      "fetched_at": "2026-04-27T07:57:33.299980+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20251025_002_0bf3bf2e",
-        "date": "2025-10-25 19:18",
-        "title": "Hostages released as part of peace plan",
-        "description": "Hostages are released as part of the initial phases of the peace plan.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHostage releases generated optimism and momentum for the peace plan.",
+        "id": "evt_business_20251228_002_cc1aeb0e",
+        "date": "2025-12-28 00:00",
+        "title": "Netflix decides to sponsor Skyscraper Live",
+        "description": "Netflix's decision to sponsor and broadcast the event as 'Skyscraper Live'.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSponsorship enables the event.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/hostages-released-trump-peace-plan-105327784.html?fr=sycsrp_catchall",
+        "source_url": "https://www.bbc.co.uk/news/articles/c4gl0njzxjdo",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251118_003_0cfaac42",
-        "date": "2025-11-18 04:55",
-        "title": "U.N. Security Council passes resolution endorsing peace plan",
-        "description": "The U.N. Security Council passes a resolution endorsing Trump's peace plan.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUN Security Council endorsement provided official international backing.",
+        "id": "evt_culture_20251228_003_061d4cc1",
+        "date": "2025-12-28 12:00",
+        "title": "Announcement of Skyscraper Live",
+        "description": "Announcement of 'Skyscraper Live' on Netflix, generating initial market interest.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAnnouncement sets expectations.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.breitbart.com/politics/2025/11/17/un-security-council-resolution-gaza-passes-trump-named-chairman-board-peace",
+        "source_url": "https://www.bbc.co.uk/news/articles/c4gl0njzxjdo",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251118_004_b914b83b",
-        "date": "2025-11-18 04:55",
-        "title": "U.N. Security Council names Trump chairman of Board of Peace",
-        "description": "The U.N. Security Council officially names Trump chairman of the Board of Peace.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nNaming Trump chairman acted as a major catalyst for belief that the board would be established.",
+        "id": "evt_sports_20260102_004_28ac17a2",
+        "date": "2026-01-02 00:00",
+        "title": "Preparation and training details public",
+        "description": "Preparation and training details become public, shifting sentiment.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPreparation increases likelihood of success.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.breitbart.com/politics/2025/11/17/un-security-council-resolution-gaza-passes-trump-named-chairman-board-peace",
+        "source_url": "https://unofficialnetworks.com/2025/10/15/alex-honnold-taiwan-tallest-building",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251120_005_d69f16df",
-        "date": "2025-11-20 00:00",
-        "title": "Reports circulate about power dynamics for the board",
-        "description": "Reports circulate about the power dynamics and initial pledges for the board.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nReports on power dynamics showed active planning, increasing likelihood.",
+        "id": "evt_politics_20260114_005_ffc93d81",
+        "date": "2026-01-14 00:00",
+        "title": "Discussions regarding official permits",
+        "description": "Discussions regarding the official permits to climb Taipei 101 surface.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPermits are required for the event.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/board-peace-power-belongs-trump-211556659.html",
+        "source_url": "https://gripped.com/news/alex-honnolds-taipei-101-free-solo-scheduled",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251210_007_81f67631",
-        "date": "2025-12-10 15:00",
-        "title": "Announcement that Board of Peace's first meeting is scheduled for February 2026",
-        "description": "It is announced that the Board of Peace will hold its first meeting in early 2026.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe announcement of a 2026 meeting definitively pushed the event outside the 2025 window.",
+        "id": "evt_climate_20260119_006_4f309fd7",
+        "date": "2026-01-19 00:00",
+        "title": "Weather concerns and rain",
+        "description": "Weather concerns (rain) create extremely dangerous, slippery conditions.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRain makes the climb dangerous.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://time.com/7372900/board-of-peace-trump-gaza",
+        "source_url": "https://www.independent.co.uk/sport/alex-honnold-taipei-101-challenge-netflix-b2906580.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251218_008_d8d7ba29",
-        "date": "2025-12-18 15:00",
-        "title": "Planners discuss implementing a stablecoin for Gaza",
-        "description": "Planners discuss implementing a stablecoin for Gaza as part of the Board of Peace's efforts.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nComplex logistical discussions about a stablecoin caused delays.",
+        "id": "evt_sports_20260119_007_9695e958",
+        "date": "2026-01-19 12:00",
+        "title": "Rain delay pushes event",
+        "description": "A rain delay pushes the event from its original schedule by 24 hours.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDelay pushes the timeline.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://gizmodo.com/trumps-so-called-board-of-peace-wants-to-put-gaza-on-the-blockchain-2000725437",
+        "source_url": "https://www.independent.co.uk/sport/alex-honnold-taipei-101-challenge-netflix-b2906580.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251121_006_a588f0d6",
-        "date": "2025-11-21 15:15",
-        "title": "Members pledge billions to Gaza relief package",
-        "description": "Members pledge billions to Gaza relief package at first Board of Peace meeting.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFinancial pledges of billions could have accelerated the timeline.",
+        "id": "evt_climate_20260124_008_b4826a2d",
+        "date": "2026-01-24 00:00",
+        "title": "Weather clears for climb",
+        "description": "The weather clears sufficiently for the climb to proceed safely.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nClear weather enables the climb.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/members-pledge-billions-gaza-relief-171044119.html",
+        "source_url": "https://www.netflix.com/tudum/articles/how-to-watch-alex-honnold-skyscraper-climb-live-netflix",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251218_009_3363b8a3",
-        "date": "2025-12-18 15:00",
-        "title": "Liran Tancman talks about modernizing Gaza's internet infrastructure",
-        "description": "Liran Tancman talks about plans for modernizing Gaza's internet infrastructure.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nComplex logistical discussions about internet infrastructure caused delays.",
+        "id": "evt_sports_20260124_009_cbb0d9cf",
+        "date": "2026-01-24 23:59",
+        "title": "Honnold commences the climb",
+        "description": "Honnold commences the climb of Taipei 101.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCommencing the climb is the final step.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://gizmodo.com/trumps-so-called-board-of-peace-wants-to-put-gaza-on-the-blockchain-2000725437",
+        "source_url": "https://www.netflix.com/tudum/articles/how-to-watch-alex-honnold-skyscraper-climb-live-netflix",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250929_001_b4e8b40c",
-        "date": "2025-09-29 21:14",
-        "title": "Trump unveils 20-point Gaza cease-fire plan",
-        "description": "Trump unveils his 20-point Gaza cease-fire plan, which includes him running a Board of Peace.",
-        "impact": "**Affects:** Yes - Will Trump establish a Gaza “Board of Peace” in 20  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe initial proposal created strong momentum for the board's establishment.",
+        "id": "evt_sports_20120101_001_097ecf6e",
+        "date": "2012-01-01 00:00",
+        "title": "Honnold's ambition to climb Taipei 101",
+        "description": "Honnold's long-standing ambition (since 2012) to climb Taipei 101.",
+        "impact": "**Affects:** Yes - Will rock climber Alex Honnold successfully free s  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAmbition is the root cause.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://nypost.com/2025/09/29/us-news/trump-unveils-20-point-gaza-cease-fire-plan-with-him-running-board-of-peace-warns-israel-will-finish-the-job-if-hamas-objects",
+        "source_url": "https://www.bbc.co.uk/news/articles/c4gl0njzxjdo",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_culture_20260220_001_ef43e999",
+    "title": "Will the DOJ's monopoly trial against Live Nation be delayed past its original March 2026 start date?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "Live Nation has filed a motion to delay its monopoly trial. A federal judge has already denied a motion to dismiss, clearing the case for trial.",
+    "resolution_criteria": "The trial will be considered delayed if the opening arguments do not begin by March 31, 2026. This is determined by official court records.",
+    "outcome": "False",
+    "explanation": "## Executive Summary\nThe DOJ's monopoly trial against Live Nation was originally scheduled to commence in March 2026. In mid-February 2026, Live Nation sought to delay the proceedings, arguing that a pending appeal on a pre-trial ruling could significantly alter the trial's nature and scope. However, the court ultimately denied this request for a delay, maintaining the March 2026 schedule. Consequently, the trial proceeded without being pushed back, resulting in a negative resolution to the question of whether it would be delayed past its original start date.\n\n## Timeline Of Key Events\n- Early 2026: The antitrust trial against Live Nation is scheduled to start in March 2026.\n- February 18-20, 2026: Live Nation files motions to delay the trial, citing a pending appeal on a pre-trial ruling (art_politics_20260220_010_484b669a).\n- Late February 2026: The presiding judge rejects Live Nation's motion for delay, affirming the March 2026 start date (art_general_20260220_002_237b32e5).\n- March 2026: The trial officially begins as planned.\n\n## Causal Chain Analysis\nThe outcome was determined through the following sequence:\n- The Department of Justice brought an antitrust lawsuit against Live Nation with a trial start date firmly set for March 2026.\n- In February 2026, Live Nation attempted a legal maneuver to delay the trial by arguing that the results of a pending pre-trial appeal would alter the case's fundamental elements (art_politics_20260220_010_484b669a).\n- This attempt caused the court to review the necessity of a delay.\n- The court's subsequent ruling denied the request, which directly led to the trial proceeding on its original schedule (art_general_20260220_002_237b32e5).\n- Because the delay was rejected, the trial was not delayed past its original start date.\n\n## Countervailing Factors\nThe primary countervailing factor was Live Nation's active legal effort to stay the proceedings pending the resolution of their appeal. If the court had been convinced that proceeding without the appeal's resolution would prejudice the defense or waste judicial resources, a delay would have been granted. However, this factor failed because the judge did not find the appeal sufficient grounds to halt the impending trial.\n\n## Event Candidate Inventory\n- E1\n  - title: Live Nation files motion to delay trial\n  - date: 2026-02-18\n  - why it matters causally: Represented the direct effort to achieve the outcome in question (a delay).\n  - source article IDs: [art_politics_20260220_010_484b669a]\n- E2\n  - title: Judge denies trial delay request\n  - date: 2026-02-20\n  - why it matters causally: Foreclosed the possibility of a delay, forcing the trial to start as originally scheduled in March.\n  - source article IDs: [art_general_20260220_002_237b32e5]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Live Nation seeks delay | art_politics_20260220_010_484b669a | 2026-02-18 | 0.9 | Motion filed citing pending appeal |\n| Court denies delay request | art_general_20260220_002_237b32e5 | 2026-02-20 | 0.9 | Denied attempt to push back March start |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was the judge's discretion regarding the stay motion. An alternative path would have materialized if the judge agreed that the pending pre-trial appeal fundamentally impacted the trial's viability or scope, which would have likely caused a significant delay and a positive resolution.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2026-02-18T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-02-20T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_politics_20240601_001_23989744",
+        "date": "2024-06-01 00:00",
+        "title": "DOJ and states initiate antitrust lawsuit against Live Nation",
+        "description": "The DOJ and several states initiated an antitrust lawsuit against Live Nation and Ticketmaster.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260115_001_627b208c",
+        "date": "2026-01-15 00:00",
+        "title": "DOJ brings antitrust lawsuit against Live Nation",
+        "description": "The Department of Justice brought an antitrust lawsuit against Live Nation.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.npr.org/2026/04/15/nx-s1-5786715/live-nation-ticketmaster-antitrust-verdict-monopoly",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_general_20260218_009_a8fd1774",
+        "date": "2026-02-18 10:00",
+        "title": "Reports confirm the jury's verdict against Live Nation",
+        "description": "Reports continue to confirm the jury's verdict against Live Nation.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/music/news/live-nation-loses-jury-trial-to-states-in-monopoly-case/ar-AA20YUDp?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260219_006_97ddc69e",
+        "date": "2026-02-19 00:00",
+        "title": "Court reviews necessity of delay",
+        "description": "The court reviews the necessity of a delay following Live Nation's motion.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.musicbusinessworldwide.com/live-nation-says-ticketmaster-breakup-threat-is-already-over-calls-for-doj-settlement-its-time-to-move-on",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20250101_002_06056291",
+        "date": "2025-01-01 00:00",
+        "title": "Live Nation files pre-trial motions aimed at delaying proceedings",
+        "description": "Live Nation filed typical pre-trial motions aimed at delaying the proceedings.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250601_003_72cf3d72",
+        "date": "2025-06-01 00:00",
+        "title": "Judge issues strict judicial scheduling order",
+        "description": "A strict judicial scheduling order was issued for the antitrust case.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251001_004_22f660d1",
+        "date": "2025-10-01 00:00",
+        "title": "Court proceedings advance more quickly than anticipated",
+        "description": "The court proceedings advanced more quickly than initially anticipated.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251101_005_251ed532",
+        "date": "2025-11-01 00:00",
+        "title": "Expedited proceedings overcome typical pre-trial delays",
+        "description": "The expedited proceedings and strict scheduling order overwhelmed the typical pre-trial delays.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260115_006_fd985aa7",
+        "date": "2026-01-15 00:00",
+        "title": "Antitrust trial commences earlier than expected",
+        "description": "The antitrust trial commenced earlier than the expected March 2026 start date.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260214_007_3c1d031f",
+        "date": "2026-02-14 00:00",
+        "title": "Antitrust trial concludes by mid-February 2026",
+        "description": "The antitrust trial concluded by mid-February 2026.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0x2b31e7ad9f42753434a1703d157a1c8414c92b6f1ea2fa35acf6df90be9d777e",
+    "title": "Will the federal government be shut down for 30 or more days in 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve according to how many days the U.S. Office of Personnel Management announces that the U.S. federal government is at least partially shut down due to a lapse in appropriations by December 31, 2025, 11:59 PM.\n\nDays are counted based on notices checked at 10:00 AM ET each day. If the Office of Personnel Management announces a partial shutdown, this will count; however, announcements of office closures due to holidays or inclement weather will not qualify. \n\nIf there are multiple government shutdowns during the relevant period, this market only applies to the first shutdown, as the market will resolve after the end of the first shutdown. Notices of emergency furloughs or impacted government operations count toward the shutdown days.  \n\nIf no shutdown occurs during the period, this market will resolve to \"No shutdown\".\n\nThe resolution source for this market will be the website of the U.S. Office of Personnel Management (https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/current-status/).",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe 2025 federal government shutdown reached 30 days primarily due to an intractable partisan standoff over healthcare funding. Republicans in Congress, supported by President Trump, proposed a stopgap funding bill that did not include extensions for expiring Affordable Care Act (ACA) subsidies and included Medicaid cuts. Democrats refused to vote for any funding legislation that did not restore Medicaid cuts and extend the ACA subsidies, which were set to expire at the end of the year. With neither side willing to compromise and the Senate requiring a 60-vote supermajority to pass a funding bill, the stalemate persisted past the 30-day mark.\n\n## Timeline Of Key Events\n- **September 24, 2025**: Tensions escalated over potential Obamacare tax credit expirations, setting the stage for the shutdown [art_general_20251017_011_aea10124].\n- **October 1, 2025**: The federal government officially shuts down after the fiscal year ends without a passed funding bill.\n- **October 10, 2025**: Furloughed federal workers receive their last partial paychecks before missing full pay cycles [art_general_20251017_011_aea10124].\n- **October 14, 2025**: The Senate votes down a funding bill, continuing a streak of failed attempts to reach the 60-vote threshold.\n- **October 20, 2025**: The Senate fails for the 11th time to pass the Republican-led stopgap bill, in a 50-43 vote [art_general_20251017_011_aea10124].\n- **October 22, 2025**: The shutdown hits 22 days, officially becoming the second-longest in U.S. history. President Trump meets with Senate Republicans, reinforcing his stance against Democratic demands [art_general_20251017_011_aea10124].\n- **October 30, 2025**: The shutdown reaches 30 days, satisfying the positive resolution criteria for the prediction market.\n\n## Causal Chain Analysis\nThe root cause of the shutdown was a fundamental ideological disagreement over federal healthcare spending, specifically regarding the Affordable Care Act and Medicaid. This caused Republicans to draft a stopgap funding bill that omitted extensions for ACA subsidies and maintained cuts to Medicaid. This legislative move directly led to Democrats withholding their support, which was necessary to overcome the 60-vote filibuster threshold in the Senate. Because neither side capitulated as the fiscal deadline passed on October 1, the government shut down. The prolonged nature of the shutdown was triggered by President Trump's firm support for the Republican position and Democratic unity in demanding healthcare restorations, which resulted in repeated failed Senate votes (such as the 11th failure on October 20) [art_general_20251017_011_aea10124]. Ultimately, this entrenched partisan gridlock caused the shutdown to exceed 30 days.\n\n## Countervailing Factors\nPublic pressure and the mounting consequences of the shutdown pushed against the prolongation of the crisis. These factors included over 750,000 furloughed federal workers facing missed paychecks on October 24, increasing flight delays due to air traffic controller staffing, and the threat of lower-income families losing food assistance (SNAP) [art_general_20251017_011_aea10124]. However, these forces failed to prompt a resolution because the political base of both parties strongly supported their respective hardline stances on healthcare, and neither party's leadership was willing to absorb the perceived political cost of conceding.\n\n## Event Candidate Inventory\n- **E1**: September 24 clashes over ACA subsidies.\n  - Date: 2025-09-24\n  - Why it matters causally: Established the core partisan conflict that would prevent the passage of a funding bill.\n  - Source article IDs: art_general_20251017_011_aea10124\n- **E2**: Government funding expires.\n  - Date: 2025-10-01\n  - Why it matters causally: The proximate trigger that initiated the shutdown.\n  - Source article IDs: art_general_20251017_011_aea10124\n- **E3**: Senate's 11th failed vote on stopgap bill.\n  - Date: 2025-10-20\n  - Why it matters causally: Confirmed the intractability of the Senate gridlock, ensuring the shutdown would drag on into its third week and beyond.\n  - Source article IDs: art_general_20251017_011_aea10124\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| The dispute was over ACA subsidies and Medicaid cuts | art_general_20251017_011_aea10124 | 2025-10-17 | 1.0 | Explicitly cited as the reason Democrats withheld votes. |\n| The Senate repeatedly failed to reach 60 votes | art_general_20251017_011_aea10124 | 2025-10-17 | 1.0 | The 11th failure occurred on Oct 20 with a 50-43 vote. |\n| Furloughed workers and SNAP at risk | art_general_20251017_011_aea10124 | 2025-10-17 | 0.9 | Mentioned as growing pressures that failed to break the stalemate. |\n\n## Uncertainties And Alternative Paths\nWhile the primary cause was the healthcare funding dispute, an alternative path to resolution could have occurred if public outcry over flight delays or food assistance cuts had reached a critical mass, forcing moderate Republicans or vulnerable Democrats to break ranks. Additionally, the exact behind-the-scenes negotiations between the Trump administration and congressional leaders remain somewhat opaque, leaving uncertainty about whether a temporary concession was ever close to being reached before the 30-day mark.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-09-16T17:56:47.370000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-10-30T19:54:19+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-the-federal-government-be-shut-down-for-36-or-more-days-in-2025-545",
+    "price_data": {
+      "history": [
+        {
+          "t": 1758067209,
+          "p": 0.15
+        },
+        {
+          "t": 1758110421,
+          "p": 0.022
+        },
+        {
+          "t": 1758153602,
+          "p": 0.0205
+        },
+        {
+          "t": 1758196814,
+          "p": 0.026
+        },
+        {
+          "t": 1758240010,
+          "p": 0.029
+        },
+        {
+          "t": 1758283225,
+          "p": 0.029
+        },
+        {
+          "t": 1758326413,
+          "p": 0.028
+        },
+        {
+          "t": 1758369628,
+          "p": 0.0385
+        },
+        {
+          "t": 1758412807,
+          "p": 0.0405
+        },
+        {
+          "t": 1758456002,
+          "p": 0.0415
+        },
+        {
+          "t": 1758499202,
+          "p": 0.0425
+        },
+        {
+          "t": 1758542419,
+          "p": 0.042
+        },
+        {
+          "t": 1758585610,
+          "p": 0.046
+        },
+        {
+          "t": 1758628810,
+          "p": 0.0455
+        },
+        {
+          "t": 1758672016,
+          "p": 0.417
+        },
+        {
+          "t": 1758715213,
+          "p": 0.113
+        },
+        {
+          "t": 1758758406,
+          "p": 0.11
+        },
+        {
+          "t": 1758801617,
+          "p": 0.085
+        },
+        {
+          "t": 1758844811,
+          "p": 0.085
+        },
+        {
+          "t": 1758888011,
+          "p": 0.085
+        },
+        {
+          "t": 1758931207,
+          "p": 0.0905
+        },
+        {
+          "t": 1758974411,
+          "p": 0.0915
+        },
+        {
+          "t": 1759017610,
+          "p": 0.147
+        },
+        {
+          "t": 1759060811,
+          "p": 0.1415
+        },
+        {
+          "t": 1759104008,
+          "p": 0.077
+        },
+        {
+          "t": 1759147208,
+          "p": 0.1125
+        },
+        {
+          "t": 1759190411,
+          "p": 0.169
+        },
+        {
+          "t": 1759233603,
+          "p": 0.155
+        },
+        {
+          "t": 1759276805,
+          "p": 0.1505
+        },
+        {
+          "t": 1759320007,
+          "p": 0.161
+        },
+        {
+          "t": 1759363204,
+          "p": 0.145
+        },
+        {
+          "t": 1759406417,
+          "p": 0.1655
+        },
+        {
+          "t": 1759449608,
+          "p": 0.1755
+        },
+        {
+          "t": 1759492805,
+          "p": 0.1845
+        },
+        {
+          "t": 1759536002,
+          "p": 0.2015
+        },
+        {
+          "t": 1759579204,
+          "p": 0.215
+        },
+        {
+          "t": 1759622407,
+          "p": 0.2235
+        },
+        {
+          "t": 1759665609,
+          "p": 0.2285
+        },
+        {
+          "t": 1759708805,
+          "p": 0.266
+        },
+        {
+          "t": 1759752010,
+          "p": 0.2795
+        },
+        {
+          "t": 1759795208,
+          "p": 0.295
+        },
+        {
+          "t": 1759838416,
+          "p": 0.2625
+        },
+        {
+          "t": 1759881608,
+          "p": 0.2815
+        },
+        {
+          "t": 1759924818,
+          "p": 0.2825
+        },
+        {
+          "t": 1759968006,
+          "p": 0.283
+        },
+        {
+          "t": 1760011207,
+          "p": 0.2905
+        },
+        {
+          "t": 1760054410,
+          "p": 0.3315
+        },
+        {
+          "t": 1760097622,
+          "p": 0.376
+        },
+        {
+          "t": 1760140812,
+          "p": 0.4455
+        },
+        {
+          "t": 1760184008,
+          "p": 0.4915
+        },
+        {
+          "t": 1760227208,
+          "p": 0.5085
+        },
+        {
+          "t": 1760270421,
+          "p": 0.582
+        },
+        {
+          "t": 1760313612,
+          "p": 0.662
+        },
+        {
+          "t": 1760356806,
+          "p": 0.672
+        },
+        {
+          "t": 1760400010,
+          "p": 0.6945
+        },
+        {
+          "t": 1760443207,
+          "p": 0.6955
+        },
+        {
+          "t": 1760486407,
+          "p": 0.641
+        },
+        {
+          "t": 1760529609,
+          "p": 0.663
+        },
+        {
+          "t": 1760572815,
+          "p": 0.7355
+        },
+        {
+          "t": 1760616016,
+          "p": 0.767
+        },
+        {
+          "t": 1760659206,
+          "p": 0.794
+        },
+        {
+          "t": 1760702406,
+          "p": 0.818
+        },
+        {
+          "t": 1760745612,
+          "p": 0.822
+        },
+        {
+          "t": 1760788821,
+          "p": 0.819
+        },
+        {
+          "t": 1760832010,
+          "p": 0.8145
+        },
+        {
+          "t": 1760875208,
+          "p": 0.8265
+        },
+        {
+          "t": 1760918414,
+          "p": 0.8215
+        },
+        {
+          "t": 1760961622,
+          "p": 0.8325
+        },
+        {
+          "t": 1761004803,
+          "p": 0.7025
+        },
+        {
+          "t": 1761048017,
+          "p": 0.7555
+        },
+        {
+          "t": 1761091205,
+          "p": 0.7905
+        },
+        {
+          "t": 1761134406,
+          "p": 0.8255
+        },
+        {
+          "t": 1761177606,
+          "p": 0.837
+        },
+        {
+          "t": 1761220806,
+          "p": 0.863
+        },
+        {
+          "t": 1761264007,
+          "p": 0.93
+        },
+        {
+          "t": 1761307207,
+          "p": 0.9405
+        },
+        {
+          "t": 1761350407,
+          "p": 0.946
+        },
+        {
+          "t": 1761393607,
+          "p": 0.9545
+        },
+        {
+          "t": 1761436807,
+          "p": 0.9525
+        },
+        {
+          "t": 1761480008,
+          "p": 0.953
+        },
+        {
+          "t": 1761523207,
+          "p": 0.951
+        },
+        {
+          "t": 1761566407,
+          "p": 0.9525
+        },
+        {
+          "t": 1761609607,
+          "p": 0.955
+        },
+        {
+          "t": 1761652807,
+          "p": 0.9705
+        },
+        {
+          "t": 1761696007,
+          "p": 0.9805
+        },
+        {
+          "t": 1761782407,
+          "p": 0.995
+        },
+        {
+          "t": 1761825606,
+          "p": 0.9945
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1758110421,
+          "p": 0.022,
+          "delta": -0.128
+        },
+        {
+          "t": 1758672016,
+          "p": 0.417,
+          "delta": 0.395
+        },
+        {
+          "t": 1758715213,
+          "p": 0.113,
+          "delta": -0.304
+        },
+        {
+          "t": 1759190411,
+          "p": 0.169,
+          "delta": 0.056
+        },
+        {
+          "t": 1759622407,
+          "p": 0.2235,
+          "delta": 0.0545
+        },
+        {
+          "t": 1759752010,
+          "p": 0.2795,
+          "delta": 0.056
+        },
+        {
+          "t": 1760054410,
+          "p": 0.3315,
+          "delta": 0.052
+        },
+        {
+          "t": 1760140812,
+          "p": 0.4455,
+          "delta": 0.114
+        },
+        {
+          "t": 1760227208,
+          "p": 0.5085,
+          "delta": 0.063
+        },
+        {
+          "t": 1760270421,
+          "p": 0.582,
+          "delta": 0.0735
+        },
+        {
+          "t": 1760313612,
+          "p": 0.662,
+          "delta": 0.08
+        },
+        {
+          "t": 1760572815,
+          "p": 0.7355,
+          "delta": 0.0735
+        },
+        {
+          "t": 1760659206,
+          "p": 0.794,
+          "delta": 0.0585
+        },
+        {
+          "t": 1761004803,
+          "p": 0.7025,
+          "delta": -0.0915
+        },
+        {
+          "t": 1761048017,
+          "p": 0.7555,
+          "delta": 0.053
+        },
+        {
+          "t": 1761134406,
+          "p": 0.8255,
+          "delta": 0.07
+        },
+        {
+          "t": 1761264007,
+          "p": 0.93,
+          "delta": 0.1045
+        },
+        {
+          "t": 1761696007,
+          "p": 0.9805,
+          "delta": 0.0505
+        }
+      ],
+      "price_at_open": 0.15,
+      "price_at_close": 0.9945,
+      "min_price": 0.0205,
+      "max_price": 0.995,
+      "final_price": 0.9945,
+      "fetched_at": "2026-04-20T17:08:05.770650+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250924_001_621c175e",
+        "date": "2025-09-24 12:00",
+        "title": "Republicans propose stopgap bill omitting ACA subsidies",
+        "description": "Republicans in Congress proposed a stopgap funding bill that did not include extensions for expiring Affordable Care Act (ACA) subsidies and included Medicaid cuts.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250924_002_c4672d10",
+        "date": "2025-09-24 14:00",
+        "title": "Democrats refuse to support funding legislation",
+        "description": "Democrats refused to vote for any funding legislation that did not restore Medicaid cuts and extend the ACA subsidies.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251001_003_08384d48",
+        "date": "2025-10-01 00:00",
+        "title": "Federal government officially shuts down",
+        "description": "The federal government officially shut down after the fiscal year ended without a passed funding bill.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251010_004_e4f7f27e",
+        "date": "2025-10-10 12:00",
+        "title": "Furloughed federal workers receive last partial paychecks",
+        "description": "Furloughed federal workers received their last partial paychecks before missing full pay cycles.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251014_005_7ccf912e",
+        "date": "2025-10-14 12:00",
+        "title": "Senate votes down a funding bill",
+        "description": "The Senate voted down a funding bill, continuing a streak of failed attempts to reach the 60-vote threshold.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251020_009_25d50ba0",
+        "date": "2025-10-20 09:00",
+        "title": "Senate fails for the 11th time to pass stopgap bill",
+        "description": "The Senate failed for the 11th time to pass the Republican-led stopgap bill in a 50-43 vote.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://triblive.com/news/world/government-shutdown-on-verge-of-tying-second-longest-with-no-end-in-sight",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251022_006_15c0c561",
+        "date": "2025-10-22 12:00",
+        "title": "Shutdown hits 22 days",
+        "description": "The shutdown hit 22 days, officially becoming the second-longest in U.S. history.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-25-25",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251022_007_33a35c08",
+        "date": "2025-10-22 14:00",
+        "title": "President Trump meets with Senate Republicans",
+        "description": "President Trump met with Senate Republicans in the Rose Garden, reinforcing his stance against Democratic demands.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-25-25",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251024_008_5af71926",
+        "date": "2025-10-24 12:00",
+        "title": "Furloughed federal workers face missed full paychecks",
+        "description": "Over 750,000 furloughed federal workers faced missed full paychecks.",
+        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-25-25",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -990,871 +1319,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://apnews.com/article/livenation-antitrust-justice-department-0a6ef66f497e5f626096de753bfff8ce",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0x22ac5f75af18fdb453497fbf7ac0606a09a6fd55b78b2d08aace6b946ad62038",
-    "title": "Will Trump deport 750,000 or more people in 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "During the 2024 FY ICE removed 271,484 non citizens (see: https://www.ice.gov/doclib/eoy/iceAnnualReportFY2024.pdf).\n\nThis market will resolve to \"Yes\" if U.S. Immigration and Customs Enforcement (ICE) removes 750,000 or more non citizens in the 2025 fiscal year. Otherwise, this market ill resolve to \"No\".\n\nThe resolution source will be the FY 2025 ICE Annual Report. If the FY 2025 ICE Annual Report is not published by February 28, 2026, 11:59 PM ET, another credible resolution source will be used. ",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nDespite the Trump administration's aggressive rhetoric and plans for mass deportations in 2025, they failed to deport 750,000 or more people. The plan faced massive logistical, financial, and legal hurdles that prevented its full execution. A lack of sufficient ICE infrastructure, combined with exorbitant costs and fierce resistance from sanctuary cities and states, dramatically limited the scale of the operations. Ultimately, while enforcement intensified, the administration fell well short of its numerical target.\n\n## Timeline Of Key Events\n- **2025-01-10**: The Trump administration unveiled its ambitious deportation goals, targeting up to 1 million immigrants a year, and Republicans targeted sanctuary cities ([art_politics_20250110_019_22ffb41f], [art_politics_20250110_002_f2ac3e81]). Market sentiment surged as confidence in the plan was high.\n- **2025-01-18**: DHS was instructed to target millions, but simultaneously reports emerged highlighting the colossal economic costs and logistical constraints of mass deportations ([art_politics_20250118_004_4cd3653d], [art_politics_20250118_014_05dc5813], [art_politics_20250118_022_3aefb624]). This led to fluctuating market expectations.\n- **2025-01-22**: The Senate GOP unveiled a $340 billion budget plan to fund the deportation efforts, but the sheer cost and operational challenges began to undermine the feasibility of the 750,000 goal ([art_politics_20250122_015_ac46ef37], [art_politics_20250122_016_a1c379a3]).\n- **2025-12-28**: Retrospective analyses and ongoing developments highlighted that the mass deportation plan was facing insurmountable legal and operational challenges, confirming a much lower number of actual deportations ([art_politics_20251228_008_6fef145d], [art_politics_20251228_017_f0792d5f]).\n- **2026-02-01**: Comprehensive reports on the deportation network and economic harm confirmed the failure to reach the 750,000 threshold in 2025 ([art_politics_20260201_010_94cd6619], [art_politics_20260201_018_f4707f4d]).\n\n## Causal Chain Analysis\nThe administration's initial goal of massive deportations **caused** early confidence in reaching the 750,000 target. However, the requirement to locate, detain, process, and transport hundreds of thousands of individuals **led to** immediate logistical bottlenecks. The sheer financial burden (estimated in the hundreds of billions) **resulted in** funding struggles despite GOP budget proposals ([art_politics_20250122_016_a1c379a3]). Simultaneously, robust legal challenges and non-cooperation from sanctuary jurisdictions **triggered** severe delays in enforcement operations ([art_politics_20251228_008_6fef145d], [art_politics_20250118_022_3aefb624]). Because ICE lacked the personnel, bed space, and funding to overcome these obstacles rapidly, the operational pace was drastically slowed, which **resulted in** the total deportations falling significantly below the 750,000 threshold for the year.\n\n## Countervailing Factors\nThe administration possessed strong political will and initial legislative momentum to push for the deportations. Early momentum included expanding target groups and allocating massive ICE budgets ([art_politics_20250118_013_0d2c18f0], [art_politics_20251228_017_f0792d5f]). However, these forces failed because structural constraints—such as physical detention capacity limits, constitutional due process protections extending deportation timelines, and entrenched local resistance—were too substantial to overcome in a single year.\n\n## Event Candidate Inventory\n- **E1**: Unveiling of sweeping immigration enforcement changes and aggressive deportation targets.\n  - Date: 2025-01-10 to 2025-01-22\n  - Why it matters: Established the initial expectation and market sentiment that a massive number of deportations would occur.\n  - Source article IDs: [art_politics_20250110_003_5f081906], [art_politics_20250122_007_dd20309b]\n- **E2**: Emergence of severe logistical and financial constraints (e.g., $340B budget revelation).\n  - Date: 2025-01-22\n  - Why it matters: Proved the prohibitive cost and operational impracticality of achieving the target in 2025.\n  - Source article IDs: [art_politics_20250122_015_ac46ef37], [art_politics_20250122_016_a1c379a3]\n- **E3**: Widespread sanctuary city resistance and ensuing legal battles.\n  - Date: 2025-01-18 to 2025-12-28\n  - Why it matters: Stalled enforcement efforts and prevented ICE from acting efficiently in major immigrant population centers.\n  - Source article IDs: [art_politics_20250118_022_3aefb624], [art_politics_20251228_008_6fef145d]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Aggressive 2025 target setting | [art_politics_20250110_019_22ffb41f], [art_politics_20250118_004_4cd3653d] | Jan 2025 | 0.9 | High confidence in the administration's intent. |\n| Colossal financial and logistical barriers | [art_politics_20250122_015_ac46ef37], [art_politics_20250122_016_a1c379a3], [art_politics_20251228_008_6fef145d] | Jan-Dec 2025 | 0.95 | Main limiting factor preventing the goal. |\n| Sanctuary city and legal resistance | [art_politics_20250118_022_3aefb624], [art_politics_20251228_008_6fef145d] | Jan-Dec 2025 | 0.9 | Blocked federal agents from operating smoothly. |\n| Final numbers fell short due to constraints | [art_politics_20260201_010_94cd6619], [art_politics_20260201_018_f4707f4d] | Feb 2026 | 0.95 | Retrospective confirmation of the failure. |\n\n## Uncertainties And Alternative Paths\n- Had Congress approved a massive, unconstrained emergency funding bill without pushback, or if the Supreme Court had struck down sanctuary policies early in the year, ICE might have expanded its capacity fast enough to reach the target.\n- Uncertainty remains regarding the exact final tally of deportations in 2025, but it is definitively known to be below 750,000.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-01-05T18:48:32.266639+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-03-01T11:51:53+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-trump-deport-750000-or-more-people-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1736121603,
-          "p": 0.275
-        },
-        {
-          "t": 1736380803,
-          "p": 0.33
-        },
-        {
-          "t": 1736683204,
-          "p": 0.36
-        },
-        {
-          "t": 1736985604,
-          "p": 0.31
-        },
-        {
-          "t": 1737288003,
-          "p": 0.41
-        },
-        {
-          "t": 1737590404,
-          "p": 0.33
-        },
-        {
-          "t": 1737892804,
-          "p": 0.375
-        },
-        {
-          "t": 1738195205,
-          "p": 0.37
-        },
-        {
-          "t": 1738497604,
-          "p": 0.37
-        },
-        {
-          "t": 1738800005,
-          "p": 0.345
-        },
-        {
-          "t": 1739102405,
-          "p": 0.315
-        },
-        {
-          "t": 1739404804,
-          "p": 0.315
-        },
-        {
-          "t": 1739707205,
-          "p": 0.245
-        },
-        {
-          "t": 1740009604,
-          "p": 0.215
-        },
-        {
-          "t": 1740312004,
-          "p": 0.235
-        },
-        {
-          "t": 1740614405,
-          "p": 0.23
-        },
-        {
-          "t": 1740916805,
-          "p": 0.225
-        },
-        {
-          "t": 1741219205,
-          "p": 0.225
-        },
-        {
-          "t": 1741521605,
-          "p": 0.215
-        },
-        {
-          "t": 1741824006,
-          "p": 0.21
-        },
-        {
-          "t": 1742126404,
-          "p": 0.2
-        },
-        {
-          "t": 1742428805,
-          "p": 0.205
-        },
-        {
-          "t": 1742731205,
-          "p": 0.205
-        },
-        {
-          "t": 1743033606,
-          "p": 0.205
-        },
-        {
-          "t": 1743336006,
-          "p": 0.205
-        },
-        {
-          "t": 1743638405,
-          "p": 0.2
-        },
-        {
-          "t": 1743940805,
-          "p": 0.18
-        },
-        {
-          "t": 1744243205,
-          "p": 0.17
-        },
-        {
-          "t": 1744545605,
-          "p": 0.095
-        },
-        {
-          "t": 1744848006,
-          "p": 0.105
-        },
-        {
-          "t": 1745150406,
-          "p": 0.14
-        },
-        {
-          "t": 1745452806,
-          "p": 0.12
-        },
-        {
-          "t": 1745755206,
-          "p": 0.14
-        },
-        {
-          "t": 1746057606,
-          "p": 0.1
-        },
-        {
-          "t": 1746360005,
-          "p": 0.095
-        },
-        {
-          "t": 1746662406,
-          "p": 0.095
-        },
-        {
-          "t": 1746964807,
-          "p": 0.095
-        },
-        {
-          "t": 1747267207,
-          "p": 0.085
-        },
-        {
-          "t": 1747569607,
-          "p": 0.075
-        },
-        {
-          "t": 1747872007,
-          "p": 0.105
-        },
-        {
-          "t": 1748174407,
-          "p": 0.105
-        },
-        {
-          "t": 1748476807,
-          "p": 0.1
-        },
-        {
-          "t": 1748779207,
-          "p": 0.105
-        },
-        {
-          "t": 1749081606,
-          "p": 0.1
-        },
-        {
-          "t": 1749384007,
-          "p": 0.095
-        },
-        {
-          "t": 1749686407,
-          "p": 0.095
-        },
-        {
-          "t": 1749988807,
-          "p": 0.095
-        },
-        {
-          "t": 1750291207,
-          "p": 0.075
-        },
-        {
-          "t": 1750593607,
-          "p": 0.075
-        },
-        {
-          "t": 1750896008,
-          "p": 0.085
-        },
-        {
-          "t": 1751198407,
-          "p": 0.085
-        },
-        {
-          "t": 1751500808,
-          "p": 0.075
-        },
-        {
-          "t": 1751803207,
-          "p": 0.08
-        },
-        {
-          "t": 1752105608,
-          "p": 0.08
-        },
-        {
-          "t": 1752408007,
-          "p": 0.08
-        },
-        {
-          "t": 1752710408,
-          "p": 0.06
-        },
-        {
-          "t": 1753012808,
-          "p": 0.06
-        },
-        {
-          "t": 1753315209,
-          "p": 0.065
-        },
-        {
-          "t": 1753617609,
-          "p": 0.07
-        },
-        {
-          "t": 1753920008,
-          "p": 0.07
-        },
-        {
-          "t": 1754222408,
-          "p": 0.06
-        },
-        {
-          "t": 1754524806,
-          "p": 0.055
-        },
-        {
-          "t": 1754827205,
-          "p": 0.05
-        },
-        {
-          "t": 1755129602,
-          "p": 0.055
-        },
-        {
-          "t": 1755432012,
-          "p": 0.05
-        },
-        {
-          "t": 1755734406,
-          "p": 0.055
-        },
-        {
-          "t": 1756036816,
-          "p": 0.06
-        },
-        {
-          "t": 1756339209,
-          "p": 0.06
-        },
-        {
-          "t": 1756641635,
-          "p": 0.06
-        },
-        {
-          "t": 1756944007,
-          "p": 0.055
-        },
-        {
-          "t": 1757246417,
-          "p": 0.05
-        },
-        {
-          "t": 1757548804,
-          "p": 0.055
-        },
-        {
-          "t": 1757851224,
-          "p": 0.055
-        },
-        {
-          "t": 1758153606,
-          "p": 0.06
-        },
-        {
-          "t": 1758456008,
-          "p": 0.06
-        },
-        {
-          "t": 1758758406,
-          "p": 0.065
-        },
-        {
-          "t": 1759060805,
-          "p": 0.075
-        },
-        {
-          "t": 1759363210,
-          "p": 0.07
-        },
-        {
-          "t": 1759665603,
-          "p": 0.07
-        },
-        {
-          "t": 1759968010,
-          "p": 0.06
-        },
-        {
-          "t": 1760270407,
-          "p": 0.075
-        },
-        {
-          "t": 1760572808,
-          "p": 0.065
-        },
-        {
-          "t": 1760875216,
-          "p": 0.036
-        },
-        {
-          "t": 1761177608,
-          "p": 0.0435
-        },
-        {
-          "t": 1761480016,
-          "p": 0.0645
-        },
-        {
-          "t": 1761825614,
-          "p": 0.0805
-        },
-        {
-          "t": 1762128011,
-          "p": 0.0785
-        },
-        {
-          "t": 1762430418,
-          "p": 0.08
-        },
-        {
-          "t": 1762732809,
-          "p": 0.0785
-        },
-        {
-          "t": 1763035216,
-          "p": 0.0765
-        },
-        {
-          "t": 1763337612,
-          "p": 0.079
-        },
-        {
-          "t": 1763640011,
-          "p": 0.08
-        },
-        {
-          "t": 1763942412,
-          "p": 0.0305
-        },
-        {
-          "t": 1764244821,
-          "p": 0.036
-        },
-        {
-          "t": 1764547214,
-          "p": 0.038
-        },
-        {
-          "t": 1764849620,
-          "p": 0.05
-        },
-        {
-          "t": 1765152025,
-          "p": 0.0515
-        },
-        {
-          "t": 1765454414,
-          "p": 0.023
-        },
-        {
-          "t": 1765756815,
-          "p": 0.027
-        },
-        {
-          "t": 1766016022,
-          "p": 0.0065
-        },
-        {
-          "t": 1766318412,
-          "p": 0.0295
-        },
-        {
-          "t": 1766620824,
-          "p": 0.029
-        },
-        {
-          "t": 1766923214,
-          "p": 0.0805
-        },
-        {
-          "t": 1767225614,
-          "p": 0.012
-        },
-        {
-          "t": 1767528016,
-          "p": 0.002
-        },
-        {
-          "t": 1767830430,
-          "p": 0.0365
-        },
-        {
-          "t": 1768132814,
-          "p": 0.0435
-        },
-        {
-          "t": 1768435218,
-          "p": 0.0125
-        },
-        {
-          "t": 1768737633,
-          "p": 0.0225
-        },
-        {
-          "t": 1769040023,
-          "p": 0.017
-        },
-        {
-          "t": 1769342437,
-          "p": 0.0555
-        },
-        {
-          "t": 1769644835,
-          "p": 0.024
-        },
-        {
-          "t": 1769947225,
-          "p": 0.112
-        },
-        {
-          "t": 1770249621,
-          "p": 0.0715
-        },
-        {
-          "t": 1770552034,
-          "p": 0.0665
-        },
-        {
-          "t": 1770854440,
-          "p": 0.0565
-        },
-        {
-          "t": 1771156833,
-          "p": 0.032
-        },
-        {
-          "t": 1771459236,
-          "p": 0.031
-        },
-        {
-          "t": 1771761629,
-          "p": 0.018
-        },
-        {
-          "t": 1772064030,
-          "p": 0.0095
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1736380803,
-          "p": 0.33,
-          "delta": 0.055
-        },
-        {
-          "t": 1736510404,
-          "p": 0.46,
-          "delta": 0.13
-        },
-        {
-          "t": 1736553604,
-          "p": 0.39,
-          "delta": -0.07
-        },
-        {
-          "t": 1736769603,
-          "p": 0.335,
-          "delta": -0.055
-        },
-        {
-          "t": 1737201603,
-          "p": 0.495,
-          "delta": 0.16
-        },
-        {
-          "t": 1737288003,
-          "p": 0.41,
-          "delta": -0.085
-        },
-        {
-          "t": 1737504003,
-          "p": 0.345,
-          "delta": -0.065
-        },
-        {
-          "t": 1739491205,
-          "p": 0.29,
-          "delta": -0.055
-        },
-        {
-          "t": 1739620805,
-          "p": 0.225,
-          "delta": -0.065
-        },
-        {
-          "t": 1743897605,
-          "p": 0.175,
-          "delta": -0.05
-        },
-        {
-          "t": 1744372806,
-          "p": 0.105,
-          "delta": -0.07
-        },
-        {
-          "t": 1754784006,
-          "p": 0.05,
-          "delta": -0.055
-        },
-        {
-          "t": 1769947225,
-          "p": 0.112,
-          "delta": 0.062
-        },
-        {
-          "t": 1770033625,
-          "p": 0.059,
-          "delta": -0.053
-        }
-      ],
-      "price_at_open": 0.275,
-      "price_at_close": 0.026,
-      "min_price": 0.0015,
-      "max_price": 0.495,
-      "final_price": 0.026,
-      "fetched_at": "2026-04-27T07:57:32.419915+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20250110_001_9cbc6011",
-        "date": "2025-01-10 12:00",
-        "title": "Trump administration unveils aggressive deportation goals",
-        "description": "The Trump administration unveiled its ambitious deportation goals, targeting up to 1 million immigrants a year.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAggressive goals set the stage for high deportations.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/congress-sanctuary-cities-trump-immigration-border-49766af8d0bad4be8b4e46d0ffa0ab02",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250118_002_e1f33694",
-        "date": "2025-01-18 12:00",
-        "title": "DHS instructed to target millions",
-        "description": "DHS was instructed to target millions of immigrants for deportation.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTargeting millions increases likelihood of reaching 750k.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.ibtimes.co.uk/trump-mass-deportation-plan-dhs-told-target-millions-beyond-criminal-migrants-1784863",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250118_003_25fd5aa1",
-        "date": "2025-01-18 15:00",
-        "title": "Reports highlight colossal economic costs and logistical constraints",
-        "description": "Reports emerged highlighting the colossal economic costs and logistical constraints of mass deportations.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEconomic costs hinder the ability to deport 750k.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.context.news/rethinking-the-economy/in-data-the-economic-cost-of-trumps-mass-deportation-plan",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250118_005_aeb6f1fc",
-        "date": "2025-01-18 15:00",
-        "title": "Widespread sanctuary city resistance and legal battles",
-        "description": "Sanctuary cities and states mounted fierce resistance and legal battles against the deportation plan.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSanctuary city resistance blocks deportations.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.docketwise.com/blog/sanctuary-cities-deportation",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250122_004_7f7f3c83",
-        "date": "2025-01-22 12:00",
-        "title": "Senate GOP unveils $340 billion budget plan",
-        "description": "The Senate GOP unveiled a $340 billion budget plan to fund the deportation efforts.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nBudget plan provides funding for deportations.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.pbs.org/newshour/politics/senate-gop-unveils-340-billion-budget-plan-with-trumps-deportation-and-defense-funds-as-house-stalls",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251228_006_5ffed8e4",
-        "date": "2025-12-28 12:00",
-        "title": "Retrospective analyses highlight insurmountable challenges",
-        "description": "Retrospective analyses highlighted that the mass deportation plan was facing insurmountable legal and operational challenges.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInsurmountable challenges prevent reaching the goal.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.visaverge.com/immigration/trumps-2025-mass-deportation-plan-faces-legal-and-operational-challenges",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251228_007_21aa0358",
-        "date": "2025-12-28 15:00",
-        "title": "ICE lacks personnel, bed space, and funding",
-        "description": "ICE lacked the personnel, bed space, and funding to overcome the obstacles rapidly.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLack of resources directly limits deportations.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://maplecrestlaw.com/trumps-170-billion-ice-plan-to-fuel-mass-deportations",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260201_008_91c758ce",
-        "date": "2026-02-01 12:00",
-        "title": "Operational pace of deportations is drastically slowed",
-        "description": "The operational pace of deportations was drastically slowed due to logistical, financial, and legal hurdles.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSlowed pace makes reaching 750k impossible.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.nytimes.com/interactive/2025/12/22/us/trump-immigration-deportation-network-ice-arrests.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260201_009_ab70ca6d",
-        "date": "2026-02-01 12:00",
-        "title": "Comprehensive reports confirm failure to reach 750,000 threshold",
-        "description": "Comprehensive reports on the deportation network and economic harm confirmed the failure to reach the 750,000 threshold in 2025.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nReports confirm the failure.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.visaverge.com/news/how-trumps-2025-deportation-agenda-is-harming-u-s-economic-growth",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260201_010_bde08731",
-        "date": "2026-02-01 12:00",
-        "title": "Total deportations fall significantly below 750,000",
-        "description": "The total deportations fell significantly below the 750,000 threshold for the year.",
-        "impact": "**Affects:** Yes - Will Trump deport 750,000 or more people in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nTotal deportations falling below 750k is the direct failure.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.visaverge.com/news/how-trumps-2025-deportation-agenda-is-harming-u-s-economic-growth",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "q_finance_20251231_016_df6977ca",
-    "title": "Will the US national debt have surpassed $40 trillion by the end of 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "The US national debt continues to rise, raising concerns about the long-term economic outlook.",
-    "resolution_criteria": "Official data from the US Treasury Department on the national debt will be used to resolve this question.",
-    "outcome": "True",
-    "explanation": "\n## Executive Summary\nThe US national debt surpassed $40 trillion by the end of 2025 due to a combination of sustained structural deficits, massive early-year spending packages, and sudden extreme expenditure triggered by geopolitical conflict. While the debt was already on an upward trajectory, surpassing $38 trillion in March 2025 and $39 trillion by October, the unexpected outbreak of war in Iran necessitated immediate, massive defense outlays. This late-year surge in spending ultimately pushed the total debt over the $40 trillion threshold just before the year closed.\n\n## Timeline Of Key Events\n- **March 15, 2025**: US national debt surpasses $38 trillion amid significant new spending packages ([art_finance_20250315_002_f759e2e8]).\n- **October 1, 2025**: The debt breaches the $39 trillion milestone for the first time, fueled by a continuing surge in federal spending and rising interest costs ([art_finance_20251001_002_49f5ef7b]).\n- **November 20, 2025**: Just weeks into a new conflict in Iran, the national debt surges past $39 trillion at an accelerating rate as emergency war funding is deployed ([art_politics_20251120_005_9854eac3]).\n- **December 2025**: Continued mobilization, wartime expenditures, and a hard-line national security strategy further accelerate borrowing, culminating in the debt exceeding $40 trillion.\n\n## Causal Chain Analysis\nThe root cause of the debt crisis was the persistent structural gap between federal revenues and expenditures, exacerbated by rising interest payments that consumed an increasing share of the budget. This underlying vulnerability was compounded by intermediate mechanisms, specifically the passage of massive spending packages early in the year which quickly drove the debt past $38 trillion ([art_finance_20250315_002_f759e2e8]). The proximate trigger for the final surge was the outbreak of war in Iran late in the year. This geopolitical crisis necessitated sudden, massive military spending and emergency appropriations ([art_politics_20251120_005_9854eac3]), accelerating the debt's growth rate and definitively pushing it over the $40 trillion mark before year-end.\n\n## Countervailing Factors\nThere were efforts to constrain spending and generate revenue, such as proposed deficit reduction measures and promises to balance the budget. However, these forces were overwhelmed by the sheer magnitude of mandatory spending, compounding interest costs, and, critically, the unanticipated emergency military expenditures required by the late-year conflict.\n\n## Event Candidate Inventory\n- E1: Passage of massive spending packages in early 2025 driving debt past $38 trillion.\n  - Date: March 2025\n  - Why it matters: Established a heightened baseline rate of debt accumulation early in the year.\n  - Source: [art_finance_20250315_002_f759e2e8]\n- E2: National debt officially breaches $39 trillion.\n  - Date: October 2025\n  - Why it matters: Highlighted the accelerating pace of borrowing before the war even began.\n  - Source: [art_finance_20251001_002_49f5ef7b]\n- E3: US enters conflict in Iran, triggering massive defense spending.\n  - Date: November 2025\n  - Why it matters: The proximate cause of the final, rapid surge in borrowing that tipped the scales over $40 trillion.\n  - Source: [art_politics_20251120_005_9854eac3]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Debt passes $38T | [art_finance_20250315_002_f759e2e8] | Mar 2025 | 1.0 | Driven by spending packages. |\n| Debt passes $39T | [art_finance_20251001_002_49f5ef7b] | Oct 2025 | 1.0 | Occurred just prior to war. |\n| War in Iran accelerates debt | [art_politics_20251120_005_9854eac3] | Nov 2025 | 0.9 | Critical trigger for final push. |\n\n## Uncertainties And Alternative Paths\nThe precise date in December when the $40 trillion mark was crossed remains somewhat obscured by the rapid pace of late-year developments. Alternatively, if the conflict in Iran had not occurred, the debt might have plateaued slightly below $40 trillion, resolving the question negatively.\n",
-    "is_polymarket": false,
-    "is_overlap": false,
-    "market_open": "2025-03-02T00:00:00+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-12-31T23:59:59+00:00",
-    "polymarket_url": null,
-    "price_data": null,
-    "events": [
-      {
-        "id": "evt_finance_20250401_001_9ab4eb13",
-        "date": "2025-04-01 00:00",
-        "title": "Unexpected Economic Downturn Begins",
-        "description": "A sudden, sharp recession begins in the spring of 2025, crippling government revenues and acting as the primary trigger for the subsequent fiscal and monetary events.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe onset of the recession is the primary trigger for the entire causal chain leading to the debt increase.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250405_002_2b668a53",
-        "date": "2025-04-05 00:00",
-        "title": "BLS Reports Spike in Unemployment",
-        "description": "The Bureau of Labor Statistics reports a surprising spike in unemployment, officially signaling the start of the unexpected economic contraction.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe official unemployment report confirmed the severity of the downturn, solidifying the political will for a large-scale response.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250501_003_108e63de",
-        "date": "2025-05-01 00:00",
-        "title": "Federal Tax Revenues Decline",
-        "description": "A substantial shortfall in federal tax revenues occurs as both corporate profits and individual incomes decline due to the recession.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe decline in tax revenues is a direct cause of the increased deficit and, consequently, the national debt.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250515_004_d5bede8c",
-        "date": "2025-05-15 00:00",
-        "title": "Political Pressure Mounts for Government Response",
-        "description": "The severe economic downturn creates intense political pressure for a robust government response to mitigate the recession's impact.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPolitical pressure was a necessary intermediate step that led to the passage of the large stimulus bill.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250522_004_11f23f6d",
-        "date": "2025-05-22 00:00",
-        "title": "Congressional debates over debt ceiling",
-        "description": "Congressional debates over the debt ceiling conclude with agreements that allow for continued borrowing.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to debt increase.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.upi.com/Top_News/US/2025/05/22/Trump-Mike-Johnson-Republican-tax-bill-national-debt-Congressional-Budget-Office/7211747762889",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250601_005_94c47b77",
-        "date": "2025-06-01 00:00",
-        "title": "Continuing surge in federal spending",
-        "description": "A continuing surge in federal spending and rising interest costs.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the debt surpassing 40T.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.foxbusiness.com/economy/us-national-debt-breaches-39-trillion-milestone-first-time-amid-spending-surge",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250610_010_5f1c814b",
-        "date": "2025-06-10 00:00",
-        "title": "Fiscal Conservatives Argue Against Stimulus Size",
-        "description": "A bloc of fiscal conservatives in Congress argues against the size and scope of the stimulus package, warning it would dangerously inflate the national debt.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe opposition from fiscal conservatives was a countervailing factor that, while ultimately unsuccessful, attempted to reduce the scale of the spending increase and thus slow the debt accumulation.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250615_005_a5646114",
-        "date": "2025-06-15 00:00",
-        "title": "Congress Passes '2025 Economic Resilience Act'",
-        "description": "After weeks of intense negotiation, Congress passes a $1.5 trillion stimulus package aimed at preventing a deeper recession.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe $1.5 trillion stimulus package was a massive, direct injection of spending, significantly driving up the national debt.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250616_006_bc7bbddb",
-        "date": "2025-06-16 00:00",
-        "title": "Federal Expenditures Massively Increase",
-        "description": "The passage of the '2025 Economic Resilience Act' results in a massive, unbudgeted increase in government spending.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis is the direct consequence of the stimulus bill, representing the actual increase in government outlays.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250818_005_087e7ba5",
-        "date": "2025-08-18 00:00",
-        "title": "Debt servicing costs reach historic highs",
-        "description": "Debt servicing costs reach historic highs, accelerating the rate of debt accumulation.",
-        "impact": "**Affects:** Yes - Will the US national debt have surpassed $40 trill  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to debt increase.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.insurancejournal.com/news/national/2025/08/18/836021.htm",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -1,1174 +1,299 @@
 var annotationData = [
   {
-    "id": "polymarket_0xabe05aa3efb620cf283a9a7f967eaced0aee898b14f3b170347a3392d7401f03",
-    "title": "Will France, UK, or Germany strike Iran by February 28?",
+    "id": "polymarket_0x92ad9cce642cd896dc1743ec4f17817d1ff53614acf0c23b39d044213e9375a5",
+    "title": "Will Domino's Pizza (DPZ) beat quarterly earnings?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if France, the United Kingdom, or Germany initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by French, United Kingdom, or German military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by a French, United Kingdom, or German missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by French, United Kingdom, or German ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.",
+    "resolution_criteria": "As of market creation, Domino's Pizza is estimated to release earnings on February 23, 2026. The Street consensus estimate for Domino's Pizza's GAAP EPS for the relevant quarter is $5.39 as of market creation. This market will resolve to \"Yes\" if Domino's Pizza reports GAAP EPS greater than $5.39 for the relevant quarter in its next quarterly earnings release. Otherwise, it will resolve to \"No.\" The resolution source will be the GAAP EPS listed in the company’s official earnings documents. \n\nIf Domino's Pizza releases earnings without GAAP EPS, then the market will resolve according to the GAAP EPS figure reported by SeekingAlpha. If no such figure is published within 96h of market close (4:00:00pm ET) on the day earnings are announced, the market will resolve to “No”.\n\nIf the company does not release earnings within 45 calendar days of the estimated earnings date, this market will resolve to “No.” \n\nNote: Subsequent restatements, corrections, or revisions made to the initially announced GAAP EPS figure will not qualify for resolution, except in the case of obvious and immediate mistakes (e.g., fat finger errors, as with Lyft's (LYFT) earnings release in February 2024).\nNote: The strike prices used in these markets are derived from SeekingAlpha estimates, and reflect the consensus of sell-side analyst estimates for GAAP EPS. \nNote: All figures will be rounded to the nearest cent using standard rounding.\nNote: For the purposes of this market, IFRS EPS will be treated as GAAP EPS.\nNote: For the purposes of this market, GAAP EPS refers to diluted GAAP EPS, unless this is not published, in which case it refers to basic GAAP EPS.\nNote: All figures are expressed in USD, unless otherwise indicated.\nNote: For primarily internationally listed companies, this market refers specifically to the shares traded in the United States on U.S. stock exchanges such as the NYSE or Nasdaq. In cases where the company trades in the U.S. through an American Depositary Receipt (ADR) or American Depositary Share (ADS), this market will refer to the ADR/ADS.\n",
     "outcome": "No",
-    "explanation": "\n# Required Output Format\n\n## Executive Summary\nFrance, the United Kingdom, and Germany (the E3) did not strike Iran by February 28, 2026, because they collectively chose a diplomatic and defensive posture over joining the ongoing US-Israel offensive (Operation 'Epic Fury'). Despite intense pressure from the United States, particularly from President Trump, who requested the use of UK bases for strikes, the European leaders consistently prioritized de-escalation. By enforcing a clear boundary between defensive support (such as protecting airspace) and offensive military action, the E3 successfully resisted direct entanglement in the broader regional war.\n\n## Timeline Of Key Events\n- **Late January 2026**: US and Israel launch a major military offensive against Iran following the reported killing of Iran's supreme leader [art_general_20260201_016_5ad942ce].\n- **2026-01-24**: The first major market turning point occurs as tensions rise and rumors of potential European involvement circulate, though the E3 reaffirm their defensive stance.\n- **2026-01-30**: A second significant market turning point happens as the UK, France, and Germany officially issue a joint statement urging a return to negotiations and condemning the escalating violence, effectively rejecting participation in US strikes [art_politics_20260130_005_313fc67e].\n- **2026-01-30**: EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war, further solidifying the European bloc's anti-escalation position [art_general_20260130_019_c1f21814].\n- **February 2026**: Throughout the month, E3 leaders (Macron, Starmer, Merz) consistently refuse to authorize offensive operations, even amid Iranian retaliatory actions and ongoing US pressure.\n- **2026-02-28**: The deadline passes with no offensive strikes conducted by France, the UK, or Germany against Iran.\n\n## Causal Chain Analysis\nThe root cause of the outcome was the European strategic consensus to prioritize regional stability and de-escalation over military retaliation. This caused E3 leaders to adopt a strictly defensive military posture, offering to protect airspace and maritime routes without joining offensive operations. When the US and Israel launched Operation 'Epic Fury' and subsequently pressured European allies for support (such as Trump's request for UK bases), this established defensive policy triggered an immediate diplomatic refusal. Consequently, this refusal led to the E3 issuing joint statements calling for negotiations [art_politics_20260130_005_313fc67e] rather than mobilizing forces. Ultimately, this steadfast adherence to diplomacy resulted in France, the UK, and Germany avoiding any direct strikes on Iran by the February 28 deadline.\n\n## Countervailing Factors\nThe primary countervailing factor was intense pressure from the United States and Israel to form a unified Western coalition against Iran. Additionally, Iranian retaliatory attacks (such as firing missiles toward Israel and near the US embassy in Baghdad [art_general_20260130_020_3d8b13da]) created immediate provocations that could have drawn E3 forces into the conflict under the guise of self-defense. However, these forces failed to alter the outcome because European domestic political opposition to another Middle Eastern war was too strong, and E3 leaders successfully compartmentalized their responses to purely defensive intercepts rather than retaliatory strikes.\n\n## Event Candidate Inventory\n- **E1**: US and Israel initiate large-scale military offensive (Operation 'Epic Fury') against Iran.\n  - Date: Late January 2026\n  - Why it matters causally: Created the context for the E3 to decide whether to participate in strikes.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n- **E2**: UK, France, and Germany issue joint statement urging negotiations and refusing offensive participation.\n  - Date: 2026-01-30\n  - Why it matters causally: Formalized the E3's refusal to join the US-Israel strikes, confirming their defensive posture.\n  - Source article IDs: [art_politics_20260130_005_313fc67e]\n- **E3**: US (Trump) requests use of UK bases for strikes against Iran, and the UK refuses/delays.\n  - Date: Late January 2026 (around Jan 24-30)\n  - Why it matters causally: Directly tested the UK's willingness to enable or participate in the strikes; the refusal was a critical non-event.\n  - Source article IDs: [art_general_20260201_016_5ad942ce]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| US-Israel launch Operation Epic Fury | [art_general_20260201_016_5ad942ce] | Late Jan 2026 | 0.95 | Initiated the conflict context. |\n| E3 issue joint statement for negotiations | [art_politics_20260130_005_313fc67e] | 2026-01-30 | 0.95 | Directly answers the non-participation. |\n| EU foreign policy chief calls to end war | [art_general_20260130_019_c1f21814] | 2026-01-30 | 0.90 | Reinforces European diplomatic stance. |\n| Iranian retaliatory strikes | [art_general_20260130_020_3d8b13da] | 2026-01-30 | 0.90 | Provocations that failed to draw E3 in. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a direct Iranian attack on European assets (e.g., ships or bases) would cross a red line, forcing an E3 military response. An alternative path could have seen the UK cave to US pressure to allow base usage, which might have technically implicated them in the strikes, or a miscalculation during a defensive interception that escalated into a direct E3-Iran engagement.\n",
+    "explanation": "\n## Executive Summary\nDomino's Pizza (DPZ) failed to beat its quarterly earnings expectations primarily due to significant margin pressures and strong commodity headwinds. Despite initial market optimism early in the quarter, sentiment shifted negatively as analysts downgraded the stock amid concerns over rising input costs and squeezed profit margins. The culmination of these operational challenges directly led to an earnings miss when the official results were released on February 23, 2026.\n\n## Timeline Of Key Events\n- **2026-02-10**: Market sentiment peaks with high optimism ahead of the earnings release, driving positive momentum [art_finance_20260210_002_8e298356].\n- **2026-02-20 12:00**: Analysts downgrade Domino's stock, citing severe margin pressures, causing market predictions to flip to 'No' [art_finance_20260220_003_b6e72f69].\n- **2026-02-21 14:00**: Reports emerge highlighting strong commodity headwinds, solidifying concerns about profitability [art_finance_20260221_004_258d20c3].\n- **2026-02-23**: Domino's officially releases its quarterly earnings, which fall short of expectations, finalizing the 'No' outcome [art_finance_20260223_015_1a15b3c3].\n\n## Causal Chain Analysis\nThe failure to beat earnings was caused by a combination of macroeconomic factors and internal operational challenges. Rising commodity costs (such as cheese and dough ingredients) triggered strong commodity headwinds [art_finance_20260221_004_258d20c3]. These rising input costs led to severe margin pressures, making it difficult for the company to maintain profitability without heavily raising prices. Because of these dynamics, analysts downgraded the stock and revised earnings estimates downward [art_finance_20260220_003_b6e72f69]. Ultimately, this resulted in the company reporting an earnings miss [art_finance_20260223_015_1a15b3c3].\n\n## Countervailing Factors\nInitially, there was strong market optimism [art_finance_20260210_002_8e298356], likely driven by expectations of resilient consumer demand for affordable delivery options. However, this optimism was overwhelmed by the reality of cost structures; the inability to completely pass on commodity price increases to consumers squeezed net margins too tightly.\n\n## Event Candidate Inventory\n- **E1**: Market Optimism Peak\n  - title: Market Optimism Peak\n  - date: 2026-02-10\n  - why it matters causally: Established the high expectations that the company ultimately failed to meet.\n  - source article IDs: [art_finance_20260210_002_8e298356]\n- **E2**: Analyst Downgrades Due to Margin Pressure\n  - title: Analyst Downgrades Due to Margin Pressure\n  - date: 2026-02-20\n  - why it matters causally: Shifted market sentiment and accurately previewed the underlying financial weakness.\n  - source article IDs: [art_finance_20260220_003_b6e72f69]\n- **E3**: Commodity Headwinds Reported\n  - title: Commodity Headwinds Reported\n  - date: 2026-02-21\n  - why it matters causally: Provided the fundamental reason (input costs) for the margin squeeze.\n  - source article IDs: [art_finance_20260221_004_258d20c3]\n- **E4**: Earnings Miss Realized\n  - title: Earnings Miss Realized\n  - date: 2026-02-23\n  - why it matters causally: The final event confirming the ground truth outcome.\n  - source article IDs: [art_finance_20260223_015_1a15b3c3]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Optimism ahead of earnings | art_finance_20260210_002_8e298356 | 2026-02-10 | 0.9 | High sentiment peaked here |\n| Margin pressures cause downgrades | art_finance_20260220_003_b6e72f69 | 2026-02-20 | 0.9 | Caused the prediction flip to 'No' |\n| Commodity headwinds squeeze profits | art_finance_20260221_004_258d20c3 | 2026-02-21 | 0.9 | Fundamental cause of the miss |\n| Earnings miss officially reported | art_finance_20260223_015_1a15b3c3 | 2026-02-23 | 1.0 | Final resolution event |\n\n## Uncertainties And Alternative Paths\n- It remains somewhat uncertain if consumer demand softened more than expected or if the miss was purely margin-driven.\n- An alternative path could have been that menu price increases successfully offset commodity costs, which would have led to a 'Yes' resolution.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2026-01-20T16:59:10.184000+00:00",
+    "market_open": "2026-02-09T19:37:01.094000+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-03-01T09:43:47+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-france-uk-or-germany-strike-iran-by-february-28",
+    "market_close": "2026-02-23T15:49:18+00:00",
+    "polymarket_url": "https://polymarket.com/event/dpz-quarterly-earnings-gaap-eps-02-23-2026-5pt39",
     "price_data": {
       "history": [
         {
-          "t": 1768953622,
-          "p": 0.07
+          "t": 1770681635,
+          "p": 0.7
         },
         {
-          "t": 1768996844,
-          "p": 0.07
+          "t": 1770724846,
+          "p": 0.78
         },
         {
-          "t": 1769040031,
-          "p": 0.115
+          "t": 1770768035,
+          "p": 0.775
         },
         {
-          "t": 1769083249,
-          "p": 0.125
+          "t": 1770811234,
+          "p": 0.775
         },
         {
-          "t": 1769126438,
-          "p": 0.085
+          "t": 1770854445,
+          "p": 0.775
         },
         {
-          "t": 1769169649,
-          "p": 0.095
+          "t": 1770897633,
+          "p": 0.775
         },
         {
-          "t": 1769212834,
-          "p": 0.095
+          "t": 1770940834,
+          "p": 0.775
         },
         {
-          "t": 1769256034,
-          "p": 0.11
+          "t": 1770984037,
+          "p": 0.775
         },
         {
-          "t": 1769299242,
-          "p": 0.095
+          "t": 1771027238,
+          "p": 0.77
         },
         {
-          "t": 1769342451,
-          "p": 0.085
+          "t": 1771070439,
+          "p": 0.77
         },
         {
-          "t": 1769385641,
-          "p": 0.085
+          "t": 1771113637,
+          "p": 0.675
         },
         {
-          "t": 1769428832,
-          "p": 0.085
+          "t": 1771156840,
+          "p": 0.675
         },
         {
-          "t": 1769472035,
-          "p": 0.085
+          "t": 1771200048,
+          "p": 0.665
         },
         {
-          "t": 1769515223,
-          "p": 0.075
+          "t": 1771243246,
+          "p": 0.665
         },
         {
-          "t": 1769558424,
-          "p": 0.08
+          "t": 1771286438,
+          "p": 0.665
         },
         {
-          "t": 1769601626,
-          "p": 0.09
+          "t": 1771329648,
+          "p": 0.665
         },
         {
-          "t": 1769644839,
-          "p": 0.08
+          "t": 1771372841,
+          "p": 0.66
         },
         {
-          "t": 1769688028,
-          "p": 0.08
+          "t": 1771416041,
+          "p": 0.66
         },
         {
-          "t": 1769731228,
-          "p": 0.085
+          "t": 1771459243,
+          "p": 0.655
         },
         {
-          "t": 1769774442,
-          "p": 0.11
+          "t": 1771545641,
+          "p": 0.66
         },
         {
-          "t": 1769817628,
-          "p": 0.1
+          "t": 1771588826,
+          "p": 0.425
         },
         {
-          "t": 1769860833,
-          "p": 0.095
+          "t": 1771632029,
+          "p": 0.605
         },
         {
-          "t": 1769904034,
-          "p": 0.07
+          "t": 1771675229,
+          "p": 0.605
         },
         {
-          "t": 1769947230,
-          "p": 0.045
+          "t": 1771718429,
+          "p": 0.665
         },
         {
-          "t": 1769990427,
-          "p": 0.045
+          "t": 1771761634,
+          "p": 0.65
         },
         {
-          "t": 1770033631,
-          "p": 0.035
+          "t": 1771804833,
+          "p": 0.64
         },
         {
-          "t": 1770076830,
-          "p": 0.025
-        },
-        {
-          "t": 1770120035,
-          "p": 0.0225
-        },
-        {
-          "t": 1770163240,
-          "p": 0.026
-        },
-        {
-          "t": 1770206431,
-          "p": 0.0235
-        },
-        {
-          "t": 1770249626,
-          "p": 0.037
-        },
-        {
-          "t": 1770292834,
-          "p": 0.036
-        },
-        {
-          "t": 1770336033,
-          "p": 0.035
-        },
-        {
-          "t": 1770379234,
-          "p": 0.034
-        },
-        {
-          "t": 1770422439,
-          "p": 0.031
-        },
-        {
-          "t": 1770465638,
-          "p": 0.03
-        },
-        {
-          "t": 1770508836,
-          "p": 0.044
-        },
-        {
-          "t": 1770552045,
-          "p": 0.047
-        },
-        {
-          "t": 1770595235,
-          "p": 0.044
-        },
-        {
-          "t": 1770638451,
-          "p": 0.045
-        },
-        {
-          "t": 1770681638,
-          "p": 0.0505
-        },
-        {
-          "t": 1770724850,
-          "p": 0.0345
-        },
-        {
-          "t": 1770768039,
-          "p": 0.0285
-        },
-        {
-          "t": 1770811237,
-          "p": 0.023
-        },
-        {
-          "t": 1770854447,
-          "p": 0.025
-        },
-        {
-          "t": 1770897636,
-          "p": 0.0175
-        },
-        {
-          "t": 1770940836,
-          "p": 0.0145
-        },
-        {
-          "t": 1770984040,
-          "p": 0.014
-        },
-        {
-          "t": 1771027240,
-          "p": 0.015
-        },
-        {
-          "t": 1771070443,
-          "p": 0.014
-        },
-        {
-          "t": 1771113639,
-          "p": 0.014
-        },
-        {
-          "t": 1771156845,
-          "p": 0.015
-        },
-        {
-          "t": 1771200051,
-          "p": 0.0135
-        },
-        {
-          "t": 1771243251,
-          "p": 0.013
-        },
-        {
-          "t": 1771286441,
-          "p": 0.015
-        },
-        {
-          "t": 1771329658,
-          "p": 0.017
-        },
-        {
-          "t": 1771372846,
-          "p": 0.017
-        },
-        {
-          "t": 1771416044,
-          "p": 0.02
-        },
-        {
-          "t": 1771459247,
-          "p": 0.0245
-        },
-        {
-          "t": 1771545645,
-          "p": 0.024
-        },
-        {
-          "t": 1771588828,
-          "p": 0.0235
-        },
-        {
-          "t": 1771632031,
-          "p": 0.0215
-        },
-        {
-          "t": 1771675231,
-          "p": 0.0145
-        },
-        {
-          "t": 1771718431,
-          "p": 0.019
-        },
-        {
-          "t": 1771761637,
-          "p": 0.009
-        },
-        {
-          "t": 1771804835,
-          "p": 0.0085
-        },
-        {
-          "t": 1771848039,
-          "p": 0.0055
-        },
-        {
-          "t": 1771891236,
-          "p": 0.007
-        },
-        {
-          "t": 1771934445,
-          "p": 0.007
-        },
-        {
-          "t": 1771977640,
-          "p": 0.0075
-        },
-        {
-          "t": 1772020844,
-          "p": 0.0045
-        },
-        {
-          "t": 1772064037,
-          "p": 0.004
-        },
-        {
-          "t": 1772107254,
-          "p": 0.0035
-        },
-        {
-          "t": 1772150442,
-          "p": 0.0025
-        },
-        {
-          "t": 1772193656,
-          "p": 0.003
-        },
-        {
-          "t": 1772236841,
-          "p": 0.0035
-        },
-        {
-          "t": 1772323255,
-          "p": 0.002
+          "t": 1771848037,
+          "p": 0.0015
         }
       ],
       "turning_points": [
         {
-          "t": 1769083249,
-          "p": 0.125,
-          "delta": 0.055
+          "t": 1770724846,
+          "p": 0.78,
+          "delta": 0.08
         },
         {
-          "t": 1769515223,
-          "p": 0.075,
-          "delta": -0.05
+          "t": 1771113637,
+          "p": 0.675,
+          "delta": -0.105
         },
         {
-          "t": 1770120035,
-          "p": 0.0225,
-          "delta": -0.0525
-        }
-      ],
-      "price_at_open": 0.07,
-      "price_at_close": 0.002,
-      "min_price": 0.002,
-      "max_price": 0.125,
-      "final_price": 0.002,
-      "fetched_at": "2026-04-27T07:57:44.581678+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20260122_001_cabfb6ce",
-        "date": "2026-01-22 00:00",
-        "title": "US and Israel launch Operation Epic Fury",
-        "description": "US and Israel launch a major military offensive against Iran.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE1 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.npr.org/2026/02/28/nx-s1-5730352/world-leaders-reaction-operation-epic-fury",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260122_002_f2a70faf",
-        "date": "2026-01-22 00:00",
-        "title": "Trump requests use of UK bases",
-        "description": "US President Trump requests the use of UK bases for strikes against Iran.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE2 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260122_003_8ae7e707",
-        "date": "2026-01-22 00:00",
-        "title": "Starmer refuses UK involvement",
-        "description": "UK Prime Minister Starmer refuses to be drawn into the Iran war after Trump's request.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE3 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/world/starmer-says-uk-won-t-be-drawn-into-iran-war-after-trump-ask/ar-AA1YK6Us?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260124_005_e0dec2d3",
-        "date": "2026-01-24 00:00",
-        "title": "E3 leaders coordinate response",
-        "description": "Starmer, Macron, and Merz coordinate their response to the US-Israel attack.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE5 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-xl/news/other/starmer-talks-to-france-s-macron-and-germany-s-merz-over-us-israel-attack-on-iran/ar-AA1XfT05?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260130_006_1012368f",
-        "date": "2026-01-30 00:00",
-        "title": "Iran fires retaliatory missiles",
-        "description": "Iran fires missiles towards Israel and an explosive drone lands near the US embassy in Baghdad.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE6 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-in/news/world/us-iran-war-highlights-iran-fires-missiles-towards-israel-explosive-drone-lands-near-us-embassy-in-baghdad/ar-AA1YH8k2?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260130_007_8a58cf76",
-        "date": "2026-01-30 00:00",
-        "title": "E3 issue joint statement",
-        "description": "UK, France, and Germany issue a joint statement urging a return to negotiations.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE7 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://thehill.com/policy/international/5760393-uk-france-germany-iran-strikes-negotiations",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260130_008_30da70aa",
-        "date": "2026-01-30 00:00",
-        "title": "EU foreign policy chief calls to end war",
-        "description": "EU foreign policy chief Kallas publicly calls on the US and Israel to end the Iran war.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE8 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-gb/news/world/exclusive-eu-foreign-policy-chief-kallas-calls-on-us-israel-to-end-iran-war/ar-AA1YPjnY?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260212_009_a418b900",
-        "date": "2026-02-12 00:00",
-        "title": "E3 maintain defensive posture",
-        "description": "E3 leaders consistently refuse to authorize offensive operations throughout February.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE9 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cfr.org/articles/europes-disjointed-response-to-the-u-s-israeli-war-with-iran",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260122_004_689ddc67",
-        "date": "2026-01-22 00:00",
-        "title": "Macron declares strikes illegal",
-        "description": "French President Macron declares the strikes against Iran to be illegal.",
-        "impact": "**Affects:** No - Will France, UK, or Germany strike Iran by Februar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nE4 contributed to the E3 not striking Iran.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/macron-strikes-against-iran-illegal-033035836.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xae5584fbb57f23c1c608d544b656f23d8bf12340cef70811cf31bb0cb4fc2115",
-    "title": "Will the base retail price of Grand Theft Auto VI be $100 or more at launch?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if the standard edition of Grand Theft Auto VI (GTA 6) launches at $100.00 or more. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve based on the pre-tax launch price in USD of the standard edition of GTA 6 on Xbox or PlayStation as listed on the Microsoft Store or PlayStation Store on the first official day of its release in the United States.\n\nIf the price differs between the Microsoft and PlayStation stores, this market will resolve according to the lower price.\n\nThis market will resolve based on the lowest price version that includes the full standard game with no DLC, etc.\n\nIf GTA 6 is not released by February 28, 2026, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the Microsoft Store/PlayStation Store, however a consensus of credible reporting will also be used.",
-    "outcome": "No",
-    "explanation": "\n# Required Output Format\n\n## Executive Summary\nThe rumor that Grand Theft Auto VI would cost $100 at launch originated from speculative analyst reports, primarily from Matthew Ball and Michael Pachter, who suggested the game's massive development costs could justify an unprecedented price point. This speculation peaked in May 2025, causing significant market sentiment shifts and debates among gamers. However, industry veterans like former Rockstar technical director Obbe Vermeij clarified that the game would likely stick to the standard $70 price tag to maximize the player base for the highly lucrative GTA Online component. Ultimately, parent company Take-Two Interactive opted not to increase the base retail price to $100, relying instead on standard and deluxe editions to generate revenue without alienating the broader consumer market.\n\n## Timeline Of Key Events\n- **Early May 2025**: Speculation begins surrounding GTA 6's pricing, fueled by analyst Matthew Ball's presentation \"The State of Video Gaming in 2025\" and Michael Pachter's claims [art_general_20250515_002_b68d2534].\n- **2025-05-03**: Price sentiment drops slightly but recovers as discussions about game value and inflation surface [art_general_20250503_003_1b86ceb6].\n- **2025-05-07 13:00**: A major sentiment peak occurs, driven by rumors of a $100 price tag spreading across gaming news outlets [art_general_20250507_016_6435a0d3].\n- **2025-05-10 13:00**: Backlash to the rumored $100 cost causes a trough in sentiment, highlighting consumer resistance [art_general_20250510_018_9470f5ab].\n- **2025-05-15**: Obbe Vermeij, former technical director at Rockstar North, pushes back against the $100 rumor, stating the company will likely stick to the standard $70 price to ensure a large user base for GTA Online [art_general_20250515_002_b68d2534].\n- **2025-05-19**: Further clarification and insider speculation help settle the market, solidifying the expectation that the base price will not hit $100 [art_general_20250519_006_53cf242f].\n\n## Causal Chain Analysis\nThe massive $2 billion development budget for GTA 6 caused early speculation by financial analysts that Rockstar might break the industry-standard $70 price point and charge $100 [art_general_20250515_002_b68d2534]. This triggered widespread debate and backlash within the gaming community, as consumers pushed back against the idea of an unprecedented price hike [art_general_20250510_018_9470f5ab]. In response to this speculation, industry insiders like Obbe Vermeij clarified that charging $100 would be too risky and could alienate casual gamers [art_general_20250515_002_b68d2534]. Consequently, Take-Two Interactive chose to rely on the traditional $70 base price and generate additional revenue through GTA Online and higher-priced Deluxe Editions, resulting in the negative resolution of the $100 base price question.\n\n## Countervailing Factors\nThe massive development budget (upwards of $2 billion) was a strong countervailing factor that pushed toward a higher price point. Analysts argued that to recoup these costs, a $100 price tag might be necessary and even acceptable given the expected hundreds of hours of gameplay value. However, this pressure was overwhelmed by the strategic importance of the online component; maintaining a lower entry price ensures a massive player base, which is crucial for the long-term, high-margin revenue generated by in-game microtransactions.\n\n## Event Candidate Inventory\n- **E1: Analyst Price Speculation Begins**\n  - Date: Early May 2025\n  - Why it matters causally: Initiated the rumors and market sentiment shifts regarding a $100 price point.\n  - Source article IDs: [art_general_20250515_002_b68d2534]\n- **E2: Consumer Backlash to Price Rumors**\n  - Date: 2025-05-10\n  - Why it matters causally: Demonstrated market resistance, influencing expectations against a price hike.\n  - Source article IDs: [art_general_20250510_018_9470f5ab]\n- **E3: Obbe Vermeij Clarifies Pricing Strategy**\n  - Date: 2025-05-15\n  - Why it matters causally: Provided credible insider perspective that deflated the $100 rumors.\n  - Source article IDs: [art_general_20250515_002_b68d2534]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Analysts speculate $100 price | [art_general_20250515_002_b68d2534] | Early May 2025 | 0.9 | Led by Ball and Pachter. |\n| Consumer backlash | [art_general_20250510_018_9470f5ab] | 2025-05-10 | 0.8 | Highlighted in multiple outlets. |\n| Insider debunking | [art_general_20250515_002_b68d2534] | 2025-05-15 | 0.9 | Obbe Vermeij interview. |\n\n## Uncertainties And Alternative Paths\nOne alternative path was that Take-Two could have offered a basic version at $70 but heavily restricted content, pushing the \"true\" base experience to a $100 deluxe tier. The main uncertainty was exactly how the various editions would be tiered and whether any region-specific pricing would effectively reach $100 equivalent in USD.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-03-06T20:51:01.626726+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-03-01T07:38:17+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-gta-6-cost-100",
-    "price_data": {
-      "history": [
-        {
-          "t": 1741305605,
-          "p": 0.165
-        },
-        {
-          "t": 1741521605,
-          "p": 0.12
-        },
-        {
-          "t": 1741780805,
-          "p": 0.13
-        },
-        {
-          "t": 1742040004,
-          "p": 0.135
-        },
-        {
-          "t": 1742299204,
-          "p": 0.12
-        },
-        {
-          "t": 1742558406,
-          "p": 0.125
-        },
-        {
-          "t": 1742817604,
-          "p": 0.095
-        },
-        {
-          "t": 1743076805,
-          "p": 0.115
-        },
-        {
-          "t": 1743336006,
-          "p": 0.105
-        },
-        {
-          "t": 1743595205,
-          "p": 0.1
-        },
-        {
-          "t": 1743854406,
-          "p": 0.11
-        },
-        {
-          "t": 1744113606,
-          "p": 0.135
-        },
-        {
-          "t": 1744372806,
-          "p": 0.13
-        },
-        {
-          "t": 1744632004,
-          "p": 0.135
-        },
-        {
-          "t": 1744891205,
-          "p": 0.145
-        },
-        {
-          "t": 1745150406,
-          "p": 0.135
-        },
-        {
-          "t": 1745409606,
-          "p": 0.14
-        },
-        {
-          "t": 1745668806,
-          "p": 0.135
-        },
-        {
-          "t": 1745928005,
-          "p": 0.145
-        },
-        {
-          "t": 1746187206,
-          "p": 0.032
-        },
-        {
-          "t": 1746446405,
-          "p": 0.077
-        },
-        {
-          "t": 1746705606,
-          "p": 0.125
-        },
-        {
-          "t": 1746964807,
-          "p": 0.1205
-        },
-        {
-          "t": 1747224007,
-          "p": 0.1075
-        },
-        {
-          "t": 1747483206,
-          "p": 0.112
-        },
-        {
-          "t": 1747742407,
-          "p": 0.1635
-        },
-        {
-          "t": 1748001607,
-          "p": 0.1325
-        },
-        {
-          "t": 1748260806,
-          "p": 0.1285
-        },
-        {
-          "t": 1748520007,
-          "p": 0.123
-        },
-        {
-          "t": 1748779207,
-          "p": 0.139
-        },
-        {
-          "t": 1749038406,
-          "p": 0.1215
-        },
-        {
-          "t": 1749297608,
-          "p": 0.07
-        },
-        {
-          "t": 1749556807,
-          "p": 0.076
-        },
-        {
-          "t": 1749816008,
-          "p": 0.081
-        },
-        {
-          "t": 1750075208,
-          "p": 0.087
-        },
-        {
-          "t": 1750334407,
-          "p": 0.0875
-        },
-        {
-          "t": 1750593607,
-          "p": 0.072
-        },
-        {
-          "t": 1750852808,
-          "p": 0.0615
-        },
-        {
-          "t": 1751112007,
-          "p": 0.064
-        },
-        {
-          "t": 1751371207,
-          "p": 0.0805
-        },
-        {
-          "t": 1751630407,
-          "p": 0.08
-        },
-        {
-          "t": 1751889607,
-          "p": 0.073
-        },
-        {
-          "t": 1752148808,
-          "p": 0.074
-        },
-        {
-          "t": 1752408007,
-          "p": 0.067
-        },
-        {
-          "t": 1752667208,
-          "p": 0.0565
-        },
-        {
-          "t": 1752926408,
-          "p": 0.072
-        },
-        {
-          "t": 1753185609,
-          "p": 0.065
-        },
-        {
-          "t": 1753444809,
-          "p": 0.0705
-        },
-        {
-          "t": 1753704009,
-          "p": 0.063
-        },
-        {
-          "t": 1753963208,
-          "p": 0.069
-        },
-        {
-          "t": 1754222408,
-          "p": 0.07
-        },
-        {
-          "t": 1754481608,
-          "p": 0.0705
-        },
-        {
-          "t": 1754740811,
-          "p": 0.0815
-        },
-        {
-          "t": 1755000012,
-          "p": 0.063
-        },
-        {
-          "t": 1755259216,
-          "p": 0.0755
-        },
-        {
-          "t": 1755518411,
-          "p": 0.079
-        },
-        {
-          "t": 1755777612,
-          "p": 0.0845
-        },
-        {
-          "t": 1756036818,
-          "p": 0.0755
-        },
-        {
-          "t": 1756296019,
-          "p": 0.071
-        },
-        {
-          "t": 1756555203,
-          "p": 0.0815
-        },
-        {
-          "t": 1756814409,
-          "p": 0.0795
-        },
-        {
-          "t": 1757073616,
-          "p": 0.0645
-        },
-        {
-          "t": 1757332810,
-          "p": 0.057
-        },
-        {
-          "t": 1757592012,
-          "p": 0.0505
-        },
-        {
-          "t": 1757851226,
-          "p": 0.0535
-        },
-        {
-          "t": 1758110421,
-          "p": 0.048
-        },
-        {
-          "t": 1758369615,
-          "p": 0.064
-        },
-        {
-          "t": 1758628805,
-          "p": 0.063
-        },
-        {
-          "t": 1758888019,
-          "p": 0.055
-        },
-        {
-          "t": 1759147203,
-          "p": 0.062
-        },
-        {
-          "t": 1759406402,
-          "p": 0.055
-        },
-        {
-          "t": 1759665606,
-          "p": 0.0525
-        },
-        {
-          "t": 1759924805,
-          "p": 0.048
-        },
-        {
-          "t": 1760184006,
-          "p": 0.054
-        },
-        {
-          "t": 1760443210,
-          "p": 0.0445
-        },
-        {
-          "t": 1760702422,
-          "p": 0.043
-        },
-        {
-          "t": 1760961628,
-          "p": 0.0405
-        },
-        {
-          "t": 1761220810,
-          "p": 0.042
-        },
-        {
-          "t": 1761480013,
-          "p": 0.041
-        },
-        {
-          "t": 1761782411,
-          "p": 0.0415
-        },
-        {
-          "t": 1762041610,
-          "p": 0.044
-        },
-        {
-          "t": 1762300810,
-          "p": 0.037
-        },
-        {
-          "t": 1762560008,
-          "p": 0.0275
-        },
-        {
-          "t": 1762819212,
-          "p": 0.03
-        },
-        {
-          "t": 1763078410,
-          "p": 0.028
-        },
-        {
-          "t": 1763337610,
-          "p": 0.029
-        },
-        {
-          "t": 1763596809,
-          "p": 0.0335
-        },
-        {
-          "t": 1763856010,
-          "p": 0.0335
-        },
-        {
-          "t": 1764115211,
-          "p": 0.03
-        },
-        {
-          "t": 1764374414,
-          "p": 0.0275
-        },
-        {
-          "t": 1764633609,
-          "p": 0.026
-        },
-        {
-          "t": 1764892811,
-          "p": 0.027
-        },
-        {
-          "t": 1765152023,
-          "p": 0.024
-        },
-        {
-          "t": 1765411211,
-          "p": 0.0245
-        },
-        {
-          "t": 1765670412,
-          "p": 0.0235
-        },
-        {
-          "t": 1765929608,
-          "p": 0.024
-        },
-        {
-          "t": 1766145612,
-          "p": 0.024
-        },
-        {
-          "t": 1766404810,
-          "p": 0.022
-        },
-        {
-          "t": 1766664012,
-          "p": 0.022
-        },
-        {
-          "t": 1766923212,
-          "p": 0.022
-        },
-        {
-          "t": 1767182412,
-          "p": 0.0225
-        },
-        {
-          "t": 1767441612,
-          "p": 0.0195
-        },
-        {
-          "t": 1767700813,
-          "p": 0.0115
-        },
-        {
-          "t": 1767960027,
-          "p": 0.0145
-        },
-        {
-          "t": 1768219218,
-          "p": 0.013
-        },
-        {
-          "t": 1768478415,
-          "p": 0.0155
-        },
-        {
-          "t": 1768737631,
-          "p": 0.0135
-        },
-        {
-          "t": 1768996831,
-          "p": 0.015
-        },
-        {
-          "t": 1769256022,
-          "p": 0.017
-        },
-        {
-          "t": 1769515217,
-          "p": 0.0095
-        },
-        {
-          "t": 1769774430,
-          "p": 0.0135
-        },
-        {
-          "t": 1770033621,
-          "p": 0.008
-        },
-        {
-          "t": 1770292823,
-          "p": 0.011
-        },
-        {
-          "t": 1770552029,
-          "p": 0.008
-        },
-        {
-          "t": 1770811224,
-          "p": 0.0075
-        },
-        {
-          "t": 1771070427,
-          "p": 0.0065
-        },
-        {
-          "t": 1771329631,
-          "p": 0.0065
-        },
-        {
-          "t": 1771588820,
-          "p": 0.005
-        },
-        {
-          "t": 1771848027,
-          "p": 0.0065
-        },
-        {
-          "t": 1772107235,
-          "p": 0.0045
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1742385605,
-          "p": 0.115,
-          "delta": -0.05
-        },
-        {
-          "t": 1746187206,
-          "p": 0.032,
-          "delta": -0.083
-        },
-        {
-          "t": 1746576005,
-          "p": 0.1005,
-          "delta": 0.0685
-        },
-        {
-          "t": 1746619206,
-          "p": 0.261,
-          "delta": 0.1605
-        },
-        {
-          "t": 1746662406,
-          "p": 0.166,
-          "delta": -0.095
-        },
-        {
-          "t": 1746748807,
-          "p": 0.109,
-          "delta": -0.057
-        },
-        {
-          "t": 1747612806,
-          "p": 0.1665,
-          "delta": 0.0575
-        },
-        {
-          "t": 1747699206,
-          "p": 0.108,
-          "delta": -0.0585
-        },
-        {
-          "t": 1747742407,
-          "p": 0.1635,
-          "delta": 0.0555
+          "t": 1771588826,
+          "p": 0.425,
+          "delta": -0.25
         },
         {
-          "t": 1749081606,
-          "p": 0.103,
-          "delta": -0.0605
+          "t": 1771632029,
+          "p": 0.605,
+          "delta": 0.18
         },
         {
-          "t": 1752494407,
-          "p": 0.0525,
-          "delta": -0.0505
+          "t": 1771718429,
+          "p": 0.665,
+          "delta": 0.06
         },
         {
-          "t": 1772150429,
+          "t": 1771848037,
           "p": 0.0015,
-          "delta": -0.051
+          "delta": -0.6635
         }
       ],
-      "price_at_open": 0.165,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.261,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-20T17:08:08.091894+00:00"
+      "price_at_open": 0.7,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.78,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:56.091805+00:00"
     },
     "events": [
       {
-        "id": "evt_finance_20250501_001_578aa7f5",
-        "date": "2025-05-01 00:00",
-        "title": "Rockstar allocates $2 billion budget for GTA 6",
-        "description": "The massive $2 billion development budget for GTA 6 caused early speculation by financial analysts.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event fueled speculation and momentum for a $100 price tag.",
+        "id": "evt_finance_20260210_001_2d73ada6",
+        "date": "2026-02-10 12:00",
+        "title": "Market Optimism Peak",
+        "description": "Market sentiment peaks with high optimism ahead of the earnings release.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://techwiser.com/will-gta-6-cost-100-why-you-shouldnt-believe-every-analyst-prediction",
+        "source_url": "https://finance.yahoo.com/news/dominos-dpz-q4-earnings-preview-2026-02-10",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250503_003_275e56bd",
-        "date": "2025-05-03 00:00",
-        "title": "Analysts believe delays justify higher GTA 6 price",
-        "description": "Many analysts initially believed that potential delays for GTA 6 would justify a higher price point, specifically an $80 price tag.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260215_002_696b77fd",
+        "date": "2026-02-15 12:00",
+        "title": "Rising Commodity Costs",
+        "description": "Rising commodity costs such as cheese and dough ingredients.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.autoevolution.com/news/gta-6-has-been-delayed-to-2026-making-an-80-price-tag-feel-inevitable-250864.html",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-02-21/dominos-pizza-faces-commodity-headwinds",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250507_009_dfe4ba9c",
-        "date": "2025-05-07 12:00",
-        "title": "$100 price rumor for GTA 6 gains significant traction",
-        "description": "By 2025-05-07, the $100 price rumor gained significant traction, becoming a central point of discussion.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260218_003_d7a68d82",
+        "date": "2026-02-18 12:00",
+        "title": "Inability to Pass on Price Increases",
+        "description": "Inability to completely pass on commodity price increases to consumers.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.ign.com/articles/how-much-will-gta-6-cost-new-research-claims-100-price-point-would-actually-leave-money-on-the-table",
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20250507_010_6a906db0",
-        "date": "2025-05-07 12:00",
-        "title": "Community backlash and resistance to $100 GTA 6 price",
-        "description": "Articles began to evaluate the validity and community backlash associated with such a high price, suggesting early resistance.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260223_007_131ae608",
+        "date": "2026-02-23 08:00",
+        "title": "Domino's Releases Quarterly Earnings",
+        "description": "Domino's officially releases its quarterly earnings.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.sportskeeda.com/gta/gta-6-price-rumor-100-explored",
+        "source_url": "https://finance.yahoo.com/news/dominos-pizza-dpz-q4-2025-earnings-update-14.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250510_006_33485915",
-        "date": "2025-05-10 00:00",
-        "title": "Debate shifts to consumer threshold and potential backlash for GTA 6 price",
-        "description": "The focus began to shift towards the consumer threshold and potential backlash, as public reception to a $100 price was largely negative.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260219_004_75ff0d20",
+        "date": "2026-02-19 12:00",
+        "title": "Net Margins Squeezed",
+        "description": "Net margins squeezed tightly due to cost structures.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.techreviewer.com/gaming-news/2025-10-15-gta-6s-possible-100-price-tag-sparks-debate-over-game-value",
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20250510_007_9fb79a1b",
-        "date": "2025-05-10 12:00",
-        "title": "Consumers backlash against rumored $100 cost",
-        "description": "Backlash to the rumored $100 cost causes a trough in sentiment, highlighting consumer resistance.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event demonstrated resistance to or clarified the unlikelihood of a $100 price tag.",
+        "id": "evt_finance_20260219_011_c814c2d1",
+        "date": "2026-02-19 12:00",
+        "title": "Market Optimism Overwhelmed",
+        "description": "Market optimism is overwhelmed by the reality of cost structures.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://kickstartgame.com/gta-6-price-rumor-backlash-100-dollars",
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250519_005_cb8bc8ae",
-        "date": "2025-05-19 12:00",
-        "title": "Insider speculation helps settle the market",
-        "description": "Further clarification and insider speculation help settle the market, solidifying the expectation that the base price will not hit $100.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThis event demonstrated resistance to or clarified the unlikelihood of a $100 price tag.",
+        "id": "evt_finance_20260220_005_d42c3d78",
+        "date": "2026-02-20 10:00",
+        "title": "Severe Margin Pressures",
+        "description": "Severe margin pressures making it difficult to maintain profitability.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://thedirect.com/article/gta-6-price-100-insider-explained",
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250503_004_47219b94",
-        "date": "2025-05-03 00:00",
-        "title": "Take-Two remains silent on GTA 6 pricing",
-        "description": "Take-Two remained silent on exact pricing, which kept speculation alive.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260220_008_162a82e7",
+        "date": "2026-02-20 10:00",
+        "title": "Analysts Downgrade Stock",
+        "description": "Analysts downgrade Domino's stock citing severe margin pressures.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": null,
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250503_005_8579dec3",
-        "date": "2025-05-03 00:00",
-        "title": "Leaks and rumors suggest premium GTA 6 pricing model",
-        "description": "Further leaks and rumors during this period suggested a premium pricing model.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260220_009_11fcad6f",
+        "date": "2026-02-20 10:00",
+        "title": "Earnings Estimates Revised Downward",
+        "description": "Earnings estimates revised downward by analysts.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.tech2geek.net/gta-6-pricing-pre-order-release-date-and-fresh-leaks",
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250520_011_91d50c87",
-        "date": "2025-05-20 00:00",
-        "title": "Publisher (Rockstar/Take-Two) decides to price GTA 6 below $100",
-        "description": "The consistent public and media pushback against a $100 price tag, combined with Take-Two's historical approach of pushing boundaries but ultimately responding to market realities, likely led them to set a price below the $100 mark.",
-        "impact": "**Affects:** Yes - Will the base retail price of Grand Theft Auto VI   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBased on the overall narrative, events leading to the actual outcome (price below $100) negatively impact the likelihood of a $100+ price tag.",
+        "id": "evt_finance_20260220_010_435defe8",
+        "date": "2026-02-20 10:00",
+        "title": "Market Predictions Flip to No",
+        "description": "Market predictions flip to 'No' following analyst downgrades.",
+        "impact": "**Affects:** No - Will Domino's Pizza (DPZ) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": null,
+        "source_url": "https://www.cnbc.com/2026/02/20/dpz-downgrades-margin-pressures.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1176,657 +301,153 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0xaf11eaf31826a155b5aa4d28fafcebfd641ed153210d547fb431b7797ef30d0c",
-    "title": "Will Elon Musk's net worth reach $1 trillion before December 31, 2025?",
-    "question_type": "binary",
+    "id": "q_sports_20260222_011_f522077b",
+    "title": "Which country will win the most gold medals at the 2026 Winter Olympics in Milano Cortina?",
+    "question_type": "mcq",
     "options": [
-      "Yes",
-      "No"
+      "Norway",
+      "Germany",
+      "Canada",
+      "United States"
     ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk's net worth, as listed on the Bloomberg Billionaires Index, reaches or exceeds $1 trillion at any point by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market will be the Bloomberg Billionaires Index (https://www.bloomberg.com/billionaires/), however a consensus of credible reporting may also be used.\n",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nDespite Elon Musk's various ventures (Tesla, SpaceX, xAI, Twitter/X) reaching new heights in 2025, his net worth did not reach the $1 trillion mark by December 31, 2025. While market rallies, a potential SpaceX IPO, and the xAI merger provided significant momentum, broader market conditions, regulatory scrutiny, and volatility in Tesla's stock price constrained his total wealth accumulation just short of the trillion-dollar threshold.\n\n## Timeline Of Key Events\n- 2025-01-21: Peak market sentiment shift around Musk's wealth pushing boundaries [art_general_20251231_015_9533fbc6].\n- 2025-01-22: Trough and recovery in Tesla's stock price, demonstrating market volatility [art_general_20251223_012_c9b93a21].\n- Mid 2025: SpaceX's valuation surges, rumors of a potential IPO circulate, increasing Musk's theoretical net worth [art_general_20251218_008_498552c6].\n- Late 2025: xAI and SpaceX activities dominate headlines, with Musk's government efficiency role (DOGE) adding political complexities [art_general_20251118_016_f2c08a21].\n- 2025-12-31: Despite all positive catalysts, the cumulative valuation of his holdings fails to breach the $1 trillion mark.\n\n## Causal Chain Analysis\n- **Root Cause**: Musk's wealth is heavily tied to the equity of his companies (Tesla, SpaceX, xAI), which are subject to market volatility and investor sentiment [art_general_20251231_015_9533fbc6].\n- **Intermediate Mechanism**: Throughout 2025, while SpaceX saw significant valuation increases and xAI integration provided a boost, Tesla faced an uneven market environment. The turning points in January 2025 indicated early volatility that set a cautious tone for Tesla investors [art_general_20251223_012_c9b93a21].\n- **Proximate Trigger**: In the final quarter of 2025, market corrections and the sheer mathematical difficulty of reaching a $1 trillion personal net worth (requiring roughly a doubling or tripling of his early 2024 wealth) proved insurmountable within the timeframe [art_general_20251218_008_498552c6].\n- **Final Outcome**: Consequently, Musk's net worth remained below $1 trillion by December 31, 2025.\n\n## Countervailing Factors\n- **SpaceX Valuation Surge**: The massive increase in SpaceX's private market valuation was a strong force pushing towards the $1 trillion mark, but it was not enough to offset the total required growth [art_general_20251218_008_498552c6].\n- **xAI Development**: The growth of his AI venture added significant value, yet the illiquid nature of private holdings and market caps limited immediate net worth impact [art_general_20251118_016_f2c08a21].\n\n## Event Candidate Inventory\n- E1: Peak market sentiment shift.\n  - Date: 2025-01-21\n  - Why it matters causally: Showed resistance to continuous market surge.\n  - Source article IDs: [art_general_20251231_015_9533fbc6]\n- E2: Trough and recovery in Tesla stock.\n  - Date: 2025-01-22\n  - Why it matters causally: Re-established baseline volatility.\n  - Source article IDs: [art_general_20251223_012_c9b93a21]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Overall wealth trajectory | [art_general_20251231_015_9533fbc6] | 2025-01-21 | 0.9 | Musk's wealth grew but fell short of $1T |\n| SpaceX valuation | [art_general_20251218_008_498552c6] | 2025-06-15 | 0.8 | Significant contributor |\n| xAI impact | [art_general_20251118_016_f2c08a21] | 2025-11-01 | 0.8 | AI hype |\n\n## Uncertainties And Alternative Paths\n- If Tesla's stock had experienced another historic, sustained rally (similar to 2020-2021), the $1 trillion mark might have been achieved.\n- A sudden, massive public offering of SpaceX at a highly inflated valuation could have alternatively pushed his net worth over the line.\n",
-    "is_polymarket": true,
+    "background": "The 2026 Winter Olympics will be held in Milano Cortina, Italy. This question asks which nation will top the gold medal table, a prestigious achievement in international sports.",
+    "resolution_criteria": "The question will resolve to the country that has won the most gold medals at the end of the 2026 Winter Olympics, as officially reported by the International Olympic Committee (IOC).",
+    "outcome": "Norway",
+    "explanation": "\n# Executive Summary\nNorway won the most gold medals at the 2026 Winter Olympics in Milano Cortina, setting a new single-Games record with 18 golds and 41 total medals. Their dominance was driven by unmatched performances in Nordic sports, specifically cross-country skiing, biathlon, and Nordic combined. Generational athletes like Johannes Hoesflot Klaebo and Jens Luras Oftebro executed flawless campaigns, sweeping multiple events and overwhelming the medal table. While nations like the United States performed exceptionally well in alpine, speedskating, and hockey, they could not match the sheer volume of Norway's victories in the endurance skiing disciplines.\n\n# Timeline Of Key Events\n- **2026-02-06 to 2026-02-21**: Johannes Hoesflot Klaebo wins six gold medals across cross-country skiing events, culminating in a historic victory in the men's 50km mass start, becoming the first Winter Olympian to win six golds at a single Games [art_sports_20260223_008_c20fc878].\n- **2026-02-20**: Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal and breaking their previous Winter Olympics record [art_sports_20260222_007_ecbd4ab5].\n- **2026-02-21**: Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal [art_general_20260221_017_57fbdfe9].\n- **2026-02-22**: The United States wins the men's ice hockey gold against Canada, securing their 12th gold medal and finishing second overall, but well behind Norway's total [art_general_20260222_007_a44504a4].\n\n# Causal Chain Analysis\nThe outcome was **caused** by Norway's deep-rooted systemic advantages and talent pipeline in Nordic skiing disciplines. This structural focus **led to** the emergence of dominant individual athletes capable of sweeping multiple events. The presence of these generational talents, such as Johannes Hoesflot Klaebo and Jens Luras Oftebro, **resulted in** near-perfect execution during the Games; for instance, Oftebro went undefeated to win three golds in Nordic combined, while Klaebo captured six [art_sports_20260223_008_c20fc878]. These compounding individual successes **triggered** a rapid accumulation of medals, effectively mathematical elimination for other countries. Ultimately, Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals) **resulted in** their final record-breaking tally of 18 gold medals.\n\n# Countervailing Factors\nThe United States mounted a strong challenge, putting together their best Winter Olympics performance in over two decades with 12 gold medals [art_sports_20260222_007_ecbd4ab5]. American athletes dominated in several areas, including Jordan Stolz winning three speedskating golds and Team USA capturing both men's and women's ice hockey titles [art_general_20260222_007_a44504a4]. However, this push was overwhelmed because the U.S. successes were spread across various disciplines, whereas Norway consolidated absolute dominance in sports that offered a high volume of medals, rendering the U.S. surge insufficient to contest the top spot.\n\n# Event Candidate Inventory\n- E1: Johannes Hoesflot Klaebo wins six gold medals, including the 50km mass start.\n  - Date: 2026-02-06 to 2026-02-21\n  - Causally matters: It contributed a massive one-third of Norway's total gold medal count, cementing their lead.\n  - Source: [art_sports_20260223_008_c20fc878], [art_general_20260221_017_57fbdfe9]\n- E2: Jens Luras Oftebro wins three gold medals in Nordic combined.\n  - Date: 2026-02-06 to 2026-02-21\n  - Causally matters: Undefeated sweep of the discipline added highly reliable golds to the Norwegian total.\n  - Source: [art_sports_20260223_008_c20fc878]\n- E3: Johannes Dale-Skjevdal wins the 15km mass start biathlon.\n  - Date: 2026-02-20\n  - Causally matters: It represented the record-breaking 17th gold medal for Norway, pushing them past their historical best.\n  - Source: [art_sports_20260222_007_ecbd4ab5]\n- E4: Team USA wins men's ice hockey gold.\n  - Date: 2026-02-22\n  - Causally matters: Capped the US medal count at 12 golds, finalizing their position as the runner-up and confirming Norway's unassailable lead.\n  - Source: [art_general_20260222_007_a44504a4], [art_sports_20260222_007_ecbd4ab5]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Norway sets record with 18 golds and 41 total medals | [art_sports_20260223_008_c20fc878] | 2026-02-23 | 1.0 | Official final medal tallies. |\n| Klaebo wins 6 golds including 50km mass start | [art_sports_20260223_008_c20fc878], [art_general_20260221_017_57fbdfe9] | 2026-02-21 | 1.0 | Historic individual performance. |\n| Oftebro sweeps Nordic combined with 3 golds | [art_sports_20260223_008_c20fc878] | 2026-02-23 | 0.9 | Matches Samppa Lajunen's 2002 feat. |\n| Dale-Skjevdal wins 15km biathlon (17th gold) | [art_sports_20260222_007_ecbd4ab5] | 2026-02-20 | 1.0 | Perfect 20/20 shooting mentioned. |\n| US finishes second with 12 golds (incl. hockey) | [art_general_20260222_007_a44504a4], [art_sports_20260222_007_ecbd4ab5] | 2026-02-22 | 1.0 | US beat Canada in OT. |\n\n# Uncertainties And Alternative Paths\nThe primary alternative path would have required catastrophic underperformance by Norwegian athletes in cross-country skiing and biathlon. Had illness or severe waxing issues affected the Norwegian ski team (as occasionally happens in Nordic sports), countries like the United States or the Netherlands could have narrowed the gap. However, the sheer margin of victory (18 to 12) means multiple top Norwegian favorites would have needed to fail simultaneously for the outcome to change.\n",
+    "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2025-01-07T17:00:33.133000+00:00",
+    "market_open": "2026-02-06T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T08:32:53+00:00",
-    "polymarket_url": "https://polymarket.com/event/elon-musk-trillionaire-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1736294403,
-          "p": 0.085
-        },
-        {
-          "t": 1736510404,
-          "p": 0.085
-        },
-        {
-          "t": 1736769603,
-          "p": 0.09
-        },
-        {
-          "t": 1737028803,
-          "p": 0.095
-        },
-        {
-          "t": 1737288003,
-          "p": 0.135
-        },
-        {
-          "t": 1737547203,
-          "p": 0.095
-        },
-        {
-          "t": 1737806403,
-          "p": 0.115
-        },
-        {
-          "t": 1738065604,
-          "p": 0.11
-        },
-        {
-          "t": 1738324804,
-          "p": 0.095
-        },
-        {
-          "t": 1738584004,
-          "p": 0.095
-        },
-        {
-          "t": 1738843204,
-          "p": 0.095
-        },
-        {
-          "t": 1739102405,
-          "p": 0.105
-        },
-        {
-          "t": 1739361604,
-          "p": 0.115
-        },
-        {
-          "t": 1739620805,
-          "p": 0.115
-        },
-        {
-          "t": 1739880004,
-          "p": 0.115
-        },
-        {
-          "t": 1740139204,
-          "p": 0.115
-        },
-        {
-          "t": 1740398404,
-          "p": 0.115
-        },
-        {
-          "t": 1740657606,
-          "p": 0.115
-        },
-        {
-          "t": 1740916805,
-          "p": 0.115
-        },
-        {
-          "t": 1741176004,
-          "p": 0.095
-        },
-        {
-          "t": 1741435204,
-          "p": 0.095
-        },
-        {
-          "t": 1741694405,
-          "p": 0.09
-        },
-        {
-          "t": 1741953605,
-          "p": 0.08
-        },
-        {
-          "t": 1742212805,
-          "p": 0.08
-        },
-        {
-          "t": 1742472006,
-          "p": 0.075
-        },
-        {
-          "t": 1742731205,
-          "p": 0.075
-        },
-        {
-          "t": 1742990405,
-          "p": 0.075
-        },
-        {
-          "t": 1743249606,
-          "p": 0.065
-        },
-        {
-          "t": 1743508805,
-          "p": 0.065
-        },
-        {
-          "t": 1743768007,
-          "p": 0.075
-        },
-        {
-          "t": 1744027205,
-          "p": 0.075
-        },
-        {
-          "t": 1744243205,
-          "p": 0.075
-        },
-        {
-          "t": 1744502405,
-          "p": 0.075
-        },
-        {
-          "t": 1744761605,
-          "p": 0.065
-        },
-        {
-          "t": 1745020806,
-          "p": 0.065
-        },
-        {
-          "t": 1745280006,
-          "p": 0.07
-        },
-        {
-          "t": 1745539206,
-          "p": 0.065
-        },
-        {
-          "t": 1745798405,
-          "p": 0.065
-        },
-        {
-          "t": 1746057606,
-          "p": 0.06
-        },
-        {
-          "t": 1746316805,
-          "p": 0.06
-        },
-        {
-          "t": 1746576005,
-          "p": 0.055
-        },
-        {
-          "t": 1746835206,
-          "p": 0.055
-        },
-        {
-          "t": 1747094406,
-          "p": 0.055
-        },
-        {
-          "t": 1747353606,
-          "p": 0.055
-        },
-        {
-          "t": 1747612806,
-          "p": 0.065
-        },
-        {
-          "t": 1747872007,
-          "p": 0.065
-        },
-        {
-          "t": 1748131206,
-          "p": 0.065
-        },
-        {
-          "t": 1748390406,
-          "p": 0.06
-        },
-        {
-          "t": 1748649607,
-          "p": 0.055
-        },
-        {
-          "t": 1748908807,
-          "p": 0.06
-        },
-        {
-          "t": 1749168006,
-          "p": 0.055
-        },
-        {
-          "t": 1749427207,
-          "p": 0.05
-        },
-        {
-          "t": 1749686407,
-          "p": 0.05
-        },
-        {
-          "t": 1749945608,
-          "p": 0.055
-        },
-        {
-          "t": 1750204808,
-          "p": 0.055
-        },
-        {
-          "t": 1750464008,
-          "p": 0.05
-        },
-        {
-          "t": 1750723207,
-          "p": 0.045
-        },
-        {
-          "t": 1750982407,
-          "p": 0.045
-        },
-        {
-          "t": 1751241607,
-          "p": 0.045
-        },
-        {
-          "t": 1751500808,
-          "p": 0.045
-        },
-        {
-          "t": 1751760007,
-          "p": 0.045
-        },
-        {
-          "t": 1751976007,
-          "p": 0.045
-        },
-        {
-          "t": 1752235209,
-          "p": 0.045
-        },
-        {
-          "t": 1752494407,
-          "p": 0.04
-        },
-        {
-          "t": 1752753607,
-          "p": 0.04
-        },
-        {
-          "t": 1753012808,
-          "p": 0.055
-        },
-        {
-          "t": 1753272009,
-          "p": 0.033
-        },
-        {
-          "t": 1753531210,
-          "p": 0.032
-        },
-        {
-          "t": 1753790408,
-          "p": 0.0325
-        },
-        {
-          "t": 1754049609,
-          "p": 0.0345
-        },
-        {
-          "t": 1754308808,
-          "p": 0.035
-        },
-        {
-          "t": 1754568004,
-          "p": 0.032
-        },
-        {
-          "t": 1754827209,
-          "p": 0.0325
-        },
-        {
-          "t": 1755086414,
-          "p": 0.0325
-        },
-        {
-          "t": 1755345619,
-          "p": 0.032
-        },
-        {
-          "t": 1755604818,
-          "p": 0.032
-        },
-        {
-          "t": 1755864015,
-          "p": 0.032
-        },
-        {
-          "t": 1756123210,
-          "p": 0.032
-        },
-        {
-          "t": 1756382422,
-          "p": 0.0265
-        },
-        {
-          "t": 1756641615,
-          "p": 0.0265
-        },
-        {
-          "t": 1756900824,
-          "p": 0.0265
-        },
-        {
-          "t": 1757160005,
-          "p": 0.0265
-        },
-        {
-          "t": 1757419212,
-          "p": 0.0265
-        },
-        {
-          "t": 1757678437,
-          "p": 0.0315
-        },
-        {
-          "t": 1757937612,
-          "p": 0.035
-        },
-        {
-          "t": 1758196830,
-          "p": 0.0355
-        },
-        {
-          "t": 1758456022,
-          "p": 0.0425
-        },
-        {
-          "t": 1758715208,
-          "p": 0.047
-        },
-        {
-          "t": 1758974411,
-          "p": 0.046
-        },
-        {
-          "t": 1759233603,
-          "p": 0.0275
-        },
-        {
-          "t": 1759492806,
-          "p": 0.027
-        },
-        {
-          "t": 1759708809,
-          "p": 0.0275
-        },
-        {
-          "t": 1759968010,
-          "p": 0.035
-        },
-        {
-          "t": 1760227208,
-          "p": 0.0315
-        },
-        {
-          "t": 1760486411,
-          "p": 0.0335
-        },
-        {
-          "t": 1760745606,
-          "p": 0.0335
-        },
-        {
-          "t": 1761004817,
-          "p": 0.0305
-        },
-        {
-          "t": 1761264021,
-          "p": 0.0315
-        },
-        {
-          "t": 1761523220,
-          "p": 0.032
-        },
-        {
-          "t": 1761825629,
-          "p": 0.038
-        },
-        {
-          "t": 1762084828,
-          "p": 0.0335
-        },
-        {
-          "t": 1762344032,
-          "p": 0.0325
-        },
-        {
-          "t": 1762603243,
-          "p": 0.0255
-        },
-        {
-          "t": 1762862446,
-          "p": 0.0185
-        },
-        {
-          "t": 1763121636,
-          "p": 0.0145
-        },
-        {
-          "t": 1763380830,
-          "p": 0.0155
-        },
-        {
-          "t": 1763640019,
-          "p": 0.012
-        },
-        {
-          "t": 1763899218,
-          "p": 0.011
-        },
-        {
-          "t": 1764158449,
-          "p": 0.0155
-        },
-        {
-          "t": 1764417641,
-          "p": 0.0135
-        },
-        {
-          "t": 1764720028,
-          "p": 0.0085
-        },
-        {
-          "t": 1764979221,
-          "p": 0.0025
-        },
-        {
-          "t": 1765238430,
-          "p": 0.0095
-        },
-        {
-          "t": 1765497619,
-          "p": 0.005
-        },
-        {
-          "t": 1765756826,
-          "p": 0.005
-        },
-        {
-          "t": 1765972833,
-          "p": 0.0045
-        },
-        {
-          "t": 1766232024,
-          "p": 0.006
-        },
-        {
-          "t": 1766491226,
-          "p": 0.005
-        },
-        {
-          "t": 1766750420,
-          "p": 0.0035
-        },
-        {
-          "t": 1767009621,
-          "p": 0.0025
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1737288003,
-          "p": 0.135,
-          "delta": 0.05
-        },
-        {
-          "t": 1741737605,
-          "p": 0.08,
-          "delta": -0.055
-        },
-        {
-          "t": 1756252811,
-          "p": 0.028,
-          "delta": -0.052
-        }
-      ],
-      "price_at_open": 0.085,
-      "price_at_close": 0.001,
-      "min_price": 0.0005,
-      "max_price": 0.145,
-      "final_price": 0.001,
-      "fetched_at": "2026-04-27T07:57:45.032092+00:00"
-    },
+    "market_close": "2026-02-22T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
     "events": [
       {
-        "id": "evt_finance_20250121_001_ad2b0238",
-        "date": "2025-01-21 00:00",
-        "title": "Peak market sentiment shift",
-        "description": "Peak market sentiment shift around Musk's wealth pushing boundaries.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nShifted sentiment away from continuous growth.",
+        "id": "evt_sports_20260206_001_c2d97cb4",
+        "date": "2026-02-06 00:00",
+        "title": "Norway establishes systemic advantages in Nordic skiing",
+        "description": "Norway's deep-rooted systemic advantages and talent pipeline in Nordic skiing disciplines.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260206_001_c2d97cb4 had a positive impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "in_market_window": false,
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250122_002_de4008d5",
-        "date": "2025-01-22 00:00",
-        "title": "Trough and recovery in Tesla stock",
-        "description": "Trough and recovery in Tesla's stock price, demonstrating market volatility.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRe-established baseline volatility.",
+        "id": "evt_sports_20260220_004_bd419d95",
+        "date": "2026-02-20 12:00",
+        "title": "Johannes Dale-Skjevdal wins 15km mass start biathlon",
+        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260220_004_bd419d95 had a positive impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "in_market_window": false,
+        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250601_007_89f0e0af",
-        "date": "2025-06-01 00:00",
-        "title": "Tesla faces uneven market environment",
-        "description": "Tesla faces an uneven market environment throughout 2025.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUneven market environment hindered growth.",
+        "id": "evt_sports_20260221_003_92d0ced9",
+        "date": "2026-02-21 08:30",
+        "title": "Klaebo wins the men's 50km mass start",
+        "description": "Klaebo wins the men's 50km cross-country mass start.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWinning the 50km mass start secured the 18th gold medal, contributing to Norway's win.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "in_market_window": false,
+        "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250615_003_1dcfdf00",
-        "date": "2025-06-15 00:00",
-        "title": "SpaceX valuation surges",
-        "description": "SpaceX's valuation surges, increasing Musk's theoretical net worth.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSurge in valuation pushed towards $1T.",
+        "id": "evt_sports_20260222_006_c53fdbc9",
+        "date": "2026-02-22 12:00",
+        "title": "Jordan Stolz wins three speedskating golds",
+        "description": "Jordan Stolz wins three speedskating golds for the US.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEvent evt_sports_20260222_006_c53fdbc9 had a negative impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://heavy.com/sports/olympics/usa-gold-medal-count-today",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250615_004_fd3d495c",
-        "date": "2025-06-15 00:00",
-        "title": "SpaceX IPO rumors circulate",
-        "description": "Rumors of a potential SpaceX IPO circulate.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIPO rumors increased theoretical net worth.",
+        "id": "evt_sports_20260206_002_d3f998c3",
+        "date": "2026-02-06 00:00",
+        "title": "Generational talents emerge in Norway",
+        "description": "The emergence of dominant individual athletes capable of sweeping multiple events.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260206_002_d3f998c3 had a positive impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20251001_008_bf4ed231",
-        "date": "2025-10-01 00:00",
-        "title": "Market corrections in final quarter",
-        "description": "Market corrections in the final quarter of 2025.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket corrections constrained wealth accumulation.",
+        "id": "evt_sports_20260220_001_6f1bed3a",
+        "date": "2026-02-20 12:00",
+        "title": "Johannes Dale-Skjevdal hits all 20 targets in 15km biathlon",
+        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHitting all targets led to winning the biathlon and securing the 17th gold, contributing to Norway's win.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251101_005_8ef4942e",
-        "date": "2025-11-01 00:00",
-        "title": "xAI activities dominate headlines",
-        "description": "xAI activities dominate headlines, adding value.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nxAI growth added value.",
+        "id": "evt_sports_20260221_011_525b56ab",
+        "date": "2026-02-21 08:00",
+        "title": "Johannes Hoesflot Klaebo wins six gold medals",
+        "description": "Johannes Hoesflot Klaebo wins six gold medals across cross-country skiing events, including the 50km mass start.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_011_525b56ab had a positive impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251101_006_b53ea574",
-        "date": "2025-11-01 00:00",
-        "title": "Musk's DOGE role adds complexities",
-        "description": "Musk's government efficiency role (DOGE) adds political complexities.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPolitical complexities added risk.",
+        "id": "evt_sports_20260221_004_a32ea3f8",
+        "date": "2026-02-21 08:45",
+        "title": "Norway secures its 18th gold medal",
+        "description": "Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecuring the 18th gold directly led to the final record of 18 golds, contributing to Norway's win.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20251231_009_3fd58f92",
-        "date": "2025-12-31 00:00",
-        "title": "Cumulative valuation fails to breach $1 trillion",
-        "description": "The cumulative valuation of his holdings fails to breach the $1 trillion mark.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirectly resulted in failure to reach $1T.",
+        "id": "evt_sports_20260221_003_5d6511de",
+        "date": "2026-02-21 12:00",
+        "title": "Jens Luras Oftebro wins three gold medals",
+        "description": "Jens Luras Oftebro goes undefeated to win three golds in Nordic combined.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_003_5d6511de had a positive impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "in_market_window": false,
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250820_010_52a861ba",
-        "date": "2025-08-20 00:00",
-        "title": "DOGE data leak adds political complexities",
-        "description": "Musk's government efficiency role (DOGE) faces a data leak, adding political complexities.",
-        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nData leak added political complexities and risk.",
+        "id": "evt_sports_20260221_005_7f3b7d79",
+        "date": "2026-02-21 12:00",
+        "title": "Norway accumulates 25 medals in cross-country and biathlon",
+        "description": "Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals).",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_005_7f3b7d79 had a positive impact on Norway winning.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/doge-datal-leak-did-elon-195152697.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1834,661 +455,335 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0xb58d0e3b3dd34b2b8d8997e6ce36ca3873bdd6034fe0dde633f11e50d4b18c69",
-    "title": "Will Ukrainian President Volodymyr Zelensky resign from office during 2025?",
+    "id": "polymarket_0x93e221eee8f2b82a8d61310d98cc4ab233fa1f8886492115824ae562487b2027",
+    "title": " The Ring - High Stakes: Ryan Garcia vs. Mario Barrios",
     "question_type": "binary",
     "options": [
-      "Yes",
-      "No"
+      "Garcia",
+      "Barrios"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if President of Ukraine Volodymyr Zelenskyy announces he has resigned or will resign the presidency by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Volodymyr Zelenskyy to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Zelenskyy announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the government of Ukraine; however, a consensus of credible reporting will also be used.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nDespite significant domestic and international pressure, Ukrainian President Volodymyr Zelensky did not resign during 2025. Rumors of his resignation spiked multiple times due to war fatigue, international political shifts (particularly the new US administration under Donald Trump), and domestic corruption scandals. However, Zelensky maintained his position, stating he would only step down after the war concluded or if it guaranteed a favorable peace. The lack of a clear successor and the ongoing state of martial law further cemented his continuation in office through the end of the year.\n\n## Timeline Of Key Events\n- **February 23, 2025:** Zelensky states he is \"ready to quit if it brings peace\" but pushes back against US demands, setting a conditional tone for any resignation rumors [art_politics_20250223_003_59bef146].\n- **March 18, 2025:** Donald Trump labels Zelensky a \"dictator,\" increasing international pressure and straining US-Ukraine relations [art_general_20250318_030_b4071990].\n- **June 1, 2025:** Speculation peaks again as MPs claim Zelensky was \"ordered to resign,\" and he confirms he would resign under specific conditions, though no action is taken [art_politics_20250601_004_810ca962].\n- **July 15, 2025:** Ukraine's Prime Minister resigns, increasing instability and pressure on Zelensky's administration [art_politics_20250715_006_e8e45301].\n- **July 21, 2025:** Public anger against Zelensky grows, marking a watershed moment for wartime Ukraine [art_general_20250721_015_a673bc48].\n- **September 25, 2025:** Zelensky announces he will hold elections during a ceasefire and step down *after* the war, confirming his intention to stay through the immediate conflict [art_politics_20250925_009_01dac203].\n- **November 18, 2025:** The \"Golden toilet scandal\" puts extreme pressure on Zelensky to fire his chief of staff, fueling further resignation rumors [art_general_20251118_013_76611005].\n- **December 3, 2025:** Analysts suggest that if scandal doesn't finish Zelensky, a peace deal might, though he survives the year [art_politics_20251203_005_ad5f563a].\n\n## Causal Chain Analysis\nThe outcome of Zelensky remaining in office was caused by a combination of constitutional constraints and strategic political maneuvering. \n- The ongoing martial law caused elections to be suspended, providing a legal basis for him to remain in power beyond his original term [art_general_20240522_040_70a216c5].\n- External pressure, particularly from the US administration under Donald Trump, triggered intense scrutiny and rumors of forced resignation [art_general_20250318_030_b4071990].\n- This led to Zelensky strategically offering to resign *only* if it guaranteed peace, effectively countering demands for immediate resignation [art_politics_20250223_003_59bef146].\n- Despite domestic scandals like the \"Golden toilet\" affair causing significant public anger [art_general_20251118_013_76611005], the lack of a viable alternative during wartime resulted in his administration weathering these crises.\n- Ultimately, Zelensky's commitment to step down only *after* the war [art_politics_20250925_009_01dac203] ensured he remained in office through the end of 2025.\n\n## Countervailing Factors\nSeveral strong forces pushed towards resignation:\n1. **US Pressure:** The incoming Trump administration's hostility, including labeling him a dictator, created massive diplomatic friction [art_general_20250318_030_b4071990].\n2. **Domestic Scandals:** High-level corruption, notably the \"Golden toilet\" scandal, eroded public trust [art_general_20251118_013_76611005].\n3. **Political Instability:** The resignation of his Prime Minister in July signaled internal fractures [art_politics_20250715_006_e8e45301].\nThese factors failed because the necessity of unified leadership during an active war, combined with martial law preventing immediate elections, outweighed the pressures to resign.\n\n## Event Candidate Inventory\n- E1: Zelensky offers conditional resignation for peace\n  - date: 2025-02-23\n  - why it matters causally: Addressed early rumors and set his baseline condition for leaving office.\n  - source article IDs: art_politics_20250223_003_59bef146\n- E2: Trump labels Zelensky a dictator\n  - date: 2025-03-18\n  - why it matters causally: Spiked international pressure and strained crucial US support.\n  - source article IDs: art_general_20250318_030_b4071990\n- E3: Ukraine Prime Minister resigns\n  - date: 2025-07-15\n  - why it matters causally: Increased domestic instability, though Zelensky absorbed the shock.\n  - source article IDs: art_politics_20250715_006_e8e45301\n- E4: Zelensky commits to post-war departure\n  - date: 2025-09-25\n  - why it matters causally: Clarified his timeline, effectively confirming he would stay through the immediate term.\n  - source article IDs: art_politics_20250925_009_01dac203\n- E5: Golden toilet scandal peaks\n  - date: 2025-11-18\n  - why it matters causally: Created the strongest domestic pressure for leadership change late in the year.\n  - source article IDs: art_general_20251118_013_76611005\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Conditional offer to quit | art_politics_20250223_003_59bef146 | 2025-02-23 | 0.9 | Video evidence exists |\n| Trump's 'dictator' comment | art_general_20250318_030_b4071990 | 2025-03-18 | 0.9 | Widely reported shift in US stance |\n| PM Resignation | art_politics_20250715_006_e8e45301 | 2025-07-15 | 0.9 | Major internal political shift |\n| Post-war departure plan | art_politics_20250925_009_01dac203 | 2025-09-25 | 0.9 | Direct quote from Zelensky |\n| Golden toilet scandal | art_general_20251118_013_76611005 | 2025-11-18 | 0.8 | Highlighted late-year vulnerability |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a forced resignation tied to a US-brokered peace deal that explicitly required his removal as a condition for Russian compliance or continued US aid. Additionally, the corruption scandals could have triggered a vote of no confidence or a military coup, though wartime martial law mitigated these risks.\n",
+    "resolution_criteria": "This market will resolve to \"Garcia\" if Ryan Garcia is officially declared the winner of the fight against Mario Barrios at The Ring: High Stakes event scheduled for February 21, 2026 at T-Mobile Arena in Las Vegas, Nevada.\n\nIt will resolve to \"Barrios\" if Mario Barrios is officially declared the winner.\n\nIf the fight is declared a draw or technical draw, ruled a No Contest, not scored, canceled, or postponed beyond March 1, 2026, this market will resolve \"50-50.\"\n\nThe resolution source for this market will be official information from The Ring (https://www.ringmagazine.com/).",
+    "outcome": "Garcia",
+    "explanation": "\n## Executive Summary\nRyan Garcia defeated Mario Barrios to win the WBC welterweight title in a highly anticipated boxing match billed as \"The Ring - High Stakes.\" The victory was achieved via a unanimous decision after Garcia dominated the fight, utilizing his superior hand speed, power, and precise combinations. Garcia dropped Barrios early in the fight and maintained control throughout the later rounds. Ultimately, Garcia's tactical execution and overwhelming offense secured him his first major world title.\n\n## Timeline Of Key Events\n- February 20, 2026: Pre-fight hype and weigh-ins establish Garcia and Barrios as ready for the WBC title clash ([art_sports_20260220_024_d43d5110]).\n- February 21, 2026: The fight takes place. Garcia drops Barrios in the second round with a left hook ([art_sports_20260221_007_b0aee46b]).\n- February 21, 2026: Garcia continues to dominate the middle rounds with superior hand speed and combinations.\n- February 21, 2026: The fight concludes with Garcia winning a one-sided unanimous decision, claiming the WBC welterweight title ([art_sports_20260222_004_7f8d1bf3]).\n\n## Causal Chain Analysis\nThe root cause of Garcia's victory was his inherent athletic advantages, specifically his explosive hand speed and power. This led to a critical intermediate mechanism: early success, as Garcia landed a devastating left hook that dropped Barrios in round 2 ([art_sports_20260221_007_b0aee46b]). The early knockdown forced Barrios to fight defensively and cautiously, which allowed Garcia to dictate the pace and distance. This resulted in the proximate trigger of Garcia consistently out-landing Barrios in power punches and combinations over 12 rounds. Ultimately, this dominant performance caused the judges to award Garcia a unanimous decision victory ([art_sports_20260222_005_c9043821]).\n\n## Countervailing Factors\nMario Barrios came into the fight as the defending WBC champion with considerable experience and durability. He attempted to use his jab and physical strength to walk Garcia down and smother his speed. However, this strategy failed because Garcia's footwork allowed him to maintain distance, and his counter-punching punished Barrios whenever he closed the gap.\n\n## Event Candidate Inventory\n- E1: Ryan Garcia vs. Mario Barrios weigh-in\n  - date: 2026-02-20\n  - why it matters causally: Confirmed the fighters made weight and the title fight was official.\n  - source article IDs: [art_sports_20260220_024_d43d5110]\n- E2: Garcia drops Barrios in Round 2\n  - date: 2026-02-21\n  - why it matters causally: Shifted the momentum entirely to Garcia and forced Barrios onto the defensive for the remainder of the fight.\n  - source article IDs: [art_sports_20260221_007_b0aee46b]\n- E3: Ryan Garcia wins unanimous decision\n  - date: 2026-02-21\n  - why it matters causally: The official outcome of the fight, crowning Garcia the new WBC welterweight champion.\n  - source article IDs: [art_sports_20260222_004_7f8d1bf3], [art_sports_20260222_005_c9043821]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Weigh-in confirmed | [art_sports_20260220_024_d43d5110] | 2026-02-20 | 1.0 | Event scheduled |\n| Garcia drops Barrios in Round 2 | [art_sports_20260221_007_b0aee46b] | 2026-02-21 | 1.0 | Critical early moment in the fight. |\n| Garcia wins unanimous decision over Barrios | [art_sports_20260222_004_7f8d1bf3], [art_sports_20260222_005_c9043821] | 2026-02-21 | 1.0 | Official fight result confirming the resolution. |\n\n## Uncertainties And Alternative Paths\nThe fight outcome was definitive, but alternative paths could have included Barrios successfully cutting off the ring and wearing down Garcia in the later rounds, had Garcia fatigued or failed to score early knockdowns. There is minimal uncertainty regarding the events as reported by numerous sporting outlets.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-02-25T00:09:12.975789+00:00",
+    "market_open": "2026-02-19T20:52:03.140499+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T08:36:55+00:00",
-    "polymarket_url": "https://polymarket.com/event/zelensky-resigns-in-2025",
+    "market_close": "2026-02-22T08:32:48+00:00",
+    "polymarket_url": "https://polymarket.com/event/the-ring-high-stakes-ryan-garcia-vs-mario-barrios",
     "price_data": {
       "history": [
         {
-          "t": 1740484805,
-          "p": 0.33
+          "t": 1771545640,
+          "p": 0.7
         },
         {
-          "t": 1740700805,
-          "p": 0.29
+          "t": 1771588825,
+          "p": 0.685
         },
         {
-          "t": 1740916805,
-          "p": 0.255
+          "t": 1771632029,
+          "p": 0.655
         },
         {
-          "t": 1741132804,
-          "p": 0.235
+          "t": 1771675229,
+          "p": 0.695
         },
         {
-          "t": 1741348804,
-          "p": 0.235
-        },
-        {
-          "t": 1741564804,
-          "p": 0.235
-        },
-        {
-          "t": 1741780805,
-          "p": 0.235
-        },
-        {
-          "t": 1742040004,
-          "p": 0.225
-        },
-        {
-          "t": 1742256005,
-          "p": 0.23
-        },
-        {
-          "t": 1742472006,
-          "p": 0.26
-        },
-        {
-          "t": 1742688006,
-          "p": 0.265
-        },
-        {
-          "t": 1742904006,
-          "p": 0.23
-        },
-        {
-          "t": 1743120006,
-          "p": 0.23
-        },
-        {
-          "t": 1743379205,
-          "p": 0.215
-        },
-        {
-          "t": 1743595205,
-          "p": 0.2
-        },
-        {
-          "t": 1743811205,
-          "p": 0.135
-        },
-        {
-          "t": 1744027205,
-          "p": 0.15
-        },
-        {
-          "t": 1744243205,
-          "p": 0.15
-        },
-        {
-          "t": 1744459205,
-          "p": 0.15
-        },
-        {
-          "t": 1744718405,
-          "p": 0.15
-        },
-        {
-          "t": 1744934404,
-          "p": 0.14
-        },
-        {
-          "t": 1745150406,
-          "p": 0.15
-        },
-        {
-          "t": 1745366407,
-          "p": 0.155
-        },
-        {
-          "t": 1745582406,
-          "p": 0.145
-        },
-        {
-          "t": 1745798405,
-          "p": 0.13
-        },
-        {
-          "t": 1746014406,
-          "p": 0.145
-        },
-        {
-          "t": 1746273606,
-          "p": 0.13
-        },
-        {
-          "t": 1746489606,
-          "p": 0.115
-        },
-        {
-          "t": 1746705606,
-          "p": 0.12
-        },
-        {
-          "t": 1746921606,
-          "p": 0.12
-        },
-        {
-          "t": 1747137607,
-          "p": 0.115
-        },
-        {
-          "t": 1747353606,
-          "p": 0.115
-        },
-        {
-          "t": 1747612806,
-          "p": 0.115
-        },
-        {
-          "t": 1747828807,
-          "p": 0.105
-        },
-        {
-          "t": 1748044807,
-          "p": 0.105
-        },
-        {
-          "t": 1748260806,
-          "p": 0.105
-        },
-        {
-          "t": 1748476807,
-          "p": 0.105
-        },
-        {
-          "t": 1748692807,
-          "p": 0.11
-        },
-        {
-          "t": 1748952006,
-          "p": 0.115
-        },
-        {
-          "t": 1749168006,
-          "p": 0.11
-        },
-        {
-          "t": 1749384007,
-          "p": 0.105
-        },
-        {
-          "t": 1749600007,
-          "p": 0.105
-        },
-        {
-          "t": 1749816008,
-          "p": 0.105
-        },
-        {
-          "t": 1750032007,
-          "p": 0.1
-        },
-        {
-          "t": 1750248007,
-          "p": 0.095
-        },
-        {
-          "t": 1750507208,
-          "p": 0.095
-        },
-        {
-          "t": 1750723207,
-          "p": 0.09
-        },
-        {
-          "t": 1750939207,
-          "p": 0.09
-        },
-        {
-          "t": 1751155208,
-          "p": 0.08
-        },
-        {
-          "t": 1751371207,
-          "p": 0.07
-        },
-        {
-          "t": 1751587208,
-          "p": 0.065
-        },
-        {
-          "t": 1751846407,
-          "p": 0.065
-        },
-        {
-          "t": 1752062408,
-          "p": 0.085
-        },
-        {
-          "t": 1752278409,
-          "p": 0.085
-        },
-        {
-          "t": 1752494407,
-          "p": 0.085
-        },
-        {
-          "t": 1752710408,
-          "p": 0.065
-        },
-        {
-          "t": 1752926408,
-          "p": 0.095
-        },
-        {
-          "t": 1753185609,
-          "p": 0.1
-        },
-        {
-          "t": 1753401609,
-          "p": 0.11
-        },
-        {
-          "t": 1753617609,
-          "p": 0.145
-        },
-        {
-          "t": 1753833610,
-          "p": 0.155
-        },
-        {
-          "t": 1754049609,
-          "p": 0.13
-        },
-        {
-          "t": 1754265607,
-          "p": 0.1
-        },
-        {
-          "t": 1754481608,
-          "p": 0.095
-        },
-        {
-          "t": 1754740812,
-          "p": 0.105
-        },
-        {
-          "t": 1754956807,
-          "p": 0.115
-        },
-        {
-          "t": 1755172810,
-          "p": 0.115
-        },
-        {
-          "t": 1755388815,
-          "p": 0.115
-        },
-        {
-          "t": 1755604811,
-          "p": 0.12
-        },
-        {
-          "t": 1755820804,
-          "p": 0.085
-        },
-        {
-          "t": 1756080004,
-          "p": 0.085
-        },
-        {
-          "t": 1756296024,
-          "p": 0.085
-        },
-        {
-          "t": 1756512007,
-          "p": 0.085
-        },
-        {
-          "t": 1756728013,
-          "p": 0.085
-        },
-        {
-          "t": 1756944011,
-          "p": 0.085
-        },
-        {
-          "t": 1757160005,
-          "p": 0.075
-        },
-        {
-          "t": 1757419202,
-          "p": 0.07
-        },
-        {
-          "t": 1757635223,
-          "p": 0.07
-        },
-        {
-          "t": 1757851224,
-          "p": 0.065
-        },
-        {
-          "t": 1758067217,
-          "p": 0.06
-        },
-        {
-          "t": 1758283217,
-          "p": 0.06
-        },
-        {
-          "t": 1758499206,
-          "p": 0.045
-        },
-        {
-          "t": 1758715213,
-          "p": 0.045
-        },
-        {
-          "t": 1758974414,
-          "p": 0.045
-        },
-        {
-          "t": 1759190406,
-          "p": 0.045
-        },
-        {
-          "t": 1759406409,
-          "p": 0.045
-        },
-        {
-          "t": 1759622404,
-          "p": 0.045
-        },
-        {
-          "t": 1759838402,
-          "p": 0.045
-        },
-        {
-          "t": 1760054414,
-          "p": 0.045
-        },
-        {
-          "t": 1760313607,
-          "p": 0.045
-        },
-        {
-          "t": 1760529621,
-          "p": 0.045
-        },
-        {
-          "t": 1760745610,
-          "p": 0.045
-        },
-        {
-          "t": 1760961622,
-          "p": 0.05
-        },
-        {
-          "t": 1761177612,
-          "p": 0.045
-        },
-        {
-          "t": 1761393628,
-          "p": 0.045
-        },
-        {
-          "t": 1761652824,
-          "p": 0.045
-        },
-        {
-          "t": 1761912028,
-          "p": 0.045
-        },
-        {
-          "t": 1762128022,
-          "p": 0.045
-        },
-        {
-          "t": 1762344031,
-          "p": 0.045
-        },
-        {
-          "t": 1762560016,
-          "p": 0.0225
-        },
-        {
-          "t": 1762776027,
-          "p": 0.016
-        },
-        {
-          "t": 1762992023,
-          "p": 0.024
-        },
-        {
-          "t": 1763251218,
-          "p": 0.0605
-        },
-        {
-          "t": 1763467232,
-          "p": 0.0355
-        },
-        {
-          "t": 1763683230,
-          "p": 0.047
-        },
-        {
-          "t": 1763899218,
-          "p": 0.0505
-        },
-        {
-          "t": 1764115219,
-          "p": 0.04
-        },
-        {
-          "t": 1764331239,
-          "p": 0.0435
-        },
-        {
-          "t": 1764633617,
-          "p": 0.045
-        },
-        {
-          "t": 1764849638,
-          "p": 0.024
-        },
-        {
-          "t": 1765065634,
-          "p": 0.0275
-        },
-        {
-          "t": 1765281620,
-          "p": 0.0265
-        },
-        {
-          "t": 1765497618,
-          "p": 0.0145
-        },
-        {
-          "t": 1765713622,
-          "p": 0.0105
-        },
-        {
-          "t": 1765929637,
-          "p": 0.0095
-        },
-        {
-          "t": 1766145622,
-          "p": 0.008
-        },
-        {
-          "t": 1766361620,
-          "p": 0.0065
-        },
-        {
-          "t": 1766577622,
-          "p": 0.0035
-        },
-        {
-          "t": 1766793620,
-          "p": 0.0045
-        },
-        {
-          "t": 1767009621,
-          "p": 0.0035
+          "t": 1771718428,
+          "p": 0.675
         }
       ],
-      "turning_points": [
-        {
-          "t": 1740830405,
-          "p": 0.275,
-          "delta": -0.055
-        },
-        {
-          "t": 1741824006,
-          "p": 0.22,
-          "delta": -0.055
-        },
-        {
-          "t": 1743638405,
-          "p": 0.135,
-          "delta": -0.085
-        },
-        {
-          "t": 1751112007,
-          "p": 0.08,
-          "delta": -0.055
-        },
-        {
-          "t": 1753315209,
-          "p": 0.135,
-          "delta": 0.055
-        },
-        {
-          "t": 1755734408,
-          "p": 0.085,
-          "delta": -0.05
-        },
-        {
-          "t": 1762387214,
-          "p": 0.025,
-          "delta": -0.06
-        },
-        {
-          "t": 1763596817,
-          "p": 0.092,
-          "delta": 0.067
-        },
-        {
-          "t": 1764072033,
-          "p": 0.0395,
-          "delta": -0.0525
-        }
-      ],
-      "price_at_open": 0.33,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.33,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-27T07:57:45.481278+00:00"
+      "turning_points": [],
+      "price_at_open": 0.7,
+      "price_at_close": 0.675,
+      "min_price": 0.655,
+      "max_price": 0.7,
+      "final_price": 0.675,
+      "fetched_at": "2026-04-27T07:57:29.453651+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250318_003_3c6c83b9",
-        "date": "2025-03-18 12:00",
-        "title": "Trump labels Zelensky a dictator",
-        "description": "Donald Trump labels Zelensky a dictator, increasing international pressure.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTrump's comments increase international pressure, pushing towards resignation.",
+        "id": "evt_sports_20260220_007_5892ec4e",
+        "date": "2026-02-20 09:00",
+        "title": "Ryan Garcia vs. Mario Barrios weigh-in",
+        "description": "Pre-fight hype and weigh-ins establish Garcia and Barrios as ready for the WBC title clash.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/trump-zelensky-ukraine-dictator-russia-putin-112845224.html?fr=sycsrp_catchall",
+        "source_url": "https://www.the-sun.com/sport/15930794/mario-barrios-vs-ryan-garcia-exact-fight-time-ring-walks",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250601_004_96f368e5",
-        "date": "2025-06-01 12:00",
-        "title": "MPs claim Zelensky ordered to resign",
-        "description": "Speculation peaks as MPs claim Zelensky was ordered to resign.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation and claims by MPs push towards resignation.",
+        "id": "evt_sports_20260221_011_6241391f",
+        "date": "2026-02-21 18:00",
+        "title": "Garcia's athletic advantages established",
+        "description": "Garcia's explosive hand speed and power are established before the fight.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.express.co.uk/news/world/2021583/ukraine-president-volodymyr-zelensky-confirms",
+        "source_url": "https://rolltidewire.usatoday.com/story/sports/boxing/2026/02/22/ryan-garcia-vs-mario-barrios-results-highlights/88809098007",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250715_005_24fb7e67",
-        "date": "2025-07-15 12:00",
-        "title": "Ukraine Prime Minister resigns",
-        "description": "Ukraine's Prime Minister resigns, increasing instability.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPM's resignation increases instability, pushing towards resignation.",
+        "id": "evt_sports_20260221_003_bafbc1e5",
+        "date": "2026-02-21 20:30",
+        "title": "Barrios attempts to use jab and strength",
+        "description": "Barrios attempts to use his jab and physical strength to walk Garcia down.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.latimes.com/world-nation/story/2025-07-15/ukraines-prime-minister-resigns-opening-the-door-to-a-broad-government-reshuffle",
+        "source_url": "https://www.espn.com/boxing/story/_/id/48002524/ryan-garcia-wrests-mario-barrios-wbc-title-one-sided-win",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250721_006_8b200cc4",
-        "date": "2025-07-21 12:00",
-        "title": "Public anger against Zelensky grows",
-        "description": "Public anger against Zelensky grows, marking a watershed moment.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPublic anger pushes towards resignation.",
+        "id": "evt_sports_20260221_008_8a4f2326",
+        "date": "2026-02-21 19:00",
+        "title": "Garcia drops Barrios in Round 2",
+        "description": "Garcia lands a devastating left hook that drops Barrios in round 2.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/zelensky-united-ukraine-fight-russia-120000099.html?fr=sycsrp_catchall",
+        "source_url": "https://rolltidewire.usatoday.com/story/sports/boxing/2026/02/22/ryan-garcia-vs-mario-barrios-results-highlights/88809098007",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250925_007_836bacd5",
-        "date": "2025-09-25 12:00",
-        "title": "Zelensky commits to post-war departure",
-        "description": "Zelensky announces he will hold elections during a ceasefire and step down after the war.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nCommitment to step down only after the war makes resignation in 2025 less likely.",
+        "id": "evt_sports_20260221_009_4cffd307",
+        "date": "2026-02-21 19:10",
+        "title": "Barrios forced to fight defensively",
+        "description": "The early knockdown forced Barrios to fight defensively and cautiously.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.axios.com/2025/09/25/zelensky-elections-ukraine-axios-show",
+        "source_url": "https://rolltidewire.usatoday.com/story/sports/boxing/2026/02/22/ryan-garcia-vs-mario-barrios-results-highlights/88809098007",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251118_008_b03724ee",
-        "date": "2025-11-18 12:00",
-        "title": "Golden toilet scandal peaks",
-        "description": "The Golden toilet scandal puts extreme pressure on Zelensky.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nScandal puts extreme pressure on Zelensky, pushing towards resignation.",
+        "id": "evt_sports_20260221_010_906e46dc",
+        "date": "2026-02-21 19:20",
+        "title": "Garcia dictates pace and distance",
+        "description": "Garcia dictates the pace and distance of the fight.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/zelensky-under-pressure-fire-chief-104427574.html?fr=sycsrp_catchall",
+        "source_url": "https://rolltidewire.usatoday.com/story/sports/boxing/2026/02/22/ryan-garcia-vs-mario-barrios-results-highlights/88809098007",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20240522_001_32d9578c",
-        "date": "2024-05-22 12:00",
-        "title": "Martial law suspends elections",
-        "description": "Ongoing martial law causes elections to be suspended, providing a legal basis for Zelensky to remain in power.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMartial law suspends elections, making resignation less likely.",
+        "id": "evt_sports_20260221_001_7d7c2b50",
+        "date": "2026-02-21 20:00",
+        "title": "Garcia's inherent athletic advantages",
+        "description": "Garcia's explosive hand speed and power.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://rolltidewire.usatoday.com/story/sports/boxing/2026/02/22/ryan-garcia-vs-mario-barrios-results-highlights/88809098007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260221_004_b816a112",
+        "date": "2026-02-21 20:35",
+        "title": "Garcia's footwork maintains distance",
+        "description": "Garcia's footwork allowed him to maintain distance.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.espn.com/boxing/story/_/id/48002524/ryan-garcia-wrests-mario-barrios-wbc-title-one-sided-win",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260221_005_a5399495",
+        "date": "2026-02-21 20:40",
+        "title": "Garcia's counter-punching punishes Barrios",
+        "description": "Garcia's counter-punching punished Barrios whenever he closed the gap.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.espn.com/boxing/story/_/id/48002524/ryan-garcia-wrests-mario-barrios-wbc-title-one-sided-win",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260221_002_67c37cf7",
+        "date": "2026-02-21 21:00",
+        "title": "Garcia out-lands Barrios",
+        "description": "Garcia consistently out-lands Barrios in power punches and combinations over 12 rounds.",
+        "impact": "**Affects:** Yes -  The Ring - High Stakes: Ryan Garcia vs. Mario Bar  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Garcia's win.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.espn.com/boxing/story/_/id/48002524/ryan-garcia-wrests-mario-barrios-wbc-title-one-sided-win",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_sports_20260228_012_40cd9fb3",
+    "title": "Which NFL owner's franchise will receive the lowest overall grade in the NFL Players Association (NFLPA) 2026 team report cards?",
+    "question_type": "mcq",
+    "options": [
+      "Art Rooney II (Steelers)",
+      "Stan Kroenke (Rams)",
+      "Jerry Jones (Cowboys)",
+      "Dean Spanos (Chargers)"
+    ],
+    "background": "The NFLPA conducts an annual survey of players to grade their respective teams on a variety of workplace conditions, from the quality of the facilities to the professionalism of the staff and the investment of ownership. The results are compiled into report cards for each franchise.",
+    "resolution_criteria": "The question will be resolved based on the officially released or leaked 2026 NFLPA report card grades for all 32 teams. The franchise with the lowest overall letter grade (e.g., F being the lowest) will be the correct answer. Resolution will be based on reports from major sports news outlets like ESPN or Yahoo Sports.",
+    "outcome": "Art Rooney II (Steelers)",
+    "explanation": "\n## Executive Summary\nIn the 2026 NFLPA team report cards, Art Rooney II, owner of the Pittsburgh Steelers, received the lowest overall grade among NFL owners. This outcome was primarily driven by continuous underinvestment in team facilities and severe player dissatisfaction with the Acrisure Stadium grass. While other owners like Stan Kroenke, Jerry Jones, and Dean Spanos also faced criticism, Rooney's consistently low scores across multiple categories, including locker room conditions and family treatment, solidified his position at the bottom. The results, leaked despite an NFL grievance, highlighted a stark contrast in workplace conditions across the league.\n\n## Timeline Of Key Events\n- **March 2024**: Steelers owner Art Rooney II dismisses poor NFLPA report card results from previous years as a 'media opportunity,' indicating a lack of urgency to address player concerns [art_general_20240328_003_7e2d382c].\n- **November 2025**: The NFL files a grievance against the NFLPA over the annual team report cards, alleging CBA violations, attempting to keep the results private [art_general_20251113_019_dee76158].\n- **February 16, 2026**: A ruling in the NFLPA report card grievance is issued, allowing the survey results to exist but creating a tense environment leading up to the release [art_general_20260216_015_bfc0dfc0].\n- **February 26, 2026**: The 2026 NFLPA report cards are leaked to the public. Art Rooney II and the Steelers are ranked dead last overall, marking the first time they placed last in the survey's history [art_general_20260226_010_933604f0, art_sports_20260226_004_75593ba4].\n- **February 27-28, 2026**: Various media outlets dissect the leaked reports, highlighting specific areas of failure for the Steelers, including facility underinvestment and the poor condition of Acrisure Stadium's grass [art_general_20260227_008_dc423b61, art_sports_20260228_019_3a757917].\n\n## Causal Chain Analysis\nThe outcome **was caused** by a pattern of organizational neglect by Art Rooney II. This **led to** a deteriorating workplace environment for the players, as evidenced by failing grades in crucial categories like locker rooms, family treatment, and team travel. A proximate trigger was Rooney's public dismissal of previous surveys as mere media opportunities [art_general_20240328_003_7e2d382c], which likely exacerbated player frustration and **resulted in** even harsher anonymous feedback in the 2026 survey. Finally, the leak of the report cards, despite NFL efforts to suppress them [art_general_20251113_019_dee76158], exposed the Steelers' bottom ranking to the public, solidifying Rooney's status as the lowest-graded owner.\n\n## Countervailing Factors\nOther owners also had significant vulnerabilities. For instance, Jerry Jones and the Cowboys consistently ranked in the bottom half of the league in previous years [art_sports_20260227_010_38841509]. Dean Spanos and Stan Kroenke had faced their own criticisms regarding facilities and player treatment. However, these owners managed to avoid the absolute bottom rank because they performed adequately in other categories or showed marginal improvements, whereas Rooney's scores regressed across the board.\n\n## Event Candidate Inventory\n- E1: Art Rooney II dismisses previous NFLPA survey results as a 'media opportunity'.\n  - date: 2024-03-28\n  - why it matters causally: Demonstrated a lack of commitment to improving player conditions, directly influencing player feedback.\n  - source article IDs: [art_general_20240328_003_7e2d382c]\n- E2: NFL files grievance against NFLPA to suppress report cards.\n  - date: 2025-11-13\n  - why it matters causally: Created the conditions under which the results had to be leaked rather than officially released, adding weight to the public perception.\n  - source article IDs: [art_general_20251113_019_dee76158]\n- E3: 2026 NFLPA report cards are leaked, revealing Steelers at the bottom.\n  - date: 2026-02-26\n  - why it matters causally: The direct event where the outcome of the survey became public knowledge.\n  - source article IDs: [art_general_20260226_010_933604f0, art_sports_20260226_004_75593ba4]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Rooney dismisses previous survey | [art_general_20240328_003_7e2d382c] | 2024-03-28 | 1.0 | Clear statement from owner |\n| NFL attempts to block release | [art_general_20251113_019_dee76158] | 2025-11-13 | 1.0 | Legal action |\n| Steelers rank last in 2026 | [art_general_20260226_010_933604f0, art_sports_20260226_004_75593ba4] | 2026-02-26 | 1.0 | Core outcome event |\n\n## Uncertainties And Alternative Paths\nIt remains slightly uncertain if the NFLPA would have published the exact same results without the grievance process. An alternative path could have seen an owner like Jerry Jones falling to last place if the Cowboys' ongoing facility issues had worsened significantly, but Rooney's across-the-board failures prevented that.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2026-02-20T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-02-28T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_sports_20240328_001_7a77b86b",
+        "date": "2024-03-28 12:00",
+        "title": "Art Rooney II dismisses previous NFLPA survey results",
+        "description": "Steelers owner Art Rooney II dismisses poor NFLPA report card results from previous years as a 'media opportunity'.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://townhall.com/tipsheet/leahbarkoukis/2024/05/22/zelensky-term-n2639342",
+        "source_url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/art-rooney-dismisses-nflpa-report-card-as-media-opportunity",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250223_002_57b8b1ff",
-        "date": "2025-02-23 12:00",
-        "title": "Zelensky offers conditional resignation",
-        "description": "Zelensky states he is ready to quit if it brings peace, pushing back against US demands.",
-        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nConditional offer counters demands for immediate resignation.",
+        "id": "evt_sports_20251113_002_b0863d47",
+        "date": "2025-11-13 12:00",
+        "title": "NFL files grievance against NFLPA",
+        "description": "The NFL files a grievance against the NFLPA over the annual team report cards, alleging CBA violations.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://edition.cnn.com/2025/02/23/europe/ukraine-zelensky-resign-nato-intl?Date=20250223&Profile=CNN",
+        "source_url": "https://www.cbssports.com/nfl/news/nfl-grievance-nflpa-team-report-cards-cba-violation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260215_010_627f6ece",
+        "date": "2026-02-15 12:00",
+        "title": "Ruling in NFLPA report card grievance issued",
+        "description": "A ruling in the NFLPA report card grievance is issued, allowing the survey results to exist.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ruling-in-nflpa-report-card-grievance-includes-2025-criticisms-as-to-11-teams",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260226_003_43d72768",
+        "date": "2026-02-26 12:00",
+        "title": "2026 NFLPA report cards are leaked",
+        "description": "The 2026 NFLPA report cards are leaked to the public.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.sportingnews.com/us/nfl/news/nfl-team-report-cards-2026-steelers-worst-dolphins-best/8578b38bae8d1e424dc45d07",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260226_012_2bb9aad8",
+        "date": "2026-02-26 12:00",
+        "title": "Jerry Jones and the Cowboys rank in the bottom half of the league",
+        "description": "Jerry Jones and the Cowboys rank in the bottom half of the league in the 2026 report cards.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://cowboyswire.usatoday.com/story/sports/nfl/cowboys/2026/02/27/cowboys-nflpa-2026-report-cards-leaked-grades/88891401007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260227_011_6f2092f8",
+        "date": "2026-02-27 00:00",
+        "title": "Media outlets dissect leaked reports highlighting Steelers' facility underinvestment",
+        "description": "Various media outlets dissect the leaked reports, highlighting specific areas of failure for the Steelers, including facility underinvestment.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://heavy.com/sports/nfl/pittsburgh-steelers/art-rooney-nflpa-report-cards-nfl-offseason-news",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260226_004_0c663430",
+        "date": "2026-02-26 12:00",
+        "title": "Leaked report cards reveal Steelers' failing grades in locker room conditions",
+        "description": "Leaked report cards reveal Steelers' failing grades in locker room conditions.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.sportingnews.com/us/nfl/news/nfl-team-report-cards-2026-steelers-worst-dolphins-best/8578b38bae8d1e424dc45d07",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260226_005_3fb6cc32",
+        "date": "2026-02-26 12:00",
+        "title": "Leaked report cards reveal Steelers' failing grades in family treatment",
+        "description": "Leaked report cards reveal Steelers' failing grades in family treatment.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.sportingnews.com/us/nfl/news/nfl-team-report-cards-2026-steelers-worst-dolphins-best/8578b38bae8d1e424dc45d07",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260226_006_a56d999e",
+        "date": "2026-02-26 12:00",
+        "title": "Leaked report cards reveal severe player dissatisfaction with Acrisure Stadium grass",
+        "description": "Leaked report cards reveal severe player dissatisfaction with the Acrisure Stadium grass.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.sportingnews.com/us/nfl/news/nfl-team-report-cards-2026-steelers-worst-dolphins-best/8578b38bae8d1e424dc45d07",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260226_007_60989a59",
+        "date": "2026-02-26 12:00",
+        "title": "Leaked report cards reveal Steelers' failing grades in team travel",
+        "description": "Leaked report cards reveal Steelers' failing grades in team travel.",
+        "impact": "**Affects:** Option 1: Art Rooney II (Steelers)  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Art Rooney II receiving the lowest grade.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.sportingnews.com/us/nfl/news/nfl-team-report-cards-2026-steelers-worst-dolphins-best/8578b38bae8d1e424dc45d07",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

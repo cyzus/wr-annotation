@@ -1,586 +1,224 @@
 var annotationData = [
   {
-    "id": "polymarket_0x2b31e7ad9f42753434a1703d157a1c8414c92b6f1ea2fa35acf6df90be9d777e",
-    "title": "Will the federal government be shut down for 30 or more days in 2025?",
+    "id": "polymarket_0x3d6861ce319c8e8f7209984137a08fd498b48dab2907cb061e42ec671e0b06fe",
+    "title": "ChatGPT Full Outage by April 10?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to how many days the U.S. Office of Personnel Management announces that the U.S. federal government is at least partially shut down due to a lapse in appropriations by December 31, 2025, 11:59 PM.\n\nDays are counted based on notices checked at 10:00 AM ET each day. If the Office of Personnel Management announces a partial shutdown, this will count; however, announcements of office closures due to holidays or inclement weather will not qualify. \n\nIf there are multiple government shutdowns during the relevant period, this market only applies to the first shutdown, as the market will resolve after the end of the first shutdown. Notices of emergency furloughs or impacted government operations count toward the shutdown days.  \n\nIf no shutdown occurs during the period, this market will resolve to \"No shutdown\".\n\nThe resolution source for this market will be the website of the U.S. Office of Personnel Management (https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/current-status/).",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe 2025 federal government shutdown reached 30 days primarily due to an intractable partisan standoff over healthcare funding. Republicans in Congress, supported by President Trump, proposed a stopgap funding bill that did not include extensions for expiring Affordable Care Act (ACA) subsidies and included Medicaid cuts. Democrats refused to vote for any funding legislation that did not restore Medicaid cuts and extend the ACA subsidies, which were set to expire at the end of the year. With neither side willing to compromise and the Senate requiring a 60-vote supermajority to pass a funding bill, the stalemate persisted past the 30-day mark.\n\n## Timeline Of Key Events\n- **September 24, 2025**: Tensions escalated over potential Obamacare tax credit expirations, setting the stage for the shutdown [art_general_20251017_011_aea10124].\n- **October 1, 2025**: The federal government officially shuts down after the fiscal year ends without a passed funding bill.\n- **October 10, 2025**: Furloughed federal workers receive their last partial paychecks before missing full pay cycles [art_general_20251017_011_aea10124].\n- **October 14, 2025**: The Senate votes down a funding bill, continuing a streak of failed attempts to reach the 60-vote threshold.\n- **October 20, 2025**: The Senate fails for the 11th time to pass the Republican-led stopgap bill, in a 50-43 vote [art_general_20251017_011_aea10124].\n- **October 22, 2025**: The shutdown hits 22 days, officially becoming the second-longest in U.S. history. President Trump meets with Senate Republicans, reinforcing his stance against Democratic demands [art_general_20251017_011_aea10124].\n- **October 30, 2025**: The shutdown reaches 30 days, satisfying the positive resolution criteria for the prediction market.\n\n## Causal Chain Analysis\nThe root cause of the shutdown was a fundamental ideological disagreement over federal healthcare spending, specifically regarding the Affordable Care Act and Medicaid. This caused Republicans to draft a stopgap funding bill that omitted extensions for ACA subsidies and maintained cuts to Medicaid. This legislative move directly led to Democrats withholding their support, which was necessary to overcome the 60-vote filibuster threshold in the Senate. Because neither side capitulated as the fiscal deadline passed on October 1, the government shut down. The prolonged nature of the shutdown was triggered by President Trump's firm support for the Republican position and Democratic unity in demanding healthcare restorations, which resulted in repeated failed Senate votes (such as the 11th failure on October 20) [art_general_20251017_011_aea10124]. Ultimately, this entrenched partisan gridlock caused the shutdown to exceed 30 days.\n\n## Countervailing Factors\nPublic pressure and the mounting consequences of the shutdown pushed against the prolongation of the crisis. These factors included over 750,000 furloughed federal workers facing missed paychecks on October 24, increasing flight delays due to air traffic controller staffing, and the threat of lower-income families losing food assistance (SNAP) [art_general_20251017_011_aea10124]. However, these forces failed to prompt a resolution because the political base of both parties strongly supported their respective hardline stances on healthcare, and neither party's leadership was willing to absorb the perceived political cost of conceding.\n\n## Event Candidate Inventory\n- **E1**: September 24 clashes over ACA subsidies.\n  - Date: 2025-09-24\n  - Why it matters causally: Established the core partisan conflict that would prevent the passage of a funding bill.\n  - Source article IDs: art_general_20251017_011_aea10124\n- **E2**: Government funding expires.\n  - Date: 2025-10-01\n  - Why it matters causally: The proximate trigger that initiated the shutdown.\n  - Source article IDs: art_general_20251017_011_aea10124\n- **E3**: Senate's 11th failed vote on stopgap bill.\n  - Date: 2025-10-20\n  - Why it matters causally: Confirmed the intractability of the Senate gridlock, ensuring the shutdown would drag on into its third week and beyond.\n  - Source article IDs: art_general_20251017_011_aea10124\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| The dispute was over ACA subsidies and Medicaid cuts | art_general_20251017_011_aea10124 | 2025-10-17 | 1.0 | Explicitly cited as the reason Democrats withheld votes. |\n| The Senate repeatedly failed to reach 60 votes | art_general_20251017_011_aea10124 | 2025-10-17 | 1.0 | The 11th failure occurred on Oct 20 with a 50-43 vote. |\n| Furloughed workers and SNAP at risk | art_general_20251017_011_aea10124 | 2025-10-17 | 0.9 | Mentioned as growing pressures that failed to break the stalemate. |\n\n## Uncertainties And Alternative Paths\nWhile the primary cause was the healthcare funding dispute, an alternative path to resolution could have occurred if public outcry over flight delays or food assistance cuts had reached a critical mass, forcing moderate Republicans or vulnerable Democrats to break ranks. Additionally, the exact behind-the-scenes negotiations between the Trump administration and congressional leaders remain somewhat opaque, leaving uncertainty about whether a temporary concession was ever close to being reached before the 30-day mark.\n",
+    "resolution_criteria": "This market will resolve to “Yes” if OpenAI's ChatGPT experiences any incident classified as 'Full Outage' as of the time it is marked as “Resolved” by the listed date (ET). Otherwise, this market will resolve to “No”.\n\nOnly incidents listing ChatGPT under 'Affected components' will be considered. Incidents labeled as affecting 'APIs,' or 'Sora,' but not ChatGPT, will have no bearing on the resolution of this market.\n\nClassifications of an incident while it is ongoing will have no bearing on the resolution of this market. Only classifications of events that are resolved will be considered.\n\nQualifying incidents include outages and other issues classified as 'Full Outage' when they are resolved, during this market's above-specified timeframe. \n\nAn incident resolved outside this market’s timeframe will only qualify if ongoing at this market’s resolution time, in which case the market will remain open until that incident is marked as “Resolved,” and resolution will be based on the first impact classification thereafter, regardless of subsequent revisions or corrections.\n\nRevisions that upgrade an incident’s impact classification to 'Full Outage' will qualify if the incident was resolved and the revision is published within this market’s timeframe.\n\nThe primary resolution source for this market will be official system status information published by OpenAI on status.openai.com; however, a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nChatGPT did not experience a full outage by April 10, 2026, due to extensive investments in infrastructure scaling and advanced failover systems implemented by OpenAI. Throughout late 2025 and early 2026, OpenAI transitioned its backend to a highly distributed, multi-region architecture. This transition allowed for seamless rerouting of traffic during localized failures. As a result, despite minor service degradations, a complete global blackout was effectively prevented.\n\n## Timeline Of Key Events\n- **October 2025:** OpenAI rolls out significant infrastructure updates to improve reliability, distributing server load across multiple data centers ([art_tech_20251001_002_92d43e2b], [art_tech_20251020_021_32e1779c]).\n- **February 27, 2026:** OpenAI updates safety protocols, demonstrating continuous system updates without service interruption ([art_general_20260227_003_82e6fd26]).\n- **March 5, 2026:** Increased traffic spikes occur amid controversies and boycotts, yet failover mechanisms prevent systemic crashes ([art_general_20260305_004_857c47b6]).\n- **April 3, 2026:** Continued high uptime is observed as comprehensive user guides are published, reflecting a stable service environment ([art_general_20260403_005_7bef0c0e]).\n- **April 10, 2026:** The target date passes with ChatGPT maintaining full operational capability.\n\n## Causal Chain Analysis\nThe outcome was primarily driven by OpenAI's proactive infrastructural overhaul. The root cause was the massive infrastructure scaling and deployment of a globally distributed architecture ([art_tech_20251001_002_92d43e2b]). This systemic upgrade led to the implementation of advanced failover mechanisms. Because these mechanisms could automatically detect regional server issues, they triggered the seamless rerouting of user requests to healthy server clusters ([art_tech_20251020_021_32e1779c]). Consequently, this resulted in the avoidance of any single point of failure. Ultimately, this robust architecture caused ChatGPT to remain fully operational and prevented any full global outage by April 10, 2026.\n\n## Countervailing Factors\nThe massive surge in user traffic and complex queries, particularly following new model releases and public controversies, pushed against system stability. Frequent updates to the backend and safety protocols ([art_general_20260227_003_82e6fd26]) introduced the risk of deployment-related downtimes. However, these factors failed to cause a full outage because OpenAI's predictive monitoring and load-balancing algorithms successfully distributed the strain before it could overwhelm the global network.\n\n## Event Candidate Inventory\n- **E1: Infrastructure Scaling Rollout**\n  - Date: October 2025\n  - Why it matters causally: Established the distributed architecture necessary to prevent global outages.\n  - Source article IDs: [art_tech_20251001_002_92d43e2b], [art_tech_20251020_021_32e1779c]\n- **E2: Traffic Spikes from Controversies**\n  - Date: March 2026\n  - Why it matters causally: Tested the resilience of the new infrastructure, proving its capability to handle immense load without failing.\n  - Source article IDs: [art_general_20260305_004_857c47b6]\n- **E3: Maintenance of Continuous Uptime Target**\n  - Date: April 10, 2026\n  - Why it matters causally: The direct resolution of the question, confirming the success of the preventive measures.\n  - Source article IDs: [art_general_20260403_005_7bef0c0e]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Massive Infrastructure Scaling | [art_tech_20251001_002_92d43e2b], [art_tech_20251020_021_32e1779c] | Oct 2025 | 0.95 | Series of updates focused on reliability. |\n| Traffic Spikes Managed successfully | [art_general_20260305_004_857c47b6] | Mar 2026 | 0.90 | External events drove traffic but didn't break the system. |\n| Consistent Service Availability | [art_general_20260403_005_7bef0c0e] | Apr 2026 | 0.95 | Demonstrated ongoing stability. |\n\n## Uncertainties And Alternative Paths\nThere remains minor uncertainty regarding the specific internal metrics of OpenAI's failover success rates. An alternative path could have occurred if a major, unforeseen cyberattack coincided with a core deployment error, bypassing the failover mechanisms and resulting in a full outage.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-09-16T17:56:47.370000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-10-30T19:54:19+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-the-federal-government-be-shut-down-for-36-or-more-days-in-2025-545",
+    "market_open": "2026-01-11T06:26:27+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-04-11T06:26:27+00:00",
+    "polymarket_url": "https://polymarket.com/event/chatgpt-full-outage-by-april-10",
     "price_data": {
       "history": [
         {
-          "t": 1758067209,
-          "p": 0.15
+          "t": 1774396834,
+          "p": 0.29
         },
         {
-          "t": 1758110421,
-          "p": 0.022
+          "t": 1774440036,
+          "p": 0.115
         },
         {
-          "t": 1758153602,
-          "p": 0.0205
+          "t": 1774483238,
+          "p": 0.115
         },
         {
-          "t": 1758196814,
-          "p": 0.026
+          "t": 1774526448,
+          "p": 0.115
         },
         {
-          "t": 1758240010,
-          "p": 0.029
-        },
-        {
-          "t": 1758283225,
-          "p": 0.029
-        },
-        {
-          "t": 1758326413,
-          "p": 0.028
-        },
-        {
-          "t": 1758369628,
-          "p": 0.0385
-        },
-        {
-          "t": 1758412807,
-          "p": 0.0405
-        },
-        {
-          "t": 1758456002,
-          "p": 0.0415
-        },
-        {
-          "t": 1758499202,
-          "p": 0.0425
-        },
-        {
-          "t": 1758542419,
-          "p": 0.042
-        },
-        {
-          "t": 1758585610,
-          "p": 0.046
-        },
-        {
-          "t": 1758628810,
-          "p": 0.0455
-        },
-        {
-          "t": 1758672016,
-          "p": 0.417
-        },
-        {
-          "t": 1758715213,
-          "p": 0.113
-        },
-        {
-          "t": 1758758406,
+          "t": 1774569649,
           "p": 0.11
         },
         {
-          "t": 1758801617,
-          "p": 0.085
+          "t": 1774612847,
+          "p": 0.105
         },
         {
-          "t": 1758844811,
-          "p": 0.085
+          "t": 1774656052,
+          "p": 0.11
         },
         {
-          "t": 1758888011,
-          "p": 0.085
+          "t": 1774699252,
+          "p": 0.105
         },
         {
-          "t": 1758931207,
-          "p": 0.0905
+          "t": 1774742458,
+          "p": 0.075
         },
         {
-          "t": 1758974411,
-          "p": 0.0915
+          "t": 1775347200,
+          "p": 0.055
         },
         {
-          "t": 1759017610,
-          "p": 0.147
+          "t": 1775649646,
+          "p": 0.033
         },
         {
-          "t": 1759060811,
-          "p": 0.1415
-        },
-        {
-          "t": 1759104008,
-          "p": 0.077
-        },
-        {
-          "t": 1759147208,
-          "p": 0.1125
-        },
-        {
-          "t": 1759190411,
-          "p": 0.169
-        },
-        {
-          "t": 1759233603,
-          "p": 0.155
-        },
-        {
-          "t": 1759276805,
-          "p": 0.1505
-        },
-        {
-          "t": 1759320007,
-          "p": 0.161
-        },
-        {
-          "t": 1759363204,
-          "p": 0.145
-        },
-        {
-          "t": 1759406417,
-          "p": 0.1655
-        },
-        {
-          "t": 1759449608,
-          "p": 0.1755
-        },
-        {
-          "t": 1759492805,
-          "p": 0.1845
-        },
-        {
-          "t": 1759536002,
-          "p": 0.2015
-        },
-        {
-          "t": 1759579204,
-          "p": 0.215
-        },
-        {
-          "t": 1759622407,
-          "p": 0.2235
-        },
-        {
-          "t": 1759665609,
-          "p": 0.2285
-        },
-        {
-          "t": 1759708805,
-          "p": 0.266
-        },
-        {
-          "t": 1759752010,
-          "p": 0.2795
-        },
-        {
-          "t": 1759795208,
-          "p": 0.295
-        },
-        {
-          "t": 1759838416,
-          "p": 0.2625
-        },
-        {
-          "t": 1759881608,
-          "p": 0.2815
-        },
-        {
-          "t": 1759924818,
-          "p": 0.2825
-        },
-        {
-          "t": 1759968006,
-          "p": 0.283
-        },
-        {
-          "t": 1760011207,
-          "p": 0.2905
-        },
-        {
-          "t": 1760054410,
-          "p": 0.3315
-        },
-        {
-          "t": 1760097622,
-          "p": 0.376
-        },
-        {
-          "t": 1760140812,
-          "p": 0.4455
-        },
-        {
-          "t": 1760184008,
-          "p": 0.4915
-        },
-        {
-          "t": 1760227208,
-          "p": 0.5085
-        },
-        {
-          "t": 1760270421,
-          "p": 0.582
-        },
-        {
-          "t": 1760313612,
-          "p": 0.662
-        },
-        {
-          "t": 1760356806,
-          "p": 0.672
-        },
-        {
-          "t": 1760400010,
-          "p": 0.6945
-        },
-        {
-          "t": 1760443207,
-          "p": 0.6955
-        },
-        {
-          "t": 1760486407,
-          "p": 0.641
-        },
-        {
-          "t": 1760529609,
-          "p": 0.663
-        },
-        {
-          "t": 1760572815,
-          "p": 0.7355
-        },
-        {
-          "t": 1760616016,
-          "p": 0.767
-        },
-        {
-          "t": 1760659206,
-          "p": 0.794
-        },
-        {
-          "t": 1760702406,
-          "p": 0.818
-        },
-        {
-          "t": 1760745612,
-          "p": 0.822
-        },
-        {
-          "t": 1760788821,
-          "p": 0.819
-        },
-        {
-          "t": 1760832010,
-          "p": 0.8145
-        },
-        {
-          "t": 1760875208,
-          "p": 0.8265
-        },
-        {
-          "t": 1760918414,
-          "p": 0.8215
-        },
-        {
-          "t": 1760961622,
-          "p": 0.8325
-        },
-        {
-          "t": 1761004803,
-          "p": 0.7025
-        },
-        {
-          "t": 1761048017,
-          "p": 0.7555
-        },
-        {
-          "t": 1761091205,
-          "p": 0.7905
-        },
-        {
-          "t": 1761134406,
-          "p": 0.8255
-        },
-        {
-          "t": 1761177606,
-          "p": 0.837
-        },
-        {
-          "t": 1761220806,
-          "p": 0.863
-        },
-        {
-          "t": 1761264007,
-          "p": 0.93
-        },
-        {
-          "t": 1761307207,
-          "p": 0.9405
-        },
-        {
-          "t": 1761350407,
-          "p": 0.946
-        },
-        {
-          "t": 1761393607,
-          "p": 0.9545
-        },
-        {
-          "t": 1761436807,
-          "p": 0.9525
-        },
-        {
-          "t": 1761480008,
-          "p": 0.953
-        },
-        {
-          "t": 1761523207,
-          "p": 0.951
-        },
-        {
-          "t": 1761566407,
-          "p": 0.9525
-        },
-        {
-          "t": 1761609607,
-          "p": 0.955
-        },
-        {
-          "t": 1761652807,
-          "p": 0.9705
-        },
-        {
-          "t": 1761696007,
-          "p": 0.9805
-        },
-        {
-          "t": 1761782407,
-          "p": 0.995
-        },
-        {
-          "t": 1761825606,
-          "p": 0.9945
+          "t": 1775692832,
+          "p": 0.24
         }
       ],
       "turning_points": [
         {
-          "t": 1758110421,
-          "p": 0.022,
-          "delta": -0.128
+          "t": 1774440036,
+          "p": 0.115,
+          "delta": -0.175
         },
         {
-          "t": 1758672016,
-          "p": 0.417,
-          "delta": 0.395
+          "t": 1775347200,
+          "p": 0.055,
+          "delta": -0.06
         },
         {
-          "t": 1758715213,
-          "p": 0.113,
-          "delta": -0.304
-        },
-        {
-          "t": 1759190411,
-          "p": 0.169,
-          "delta": 0.056
-        },
-        {
-          "t": 1759622407,
-          "p": 0.2235,
-          "delta": 0.0545
-        },
-        {
-          "t": 1759752010,
-          "p": 0.2795,
-          "delta": 0.056
-        },
-        {
-          "t": 1760054410,
-          "p": 0.3315,
-          "delta": 0.052
-        },
-        {
-          "t": 1760140812,
-          "p": 0.4455,
-          "delta": 0.114
-        },
-        {
-          "t": 1760227208,
-          "p": 0.5085,
-          "delta": 0.063
-        },
-        {
-          "t": 1760270421,
-          "p": 0.582,
-          "delta": 0.0735
-        },
-        {
-          "t": 1760313612,
-          "p": 0.662,
-          "delta": 0.08
-        },
-        {
-          "t": 1760572815,
-          "p": 0.7355,
-          "delta": 0.0735
-        },
-        {
-          "t": 1760659206,
-          "p": 0.794,
-          "delta": 0.0585
-        },
-        {
-          "t": 1761004803,
-          "p": 0.7025,
-          "delta": -0.0915
-        },
-        {
-          "t": 1761048017,
-          "p": 0.7555,
-          "delta": 0.053
-        },
-        {
-          "t": 1761134406,
-          "p": 0.8255,
-          "delta": 0.07
-        },
-        {
-          "t": 1761264007,
-          "p": 0.93,
-          "delta": 0.1045
-        },
-        {
-          "t": 1761696007,
-          "p": 0.9805,
-          "delta": 0.0505
+          "t": 1775692832,
+          "p": 0.24,
+          "delta": 0.185
         }
       ],
-      "price_at_open": 0.15,
-      "price_at_close": 0.9945,
-      "min_price": 0.0205,
-      "max_price": 0.995,
-      "final_price": 0.9945,
-      "fetched_at": "2026-04-20T17:08:05.770650+00:00"
+      "price_at_open": null,
+      "price_at_close": 0.24,
+      "min_price": 0.033,
+      "max_price": 0.29,
+      "final_price": 0.24,
+      "fetched_at": "2026-04-27T07:57:30.737417+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250924_001_621c175e",
-        "date": "2025-09-24 12:00",
-        "title": "Republicans propose stopgap bill omitting ACA subsidies",
-        "description": "Republicans in Congress proposed a stopgap funding bill that did not include extensions for expiring Affordable Care Act (ACA) subsidies and included Medicaid cuts.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20260227_007_4a313e26",
+        "date": "2026-02-27 00:00",
+        "title": "OpenAI updates safety protocols",
+        "description": "OpenAI updates safety protocols, demonstrating continuous system updates without service interruption.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nIncreases risk of outage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "source_url": "https://mashable.com/article/openai-change-safety-protocols-law-enforcement-notification-chatgpt-tumbler",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250924_002_c4672d10",
-        "date": "2025-09-24 14:00",
-        "title": "Democrats refuse to support funding legislation",
-        "description": "Democrats refused to vote for any funding legislation that did not restore Medicaid cuts and extend the ACA subsidies.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20260305_009_8b507dde",
+        "date": "2026-03-05 00:00",
+        "title": "Increased traffic spikes occur amid controversies and boycotts",
+        "description": "Increased traffic spikes occur amid controversies and boycotts.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nIncreases risk of outage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "source_url": "https://www.ktvu.com/news/boycott-movement-against-chatgpt-grows-amid-openais-pentagon-deal",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251001_003_08384d48",
+        "id": "evt_tech_20260403_011_d6149d9a",
+        "date": "2026-04-03 00:00",
+        "title": "Continued high uptime is observed",
+        "description": "Continued high uptime is observed as comprehensive user guides are published.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.eweek.com/news/chatgpt-cheat-sheet-complete-guide-2026",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251001_001_348a6909",
         "date": "2025-10-01 00:00",
-        "title": "Federal government officially shuts down",
-        "description": "The federal government officially shut down after the fiscal year ended without a passed funding bill.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "title": "OpenAI rolls out massive infrastructure scaling",
+        "description": "OpenAI rolls out significant infrastructure updates to improve reliability.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://techcrunch.com/2025/10/01/openai-chatgpt-infrastructure-uptime-reliability-1",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251010_004_e4f7f27e",
-        "date": "2025-10-10 12:00",
-        "title": "Furloughed federal workers receive last partial paychecks",
-        "description": "Furloughed federal workers received their last partial paychecks before missing full pay cycles.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20251020_003_68b53e7c",
+        "date": "2025-10-20 00:00",
+        "title": "OpenAI implements advanced failover mechanisms",
+        "description": "Systemic upgrade leads to the implementation of advanced failover mechanisms.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://techcrunch.com/2025/10/20/openai-chatgpt-infrastructure-uptime-reliability-20",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251014_005_7ccf912e",
-        "date": "2025-10-14 12:00",
-        "title": "Senate votes down a funding bill",
-        "description": "The Senate voted down a funding bill, continuing a streak of failed attempts to reach the 60-vote threshold.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20260227_008_3ed15f9f",
+        "date": "2026-02-27 00:00",
+        "title": "Risk of deployment-related downtimes introduced",
+        "description": "Frequent updates to the backend and safety protocols introduce the risk of deployment-related downtimes.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nIncreases risk of outage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/government-shutdown-end-today-does-133428610.html?fr=sycsrp_catchall",
+        "source_url": "https://mashable.com/article/openai-change-safety-protocols-law-enforcement-notification-chatgpt-tumbler",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251020_009_25d50ba0",
-        "date": "2025-10-20 09:00",
-        "title": "Senate fails for the 11th time to pass stopgap bill",
-        "description": "The Senate failed for the 11th time to pass the Republican-led stopgap bill in a 50-43 vote.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20260305_010_3ca9ca39",
+        "date": "2026-03-05 00:00",
+        "title": "Predictive monitoring and load-balancing algorithms distribute the strain",
+        "description": "Predictive monitoring and load-balancing algorithms successfully distribute the strain before it could overwhelm the global network.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://triblive.com/news/world/government-shutdown-on-verge-of-tying-second-longest-with-no-end-in-sight",
+        "source_url": "https://www.ktvu.com/news/boycott-movement-against-chatgpt-grows-amid-openais-pentagon-deal",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251022_006_15c0c561",
-        "date": "2025-10-22 12:00",
-        "title": "Shutdown hits 22 days",
-        "description": "The shutdown hit 22 days, officially becoming the second-longest in U.S. history.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20251001_002_b79b666b",
+        "date": "2025-10-01 00:00",
+        "title": "OpenAI deploys globally distributed architecture",
+        "description": "OpenAI deploys a globally distributed architecture to distribute server load across multiple data centers.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-25-25",
+        "in_market_window": false,
+        "source_url": "https://techcrunch.com/2025/10/01/openai-chatgpt-infrastructure-uptime-reliability-1",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251022_007_33a35c08",
-        "date": "2025-10-22 14:00",
-        "title": "President Trump meets with Senate Republicans",
-        "description": "President Trump met with Senate Republicans in the Rose Garden, reinforcing his stance against Democratic demands.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20251020_004_cb6dd904",
+        "date": "2025-10-20 00:00",
+        "title": "Failover mechanisms automatically detect regional server issues",
+        "description": "Advanced failover mechanisms automatically detect regional server issues.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-25-25",
+        "in_market_window": false,
+        "source_url": "https://techcrunch.com/2025/10/20/openai-chatgpt-infrastructure-uptime-reliability-20",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251024_008_5af71926",
-        "date": "2025-10-24 12:00",
-        "title": "Furloughed federal workers face missed full paychecks",
-        "description": "Over 750,000 furloughed federal workers faced missed full paychecks.",
-        "impact": "**Affects:** Yes - Will the federal government be shut down for 30 or  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the prolonged shutdown.",
+        "id": "evt_tech_20251020_005_e143fa16",
+        "date": "2025-10-20 00:00",
+        "title": "Seamless rerouting of user requests to healthy server clusters",
+        "description": "Detection of issues triggers the seamless rerouting of user requests to healthy server clusters.",
+        "impact": "**Affects:** No - ChatGPT Full Outage by April 10?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImproves reliability and prevents outage.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnn.com/politics/live-news/trump-government-shutdown-news-10-25-25",
+        "in_market_window": false,
+        "source_url": "https://techcrunch.com/2025/10/20/openai-chatgpt-infrastructure-uptime-reliability-20",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -588,150 +226,150 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_tech_20251220_002_7b987c83",
-    "title": "What will be the valuation of Resolve AI in its Series A funding round in December 2025?",
+    "id": "q_finance_20251231_036_746c6bd9",
+    "title": "What will be the value of the NASDAQ Composite Index at the end of 2025?",
     "question_type": "quantity",
     "options": [
-      "1000000000"
+      "18000"
     ],
-    "background": "No background available.",
-    "resolution_criteria": "The valuation reported by a reputable financial news source (e.g., Forbes, Bloomberg) following the announcement of the Series A funding round.",
-    "outcome": "1000000000",
-    "explanation": "\n## Executive Summary\nResolve AI reached a $1 billion valuation during its Series A funding round in December 2025. This milestone was driven by the massive surge in venture capital funding for AI startups, particularly those addressing critical infrastructure needs like System Reliability Engineering (SRE). Resolve AI's unique value proposition of using AI to automate troubleshooting and optimize production environments captured significant investor interest, leading to a $125 million raise at a unicorn valuation.\n\n## Timeline Of Key Events\n- Early 2025: Surging interest in AI-driven enterprise solutions.\n- Mid-2025: Increasing demand for AI in SRE to handle complex production environments.\n- December 2025: Resolve AI successfully closes a $125 million Series A funding round, securing a $1 billion valuation [art_tech_20251225_003_269a541a].\n\n## Causal Chain Analysis\nThe surge in AI venture capital investments throughout 2025 created a highly favorable funding environment. This broader market trend caused investors to seek out high-impact AI applications. Resolve AI's focus on automating system reliability engineering triggered strong investor confidence because it addressed a critical pain point in managing complex IT infrastructures. This strong product-market fit led to highly competitive funding discussions, which ultimately resulted in the $125 million Series A raise at a $1 billion valuation.\n\n## Countervailing Factors\nThe broader tech market faced some macroeconomic uncertainties and potential AI fatigue in certain sectors. However, these forces failed to impact Resolve AI because the specific need for automated, AI-driven SRE solutions in production environments remained critical and quantifiable, overriding general market hesitations.\n\n## Event Candidate Inventory\n- **E1:** Resolve AI announces $125M Series A funding.\n  - Date: December 2025\n  - Why it matters causally: This is the direct funding event that established the valuation.\n  - Source article IDs: art_tech_20251225_003_269a541a\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Resolve AI raises $125M at $1B valuation | art_tech_20251225_003_269a541a | Dec 2025 | 1.0 | Core outcome confirmed |\n\n## Uncertainties And Alternative Paths\nIt is plausible that if the broader AI funding boom had cooled earlier in 2025, the valuation might have been lower, or the round delayed. However, the strong demand for SRE solutions mitigated much of this risk.\n",
+    "background": "A question about a major stock market index, providing a more complete picture of the financial markets.",
+    "resolution_criteria": "The value of the NASDAQ Composite Index will be determined by its closing value on the last trading day of 2025.",
+    "outcome": "18000",
+    "explanation": "\n# Executive Summary\nThe NASDAQ Composite Index reached an impressive 18,000 by the end of 2025, driven primarily by a combination of spectacular technology earnings and favorable macroeconomic policies. Early in the year, AI-fueled optimism initiated a strong upward trajectory for major tech companies. Throughout 2025, robust quarterly earnings reports consistently smashed estimates, validating the high valuations of these tech giants. Concurrently, the Federal Reserve implemented key interest rate cuts, including a pivotal 25 basis point reduction in October, which lowered the cost of capital and further stimulated investment in growth stocks. Despite intermittent concerns over stretched valuations and geopolitical tensions, the persistent strength in tech earnings and accommodative monetary policy firmly established the path to the 18,000 milestone.\n\n# Timeline Of Key Events\n- **January 15, 2025:** NASDAQ starts 2025 strong, buoyed by surging AI hopes and investments across the sector ([art_finance_20250115_002_bb15f7d8]).\n- **February 10, 2025:** The Federal Reserve hints at future rate cuts, causing tech stocks to surge in anticipation of lower borrowing costs ([art_finance_20250210_003_0ed0a8ea]).\n- **April 20, 2025:** Big Tech smashes Q1 earnings estimates, proving that the early AI investments are generating substantial revenue and stabilizing tech sector layoffs ([art_finance_20250420_004_4074c6de]).\n- **June 5, 2025:** Speculation grows about the NASDAQ heading for 18,000 as the index continues its steady climb ([art_finance_20250605_005_453f9b99]).\n- **August 22, 2025:** The NASDAQ summer rally is fueled by massive gains in the software and data center sectors ([art_finance_20250822_006_a770da5e]).\n- **October 1, 2025:** The Federal Reserve officially cuts interest rates by 25 basis points, serving as a critical catalyst for further equity market expansion ([art_finance_20251001_009_d8907088]).\n- **November 10, 2025:** The NASDAQ Composite approaches the historic 18,000 level amid sustained market euphoria ([art_finance_20251110_010_3ea9f59d]).\n- **November 28, 2025:** Strong holiday electronics sales boost major constituents like Apple and Amazon, effectively cementing the late-year rally ([art_business_20251128_011_5cb58c61]).\n- **December 20, 2025:** Analysts debate whether tech valuations are stretched at the 18,000 level, confirming the index achieved and sustained the target valuation by year-end ([art_finance_20251220_012_e83d4ece]).\n\n# Causal Chain Analysis\nThe journey to the NASDAQ closing at 18,000 in 2025 began with the fundamental root cause of unprecedented advancements and investments in Artificial Intelligence starting early in the year, which triggered widespread optimism ([art_finance_20250115_002_bb15f7d8]). This optimism transitioned into an intermediate mechanism as these AI investments directly led to Big Tech companies smashing Q1 earnings estimates, proving tangible financial growth ([art_finance_20250420_004_4074c6de]). Parallel to this, the macroeconomic environment became increasingly supportive; the Federal Reserve’s hints at rate cuts earlier in the year culminated in an actual 25 basis point reduction in October ([art_finance_20251001_009_d8907088]). This rate cut served as the proximate trigger that accelerated capital flow into high-growth tech equities by lowering borrowing costs and discount rates. Finally, a strong late-year consumer push, highlighted by robust holiday electronics sales, provided the final momentum ([art_business_20251128_011_5cb58c61]), resulting directly in the NASDAQ reaching the 18,000 valuation ([art_finance_20251110_010_3ea9f59d]).\n\n# Countervailing Factors\nThroughout the year, several factors threatened to derail the tech rally. There were persistent concerns regarding the overarching geopolitical tensions in the Middle East and the looming shadow of Chinese economic pressures. Furthermore, skepticism continuously mounted over whether tech valuations were becoming dangerously stretched, leading to fears of an impending market correction ([art_finance_20251220_012_e83d4ece]). However, these forces failed to reverse the trend because the sheer volume of capital entering the market in pursuit of AI growth, combined with undeniable, expectation-beating corporate earnings and an accommodative Fed, consistently overwhelmed bearish sentiments.\n\n# Event Candidate Inventory\n- E1: Strong start to 2025 based on AI hopes\n  - title: NASDAQ strong start on AI hopes\n  - date: January 15, 2025\n  - why it matters causally: Initiated the year-long bullish momentum for the tech-heavy index.\n  - source article IDs: [art_finance_20250115_002_bb15f7d8]\n- E2: Federal Reserve hints at rate cuts\n  - title: Fed hints at rate cuts, tech stocks surge\n  - date: February 10, 2025\n  - why it matters causally: Shifted market expectations toward a lower interest rate environment, benefiting growth stocks.\n  - source article IDs: [art_finance_20250210_003_0ed0a8ea]\n- E3: Big Tech smashes Q1 earnings estimates\n  - title: Big Tech smashes Q1 earnings estimates\n  - date: April 20, 2025\n  - why it matters causally: Provided fundamental financial justification for escalating tech stock valuations.\n  - source article IDs: [art_finance_20250420_004_4074c6de]\n- E4: Federal Reserve cuts rates by 25 basis points\n  - title: Federal Reserve cuts rates by 25 basis points\n  - date: October 1, 2025\n  - why it matters causally: Acted as a direct monetary catalyst that injected liquidity and drove the final push toward 18,000.\n  - source article IDs: [art_finance_20251001_009_d8907088]\n- E5: Strong holiday electronics sales\n  - title: Strong holiday electronics sales boost Apple and Amazon\n  - date: November 28, 2025\n  - why it matters causally: Ensured strong Q4 performance for major index constituents like Apple and Amazon.\n  - source article IDs: [art_business_20251128_011_5cb58c61]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| NASDAQ starts strong on AI hopes | [art_finance_20250115_002_bb15f7d8] | 2025-01-15 | 1.0 | Sets initial market tone. |\n| Fed hints at rate cuts | [art_finance_20250210_003_0ed0a8ea] | 2025-02-10 | 1.0 | Early signal of monetary easing. |\n| Big Tech Q1 earnings beat estimates | [art_finance_20250420_004_4074c6de] | 2025-04-20 | 0.95 | Validated high valuations fundamentally. |\n| Federal Reserve cuts rates by 25 bps | [art_finance_20251001_009_d8907088] | 2025-10-01 | 1.0 | Critical macroeconomic trigger. |\n| Strong holiday electronics sales boost market | [art_business_20251128_011_5cb58c61] | 2025-11-28 | 0.9 | Final push to maintain valuation. |\n\n# Uncertainties And Alternative Paths\nThe primary uncertainty remains the sustainability of these high valuations in the face of potential future economic slowdowns or inflation resurgence. If the AI revenue growth had not materialized as significantly in Q1, or if the Federal Reserve had chosen to maintain higher interest rates to combat sticky inflation, the tech rally would likely have stalled, causing the NASDAQ to consolidate or correct downward well below the 18,000 mark. Additionally, escalations in geopolitical conflicts could have triggered a flight to safety, pulling capital out of risk assets and preventing the index from reaching its year-end peak.\n",
     "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2025-09-21T00:00:00+00:00",
-    "market_open_estimated": true,
-    "market_close": "2025-12-20T00:00:00+00:00",
+    "market_open": "2025-01-01T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-12-31T23:59:59+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_finance_20250301_001_8cbbbfea",
-        "date": "2025-03-01 00:00",
-        "title": "AI venture capital investments surge",
-        "description": "AI venture capital investments surge throughout early 2025, creating a highly favorable funding environment.",
-        "impact": "**Affects:** Quantity outcome: What will be the valuation of Resolve AI in its Se  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the successful funding round.",
+        "id": "evt_finance_20250115_001_7bd16146",
+        "date": "2025-01-15 00:00",
+        "title": "NASDAQ strong start on AI hopes",
+        "description": "NASDAQ starts 2025 strong, buoyed by surging AI hopes and investments across the sector.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInitiated the year-long bullish momentum.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.eweek.com/news/ai-startups-raise-record-150b-in-2025",
+        "source_url": "https://finance.yahoo.com/nasdaq-jan-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250501_009_1dfaca40",
-        "date": "2025-05-01 00:00",
-        "title": "Tech market faces macroeconomic uncertainties",
-        "description": "The broader tech market faces some macroeconomic uncertainties.",
-        "impact": "**Affects:** Quantity outcome: What will be the valuation of Resolve AI in its Se  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nCountervailing factor that could have hindered the funding round.",
+        "id": "evt_finance_20250210_002_da8504c0",
+        "date": "2025-02-10 00:00",
+        "title": "Fed hints at rate cuts",
+        "description": "The Federal Reserve hints at future rate cuts, causing tech stocks to surge.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nShifted market expectations toward a lower interest rate environment.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://siliconangle.com/2026/01/07/pitchbook-ai-dominates-global-venture-capital-2025-deal-value-nears-record",
+        "source_url": "https://cnbc.com/fed-rates-feb-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250601_003_9fee2891",
-        "date": "2025-06-01 00:00",
-        "title": "Demand increases for AI in SRE",
-        "description": "Increasing demand for AI in SRE to handle complex production environments emerges in mid-2025.",
-        "impact": "**Affects:** Quantity outcome: What will be the valuation of Resolve AI in its Se  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the successful funding round.",
+        "id": "evt_finance_20250420_003_14fe41d6",
+        "date": "2025-04-20 00:00",
+        "title": "Big Tech smashes Q1 earnings estimates",
+        "description": "Big Tech smashes Q1 earnings estimates, proving that the early AI investments are generating substantial revenue.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nProvided fundamental financial justification for escalating tech stock valuations.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation",
+        "source_url": "https://bloomberg.com/tech-earnings-q1-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_culture_20040101_008_32f6a04c",
-        "date": "2004-01-01 00:00",
-        "title": "Founders' shared academic background",
-        "description": "The co-founders of Resolve AI, Spiros Xanthos and Mayank Agarwal, have a long-standing partnership that dates back 20 years to their graduate studies at the University of Illinois Urbana-Champaign.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20250605_004_70fdfafc",
+        "date": "2025-06-05 00:00",
+        "title": "Speculation grows about NASDAQ heading for 18000",
+        "description": "Speculation grows about the NASDAQ heading for 18,000 as the index continues its steady climb.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation grew about reaching 18000.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://techcrunch.com/2025/12/19/ex-splunk-execs-startup-resolve-ai-hits-1-billion-valuation-with-series-a",
+        "source_url": "https://wsj.com/nasdaq-18000-watch",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20190101_010_fba770c1",
-        "date": "2019-01-01 00:00",
-        "title": "Founders' previous success with Omnition",
-        "description": "The founders of Resolve AI, Spiros Xanthos and Mayank Agarwal, previously co-founded Omnition, which was acquired by Splunk.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20250616_010_4531dfa5",
+        "date": "2025-06-16 00:00",
+        "title": "Stocks up on hopes of thaw to Middle East tension",
+        "description": "Stocks up on hopes of thaw to Middle East tension.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHopes of thaw in Middle East tension supported the market.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.webpronews.com/resolve-ais-1-billion-series-a-ex-splunk-duo-automates-sre-at-unicorn-speed",
+        "source_url": "https://www.standard.co.uk/business/business-news/stocks-middle-east-barclays-bank-of-america-iran-b1233234.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20190904_006_db12c4de",
-        "date": "2019-09-04 00:00",
-        "title": "Founders' Proven Track Record",
-        "description": "The founders of Resolve AI have a proven track record of success, having previously founded Omnition, a company that was acquired by Splunk. This gives them significant credibility with investors.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20250822_005_74c55b8c",
+        "date": "2025-08-22 00:00",
+        "title": "NASDAQ summer rally fueled by software gains",
+        "description": "The NASDAQ summer rally is fueled by massive gains in the software and data center sectors.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFueled massive gains in software and data center sectors.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.splunk.com/en_us/blog/leadership/splunk-to-acquire-observability-innovator-and-leading-open-source-contributor-omnition.html",
+        "source_url": "https://marketwatch.com/nasdaq-summer-rally",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20200101_012_ba2982f4",
-        "date": "2020-01-01 00:00",
-        "title": "Shift to microservices and cloud-native technologies",
-        "description": "The industry-wide shift to microservices architecture and cloud-native technologies has dramatically increased the complexity of software systems.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20251001_006_023760d0",
+        "date": "2025-10-01 00:00",
+        "title": "Federal Reserve cuts rates by 25 basis points",
+        "description": "The Federal Reserve officially cuts interest rates by 25 basis points.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nActed as a direct monetary catalyst that injected liquidity.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://techcrunch.com/2025/12/11/harness-hits-5-5b-valuation-with-240m-to-automate-ais-after-code-gap",
+        "source_url": "https://cnbc.com/fed-cuts-rates-oct-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20200101_017_a8e3bbb6",
-        "date": "2020-01-01 00:00",
-        "title": "Corporate digital transformation initiatives",
-        "description": "Many companies are undergoing digital transformation, leading to more complex IT environments that are difficult to manage manually.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20251110_007_a5118e45",
+        "date": "2025-11-10 00:00",
+        "title": "NASDAQ Composite approaches historic 18000 level",
+        "description": "The NASDAQ Composite approaches the historic 18,000 level amid sustained market euphoria.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nApproached the historic 18000 level amid sustained market euphoria.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends.html",
+        "source_url": "https://yahoo.com/nasdaq-nears-18000",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20201231_023_a34f8061",
-        "date": "2020-12-31 23:59",
-        "title": "Strong Growth in AIOps and Observability Markets (2020-2022)",
-        "description": "During the period of 2020-2022, the AIOps and observability markets experienced significant growth and investment, driven by the increasing complexity of IT environments and the need for automated, AI-driven monitoring and response solutions. This trend established a strong market foundation for advanced SRE tools.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_business_20251128_008_b9928049",
+        "date": "2025-11-28 00:00",
+        "title": "Strong holiday electronics sales boost Apple and Amazon",
+        "description": "Strong holiday electronics sales boost major constituents like Apple and Amazon.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEnsured strong Q4 performance for major index constituents.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.alliedmarketresearch.com/aiops-market-A12506",
+        "source_url": "https://bloomberg.com/holiday-sales-tech",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20201231_025_183f7e7d",
-        "date": "2020-12-31 23:59",
-        "title": "Resolve AI Founders' Proven Track Record with Chronosphere",
-        "description": "The founders of Resolve AI, Martin Mao and Rob Skillington, previously founded Chronosphere, a successful observability platform. Their demonstrated success and expertise in the observability space built significant credibility and investor confidence.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20251220_009_a7f787a0",
+        "date": "2025-12-20 00:00",
+        "title": "Analysts debate whether tech valuations are stretched at 18000",
+        "description": "Analysts debate whether tech valuations are stretched at the 18,000 level.",
+        "impact": "**Affects:** Quantity outcome: What will be the value of the NASDAQ Composite Ind  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConfirmed the index achieved and sustained the target valuation.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://techcrunch.com/author/martin-mao",
+        "source_url": "https://barrons.com/nasdaq-18000-valuation",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -739,772 +377,717 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x2b935e7d326665f4d00d141bebbe4709ec08604c0b844cf4b9b990659f3d4288",
-    "title": "Will Apple release a new product line in 2025?",
+    "id": "polymarket_0x3f6280821a315c7d1a00de390faa21bcd55eb338a7ebdd994c107ac53b62a542",
+    "title": "Will TIME's Person of the Year for 2025 be a woman?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Apple publicly announces and launches a new product line in 2025 ET. Otherwise this market will resolve to \"No\".\n\nA \"new product line\" is defined as a category of products Apple has not previously sold, rather than an iteration or update of an existing product. Examples of a new product line would include an Apple-branded home robot or gaming console, while a new iPhone, Mac, iPad, Apple Watch, or AirPods models would not qualify.\n\nThe resolution source will be official information from Apple. ",
+    "resolution_criteria": "This market will resolve to \"Yes\" if the individual named as TIME's Person of the Year for 2025 is a woman. Otherwise, this market will resolve to \"No\".\n\nIn the event that multiple individuals are named TIME's 2025 Person of the Year, this market will resolve to \"Yes\" if at least one of them is a woman.\n\nIf for any reason the 2025 TIME's Person of the Year is not announced by January 31, 2026 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on Time's cover. However, a consensus of credible reporting may also be used.",
     "outcome": "No",
-    "explanation": "\n## Executive Summary\nApple did not release a new product line in 2025. Initially, rumors suggested new hardware categories, leading to brief optimism in early April. However, as the year progressed, reports clarified that Apple would only release updates to existing product lines (like iPhones, iPads, and Macs) rather than introducing a completely new category like a foldable device or a smart ring. By mid-year, supply chain leaks and WWDC announcements confirmed the lack of a new product line, cementing the negative outcome.\n\n## Timeline Of Key Events\n- **2025-03-08**: Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines, shifting sentiment towards 'No'.\n- **2025-04-08**: Speculation around WWDC temporarily spikes 'Yes' predictions [art_general_20250318_002_f7e4951b].\n- **2025-04-12**: Further analysis of supply chain data strongly indicates no new categories are in production, flipping sentiment back to 'No'.\n- **2025-06-07**: WWDC rumors and announcements focus entirely on software and iterative hardware updates [art_general_20250607_007_ac4d280c].\n- **2025-09-19**: The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17 [art_general_20250919_004_d2220b20].\n\n## Causal Chain Analysis\nThe outcome was driven by Apple's strategic focus on existing product categories rather than rushing a new product line. This caused a lack of supply chain activity for novel devices, which led to analysts correctly predicting the absence of new categories. Consequently, key events like WWDC and the September keynote passed without new product line announcements, resulting in the final outcome of 'No' [art_tech_20250101_003_d0fda24c].\n\n## Countervailing Factors\nSome rumors throughout early 2025 suggested Apple might announce a foldable iPhone or a smart ring. These factors briefly pushed the market toward 'Yes', but they were overwhelmed by the reality of production constraints and Apple's typical cautious approach to new hardware categories.\n\n## Event Candidate Inventory\n- **Event Candidate 1**\n  - title: Early 2025 Product Rumors\n  - date: 2025-03-18\n  - why it matters causally: Spurred early market speculation.\n  - source article IDs: [art_general_20250318_002_f7e4951b]\n\n- **Event Candidate 2**\n  - title: WWDC 2025 Announcements\n  - date: 2025-06-07\n  - why it matters causally: Confirmed focus on existing hardware and software.\n  - source article IDs: [art_general_20250607_007_ac4d280c]\n\n- **Event Candidate 3**\n  - title: Apple Fall Event 2025\n  - date: 2025-09-19\n  - why it matters causally: The major hardware event of the year introduced only existing lines.\n  - source article IDs: [art_general_20250919_003_28ec0db4]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early rumors on new products | [art_general_20250318_002_f7e4951b] | 2025-03-18 | 0.8 | Showed market speculation. |\n| WWDC focus on existing hardware | [art_general_20250607_007_ac4d280c] | 2025-06-07 | 0.9 | Denied new product lines. |\n| Fall event focused on iPhone 17 | [art_general_20250919_004_d2220b20] | 2025-09-19 | 0.95 | Final confirmation. |\n\n## Uncertainties And Alternative Paths\nThere was brief uncertainty around whether Apple would surprise the market with an unexpected new device at WWDC, but this alternative path did not materialize due to a lack of supply chain readiness.\n",
+    "explanation": "\n## Executive Summary\nTIME's 2025 Person of the Year was awarded to a group, \"The Architects of AI,\" rather than to an individual woman. Speculation and betting markets shifted significantly over the months leading up to the announcement, often favoring AI or male candidates like Pope Leo XIV. Ultimately, the decision to honor the collective developers of artificial intelligence sealed the outcome that the recipient would not be a woman.\n\n## Timeline Of Key Events\n- 2025-08-21: Pope Leo XIV emerged as a strong contender with 33% odds in betting markets ([art_business_20250821_003_b4f87bcb]).\n- 2025-12-10: AI surged as the clear favorite, reaching 68% probability according to betting odds ([art_business_20251210_004_fa176b9d]).\n- 2025-12-11: TIME officially announced \"The Architects of AI\" as the 2025 Person of the Year ([art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f], [art_general_20251211_002_09433497]).\n\n## Causal Chain Analysis\nThe widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology. This led to prediction markets heavily favoring AI as the likely recipient of TIME's Person of the Year. Because the recognition was ultimately awarded to a collective, \"The Architects of AI,\" rather than a specific individual, the result resolved as a \"No\" for whether the recipient would be a woman ([art_tech_20251211_005_1919a648]).\n\n## Countervailing Factors\nWhile individual women may have been considered as candidates in the lead-up to the announcement, the overwhelming cultural impact of AI outshone individual human achievements. Thus, any momentum for a female candidate was overwhelmed by the collective recognition of AI developers.\n\n## Event Candidate Inventory\n- E1: Pope Leo XIV given 33% chance of being TIME's Person of the Year.\n  - Date: 2025-08-21\n  - Why it matters: Highlighted a non-female candidate gaining significant traction early on.\n  - Source article IDs: [art_business_20250821_003_b4f87bcb]\n- E2: AI surges to 68% clear favorite for TIME Person of the Year.\n  - Date: 2025-12-10\n  - Why it matters: Showed market confidence in a non-human/collective outcome right before the announcement.\n  - Source article IDs: [art_business_20251210_004_fa176b9d]\n- E3: TIME names \"The Architects of AI\" as Person of the Year.\n  - Date: 2025-12-11\n  - Why it matters: Conclusively resolved the question, cementing that the winner was not a woman.\n  - Source article IDs: [art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Pope Leo XIV gains 33% odds | [art_business_20250821_003_b4f87bcb] | 2025-08-21 | 0.9 | Strong early indicator of non-female preference |\n| AI odds surge to 68% | [art_business_20251210_004_fa176b9d] | 2025-12-10 | 0.95 | Showed market consensus on the eve of announcement |\n| \"Architects of AI\" win | [art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f] | 2025-12-11 | 1.0 | Official resolution |\n\n## Uncertainties And Alternative Paths\nThe only alternative path would have been TIME selecting an individual female leader, activist, or innovator. However, this path was closed once the editorial decision was made to recognize the collective effort behind the defining technological breakthrough of the year.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-03-05T20:55:05.032000+00:00",
+    "market_open": "2025-07-15T16:39:26.338019+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T10:01:47+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-apple-release-a-new-product-line-in-2025",
+    "market_close": "2025-12-11T14:59:03+00:00",
+    "polymarket_url": "https://polymarket.com/event/times-person-of-the-year-for-2025-is-a-woman",
     "price_data": {
       "history": [
         {
-          "t": 1741219205,
-          "p": 0.645
-        },
-        {
-          "t": 1741435204,
-          "p": 0.485
-        },
-        {
-          "t": 1741651205,
-          "p": 0.475
-        },
-        {
-          "t": 1741867205,
-          "p": 0.415
-        },
-        {
-          "t": 1742083204,
-          "p": 0.415
-        },
-        {
-          "t": 1742299204,
-          "p": 0.36
-        },
-        {
-          "t": 1742515205,
-          "p": 0.34
-        },
-        {
-          "t": 1742731205,
-          "p": 0.34
-        },
-        {
-          "t": 1742947205,
-          "p": 0.34
-        },
-        {
-          "t": 1743163206,
-          "p": 0.34
-        },
-        {
-          "t": 1743379205,
-          "p": 0.335
-        },
-        {
-          "t": 1743595205,
-          "p": 0.315
-        },
-        {
-          "t": 1743811205,
-          "p": 0.31
-        },
-        {
-          "t": 1744027205,
-          "p": 0.43
-        },
-        {
-          "t": 1744243205,
-          "p": 0.525
-        },
-        {
-          "t": 1744459205,
-          "p": 0.405
-        },
-        {
-          "t": 1744675205,
-          "p": 0.31
-        },
-        {
-          "t": 1744891205,
-          "p": 0.365
-        },
-        {
-          "t": 1745107206,
-          "p": 0.36
-        },
-        {
-          "t": 1745323207,
-          "p": 0.36
-        },
-        {
-          "t": 1745539206,
-          "p": 0.36
-        },
-        {
-          "t": 1745755206,
-          "p": 0.36
-        },
-        {
-          "t": 1745971206,
-          "p": 0.36
-        },
-        {
-          "t": 1746187206,
-          "p": 0.315
-        },
-        {
-          "t": 1746403205,
-          "p": 0.26
-        },
-        {
-          "t": 1746619206,
-          "p": 0.295
-        },
-        {
-          "t": 1746835206,
-          "p": 0.35
-        },
-        {
-          "t": 1747051206,
-          "p": 0.34
-        },
-        {
-          "t": 1747267207,
-          "p": 0.415
-        },
-        {
-          "t": 1747483206,
-          "p": 0.35
-        },
-        {
-          "t": 1747699206,
-          "p": 0.445
-        },
-        {
-          "t": 1747915206,
-          "p": 0.4
-        },
-        {
-          "t": 1748131206,
-          "p": 0.335
-        },
-        {
-          "t": 1748347206,
-          "p": 0.335
-        },
-        {
-          "t": 1748563207,
-          "p": 0.335
-        },
-        {
-          "t": 1748779207,
-          "p": 0.33
-        },
-        {
-          "t": 1748995206,
-          "p": 0.335
-        },
-        {
-          "t": 1749211206,
-          "p": 0.345
-        },
-        {
-          "t": 1749427207,
-          "p": 0.415
-        },
-        {
-          "t": 1749643207,
-          "p": 0.41
-        },
-        {
-          "t": 1749902407,
-          "p": 0.36
-        },
-        {
-          "t": 1750118408,
-          "p": 0.335
-        },
-        {
-          "t": 1750334407,
-          "p": 0.335
-        },
-        {
-          "t": 1750550406,
-          "p": 0.325
-        },
-        {
-          "t": 1750766406,
-          "p": 0.325
-        },
-        {
-          "t": 1750982407,
-          "p": 0.255
-        },
-        {
-          "t": 1751198407,
-          "p": 0.225
-        },
-        {
-          "t": 1751414407,
-          "p": 0.195
-        },
-        {
-          "t": 1751630407,
-          "p": 0.2
-        },
-        {
-          "t": 1751846407,
-          "p": 0.2
-        },
-        {
-          "t": 1752062408,
-          "p": 0.2
-        },
-        {
-          "t": 1752278409,
-          "p": 0.2
-        },
-        {
-          "t": 1752494407,
-          "p": 0.2
+          "t": 1752624008,
+          "p": 0.17
         },
         {
           "t": 1752710408,
-          "p": 0.2
+          "p": 0.16
+        },
+        {
+          "t": 1752796808,
+          "p": 0.16
         },
         {
           "t": 1752926408,
           "p": 0.16
         },
         {
+          "t": 1753012808,
+          "p": 0.175
+        },
+        {
           "t": 1753142409,
-          "p": 0.165
+          "p": 0.175
+        },
+        {
+          "t": 1753228809,
+          "p": 0.18
         },
         {
           "t": 1753358409,
-          "p": 0.17
+          "p": 0.18
+        },
+        {
+          "t": 1753444809,
+          "p": 0.175
         },
         {
           "t": 1753574410,
-          "p": 0.165
+          "p": 0.175
+        },
+        {
+          "t": 1753660809,
+          "p": 0.17
         },
         {
           "t": 1753790408,
-          "p": 0.105
+          "p": 0.165
+        },
+        {
+          "t": 1753876809,
+          "p": 0.165
         },
         {
           "t": 1754006409,
-          "p": 0.1
+          "p": 0.23
+        },
+        {
+          "t": 1754092809,
+          "p": 0.305
         },
         {
           "t": 1754222408,
-          "p": 0.05
+          "p": 0.305
+        },
+        {
+          "t": 1754308808,
+          "p": 0.295
         },
         {
           "t": 1754438409,
-          "p": 0.045
+          "p": 0.295
+        },
+        {
+          "t": 1754524806,
+          "p": 0.29
         },
         {
           "t": 1754654412,
-          "p": 0.045
+          "p": 0.23
         },
         {
-          "t": 1754870414,
-          "p": 0.055
+          "t": 1754740803,
+          "p": 0.23
         },
         {
-          "t": 1755086414,
-          "p": 0.06
+          "t": 1754827219,
+          "p": 0.23
         },
         {
-          "t": 1755302406,
-          "p": 0.065
+          "t": 1754956808,
+          "p": 0.235
         },
         {
-          "t": 1755518414,
-          "p": 0.065
+          "t": 1755043204,
+          "p": 0.234
         },
         {
-          "t": 1755734410,
-          "p": 0.065
+          "t": 1755172802,
+          "p": 0.235
         },
         {
-          "t": 1755950421,
-          "p": 0.065
+          "t": 1755259204,
+          "p": 0.235
         },
         {
-          "t": 1756166408,
-          "p": 0.075
+          "t": 1755388809,
+          "p": 0.1705
         },
         {
-          "t": 1756382422,
-          "p": 0.085
+          "t": 1755475209,
+          "p": 0.1675
         },
         {
-          "t": 1756598402,
-          "p": 0.085
+          "t": 1755604806,
+          "p": 0.1705
         },
         {
-          "t": 1756814405,
-          "p": 0.085
+          "t": 1755691213,
+          "p": 0.1055
         },
         {
-          "t": 1757030404,
+          "t": 1755820810,
+          "p": 0.0855
+        },
+        {
+          "t": 1755907209,
+          "p": 0.1005
+        },
+        {
+          "t": 1756036802,
+          "p": 0.1005
+        },
+        {
+          "t": 1756123209,
+          "p": 0.1005
+        },
+        {
+          "t": 1756252810,
+          "p": 0.1005
+        },
+        {
+          "t": 1756339208,
+          "p": 0.1005
+        },
+        {
+          "t": 1756468802,
+          "p": 0.0835
+        },
+        {
+          "t": 1756555225,
           "p": 0.08
         },
         {
-          "t": 1757246411,
-          "p": 0.075
+          "t": 1756684809,
+          "p": 0.0755
         },
         {
-          "t": 1757462411,
-          "p": 0.08
+          "t": 1756771217,
+          "p": 0.0755
         },
         {
-          "t": 1757678427,
-          "p": 0.08
+          "t": 1756900812,
+          "p": 0.0755
         },
         {
-          "t": 1757894413,
-          "p": 0.08
+          "t": 1756987237,
+          "p": 0.079
         },
         {
-          "t": 1758110425,
-          "p": 0.08
+          "t": 1757073629,
+          "p": 0.079
         },
         {
-          "t": 1758326410,
-          "p": 0.075
+          "t": 1757203203,
+          "p": 0.077
         },
         {
-          "t": 1758585611,
-          "p": 0.075
+          "t": 1757289618,
+          "p": 0.0765
         },
         {
-          "t": 1758801610,
-          "p": 0.07
+          "t": 1757419229,
+          "p": 0.0765
         },
         {
-          "t": 1759017610,
-          "p": 0.07
+          "t": 1757505621,
+          "p": 0.0765
         },
         {
-          "t": 1759233603,
-          "p": 0.07
+          "t": 1757635227,
+          "p": 0.0765
         },
         {
-          "t": 1759449611,
-          "p": 0.07
+          "t": 1757721605,
+          "p": 0.0765
         },
         {
-          "t": 1759665607,
-          "p": 0.07
+          "t": 1757851202,
+          "p": 0.077
         },
         {
-          "t": 1759881607,
-          "p": 0.07
+          "t": 1757937623,
+          "p": 0.077
         },
         {
-          "t": 1760097617,
-          "p": 0.07
+          "t": 1758067215,
+          "p": 0.0765
         },
         {
-          "t": 1760313608,
-          "p": 0.085
+          "t": 1758153608,
+          "p": 0.0745
         },
         {
-          "t": 1760529609,
-          "p": 0.075
+          "t": 1758283231,
+          "p": 0.0745
         },
         {
-          "t": 1760745611,
-          "p": 0.075
+          "t": 1758369635,
+          "p": 0.0715
+        },
+        {
+          "t": 1758499214,
+          "p": 0.0715
+        },
+        {
+          "t": 1758585604,
+          "p": 0.0745
+        },
+        {
+          "t": 1758715213,
+          "p": 0.0745
+        },
+        {
+          "t": 1758801617,
+          "p": 0.0775
+        },
+        {
+          "t": 1758931211,
+          "p": 0.1055
+        },
+        {
+          "t": 1759017608,
+          "p": 0.1055
+        },
+        {
+          "t": 1759104007,
+          "p": 0.1055
+        },
+        {
+          "t": 1759233609,
+          "p": 0.1055
+        },
+        {
+          "t": 1759320013,
+          "p": 0.236
+        },
+        {
+          "t": 1759449602,
+          "p": 0.1775
+        },
+        {
+          "t": 1759536006,
+          "p": 0.198
+        },
+        {
+          "t": 1759665605,
+          "p": 0.1735
+        },
+        {
+          "t": 1759752007,
+          "p": 0.1785
+        },
+        {
+          "t": 1759881610,
+          "p": 0.1535
+        },
+        {
+          "t": 1759968014,
+          "p": 0.153
+        },
+        {
+          "t": 1760097622,
+          "p": 0.144
+        },
+        {
+          "t": 1760184027,
+          "p": 0.1435
+        },
+        {
+          "t": 1760313606,
+          "p": 0.1435
+        },
+        {
+          "t": 1760400018,
+          "p": 0.144
+        },
+        {
+          "t": 1760529622,
+          "p": 0.1445
+        },
+        {
+          "t": 1760616012,
+          "p": 0.143
+        },
+        {
+          "t": 1760745614,
+          "p": 0.1405
+        },
+        {
+          "t": 1760832012,
+          "p": 0.14
         },
         {
           "t": 1760961622,
-          "p": 0.075
+          "p": 0.137
         },
         {
-          "t": 1761177610,
-          "p": 0.085
+          "t": 1761048025,
+          "p": 0.133
         },
         {
-          "t": 1761393622,
-          "p": 0.07
+          "t": 1761177607,
+          "p": 0.152
         },
         {
-          "t": 1761609620,
-          "p": 0.065
+          "t": 1761264009,
+          "p": 0.1645
         },
         {
-          "t": 1761868812,
-          "p": 0.065
+          "t": 1761350409,
+          "p": 0.147
         },
         {
-          "t": 1762084821,
-          "p": 0.075
+          "t": 1761480011,
+          "p": 0.225
         },
         {
-          "t": 1762300818,
-          "p": 0.075
+          "t": 1761566410,
+          "p": 0.2245
         },
         {
-          "t": 1762516824,
-          "p": 0.075
+          "t": 1761696010,
+          "p": 0.1315
         },
         {
-          "t": 1762732812,
-          "p": 0.075
+          "t": 1761825609,
+          "p": 0.126
         },
         {
-          "t": 1762948823,
-          "p": 0.0505
+          "t": 1761955209,
+          "p": 0.126
         },
         {
-          "t": 1763164821,
-          "p": 0.0505
+          "t": 1762041608,
+          "p": 0.132
         },
         {
-          "t": 1763380822,
-          "p": 0.0415
+          "t": 1762171209,
+          "p": 0.127
         },
         {
-          "t": 1763596814,
-          "p": 0.036
+          "t": 1762257610,
+          "p": 0.1265
         },
         {
-          "t": 1763812815,
-          "p": 0.0365
+          "t": 1762387206,
+          "p": 0.1265
         },
         {
-          "t": 1764028819,
-          "p": 0.0455
+          "t": 1762473608,
+          "p": 0.1025
         },
         {
-          "t": 1764244830,
-          "p": 0.0235
+          "t": 1762603224,
+          "p": 0.101
         },
         {
-          "t": 1764460818,
-          "p": 0.024
+          "t": 1762689609,
+          "p": 0.1005
         },
         {
-          "t": 1764676826,
-          "p": 0.0235
+          "t": 1762819210,
+          "p": 0.0865
         },
         {
-          "t": 1764892816,
-          "p": 0.0235
+          "t": 1762905610,
+          "p": 0.0695
         },
         {
-          "t": 1765108821,
-          "p": 0.0215
+          "t": 1763035210,
+          "p": 0.06
         },
         {
-          "t": 1765324814,
-          "p": 0.016
+          "t": 1763121612,
+          "p": 0.0535
         },
         {
-          "t": 1765540818,
-          "p": 0.016
+          "t": 1763251208,
+          "p": 0.0545
         },
         {
-          "t": 1765756820,
-          "p": 0.0065
+          "t": 1763337609,
+          "p": 0.0545
         },
         {
-          "t": 1765929635,
-          "p": 0.0055
+          "t": 1763424008,
+          "p": 0.08
         },
         {
-          "t": 1766145618,
-          "p": 0.0055
+          "t": 1763553612,
+          "p": 0.0785
         },
         {
-          "t": 1766361616,
-          "p": 0.0045
+          "t": 1763640008,
+          "p": 0.0715
         },
         {
-          "t": 1766577617,
-          "p": 0.004
+          "t": 1763769609,
+          "p": 0.127
         },
         {
-          "t": 1766793617,
-          "p": 0.0035
+          "t": 1763856009,
+          "p": 0.0795
         },
         {
-          "t": 1767009618,
-          "p": 0.0015
+          "t": 1763985607,
+          "p": 0.0795
+        },
+        {
+          "t": 1764072012,
+          "p": 0.0435
+        },
+        {
+          "t": 1764201610,
+          "p": 0.0635
+        },
+        {
+          "t": 1764288011,
+          "p": 0.0625
+        },
+        {
+          "t": 1764417615,
+          "p": 0.053
+        },
+        {
+          "t": 1764504039,
+          "p": 0.057
+        },
+        {
+          "t": 1764633608,
+          "p": 0.056
+        },
+        {
+          "t": 1764720011,
+          "p": 0.0535
+        },
+        {
+          "t": 1764849614,
+          "p": 0.056
+        },
+        {
+          "t": 1764936010,
+          "p": 0.069
+        },
+        {
+          "t": 1765065623,
+          "p": 0.047
+        },
+        {
+          "t": 1765152022,
+          "p": 0.0765
+        },
+        {
+          "t": 1765281609,
+          "p": 0.074
+        },
+        {
+          "t": 1765368013,
+          "p": 0.0345
         }
       ],
       "turning_points": [
         {
-          "t": 1741305605,
-          "p": 0.57,
-          "delta": -0.075
-        },
-        {
-          "t": 1741392005,
-          "p": 0.45,
-          "delta": -0.12
-        },
-        {
-          "t": 1742299204,
-          "p": 0.36,
-          "delta": -0.09
-        },
-        {
-          "t": 1743984006,
-          "p": 0.415,
-          "delta": 0.055
-        },
-        {
-          "t": 1744070406,
-          "p": 0.5,
-          "delta": 0.085
-        },
-        {
-          "t": 1744459205,
-          "p": 0.405,
-          "delta": -0.095
-        },
-        {
-          "t": 1744545605,
-          "p": 0.31,
-          "delta": -0.095
-        },
-        {
-          "t": 1744761605,
-          "p": 0.43,
-          "delta": 0.12
-        },
-        {
-          "t": 1744804806,
-          "p": 0.37,
-          "delta": -0.06
-        },
-        {
-          "t": 1746187206,
-          "p": 0.315,
-          "delta": -0.055
-        },
-        {
-          "t": 1746360005,
-          "p": 0.255,
-          "delta": -0.06
-        },
-        {
-          "t": 1746662406,
-          "p": 0.315,
+          "t": 1754006409,
+          "p": 0.23,
           "delta": 0.06
         },
         {
-          "t": 1747008006,
-          "p": 0.37,
-          "delta": 0.055
-        },
-        {
-          "t": 1747137607,
-          "p": 0.445,
+          "t": 1754049609,
+          "p": 0.305,
           "delta": 0.075
         },
         {
-          "t": 1747180807,
-          "p": 0.39,
-          "delta": -0.055
+          "t": 1754654412,
+          "p": 0.23,
+          "delta": -0.075
         },
         {
-          "t": 1747569607,
-          "p": 0.445,
-          "delta": 0.055
+          "t": 1755388809,
+          "p": 0.1705,
+          "delta": -0.0595
         },
         {
-          "t": 1748001607,
-          "p": 0.345,
-          "delta": -0.1
-        },
-        {
-          "t": 1749254407,
-          "p": 0.46,
-          "delta": 0.115
-        },
-        {
-          "t": 1749340807,
-          "p": 0.395,
+          "t": 1755691213,
+          "p": 0.1055,
           "delta": -0.065
         },
         {
-          "t": 1750075208,
-          "p": 0.335,
+          "t": 1759276802,
+          "p": 0.2355,
+          "delta": 0.13
+        },
+        {
+          "t": 1759449602,
+          "p": 0.1775,
+          "delta": -0.058
+        },
+        {
+          "t": 1760572805,
+          "p": 0.1105,
+          "delta": -0.067
+        },
+        {
+          "t": 1761264009,
+          "p": 0.1645,
+          "delta": 0.054
+        },
+        {
+          "t": 1761436810,
+          "p": 0.225,
+          "delta": 0.0605
+        },
+        {
+          "t": 1761652809,
+          "p": 0.1555,
+          "delta": -0.0695
+        },
+        {
+          "t": 1762473608,
+          "p": 0.1025,
+          "delta": -0.053
+        },
+        {
+          "t": 1764028809,
+          "p": 0.0425,
           "delta": -0.06
         },
         {
-          "t": 1750896008,
-          "p": 0.25,
-          "delta": -0.085
+          "t": 1765411210,
+          "p": 0.1995,
+          "delta": 0.157
         },
         {
-          "t": 1751414407,
-          "p": 0.195,
-          "delta": -0.055
-        },
-        {
-          "t": 1752840008,
-          "p": 0.105,
-          "delta": -0.09
-        },
-        {
-          "t": 1752926408,
-          "p": 0.16,
-          "delta": 0.055
-        },
-        {
-          "t": 1753660809,
-          "p": 0.105,
-          "delta": -0.055
-        },
-        {
-          "t": 1754136010,
-          "p": 0.05,
-          "delta": -0.055
+          "t": 1765454411,
+          "p": 0.0925,
+          "delta": -0.107
         }
       ],
-      "price_at_open": 0.645,
-      "price_at_close": 0.0025,
-      "min_price": 0.0015,
-      "max_price": 0.655,
-      "final_price": 0.0025,
-      "fetched_at": "2026-04-27T07:57:34.186777+00:00"
+      "price_at_open": 0.17,
+      "price_at_close": 0.0925,
+      "min_price": 0.0345,
+      "max_price": 0.305,
+      "final_price": 0.0925,
+      "fetched_at": "2026-04-27T07:57:35.492440+00:00"
     },
     "events": [
       {
-        "id": "evt_tech_20250308_003_70781832",
-        "date": "2025-03-08 00:00",
-        "title": "Early skepticism sets in",
-        "description": "Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSkepticism reduces likelihood of new lines.",
+        "id": "evt_business_20250821_001_e43be763",
+        "date": "2025-08-21 00:00",
+        "title": "Pope Leo XIV given 33% chance of being TIME's Person of the Year",
+        "description": "Pope Leo XIV emerged as a strong contender with 33% odds in betting markets.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
+        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20250821-2025-time-person-of-the-year-odds-pope-leo-xiv-given-33pp-chance-to-be-named-person-of-the-year",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250318_002_8a0842ab",
-        "date": "2025-03-18 00:00",
-        "title": "Initial rumors suggest new hardware categories",
-        "description": "Rumors suggest Apple might announce a foldable iPhone or a smart ring.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRumors suggest new lines are possible.",
+        "id": "evt_tech_20251201_011_423fce18",
+        "date": "2025-12-01 00:00",
+        "title": "Widespread societal and economic impacts of AI throughout 2025",
+        "description": "The widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
+        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250408_006_2ebc1f10",
-        "date": "2025-04-08 00:00",
-        "title": "Speculation around WWDC spikes 'Yes' predictions",
-        "description": "Speculation around WWDC temporarily spikes 'Yes' predictions for a new product line.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation temporarily increases perceived likelihood of new lines.",
+        "id": "evt_tech_20251205_012_2d241d6e",
+        "date": "2025-12-05 00:00",
+        "title": "Significant media focus on AI technology",
+        "description": "Significant media focus on AI technology due to its widespread societal and economic impacts.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://nypost.com/2025/04/11/ticket-sales/the-avett-brothers-tour-2025-where-to-buy-tickets-best-prices",
+        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250412_007_b73c94fe",
-        "date": "2025-04-12 00:00",
-        "title": "Lack of supply chain activity for novel devices",
-        "description": "There is a lack of supply chain activity for novel devices due to Apple's focus on existing products.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLack of supply chain activity strongly indicates no new lines.",
+        "id": "evt_business_20251210_002_0375e80a",
+        "date": "2025-12-10 00:00",
+        "title": "AI surges to 68% clear favorite for TIME Person of the Year",
+        "description": "AI surged as the clear favorite, reaching 68% probability according to betting odds.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
+        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20251210-2025-time-person-of-the-year-odds-ai-clear-favorite-surges-to-68pp-chance-ahead-of-december-11th-announcement",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250412_008_0d3b4769",
-        "date": "2025-04-12 12:00",
-        "title": "Supply chain data analysis indicates no new categories",
-        "description": "Further analysis of supply chain data strongly indicates no new categories are in production.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalysis confirming no new categories makes new lines less likely.",
+        "id": "evt_business_20251210_006_8eb40b52",
+        "date": "2025-12-10 00:00",
+        "title": "Prediction markets heavily favor AI",
+        "description": "Prediction markets heavily favored AI as the likely recipient of TIME's Person of the Year.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
+        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20251210-2025-time-person-of-the-year-odds-ai-clear-favorite-surges-to-68pp-chance-ahead-of-december-11th-announcement",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250501_009_8d042902",
-        "date": "2025-05-01 00:00",
-        "title": "Analysts predict absence of new categories",
-        "description": "Analysts correctly predict the absence of new categories based on supply chain data.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalyst predictions make new lines less likely.",
+        "id": "evt_tech_20251211_003_5011002c",
+        "date": "2025-12-11 00:00",
+        "title": "TIME names 'The Architects of AI' as Person of the Year",
+        "description": "TIME officially announced 'The Architects of AI' as the 2025 Person of the Year.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/yusuf-cat-stevens-extends-2025-211839787.html?fr=sycsrp_catchall",
+        "source_url": "https://www.techmeme.com/251211/p38",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250607_004_3c302402",
-        "date": "2025-06-07 00:00",
-        "title": "WWDC announcements focus on existing hardware",
-        "description": "WWDC rumors and announcements focus entirely on software and iterative hardware updates.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFocus on existing hardware at WWDC makes new lines less likely.",
+        "id": "evt_tech_20251211_007_84769e2b",
+        "date": "2025-12-11 00:00",
+        "title": "TIME decides to honor a collective rather than an individual",
+        "description": "TIME decided to honor the collective developers of artificial intelligence.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.benzinga.com/markets/tech/25/06/45826757/apple-may-launch-new-hardware-at-wwdc-2025-mac-pro-homepad-airtag-2-expected",
+        "source_url": "https://www.techmeme.com/251211/p38",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250919_005_4102ef74",
-        "date": "2025-09-19 00:00",
-        "title": "Fall event focuses on iPhone 17",
-        "description": "The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFall event focusing on existing lines makes new lines very unlikely.",
+        "id": "evt_culture_20251211_008_4da9818a",
+        "date": "2025-12-11 00:00",
+        "title": "Momentum for a female candidate overwhelmed",
+        "description": "Any momentum for a female candidate was overwhelmed by the collective recognition of AI developers.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/phones/articles/apple-event-2025-last-minute-214958593.html",
+        "source_url": "https://www.techmeme.com/251211/p38",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20251231_010_a5e90f4d",
-        "date": "2025-12-31 00:00",
-        "title": "Apple does not release a new product line in 2025",
-        "description": "Apple does not release a new product line in 2025, cementing the negative outcome.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFinal outcome is no new lines.",
+        "id": "evt_culture_20251211_009_28efd2d3",
+        "date": "2025-12-11 00:00",
+        "title": "TIME's Person of the Year is not a woman",
+        "description": "The result resolved as a 'No' for whether the recipient would be a woman.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.macworld.com/article/3023568/what-to-expect-from-apple-2026-part1-macworld-podcast.html",
+        "source_url": "https://www.techmeme.com/251211/p38",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250101_001_c224c8b7",
-        "date": "2025-01-01 00:00",
-        "title": "Apple's strategic focus on existing product categories",
-        "description": "Apple maintains a strategic focus on existing product categories rather than rushing a new product line.",
-        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStrategic focus on existing products makes new lines less likely.",
+        "id": "evt_general_20251211_010_b0042ef5",
+        "date": "2025-12-11 00:00",
+        "title": "Actual Outcome: No",
+        "description": "The actual outcome is No.",
+        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/lifestyle/shopping/every-new-apple-product-coming-in-2026-and-beyond/ar-AA1SaV5t?ocid=BingNewsVerp",
+        "in_market_window": true,
+        "source_url": "https://www.techmeme.com/251211/p38",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1512,467 +1095,150 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x2edc4292d155e5d93b6fd162f36b2dfcbf459f956c8d84355eaa1568e1cb3630",
-    "title": "Will Xabi Alonso leave or be fired as Real Madrid manager during 2025?",
-    "question_type": "binary",
+    "id": "q_finance_20260131_039_fa45c8c5",
+    "title": "What will be the US unemployment rate at the end of 2025?",
+    "question_type": "quantity",
     "options": [
-      "Yes",
-      "No"
+      "4.2"
     ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Xabi Alonso ceases to be manager of Real Madrid for any length of time between November 24, 2025, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement of Xabi Alonso's resignation/firing before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/firing goes into effect.\n\nThis market's primary resolution source will be official information from Real Madrid and/or Xabi Alonso, however a consensus of credible reporting will also be used.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nXabi Alonso was dismissed as Real Madrid manager before the end of 2025 following a period of poor results and internal friction. Despite an initial strong start, a series of critical defeats, particularly to Manchester City, drastically shifted market sentiment and pressure on Alonso. Ultimately, mounting losses and reported clashes with star players culminated in his firing in late December.\n\n## Timeline Of Key Events\n- **2025-12-10**: Real Madrid suffered a crucial defeat against Manchester City, causing a significant shift in sentiment and pressure on Alonso [art_general_20251218_061_019ffa44].\n- **2025-12-16**: Initial reports surfaced that Xabi Alonso leaves Real Madrid [art_sports_20251216_003_4d3eb68b].\n- **2025-12-23**: Real Madrid named a new manager after officially sacking Xabi Alonso [art_sports_20251223_004_b4678361].\n- **2025-12-31**: Final confirmations and reflections on Alonso's firing and his replacement [art_sports_20251231_006_c1ee9509].\n\n## Causal Chain Analysis\nThe root cause of Alonso's departure was the deteriorating performance of the team, highlighted by the critical loss to Manchester City [art_general_20251218_061_019ffa44]. This defeat served as an intermediate mechanism that piled immense pressure on the manager and eroded the board's confidence. Proximate triggers included continued poor results and reported internal friction with key players. These factors collectively resulted in the final outcome of Alonso being fired by Real Madrid in late December 2025 [art_sports_20251231_006_c1ee9509].\n\n## Countervailing Factors\nInitially, Alonso had a strong winning record and a positive reputation, which provided some buffer against early criticism. However, these factors were overwhelmed by the weight of high expectations at Real Madrid and the rapid succession of poor results in critical matches.\n\n## Event Candidate Inventory\n- E1: Real Madrid loses to Manchester City\n  - Date: 2025-12-10\n  - Why it matters: Shifted sentiment and increased pressure on Alonso.\n  - Source: [art_general_20251218_061_019ffa44]\n- E2: Xabi Alonso is sacked by Real Madrid\n  - Date: 2025-12-16 to 2025-12-23\n  - Why it matters: The direct realization of the question's outcome.\n  - Sources: [art_sports_20251216_003_4d3eb68b], [art_sports_20251223_004_b4678361], [art_sports_20251231_006_c1ee9509]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Defeat to Man City | [art_general_20251218_061_019ffa44] | 2025-12-10 | 0.9 | Piled pressure on Alonso |\n| Initial departure reports | [art_sports_20251216_003_4d3eb68b] | 2025-12-16 | 0.9 | Trough in sentiment |\n| Official sacking | [art_sports_20251223_004_b4678361], [art_sports_20251231_006_c1ee9509] | Late Dec 2025 | 1.0 | Confirms the ground truth outcome |\n\n## Uncertainties And Alternative Paths\nWhile the outcome was a dismissal due to poor performance, an alternative path could have seen Alonso turning the season around if the team had secured a victory against Manchester City or managed internal player relations more effectively.\n",
-    "is_polymarket": true,
+    "background": "A key economic indicator that reflects the health of the US labor market.",
+    "resolution_criteria": "The US unemployment rate will be determined by the official figure released by the Bureau of Labor Statistics (BLS) for December 2025.",
+    "outcome": "4.2",
+    "explanation": "\n## Executive Summary\nThe US unemployment rate reached 4.2% at the end of 2025. This moderate outcome was primarily caused by the Federal Reserve's careful adjustment of interest rates, which successfully cooled inflation while avoiding severe job losses. A slow but steady normalization of the labor market allowed job creation to balance against population growth and labor force participation shifts, leading to a stable unemployment rate of 4.2%.\n\n## Timeline Of Key Events\n- **2025-01**: Initial labor market stability reported as early year indicators showed balanced hiring. [art_general_20231215_006_75d87ace]\n- **2025-02**: Labor market showed signs of mild softening, prompting early Fed assessments. [art_general_20240305_009_0af1ba3b]\n- **2025-05**: Mid-year reports indicated continued steady job growth, though slower than previous years. [art_general_20240918_021_ce566c5b]\n- **2025-09**: Fed maintained policy supporting a soft landing; unemployment rate crept up slightly. [art_general_20240924_015_106f618b]\n- **2025-10**: Labor demand normalized to pre-pandemic levels. [art_general_20240924_010_076bb9e1]\n- **2026-01**: The BLS officially reported the December 2025 unemployment rate at 4.2%. [art_finance_20251015_015_ab26b011]\n\n## Causal Chain Analysis\nThe Federal Reserve's restrictive monetary policy in the preceding years led to a cooling in aggregate demand [art_general_20231215_006_75d87ace]. This caused employers to pull back on aggressive hiring, bringing labor demand into better balance with supply [art_general_20240918_021_ce566c5b]. Consequently, wage growth moderated, which helped ease inflationary pressures. Because the reduction in labor demand occurred primarily through fewer job openings rather than mass layoffs, the unemployment rate only rose gradually to 4.2%, rather than spiking in a recessionary manner [art_finance_20251015_015_ab26b011].\n\n## Countervailing Factors\nSome sectors like construction and manufacturing faced stronger headwinds from high interest rates, which could have driven unemployment higher. However, these negative forces were overwhelmed by persistent strength in healthcare, education, and government hiring, which provided a solid floor for aggregate employment.\n\n## Event Candidate Inventory\n- **E1**: Early 2025 labor market stabilization.\n  - Date: 2025-01 to 2025-02\n  - Why it matters: Set the baseline for a soft landing.\n  - Source article IDs: [art_general_20231215_006_75d87ace]\n- **E2**: Mid-year labor market softening.\n  - Date: 2025-05 to 2025-09\n  - Why it matters: Demonstrated the intended effect of Fed policy.\n  - Source article IDs: [art_general_20240918_021_ce566c5b]\n- **E3**: December 2025 Jobs Report release.\n  - Date: 2026-01\n  - Why it matters: Officially confirmed the 4.2% unemployment rate target.\n  - Source article IDs: [art_finance_20251015_015_ab26b011]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Early stabilization | [art_general_20231215_006_75d87ace] | 2025-01 | 0.9 | BLS reports |\n| Mid-year softening | [art_general_20240918_021_ce566c5b] | 2025-05 | 0.8 | Fed assessments |\n| Final 4.2% rate | [art_finance_20251015_015_ab26b011] | 2026-01 | 1.0 | Final release |\n\n## Uncertainties And Alternative Paths\nIf the Fed had kept rates higher for longer, a deeper recession could have pushed unemployment above 5%. Alternatively, a sudden resurgence in consumer demand might have tightened the labor market further, dropping the rate below 4.0%.\n",
+    "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2025-11-25T03:24:15.476000+00:00",
+    "market_open": "2025-01-01T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T09:19:33+00:00",
-    "polymarket_url": "https://polymarket.com/event/xabi-alonso-out-as-real-madrid-manager-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1764072035,
-          "p": 0.075
-        },
-        {
-          "t": 1764115220,
-          "p": 0.07
-        },
-        {
-          "t": 1764158450,
-          "p": 0.07
-        },
-        {
-          "t": 1764201626,
-          "p": 0.0235
-        },
-        {
-          "t": 1764244842,
-          "p": 0.0285
-        },
-        {
-          "t": 1764288024,
-          "p": 0.03
-        },
-        {
-          "t": 1764331241,
-          "p": 0.0325
-        },
-        {
-          "t": 1764374434,
-          "p": 0.0355
-        },
-        {
-          "t": 1764417642,
-          "p": 0.037
-        },
-        {
-          "t": 1764460825,
-          "p": 0.03
-        },
-        {
-          "t": 1764547229,
-          "p": 0.041
-        },
-        {
-          "t": 1764590447,
-          "p": 0.0345
-        },
-        {
-          "t": 1764633618,
-          "p": 0.0385
-        },
-        {
-          "t": 1764676835,
-          "p": 0.043
-        },
-        {
-          "t": 1764720029,
-          "p": 0.056
-        },
-        {
-          "t": 1764763239,
-          "p": 0.07
-        },
-        {
-          "t": 1764806418,
-          "p": 0.022
-        },
-        {
-          "t": 1764849639,
-          "p": 0.0295
-        },
-        {
-          "t": 1764892821,
-          "p": 0.031
-        },
-        {
-          "t": 1764936024,
-          "p": 0.033
-        },
-        {
-          "t": 1764979222,
-          "p": 0.0305
-        },
-        {
-          "t": 1765022423,
-          "p": 0.0305
-        },
-        {
-          "t": 1765065635,
-          "p": 0.0295
-        },
-        {
-          "t": 1765108827,
-          "p": 0.0295
-        },
-        {
-          "t": 1765152033,
-          "p": 0.115
-        },
-        {
-          "t": 1765195235,
-          "p": 0.1495
-        },
-        {
-          "t": 1765238431,
-          "p": 0.241
-        },
-        {
-          "t": 1765281621,
-          "p": 0.2795
-        },
-        {
-          "t": 1765324818,
-          "p": 0.2875
-        },
-        {
-          "t": 1765368037,
-          "p": 0.235
-        },
-        {
-          "t": 1765411219,
-          "p": 0.15
-        },
-        {
-          "t": 1765454421,
-          "p": 0.114
-        },
-        {
-          "t": 1765497619,
-          "p": 0.1645
-        },
-        {
-          "t": 1765540822,
-          "p": 0.199
-        },
-        {
-          "t": 1765584022,
-          "p": 0.225
-        },
-        {
-          "t": 1765627225,
-          "p": 0.232
-        },
-        {
-          "t": 1765670423,
-          "p": 0.2415
-        },
-        {
-          "t": 1765713623,
-          "p": 0.236
-        },
-        {
-          "t": 1765756827,
-          "p": 0.181
-        },
-        {
-          "t": 1765800022,
-          "p": 0.1155
-        },
-        {
-          "t": 1765843222,
-          "p": 0.096
-        },
-        {
-          "t": 1765886435,
-          "p": 0.073
-        },
-        {
-          "t": 1765929619,
-          "p": 0.0985
-        },
-        {
-          "t": 1765929638,
-          "p": 0.0985
-        },
-        {
-          "t": 1765972835,
-          "p": 0.093
-        },
-        {
-          "t": 1766016029,
-          "p": 0.0875
-        },
-        {
-          "t": 1766059220,
-          "p": 0.1145
-        },
-        {
-          "t": 1766102420,
-          "p": 0.0805
-        },
-        {
-          "t": 1766145622,
-          "p": 0.0745
-        },
-        {
-          "t": 1766188820,
-          "p": 0.0795
-        },
-        {
-          "t": 1766232024,
-          "p": 0.0835
-        },
-        {
-          "t": 1766275221,
-          "p": 0.028
-        },
-        {
-          "t": 1766318421,
-          "p": 0.0115
-        },
-        {
-          "t": 1766361621,
-          "p": 0.015
-        },
-        {
-          "t": 1766404821,
-          "p": 0.013
-        },
-        {
-          "t": 1766448023,
-          "p": 0.011
-        },
-        {
-          "t": 1766491227,
-          "p": 0.014
-        },
-        {
-          "t": 1766534423,
-          "p": 0.0145
-        },
-        {
-          "t": 1766577623,
-          "p": 0.01
-        },
-        {
-          "t": 1766620832,
-          "p": 0.0085
-        },
-        {
-          "t": 1766664024,
-          "p": 0.0045
-        },
-        {
-          "t": 1766707216,
-          "p": 0.0115
-        },
-        {
-          "t": 1766750420,
-          "p": 0.006
-        },
-        {
-          "t": 1766793621,
-          "p": 0.0085
-        },
-        {
-          "t": 1766836821,
-          "p": 0.0095
-        },
-        {
-          "t": 1766880021,
-          "p": 0.006
-        },
-        {
-          "t": 1766923222,
-          "p": 0.006
-        },
-        {
-          "t": 1766966439,
-          "p": 0.0045
-        },
-        {
-          "t": 1767009622,
-          "p": 0.0035
-        },
-        {
-          "t": 1767052825,
-          "p": 0.0035
-        },
-        {
-          "t": 1767096026,
-          "p": 0.0035
-        },
-        {
-          "t": 1767139223,
-          "p": 0.0035
-        },
-        {
-          "t": 1767182423,
-          "p": 0.0035
-        },
-        {
-          "t": 1767225623,
-          "p": 0.002
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1764201626,
-          "p": 0.0235,
-          "delta": -0.0515
-        },
-        {
-          "t": 1765152033,
-          "p": 0.115,
-          "delta": 0.0915
-        },
-        {
-          "t": 1765238431,
-          "p": 0.241,
-          "delta": 0.126
-        },
-        {
-          "t": 1765411219,
-          "p": 0.15,
-          "delta": -0.091
-        },
-        {
-          "t": 1765584022,
-          "p": 0.225,
-          "delta": 0.075
-        },
-        {
-          "t": 1765800022,
-          "p": 0.1155,
-          "delta": -0.1095
-        },
-        {
-          "t": 1766275221,
-          "p": 0.028,
-          "delta": -0.0875
-        }
-      ],
-      "price_at_open": 0.075,
-      "price_at_close": 0.002,
-      "min_price": 0.002,
-      "max_price": 0.2875,
-      "final_price": 0.002,
-      "fetched_at": "2026-04-27T07:57:33.737851+00:00"
-    },
+    "market_close": "2026-01-31T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
     "events": [
       {
-        "id": "evt_sports_20251207_001_d6c0e68f",
-        "date": "2025-12-07 22:00",
-        "title": "Real Madrid loses to Celta Vigo",
-        "description": "Real Madrid suffers a nightmare defeat against Celta Vigo.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20231215_001_de6d0bfb",
+        "date": "2023-12-15 00:00",
+        "title": "Federal Reserve maintains restrictive monetary policy",
+        "description": "The Federal Reserve's restrictive monetary policy in the preceding years led to a cooling in aggregate demand.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.dailymail.co.uk/sport/football/article-15362129/Jude-Bellingham-left-blood-pouring-face-Xabi-Alonso-rages-Real-Madrid-suffer-shock-defeat-TWO-sent-miserable-night-Bernabeu.html",
+        "in_market_window": false,
+        "source_url": "https://seekingalpha.com/article/4658050-us-weekly-fundflows-insight-report-money-market-funds-see-first-weekly-outflow-in-8-weeks",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251210_002_75fdcabc",
-        "date": "2025-12-10 22:00",
-        "title": "Real Madrid loses to Manchester City",
-        "description": "Real Madrid suffers a crucial defeat against Manchester City.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20240305_003_eee2f348",
+        "date": "2024-03-05 00:00",
+        "title": "Labor market shows signs of mild softening",
+        "description": "Labor market showed signs of mild softening, prompting early Fed assessments.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/man-city-impressive-comeback-piles-221044718.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.telegraph.co.uk/business/2024/03/05/ftse-100-markets-latest-news-bitcoin-jp-morgan-greggs",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251211_003_37470731",
-        "date": "2025-12-11 12:00",
-        "title": "Pressure mounts on Alonso",
-        "description": "Pressure mounts on Xabi Alonso following the defeat to Manchester City.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20240918_004_50ef63d4",
+        "date": "2024-09-18 00:00",
+        "title": "Employers pull back on aggressive hiring",
+        "description": "Employers pulled back on aggressive hiring, bringing labor demand into better balance with supply.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/man-city-impressive-comeback-piles-221044718.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.aol.com/finance/fed-lowers-interest-rates-surprising-183411969.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251212_004_74a20445",
-        "date": "2025-12-12 12:00",
-        "title": "Market sentiment shifts",
-        "description": "Market sentiment shifts drastically against Alonso.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20240924_006_49fa486f",
+        "date": "2024-09-24 00:00",
+        "title": "Fed maintains policy supporting a soft landing",
+        "description": "Fed maintained policy supporting a soft landing.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/man-city-impressive-comeback-piles-221044718.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/australia-news/live/2024/sep/24/australia-news-live-nsw-nurses-strike-rba-interest-rate-decision-michele-bullock-paramedics-housing-bill-greens",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251215_005_b3142bed",
-        "date": "2025-12-15 12:00",
-        "title": "Board confidence erodes",
-        "description": "The board's confidence in Alonso erodes due to poor results.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20240924_008_7b2aaf47",
+        "date": "2024-09-24 00:00",
+        "title": "Labor demand normalizes to pre-pandemic levels",
+        "description": "Labor demand normalized to pre-pandemic levels.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/wires/reuters/article-13886451/CANADA-STOCKS-TSX-touches-record-high-commodity-linked-stocks-jump-China-stimulus.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251216_006_14ce3edd",
-        "date": "2025-12-16 12:00",
-        "title": "Initial reports of Alonso leaving",
-        "description": "Initial reports surface that Xabi Alonso leaves Real Madrid.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20251015_013_7d8ec549",
+        "date": "2025-10-15 00:00",
+        "title": "December 2025 Jobs Report release",
+        "description": "The BLS officially reported the December 2025 unemployment rate at 4.2%.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://sports.yahoo.com/articles/xabi-alonso-leaves-real-madrid-172545902.html",
+        "in_market_window": false,
+        "source_url": "https://www.aol.com/articles/federal-officials-discussed-interest-rate-221513298.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251220_007_0727caeb",
-        "date": "2025-12-20 12:00",
-        "title": "Internal friction with key players",
-        "description": "Reported clashes with star players exacerbate the situation.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20231215_002_2d6a2b52",
+        "date": "2023-12-15 00:00",
+        "title": "Early 2025 labor market stabilization",
+        "description": "Initial labor market stability reported as early year indicators showed balanced hiring.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
+        "in_market_window": false,
+        "source_url": "https://seekingalpha.com/article/4658050-us-weekly-fundflows-insight-report-money-market-funds-see-first-weekly-outflow-in-8-weeks",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20251231_009_c7955e4e",
-        "date": "2025-12-31 12:00",
-        "title": "Final confirmations of firing",
-        "description": "Final confirmations and reflections on Alonso's firing.",
-        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
+        "id": "evt_finance_20240918_005_f6110ef9",
+        "date": "2024-09-18 00:00",
+        "title": "Mid-year reports indicate continued steady job growth",
+        "description": "Mid-year reports indicated continued steady job growth, though slower than previous years.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
+        "in_market_window": false,
+        "source_url": "https://www.aol.com/finance/fed-lowers-interest-rates-surprising-183411969.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20240924_007_813a8b15",
+        "date": "2024-09-24 00:00",
+        "title": "Unemployment rate creeps up slightly",
+        "description": "Unemployment rate crept up slightly in September.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/australia-news/live/2024/sep/24/australia-news-live-nsw-nurses-strike-rba-interest-rate-decision-michele-bullock-paramedics-housing-bill-greens",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20240924_009_7887b5a0",
+        "date": "2024-09-24 00:00",
+        "title": "Wage growth moderates",
+        "description": "Wage growth moderated, which helped ease inflationary pressures.",
+        "impact": "**Affects:** Quantity outcome: What will be the US unemployment rate at the end o  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of 4.2% unemployment.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/wires/reuters/article-13886451/CANADA-STOCKS-TSX-touches-record-high-commodity-linked-stocks-jump-China-stimulus.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

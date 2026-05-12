@@ -1,1319 +1,516 @@
 var annotationData = [
   {
-    "id": "polymarket_0x9fd256d11b5ccaf11bfc213e2c01cb5b5d7cfc090bf9ff102d429897d590c076",
-    "title": "Will Gemini 3.0 be released by December 31?",
+    "id": "polymarket_0x8de2ef0ee5b47faaaaba718670d7f6250bf5363266fd1d86b814ac647486641c",
+    "title": "Will the enhanced Affordable Care Act (ACA) premium tax credits be extended by Congress during 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to the date (ET) Google's Gemini 3.0 model is made available to the general public. \n\nFor this market to resolve to \"Yes,\" Gemini 3.0 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Google as being accessible to the general public.\n\nGemini 3.0 refers to a product explicitly named Gemini 3.0 (e.g. Gemini 3.0 pro would count), or one that is recognized as a successor to Gemini 2.0, similar to the progression from Gemini 1.0 to Gemini 2.0. Products labeled as Gemini 2.5 or similar will not count for this market's resolution.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nGoogle's Gemini 3.0 was officially released on November 18, 2025, fulfilling the criteria of a release prior to December 31, 2025. The final release was preceded by intense market speculation and leaks, specifically a major leak on November 7 that sparked immense volatility in Google's stock. The leak of models like 'gemini-3-pro-preview-11-2025' and 'Nano Banana 2' confirmed to developers and investors that Google was on the verge of a massive launch. Ultimately, this pressure and the completed development of deep multimodal features culminated in the November 18 rollout embedded directly in Google Search.\n\n## Timeline Of Key Events\n- **Early November 2025**: Rumors intensify about Google preparing to release its Gemini 3.0 model by the end of the year to counter OpenAI's advancements ([art_tech_20251104_002_9fb88a79], [art_tech_20251106_004_be9f9be2]).\n- **2025-11-07**: A significant leak surfaces on the Vertex AI platform showing preview models for Gemini 3 Pro and \"Nano Banana 2\", alongside social media posts from Google leadership that fueled developer hype ([art_tech_20251107_015_5a73188e], [art_finance_20251107_018_0a99e1a8]).\n- **2025-11-07 (Market Turning Point)**: Alphabet's stock experiences sharp volatility, rising initially on the leak's hype and then falling 2.1pp as the market digests the unofficial nature of the news and potential rollout delays ([art_finance_20251107_017_59c1b1ef], [art_finance_20251108_016_a5e399d1]).\n- **2025-11-10 to 2025-11-17**: Google CEO Sundar Pichai and other executives tease Gemini 3.0 capabilities, confirming the upcoming release and building momentum ([art_business_20251111_009_f01b1ee4], [art_tech_20251117_015_4d666a8e]).\n- **2025-11-18**: Google officially launches Gemini 3.0, including Pro, Flash, and Nano versions, immediately embedding the AI model into Google Search globally ([art_tech_20251118_002_6f16f641], [art_tech_20251118_003_b7a9de47]).\n\n## Causal Chain Analysis\nThe intense competitive pressure in the generative AI market, specifically against OpenAI and Anthropic, **caused** Google to aggressively accelerate its development of Gemini 3.0 ([art_business_20251110_008_d7dbcde7]). This rapid development cycle **resulted in** unintended leaks of preview models on Vertex AI around November 7 ([art_tech_20251107_015_5a73188e]). These leaks **triggered** massive retail and developer speculation, which directly **led to** significant stock price volatility as investors priced in the impending release ([art_finance_20251107_017_59c1b1ef]). The public confirmation through these leaks, combined with the readiness of the models, **resulted in** Google formalizing the launch shortly after. Consequently, this **caused** the official worldwide rollout of Gemini 3.0 on November 18, well before the end of the year ([art_tech_20251118_002_6f16f641]).\n\n## Countervailing Factors\n- **Technical Delays and 'Supply Constraints'**: There were concerns and rumors that computing power shortages could delay the launch to 2026, as noted by CEO Sundar Pichai discussing supply constraints ([art_tech_20251110_011_5fff28f4]). However, Google managed to allocate sufficient resources to prioritize this flagship launch.\n- **Market Skepticism**: The immediate stock drop following the November 7 leak indicated that some investors doubted Google's ability to execute a flawless launch or feared it was a premature \"soft launch\" ([art_finance_20251107_017_59c1b1ef]).\n\n## Event Candidate Inventory\n- **E1**: Leaks of Gemini 3 Pro and Nano Banana 2 models surface on Vertex AI and social media.\n  - Date: 2025-11-07\n  - Causally matters because it forced Google's hand and spiked market speculation, directly preceding the official launch.\n  - Source article IDs: [art_tech_20251107_015_5a73188e], [art_finance_20251107_018_0a99e1a8]\n- **E2**: Alphabet stock fluctuates (rises and falls) in response to the Gemini 3 preview leaks.\n  - Date: 2025-11-07\n  - Causally matters as it represents the market's digestion of the impending launch, acting as a critical turning point in sentiment.\n  - Source article IDs: [art_finance_20251107_017_59c1b1ef], [art_finance_20251108_016_a5e399d1]\n- **E3**: Google officially releases Gemini 3.0 globally.\n  - Date: 2025-11-18\n  - Causally matters because it is the direct fulfillment of the question's criteria.\n  - Source article IDs: [art_tech_20251118_002_6f16f641], [art_tech_20251118_015_c23ab187]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Gemini 3 preview models leak on Vertex AI | [art_tech_20251107_015_5a73188e], [art_finance_20251107_018_0a99e1a8] | 2025-11-07 | 0.9 | Triggered the market volatility. |\n| Alphabet stock rises and falls sharply | [art_finance_20251107_017_59c1b1ef], [art_finance_20251108_016_a5e399d1] | 2025-11-07 | 0.95 | Confirmed turning point in prompt. |\n| Google officially launches Gemini 3.0 | [art_tech_20251118_002_6f16f641], [art_tech_20251118_003_b7a9de47] | 2025-11-18 | 1.0 | Ground truth outcome. |\n\n## Uncertainties And Alternative Paths\n- **Delayed Rollout**: If the supply constraints mentioned by Google's CEO had been more severe, the rollout could have easily slipped into Q1 2026, resulting in a 'No' resolution.\n- **Safety and Red Teaming**: A major safety flaw found during the late testing phases of the leaked \"gemini-3-pro-preview\" could have forced a recall or delay of the November 18 launch.\n",
+    "resolution_criteria": "Affordable Care Act (ACA) enhanced premium tax credits are set to expire at the end of 2025 if not extended by the federal government. \n\nThis market will resolve to “Yes” if a bill extending the enhanced ACA premium tax credits beyond 2025 is signed into federal law by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nA qualifying bill may extend the enhanced ACA premium tax credits in any form, including shorter extensions, phased-down benefits, or narrowed eligibility, as long as the bill clearly continues enhanced premium tax credits which have wider eligibility and/or lower required income contributions relative to baseline ACA premium tax credits that would otherwise apply after 2025.\n\nA bill replacing the ACA enhanced premium tax credits with an alternative form of healthcare subsidy, such as direct cash payments to a health savings account, will not qualify.\n\nIf the bill is signed into law before the resolution date, it will suffice to resolve this market to \"Yes,\" regardless of when it takes effect.\n\nThe primary source of resolution for this market will be official information from the US federal government; however, a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nThe enhanced Affordable Care Act (ACA) premium tax credits were not extended by Congress in 2025. This failure to extend the subsidies was primarily driven by the broader political battle over a government shutdown and federal spending. Despite heavy pressure from state leaders, advocates, and policyholders warning of significant premium spikes and coverage losses, the Republican-led efforts to curtail federal spending prevailed. As a result, millions of Americans faced sharply higher premiums entering 2026, leading to a drop in enrollment and increased uninsured rates.\n\n## Timeline Of Key Events\n- **Mid-2025:** Growing warnings from states and policy advocates about the impending expiration of ACA subsidies and the potential for severe premium increases (e.g., [art_general_20250721_021_88d863c1], [art_general_20250820_042_a98b0f7b], [art_general_20250911_015_8a19c5dd]).\n- **2025-09-17 to 2025-10-24:** The ACA subsidies became entangled in the broader federal budget negotiations and government shutdown battles ([art_general_20250917_016_467fb1d0], [art_general_20251024_033_3021a503]).\n- **2025-11-18:** Market sentiment fluctuated wildly. While some reports suggested Trump might announce an extension ([art_general_20251118_005_1893d4be]), widespread news of shocking premium boosts thrust policyholders into a crisis ([art_general_20251118_002_3beb58f0]).\n- **2025-11-26 to 2025-11-30:** A period of volatile prediction market shifts. Intense last-minute negotiations occurred, with the market flipping repeatedly on whether a deal would include the ACA credits as the shutdown neared its end ([art_general_20251118_019_d145deaf]).\n- **2025-12-11:** The Senate poised to reject the extension of the health care subsidies ([art_general_20251211_009_df50890d]), leading to a major drop in prediction market confidence.\n- **2025-12-18:** Confirmation that Congress failed to save the health care credit, leaving 22 million Americans facing higher costs ([art_general_20251218_020_944bea53]).\n\n## Causal Chain Analysis\nThe expiration of the enhanced ACA premium tax credits resulted from a confluence of political and fiscal factors. The root cause was the expiration date set by previous legislation combined with a fiscally conservative approach by the Republican-led factions in Congress prioritizing spending cuts ([art_general_20250522_045_dc43f6f2]). This led to the intermediate mechanism where the ACA subsidies became a bargaining chip in high-stakes government shutdown negotiations in late 2025 ([art_general_20250917_016_467fb1d0]). The proximate trigger was the inability of Congress to reach a consensus on federal spending that included the massive cost of the subsidy extension, culminating in the Senate's rejection of the measure in December ([art_general_20251211_009_df50890d]). Ultimately, this resulted in the final outcome: the tax credits were not extended, causing immediate and severe premium spikes for 2026 ([art_general_20251218_020_944bea53]).\n\n## Countervailing Factors\nThere was significant pressure to extend the subsidies. Democratic lawmakers, state governors, and various advocacy groups strongly urged Congress to act, warning of a \"health care cost bomb\" and severe economic impacts on states ([art_general_20250911_015_8a19c5dd], [art_general_20251019_003_c8541876]). Furthermore, there were warnings that Republicans could take a midterm hit if the subsidies expired ([art_general_20250820_039_01c93daf]). However, these forces were overwhelmed by the broader legislative gridlock and the overarching goal of reducing federal expenditures during the shutdown crisis.\n\n## Event Candidate Inventory\n- **E1: Warnings of Premium Spikes**\n  - Title: Reports highlight severe upcoming premium increases if ACA credits expire.\n  - Date: Mid-2025 (e.g., 2025-08-20, 2025-09-11)\n  - Why it matters causally: Established the high stakes of the legislative battle.\n  - Source article IDs: [art_general_20250820_042_a98b0f7b], [art_general_20250911_015_8a19c5dd]\n\n- **E2: Subsidies Tied to Government Shutdown**\n  - Title: ACA subsidies become a central issue in government shutdown negotiations.\n  - Date: 2025-09-17 to 2025-11-18\n  - Why it matters causally: Linked the fate of the subsidies to broader, highly contentious spending bills.\n  - Source article IDs: [art_general_20250917_016_467fb1d0], [art_general_20251024_033_3021a503]\n\n- **E3: Senate Rejects Extension**\n  - Title: The Senate signals rejection of the health care subsidy extension.\n  - Date: 2025-12-11\n  - Why it matters causally: The proximate trigger confirming the legislative failure.\n  - Source article IDs: [art_general_20251211_009_df50890d]\n\n- **E4: Final Confirmation of Expiration**\n  - Title: Congress officially fails to extend the ACA tax credits for 2026.\n  - Date: 2025-12-18\n  - Why it matters causally: The final outcome event.\n  - Source article IDs: [art_general_20251218_020_944bea53]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Severe impact warnings | [art_general_20250911_015_8a19c5dd], [art_general_20250721_021_88d863c1] | Q3 2025 | 0.95 | Widespread reporting across states. |\n| Subsidies tied to shutdown | [art_general_20250917_016_467fb1d0], [art_general_20251024_033_3021a503] | Sep-Oct 2025 | 0.90 | Core mechanism of the legislative failure. |\n| Senate rejection | [art_general_20251211_009_df50890d] | 2025-12-11 | 0.95 | Crucial turning point in market sentiment. |\n| Final failure | [art_general_20251218_020_944bea53] | 2025-12-18 | 1.00 | Ground truth confirmation. |\n\n## Uncertainties And Alternative Paths\nAn alternative path existed if a bipartisan compromise had been reached to prevent a government shutdown that included the ACA subsidy extension, potentially offset by other spending cuts. The brief rumor of Trump announcing an extension ([art_general_20251118_005_1893d4be]) suggests there was some possibility of executive or unexpected political intervention, though it ultimately did not materialize.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-11-04T17:09:26.074000+00:00",
+    "market_open": "2025-11-25T03:23:17.596000+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-11-18T18:24:21+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-gemini-3pt0-be-released-by-december-31-311",
+    "market_close": "2026-01-01T08:06:37+00:00",
+    "polymarket_url": "https://polymarket.com/event/enhanced-aca-premium-tax-credits-extended-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1762300813,
-          "p": 0.925
+          "t": 1764072020,
+          "p": 0.81
         },
         {
-          "t": 1762344016,
-          "p": 0.935
+          "t": 1764115213,
+          "p": 0.515
         },
         {
-          "t": 1762387209,
-          "p": 0.967
+          "t": 1764158435,
+          "p": 0.47
         },
         {
-          "t": 1762430419,
-          "p": 0.9745
+          "t": 1764201616,
+          "p": 0.51
         },
         {
-          "t": 1762473613,
-          "p": 0.9845
+          "t": 1764244824,
+          "p": 0.51
         },
         {
-          "t": 1762516818,
-          "p": 0.9725
+          "t": 1764288015,
+          "p": 0.435
         },
         {
-          "t": 1762560010,
-          "p": 0.98
+          "t": 1764331223,
+          "p": 0.375
         },
         {
-          "t": 1762603230,
-          "p": 0.976
+          "t": 1764374420,
+          "p": 0.39
         },
         {
-          "t": 1762646426,
-          "p": 0.968
+          "t": 1764417624,
+          "p": 0.515
         },
         {
-          "t": 1762689616,
-          "p": 0.962
+          "t": 1764460816,
+          "p": 0.475
         },
         {
-          "t": 1762732810,
-          "p": 0.963
+          "t": 1764504049,
+          "p": 0.435
         },
         {
-          "t": 1762776015,
-          "p": 0.9665
-        },
-        {
-          "t": 1762819215,
-          "p": 0.971
-        },
-        {
-          "t": 1762862431,
-          "p": 0.969
-        },
-        {
-          "t": 1762905614,
-          "p": 0.9705
-        },
-        {
-          "t": 1762948817,
-          "p": 0.969
-        },
-        {
-          "t": 1762992013,
-          "p": 0.9685
-        },
-        {
-          "t": 1763035219,
-          "p": 0.966
-        },
-        {
-          "t": 1763078413,
-          "p": 0.971
-        },
-        {
-          "t": 1763121619,
-          "p": 0.986
-        },
-        {
-          "t": 1763164815,
-          "p": 0.982
-        },
-        {
-          "t": 1763208019,
-          "p": 0.9855
-        },
-        {
-          "t": 1763251211,
-          "p": 0.9835
-        },
-        {
-          "t": 1763294418,
-          "p": 0.992
-        },
-        {
-          "t": 1763337614,
-          "p": 0.986
-        },
-        {
-          "t": 1763380816,
-          "p": 0.9855
-        },
-        {
-          "t": 1763424011,
-          "p": 0.989
-        },
-        {
-          "t": 1763467218,
-          "p": 0.9955
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1762473613,
-          "p": 0.9845,
-          "delta": 0.0595
-        }
-      ],
-      "price_at_open": 0.925,
-      "price_at_close": 0.9955,
-      "min_price": 0.925,
-      "max_price": 0.9955,
-      "final_price": 0.9955,
-      "fetched_at": "2026-04-20T17:08:07.150783+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_tech_20251106_004_e105344a",
-        "date": "2025-11-06 00:00",
-        "title": "Google confirms Gemini 3.0 to be released by year's end",
-        "description": "In an official announcement, Google confirmed that its next-generation AI model, Gemini 3.0, would be released by the end of the year, putting to rest months of speculation.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/11/06/google-to-release-gemini-3-by-years-end",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251107_005_fcca068c",
-        "date": "2025-11-07 00:00",
-        "title": "Bloomberg reports December release for Gemini 3.0",
-        "description": "Citing sources familiar with the matter, Bloomberg reported that Google was targeting a December release for Gemini 3.0, further solidifying expectations for a launch before the end of the year.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.bloomberg.com/news/articles/2025-11-07/google-s-gemini-3-0-to-be-released-in-december",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251107_003_4e6bd983",
-        "date": "2025-11-07 00:00",
-        "title": "Leaks of Gemini 3 preview models on Vertex AI",
-        "description": "Unintended leaks of preview models for Gemini 3 Pro and Nano Banana 2 surface on the Vertex AI platform.",
-        "impact": "**Affects:** Yes - Will Gemini 3.0 be released by December 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLeaks forced Google's hand to release sooner.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://winbuzzer.com/2025/11/07/leak-confirms-google-gemini-3-pro-and-nano-banana-2-could-launch-soon-xcxwbn",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251107_005_39cedb9e",
-        "date": "2025-11-07 00:00",
-        "title": "Alphabet stock experiences sharp volatility",
-        "description": "Alphabet's stock experiences sharp volatility, rising initially and then falling 2.1pp.",
-        "impact": "**Affects:** Yes - Will Gemini 3.0 be released by December 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMarket volatility reflected the impending release.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2025/11/07/google-stock-market-movement-gemini-3-leak.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251110_006_ad90c875",
-        "date": "2025-11-10 00:00",
-        "title": "Google executives tease Gemini 3.0 capabilities",
-        "description": "Google CEO Sundar Pichai and other executives tease Gemini 3.0 capabilities, confirming the upcoming release.",
-        "impact": "**Affects:** Yes - Will Gemini 3.0 be released by December 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nExecutives teasing capabilities confirmed the upcoming release.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2025/11/11/google-ceo-sundar-pichai-on-gemini-3-0-and-the-future-of-ai.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251110_009_a22d28b2",
-        "date": "2025-11-10 00:00",
-        "title": "Concerns about computing power shortages",
-        "description": "Concerns and rumors that computing power shortages could delay the launch to 2026.",
-        "impact": "**Affects:** Yes - Will Gemini 3.0 be released by December 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nConcerns about computing power shortages threatened to delay the launch.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.crn.com/news/cloud/2026/google-ceo-on-being-supply-constrained-gemini-3-wins-ai-sales-and-google-cloud-s-240b-backlog",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251113_005_33e8fe01",
-        "date": "2025-11-13 00:00",
-        "title": "Successful Development of Gemini 3.0 Model",
-        "description": "Google's research and development efforts culminate in the successful creation of the Gemini 3.0 model, achieving state-of-the-art performance.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.technologyreview.com/2025/11/13/1127921/google-deepmind-is-using-gemini-to-train-agents-inside-goat-simulator-3",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251117_012_95840c96",
-        "date": "2025-11-17 00:00",
-        "title": "Competition with OpenAI Intensifies Sharply",
-        "description": "The rivalry between Google and OpenAI reached a new peak, with both companies aggressively pursuing market leadership. This intensified competition created immense pressure on Google to deliver a groundbreaking model with Gemini 3.0.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2025/11/18/google-announces-gemini-3-as-battle-with-openai-intensifies.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251117_008_7abbd64a",
-        "date": "2025-11-17 00:00",
-        "title": "Pre-launch leaks and speculation",
-        "description": "In the days leading up to the official launch, a flurry of leaks and speculation emerged, with some reports accurately predicting the November 18 release date. This last-minute buzz intensified excitement and media attention.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.businessinsider.com/google-gemini-3-0-release-date-leaked-2025-11",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251117_007_73fda2a4",
-        "date": "2025-11-17 00:00",
-        "title": "Google formalizes the launch",
-        "description": "Google formalizes the launch of Gemini 3.0 shortly after the leaks and public confirmation.",
-        "impact": "**Affects:** Yes - Will Gemini 3.0 be released by December 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFormalizing the launch directly preceded the release.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.digitaltrends.com/computing/google-gemini-3-everything-we-know",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xa4bfb21264493eb8885035e55508c1d26d0a3dc1802e1b31083f09c0eedd0120",
-    "title": "Will Trump release more Epstein files in 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if the Trump Administration (including any federal court) publicly releases any files pertaining to the illegal activities of Jeffrey Epstein, which weren’t previously public between August 25 and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nOnly files which were created prior to the start of the Trump Administration (January 20, 2025, 12:00 PM ET) will qualify. \n\nAnnouncements of declassifications or releases that are not implemented within this market's timeframe will not qualify.\n\nThe primary resolution source for this market will be official information from the government of the United States, however a consensus of credible reporting will also be used.\n",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe release of additional Jeffrey Epstein files in 2025 was driven by a combination of legislative mandates, intense political pressure, and media scrutiny surrounding the Trump administration's handling of the documents. Following the passage of the Epstein Files Transparency Act, the Department of Justice faced a strict deadline to make the records public. Initial partial releases in August and early September sparked controversy, particularly concerning withheld documents involving uncorroborated allegations against Donald Trump. The administration ultimately succumbed to bipartisan pressure and public demand, culminating in massive document dumps by the DOJ in October and November 2025, cementing the positive outcome.\n\n## Timeline Of Key Events\n- **2025-09-01**: The Justice Department released over 3 million pages of Epstein records, fulfilling parts of the Epstein Files Transparency Act [art_politics_20250901_004_9c800dba].\n- **2025-09-03**: Reports emerged that the DOJ withheld certain Epstein files containing allegations against Trump, leading to immediate pushback and a briefing by Senator Schumer [art_politics_20250903_005_ddd16f15].\n- **2025-09-04 to 2025-09-11**: The DOJ faced continued scrutiny for withholding specific files related to a woman who made allegations against Trump, causing market sentiment to fluctuate wildly [art_politics_20250904_006_3e921183, art_politics_20250905_007_d6b7edef, art_politics_20250911_008_68d7e1e2].\n- **2025-10-15**: A massive disclosure of Epstein files occurred, providing significant new details [art_politics_20251015_012_258966e4].\n- **2025-10-31**: The US released further Epstein files, notably including uncorroborated allegations against Trump, marking a critical turning point [art_politics_20251031_009_2e27a03e].\n- **2025-11-01**: Market prediction solidly favored 'Yes', as the continuous and massive releases by the DOJ undeniably confirmed that more files were released.\n- **2025-11-18**: The DOJ finalized the process by releasing a trove of 3 million documents and photos [art_politics_20251118_006_5e61063b].\n\n## Causal Chain Analysis\nThe root cause was the passage of the Epstein Files Transparency Act, which legally mandated the release of the documents [art_politics_20250901_004_9c800dba]. This intermediate mechanism forced the DOJ into compliance mode. However, the DOJ initially withheld sensitive files, specifically those containing allegations against President Trump [art_politics_20250903_005_ddd16f15]. This triggered severe bipartisan backlash and media scrutiny, acting as a proximate trigger that forced the administration's hand. Because the political cost of appearing to cover up the files outweighed the potential damage of the uncorroborated allegations themselves, the DOJ resulted in releasing the comprehensive, unredacted files in late October and November, leading to the final outcome [art_politics_20251031_009_2e27a03e].\n\n## Countervailing Factors\nThe primary countervailing factor was the self-preservation instinct of the Trump administration, as some of the files contained uncorroborated allegations against Trump himself [art_politics_20250904_006_3e921183]. The DOJ attempted to withhold these specific files, which caused temporary market shifts toward a 'No' outcome. However, these efforts failed because the legislative mandate of the Transparency Act, combined with relentless congressional oversight (such as pushback from lawmakers like Rep. Ro Khanna), overwhelmed the administration's ability to selectively redact or withhold the documents.\n\n## Event Candidate Inventory\n- **E1**: DOJ releases 3 million pages of Epstein records.\n  - Date: 2025-09-01\n  - Why it matters causally: Demonstrated initial compliance with the Transparency Act but highlighted what was missing.\n  - Source article IDs: [art_politics_20250901_004_9c800dba]\n- **E2**: Reports surface of DOJ withholding Trump-related Epstein files.\n  - Date: 2025-09-03\n  - Why it matters causally: Triggered political backlash that forced subsequent, more transparent releases.\n  - Source article IDs: [art_politics_20250903_005_ddd16f15, art_politics_20250904_006_3e921183]\n- **E3**: US releases Epstein files with uncorroborated Trump allegations.\n  - Date: 2025-10-31\n  - Why it matters causally: Represented the final capitulation of the administration to release the most sensitive files, sealing the positive resolution.\n  - Source article IDs: [art_politics_20251031_009_2e27a03e]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| DOJ releases 3M pages | art_politics_20250901_004_9c800dba | 2025-09-01 | 1.0 | Initial large release under Transparency Act |\n| Withholding of Trump files | art_politics_20250903_005_ddd16f15, art_politics_20250904_006_3e921183 | 2025-09-03 | 0.9 | Sparked congressional outrage |\n| Release of sensitive files | art_politics_20251031_009_2e27a03e | 2025-10-31 | 1.0 | Finalized the release of the contested documents |\n\n## Uncertainties And Alternative Paths\nOne major uncertainty during September 2025 was whether the DOJ would successfully invoke executive privilege or privacy exemptions to permanently bury the files containing allegations against Trump. An alternative path would have seen the administration successfully stonewalling Congress, leading to a protracted legal battle that would have extended past the 2025-11-01 resolution date, resulting in a 'No' outcome. However, the sheer volume of the mandated release and the inability to contain the political fallout precluded this path.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-08-26T00:34:09.432000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-11-01T05:21:48+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-trump-release-more-epstein-files-in-2025-644",
-    "price_data": {
-      "history": [
-        {
-          "t": 1756209612,
-          "p": 0.42
-        },
-        {
-          "t": 1756252810,
-          "p": 0.695
-        },
-        {
-          "t": 1756296008,
-          "p": 0.53
-        },
-        {
-          "t": 1756339204,
-          "p": 0.445
-        },
-        {
-          "t": 1756382425,
-          "p": 0.495
-        },
-        {
-          "t": 1756425616,
-          "p": 0.445
-        },
-        {
-          "t": 1756468824,
-          "p": 0.455
-        },
-        {
-          "t": 1756512012,
+          "t": 1764547216,
           "p": 0.405
         },
         {
-          "t": 1756555225,
+          "t": 1764590431,
+          "p": 0.405
+        },
+        {
+          "t": 1764633612,
+          "p": 0.29
+        },
+        {
+          "t": 1764676821,
+          "p": 0.25
+        },
+        {
+          "t": 1764720018,
           "p": 0.385
         },
         {
-          "t": 1756598407,
-          "p": 0.43
-        },
-        {
-          "t": 1756684802,
-          "p": 0.64
-        },
-        {
-          "t": 1756728013,
-          "p": 0.525
-        },
-        {
-          "t": 1756771211,
-          "p": 0.55
-        },
-        {
-          "t": 1756814403,
-          "p": 0.525
-        },
-        {
-          "t": 1756857613,
-          "p": 0.73
-        },
-        {
-          "t": 1756900818,
-          "p": 0.48
-        },
-        {
-          "t": 1756944007,
-          "p": 0.52
-        },
-        {
-          "t": 1756987226,
-          "p": 0.555
-        },
-        {
-          "t": 1757030411,
-          "p": 0.495
-        },
-        {
-          "t": 1757116819,
-          "p": 0.435
-        },
-        {
-          "t": 1757160013,
-          "p": 0.405
-        },
-        {
-          "t": 1757203207,
-          "p": 0.42
-        },
-        {
-          "t": 1757246417,
-          "p": 0.395
-        },
-        {
-          "t": 1757289606,
-          "p": 0.395
-        },
-        {
-          "t": 1757332822,
-          "p": 0.4
-        },
-        {
-          "t": 1757376009,
-          "p": 0.405
-        },
-        {
-          "t": 1757419212,
-          "p": 0.4
-        },
-        {
-          "t": 1757462402,
-          "p": 0.505
-        },
-        {
-          "t": 1757548814,
-          "p": 0.52
-        },
-        {
-          "t": 1757592027,
-          "p": 0.48
-        },
-        {
-          "t": 1757635214,
-          "p": 0.45
-        },
-        {
-          "t": 1757678433,
-          "p": 0.435
-        },
-        {
-          "t": 1757721609,
-          "p": 0.465
-        },
-        {
-          "t": 1757764826,
-          "p": 0.435
-        },
-        {
-          "t": 1757808003,
-          "p": 0.42
-        },
-        {
-          "t": 1757851213,
-          "p": 0.41
-        },
-        {
-          "t": 1757894409,
-          "p": 0.415
-        },
-        {
-          "t": 1757980816,
-          "p": 0.41
-        },
-        {
-          "t": 1758024023,
-          "p": 0.39
-        },
-        {
-          "t": 1758067220,
-          "p": 0.39
-        },
-        {
-          "t": 1758110405,
-          "p": 0.37
-        },
-        {
-          "t": 1758153611,
-          "p": 0.31
-        },
-        {
-          "t": 1758196834,
-          "p": 0.31
-        },
-        {
-          "t": 1758240015,
-          "p": 0.295
-        },
-        {
-          "t": 1758283231,
-          "p": 0.275
-        },
-        {
-          "t": 1758326415,
-          "p": 0.265
-        },
-        {
-          "t": 1758369639,
-          "p": 0.25
-        },
-        {
-          "t": 1758456010,
-          "p": 0.26
-        },
-        {
-          "t": 1758499209,
-          "p": 0.235
-        },
-        {
-          "t": 1758542406,
-          "p": 0.24
-        },
-        {
-          "t": 1758585605,
-          "p": 0.245
-        },
-        {
-          "t": 1758628808,
-          "p": 0.235
-        },
-        {
-          "t": 1758672010,
-          "p": 0.265
-        },
-        {
-          "t": 1758715212,
-          "p": 0.29
-        },
-        {
-          "t": 1758758405,
-          "p": 0.3
-        },
-        {
-          "t": 1758801606,
-          "p": 0.3
-        },
-        {
-          "t": 1758888010,
-          "p": 0.29
-        },
-        {
-          "t": 1758931206,
-          "p": 0.3
-        },
-        {
-          "t": 1758974409,
-          "p": 0.3
-        },
-        {
-          "t": 1759017608,
-          "p": 0.31
-        },
-        {
-          "t": 1759060815,
-          "p": 0.3
-        },
-        {
-          "t": 1759104009,
-          "p": 0.295
-        },
-        {
-          "t": 1759147211,
-          "p": 0.295
-        },
-        {
-          "t": 1759190404,
-          "p": 0.295
-        },
-        {
-          "t": 1759233617,
-          "p": 0.295
-        },
-        {
-          "t": 1759320007,
-          "p": 0.3
-        },
-        {
-          "t": 1759363203,
-          "p": 0.3
-        },
-        {
-          "t": 1759406417,
-          "p": 0.3
-        },
-        {
-          "t": 1759449608,
-          "p": 0.285
-        },
-        {
-          "t": 1759492807,
-          "p": 0.285
-        },
-        {
-          "t": 1759536004,
-          "p": 0.285
-        },
-        {
-          "t": 1759579215,
-          "p": 0.285
-        },
-        {
-          "t": 1759622404,
-          "p": 0.285
-        },
-        {
-          "t": 1759665604,
-          "p": 0.285
-        },
-        {
-          "t": 1759752010,
-          "p": 0.285
-        },
-        {
-          "t": 1759795205,
-          "p": 0.285
-        },
-        {
-          "t": 1759838407,
-          "p": 0.285
-        },
-        {
-          "t": 1759881613,
-          "p": 0.285
-        },
-        {
-          "t": 1759924808,
-          "p": 0.275
-        },
-        {
-          "t": 1759968011,
-          "p": 0.27
-        },
-        {
-          "t": 1760011212,
-          "p": 0.27
-        },
-        {
-          "t": 1760054414,
-          "p": 0.27
-        },
-        {
-          "t": 1760097616,
-          "p": 0.27
-        },
-        {
-          "t": 1760140809,
-          "p": 0.27
-        },
-        {
-          "t": 1760227204,
-          "p": 0.27
-        },
-        {
-          "t": 1760270404,
-          "p": 0.275
-        },
-        {
-          "t": 1760313615,
-          "p": 0.275
-        },
-        {
-          "t": 1760356818,
-          "p": 0.275
-        },
-        {
-          "t": 1760400017,
-          "p": 0.275
-        },
-        {
-          "t": 1760443225,
-          "p": 0.275
-        },
-        {
-          "t": 1760486416,
-          "p": 0.275
-        },
-        {
-          "t": 1760529608,
-          "p": 0.26
-        },
-        {
-          "t": 1760572814,
-          "p": 0.26
-        },
-        {
-          "t": 1760659206,
-          "p": 0.255
-        },
-        {
-          "t": 1760702418,
-          "p": 0.25
-        },
-        {
-          "t": 1760745622,
-          "p": 0.225
-        },
-        {
-          "t": 1760788807,
-          "p": 0.225
-        },
-        {
-          "t": 1760832019,
-          "p": 0.225
-        },
-        {
-          "t": 1760875203,
-          "p": 0.225
-        },
-        {
-          "t": 1760918410,
-          "p": 0.225
-        },
-        {
-          "t": 1760961619,
-          "p": 0.215
-        },
-        {
-          "t": 1761004819,
-          "p": 0.21
-        },
-        {
-          "t": 1761091223,
-          "p": 0.26
-        },
-        {
-          "t": 1761134433,
-          "p": 0.25
-        },
-        {
-          "t": 1761177612,
-          "p": 0.245
-        },
-        {
-          "t": 1761220822,
-          "p": 0.25
-        },
-        {
-          "t": 1761264019,
-          "p": 0.26
-        },
-        {
-          "t": 1761307226,
-          "p": 0.26
-        },
-        {
-          "t": 1761350418,
-          "p": 0.205
-        },
-        {
-          "t": 1761393626,
-          "p": 0.19
-        },
-        {
-          "t": 1761436821,
-          "p": 0.185
-        },
-        {
-          "t": 1761523218,
-          "p": 0.185
-        },
-        {
-          "t": 1761566424,
-          "p": 0.185
-        },
-        {
-          "t": 1761609623,
-          "p": 0.18
-        },
-        {
-          "t": 1761652823,
-          "p": 0.16
-        },
-        {
-          "t": 1761696022,
-          "p": 0.16
-        },
-        {
-          "t": 1761782422,
-          "p": 0.155
-        },
-        {
-          "t": 1761825627,
-          "p": 0.145
-        },
-        {
-          "t": 1761868814,
-          "p": 0.14
-        },
-        {
-          "t": 1761912026,
-          "p": 0.145
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1756252810,
-          "p": 0.695,
-          "delta": 0.275
-        },
-        {
-          "t": 1756296008,
-          "p": 0.53,
-          "delta": -0.165
-        },
-        {
-          "t": 1756339204,
-          "p": 0.445,
-          "delta": -0.085
-        },
-        {
-          "t": 1756555225,
-          "p": 0.385,
-          "delta": -0.06
-        },
-        {
-          "t": 1756684802,
-          "p": 0.64,
-          "delta": 0.255
-        },
-        {
-          "t": 1756728013,
-          "p": 0.525,
-          "delta": -0.115
-        },
-        {
-          "t": 1756857613,
-          "p": 0.73,
-          "delta": 0.205
-        },
-        {
-          "t": 1756900818,
-          "p": 0.48,
-          "delta": -0.25
-        },
-        {
-          "t": 1756987226,
-          "p": 0.555,
-          "delta": 0.075
-        },
-        {
-          "t": 1757030411,
-          "p": 0.495,
-          "delta": -0.06
-        },
-        {
-          "t": 1757116819,
-          "p": 0.435,
-          "delta": -0.06
-        },
-        {
-          "t": 1757462402,
-          "p": 0.505,
-          "delta": 0.07
-        },
-        {
-          "t": 1757635214,
-          "p": 0.45,
-          "delta": -0.055
-        },
-        {
-          "t": 1758024023,
-          "p": 0.39,
-          "delta": -0.06
-        },
-        {
-          "t": 1758153611,
-          "p": 0.31,
-          "delta": -0.08
-        },
-        {
-          "t": 1758369639,
-          "p": 0.25,
-          "delta": -0.06
-        },
-        {
-          "t": 1759017608,
-          "p": 0.31,
-          "delta": 0.06
-        },
-        {
-          "t": 1760659206,
-          "p": 0.255,
-          "delta": -0.055
-        },
-        {
-          "t": 1761048021,
-          "p": 0.205,
-          "delta": -0.05
-        },
-        {
-          "t": 1761091223,
-          "p": 0.26,
-          "delta": 0.055
-        },
-        {
-          "t": 1761350418,
-          "p": 0.205,
-          "delta": -0.055
-        },
-        {
-          "t": 1761825627,
-          "p": 0.145,
-          "delta": -0.06
-        },
-        {
-          "t": 1761955221,
-          "p": 0.835,
-          "delta": 0.69
-        }
-      ],
-      "price_at_open": 0.42,
-      "price_at_close": 0.835,
-      "min_price": 0.14,
-      "max_price": 0.835,
-      "final_price": 0.835,
-      "fetched_at": "2026-04-27T07:57:43.507146+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20250901_002_ff70281e",
-        "date": "2025-09-01 12:00",
-        "title": "DOJ releases 3 million pages of Epstein records",
-        "description": "The Justice Department releases over 3 million pages of Epstein records, fulfilling parts of the Epstein Files Transparency Act.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.nbcnews.com/politics/justice-department/live-blog/epstein-files-trump-doj-release-live-updates-rcna256639",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250903_008_669ddd4f",
-        "date": "2025-09-03 11:00",
-        "title": "Senator Schumer holds a briefing regarding withheld files",
-        "description": "Senator Schumer holds a briefing after reports that the DOJ withheld Epstein files with Trump allegations.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.pbs.org/newshour/politics/watch-live-schumer-holds-briefing-after-reports-doj-withheld-epstein-files-with-trump-allegations",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250903_003_3c813b08",
-        "date": "2025-09-03 12:00",
-        "title": "Reports emerge of DOJ withholding Trump-related Epstein files",
-        "description": "Reports emerge that the DOJ withheld certain Epstein files containing allegations against Trump.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.pbs.org/newshour/politics/watch-live-schumer-holds-briefing-after-reports-doj-withheld-epstein-files-with-trump-allegations",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250904_004_67d9d566",
-        "date": "2025-09-04 12:00",
-        "title": "DOJ faces scrutiny for withholding specific files",
-        "description": "The DOJ faces continued scrutiny for withholding specific files related to a woman who made allegations against Trump.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.nbcnews.com/politics/justice-department/doj-not-released-epstein-files-related-woman-made-allegation-trump-rcna260672",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250905_005_22e4c0e8",
-        "date": "2025-09-05 12:00",
-        "title": "Market sentiment fluctuates wildly",
-        "description": "Market sentiment fluctuates wildly due to the DOJ withholding specific files.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://apnews.com/article/epstein-files-missing-release-doj-trump-f9cb1358a649c61f4bb7793bf358393b",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250911_010_8334d04b",
-        "date": "2025-09-11 12:00",
-        "title": "DOJ releases missing Epstein files related to a woman",
-        "description": "DOJ releases missing Epstein files related to a woman who made an allegation against Trump.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.nbcmiami.com/news/national-international/doj-epstein-files-trump/3777323",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251015_006_f14231da",
-        "date": "2025-10-15 12:00",
-        "title": "Massive disclosure of Epstein files occurs",
-        "description": "A massive disclosure of Epstein files occurs, providing significant new details.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.newsweek.com/epstein-files-released-5-things-to-know-about-massive-disclosure-11246614",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251031_007_0e3456a5",
-        "date": "2025-10-31 12:00",
-        "title": "US releases Epstein files with uncorroborated Trump allegations",
-        "description": "The US releases further Epstein files, notably including uncorroborated allegations against Trump.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/us-releases-epstein-files-uncorroborated-154546451.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250601_001_9efe5417",
-        "date": "2025-06-01 12:00",
-        "title": "Passage of the Epstein Files Transparency Act",
-        "description": "The Epstein Files Transparency Act is passed, legally mandating the release of the documents.",
-        "impact": "**Affects:** Yes - Will Trump release more Epstein files in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome of releasing more files.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nbcnews.com/politics/justice-department/live-blog/epstein-files-trump-doj-release-live-updates-rcna256639",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xa7b0b1e38f95c9925f2c4e04b3501b4b0d8b5a4d3d2b3b9d21dbb516c52cf32b",
-    "title": "Israel strikes Iran by January 23, 2026?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate by January 23, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones or missiles (including cruise or ballistic missiles) launched by Israeli military forces that impact Iranian ground territory or any official Iranian embassy or consulate (e.g., if a weapons depot on Iranian soil is hit by an Israeli missile, this market will resolve to \"Yes\").\n\nMissiles or drones which are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution regardless of whether they land on Iranian territory or cause damage.\n\nActions such as artillery fire, small arms fire, FPV or ATGM strikes directly, ground incursions, naval shelling, cyberattacks, or other operations conducted by Israeli ground operatives will not qualify.\n\nThe resolution source will be a consensus of credible reporting.\n\nIf no qualifying strike is confirmed by the resolution date this market will remain open until the end of the second day after the resolution time. If the date/time of a qualifying strike cannot be confirmed by a consensus of credible reporting by that time, it will resolve to \"No\" regardless of whether a strike was later confirmed to have taken place.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nThe anticipated Israeli strike on Iran by January 23, 2026 did not occur due to immense international pressure, particularly from the United States and European nations, as well as complex internal domestic considerations. During early January 2026, Israel intensified rhetoric and military posturing hinting at a strike against Iranian nuclear facilities. However, countervailing forces—including direct diplomatic intervention, fears of uncontrollable regional escalation involving Hezbollah and Hamas, and internal political divisions within the Israeli cabinet—ultimately forced the postponement of any unilateral kinetic action past the January 23 deadline. This outcome demonstrates the paramount influence of US strategic leverage in restraining Israeli military operations during periods of heightened Middle Eastern tensions.\n\n## Timeline Of Key Events\n- **2026-01-13**: Israeli forces move closer to northern and eastern borders, increasing preparedness. [art_general_20260113_004_3aa929b8]\n- **2026-01-14**: Rhetoric peaks with aggressive statements from Israeli officials, sparking a market sentiment spike. Concurrently, Iran issues stern warnings against any attack. [art_politics_20260114_007_56b7e74f]\n- **2026-01-15**: The United States forcefully urges restraint, initiating direct high-level contacts with Israeli leadership. [art_politics_20260115_008_6937f396]\n- **2026-01-16**: The Israeli Defense Forces continue deployment but delay kinetic strikes as US diplomacy intensifies. [art_politics_20260116_009_bbb4d8c4]\n- **2026-01-17**: Market sentiment temporarily drops as realization sets in that an immediate strike is unlikely, though tensions remain high. [art_politics_20260117_010_9de875c9]\n- **2026-01-19**: A secondary peak in sentiment occurs as US Central Command continues monitoring and additional intelligence reports suggest lingering strike possibilities. [art_politics_20260119_012_c4c6d2de]\n- **2026-01-20**: The IAEA releases a report on Iran, adding diplomatic urgency but failing to trigger immediate military response. [art_politics_20260120_013_b0f15c85]\n- **2026-01-23**: The deadline passes without incident. The Israeli security cabinet convenes but decides to continue intelligence gathering and hold off on direct action. [art_politics_20260123_014_bfff0709]\n- **2026-01-24**: Sentiment troughs entirely as the timeline expires; Hezbollah maintains readiness but no shots are fired. [art_politics_20260124_023_84620025]\n- **2026-01-26**: Situation stabilizes regarding Gaza and northern fronts; no strike materialized. [art_politics_20260126_017_123547e0]\n\n## Causal Chain Analysis\n- Heightened Iranian nuclear enrichment (root cause) led to increased Israeli military posturing and aggressive rhetoric by mid-January [art_general_20260113_004_3aa929b8].\n- This aggressive posturing triggered immediate alarm in Washington and European capitals, which prompted rapid diplomatic intervention [art_politics_20260115_008_6937f396].\n- Direct pressure from the United States, combined with the threat of severe regional escalation involving Iranian proxies (such as Hezbollah and Hamas), caused internal divisions within the Israeli cabinet [art_politics_20260123_014_bfff0709].\n- These divisions and the lack of a \"green light\" from the US resulted in the indefinite postponement of the strike [art_politics_20260119_012_c4c6d2de], ultimately leading to the negative resolution of the question by January 23, 2026.\n\n## Countervailing Factors\n- **Domestic Political Pressure:** Hardliners within the Israeli government pushed strongly for an immediate strike to eliminate the nuclear threat, which drove the initial spikes in market expectations.\n- **Why they failed:** The immense strategic reliance on US military resupply and intelligence sharing meant that acting unilaterally against explicit US warnings was deemed too risky. Furthermore, the operational risks of a multi-front war involving Hezbollah and Hamas outweighed the perceived benefits of a premature strike.\n\n## Event Candidate Inventory\n- E1\n  - title: Israel strikes Iran\n  - date: 2026-01-23\n  - why it matters causally: The direct action being questioned, which failed to occur due to diplomatic pressure.\n  - source article IDs: [art_politics_20260123_014_bfff0709]\n- E2\n  - title: US urges restraint\n  - date: 2026-01-15\n  - why it matters causally: Initiated the diplomatic pressure campaign that ultimately stayed Israel's hand.\n  - source article IDs: [art_politics_20260115_008_6937f396]\n- E3\n  - title: Iran warns against attacks\n  - date: 2026-01-14\n  - why it matters causally: Highlighted the severe consequences of a strike, reinforcing the hesitation within the Israeli cabinet.\n  - source article IDs: [art_politics_20260114_007_56b7e74f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| IDF initial mobilization | [art_general_20260113_004_3aa929b8] | 2026-01-13 | 0.9 | Showed intent but lacked follow-through |\n| Iran's warnings of retaliation | [art_politics_20260114_007_56b7e74f] | 2026-01-14 | 0.95 | Emphasized escalation risks |\n| US urges restraint | [art_politics_20260115_008_6937f396] | 2026-01-15 | 0.95 | Key diplomatic intervention |\n| Security Cabinet divided | [art_politics_20260123_014_bfff0709] | 2026-01-23 | 0.9 | Explains the lack of a decision to strike |\n| No strike occurs | [art_politics_20260126_017_123547e0] | 2026-01-26 | 1.0 | Final confirmation of ground truth |\n\n## Uncertainties And Alternative Paths\n- **Unresolved uncertainty:** It remains unclear whether Israel has permanently shelved the strike or merely delayed it until conditions are more favorable or US elections pass.\n- **Alternative path:** Had Iran conducted a highly provocative test or attacked an Israeli asset directly during this window, Israel likely would have struck back immediately despite US objections.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2026-01-12T19:45:26.862517+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-01-26T07:15:42+00:00",
-    "polymarket_url": "https://polymarket.com/event/israel-strikes-iran-by-january-23-2026",
-    "price_data": {
-      "history": [
-        {
-          "t": 1768262421,
-          "p": 0.265
-        },
-        {
-          "t": 1768305624,
+          "t": 1764763223,
           "p": 0.355
         },
         {
-          "t": 1768348822,
-          "p": 0.325
+          "t": 1764806413,
+          "p": 0.21
         },
         {
-          "t": 1768392023,
-          "p": 0.425
+          "t": 1764849624,
+          "p": 0.235
         },
         {
-          "t": 1768435223,
-          "p": 0.4
+          "t": 1764892814,
+          "p": 0.215
         },
         {
-          "t": 1768478422,
+          "t": 1764936015,
+          "p": 0.215
+        },
+        {
+          "t": 1764979215,
           "p": 0.205
         },
         {
-          "t": 1768521626,
-          "p": 0.125
+          "t": 1765022416,
+          "p": 0.205
         },
         {
-          "t": 1768564824,
-          "p": 0.11
+          "t": 1765065627,
+          "p": 0.205
         },
         {
-          "t": 1768608023,
+          "t": 1765108817,
+          "p": 0.205
+        },
+        {
+          "t": 1765152027,
+          "p": 0.205
+        },
+        {
+          "t": 1765195228,
+          "p": 0.205
+        },
+        {
+          "t": 1765238424,
+          "p": 0.205
+        },
+        {
+          "t": 1765281613,
+          "p": 0.185
+        },
+        {
+          "t": 1765324813,
+          "p": 0.185
+        },
+        {
+          "t": 1765368023,
+          "p": 0.145
+        },
+        {
+          "t": 1765411213,
+          "p": 0.155
+        },
+        {
+          "t": 1765454415,
+          "p": 0.15
+        },
+        {
+          "t": 1765497613,
+          "p": 0.085
+        },
+        {
+          "t": 1765540815,
           "p": 0.105
         },
         {
-          "t": 1768651233,
-          "p": 0.049
+          "t": 1765584015,
+          "p": 0.12
         },
         {
-          "t": 1768694435,
-          "p": 0.084
+          "t": 1765627217,
+          "p": 0.065
         },
         {
-          "t": 1768737639,
-          "p": 0.0785
+          "t": 1765670416,
+          "p": 0.055
         },
         {
-          "t": 1768780819,
-          "p": 0.0955
+          "t": 1765713615,
+          "p": 0.04
         },
         {
-          "t": 1768824023,
-          "p": 0.071
+          "t": 1765756817,
+          "p": 0.0515
         },
         {
-          "t": 1768867221,
-          "p": 0.091
+          "t": 1765800014,
+          "p": 0.0635
         },
         {
-          "t": 1768910422,
-          "p": 0.0755
+          "t": 1765843214,
+          "p": 0.0515
         },
         {
-          "t": 1768953622,
-          "p": 0.058
+          "t": 1765886427,
+          "p": 0.0215
         },
         {
-          "t": 1768996845,
-          "p": 0.0525
+          "t": 1765929611,
+          "p": 0.0155
         },
         {
-          "t": 1769040032,
-          "p": 0.0345
+          "t": 1765929634,
+          "p": 0.0155
         },
         {
-          "t": 1769083249,
-          "p": 0.026
+          "t": 1765972816,
+          "p": 0.0205
         },
         {
-          "t": 1769126439,
-          "p": 0.0195
+          "t": 1766016023,
+          "p": 0.0165
         },
         {
-          "t": 1769169650,
-          "p": 0.017
+          "t": 1766059214,
+          "p": 0.0075
         },
         {
-          "t": 1769212834,
-          "p": 0.0125
+          "t": 1766102414,
+          "p": 0.003
         },
         {
-          "t": 1769256034,
-          "p": 0.0005
+          "t": 1766145615,
+          "p": 0.004
         },
         {
-          "t": 1769299242,
+          "t": 1766188813,
+          "p": 0.004
+        },
+        {
+          "t": 1766232016,
+          "p": 0.004
+        },
+        {
+          "t": 1766275214,
+          "p": 0.004
+        },
+        {
+          "t": 1766318414,
+          "p": 0.003
+        },
+        {
+          "t": 1766361613,
+          "p": 0.003
+        },
+        {
+          "t": 1766404814,
+          "p": 0.0035
+        },
+        {
+          "t": 1766448015,
+          "p": 0.004
+        },
+        {
+          "t": 1766491217,
+          "p": 0.004
+        },
+        {
+          "t": 1766534415,
+          "p": 0.004
+        },
+        {
+          "t": 1766577615,
+          "p": 0.004
+        },
+        {
+          "t": 1766620825,
+          "p": 0.0025
+        },
+        {
+          "t": 1766664016,
+          "p": 0.0025
+        },
+        {
+          "t": 1766707211,
+          "p": 0.0025
+        },
+        {
+          "t": 1766750414,
+          "p": 0.003
+        },
+        {
+          "t": 1766793615,
+          "p": 0.0025
+        },
+        {
+          "t": 1766836815,
+          "p": 0.002
+        },
+        {
+          "t": 1766880015,
+          "p": 0.0025
+        },
+        {
+          "t": 1766923215,
+          "p": 0.0025
+        },
+        {
+          "t": 1766966432,
+          "p": 0.0025
+        },
+        {
+          "t": 1767009615,
+          "p": 0.0025
+        },
+        {
+          "t": 1767052819,
+          "p": 0.002
+        },
+        {
+          "t": 1767096017,
+          "p": 0.002
+        },
+        {
+          "t": 1767139215,
           "p": 0.0015
         },
         {
-          "t": 1769342452,
-          "p": 0.001
+          "t": 1767182415,
+          "p": 0.0015
         },
         {
-          "t": 1769385641,
-          "p": 0.001
+          "t": 1767225616,
+          "p": 0.0015
         }
       ],
       "turning_points": [
         {
-          "t": 1768305624,
-          "p": 0.355,
-          "delta": 0.09
+          "t": 1764115213,
+          "p": 0.515,
+          "delta": -0.295
         },
         {
-          "t": 1768392023,
-          "p": 0.425,
-          "delta": 0.07
-        },
-        {
-          "t": 1768478422,
-          "p": 0.205,
-          "delta": -0.22
-        },
-        {
-          "t": 1768521626,
-          "p": 0.125,
+          "t": 1764288015,
+          "p": 0.435,
           "delta": -0.08
         },
         {
-          "t": 1768651233,
-          "p": 0.049,
-          "delta": -0.076
+          "t": 1764331223,
+          "p": 0.375,
+          "delta": -0.06
+        },
+        {
+          "t": 1764417624,
+          "p": 0.515,
+          "delta": 0.14
+        },
+        {
+          "t": 1764504049,
+          "p": 0.435,
+          "delta": -0.08
+        },
+        {
+          "t": 1764633612,
+          "p": 0.29,
+          "delta": -0.145
+        },
+        {
+          "t": 1764720018,
+          "p": 0.385,
+          "delta": 0.095
+        },
+        {
+          "t": 1764806413,
+          "p": 0.21,
+          "delta": -0.175
+        },
+        {
+          "t": 1765368023,
+          "p": 0.145,
+          "delta": -0.065
+        },
+        {
+          "t": 1765497613,
+          "p": 0.085,
+          "delta": -0.06
+        },
+        {
+          "t": 1765886427,
+          "p": 0.0215,
+          "delta": -0.0635
         }
       ],
-      "price_at_open": 0.265,
-      "price_at_close": 0.001,
-      "min_price": 0.0005,
-      "max_price": 0.425,
-      "final_price": 0.001,
-      "fetched_at": "2026-04-27T07:57:44.112509+00:00"
+      "price_at_open": 0.81,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.81,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:41.716830+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20260113_001_ed507428",
-        "date": "2026-01-13 10:00",
-        "title": "Iranian nuclear enrichment heightens",
-        "description": "Heightened Iranian nuclear enrichment acts as the root cause for increased tensions.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHeightened enrichment increases likelihood of strike.",
+        "id": "evt_politics_20251211_007_15c26b24",
+        "date": "2025-12-11 12:00",
+        "title": "Senate rejects extension of health care subsidies",
+        "description": "The Senate signals rejection of the health care subsidy extension.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
+        "source_url": "https://www.twincities.com/2025/12/11/senate-dueling-aca-credits-vote",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260114_002_f6501f56",
-        "date": "2026-01-14 10:00",
-        "title": "Israeli officials make aggressive statements",
-        "description": "Rhetoric peaks with aggressive statements from Israeli officials.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAggressive rhetoric signals intent to strike.",
+        "id": "evt_politics_20251218_008_270cb678",
+        "date": "2025-12-18 12:00",
+        "title": "Congress fails to extend ACA tax credits",
+        "description": "Congress officially fails to extend the ACA tax credits for 2026.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Iran",
+        "source_url": "https://finance.yahoo.com/news/congress-just-ensured-20m-americans-210000642.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260115_004_f952eec6",
-        "date": "2026-01-15 10:00",
-        "title": "US forcefully urges restraint",
-        "description": "The United States forcefully urges restraint.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUS urging restraint strongly deters a strike.",
+        "id": "evt_politics_20250522_001_91b95c68",
+        "date": "2025-05-22 12:00",
+        "title": "Republicans prioritize spending cuts over ACA subsidies",
+        "description": "Republicans face pressure but prioritize spending cuts, setting the stage for the expiration of ACA subsidies.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/United_States",
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/republicans-face-pressure-extend-expiring-100000008.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260116_005_224a2b38",
-        "date": "2026-01-16 10:00",
-        "title": "IDF delays kinetic strikes",
-        "description": "The Israeli Defense Forces continue deployment but delay kinetic strikes.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDelaying strikes reduces immediate likelihood.",
+        "id": "evt_health_20250820_002_d25f6fa9",
+        "date": "2025-08-20 12:00",
+        "title": "Reports highlight severe upcoming premium increases",
+        "description": "Warnings grow about severe premium spikes if ACA credits expire.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Israel_Defense_Forces",
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/giant-mess-aca-changes-threaten-103048157.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260119_006_935d8f73",
-        "date": "2026-01-19 10:00",
-        "title": "US Central Command monitors situation",
-        "description": "US Central Command continues monitoring and additional intelligence reports suggest lingering strike possibilities.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLingering possibilities keep the strike option open.",
+        "id": "evt_politics_20250820_004_1e479aae",
+        "date": "2025-08-20 12:00",
+        "title": "Warnings of Republican midterm hit if subsidies expire",
+        "description": "Warnings emerge that Republicans could take a midterm hit if the subsidies expire.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/United_States_Central_Command",
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/republicans-could-midterm-hit-obamacare-140000631.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260120_007_b70f73eb",
-        "date": "2026-01-20 10:00",
-        "title": "IAEA releases report on Iran",
-        "description": "The IAEA releases a report on Iran, adding diplomatic urgency.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIAEA report adds urgency, slightly increasing strike likelihood.",
+        "id": "evt_politics_20250911_009_5dc3fe2c",
+        "date": "2025-09-11 00:00",
+        "title": "Advocates and state leaders urge Congress to extend subsidies",
+        "description": "Democratic lawmakers and state governors urge Congress to act to prevent a health care cost bomb.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/International_Atomic_Energy_Agency",
+        "in_market_window": false,
+        "source_url": "https://newrepublic.com/article/200283/aca-tax-credits-higher-costs",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260123_008_a5401b86",
-        "date": "2026-01-23 10:00",
-        "title": "Israeli security cabinet convenes",
-        "description": "The Israeli security cabinet convenes.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nCabinet convening is a necessary step but doesn't guarantee outcome.",
+        "id": "evt_politics_20250917_003_2ec6fc72",
+        "date": "2025-09-17 12:00",
+        "title": "ACA subsidies tied to government shutdown negotiations",
+        "description": "ACA subsidies become entangled in broader federal budget negotiations and government shutdown battles.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+        "in_market_window": false,
+        "source_url": "https://www.cnn.com/2025/09/17/politics/obamacare-subsidies-extension-government-shutdown",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260113_009_4d131061",
-        "date": "2026-01-13 10:00",
-        "title": "Israeli forces move closer to borders",
-        "description": "Israeli forces move closer to northern and eastern borders, increasing preparedness.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMoving forces closer increases readiness for a strike.",
+        "id": "evt_politics_20251118_005_5df8faf2",
+        "date": "2025-11-18 12:00",
+        "title": "Rumors of Trump announcing ACA subsidy extension",
+        "description": "Market sentiment fluctuates as rumors suggest Trump might announce an extension.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Nuclear_program_of_Iran",
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/trump-announce-extension-aca-tax-170951684.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260114_003_f4a82db6",
-        "date": "2026-01-14 15:00",
-        "title": "Iran issues stern warnings against attack",
-        "description": "Iran issues stern warnings against any attack.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nWarnings of retaliation deter a strike.",
+        "id": "evt_health_20251118_006_2a84ac31",
+        "date": "2025-11-18 12:00",
+        "title": "News of shocking premium boosts causes policyholder crisis",
+        "description": "Widespread news of shocking premium boosts thrusts policyholders into a crisis.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/Iran",
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/insane-aca-policyholders-soaring-premiums-100749474.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260115_010_879c75b9",
-        "date": "2026-01-15 10:00",
-        "title": "US initiates direct high-level contacts with Israel",
-        "description": "US initiates direct high-level contacts with Israeli leadership.",
-        "impact": "**Affects:** Yes - Israel strikes Iran by January 23, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirect US contacts aim to prevent a strike.",
+        "id": "evt_politics_20251118_010_c6de5322",
+        "date": "2025-11-18 16:43",
+        "title": "Intense last-minute negotiations over ACA subsidies",
+        "description": "Intense last-minute negotiations occur as the government shutdown nears its end.",
+        "impact": "**Affects:** No - Will the enhanced Affordable Care Act (ACA) premiu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the failure to extend the subsidies.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/United_States",
+        "in_market_window": false,
+        "source_url": "https://finance.yahoo.com/news/government-shutdown-nears-end-health-220000593.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1321,722 +518,1257 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0xaa6003296f7eda1fab2513a054df1bebd4c28eb449d905efccb81ba2c612772b",
-    "title": "Will 'Superman' have the best domestic opening weekend in 2025?",
+    "id": "q_sports_20251231_014_98669c21",
+    "title": "Will a major US sports league have launched an investigation into a gambling-related scandal involving a player or official by the end of 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "The increasing legalization of sports gambling has led to concerns about the potential for scandals and corruption in professional sports.",
+    "resolution_criteria": "The official announcement of an investigation by a major US sports league (NFL, NBA, MLB, NHL) will resolve this question.",
+    "outcome": "True",
+    "explanation": "\n## Executive Summary\nMajor US sports leagues, particularly the NBA and NFL, faced significant gambling-related scandals in 2025 involving players and officials. The most prominent cases involved active NBA player Malik Beasley being investigated for alleged gambling, as well as federal probes into former players and active NFL/NCAA personnel. These scandals triggered direct responses and investigations from the leagues, fulfilling the requirement that a major US sports league launched an investigation into a gambling-related scandal by the end of 2025.\n\n## Timeline Of Key Events\n- **2025-06-29 to 2025-07-30**: Initial reports surface of gambling probes involving NBA figures. [art_general_20251117_002_2e339d76]\n- **2025-09-10 to 2025-10-23**: Federal investigations intensify, implicating figures like Malik Beasley and drawing official league attention. [art_general_20251024_020_5eb5777c]\n- **2025-10-23 to 2025-12-31**: NFL issues memos to players regarding illegal gambling conspiracies involving NBA figures. Active investigations into current NFL personnel also become public. [art_general_20250731_003_a3c2b1b2]\n\n## Causal Chain Analysis\nThe increasing integration of legalized sports betting with major sports leagues **caused** a heightened risk environment for gambling infractions. Consequently, federal law enforcement's monitoring **led to** uncovering illegal gambling rings involving former and active players. The exposure of active players like Malik Beasley **triggered** mandatory league investigations by the NBA to protect the integrity of the sport. Similarly, the federal indictments **resulted in** the NFL launching its own internal probes and warnings regarding its personnel. \n\n## Countervailing Factors\nSome arguments suggested that strict league policies and pre-emptive education might prevent active players from engaging in illegal gambling. Additionally, the potential career-ending consequences of being caught were strong deterrents. However, the allure of high-stakes gambling and the ease of access through underground or complex betting networks overwhelmed these deterrents for certain individuals.\n\n## Event Candidate Inventory\n- E1: NBA launches investigation into Malik Beasley.\n  - Date: Late 2025\n  - Causality: Represents the direct fulfillment of the question's criteria by a major US sports league.\n  - Source: [art_general_20251117_002_2e339d76]\n- E2: Federal indictments involving NBA figures.\n  - Date: Mid to Late 2025\n  - Causality: The catalyst that forced the leagues to respond and investigate their active personnel.\n  - Source: [art_general_20251024_020_5eb5777c]\n- E3: NFL issues memos and investigates personnel.\n  - Date: Late 2025\n  - Causality: Demonstrates the multi-league impact of the gambling scandals.\n  - Source: [art_general_20250731_003_a3c2b1b2]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| NBA investigates Malik Beasley | [art_general_20251117_002_2e339d76] | Late 2025 | 0.9 | Direct evidence of an investigation. |\n| Federal indictments | [art_general_20251024_020_5eb5777c] | Mid to Late 2025 | 0.9 | The root cause of the league investigations. |\n| NFL memo and investigation | [art_general_20250731_003_a3c2b1b2] | Late 2025 | 0.9 | Additional major league involvement. |\n\n## Uncertainties And Alternative Paths\nIt remains slightly uncertain exactly how many current officials were implicated compared to players, though the involvement of players alone is sufficient. An alternative path could have seen the leagues resolving the issues entirely internally without formal, public investigation announcements, but the scale of the federal probes made this impossible.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2025-03-02T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-12-31T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_sports_20250629_001_f4b41d45",
+        "date": "2025-06-29 12:00",
+        "title": "Malik Beasley under federal investigation for gambling",
+        "description": "Reports surface that NBA player Malik Beasley is under federal investigation for gambling on NBA games.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://nypost.com/2025/06/29/sports/malik-beasley-under-federal-investigation-over-gambling-allegations",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20250730_002_86eff99a",
+        "date": "2025-07-30 12:00",
+        "title": "Gilbert Arenas charged in illegal gambling ring",
+        "description": "Former NBA star Gilbert Arenas is charged with running an illegal gambling business.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://abcnews.go.com/US/nba-gilbert-arenas-arrested-gambling-ring-poker-games-california/story?id=124216672",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20250910_003_ede60074",
+        "date": "2025-09-10 12:00",
+        "title": "NBA launches investigation into Malik Beasley",
+        "description": "The NBA launches its own investigation into gambling allegations against Malik Beasley.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cbssports.com/nba/news/nba-launches-investigation-into-gambling-allegations-against-malik-beasley-amid-federal-probe",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251023_004_227265e6",
+        "date": "2025-10-23 12:00",
+        "title": "Chauncey Billups and Terry Rozier arrested",
+        "description": "NBA stars Chauncey Billups and Terry Rozier are arrested in a gambling-related investigation.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.lifeandstylemag.com/posts/chauncey-billups-terry-rozier-arrested-in-gambling-related-investigation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251109_009_330fde25",
+        "date": "2025-11-09 12:00",
+        "title": "Damon Jones pleads not guilty",
+        "description": "Former player Damon Jones pleads not guilty to wire fraud and money-laundering charges.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.espn.com/nba/story/_/id/46987426/firm-seeks-records-players-teams-nba-gambling-investigation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251116_005_a2fc6ca1",
+        "date": "2025-11-16 12:00",
+        "title": "NBA hires independent law firm for gambling inquiry",
+        "description": "The NBA engages an independent law firm to investigate illegal gambling allegations.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.espn.com/nba/story/_/id/46987426/firm-seeks-records-players-teams-nba-gambling-investigation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251116_006_1c132fb9",
+        "date": "2025-11-16 13:00",
+        "title": "Law firm requests records from NBA teams",
+        "description": "The independent law firm requests records from NBA teams and individuals.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.espn.com/nba/story/_/id/46987426/firm-seeks-records-players-teams-nba-gambling-investigation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251116_007_b509decb",
+        "date": "2025-11-16 14:00",
+        "title": "Lakers employees contacted in gambling inquiry",
+        "description": "Lakers employees, including trainers, are contacted and cooperate with the investigation.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.espn.com/nba/story/_/id/46987426/firm-seeks-records-players-teams-nba-gambling-investigation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251116_008_ad346e9d",
+        "date": "2025-11-16 15:00",
+        "title": "Congressional committees send letters to NBA",
+        "description": "Congressional committees send letters to the NBA asking about its policies and relationships with sportsbooks.",
+        "impact": "**Affects:** Yes - Will a major US sports league have launched an inv  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the likelihood of the NBA launching an investigation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.espn.com/nba/story/_/id/46987426/firm-seeks-records-players-teams-nba-gambling-investigation",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0x8fa442c61e156bf8e70c50cd1598419e7966e8a25d6aa8021d55d839b5e1f031",
+    "title": "Will OpenAI launch a social media or social networking application before December 31, 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This is a market on how whether 'Superman' (2025) will gross more domestically on its opening weekend than any other movie in 2025. The “Weekend Box Office Performance” table on https://www.the-numbers.com/movie/Superman-(2025)#tab=box-office will be used to resolve this market once the values for the 3-day opening weekend (July 11 - 13) are final (i.e. not studio estimates).\n\nThis market will resolve to \"Yes\" if 'Superman' (2025) grosses more on its 3-day domestic opening weekend than any other movie in 2025. Otherwise, this market will resolve to \"No\".\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nResolution will be based specifically on the figures provided for this movie's 3-day opening weekend (Friday, Saturday, Sunday), regardless of whether the movie has a 4 or 5-day opening weekend.\n\nIf another movie's opening weekend box office performance surpasses that of 'Superman' (2025) after numbers for both are finalized, this market may immediately resolve to \"No\".\n\nIf this movie's opening weekend box office performance ties with any other's, the movie whose title comes first in alphabetical order will win.\n\nIf there is no final data available by January 31, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nSuperman's highly anticipated 2025 theatrical release opened to a robust $124 million domestic opening weekend, a strong showing but short of the highest estimates that reached $150M-$180M early in the year. The outcome of Superman having the \"best domestic opening weekend\" was driven primarily by stronger performance from competing franchise juggernauts. Although 'Superman' was a major box office success overall, other films in the summer and late-year slates ultimately claimed the title for the single best domestic opening weekend of 2025. \n\n## Timeline Of Key Events\n- **March 2025**: Early buzz around summer blockbusters begins, with high hopes for the new James Gunn-directed Superman reboot alongside returning mega-franchises like *Jurassic World* [art_general_20250305_004_6a8889e9].\n- **April 28, 2025**: Summer box office predictions emphasize the fierce competition, with *Superman* and new *Jurassic Park* entries highlighted as massive contenders [art_business_20250428_002_ea6b7d8c].\n- **May 2025**: Sentiment peaks multiple times (e.g., May 23) as tracking numbers suggest *Superman* could open as high as $150M+.\n- **July 11-13, 2025**: *Superman* hits theaters, grossing $124 million in its domestic opening weekend and $220M globally [art_business_20250713_002_4793704d, art_business_20250713_004_64d45cfc, art_business_20250713_005_6f3c0e43].\n- **July 2025**: *Fantastic Four: First Steps* opens strongly, while long-term milestones for *Jurassic World* and other titans solidify that *Superman* did not top the chart for the single biggest domestic opening weekend [art_business_20250713_012_d1ed3cd1].\n\n## Causal Chain Analysis\nThe outcome that *Superman* would not have the highest domestic opening weekend was caused by a few key factors:\n1. **Intense Franchise Competition**: 2025 featured major heavyweights like new installments in the *Jurassic* and *Minecraft* franchises. These established cinematic juggernauts triggered massive turnout, capturing higher opening weekend audience numbers [art_business_20251230_003_8ea9bae4].\n2. **DC Brand Rebuilding**: While James Gunn's reboot successfully resonated with audiences, resulting in $124 million, it was still a transitional piece for the DC Universe. This meant it lacked the peak momentum of an established cinematic universe's crescendo.\n3. **Crowded Summer Slate**: Releasing in the middle of a dense summer meant the target demographic's spending was divided among multiple massive genre films like *Fantastic Four: First Steps*, creating a ceiling on Superman's immediate weekend gross [art_business_20250722_003_be5a4d4c]. \nBecause of these dynamics, *Superman* earned a very respectable $124M but was ultimately outpaced for the top spot.\n\n## Countervailing Factors\n- **High Pre-Release Tracking**: Initial tracking algorithms and enthusiastic social media sentiment led to models projecting an opening potentially as high as $185 million.\n- **Strong Reviews and Word of Mouth**: The film ultimately garnered excellent reception, which propelled it past $200M quickly, but this success manifested in sustained legs rather than an overwhelming, record-shattering initial Friday-to-Sunday burst.\n\n## Event Candidate Inventory\n- E1: Release of early summer 2025 box office tracking highlighting heavy competition.\n  - Date: April 28, 2025\n  - Why it matters: Set expectations that *Superman* would face severe competition for the top spot.\n  - Source article IDs: [art_business_20250428_002_ea6b7d8c]\n- E2: *Superman* domestic opening weekend closes at $124 million.\n  - Date: July 11-13, 2025\n  - Why it matters: The hard data proving it fell short of the absolute top tier required to win the year.\n  - Source article IDs: [art_business_20250713_002_4793704d, art_business_20250713_005_6f3c0e43]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early projections saw *Superman* battling *Jurassic* and others | art_general_20250305_004_6a8889e9, art_business_20250428_002_ea6b7d8c | Mar-Apr 2025 | 0.9 | High confidence in competitive slate |\n| *Superman* opens to $124M domestically | art_business_20250713_002_4793704d, art_business_20250713_005_6f3c0e43 | July 13, 2025 | 1.0 | Reported final numbers |\n| Other 2025 movies outpaced it | art_business_20251230_003_8ea9bae4 | Dec 2025 | 1.0 | End of year recap confirms it wasn't the highest opening |\n\n## Uncertainties And Alternative Paths\n- If *Superman* had debuted later in the year with less direct immediate competition, or if the DC brand had not suffered in previous years, it might have achieved a slightly higher opening ceiling.\n- Conversely, had reviews been poor, the opening might have dropped entirely below $100M. The $124M represents a solid middle-path outcome.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if a social iOS app owned by OpenAI is available for installation on the US iOS app store by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nPre-Order does not satisfy the market conditions.\n\nA \"social app\" refers to an iOS application whose primary function is facilitating social interaction between users, such as messaging, content sharing, or community engagement.\n\nThe primary resolution source will be the US iOS app store, however a consensus of credible reporting may also be used.\n",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe launch of an OpenAI social networking application, resolving as \"Yes\" on September 30, 2025, was driven by the company's strategic shift toward consumer engagement and data acquisition. Following early rumors in April 2025, development accelerated through the summer. The project faced several setbacks and internal debates about moderation, which caused market fluctuations, but ultimately culminated in a surprise late-September rollout to edge out competitors in the AI-driven social space.\n\n## Timeline Of Key Events\n- **2025-04-17:** OpenAI first hints at a new social networking app, causing early market optimism ([art_tech_20250417_002_bbd04691]).\n- **2025-05-29:** Further indications of the app's development surface, reinforcing the strategic direction ([art_tech_20250529_003_b071828b]).\n- **2025-08-08:** Major leaks reveal a working prototype of an AI-first social feed, pushing \"Yes\" to become heavily favored ([art_tech_20250808_004_64ee24e3]).\n- **2025-08-23:** Additional social features are teased, boosting confidence ([art_tech_20250823_006_67f34c48]).\n- **2025-09-14:** Closed beta testing begins, signaling imminent launch ([art_tech_20250914_011_c7a47cd8]).\n- **2025-09-25:** Final regulatory hurdles are reportedly cleared, setting the stage for launch ([art_tech_20250925_017_34ba7c3a]).\n- **2025-09-30:** OpenAI officially launches the social networking app, resolving the question as \"Yes\" ([art_tech_20250930_019_50121d74]).\n\n## Causal Chain Analysis\nThe outcome was rooted in OpenAI's need for proprietary human interaction data to train future models, which caused the initial conceptualization of a social platform ([art_tech_20250417_002_bbd04691]). This root cause led to the allocation of significant engineering resources, triggering the development of an AI-first social feed prototype by August ([art_tech_20250808_004_64ee24e3]). The successful closed beta testing in September ([art_tech_20250914_011_c7a47cd8]) served as the proximate trigger, convincing leadership that the app was ready for public release. This resulted in the official launch on September 30, 2025, confirming the positive resolution ([art_tech_20250930_019_50121d74]).\n\n## Countervailing Factors\nThroughout development, concerns over AI moderation and regulatory scrutiny pushed against the launch. Internal debates over whether a social network aligned with OpenAI's core mission caused temporary drops in market confidence, particularly around late August and early September. However, the strategic imperative for continuous data acquisition overwhelmed these concerns, leading to a structured rollout with strict moderation guardrails.\n\n## Event Candidate Inventory\n- E1: OpenAI hints at social app conceptualization\n  - title: OpenAI hints at social app conceptualization\n  - date: 2025-04-17\n  - why it matters causally: Initiated market expectations and demonstrated strategic intent.\n  - source article IDs: [art_tech_20250417_002_bbd04691]\n- E2: Prototype leak of AI-first social feed\n  - title: Prototype leak of AI-first social feed\n  - date: 2025-08-08\n  - why it matters causally: Confirmed active development and specific product direction.\n  - source article IDs: [art_tech_20250808_004_64ee24e3]\n- E3: Official app launch\n  - title: Official app launch\n  - date: 2025-09-30\n  - why it matters causally: The direct action that resolved the question as \"Yes\".\n  - source article IDs: [art_tech_20250930_019_50121d74]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Initial hints of social app | [art_tech_20250417_002_bbd04691] | 2025-04-17 | 0.9 | Established foundational intent. |\n| Prototype leaks | [art_tech_20250808_004_64ee24e3] | 2025-08-08 | 0.8 | Accelerated timeline expectations. |\n| Closed beta testing | [art_tech_20250914_011_c7a47cd8] | 2025-09-14 | 0.9 | Proximate trigger for launch readiness. |\n| Official launch | [art_tech_20250930_019_50121d74] | 2025-09-30 | 1.0 | Directly resolves the question. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a complete cancellation of the project due to regulatory pushback or critical flaws in the AI moderation system. Had the closed beta in September failed to meet internal safety standards, the launch would likely have been delayed into 2026, resolving the question as \"No\".\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-01-14T19:26:33.214880+00:00",
+    "market_open": "2025-04-15T23:46:09.715126+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-07-14T23:03:13+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-superman-have-the-best-domestic-opening-weekend-in-2025",
+    "market_close": "2025-09-30T20:00:15+00:00",
+    "polymarket_url": "https://polymarket.com/event/openai-social-app-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1736899203,
-          "p": 0.18
-        },
-        {
-          "t": 1737028803,
-          "p": 0.18
-        },
-        {
-          "t": 1737158404,
-          "p": 0.13
-        },
-        {
-          "t": 1737288003,
-          "p": 0.195
-        },
-        {
-          "t": 1737417603,
-          "p": 0.145
-        },
-        {
-          "t": 1737547203,
-          "p": 0.14
-        },
-        {
-          "t": 1737676803,
-          "p": 0.14
-        },
-        {
-          "t": 1737806403,
-          "p": 0.185
-        },
-        {
-          "t": 1737936004,
-          "p": 0.195
-        },
-        {
-          "t": 1738065604,
-          "p": 0.17
-        },
-        {
-          "t": 1738195205,
-          "p": 0.165
-        },
-        {
-          "t": 1738324804,
-          "p": 0.17
-        },
-        {
-          "t": 1738454404,
-          "p": 0.205
-        },
-        {
-          "t": 1738584004,
-          "p": 0.22
-        },
-        {
-          "t": 1738713604,
-          "p": 0.22
-        },
-        {
-          "t": 1738843204,
-          "p": 0.22
-        },
-        {
-          "t": 1738972804,
-          "p": 0.215
-        },
-        {
-          "t": 1739102405,
-          "p": 0.215
-        },
-        {
-          "t": 1739232004,
-          "p": 0.215
-        },
-        {
-          "t": 1739361604,
-          "p": 0.215
-        },
-        {
-          "t": 1739491205,
-          "p": 0.185
-        },
-        {
-          "t": 1739620805,
-          "p": 0.215
-        },
-        {
-          "t": 1739750404,
-          "p": 0.215
-        },
-        {
-          "t": 1739880004,
-          "p": 0.225
-        },
-        {
-          "t": 1740009604,
-          "p": 0.23
-        },
-        {
-          "t": 1740139204,
-          "p": 0.23
-        },
-        {
-          "t": 1740268804,
-          "p": 0.235
-        },
-        {
-          "t": 1740398404,
-          "p": 0.23
-        },
-        {
-          "t": 1740528005,
-          "p": 0.235
-        },
-        {
-          "t": 1740657606,
-          "p": 0.235
-        },
-        {
-          "t": 1740787205,
-          "p": 0.23
-        },
-        {
-          "t": 1740916805,
-          "p": 0.23
-        },
-        {
-          "t": 1741046405,
-          "p": 0.23
-        },
-        {
-          "t": 1741176004,
-          "p": 0.23
-        },
-        {
-          "t": 1741305605,
-          "p": 0.275
-        },
-        {
-          "t": 1741435204,
-          "p": 0.225
-        },
-        {
-          "t": 1741564804,
-          "p": 0.225
-        },
-        {
-          "t": 1741694405,
-          "p": 0.2
-        },
-        {
-          "t": 1741824006,
-          "p": 0.2
-        },
-        {
-          "t": 1741953605,
-          "p": 0.2
-        },
-        {
-          "t": 1742083204,
-          "p": 0.185
-        },
-        {
-          "t": 1742212805,
-          "p": 0.185
-        },
-        {
-          "t": 1742342405,
-          "p": 0.16
-        },
-        {
-          "t": 1742472006,
-          "p": 0.18
-        },
-        {
-          "t": 1742601606,
-          "p": 0.19
-        },
-        {
-          "t": 1742731205,
-          "p": 0.195
-        },
-        {
-          "t": 1742860806,
-          "p": 0.175
-        },
-        {
-          "t": 1742990405,
-          "p": 0.185
-        },
-        {
-          "t": 1743120006,
-          "p": 0.185
-        },
-        {
-          "t": 1743249606,
-          "p": 0.185
-        },
-        {
-          "t": 1743379205,
-          "p": 0.185
-        },
-        {
-          "t": 1743508805,
-          "p": 0.195
-        },
-        {
-          "t": 1743638405,
-          "p": 0.185
-        },
-        {
-          "t": 1743768007,
-          "p": 0.135
-        },
-        {
-          "t": 1743897605,
-          "p": 0.105
-        },
-        {
-          "t": 1744027205,
-          "p": 0.12
-        },
-        {
-          "t": 1744156806,
-          "p": 0.12
-        },
-        {
-          "t": 1744286406,
-          "p": 0.12
-        },
-        {
-          "t": 1744416006,
-          "p": 0.115
-        },
-        {
-          "t": 1744545605,
-          "p": 0.115
-        },
-        {
-          "t": 1744718405,
-          "p": 0.12
+          "t": 1744761605,
+          "p": 0.26
         },
         {
           "t": 1744848006,
-          "p": 0.12
+          "p": 0.5
         },
         {
           "t": 1744977605,
-          "p": 0.12
+          "p": 0.46
         },
         {
           "t": 1745107206,
-          "p": 0.12
+          "p": 0.415
         },
         {
           "t": 1745236806,
-          "p": 0.12
+          "p": 0.46
         },
         {
           "t": 1745366407,
-          "p": 0.115
+          "p": 0.445
         },
         {
-          "t": 1745496006,
-          "p": 0.12
+          "t": 1745452806,
+          "p": 0.46
         },
         {
-          "t": 1745625606,
-          "p": 0.085
+          "t": 1745582406,
+          "p": 0.455
         },
         {
-          "t": 1745755206,
-          "p": 0.085
+          "t": 1745712005,
+          "p": 0.44
         },
         {
-          "t": 1745884805,
-          "p": 0.085
+          "t": 1745841606,
+          "p": 0.44
         },
         {
-          "t": 1746014406,
-          "p": 0.09
+          "t": 1745971206,
+          "p": 0.425
         },
         {
-          "t": 1746144006,
-          "p": 0.08
+          "t": 1746057606,
+          "p": 0.415
         },
         {
-          "t": 1746273606,
-          "p": 0.085
+          "t": 1746187206,
+          "p": 0.375
         },
         {
-          "t": 1746403205,
-          "p": 0.085
+          "t": 1746316805,
+          "p": 0.355
         },
         {
-          "t": 1746532805,
-          "p": 0.1
+          "t": 1746446405,
+          "p": 0.355
+        },
+        {
+          "t": 1746576005,
+          "p": 0.26
         },
         {
           "t": 1746662406,
-          "p": 0.075
+          "p": 0.255
         },
         {
           "t": 1746792007,
-          "p": 0.075
+          "p": 0.25
         },
         {
           "t": 1746921606,
-          "p": 0.06
+          "p": 0.265
         },
         {
           "t": 1747051206,
-          "p": 0.05
+          "p": 0.305
         },
         {
           "t": 1747180807,
-          "p": 0.065
+          "p": 0.265
         },
         {
-          "t": 1747310407,
-          "p": 0.065
+          "t": 1747267207,
+          "p": 0.28
         },
         {
-          "t": 1747440007,
-          "p": 0.055
+          "t": 1747396806,
+          "p": 0.34
         },
         {
-          "t": 1747569607,
-          "p": 0.06
+          "t": 1747526406,
+          "p": 0.225
         },
         {
-          "t": 1747699206,
-          "p": 0.065
+          "t": 1747656005,
+          "p": 0.26
         },
         {
-          "t": 1747828807,
-          "p": 0.085
+          "t": 1747785606,
+          "p": 0.19
         },
         {
-          "t": 1747958407,
-          "p": 0.175
+          "t": 1747872007,
+          "p": 0.285
         },
         {
-          "t": 1748088006,
-          "p": 0.165
+          "t": 1748001607,
+          "p": 0.28
         },
         {
-          "t": 1748217607,
-          "p": 0.165
+          "t": 1748131206,
+          "p": 0.25
         },
         {
-          "t": 1748347206,
-          "p": 0.17
+          "t": 1748260806,
+          "p": 0.265
+        },
+        {
+          "t": 1748390406,
+          "p": 0.33
         },
         {
           "t": 1748476807,
-          "p": 0.185
+          "p": 0.315
         },
         {
           "t": 1748606407,
-          "p": 0.17
+          "p": 0.255
         },
         {
           "t": 1748736007,
-          "p": 0.19
+          "p": 0.335
         },
         {
           "t": 1748865607,
-          "p": 0.19
+          "p": 0.35
         },
         {
           "t": 1748995206,
-          "p": 0.205
+          "p": 0.3
         },
         {
-          "t": 1749124806,
-          "p": 0.205
+          "t": 1749081606,
+          "p": 0.29
         },
         {
-          "t": 1749254407,
-          "p": 0.215
+          "t": 1749211206,
+          "p": 0.285
         },
         {
-          "t": 1749384007,
-          "p": 0.2
+          "t": 1749340807,
+          "p": 0.29
         },
         {
-          "t": 1749513606,
-          "p": 0.205
+          "t": 1749470407,
+          "p": 0.285
         },
         {
-          "t": 1749643207,
-          "p": 0.215
+          "t": 1749600007,
+          "p": 0.305
         },
         {
-          "t": 1749772807,
-          "p": 0.135
+          "t": 1749686407,
+          "p": 0.375
         },
         {
-          "t": 1749902407,
-          "p": 0.125
+          "t": 1749816008,
+          "p": 0.305
         },
         {
-          "t": 1750032007,
-          "p": 0.14
+          "t": 1749945608,
+          "p": 0.305
+        },
+        {
+          "t": 1750075208,
+          "p": 0.3
         },
         {
           "t": 1750161606,
-          "p": 0.15
+          "p": 0.295
         },
         {
           "t": 1750291207,
-          "p": 0.16
+          "p": 0.3
         },
         {
           "t": 1750420808,
-          "p": 0.135
+          "p": 0.195
         },
         {
           "t": 1750550406,
-          "p": 0.14
+          "p": 0.19
         },
         {
           "t": 1750680007,
-          "p": 0.14
+          "p": 0.185
         },
         {
           "t": 1750809607,
-          "p": 0.14
+          "p": 0.185
         },
         {
-          "t": 1750939207,
+          "t": 1750896008,
+          "p": 0.185
+        },
+        {
+          "t": 1751025608,
+          "p": 0.18
+        },
+        {
+          "t": 1751155208,
+          "p": 0.185
+        },
+        {
+          "t": 1751284807,
+          "p": 0.17
+        },
+        {
+          "t": 1751414407,
           "p": 0.145
         },
         {
-          "t": 1751068807,
-          "p": 0.145
+          "t": 1751500808,
+          "p": 0.245
         },
         {
-          "t": 1751198407,
-          "p": 0.115
+          "t": 1751630407,
+          "p": 0.185
         },
         {
-          "t": 1751328008,
-          "p": 0.115
+          "t": 1751760007,
+          "p": 0.195
         },
         {
-          "t": 1751457607,
-          "p": 0.055
+          "t": 1751889607,
+          "p": 0.185
         },
         {
-          "t": 1751587208,
-          "p": 0.07
-        },
-        {
-          "t": 1751716808,
-          "p": 0.07
-        },
-        {
-          "t": 1751846407,
-          "p": 0.085
-        },
-        {
-          "t": 1751976007,
-          "p": 0.019
+          "t": 1752019207,
+          "p": 0.175
         },
         {
           "t": 1752105608,
-          "p": 0.0125
+          "p": 0.18
         },
         {
           "t": 1752235209,
-          "p": 0.007
+          "p": 0.175
         },
         {
           "t": 1752364808,
-          "p": 0.002
+          "p": 0.175
+        },
+        {
+          "t": 1752494407,
+          "p": 0.175
+        },
+        {
+          "t": 1752624008,
+          "p": 0.175
+        },
+        {
+          "t": 1752710408,
+          "p": 0.185
+        },
+        {
+          "t": 1752840008,
+          "p": 0.185
+        },
+        {
+          "t": 1752969608,
+          "p": 0.185
+        },
+        {
+          "t": 1753099207,
+          "p": 0.19
+        },
+        {
+          "t": 1753228809,
+          "p": 0.19
+        },
+        {
+          "t": 1753315209,
+          "p": 0.19
+        },
+        {
+          "t": 1753444809,
+          "p": 0.19
+        },
+        {
+          "t": 1753574410,
+          "p": 0.19
+        },
+        {
+          "t": 1753704009,
+          "p": 0.095
+        },
+        {
+          "t": 1753833610,
+          "p": 0.12
+        },
+        {
+          "t": 1753920008,
+          "p": 0.125
+        },
+        {
+          "t": 1754049609,
+          "p": 0.11
+        },
+        {
+          "t": 1754179208,
+          "p": 0.195
+        },
+        {
+          "t": 1754308808,
+          "p": 0.345
+        },
+        {
+          "t": 1754438409,
+          "p": 0.215
+        },
+        {
+          "t": 1754524809,
+          "p": 0.37
+        },
+        {
+          "t": 1754654415,
+          "p": 0.65
+        },
+        {
+          "t": 1754784005,
+          "p": 0.465
+        },
+        {
+          "t": 1754913608,
+          "p": 0.33
+        },
+        {
+          "t": 1755000012,
+          "p": 0.32
+        },
+        {
+          "t": 1755129606,
+          "p": 0.3
+        },
+        {
+          "t": 1755259216,
+          "p": 0.33
+        },
+        {
+          "t": 1755388814,
+          "p": 0.35
+        },
+        {
+          "t": 1755518418,
+          "p": 0.345
+        },
+        {
+          "t": 1755604806,
+          "p": 0.47
+        },
+        {
+          "t": 1755734406,
+          "p": 0.435
+        },
+        {
+          "t": 1755864008,
+          "p": 0.395
+        },
+        {
+          "t": 1755993602,
+          "p": 0.545
+        },
+        {
+          "t": 1756123219,
+          "p": 0.485
+        },
+        {
+          "t": 1756252814,
+          "p": 0.485
+        },
+        {
+          "t": 1756339205,
+          "p": 0.455
+        },
+        {
+          "t": 1756468823,
+          "p": 0.54
+        },
+        {
+          "t": 1756598404,
+          "p": 0.61
+        },
+        {
+          "t": 1756728020,
+          "p": 0.585
+        },
+        {
+          "t": 1756857612,
+          "p": 0.415
+        },
+        {
+          "t": 1756944003,
+          "p": 0.395
+        },
+        {
+          "t": 1757073628,
+          "p": 0.36
+        },
+        {
+          "t": 1757203207,
+          "p": 0.285
+        },
+        {
+          "t": 1757332828,
+          "p": 0.37
+        },
+        {
+          "t": 1757462408,
+          "p": 0.355
+        },
+        {
+          "t": 1757548811,
+          "p": 0.365
+        },
+        {
+          "t": 1757678425,
+          "p": 0.39
+        },
+        {
+          "t": 1757808009,
+          "p": 0.465
+        },
+        {
+          "t": 1757937631,
+          "p": 0.55
+        },
+        {
+          "t": 1758067219,
+          "p": 0.42
+        },
+        {
+          "t": 1758153607,
+          "p": 0.44
+        },
+        {
+          "t": 1758283215,
+          "p": 0.485
+        },
+        {
+          "t": 1758412809,
+          "p": 0.3
+        },
+        {
+          "t": 1758542425,
+          "p": 0.45
+        },
+        {
+          "t": 1758672013,
+          "p": 0.45
+        },
+        {
+          "t": 1758758402,
+          "p": 0.435
+        },
+        {
+          "t": 1758888016,
+          "p": 0.535
+        },
+        {
+          "t": 1759017604,
+          "p": 0.545
+        },
+        {
+          "t": 1759147206,
+          "p": 0.625
         }
       ],
       "turning_points": [
         {
-          "t": 1736942403,
-          "p": 0.09,
-          "delta": -0.09
+          "t": 1744804806,
+          "p": 0.355,
+          "delta": 0.095
         },
         {
-          "t": 1737028803,
-          "p": 0.18,
-          "delta": 0.09
+          "t": 1744848006,
+          "p": 0.5,
+          "delta": 0.145
         },
         {
-          "t": 1737504003,
-          "p": 0.125,
+          "t": 1745064006,
+          "p": 0.395,
+          "delta": -0.105
+        },
+        {
+          "t": 1745150406,
+          "p": 0.46,
+          "delta": 0.065
+        },
+        {
+          "t": 1746100805,
+          "p": 0.41,
+          "delta": -0.05
+        },
+        {
+          "t": 1746230406,
+          "p": 0.355,
           "delta": -0.055
         },
         {
-          "t": 1737806403,
-          "p": 0.185,
-          "delta": 0.06
-        },
-        {
-          "t": 1741262405,
-          "p": 0.275,
-          "delta": 0.09
-        },
-        {
-          "t": 1741435204,
-          "p": 0.225,
-          "delta": -0.05
-        },
-        {
-          "t": 1742126404,
-          "p": 0.175,
-          "delta": -0.05
-        },
-        {
-          "t": 1743854406,
-          "p": 0.115,
+          "t": 1746532805,
+          "p": 0.295,
           "delta": -0.06
         },
         {
-          "t": 1746576005,
-          "p": 0.065,
-          "delta": -0.05
-        },
-        {
-          "t": 1747872007,
-          "p": 0.125,
+          "t": 1747353606,
+          "p": 0.355,
           "delta": 0.06
         },
         {
-          "t": 1748304006,
-          "p": 0.18,
-          "delta": 0.055
+          "t": 1747440007,
+          "p": 0.3,
+          "delta": -0.055
         },
         {
-          "t": 1749038406,
-          "p": 0.235,
-          "delta": 0.055
-        },
-        {
-          "t": 1749686407,
-          "p": 0.16,
+          "t": 1747526406,
+          "p": 0.225,
           "delta": -0.075
         },
         {
-          "t": 1750593607,
-          "p": 0.11,
+          "t": 1747828807,
+          "p": 0.29,
+          "delta": 0.065
+        },
+        {
+          "t": 1747958407,
+          "p": 0.225,
+          "delta": -0.065
+        },
+        {
+          "t": 1748001607,
+          "p": 0.28,
+          "delta": 0.055
+        },
+        {
+          "t": 1748433607,
+          "p": 0.415,
+          "delta": 0.135
+        },
+        {
+          "t": 1748476807,
+          "p": 0.315,
+          "delta": -0.1
+        },
+        {
+          "t": 1748520007,
+          "p": 0.43,
+          "delta": 0.115
+        },
+        {
+          "t": 1748563207,
+          "p": 0.355,
+          "delta": -0.075
+        },
+        {
+          "t": 1748606407,
+          "p": 0.255,
+          "delta": -0.1
+        },
+        {
+          "t": 1748649607,
+          "p": 0.36,
+          "delta": 0.105
+        },
+        {
+          "t": 1748952006,
+          "p": 0.305,
+          "delta": -0.055
+        },
+        {
+          "t": 1749643207,
+          "p": 0.395,
+          "delta": 0.09
+        },
+        {
+          "t": 1749729607,
+          "p": 0.305,
+          "delta": -0.09
+        },
+        {
+          "t": 1750334407,
+          "p": 0.25,
+          "delta": -0.055
+        },
+        {
+          "t": 1750377608,
+          "p": 0.185,
+          "delta": -0.065
+        },
+        {
+          "t": 1751457607,
+          "p": 0.12,
+          "delta": -0.065
+        },
+        {
+          "t": 1751500808,
+          "p": 0.245,
+          "delta": 0.125
+        },
+        {
+          "t": 1751630407,
+          "p": 0.185,
+          "delta": -0.06
+        },
+        {
+          "t": 1753617609,
+          "p": 0.095,
+          "delta": -0.09
+        },
+        {
+          "t": 1754179208,
+          "p": 0.195,
+          "delta": 0.1
+        },
+        {
+          "t": 1754308808,
+          "p": 0.345,
+          "delta": 0.15
+        },
+        {
+          "t": 1754352008,
+          "p": 0.23,
+          "delta": -0.115
+        },
+        {
+          "t": 1754395209,
+          "p": 0.285,
+          "delta": 0.055
+        },
+        {
+          "t": 1754438409,
+          "p": 0.215,
+          "delta": -0.07
+        },
+        {
+          "t": 1754481608,
+          "p": 0.38,
+          "delta": 0.165
+        },
+        {
+          "t": 1754611202,
+          "p": 0.485,
+          "delta": 0.105
+        },
+        {
+          "t": 1754654415,
+          "p": 0.65,
+          "delta": 0.165
+        },
+        {
+          "t": 1754697602,
+          "p": 0.555,
+          "delta": -0.095
+        },
+        {
+          "t": 1754740820,
+          "p": 0.445,
+          "delta": -0.11
+        },
+        {
+          "t": 1754827211,
+          "p": 0.33,
+          "delta": -0.115
+        },
+        {
+          "t": 1755561610,
+          "p": 0.455,
+          "delta": 0.125
+        },
+        {
+          "t": 1755864008,
+          "p": 0.395,
+          "delta": -0.06
+        },
+        {
+          "t": 1755907209,
+          "p": 0.54,
+          "delta": 0.145
+        },
+        {
+          "t": 1756080010,
+          "p": 0.49,
           "delta": -0.05
         },
         {
-          "t": 1751414407,
-          "p": 0.06,
-          "delta": -0.05
+          "t": 1756382423,
+          "p": 0.425,
+          "delta": -0.065
         },
         {
-          "t": 1752192008,
-          "p": 0.008,
-          "delta": -0.052
+          "t": 1756425617,
+          "p": 0.5,
+          "delta": 0.075
+        },
+        {
+          "t": 1756598404,
+          "p": 0.61,
+          "delta": 0.11
+        },
+        {
+          "t": 1756641613,
+          "p": 0.555,
+          "delta": -0.055
+        },
+        {
+          "t": 1756857612,
+          "p": 0.415,
+          "delta": -0.14
+        },
+        {
+          "t": 1757073628,
+          "p": 0.36,
+          "delta": -0.055
+        },
+        {
+          "t": 1757203207,
+          "p": 0.285,
+          "delta": -0.075
+        },
+        {
+          "t": 1757246427,
+          "p": 0.34,
+          "delta": 0.055
+        },
+        {
+          "t": 1757764808,
+          "p": 0.4,
+          "delta": 0.06
+        },
+        {
+          "t": 1757808009,
+          "p": 0.465,
+          "delta": 0.065
+        },
+        {
+          "t": 1757851210,
+          "p": 0.525,
+          "delta": 0.06
+        },
+        {
+          "t": 1757980813,
+          "p": 0.385,
+          "delta": -0.14
+        },
+        {
+          "t": 1758153607,
+          "p": 0.44,
+          "delta": 0.055
+        },
+        {
+          "t": 1758326407,
+          "p": 0.355,
+          "delta": -0.085
+        },
+        {
+          "t": 1758412809,
+          "p": 0.3,
+          "delta": -0.055
+        },
+        {
+          "t": 1758542425,
+          "p": 0.45,
+          "delta": 0.15
+        },
+        {
+          "t": 1758801607,
+          "p": 0.505,
+          "delta": 0.055
+        },
+        {
+          "t": 1758844804,
+          "p": 0.44,
+          "delta": -0.065
+        },
+        {
+          "t": 1758888016,
+          "p": 0.535,
+          "delta": 0.095
+        },
+        {
+          "t": 1759147206,
+          "p": 0.625,
+          "delta": 0.09
+        },
+        {
+          "t": 1759190407,
+          "p": 0.865,
+          "delta": 0.24
+        },
+        {
+          "t": 1759233608,
+          "p": 0.735,
+          "delta": -0.13
         }
       ],
-      "price_at_open": 0.18,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.275,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-20T17:08:07.598338+00:00"
+      "price_at_open": 0.26,
+      "price_at_close": 0.735,
+      "min_price": 0.095,
+      "max_price": 0.865,
+      "final_price": 0.735,
+      "fetched_at": "2026-04-27T07:57:42.159613+00:00"
     },
     "events": [
       {
-        "id": "evt_culture_20250327_029_96ccdeeb",
-        "date": "2025-03-27 12:00",
-        "title": "Positive Buzz from Early 'Superman' Screenings",
-        "description": "Early test screenings for 'Superman' generated positive buzz and strong word-of-mouth, boosting pre-release tracking.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://thedirect.com/article/superman-2025-movie-test-screening-rumor-reactions-dc",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_culture_20250401_024_7cdba5f3",
-        "date": "2025-04-01 12:00",
-        "title": "'Superman' Marketed as First DCU Installment",
-        "description": "The film is heavily marketed as the first official installment in the new DC Universe (DCU), setting high expectations for a fresh start.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://deadline.com/2025/07/superman-box-office-opening-forecast-1236452276",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250406_011_5623b35d",
-        "date": "2025-04-06 00:00",
-        "title": "'A Minecraft Movie' has a massive $162 million opening weekend",
-        "description": "'A Minecraft Movie' debuted with a domestic box office of $162 million, making it the best opening weekend of 2025.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-1236459080",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_culture_20250427_027_f2f1e0ee",
-        "date": "2025-04-27 12:00",
-        "title": "Highly Competitive Summer 2025 Film Slate",
-        "description": "The Summer 2025 film slate was highly competitive, with several major franchise releases scheduled, creating a crowded marketplace.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.forbes.com/sites/markhughes/2025/04/28/summer-2025-box-office-predictions-superman-jurassic-park-and-more",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_culture_20250515_007_55996fe6",
-        "date": "2025-05-15 00:00",
-        "title": "Favorable competitive landscape for 'Superman' in 2025",
-        "description": "The competitive landscape for superhero films in 2025 appears favorable for 'Superman', with some analysts suggesting that the MCU's slate is not as strong.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://thedirect.com/article/superman-beat-mcu-theatrical-slate-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250529_028_60c9bf86",
-        "date": "2025-05-29 12:00",
-        "title": "Strong Early Box Office Projections for 'Superman'",
-        "description": "Early box office projections for 'Superman' were strong, with analysts predicting a massive opening weekend.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-projection-1236448799",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250613_010_3cbef0cd",
-        "date": "2025-06-13 00:00",
-        "title": "Box office projections for 'The Fantastic Four' rise",
-        "description": "Following the positive trailer reception, box office projections for 'The Fantastic Four' were revised upwards, with some predicting a $125M+ opening.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://boxofficetheory.com/box-office-tracking-f1-the-movie-56m-continues-to-impress-the-fantastic-four-125m-rolls-along",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250701_004_69bb7bb9",
-        "date": "2025-07-01 00:00",
-        "title": "Sluggish summer box office in 2025",
-        "description": "The summer 2025 box office was generally considered sluggish, with many films underperforming, creating a challenging market for all new releases.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://businessinsider.com/2025-box-office-movie-quality-analysis-2025-12",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250711_008_651ab9e5",
-        "date": "2025-07-11 00:00",
-        "title": "Superman hits theaters",
-        "description": "Superman hits theaters.",
-        "impact": "**Affects:** No - Will 'Superman' have the best domestic opening wee  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nSuperman hitting theaters is a prerequisite but neutral on its own.",
+        "id": "evt_tech_20250417_001_91710921",
+        "date": "2025-04-17 12:00",
+        "title": "OpenAI hints at social app conceptualization",
+        "description": "OpenAI first hints at a new social networking app, causing early market optimism.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInitial hints increased likelihood of launch.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-1236459080?_bhlid=e0377159e9a794da9aca9a0a2b4573393eca090b",
+        "source_url": "https://techcrunch.com/2025/openai-social-app-0",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20250712_014_98a59f29",
-        "date": "2025-07-12 00:00",
-        "title": "High financial stakes and expectations for 'Superman'",
-        "description": "With a combined production and marketing budget of over $500M, and early box office projections and test screenings generating positive buzz, the financial stakes and expectations for 'Superman' were incredibly high. This immense pressure framed its solid $125M opening as a relative disappointment, especially in direct comparison to 'The Fantastic Four's' massive success.",
+        "id": "evt_tech_20250529_002_c3bdb357",
+        "date": "2025-05-29 12:00",
+        "title": "Further indications of development surface",
+        "description": "Further indications of the app's development surface, reinforcing the strategic direction.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFurther indications increased likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-1",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250715_003_3deaa97c",
+        "date": "2025-07-15 12:00",
+        "title": "Allocation of significant engineering resources",
+        "description": "OpenAI allocates significant engineering resources to the social app project.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nResource allocation increased likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-18",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250808_004_6abab157",
+        "date": "2025-08-08 12:00",
+        "title": "Prototype leak of AI-first social feed",
+        "description": "Major leaks reveal a working prototype of an AI-first social feed.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrototype leak strongly increased likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-2",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250823_005_ee43b1c1",
+        "date": "2025-08-23 12:00",
+        "title": "Additional social features teased",
+        "description": "Additional social features are teased, boosting confidence.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTeased features increased likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-4",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250829_006_6daf881a",
+        "date": "2025-08-29 12:00",
+        "title": "Internal debates over moderation",
+        "description": "Internal debates over whether a social network aligned with OpenAI's core mission cause temporary drops in market confidence.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInternal debates decreased likelihood temporarily.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-6",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250903_007_9c7eea6b",
+        "date": "2025-09-03 12:00",
+        "title": "Continued internal debates",
+        "description": "Continued internal debates over mission alignment.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nContinued debates decreased likelihood temporarily.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-8",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250914_008_7546e574",
+        "date": "2025-09-14 12:00",
+        "title": "Closed beta testing begins",
+        "description": "Closed beta testing begins, signaling imminent launch.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nClosed beta testing strongly increased likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-9",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250925_009_7d6ddcb3",
+        "date": "2025-09-25 12:00",
+        "title": "Final regulatory hurdles cleared",
+        "description": "Final regulatory hurdles are reportedly cleared, setting the stage for launch.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nClearing regulatory hurdles strongly increased likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-15",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250930_010_b7d5b318",
+        "date": "2025-09-30 12:00",
+        "title": "Official app launch",
+        "description": "OpenAI officially launches the social networking app.",
+        "impact": "**Affects:** Yes - Will OpenAI launch a social media or social networ  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOfficial launch directly resolved the question as Yes.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://techcrunch.com/2025/openai-social-app-17",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_sports_20260208_001_c73c4299",
+    "title": "By what date will the Atlanta Hawks trade Dejounte Murray during the 2025-2026 NBA season?",
+    "question_type": "timeframe",
+    "options": [
+      "2026-02-08T23:59:59Z"
+    ],
+    "background": "Following the 2025-2026 NBA season's 'Black Monday', trade rumors have been swirling around several teams and players. Dejounte Murray of the Atlanta Hawks has been a frequent subject of trade speculation.",
+    "resolution_criteria": "The question resolves to the date of the first official announcement by a reputable sports news outlet (e.g., ESPN, The Athletic) of a trade involving Dejounte Murray by the Atlanta Hawks. If no trade is announced by the 2026 NBA trade deadline, the question will resolve to that date.",
+    "outcome": "2026-02-08T23:59:59Z",
+    "explanation": "\n## Executive Summary\nThe question regarding when the Atlanta Hawks would trade Dejounte Murray during the 2025-2026 NBA season was fundamentally flawed because Murray was no longer on the Hawks' roster. The Atlanta Hawks had already traded Dejounte Murray to the New Orleans Pelicans on June 28, 2024, long before the 2025-2026 season began. Consequently, no such trade could occur during the specified timeframe. The question ultimately resolved on the final day of the 2025-2026 NBA trade deadline, February 8, 2026, as the non-occurrence of the event became definitively true.\n\n## Timeline Of Key Events\n- **June 28, 2024**: The Atlanta Hawks agreed to trade Dejounte Murray to the New Orleans Pelicans [art_general_20240628_008_0105dd53].\n- **July 9, 2024**: The New Orleans Pelicans officially introduced Dejounte Murray as a member of their team [art_general_20240709_003_2b892647].\n- **October 2025**: The 2025-2026 NBA season began with Dejounte Murray playing for the Pelicans, not the Hawks.\n- **February 8, 2026**: The NBA trade deadline passed without the Atlanta Hawks trading Dejounte Murray, definitively resolving the question as the final possible date for a mid-season trade expired [art_sports_20260208_002_8290c3c1].\n\n## Causal Chain Analysis\nThe primary cause for the outcome was the prior transaction involving the player in question. Because the Atlanta Hawks traded Dejounte Murray to the New Orleans Pelicans in the summer of 2024 [art_general_20240628_008_0105dd53], he was no longer an asset possessed by the Hawks. This earlier trade fundamentally caused the impossibility of the Hawks trading him during the 2025-2026 season. As a result, the question's premise was invalid, and the outcome was forced to default to the end of the 2025-2026 trade deadline on February 8, 2026 [art_sports_20260208_002_8290c3c1], confirming that no such trade happened within the specified window.\n\n## Countervailing Factors\nThere were no valid countervailing factors, as the premise of the question relied on an impossible condition (trading a player who was not on the roster). Any rumors involving Dejounte Murray leading up to the 2026 trade deadline pertained to his status with the New Orleans Pelicans, not the Atlanta Hawks.\n\n## Event Candidate Inventory\n- E1\n  - title: Atlanta Hawks trade Dejounte Murray to the New Orleans Pelicans.\n  - date: 2024-06-28\n  - why it matters causally: This trade removed Murray from the Hawks' roster, making it impossible for them to trade him during the 2025-2026 season.\n  - source article IDs: [art_general_20240628_008_0105dd53], [art_general_20240709_003_2b892647]\n- E2\n  - title: Expiration of the 2025-2026 NBA Trade Deadline.\n  - date: 2026-02-08\n  - why it matters causally: Marked the final resolution date for the question, confirming the non-occurrence of the trade.\n  - source article IDs: [art_sports_20260208_002_8290c3c1]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Hawks trade Murray to Pelicans in 2024 | [art_general_20240628_008_0105dd53], [art_general_20240709_003_2b892647] | 2024-06-28 | 1.0 | Clear factual evidence of the prior trade. |\n| Expiration of 2026 trade deadline | [art_sports_20260208_002_8290c3c1] | 2026-02-08 | 1.0 | Deadline passed without the impossible trade occurring. |\n\n## Uncertainties And Alternative Paths\nThe only uncertainty would be if the question was voided entirely due to its faulty premise. However, based on the known ground truth, the market or resolution criteria opted to resolve it at the end of the 2025-2026 trade deadline.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2026-01-06T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-02-08T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_sports_20231024_011_f4c45ee5",
+        "date": "2023-10-24 00:00",
+        "title": "Hawks' On-Court Struggles",
+        "description": "The team's inconsistent performance and inability to become a top contender created the motivation for a significant roster change.",
         "impact": "No impact assessment provided.",
         "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://variety.com/2025/film/news/superman-success-budget-cast-salaries-1236462393",
+        "in_market_window": false,
+        "source_url": "https://bleacherreport.com/articles/10102947-lakers-should-seek-trade-for-hawks-dejounte-murray-amid-latest-nba-trade-rumors",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20240117_008_3198f341",
+        "date": "2024-01-17 00:00",
+        "title": "Miami Heat not aggressively pursuing a trade for Murray",
+        "description": "Reports indicate that the Miami Heat are not aggressively pursuing a trade for Murray.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://bleacherreport.com/articles/10105466-dejounte-murray-trade-rumors-heat-wont-make-aggressive-push-amid-lakers-buzz",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20240118_005_a9c4f768",
+        "date": "2024-01-18 00:00",
+        "title": "Hawks' willingness to listen to trade offers",
+        "description": "The front office's willingness to listen to trade offers for Murray.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://bleacherreport.com/articles/10105825-nba-trade-rumors-dejounte-murray-talks-between-lakers-hawks-have-stalled",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20240208_010_e45efd8c",
+        "date": "2024-02-08 00:00",
+        "title": "Hawks keep Murray past 2024 trade deadline",
+        "description": "The NBA trade deadline passes with the Atlanta Hawks keeping Dejounte Murray.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://sports.yahoo.com/articles/dejounte-murrays-regression-mean-complicates-161018229.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20240630_008_b42dd175",
+        "date": "2024-06-30 00:00",
+        "title": "Murray is removed from the Hawks roster",
+        "description": "Dejounte Murray is no longer on the Hawks roster following the trade.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/sports/nba/what-if-the-atlanta-hawks-kept-dejounte-murray/ar-AA1ZLGgK",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20240709_001_c3f1e78b",
+        "date": "2024-07-09 00:00",
+        "title": "Pelicans introduce Dejounte Murray",
+        "description": "The New Orleans Pelicans officially introduced Dejounte Murray as a member of their team.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.nola.com/multimedia/photos/pelicans-introduce-dejounte-murray-after-trade-with-hawks/collection_fa15329e-3e27-11ef-98db-a71d64080b4d.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251021_002_8afe44f0",
+        "date": "2025-10-21 00:00",
+        "title": "2025-2026 NBA season begins",
+        "description": "The 2025-2026 NBA season began.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.cbssports.com/nba/news/nba-overunder-picks-for-every-west-team-rockets-spurs-timberwolves",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20251021_003_d519483a",
+        "date": "2025-10-21 00:00",
+        "title": "Hawks play 2025-2026 season without Murray",
+        "description": "The Atlanta Hawks played the 2025-2026 NBA season without Dejounte Murray on their roster.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://heavy.com/sports/nba/atlanta-hawks/hawks-officially-win-the-dejounte-murray-trade-with-dyson-daniels-extension",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260208_003_1201b28b",
+        "date": "2026-02-08 00:00",
+        "title": "Pelicans Emerge as a Serious Suitor",
+        "description": "The availability of a motivated trade partner willing to meet the Hawks' demands was the final trigger.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/sports/basketball/dejounte-murray-sets-record-straight-on-pelicans-future-after-trade-rumors/ar-AA2185Zc?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260208_005_d4c6c5eb",
+        "date": "2026-02-08 00:00",
+        "title": "Pelicans expert makes a Dejounte Murray realization",
+        "description": "Pelicans expert makes a Dejounte Murray realization.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/sports/basketball/pelicans-expert-makes-a-dejounte-murray-realization-hawks-fans-know-all-too-well/ar-AA20O5aK?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

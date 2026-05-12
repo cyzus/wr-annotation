@@ -1,458 +1,5 @@
 var annotationData = [
   {
-    "id": "polymarket_0x03f39d85204b2480747e2d199bc38b724a88f7792273d701f2f64f6a02246c7f",
-    "title": "Will GPT-5 be released by August 15?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if OpenAI's GPT-5 model is made available to the general public by August 15, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" GPT-5 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by OpenAI as being accessible to the general public.\n\nGPT-5 refers to a product explicitly named GPT-5 (e.g. ChatGPT-5o would count) or one that is recognized as a successor to GPT-4, similar to the progression from GPT-3 to GPT-4. Products labeled as GPT-4.5 or similar will not count for this market's resolution.\n\nThe primary resolution source for this market will be official information from OpenAI, with additional verification from a consensus of credible reporting.",
-    "outcome": "Yes",
-    "explanation": "\n# Executive Summary\nThe release of GPT-5 by August 15, 2025, was driven by OpenAI's strategic timeline and competitive pressures in the AI landscape. Despite a brief period of market uncertainty around August 3 fueled by rumors of a delay and weak employment data impacting broader tech stocks, OpenAI maintained its schedule. On August 6, the company announced a livestream event, which culminated in the official release of GPT-5 on August 7, resolving the question positively ahead of the August 15 deadline.\n\n# Timeline Of Key Events\n- **2025-07-24**: Initial leaks and reports indicate OpenAI is preparing to launch GPT-5 in August [art_tech_20250724_012_0b53b200].\n- **2025-08-02**: Rumors circulate that GPT-5 might be delayed, causing some market apprehension [art_general_20250802_003_d6df0c7d].\n- **2025-08-03**: A significant turning point where market sentiment drops due to combined economic concerns and delay rumors, before recovering [art_general_20250803_016_2aff39c4].\n- **2025-08-06**: OpenAI officially teases the GPT-5 debut with a cryptic August 7 livestream announcement, shifting sentiment to highly positive [art_general_20250806_004_0a85d3e5].\n- **2025-08-07**: OpenAI officially unveils and releases GPT-5, confirming the positive resolution of the market question [art_tech_20250807_007_df68c148].\n\n# Causal Chain Analysis\nThe core root cause for the August release was OpenAI's need to maintain market dominance and deliver on their product roadmap amid increasing competition. This foundational pressure led to the initial targeted August timeline (intermediate mechanism) [art_tech_20250724_012_0b53b200]. While temporary rumors of delays caused a brief sentiment shift on August 3 [art_general_20250803_016_2aff39c4], the proximate trigger for the positive outcome was OpenAI's firm commitment to the August 7 livestream [art_general_20250806_004_0a85d3e5]. This official event directly resulted in the public release of GPT-5 on August 7, satisfying the resolution criteria before August 15 [art_tech_20250807_007_df68c148].\n\n# Countervailing Factors\nThe primary countervailing factor was the potential for technical delays, common in large-scale AI model deployments. On August 2, rumors specifically highlighted that GPT-5 might be delayed [art_general_20250802_003_d6df0c7d]. These concerns were compounded by broader macroeconomic factors that caused a market dip on August 3. However, these factors failed to derail the outcome because OpenAI's internal readiness and the strategic necessity of the launch outweighed the operational hurdles, allowing them to proceed with the August 7 release.\n\n# Event Candidate Inventory\n- E1\n  - title: OpenAI prepares GPT-5 launch for August\n  - date: 2025-07-24\n  - why it matters causally: Established the baseline expectation for an August release.\n  - source article IDs: art_tech_20250724_012_0b53b200\n- E2\n  - title: Rumors of GPT-5 delay and market dip\n  - date: 2025-08-02 to 2025-08-03\n  - why it matters causally: Created the key turning point in market sentiment, introducing doubt before the final confirmation.\n  - source article IDs: art_general_20250802_003_d6df0c7d, art_general_20250803_016_2aff39c4\n- E3\n  - title: OpenAI announces August 7 livestream\n  - date: 2025-08-06\n  - why it matters causally: Served as the definitive proximate trigger confirming the imminent release.\n  - source article IDs: art_general_20250806_004_0a85d3e5\n- E4\n  - title: GPT-5 officially released\n  - date: 2025-08-07\n  - why it matters causally: Constitutes the final positive resolution of the question.\n  - source article IDs: art_tech_20250807_007_df68c148\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Preparation for August launch | art_tech_20250724_012_0b53b200 | 2025-07-24 | 0.9 | Strong early indicator. |\n| Rumors of delay | art_general_20250802_003_d6df0c7d | 2025-08-02 | 0.8 | Caused significant but temporary market shift. |\n| Market dip | art_general_20250803_016_2aff39c4 | 2025-08-03 | 0.9 | Quantifiable sentiment change. |\n| Livestream announcement | art_general_20250806_004_0a85d3e5 | 2025-08-06 | 1.0 | Official confirmation of event. |\n| GPT-5 Release | art_tech_20250807_007_df68c148 | 2025-08-07 | 1.0 | Final resolution event. |\n\n# Uncertainties And Alternative Paths\nThe primary uncertainty revolved around the exact readiness of the model. An alternative path could have seen the August 2 rumors materialize into a genuine delay, pushing the release past the August 15 deadline, leading to a negative resolution. Additionally, unexpected safety or alignment issues discovered late in the testing phase could have served as a plausible alternative cause for delay.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-07-25T21:04:25.174000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-08-07T21:21:49+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-gpt-5-be-released-by-august-15-556-581-443",
-    "price_data": {
-      "history": [
-        {
-          "t": 1753488009,
-          "p": 0.735
-        },
-        {
-          "t": 1753531210,
-          "p": 0.76
-        },
-        {
-          "t": 1753574410,
-          "p": 0.71
-        },
-        {
-          "t": 1753617609,
-          "p": 0.68
-        },
-        {
-          "t": 1753660809,
-          "p": 0.68
-        },
-        {
-          "t": 1753704009,
-          "p": 0.705
-        },
-        {
-          "t": 1753747210,
-          "p": 0.685
-        },
-        {
-          "t": 1753790408,
-          "p": 0.74
-        },
-        {
-          "t": 1753833610,
-          "p": 0.755
-        },
-        {
-          "t": 1753876809,
-          "p": 0.73
-        },
-        {
-          "t": 1753920008,
-          "p": 0.715
-        },
-        {
-          "t": 1753963208,
-          "p": 0.72
-        },
-        {
-          "t": 1754006409,
-          "p": 0.765
-        },
-        {
-          "t": 1754049609,
-          "p": 0.695
-        },
-        {
-          "t": 1754092809,
-          "p": 0.695
-        },
-        {
-          "t": 1754136010,
-          "p": 0.745
-        },
-        {
-          "t": 1754179208,
-          "p": 0.58
-        },
-        {
-          "t": 1754222408,
-          "p": 0.64
-        },
-        {
-          "t": 1754265607,
-          "p": 0.705
-        },
-        {
-          "t": 1754308808,
-          "p": 0.715
-        },
-        {
-          "t": 1754352008,
-          "p": 0.87
-        },
-        {
-          "t": 1754395209,
-          "p": 0.875
-        },
-        {
-          "t": 1754438409,
-          "p": 0.9555
-        },
-        {
-          "t": 1754481608,
-          "p": 0.939
-        },
-        {
-          "t": 1754524809,
-          "p": 0.9815
-        },
-        {
-          "t": 1754568012,
-          "p": 0.9865
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1753617609,
-          "p": 0.68,
-          "delta": -0.055
-        },
-        {
-          "t": 1753790408,
-          "p": 0.74,
-          "delta": 0.06
-        },
-        {
-          "t": 1754179208,
-          "p": 0.58,
-          "delta": -0.16
-        },
-        {
-          "t": 1754222408,
-          "p": 0.64,
-          "delta": 0.06
-        },
-        {
-          "t": 1754265607,
-          "p": 0.705,
-          "delta": 0.065
-        },
-        {
-          "t": 1754352008,
-          "p": 0.87,
-          "delta": 0.165
-        },
-        {
-          "t": 1754438409,
-          "p": 0.9555,
-          "delta": 0.0855
-        }
-      ],
-      "price_at_open": 0.735,
-      "price_at_close": 0.9865,
-      "min_price": 0.58,
-      "max_price": 0.9865,
-      "final_price": 0.9865,
-      "fetched_at": "2026-04-20T17:08:03.839687+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_business_20250728_009_d6cfda97",
-        "date": "2025-07-28 00:00",
-        "title": "Strategic decision to release GPT-5 in August",
-        "description": "OpenAI's leadership made a strategic decision to release GPT-5 in August, based on market conditions, competitive landscape, and product readiness.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://bgr.com/1921986/chatgpt-gpt-5-upgrade-august-release-date",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250731_011_398da596",
-        "date": "2025-07-31 00:00",
-        "title": "Intensified competitive pressure on OpenAI",
-        "description": "Competitive pressure from other AI labs, particularly Google, has intensified, creating a strong incentive for OpenAI to release its next-generation model.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://seekingalpha.com/news/4527661-openai-developing-new-ai-model-garlic-amid-googles-ai-success",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250801_002_3528d984",
-        "date": "2025-08-01 00:00",
-        "title": "OpenAI confirms August 2025 release for GPT-5",
-        "description": "OpenAI officially announces that GPT-5 will be released in August 2025, ending speculation and providing a concrete timeline for the model's launch.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://thepuffer.in/gpt-5-release",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250802_004_1fc31fb5",
-        "date": "2025-08-02 00:00",
-        "title": "Rumors circulate that GPT-5 might be delayed",
-        "description": "Rumors circulate that GPT-5 might be delayed, causing market apprehension.",
-        "impact": "**Affects:** Yes - Will GPT-5 be released by August 15?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on the YES outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/ai/articles/sam-altman-teases-ton-chatgpt-171700961.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250803_005_9ebc3171",
-        "date": "2025-08-03 00:00",
-        "title": "Broader macroeconomic factors emerge",
-        "description": "Broader macroeconomic factors emerge, impacting broader tech stocks.",
-        "impact": "**Affects:** Yes - Will GPT-5 be released by August 15?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on the YES outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://seekingalpha.com/article/4808099-the-1-minute-market-report-august-3-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250805_003_dc6871cb",
-        "date": "2025-08-05 00:00",
-        "title": "OpenAI's Strategic Push for Market Leadership",
-        "description": "OpenAI's leadership, including Sam Altman, makes strategic decisions to release GPT-5 to coincide with major events like DevDay and to secure large-scale partnerships, reinforcing their position as a market leader.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.geeky-gadgets.com/openai-devday-2025-keynote-sam-altman",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250806_007_98d039b8",
-        "date": "2025-08-06 00:00",
-        "title": "OpenAI maintains internal readiness",
-        "description": "OpenAI maintains internal readiness and strategic necessity of the launch outweighs operational hurdles.",
-        "impact": "**Affects:** Yes - Will GPT-5 be released by August 15?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on the YES outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.webpronews.com/openai-teases-gpt-5-debut-in-cryptic-august-7-2025-livestream",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250807_010_3c35f85b",
-        "date": "2025-08-07 00:00",
-        "title": "OpenAI officially unveils and releases GPT-5",
-        "description": "OpenAI officially unveils and releases GPT-5, confirming the positive resolution.",
-        "impact": "**Affects:** Yes - Will GPT-5 be released by August 15?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on the YES outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.engadget.com/ai/gpt-5-is-here-and-its-free-for-everyone-170001066.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250729_020_03b83fbd",
-        "date": "2025-07-29 00:00",
-        "title": "Sam Altman compares GPT-5 to the Manhattan Project",
-        "description": "In a widely publicized statement, OpenAI CEO Sam Altman compares the development of GPT-5 to the Manhattan Project, highlighting the transformative potential and existential risks of advanced AI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.webpronews.com/openai-ceo-altman-compares-gpt-5-to-manhattan-project-warns-of-risks",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250726_019_b857cf3f",
-        "date": "2025-07-26 00:00",
-        "title": "Breakthrough in reasoning capabilities announced for GPT-5",
-        "description": "OpenAI announces a significant breakthrough in the reasoning capabilities of GPT-5, a key milestone in the development of more advanced AI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.webpronews.com/openais-gpt-5-launch-in-august-2025-breakthrough-reasoning-and-20m-tokens",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "q_business_20260108_002_b7851350",
-    "title": "What will be the average daily amount of Venezuelan crude oil (in thousands of barrels) imported by the US in the fourth quarter of 2025?",
-    "question_type": "quantity",
-    "options": [
-      "200"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "The figure will be based on the official data for the daily average of crude oil imports from Venezuela for October, November, and December 2025, as reported by the U.S. Energy Information Administration (EIA).",
-    "outcome": "200",
-    "explanation": "\n## Executive Summary\nThe US imported around 200,000 barrels per day (bpd) of Venezuelan crude oil on average in the fourth quarter of 2025, driven largely by the continued operations of Chevron and other entities under specific US Treasury licenses. Despite the tightening of sanctions on Venezuela's oil sector after disputed elections, the US maintained exceptions that allowed Western oil companies to pump and export Venezuelan crude to US refineries. This strategic carve-out ensured a steady flow of heavy crude to the US Gulf Coast, balancing the dual goals of maintaining global supply stability and avoiding spikes in domestic fuel prices ahead of geopolitical shifts. By Q4 2025, Chevron's successful efforts to incrementally boost production and exports, coupled with approvals for other companies like Repsol and Eni, sustained the targeted ~200k bpd import volume, cementing the outcome.\n\n## Timeline Of Key Events\n- **October 2024 - January 2025**: The Biden administration tightened general oil sanctions on Venezuela via the expiration of General License 44, shifting to a case-by-case authorization model. [art_general_20251230_003_3962876e]\n- **Mid 2025**: Chevron continued its joint venture operations in Venezuela under General License 41, gradually increasing output and directing exports to US Gulf Coast refiners. [art_business_20260128_011_38b591f7]\n- **October 1 - December 31, 2025 (Q4 2025)**: Sustained operations by Chevron and specific waivers for allied companies resulted in an average of approximately 200,000 bpd of Venezuelan crude being imported by the US. Refineries such as Valero, PBF Energy, and Chevron's own facilities optimized their runs with this heavy crude. [art_business_20251230_004_d4398cea]\n- **Late December 2025 / Early January 2026**: A dramatic US-led operation resulted in the capture of Nicolas Maduro, shaking up the geopolitical landscape but occurring just after the close of the Q4 2025 measurement period. The incoming Trump administration subsequently signaled plans to completely overhaul the Venezuelan oil sector. [art_general_20260101_044_5724dcd7]\n\n## Causal Chain Analysis\nThe primary root cause of this outcome was the US government's strategic decision to replace broad sanctions relief (General License 44) with targeted, company-specific licenses (such as General License 41 for Chevron). This caused a restructuring of Venezuela's oil export flows, prioritizing debt repayment and supply to Western markets over open-market sales. This policy intermediate mechanism allowed Chevron to bypass the corruption and inefficiencies of PDVSA, directly managing operations and exports. The proximate trigger was Chevron's successful execution of its operational plan, drilling new wells and optimizing existing infrastructure throughout 2025. This led directly to a steady export volume of approximately 200,000 bpd to the US Gulf Coast in Q4 2025, fulfilling the target outcome. \n\n## Countervailing Factors\nSeveral forces threatened to push imports below the 100k bpd mark. Chief among these was the overall deterioration of Venezuela's oil infrastructure and severe power outages, such as the blackout at the Cardon refinery. Furthermore, heightened political tensions following the disputed 2024 Venezuelan elections and subsequent crackdowns on the opposition led to calls for a complete embargo on Venezuelan oil. However, these countervailing factors failed because the US prioritized energy security and the specific licenses granted to Chevron insulated its operations from the broader dysfunction of PDVSA. The infrastructure used by Chevron was prioritized for power and resources, overcoming the systemic failures.\n\n## Event Candidate Inventory\n- **E1**: US Treasury issues specific licenses to Chevron and allied oil companies, enabling continued Venezuelan operations.\n  - Date: Late 2024 / Early 2025\n  - Why it matters causally: Established the legal framework allowing the ~200k bpd flow to the US.\n  - Source: [art_business_20251230_004_d4398cea]\n- **E2**: Chevron successfully increases crude production at its Venezuelan joint ventures to meet export targets.\n  - Date: Q1-Q3 2025\n  - Why it matters causally: Provided the physical volumes needed to hit the ~200k bpd target in Q4.\n  - Source: [art_business_20260128_011_38b591f7]\n- **E3**: US military/political intervention culminates in the capture of Nicolas Maduro.\n  - Date: Late December 2025 / January 2026\n  - Why it matters causally: Caused massive market volatility and shaped the future of Venezuelan oil, though it occurred at the end/after the Q4 measurement period, cementing the Q4 status quo right up until the collapse.\n  - Source: [art_general_20260101_044_5724dcd7], [art_general_20260101_051_b5072394]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Specific US Treasury licenses allowed Chevron to maintain and grow operations in Venezuela. | [art_business_20251230_004_d4398cea], [art_business_20260128_011_38b591f7] | Early to Mid 2025 | 0.95 | Widely reported policy mechanism. |\n| Chevron optimized production and directed exports to US Gulf Coast refineries. | [art_business_20260128_011_38b591f7], [art_business_20260107_002_d00e1586] | Throughout 2025 | 0.90 | Refiners favored heavy Venezuelan crude. |\n| Maduro's regime was toppled in a US-led operation at the end of the year. | [art_general_20260101_044_5724dcd7], [art_general_20260101_051_b5072394] | Dec 2025 / Jan 2026 | 0.99 | Major geopolitical shock. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a complete collapse of US imports to below 100k bpd. This could have occurred if the US Treasury revoked General License 41 due to human rights violations by the Maduro regime, or if PDVSA's failing infrastructure catastrophically impacted Chevron's joint ventures. The uncertainty regarding exact daily fluctuations was smoothed out by the quarterly average metric, but sudden policy shifts in Washington remained a tail risk until the end of the period.\n",
-    "is_polymarket": false,
-    "is_overlap": false,
-    "market_open": "2025-10-10T00:00:00+00:00",
-    "market_open_estimated": true,
-    "market_close": "2026-01-08T00:00:00+00:00",
-    "polymarket_url": null,
-    "price_data": null,
-    "events": [
-      {
-        "id": "evt_politics_20240728_001_ad459475",
-        "date": "2024-07-28 00:00",
-        "title": "Disputed 2024 Venezuelan elections and opposition crackdowns",
-        "description": "Heightened political tensions following the disputed 2024 Venezuelan elections and subsequent crackdowns on the opposition led to calls for a complete embargo on Venezuelan oil.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDisputed elections threatened to reduce imports.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://finance.yahoo.com/news/oil-executives-brace-another-tough-010000212.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20241105_002_fc0195d2",
-        "date": "2024-11-05 00:00",
-        "title": "Donald Trump wins the 2024 US Presidential Election",
-        "description": "Donald Trump's victory in the 2024 election signaled a potential shift in US foreign policy, particularly towards Venezuela, suggesting a move away from diplomatic engagement and towards a more confrontational stance.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe confrontational stance of a Trump administration would likely reinforce or tighten sanctions, keeping import levels low.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://nycfpa.org/10/07/the-end-of-diplomacy-implications-of-trumps-venezuela-outreach-withdrawal",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250115_003_ca522633",
-        "date": "2025-01-15 00:00",
-        "title": "US Treasury issues specific licenses to Chevron and allied companies",
-        "description": "The US government strategically replaced broad sanctions relief with targeted, company-specific licenses (such as General License 41 for Chevron), enabling continued Venezuelan operations.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSpecific licenses enabled continued imports.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/123025-venezuelan-oil-production-exports-fall-as-us-ramps-up-sanctions-enforcement",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250415_005_0934aafe",
-        "date": "2025-04-15 00:00",
-        "title": "US imposes new, stricter sanctions on Venezuelan oil sector",
-        "description": "The Trump administration imposed a new round of sanctions specifically targeting Venezuela's state-owned oil company, PDVSA, and its international partners, aiming to cut off the Maduro regime's main source of revenue.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe sanctions are the primary mechanism for enforcing a low-import policy.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.atlanticcouncil.org/commentary/trackers-and-data-visualizations/who-is-the-international-community-sanctioning-in-venezuela",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250801_008_64d652d2",
-        "date": "2025-08-01 00:00",
-        "title": "Chevron directs exports to US Gulf Coast refineries",
-        "description": "Chevron directed its increased exports of heavy crude to US Gulf Coast refiners, such as Valero and PBF Energy.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirecting exports to the US directly increased import volumes.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aol.com/articles/venezuelan-oil-shipments-surge-us-233121314.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251228_009_fd4c96f6",
-        "date": "2025-12-28 00:00",
-        "title": "US-led operation captures Nicolas Maduro",
-        "description": "A dramatic US-led operation resulted in the capture of Nicolas Maduro, shaking up the geopolitical landscape.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nMaduro's capture happened too late to significantly impact Q4 average.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://finance.yahoo.com/news/venezuela-oil-not-alleged-drug-194916682.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260101_010_41c0f5b8",
-        "date": "2026-01-01 00:00",
-        "title": "Nicolás Maduro captured by US forces",
-        "description": "US special forces successfully located and captured Nicolás Maduro in a raid on the Miraflores presidential palace.",
-        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMaduro's capture made the continuation of the previous low-import/high-sanction policy obsolete and counter-productive to US interests.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.yahoo.com/news/articles/five-key-takeaways-trump-stunning-220000265.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20200101_002_6d7eea42",
-        "date": "2020-01-01 00:00",
-        "title": "Venezuelan oil production collapses",
-        "description": "Venezuela's oil production plummets due to sanctions, mismanagement, and lack of investment, falling to historic lows.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/9/4/venezuela-has-the-worlds-most-oil-why-doesnt-it-earn-more-from-exports",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20221126_004_f47ca202",
-        "date": "2022-11-26 00:00",
-        "title": "US and Venezuelan opposition agree to humanitarian fund",
-        "description": "The Venezuelan government and opposition agree to a deal to create a UN-managed humanitarian fund.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.crisisgroup.org/latin-america-caribbean/andes/venezuela/us-venezuela-deal-a-chance-break-political-impasse",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20230101_002_e9d5f2b5",
-        "date": "2023-01-01 00:00",
-        "title": "Venezuelan Political Instability",
-        "description": "Venezuela continues to experience a deep and prolonged political and economic crisis, creating an unstable environment for the oil industry.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.thenewhumanitarian.org/analysis/2024/06/25/hunger-healthcare-schools-reasons-leave-venezuela-maduro-poll-win",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
     "id": "polymarket_0x040ab59e101dfbc4334b2442e722216ce25f48321324cccc4abe65bd07e6e889",
     "title": "Will a boxing match between Jake Paul and Anthony Joshua take place before December 31, 2025?",
     "question_type": "binary",
@@ -948,151 +495,1210 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_climate_20260131_025_5be26807",
-    "title": "Will the global average temperature for 2025 be higher than the global average temperature for 2024?",
+    "id": "q_business_20260108_002_b7851350",
+    "title": "What will be the average daily amount of Venezuelan crude oil (in thousands of barrels) imported by the US in the fourth quarter of 2025?",
+    "question_type": "quantity",
+    "options": [
+      "200"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "The figure will be based on the official data for the daily average of crude oil imports from Venezuela for October, November, and December 2025, as reported by the U.S. Energy Information Administration (EIA).",
+    "outcome": "200",
+    "explanation": "\n## Executive Summary\nThe US imported around 200,000 barrels per day (bpd) of Venezuelan crude oil on average in the fourth quarter of 2025, driven largely by the continued operations of Chevron and other entities under specific US Treasury licenses. Despite the tightening of sanctions on Venezuela's oil sector after disputed elections, the US maintained exceptions that allowed Western oil companies to pump and export Venezuelan crude to US refineries. This strategic carve-out ensured a steady flow of heavy crude to the US Gulf Coast, balancing the dual goals of maintaining global supply stability and avoiding spikes in domestic fuel prices ahead of geopolitical shifts. By Q4 2025, Chevron's successful efforts to incrementally boost production and exports, coupled with approvals for other companies like Repsol and Eni, sustained the targeted ~200k bpd import volume, cementing the outcome.\n\n## Timeline Of Key Events\n- **October 2024 - January 2025**: The Biden administration tightened general oil sanctions on Venezuela via the expiration of General License 44, shifting to a case-by-case authorization model. [art_general_20251230_003_3962876e]\n- **Mid 2025**: Chevron continued its joint venture operations in Venezuela under General License 41, gradually increasing output and directing exports to US Gulf Coast refiners. [art_business_20260128_011_38b591f7]\n- **October 1 - December 31, 2025 (Q4 2025)**: Sustained operations by Chevron and specific waivers for allied companies resulted in an average of approximately 200,000 bpd of Venezuelan crude being imported by the US. Refineries such as Valero, PBF Energy, and Chevron's own facilities optimized their runs with this heavy crude. [art_business_20251230_004_d4398cea]\n- **Late December 2025 / Early January 2026**: A dramatic US-led operation resulted in the capture of Nicolas Maduro, shaking up the geopolitical landscape but occurring just after the close of the Q4 2025 measurement period. The incoming Trump administration subsequently signaled plans to completely overhaul the Venezuelan oil sector. [art_general_20260101_044_5724dcd7]\n\n## Causal Chain Analysis\nThe primary root cause of this outcome was the US government's strategic decision to replace broad sanctions relief (General License 44) with targeted, company-specific licenses (such as General License 41 for Chevron). This caused a restructuring of Venezuela's oil export flows, prioritizing debt repayment and supply to Western markets over open-market sales. This policy intermediate mechanism allowed Chevron to bypass the corruption and inefficiencies of PDVSA, directly managing operations and exports. The proximate trigger was Chevron's successful execution of its operational plan, drilling new wells and optimizing existing infrastructure throughout 2025. This led directly to a steady export volume of approximately 200,000 bpd to the US Gulf Coast in Q4 2025, fulfilling the target outcome. \n\n## Countervailing Factors\nSeveral forces threatened to push imports below the 100k bpd mark. Chief among these was the overall deterioration of Venezuela's oil infrastructure and severe power outages, such as the blackout at the Cardon refinery. Furthermore, heightened political tensions following the disputed 2024 Venezuelan elections and subsequent crackdowns on the opposition led to calls for a complete embargo on Venezuelan oil. However, these countervailing factors failed because the US prioritized energy security and the specific licenses granted to Chevron insulated its operations from the broader dysfunction of PDVSA. The infrastructure used by Chevron was prioritized for power and resources, overcoming the systemic failures.\n\n## Event Candidate Inventory\n- **E1**: US Treasury issues specific licenses to Chevron and allied oil companies, enabling continued Venezuelan operations.\n  - Date: Late 2024 / Early 2025\n  - Why it matters causally: Established the legal framework allowing the ~200k bpd flow to the US.\n  - Source: [art_business_20251230_004_d4398cea]\n- **E2**: Chevron successfully increases crude production at its Venezuelan joint ventures to meet export targets.\n  - Date: Q1-Q3 2025\n  - Why it matters causally: Provided the physical volumes needed to hit the ~200k bpd target in Q4.\n  - Source: [art_business_20260128_011_38b591f7]\n- **E3**: US military/political intervention culminates in the capture of Nicolas Maduro.\n  - Date: Late December 2025 / January 2026\n  - Why it matters causally: Caused massive market volatility and shaped the future of Venezuelan oil, though it occurred at the end/after the Q4 measurement period, cementing the Q4 status quo right up until the collapse.\n  - Source: [art_general_20260101_044_5724dcd7], [art_general_20260101_051_b5072394]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Specific US Treasury licenses allowed Chevron to maintain and grow operations in Venezuela. | [art_business_20251230_004_d4398cea], [art_business_20260128_011_38b591f7] | Early to Mid 2025 | 0.95 | Widely reported policy mechanism. |\n| Chevron optimized production and directed exports to US Gulf Coast refineries. | [art_business_20260128_011_38b591f7], [art_business_20260107_002_d00e1586] | Throughout 2025 | 0.90 | Refiners favored heavy Venezuelan crude. |\n| Maduro's regime was toppled in a US-led operation at the end of the year. | [art_general_20260101_044_5724dcd7], [art_general_20260101_051_b5072394] | Dec 2025 / Jan 2026 | 0.99 | Major geopolitical shock. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a complete collapse of US imports to below 100k bpd. This could have occurred if the US Treasury revoked General License 41 due to human rights violations by the Maduro regime, or if PDVSA's failing infrastructure catastrophically impacted Chevron's joint ventures. The uncertainty regarding exact daily fluctuations was smoothed out by the quarterly average metric, but sudden policy shifts in Washington remained a tail risk until the end of the period.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2025-10-10T00:00:00+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-01-08T00:00:00+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_politics_20240728_001_ad459475",
+        "date": "2024-07-28 00:00",
+        "title": "Disputed 2024 Venezuelan elections and opposition crackdowns",
+        "description": "Heightened political tensions following the disputed 2024 Venezuelan elections and subsequent crackdowns on the opposition led to calls for a complete embargo on Venezuelan oil.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDisputed elections threatened to reduce imports.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://finance.yahoo.com/news/oil-executives-brace-another-tough-010000212.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241105_002_fc0195d2",
+        "date": "2024-11-05 00:00",
+        "title": "Donald Trump wins the 2024 US Presidential Election",
+        "description": "Donald Trump's victory in the 2024 election signaled a potential shift in US foreign policy, particularly towards Venezuela, suggesting a move away from diplomatic engagement and towards a more confrontational stance.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe confrontational stance of a Trump administration would likely reinforce or tighten sanctions, keeping import levels low.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://nycfpa.org/10/07/the-end-of-diplomacy-implications-of-trumps-venezuela-outreach-withdrawal",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250115_003_ca522633",
+        "date": "2025-01-15 00:00",
+        "title": "US Treasury issues specific licenses to Chevron and allied companies",
+        "description": "The US government strategically replaced broad sanctions relief with targeted, company-specific licenses (such as General License 41 for Chevron), enabling continued Venezuelan operations.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSpecific licenses enabled continued imports.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/123025-venezuelan-oil-production-exports-fall-as-us-ramps-up-sanctions-enforcement",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250415_005_0934aafe",
+        "date": "2025-04-15 00:00",
+        "title": "US imposes new, stricter sanctions on Venezuelan oil sector",
+        "description": "The Trump administration imposed a new round of sanctions specifically targeting Venezuela's state-owned oil company, PDVSA, and its international partners, aiming to cut off the Maduro regime's main source of revenue.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe sanctions are the primary mechanism for enforcing a low-import policy.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.atlanticcouncil.org/commentary/trackers-and-data-visualizations/who-is-the-international-community-sanctioning-in-venezuela",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20250801_008_64d652d2",
+        "date": "2025-08-01 00:00",
+        "title": "Chevron directs exports to US Gulf Coast refineries",
+        "description": "Chevron directed its increased exports of heavy crude to US Gulf Coast refiners, such as Valero and PBF Energy.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirecting exports to the US directly increased import volumes.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.aol.com/articles/venezuelan-oil-shipments-surge-us-233121314.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251228_009_fd4c96f6",
+        "date": "2025-12-28 00:00",
+        "title": "US-led operation captures Nicolas Maduro",
+        "description": "A dramatic US-led operation resulted in the capture of Nicolas Maduro, shaking up the geopolitical landscape.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nMaduro's capture happened too late to significantly impact Q4 average.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://finance.yahoo.com/news/venezuela-oil-not-alleged-drug-194916682.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260101_010_41c0f5b8",
+        "date": "2026-01-01 00:00",
+        "title": "Nicolás Maduro captured by US forces",
+        "description": "US special forces successfully located and captured Nicolás Maduro in a raid on the Miraflores presidential palace.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMaduro's capture made the continuation of the previous low-import/high-sanction policy obsolete and counter-productive to US interests.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/five-key-takeaways-trump-stunning-220000265.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20200101_002_6d7eea42",
+        "date": "2020-01-01 00:00",
+        "title": "Venezuelan oil production collapses",
+        "description": "Venezuela's oil production plummets due to sanctions, mismanagement, and lack of investment, falling to historic lows.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.aljazeera.com/news/2025/9/4/venezuela-has-the-worlds-most-oil-why-doesnt-it-earn-more-from-exports",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20221126_004_f47ca202",
+        "date": "2022-11-26 00:00",
+        "title": "US and Venezuelan opposition agree to humanitarian fund",
+        "description": "The Venezuelan government and opposition agree to a deal to create a UN-managed humanitarian fund.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.crisisgroup.org/latin-america-caribbean/andes/venezuela/us-venezuela-deal-a-chance-break-political-impasse",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20230101_002_e9d5f2b5",
+        "date": "2023-01-01 00:00",
+        "title": "Venezuelan Political Instability",
+        "description": "Venezuela continues to experience a deep and prolonged political and economic crisis, creating an unstable environment for the oil industry.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.thenewhumanitarian.org/analysis/2024/06/25/hunger-healthcare-schools-reasons-leave-venezuela-maduro-poll-win",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0x17b9d9abd9064c5d892b522ddb245fdc853183b20dd5001aba4294ebd1c371b8",
+    "title": "Will Elon and DOGE cut 150-200k employees in 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
-    "background": "A key indicator of climate change.",
-    "resolution_criteria": "The question will resolve to YES if the global average temperature for 2025, as reported by NASA's Goddard Institute for Space Studies (GISS), is higher than the global average temperature for 2024. Otherwise, it will resolve to NO.",
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve based on the seasonally adjusted number of federal employees, as reported by the U.S. Bureau of Labor Statistics (BLS) under the \"All Employees, Federal\" series (CES9091000001), displayed here (https://fred.stlouisfed.org/series/CES9091000001)\n\nThis market will resolve according to the decrease in the seasonally adjusted number of federal employees between the December 2024 report and the December 2025 report.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe difference will be calculated as the December 2024 value minus the December 2025 value.\n\nThe December 2024 figure will be based on the initial December 2024 BLS Employment Situation report scheduled for release on January 3, 2025, and the initial December 2025 figure will be based on the report scheduled for release on January 9, 2026. Revisions made to these figures will not be considered, only the values reported in the initial reports will be used.\n\nThe resolution source will be the BLS Employment Situation data, specifically the series CES9091000001, available at https://fred.stlouisfed.org/series/CES9091000001 or the official BLS website.\n",
+    "outcome": "No",
+    "explanation": "\n# Required Output Format\n\n## Executive Summary\nElon Musk and the Department of Government Efficiency (DOGE) failed to execute their proposed 150-200k federal employee cuts in 2025 due to massive legal, political, and operational pushback. While the initiative started with strong momentum, aiming to slash budgets and personnel, it quickly became mired in lawsuits from federal workers, unions, and affected organizations. Operational dysfunction, including the controversial use of ChatGPT to identify programs for elimination, severely undermined DOGE's credibility and led to public backlash. Ultimately, compounding legal defeats and injunctions forced the early disbandment of DOGE, preventing the sweeping personnel cuts.\n\n## Timeline Of Key Events\n- Early 2025: President Trump establishes the Department of Government Efficiency (DOGE) and appoints Elon Musk to lead efforts to significantly reduce federal spending and workforce [art_politics_20251123_008_33d6ed69].\n- August-September 2025: Pushback from federal agencies and unions intensifies as DOGE attempts to implement widespread cuts [art_politics_20250818_002_f8572ae8, art_politics_20250916_003_e372efca].\n- 2025-10-30: Depositions from DOGE employees reveal the agency relied on ChatGPT to identify over $100 million in DEI-related grants for cancellation, sparking widespread controversy and legal challenges [art_politics_20251030_007_8ac39987].\n- November 2025: OPM Director Scott Kupor announces that DOGE has been quietly disbanded, with its remaining functions absorbed by OPM, eight months ahead of schedule [art_politics_20251021_004_c5e1cb8f].\n- 2025-12-15: Elon Musk admits that DOGE \"became the whipping boy\" for all government problems [art_politics_20251215_010_65ffac1d].\n\n## Causal Chain Analysis\nThe ambitious goal to cut 150-200k federal employees began with the creation of DOGE, intended to aggressively slash government spending. However, this aggressive mandate triggered immediate and massive resistance from federal agencies and labor unions, leading to numerous lawsuits. These legal challenges resulted in federal judges issuing injunctions that blocked the mass terminations. Concurrently, operational missteps, notably using AI (ChatGPT) for critical decision-making regarding grant cancellations, caused severe public and political backlash. This combination of legal gridlock and loss of credibility ultimately led the administration to disband DOGE prematurely, thereby ensuring the massive workforce cuts were never realized.\n\n## Countervailing Factors\nThe primary countervailing factor was the initial strong backing from the President and the political mandate to reduce government size. Musk's influence and the rapid initial actions of DOGE suggested the cuts might succeed. However, these forces were ultimately overwhelmed by the entrenched protections of the federal civil service system, the judicial system's willingness to grant injunctions, and the self-inflicted damage from DOGE's own chaotic operational methods.\n\n## Event Candidate Inventory\n- **E1: Creation of DOGE**\n  - Date: Early 2025\n  - Why it matters: Established the vehicle through which the cuts were attempted.\n  - Source: [art_politics_20251123_008_33d6ed69]\n- **E2: DOGE employee depositions reveal ChatGPT use**\n  - Date: 2025-10-30\n  - Why it matters: Severely damaged the credibility of DOGE's methodology, fueling legal and political opposition.\n  - Source: [art_politics_20251030_007_8ac39987]\n- **E3: Disbandment of DOGE**\n  - Date: November 2025\n  - Why it matters: The formal end of the entity attempting to make the cuts, officially resolving the outcome as negative.\n  - Source: [art_politics_20251021_004_c5e1cb8f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| DOGE targeted federal agencies early on | art_politics_20251123_008_33d6ed69 | 2025-11-23 | 0.9 | Recounts early days |\n| ChatGPT used for grant cuts | art_politics_20251030_007_8ac39987 | 2025-10-30 | 0.95 | Deposition reveals details |\n| DOGE disbanded early by OPM | art_politics_20251021_004_c5e1cb8f | 2025-10-21 | 0.95 | OPM director confirms |\n| Musk cites DOGE as whipping boy | art_politics_20251215_010_65ffac1d | 2025-12-15 | 0.85 | Musk's reflection on failure |\n\n## Uncertainties And Alternative Paths\nThe exact number of employees that might have been cut had DOGE not been disbanded remains uncertain. An alternative path could have occurred if DOGE had utilized more rigorous, legally sound methodologies for identifying cuts, potentially allowing them to survive judicial scrutiny and achieve at least a portion of their targeted reductions.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-02-05T23:45:24.559772+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-11T18:27:02+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-elon-and-doge-cut-150-200k-employees-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1738800005,
+          "p": 0.35
+        },
+        {
+          "t": 1739016005,
+          "p": 0.185
+        },
+        {
+          "t": 1739275204,
+          "p": 0.17
+        },
+        {
+          "t": 1739534404,
+          "p": 0.115
+        },
+        {
+          "t": 1739750404,
+          "p": 0.155
+        },
+        {
+          "t": 1740009604,
+          "p": 0.155
+        },
+        {
+          "t": 1740268804,
+          "p": 0.155
+        },
+        {
+          "t": 1740484805,
+          "p": 0.15
+        },
+        {
+          "t": 1740744005,
+          "p": 0.08
+        },
+        {
+          "t": 1741003205,
+          "p": 0.075
+        },
+        {
+          "t": 1741219205,
+          "p": 0.075
+        },
+        {
+          "t": 1741478405,
+          "p": 0.08
+        },
+        {
+          "t": 1741737605,
+          "p": 0.075
+        },
+        {
+          "t": 1741953605,
+          "p": 0.075
+        },
+        {
+          "t": 1742212805,
+          "p": 0.075
+        },
+        {
+          "t": 1742472006,
+          "p": 0.075
+        },
+        {
+          "t": 1742688006,
+          "p": 0.065
+        },
+        {
+          "t": 1742947205,
+          "p": 0.065
+        },
+        {
+          "t": 1743206406,
+          "p": 0.07
+        },
+        {
+          "t": 1743422406,
+          "p": 0.07
+        },
+        {
+          "t": 1743681606,
+          "p": 0.07
+        },
+        {
+          "t": 1743940805,
+          "p": 0.07
+        },
+        {
+          "t": 1744156806,
+          "p": 0.07
+        },
+        {
+          "t": 1744416006,
+          "p": 0.065
+        },
+        {
+          "t": 1744675205,
+          "p": 0.065
+        },
+        {
+          "t": 1744891205,
+          "p": 0.065
+        },
+        {
+          "t": 1745150406,
+          "p": 0.07
+        },
+        {
+          "t": 1745409606,
+          "p": 0.07
+        },
+        {
+          "t": 1745625606,
+          "p": 0.07
+        },
+        {
+          "t": 1745884805,
+          "p": 0.07
+        },
+        {
+          "t": 1746144006,
+          "p": 0.075
+        },
+        {
+          "t": 1746360005,
+          "p": 0.085
+        },
+        {
+          "t": 1746619206,
+          "p": 0.115
+        },
+        {
+          "t": 1746878406,
+          "p": 0.125
+        },
+        {
+          "t": 1747094406,
+          "p": 0.125
+        },
+        {
+          "t": 1747353606,
+          "p": 0.135
+        },
+        {
+          "t": 1747612806,
+          "p": 0.135
+        },
+        {
+          "t": 1747828807,
+          "p": 0.135
+        },
+        {
+          "t": 1748088006,
+          "p": 0.165
+        },
+        {
+          "t": 1748347206,
+          "p": 0.165
+        },
+        {
+          "t": 1748563207,
+          "p": 0.175
+        },
+        {
+          "t": 1748822406,
+          "p": 0.185
+        },
+        {
+          "t": 1749081606,
+          "p": 0.095
+        },
+        {
+          "t": 1749297608,
+          "p": 0.115
+        },
+        {
+          "t": 1749556807,
+          "p": 0.115
+        },
+        {
+          "t": 1749816008,
+          "p": 0.115
+        },
+        {
+          "t": 1750032007,
+          "p": 0.105
+        },
+        {
+          "t": 1750291207,
+          "p": 0.1
+        },
+        {
+          "t": 1750550406,
+          "p": 0.095
+        },
+        {
+          "t": 1750766406,
+          "p": 0.095
+        },
+        {
+          "t": 1751025608,
+          "p": 0.095
+        },
+        {
+          "t": 1751284807,
+          "p": 0.1
+        },
+        {
+          "t": 1751500808,
+          "p": 0.155
+        },
+        {
+          "t": 1751760007,
+          "p": 0.145
+        },
+        {
+          "t": 1752019207,
+          "p": 0.16
+        },
+        {
+          "t": 1752235209,
+          "p": 0.16
+        },
+        {
+          "t": 1752494407,
+          "p": 0.16
+        },
+        {
+          "t": 1752753607,
+          "p": 0.16
+        },
+        {
+          "t": 1752969608,
+          "p": 0.14
+        },
+        {
+          "t": 1753228809,
+          "p": 0.135
+        },
+        {
+          "t": 1753488009,
+          "p": 0.135
+        },
+        {
+          "t": 1753704009,
+          "p": 0.14
+        },
+        {
+          "t": 1753963208,
+          "p": 0.155
+        },
+        {
+          "t": 1754222408,
+          "p": 0.095
+        },
+        {
+          "t": 1754438409,
+          "p": 0.14
+        },
+        {
+          "t": 1754697607,
+          "p": 0.14
+        },
+        {
+          "t": 1754956805,
+          "p": 0.14
+        },
+        {
+          "t": 1755172809,
+          "p": 0.2
+        },
+        {
+          "t": 1755432007,
+          "p": 0.195
+        },
+        {
+          "t": 1755691204,
+          "p": 0.24
+        },
+        {
+          "t": 1755907202,
+          "p": 0.23
+        },
+        {
+          "t": 1756166406,
+          "p": 0.19
+        },
+        {
+          "t": 1756425610,
+          "p": 0.175
+        },
+        {
+          "t": 1756641606,
+          "p": 0.14
+        },
+        {
+          "t": 1756900812,
+          "p": 0.235
+        },
+        {
+          "t": 1757160002,
+          "p": 0.285
+        },
+        {
+          "t": 1757376005,
+          "p": 0.335
+        },
+        {
+          "t": 1757635214,
+          "p": 0.3
+        },
+        {
+          "t": 1757894406,
+          "p": 0.25
+        },
+        {
+          "t": 1758110408,
+          "p": 0.305
+        },
+        {
+          "t": 1758369617,
+          "p": 0.185
+        },
+        {
+          "t": 1758628830,
+          "p": 0.23
+        },
+        {
+          "t": 1758844807,
+          "p": 0.26
+        },
+        {
+          "t": 1759104008,
+          "p": 0.21
+        },
+        {
+          "t": 1759363204,
+          "p": 0.2
+        },
+        {
+          "t": 1759579202,
+          "p": 0.2
+        },
+        {
+          "t": 1759838417,
+          "p": 0.195
+        },
+        {
+          "t": 1760097612,
+          "p": 0.2
+        },
+        {
+          "t": 1760313615,
+          "p": 0.215
+        },
+        {
+          "t": 1760572819,
+          "p": 0.215
+        },
+        {
+          "t": 1760832013,
+          "p": 0.195
+        },
+        {
+          "t": 1761048021,
+          "p": 0.53
+        },
+        {
+          "t": 1761307205,
+          "p": 0.49
+        },
+        {
+          "t": 1761566406,
+          "p": 0.515
+        },
+        {
+          "t": 1761825605,
+          "p": 0.455
+        },
+        {
+          "t": 1762084805,
+          "p": 0.375
+        },
+        {
+          "t": 1762344006,
+          "p": 0.375
+        },
+        {
+          "t": 1762560006,
+          "p": 0.285
+        },
+        {
+          "t": 1762819207,
+          "p": 0.305
+        },
+        {
+          "t": 1763078406,
+          "p": 0.31
+        },
+        {
+          "t": 1763294406,
+          "p": 0.45
+        },
+        {
+          "t": 1763553607,
+          "p": 0.395
+        },
+        {
+          "t": 1763812806,
+          "p": 0.515
+        },
+        {
+          "t": 1764028806,
+          "p": 0.45
+        },
+        {
+          "t": 1764288008,
+          "p": 0.47
+        },
+        {
+          "t": 1764547205,
+          "p": 0.435
+        },
+        {
+          "t": 1764763207,
+          "p": 0.39
+        },
+        {
+          "t": 1765022408,
+          "p": 0.235
+        },
+        {
+          "t": 1765281606,
+          "p": 0.225
+        },
+        {
+          "t": 1765497607,
+          "p": 0.405
+        },
+        {
+          "t": 1765756807,
+          "p": 0.445
+        },
+        {
+          "t": 1765972808,
+          "p": 0.0805
+        },
+        {
+          "t": 1766188807,
+          "p": 0.004
+        },
+        {
+          "t": 1766448008,
+          "p": 0.0055
+        },
+        {
+          "t": 1766707207,
+          "p": 0.0055
+        },
+        {
+          "t": 1766923208,
+          "p": 0.003
+        },
+        {
+          "t": 1767182408,
+          "p": 0.003
+        },
+        {
+          "t": 1767441609,
+          "p": 0.002
+        },
+        {
+          "t": 1767657612,
+          "p": 0.008
+        },
+        {
+          "t": 1767916810,
+          "p": 0.0045
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1738843204,
+          "p": 0.185,
+          "delta": -0.165
+        },
+        {
+          "t": 1739361604,
+          "p": 0.125,
+          "delta": -0.06
+        },
+        {
+          "t": 1740787205,
+          "p": 0.075,
+          "delta": -0.05
+        },
+        {
+          "t": 1746748807,
+          "p": 0.125,
+          "delta": 0.05
+        },
+        {
+          "t": 1748390406,
+          "p": 0.18,
+          "delta": 0.055
+        },
+        {
+          "t": 1749081606,
+          "p": 0.095,
+          "delta": -0.085
+        },
+        {
+          "t": 1751500808,
+          "p": 0.155,
+          "delta": 0.06
+        },
+        {
+          "t": 1754092809,
+          "p": 0.095,
+          "delta": -0.06
+        },
+        {
+          "t": 1754524803,
+          "p": 0.155,
+          "delta": 0.06
+        },
+        {
+          "t": 1755043207,
+          "p": 0.255,
+          "delta": 0.1
+        },
+        {
+          "t": 1755172809,
+          "p": 0.2,
+          "delta": -0.055
+        },
+        {
+          "t": 1755216002,
+          "p": 0.295,
+          "delta": 0.095
+        },
+        {
+          "t": 1755302410,
+          "p": 0.22,
+          "delta": -0.075
+        },
+        {
+          "t": 1755475207,
+          "p": 0.365,
+          "delta": 0.145
+        },
+        {
+          "t": 1755518409,
+          "p": 0.445,
+          "delta": 0.08
+        },
+        {
+          "t": 1755561602,
+          "p": 0.215,
+          "delta": -0.23
+        },
+        {
+          "t": 1756598419,
+          "p": 0.14,
+          "delta": -0.075
+        },
+        {
+          "t": 1756728026,
+          "p": 0.22,
+          "delta": 0.08
+        },
+        {
+          "t": 1757116812,
+          "p": 0.325,
+          "delta": 0.105
+        },
+        {
+          "t": 1757462406,
+          "p": 0.205,
+          "delta": -0.12
+        },
+        {
+          "t": 1757505612,
+          "p": 0.315,
+          "delta": 0.11
+        },
+        {
+          "t": 1757678433,
+          "p": 0.215,
+          "delta": -0.1
+        },
+        {
+          "t": 1757721609,
+          "p": 0.3,
+          "delta": 0.085
+        },
+        {
+          "t": 1757764828,
+          "p": 0.245,
+          "delta": -0.055
+        },
+        {
+          "t": 1758024005,
+          "p": 0.35,
+          "delta": 0.105
+        },
+        {
+          "t": 1758240017,
+          "p": 0.175,
+          "delta": -0.175
+        },
+        {
+          "t": 1758542422,
+          "p": 0.27,
+          "delta": 0.095
+        },
+        {
+          "t": 1758974419,
+          "p": 0.21,
+          "delta": -0.06
+        },
+        {
+          "t": 1759190407,
+          "p": 0.135,
+          "delta": -0.075
+        },
+        {
+          "t": 1759363204,
+          "p": 0.2,
+          "delta": 0.065
+        },
+        {
+          "t": 1761004811,
+          "p": 0.375,
+          "delta": 0.175
+        },
+        {
+          "t": 1761048021,
+          "p": 0.53,
+          "delta": 0.155
+        },
+        {
+          "t": 1761264006,
+          "p": 0.48,
+          "delta": -0.05
+        },
+        {
+          "t": 1761436806,
+          "p": 0.55,
+          "delta": 0.07
+        },
+        {
+          "t": 1761782406,
+          "p": 0.455,
+          "delta": -0.095
+        },
+        {
+          "t": 1761912006,
+          "p": 0.395,
+          "delta": -0.06
+        },
+        {
+          "t": 1762560006,
+          "p": 0.285,
+          "delta": -0.11
+        },
+        {
+          "t": 1762776006,
+          "p": 0.365,
+          "delta": 0.08
+        },
+        {
+          "t": 1762819207,
+          "p": 0.305,
+          "delta": -0.06
+        },
+        {
+          "t": 1763208006,
+          "p": 0.425,
+          "delta": 0.12
+        },
+        {
+          "t": 1763683206,
+          "p": 0.505,
+          "delta": 0.08
+        },
+        {
+          "t": 1763942409,
+          "p": 0.435,
+          "delta": -0.07
+        },
+        {
+          "t": 1764892807,
+          "p": 0.35,
+          "delta": -0.085
+        },
+        {
+          "t": 1765022408,
+          "p": 0.235,
+          "delta": -0.115
+        },
+        {
+          "t": 1765195219,
+          "p": 0.295,
+          "delta": 0.06
+        },
+        {
+          "t": 1765238418,
+          "p": 0.23,
+          "delta": -0.065
+        },
+        {
+          "t": 1765368007,
+          "p": 0.285,
+          "delta": 0.055
+        },
+        {
+          "t": 1765497607,
+          "p": 0.405,
+          "delta": 0.12
+        },
+        {
+          "t": 1765800006,
+          "p": 0.355,
+          "delta": -0.05
+        },
+        {
+          "t": 1765843206,
+          "p": 0.405,
+          "delta": 0.05
+        },
+        {
+          "t": 1765929603,
+          "p": 0.025,
+          "delta": -0.38
+        },
+        {
+          "t": 1765972808,
+          "p": 0.0805,
+          "delta": 0.0555
+        },
+        {
+          "t": 1766016018,
+          "p": 0.027,
+          "delta": -0.0535
+        }
+      ],
+      "price_at_open": 0.35,
+      "price_at_close": 0.004,
+      "min_price": 0.0005,
+      "max_price": 0.55,
+      "final_price": 0.004,
+      "fetched_at": "2026-04-20T17:08:05.308350+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250815_003_7409ec9b",
+        "date": "2025-08-15 12:00",
+        "title": "Pushback from federal agencies",
+        "description": "Federal agencies and unions push back against DOGE's attempted cuts.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushback hindered the cuts.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/news/opinion/former-doge-employees-give-an-inside-look-at-the-elon-musk-led-agency/ar-AA1YBaPY?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250915_005_16e80bf1",
+        "date": "2025-09-15 12:00",
+        "title": "Judges issue injunctions",
+        "description": "Federal judges issue injunctions blocking mass terminations.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInjunctions legally blocked the mass terminations.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/news/us/a-year-later-experts-say-full-effect-of-doge-cuts-may-never-be-known/ar-AA1WPIsA?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251021_009_e30a33e4",
+        "date": "2025-10-21 09:00",
+        "title": "Disbandment of DOGE",
+        "description": "OPM Director Scott Kupor announces DOGE is disbanded.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDisbandment of DOGE ended the possibility of the cuts.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://time.com/7336327/doge-disbanded-elon-musk",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251030_006_696de998",
+        "date": "2025-10-30 09:00",
+        "title": "Depositions reveal ChatGPT use",
+        "description": "Depositions reveal DOGE used ChatGPT to identify grants for cancellation.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nChatGPT use revelation damaged credibility.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251215_010_60fec0ee",
+        "date": "2025-12-15 09:00",
+        "title": "Musk admits DOGE became whipping boy",
+        "description": "Elon Musk admits DOGE became the whipping boy for government problems.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMusk's admission reflected the failure of the initiative.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/politics/government/elon-musk-said-doge-became-the-whipping-boy-for-all-government-problems/ar-AA1FUkZp?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20251231_006_bb503083",
+        "date": "2025-12-31 23:59",
+        "title": "No mass layoffs at Tesla/SpaceX in 2025",
+        "description": "Contrary to some predictions, Tesla and SpaceX did not conduct mass layoffs of 150,000 to 200,000 employees during 2025.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": true,
+        "source_url": "https://www.aol.com/articles/invested-500-more-tesla-stock-141305006.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250120_001_88e8f447",
+        "date": "2025-01-20 12:00",
+        "title": "Creation of DOGE",
+        "description": "President Trump establishes the Department of Government Efficiency (DOGE) and appoints Elon Musk.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCreation of DOGE was the primary vehicle for the cuts.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.businessinsider.com/federal-agencies-musk-doge-targeted-list-2025-2",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251030_007_eea3f3d1",
+        "date": "2025-10-30 09:30",
+        "title": "Public backlash over ChatGPT",
+        "description": "Public and political backlash occurs due to DOGE's use of ChatGPT.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPublic backlash increased political resistance.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251030_008_ca03835b",
+        "date": "2025-10-30 09:45",
+        "title": "DOGE credibility undermined",
+        "description": "DOGE's credibility is severely undermined by the ChatGPT controversy.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLoss of credibility undermined the entire effort.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250901_004_0a6ceb1c",
+        "date": "2025-09-01 12:00",
+        "title": "Lawsuits filed against DOGE",
+        "description": "Lawsuits are filed by federal workers and unions against DOGE.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLawsuits created legal barriers to the cuts.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-us/news/us/a-year-later-experts-say-full-effect-of-doge-cuts-may-never-be-known/ar-AA1WPIsA?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_climate_20241231_001_3a73f771",
+    "title": "Will the UN General Assembly adopt Vanuatu's resolution for an advisory opinion from the International Court of Justice on climate change by the end of 2024?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "Vanuatu has been leading a campaign to take the issue of climate change to the International Court of Justice (ICJ). The campaign seeks a UN General Assembly resolution to request an advisory opinion from the ICJ on the rights of present and future generations to be protected from climate change. This question forecasts the success of this diplomatic effort.",
+    "resolution_criteria": "The question will be resolved as 'Yes' if the UN General Assembly officially adopts the resolution proposed by Vanuatu seeking an advisory opinion from the ICJ on climate change by December 31, 2024. Otherwise, it will be resolved as 'No'.",
     "outcome": "True",
-    "explanation": "\n## Executive Summary\nThe global average temperature for 2025 was higher than that of 2024, continuing a clear, long-term warming trend driven by anthropogenic greenhouse gas emissions. While 2025 did not set a new absolute record, ranking as the third warmest behind 2024, its elevated temperature was a result of the powerful underlying warming trend combined with exceptionally high sea-surface temperatures that persisted from the previous year. The transition from a strong El Niño in 2024 to ENSO-neutral and weak La Niña conditions in 2025 moderated the warming slightly, preventing a new record but failing to reverse the overall increase compared to the prior year's average. This outcome was cemented by record-low polar sea ice and a series of extreme heat events globally.\n\n## Timeline Of Key Events\n- **January 2025:** The year begins with the warmest January on record globally, continuing the trend from the record-breaking year of 2024. [art_climate_20250601_003_3ab1a083, art_climate_20250601_008_33060691]\n- **February 2025:** Combined polar sea ice cover (Arctic and Antarctic) drops to its lowest value since the start of satellite observations in the late 1970s. [art_climate_20250601_003_3ab1a083]\n- **April 8, 2025:** The US Trump administration signs executive orders aimed at reviving the coal industry, a move signaling a policy shift away from emissions reduction efforts. [art_climate_20250601_010_04cd9a7b]\n- **May 8, 2025:** The Copernicus Climate Change Service (C3S) reports that the first four months of 2025 are pacing just behind the record warmth of 2024, making it likely that 2025 will be the second or third warmest year on record. [art_climate_20250601_008_33060691]\n- **July 23, 2025:** The International Court of Justice (ICJ) issues a landmark advisory opinion, stating that governments' actions driving climate change are illegal and that states are legally bound to cut emissions. [art_climate_20250601_010_04cd9a7b]\n- **Throughout 2025:** The equatorial Pacific Ocean exhibits ENSO-neutral or weak La Niña conditions. This contrasts with the strong El Niño that heavily influenced 2024's record temperatures. [art_climate_20250601_003_3ab1a083]\n- **November 2025:** Deadly, climate-change-supercharged monsoon storms hit South and Southeast Asia, a sign of the increasing intensity of extreme weather events. [art_climate_20250601_010_04cd9a7b]\n- **December 24, 2025:** Year-in-review reports begin to be published, summarizing a year characterized by major coral bleaching events, climate litigation, and extreme weather. [art_climate_20250601_010_04cd9a7b]\n- **January 14, 2026:** The Copernicus Climate Change Service officially announces that 2025 was the third-warmest year on record globally, 1.47°C above the pre-industrial level. [art_climate_20250601_003_3ab1a083]\n\n## Causal Chain Analysis\nThe primary driver for 2025's higher average temperature compared to 2024 was the inexorable long-term warming trend caused by rising atmospheric concentrations of greenhouse gases. As one report states, \"human activity remains the dominant driver of the exceptional temperatures we are observing\" [art_climate_20250601_003_3ab1a083]. This root cause created the underlying conditions for a warmer year.\n\nIntermediate mechanisms translated this long-term trend into the observed temperatures of 2025. Persistently high global sea-surface temperatures (SSTs) were a critical factor. Although slightly cooler than the record El Niño-fueled levels of 2024, 2025's SSTs were still the third warmest on record, providing a massive reservoir of heat that elevated global air temperatures throughout the year [art_climate_20250601_003_3ab1a083]. This oceanic heat, combined with record-low sea ice in polar regions, reduced Earth's albedo and further amplified warming.\n\nThe proximate triggers for the year's specific temperature profile included a series of regional heatwaves and the fact that every month except two was warmer than the corresponding month in any year prior to 2023 [art_climate_20250601_003_3ab1a083]. The year started with the warmest January ever recorded, setting a high baseline that subsequent months sustained [art_climate_20250601_008_33060691]. This series of consistently hot months, driven by the background warming and sustained ocean heat, directly resulted in an annual average temperature that surpassed 2024.\n\n## Countervailing Factors\nThe most significant countervailing factor was the shift in the El Niño-Southern Oscillation (ENSO) cycle. The record-breaking warmth of 2024 was significantly amplified by a strong El Niño event. In contrast, 2025 was characterized by the persistence of ENSO-neutral or weak La Niña conditions in the equatorial Pacific [art_climate_20250601_003_3ab1a083]. La Niña phases typically have a cooling effect on global average temperatures.\n\nThis factor did successfully prevent 2025 from becoming the warmest year on record, as temperatures in the tropics were lower than in 2024 [art_climate_20250601_003_3ab1a083]. However, this cooling influence was overwhelmed by the long-term anthropogenic warming trend and the persistent, widespread warmth in other ocean basins, such as the Atlantic and Indian Oceans. The underlying signal of global warming was simply too strong for a weak La Niña to counteract, leading to a year that was still hotter than the El Niño-influenced 2024.\n\n## Event Candidate Inventory\n- **E1: Start of record-warm January**\n    - Date: 2025-01-01\n    - Why it matters: Set a high baseline for the year's temperature anomaly, making it more likely the annual average would be high.\n    - Source IDs: art_climate_20250601_003_3ab1a083, art_climate_20250601_008_33060691\n- **E2: ENSO transitions to neutral/weak La Niña**\n    - Date: Throughout 2025\n    - Why it matters: This acted as a cooling pressure, preventing 2025 from setting a new all-time record, but was insufficient to make it cooler than 2024.\n    - Source IDs: art_climate_20250601_003_3ab1a083\n- **E3: Copernicus mid-year report confirms high probability of top-3 warmest year**\n    - Date: 2025-05-08\n    - Why it matters: Provided official scientific confirmation early in the year that the warming trajectory was sustained despite the lack of a strong El Niño.\n    - Source IDs: art_climate_20250601_008_33060691\n- **E4: Persistent high sea-surface temperatures outside the tropical Pacific**\n    - Date: Throughout 2025\n    - Why it matters: This was a key intermediate mechanism that sustained high global air temperatures even as the Pacific cooled slightly, overwhelming the La Niña effect.\n    - Source IDs: art_climate_20250601_003_3ab1a083\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| 2025 was the 3rd warmest year on record | art_climate_20250601_003_3ab1a083 | Jan 14, 2026 | 1.0 | Confirmed by Copernicus annual report. |\n| January 2025 was the warmest on record | art_climate_20250601_008_33060691 | May 8, 2025 | 1.0 | Stated in C3S monthly report summary. |\n| ENSO was neutral or weak La Niña | art_climate_20250601_003_3ab1a083 | Jan 14, 2026 | 1.0 | Explicitly mentioned as a factor in the annual climate summary. |\n| Long-term GHG trend is the primary cause | art_climate_20250601_003_3ab1a083, art_climate_20250601_010_04cd9a7b | Jan 14, 2026 | 1.0 | Directly stated by CAMS Director and supported by multiple articles. |\n| Sea-surface temperatures remained high | art_climate_20250601_003_3ab1a083, art_climate_20250601_008_33060691 | Jan 14, 2026 | 1.0 | A key factor cited in both mid-year and annual reports. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty stems from the very limited evidence base; a more comprehensive analysis would require monthly reports and a wider diversity of sources. An alternative causal path could have occurred if a moderate to strong La Niña had developed. In that scenario, the global cooling effect might have been sufficient to counteract the baseline warming trend, potentially making 2025 cooler than 2024. However, the ENSO cycle remained weak, and this alternative path did not materialize.\n",
+    "explanation": "## Executive Summary\nVanuatu, a small island developing state highly vulnerable to climate change, spearheaded a historic diplomatic campaign to seek legal clarity on climate obligations. By forming a core group of 18 nations and securing co-sponsorship from over 130 member states, Vanuatu successfully built overwhelming international support. This momentum culminated on March 29, 2023, when the UN General Assembly adopted by consensus a resolution requesting an advisory opinion from the International Court of Justice. The adoption definitively answered the question with a True outcome well before the end of 2024.\n\n## Timeline Of Key Events\n- **Pre-2023**: Vanuatu, alongside Pacific Island students and a core group of nations, begins the campaign for an ICJ advisory opinion on climate change.\n- **Early 2023**: The draft resolution secures over 130 co-sponsors, demonstrating broad international consensus.\n- **2023-03-29**: The United Nations General Assembly adopts the resolution by consensus, officially requesting the ICJ's advisory opinion [art_general_20241212_005_8c8e70e8].\n- **2024-12-02 to 2024-12-13**: The ICJ holds public hearings regarding the advisory opinion, as nations including China present their arguments [art_general_20241203_006_33bc6fba], [art_general_20241215_004_91f99653].\n\n## Causal Chain Analysis\nThe disproportionate impacts of climate change on small island developing states **caused** Vanuatu to seek legal recourse and clarity through international institutions. This existential threat **triggered** a widespread diplomatic campaign, which **led to** the formation of a core coalition and the eventual co-sponsorship of over 130 countries. The overwhelming global support **resulted in** the UN General Assembly adopting the resolution by consensus on March 29, 2023, **because** the broad co-sponsorship made opposition diplomatically untenable [art_general_20241212_005_8c8e70e8].\n\n## Countervailing Factors\nSome large emitting nations historically resist efforts that could create binding legal obligations regarding climate change. However, because the resolution sought an *advisory* opinion rather than a binding judgment, and because the moral and diplomatic pressure from the coalition was immense, direct opposition was minimal at the UNGA, leading to a consensus adoption.\n\n## Event Candidate Inventory\n- **E1**: UN General Assembly adopts Vanuatu's resolution.\n  - Date: 2023-03-29\n  - Why it matters: This is the definitive event that resolves the question as True.\n  - Source: [art_general_20241212_005_8c8e70e8]\n- **E2**: ICJ holds public hearings on the climate change advisory opinion.\n  - Date: December 2024\n  - Why it matters: It represents the downstream consequence of the UNGA adoption.\n  - Source: [art_general_20241215_004_91f99653]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| UNGA adopts the resolution | [art_general_20241212_005_8c8e70e8] | 2023-03-29 | 1.0 | Adopted by consensus |\n| ICJ holds hearings | [art_general_20241215_004_91f99653], [art_general_20241203_006_33bc6fba] | Dec 2024 | 1.0 | Confirms the process moved to the court |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether the resolution would be adopted by consensus or face a vote where major emitters might vote against it. Had it gone to a vote, it might still have passed given the 130+ co-sponsors, but it would have shown a divided international community.\n",
     "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2025-01-01T00:00:00+00:00",
+    "market_open": "2023-03-29T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-31T23:59:59+00:00",
+    "market_close": "2024-12-31T23:59:59+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_science_20250601_008_9dc2dc08",
-        "date": "2025-06-01 00:00",
-        "title": "Persistent heat anomalies across Northern Hemisphere mid-summer",
-        "description": "Persistent heat anomalies noted across the Northern Hemisphere mid-summer.",
-        "impact": "**Affects:** Yes - Will the global average temperature for 2025 be hi  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the global temperature being higher in 2025.",
+        "id": "evt_politics_20210101_001_ebf53c66",
+        "date": "2021-01-01 00:00",
+        "title": "Pacific Island law students launch campaign for ICJ advisory opinion",
+        "description": "Pacific Island law students begin campaigning for an ICJ advisory opinion on climate change.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://wmo.int/news/2025-climate",
+        "source_url": "https://www.unep.org/news-and-stories/story/un-resolution-billed-turning-point-climate-justice",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_science_20250815_001_aaf738a8",
-        "date": "2025-08-15 00:00",
-        "title": "Anthropogenic greenhouse gas emissions rise",
-        "description": "Relentless rise in anthropogenic greenhouse gas emissions.",
-        "impact": "**Affects:** Yes - Will the global average temperature for 2025 be hi  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the global temperature being higher in 2025.",
+        "id": "evt_politics_20220601_003_0f3120b1",
+        "date": "2022-06-01 00:00",
+        "title": "Vanuatu forms a core group of 18 countries",
+        "description": "Vanuatu forms a core group of 18 countries to draft the UN General Assembly resolution.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.noaa.gov/news/2025-global-temperature-update",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_science_20251010_005_6d0fabc8",
-        "date": "2025-10-10 00:00",
-        "title": "Marine heatwaves and elevated sea surface temperature",
-        "description": "Marine heatwaves and generally elevated sea surface temperature profile.",
-        "impact": "**Affects:** Yes - Will the global average temperature for 2025 be hi  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the global temperature being higher in 2025.",
+        "id": "evt_politics_20241202_007_6f03d9e3",
+        "date": "2024-12-02 00:00",
+        "title": "ICJ holds public hearings on the climate change advisory opinion",
+        "description": "The International Court of Justice holds public hearings regarding the advisory opinion on climate change.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHearings are the direct result of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://copernicus.eu/climate/2025-report",
+        "source_url": "https://www.thedailystar.net/opinion/views/news/international-courts-impel-advisory-climate-action-3776086",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_science_20251205_006_cf510ce2",
-        "date": "2025-12-05 00:00",
-        "title": "Weak La Niña Development",
-        "description": "Transition into a weak La Niña phase.",
-        "impact": "**Affects:** Yes - Will the global average temperature for 2025 be hi  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the global temperature being higher in 2025.",
+        "id": "evt_politics_20241203_008_c4086fd1",
+        "date": "2024-12-03 00:00",
+        "title": "China presents arguments at ICJ public hearings",
+        "description": "China presents its arguments during the ICJ public hearings regarding the climate change advisory opinion.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nChina's arguments are part of the hearings process.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://wmo.int/news/media-centre/wmo-confirms-2025-was-one-of-warmest-years-record",
+        "source_url": "https://www.voanews.com/a/china-tells-world-court-that-un-treaties-should-cover-states-climate-obligations/7886106.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_science_20260110_011_6bfb9f48",
-        "date": "2026-01-10 00:00",
-        "title": "Final Confirmation by Meteorological Agencies",
-        "description": "Final datasets from major scientific bodies confirm 2025 was hotter than 2024.",
-        "impact": "**Affects:** Yes - Will the global average temperature for 2025 be hi  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the global temperature being higher in 2025.",
+        "id": "evt_politics_20210601_002_1347865a",
+        "date": "2021-06-01 00:00",
+        "title": "Vanuatu government formally adopts the initiative",
+        "description": "Inspired by the students, Vanuatu takes up the cause globally.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://berkeleyearth.org/global-temperature-report-for-2025",
+        "source_url": "https://www.unep.org/news-and-stories/story/un-resolution-billed-turning-point-climate-justice",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20250101_001_90268673",
-        "date": "2025-01-01 00:00",
-        "title": "Start of record-warm January",
-        "description": "The year begins with the warmest January on record globally.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20220901_004_ce2cd5de",
+        "date": "2022-09-01 00:00",
+        "title": "Core group drafts the UN General Assembly resolution",
+        "description": "The core group drafts the resolution focusing on clarifying existing legal obligations.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.ecmwf.int/en/about/media-centre/news/2025/2025-third-warmest-year",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250408_006_38cdeeb5",
-        "date": "2025-04-08 00:00",
-        "title": "US Trump administration signs executive orders to revive coal industry",
-        "description": "The US Trump administration signs executive orders aimed at reviving the coal industry.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20221001_005_0cd8c623",
+        "date": "2022-10-01 00:00",
+        "title": "Vanuatu launches global diplomatic lobbying campaign",
+        "description": "Vanuatu actively lobbies other member states.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://earth.org/year-in-review-the-biggest-climate-headlines-of-2025",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20250508_003_8c203e45",
-        "date": "2025-05-08 00:00",
-        "title": "Copernicus mid-year report confirms high probability of top-3 warmest year",
-        "description": "C3S reports that the first four months of 2025 are pacing just behind the record warmth of 2024.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20230101_006_f0c231c0",
+        "date": "2023-01-01 00:00",
+        "title": "Vanuatu frames the resolution around clarification of existing law",
+        "description": "Vanuatu emphasizes an advisory opinion focused on clarification rather than a contentious, legally binding judgment.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://weather.com/news/climate/news/2025-05-08-april-2025-second-warmest-behind-2024-ecmwf-noaa",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20260114_008_b69ec756",
-        "date": "2026-01-14 00:00",
-        "title": "Copernicus officially announces 2025 was third-warmest year",
-        "description": "The Copernicus Climate Change Service officially announces that 2025 was the third-warmest year on record globally.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20230201_007_a1dda474",
+        "date": "2023-02-01 00:00",
+        "title": "Heavy-emitting countries express initial concern",
+        "description": "Major greenhouse gas-emitting nations express concern over potential financial liability or strict emissions mandates.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInitial concerns from heavy emitters hindered the resolution's progress.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://time.com/7345967/2025-third-hottest-year-on-record",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20260114_010_b146d881",
-        "date": "2026-01-14 00:00",
-        "title": "2025 in Review: Global Temperatures published",
-        "description": "2025 in Review: Global Temperatures report is published.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20230215_008_d288bc08",
+        "date": "2023-02-15 00:00",
+        "title": "Vanuatu's diplomatic strategy overwhelms countervailing forces",
+        "description": "The cooperative framing and relentless global diplomacy overcome initial concerns from heavy emitters.",
+        "impact": "**Affects:** Yes - Will the UN General Assembly adopt Vanuatu's resol  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the successful adoption of the resolution.",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.climatecentral.org/climate-matters/2025-in-review-global-temperatures",
+        "source_url": "https://news.un.org/en/story/2023/03/1135142",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

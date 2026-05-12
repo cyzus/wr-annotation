@@ -1,5 +1,577 @@
 var annotationData = [
   {
+    "id": "polymarket_0x60c7d191ee2808417523e00ac85a4682324af4f1d887243f9f69b388524d6942",
+    "title": "Russia x Ukraine ceasefire by February 28, 2026?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf the agreement is officially reached before the resolution date, this market will resolve to \"Yes,\" regardless of whether the ceasefire officially starts afterward.\n\nOnly ceasefires which constitute a general pause in the conflict will qualify. Ceasefires which only apply to energy infrastructure, the Black Sea, or other similar agreements will not qualify.\n\nAny form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.\n\nA peace deal or political framework will qualify if it includes a publicly announced and mutually agreed halt in military engagement, effective on a specific date. Frameworks or agreements that outline terms for a future peace but do not include an explicit, dated commitment to stop fighting will not count.\n\nThis market's resolution will be based on official announcements from both Russia and Ukraine; however, a wide consensus of credible media reporting stating an official ceasefire agreement between Russia and Ukraine has been reached will suffice.",
+    "outcome": "No",
+    "explanation": "\n# Executive Summary\nThe attempt to secure a Russia-Ukraine ceasefire by February 28, 2026, ultimately failed due to deeply entrenched and incompatible strategic objectives between the two nations. Despite an intensive diplomatic push by the incoming Trump administration to broker a rapid peace deal, fundamental disagreements remained regarding territorial concessions and long-term security guarantees for Ukraine. Mediation efforts, notably the trilateral meetings in Geneva in mid-February, were derailed by ongoing military escalations and Russia's maximalist demands. As a result, the four-year anniversary of the war passed with continued hostilities, leaving a formal ceasefire out of reach before the February 28 deadline.\n\n# Timeline Of Key Events\n- **February 15, 2026:** Ukrainian forces launched strikes against a Russian oil hub ahead of a major European summit, demonstrating continued military pressure and hardening stances ([art_politics_20260215_002_427a2421]).\n- **February 15, 2026:** Reports emerge that the Trump administration's expedited peace deal has stalled as the war approaches its four-year mark ([art_politics_20260215_004_93d17302], [art_politics_20260215_005_456ba566]).\n- **February 17-18, 2026:** Trilateral US-Ukraine-Russia meetings were held in Geneva, but failed to produce any significant breakthrough or agreement on ceasefire terms ([art_politics_20260218_009_da6d7307], [art_politics_20260218_015_581305bc]).\n- **February 23, 2026:** The UN General Assembly gathered to mark the \"grim\" fourth anniversary of the full-scale invasion, highlighting the lack of diplomatic progress ([art_politics_20260223_003_c8fd282e]).\n- **February 24, 2026:** The Russia-Ukraine war officially entered its fifth year with no end in sight and peace remaining highly elusive ([art_politics_20260224_011_0aebc541]).\n- **February 26, 2026:** Analysts publicly concluded that despite high-profile diplomatic efforts, clashing maximalist demands made a short-term ceasefire highly unlikely by the end of the month ([art_politics_20260226_014_ac3ce9f1]).\n\n# Causal Chain Analysis\nThe failure to achieve a ceasefire by February 28, 2026, was driven by a clear causal chain:\n1. **Root Causes:** The deeply entrenched incompatibility between Russia's maximalist territorial demands and Ukraine's existential need for sovereignty and robust security guarantees created an intractable baseline ([art_politics_20260226_014_ac3ce9f1]).\n2. **Intermediate Mechanisms:** The Trump administration launched a high-pressure diplomatic initiative aimed at securing a quick resolution. However, this effort underestimated the complexity of the conflict. The US-brokered trilateral meetings in Geneva (February 17-18) exposed these irreconcilable differences, leading to a diplomatic stalemate ([art_politics_20260218_009_da6d7307], [art_politics_20260215_004_93d17302]).\n3. **Proximate Triggers:** Ongoing military engagements, including strategic Ukrainian strikes on Russian infrastructure, undermined any fragile trust needed for a temporary truce. These escalations reinforced domestic political pressure on both sides to avoid perceived capitulation ([art_politics_20260215_002_427a2421]).\n4. **Final Outcome:** Because neither side was willing to concede core strategic demands and mediation failed to bridge the gap, the February 28 deadline passed without any formalized cessation of hostilities ([art_politics_20260215_005_456ba566]).\n\n# Countervailing Factors\nThe primary countervailing factor was the intense diplomatic pressure from the United States, specifically the Trump administration's campaign promise to end the war \"within 24 hours.\" This push led to direct negotiations, including the Geneva meetings, which temporarily raised expectations for a breakthrough. However, this top-down diplomatic pressure failed because it lacked a mechanism to enforce compromises on deeply held territorial and security red lines, ultimately being overwhelmed by the strategic realities on the ground.\n\n# Event Candidate Inventory\n- **E1: Ukrainian strike on Russian oil hub**\n  - Date: ~February 15, 2026\n  - Why it matters causally: Showed ongoing military escalation and willingness to strike strategic targets, undermining peace talk momentum.\n  - Source article IDs: [art_politics_20260215_002_427a2421]\n\n- **E2: Stalling of Trump's peace deal**\n  - Date: ~February 15, 2026\n  - Why it matters causally: Indicated that the primary external diplomatic pressure mechanism had lost its momentum.\n  - Source article IDs: [art_politics_20260215_004_93d17302], [art_politics_20260215_005_456ba566]\n\n- **E3: US-Ukraine-Russia trilateral meetings in Geneva**\n  - Date: February 17-18, 2026\n  - Why it matters causally: The failure of these talks confirmed the impossibility of a short-term negotiated ceasefire before the end of February.\n  - Source article IDs: [art_politics_20260218_009_da6d7307]\n\n- **E4: 4th Anniversary of the war**\n  - Date: February 24, 2026\n  - Why it matters causally: Marked a psychological and political milestone where both sides entrenched their positions further rather than seeking immediate peace.\n  - Source article IDs: [art_politics_20260224_011_0aebc541], [art_politics_20260223_003_c8fd282e]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| --- | --- | --- | --- | --- |\n| Kyiv strikes Russian oil hub ahead of summit | [art_politics_20260215_002_427a2421] | 2026-02-15 | 0.95 | Escalation right before major talks. |\n| Trump peace deal stalls as war hits 4-year mark | [art_politics_20260215_004_93d17302], [art_politics_20260215_005_456ba566] | 2026-02-15 | 0.95 | Confirms failure of immediate US diplomatic push. |\n| US-Ukraine-Russia trilateral meetings in Geneva | [art_politics_20260218_009_da6d7307], [art_politics_20260218_015_581305bc] | 2026-02-17 to 2026-02-18 | 0.95 | Key mediation effort that ended without a ceasefire. |\n| War enters its fifth year / 4th anniversary | [art_politics_20260224_011_0aebc541], [art_politics_20260223_003_c8fd282e] | 2026-02-23 to 2026-02-24 | 1.00 | Confirms ongoing hostilities past late February. |\n| Clashing maximalist demands prevent peace | [art_politics_20260226_014_ac3ce9f1] | 2026-02-26 | 0.90 | Expert analysis of the root causes of the stalemate. |\n\n# Uncertainties And Alternative Paths\n- **Uncertainty:** The exact details of the concessions demanded during the Geneva talks remain somewhat opaque, leaving the exact breaking point of the negotiations unclear.\n- **Alternative Path:** If the US had successfully leveraged significant military aid threats or if internal political shifts in either Russia or Ukraine forced a compromise, a temporary, fragile freeze in conflict (a \"frozen conflict\" state) might have been achieved by late February.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2026-01-22T18:38:49.926837+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-03-01T09:25:01+00:00",
+    "polymarket_url": "https://polymarket.com/event/russia-x-ukraine-ceasefire-by-february-28-2026",
+    "price_data": {
+      "history": [
+        {
+          "t": 1769126444,
+          "p": 0.1
+        },
+        {
+          "t": 1769212842,
+          "p": 0.1
+        },
+        {
+          "t": 1769256042,
+          "p": 0.085
+        },
+        {
+          "t": 1769299247,
+          "p": 0.075
+        },
+        {
+          "t": 1769385647,
+          "p": 0.07
+        },
+        {
+          "t": 1769428841,
+          "p": 0.065
+        },
+        {
+          "t": 1769472040,
+          "p": 0.065
+        },
+        {
+          "t": 1769515227,
+          "p": 0.065
+        },
+        {
+          "t": 1769558429,
+          "p": 0.065
+        },
+        {
+          "t": 1769601630,
+          "p": 0.065
+        },
+        {
+          "t": 1769644844,
+          "p": 0.065
+        },
+        {
+          "t": 1769688035,
+          "p": 0.06
+        },
+        {
+          "t": 1769731233,
+          "p": 0.075
+        },
+        {
+          "t": 1769774450,
+          "p": 0.065
+        },
+        {
+          "t": 1769817634,
+          "p": 0.065
+        },
+        {
+          "t": 1769860840,
+          "p": 0.065
+        },
+        {
+          "t": 1769904041,
+          "p": 0.055
+        },
+        {
+          "t": 1769947237,
+          "p": 0.0505
+        },
+        {
+          "t": 1769990433,
+          "p": 0.034
+        },
+        {
+          "t": 1770033637,
+          "p": 0.045
+        },
+        {
+          "t": 1770076837,
+          "p": 0.0415
+        },
+        {
+          "t": 1770120043,
+          "p": 0.0405
+        },
+        {
+          "t": 1770163246,
+          "p": 0.043
+        },
+        {
+          "t": 1770206437,
+          "p": 0.0405
+        },
+        {
+          "t": 1770249631,
+          "p": 0.0375
+        },
+        {
+          "t": 1770292843,
+          "p": 0.0245
+        },
+        {
+          "t": 1770336040,
+          "p": 0.0315
+        },
+        {
+          "t": 1770379243,
+          "p": 0.031
+        },
+        {
+          "t": 1770422449,
+          "p": 0.028
+        },
+        {
+          "t": 1770465646,
+          "p": 0.027
+        },
+        {
+          "t": 1770508844,
+          "p": 0.0265
+        },
+        {
+          "t": 1770552058,
+          "p": 0.024
+        },
+        {
+          "t": 1770595242,
+          "p": 0.0185
+        },
+        {
+          "t": 1770681646,
+          "p": 0.0195
+        },
+        {
+          "t": 1770768054,
+          "p": 0.0165
+        },
+        {
+          "t": 1770811246,
+          "p": 0.0175
+        },
+        {
+          "t": 1770854454,
+          "p": 0.016
+        },
+        {
+          "t": 1770897645,
+          "p": 0.0145
+        },
+        {
+          "t": 1770940845,
+          "p": 0.0145
+        },
+        {
+          "t": 1770984051,
+          "p": 0.0145
+        },
+        {
+          "t": 1771027251,
+          "p": 0.014
+        },
+        {
+          "t": 1771070456,
+          "p": 0.0135
+        },
+        {
+          "t": 1771113652,
+          "p": 0.014
+        },
+        {
+          "t": 1771156856,
+          "p": 0.0135
+        },
+        {
+          "t": 1771286454,
+          "p": 0.0135
+        },
+        {
+          "t": 1771372859,
+          "p": 0.0085
+        },
+        {
+          "t": 1771416056,
+          "p": 0.0065
+        },
+        {
+          "t": 1771545655,
+          "p": 0.0055
+        },
+        {
+          "t": 1771588834,
+          "p": 0.0045
+        },
+        {
+          "t": 1771632036,
+          "p": 0.0055
+        },
+        {
+          "t": 1771675237,
+          "p": 0.0055
+        },
+        {
+          "t": 1771718437,
+          "p": 0.0055
+        },
+        {
+          "t": 1771761647,
+          "p": 0.0035
+        },
+        {
+          "t": 1771804844,
+          "p": 0.0045
+        },
+        {
+          "t": 1771848050,
+          "p": 0.0045
+        },
+        {
+          "t": 1771891245,
+          "p": 0.0025
+        },
+        {
+          "t": 1771934459,
+          "p": 0.0015
+        },
+        {
+          "t": 1771977651,
+          "p": 0.0025
+        },
+        {
+          "t": 1772020856,
+          "p": 0.0025
+        },
+        {
+          "t": 1772064046,
+          "p": 0.0015
+        },
+        {
+          "t": 1772150451,
+          "p": 0.0015
+        },
+        {
+          "t": 1772236848,
+          "p": 0.0005
+        },
+        {
+          "t": 1772280000,
+          "p": 0.0005
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1769990433,
+          "p": 0.034,
+          "delta": -0.066
+        }
+      ],
+      "price_at_open": 0.1,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.1,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-27T10:44:00.239476+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20260215_001_6b79679f",
+        "date": "2026-02-15 00:00",
+        "title": "Trump administration peace deal stalls",
+        "description": "Reports emerge that the Trump administration's expedited peace deal has stalled as the war approaches its four-year mark.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStalling peace deal makes ceasefire less likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/trumps-ukraine-peace-deal-stalled-080101573.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_005_7b7f691c",
+        "date": "2026-02-15 00:00",
+        "title": "Russia maintains maximalist territorial demands",
+        "description": "Russia maintained its maximalist territorial demands, creating an intractable baseline for negotiations.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMaximalist demands prevent agreement.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_007_e9d9ea45",
+        "date": "2026-02-15 00:00",
+        "title": "Ukrainian forces strike Russian oil hub",
+        "description": "Ukrainian forces launched strikes against a Russian oil hub ahead of a major European summit.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMilitary escalation undermines trust.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-gb/news/world/ukraine-war-kyiv-strikes-russian-oil-hub-ahead-of-macron-summit/ar-AA1YrHKV?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_010_4f1c319b",
+        "date": "2026-02-15 00:00",
+        "title": "February 28 deadline passes without ceasefire",
+        "description": "The February 28 deadline passed without any formalized cessation of hostilities.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDeadline passing is the definitive failure.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.adn.com/nation-world/2026/02/22/after-4-years-of-war-by-russia-in-ukraine-peace-is-still-elusive-despite-a-us-push-for-a-settlement",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260218_002_9918e089",
+        "date": "2026-02-18 00:00",
+        "title": "US-Ukraine-Russia trilateral meetings held in Geneva",
+        "description": "Trilateral US-Ukraine-Russia meetings were held in Geneva, but failed to produce any significant breakthrough or agreement on ceasefire terms.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMeetings provided a chance for peace.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Ukraine%E2%80%93Russia_meetings_in_Geneva",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260223_003_653d2a19",
+        "date": "2026-02-23 00:00",
+        "title": "UN General Assembly gathers for 4th anniversary of war",
+        "description": "The UN General Assembly gathered to mark the grim fourth anniversary of the full-scale invasion.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarking anniversary without peace shows lack of progress.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://press.un.org/en/2026/ga12752.doc.htm",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260224_008_3e3f3c63",
+        "date": "2026-02-24 00:00",
+        "title": "Russia-Ukraine war enters fifth year",
+        "description": "The Russia-Ukraine war officially entered its fifth year with no end in sight.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEntering fifth year confirms ongoing war.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://foreignpolicy.com/2026/02/24/russia-ukraine-war-fourth-anniversary-peace-talks-zelensky-putin",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_006_f5113e06",
+        "date": "2026-02-15 00:00",
+        "title": "Ukraine demands robust security guarantees",
+        "description": "Ukraine maintained its existential need for sovereignty and robust security guarantees.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDemands for security guarantees complicate agreement.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_009_ec41fdf1",
+        "date": "2026-02-15 00:00",
+        "title": "Domestic political pressure reinforces hardline stances",
+        "description": "Escalations reinforced domestic political pressure on both sides to avoid perceived capitulation.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDomestic pressure prevents compromise.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.msn.com/en-gb/news/world/ukraine-war-kyiv-strikes-russian-oil-hub-ahead-of-macron-summit/ar-AA1YrHKV?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_001_293d16b3",
+        "date": "2026-02-15 00:00",
+        "title": "Trump administration launches diplomatic initiative",
+        "description": "The Trump administration launches a high-pressure diplomatic initiative aimed at securing a quick resolution.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDiplomatic initiative aimed at peace.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.adn.com/nation-world/2026/02/22/after-4-years-of-war-by-russia-in-ukraine-peace-is-still-elusive-despite-a-us-push-for-a-settlement",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_politics_20241120_014_0cc82b41",
+    "title": "Who will win the 2024 U.S. Presidential Election in Pennsylvania?",
+    "question_type": "mcq",
+    "options": [
+      "Donald Trump",
+      "Kamala Harris"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "The winner of the 2024 U.S. Presidential Election in Pennsylvania will be the candidate who is declared the winner by the Pennsylvania Department of State.",
+    "outcome": "Donald Trump",
+    "explanation": "\n## Executive Summary\nDonald Trump won the 2024 U.S. Presidential Election in Pennsylvania due to a combination of high voter turnout among his base, a shifting demographic coalition, and focused campaigning on economic issues. Despite early concerns and a tumultuous campaign season involving a near-assassination and opponent shifts, Trump managed to consolidate support in key rural and suburban areas. Changes in voting demographics, including increased support from previously diverse coalitions, alongside record voter turnout, propelled him to victory.\n\n## Timeline Of Key Events\n- **2024-07-14**: Security risks reported regarding a rooftop incident involving Trump, highlighting the intense and volatile nature of the campaign [art_general_20240714_002_82970fcf].\n- **2024-07-21**: President Biden drops out of the race, causing a major shift in the Democratic ticket [art_general_20240721_003_0cad1aa1].\n- **2024-08-07**: Trump criticizes the selection of Tim Walz as a VP pick, focusing his attacks on the new Democratic ticket [art_general_20240807_006_8e8cf661].\n- **2024-10-15**: Reports highlight shifting voting demographics and record-high voter turnout in Pennsylvania, indicating an energized electorate [art_politics_20241015_005_61bc7238], [art_politics_20241015_006_a10bb558].\n- **2024-11-05**: Election Day sees incredibly high voter turnout and a more racially diverse coalition supporting Trump [art_politics_20241105_008_f3765643], [art_politics_20241105_009_ab9c8193].\n- **2024-11-06**: Donald Trump is poised to win after securing crucial swing states, including Pennsylvania [art_general_20241106_003_57941e65].\n\n## Causal Chain Analysis\nThe root causes of Trump's victory in Pennsylvania stemmed from widespread economic dissatisfaction and a desire for political change, which led to a highly motivated Republican base. This motivation caused record-level voter turnout [art_politics_20241015_006_a10bb558], particularly in rural areas like Lancaster, where groups like the Amish became more politically active [art_politics_20241015_007_2bb60caf]. Furthermore, Trump's campaign strategy successfully broadened his coalition, drawing in more diverse demographic groups than in previous elections [art_politics_20241105_009_ab9c8193]. Ultimately, this combination of high turnout and demographic shifts resulted in Trump securing the necessary votes to win the state.\n\n## Countervailing Factors\nThe Democratic campaign under Kamala Harris attempted to galvanize support through significant media appearances (e.g., SNL) and late surges in specific swing state polls [art_general_20241023_004_37c07a13], [art_general_20241103_004_0575e7a3]. However, these efforts failed to overcome the entrenched economic concerns and the sheer volume of turnout generated by the Trump campaign's ground game in Pennsylvania.\n\n## Event Candidate Inventory\n- E1: Biden drops out of the presidential race.\n  - Date: 2024-07-21\n  - Why it matters: Fundamentally altered the Democratic ticket and campaign strategy.\n  - Source: [art_general_20240721_003_0cad1aa1]\n- E2: Record high voter turnout reported in Pennsylvania.\n  - Date: 2024-10-15 (reported)\n  - Why it matters: High turnout is a critical indicator of voter enthusiasm, which disproportionately favored Trump's rural and suburban base.\n  - Source: [art_politics_20241015_006_a10bb558]\n- E3: Emergence of a more diverse voter coalition for Trump.\n  - Date: 2024-11-05\n  - Why it matters: Shows a shift in traditional voting blocs that helped secure the electoral advantage.\n  - Source: [art_politics_20241105_009_ab9c8193]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Biden drops out | [art_general_20240721_003_0cad1aa1] | 2024-07-21 | 1.0 | Major shift in the race. |\n| Record high turnout in PA | [art_politics_20241015_006_a10bb558] | 2024-10-15 | 0.9 | Indicates strong voter mobilization. |\n| Diverse coalition for Trump | [art_politics_20241105_009_ab9c8193] | 2024-11-05 | 0.9 | Key factor in overcoming Democratic leads in urban areas. |\n\n## Uncertainties And Alternative Paths\nIt remains uncertain how much the VP debate performance [art_general_20241002_003_45fc8544] directly impacted late-deciding voters. An alternative path could have seen Harris capitalize on her late poll surges [art_general_20241103_004_0575e7a3], but the structural advantages in turnout for Trump proved insurmountable.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2024-06-01T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2024-11-20T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_politics_20240714_006_560f9f3b",
+        "date": "2024-07-14 04:48",
+        "title": "Rooftop security risk reported",
+        "description": "Security risks reported regarding a rooftop incident involving Trump.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecurity risk incident motivated Trump's base.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://metro.co.uk/2024/07/14/donald-trump-shot-pennsylvania-rally-assassination-attempt-21222983",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20240721_001_0ed80b7c",
+        "date": "2024-07-21 12:00",
+        "title": "Biden drops out of race",
+        "description": "President Biden drops out of the presidential race.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nBiden dropping out reset the race but didn't inherently favor one side immediately.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/news/article-13656701/joe-biden-drops-race-presidential-election-2024.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20240807_007_77fc5849",
+        "date": "2024-08-07 11:56",
+        "title": "Trump criticizes Walz selection",
+        "description": "Trump criticizes the selection of Tim Walz as a VP pick.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCriticizing Walz helped consolidate Republican support.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/news/article-13718487/Trump-reveals-Tim-Walz-shocking-pick-hints-worse-socialist-senator.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241002_008_e1dcaca0",
+        "date": "2024-10-02 11:52",
+        "title": "VP debate takes place",
+        "description": "VP debate performance raises concerns and impacts voters.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nVP debate concerns slightly favored Harris's momentum.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/news/article-13916049/politics-live-blog-democrats-vp-debate-2024-tim-walz-voters-jd-vance-Donald-Trump-Kamala-Harris.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241015_002_6bdc9060",
+        "date": "2024-10-15 12:00",
+        "title": "Record high voter turnout in PA",
+        "description": "Record high voter turnout reported in Pennsylvania.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHigh turnout favored Trump's base.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.fox43.com/article/news/local/dauphin-county/2024-voter-turnout-highest-on-record-since-1988/521-e5be72c4-677d-4771-95bc-458918f75397",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241015_003_1d90065f",
+        "date": "2024-10-15 12:00",
+        "title": "Amish become politically active",
+        "description": "Amish in Lancaster become more politically active.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAmish political activity favored Trump.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.msn.com/en-us/news/politics/researchers-examine-how-lancaster-s-amish-influenced-2024-presidential-election/ar-AA1WsMgY?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241023_009_9212bed9",
+        "date": "2024-10-23 07:41",
+        "title": "Harris appears on SNL",
+        "description": "Kamala Harris appears on SNL to galvanize support.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSNL appearance helped Harris galvanize support.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/harris-trump-elections-live-updates-polls-b2640461.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241103_004_3059b787",
+        "date": "2024-11-03 12:00",
+        "title": "Harris surges in swing state polls",
+        "description": "Late surges in specific swing state polls for Harris.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHarris surging in polls threatened Trump's chances.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/news/article-14035367/presidential-election-2024-live-updates-kamala-harris-donald-trump-poll-swing-states.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241105_005_b46d5690",
+        "date": "2024-11-05 12:00",
+        "title": "Diverse voter coalition emerges for Trump",
+        "description": "Emergence of a more diverse voter coalition for Trump.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDiverse coalition directly helped Trump win.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.pewresearch.org/politics/2025/06/26/behind-trumps-2024-victory-a-more-racially-and-ethnically-diverse-voter-coalition",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241106_010_ffdc06b8",
+        "date": "2024-11-06 08:37",
+        "title": "Trump secures crucial swing states",
+        "description": "Donald Trump is poised to win after securing crucial swing states, including Pennsylvania.",
+        "impact": "**Affects:** Option 1: Donald Trump  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecuring swing states is the direct cause of winning.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/us-news/2024/nov/06/donald-trump-battleground-state-wins",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_0x638051302276b32a6390605cc91ba3b4403584f9aefd078595498abfa9613cd7",
     "title": "Will the Israeli Knesset be dissolved, triggering new elections, during 2025?",
     "question_type": "binary",
@@ -848,2025 +1420,150 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x677c19032d9fc09658a4b05826e3efd656d725394bc2f5a4ea4b2c4e41a2077a",
-    "title": "Will ChatGPT reach 1b monthly active users in 2025?",
-    "question_type": "binary",
+    "id": "q_politics_20250131_045_66af9d5d",
+    "title": "What will be the voter turnout rate in the 2024 US presidential election?",
+    "question_type": "quantity",
     "options": [
-      "Yes",
-      "No"
+      "66.8"
     ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if ChatGPT reaches 1 billion monthly active users (MAUs) during by December 31, 2025, 11:59 PMET. Otherwise, this market will resolve to \"No.\"\n\nThe primary resolution source will be official information from OpenAI, however a consensus of reputable sources including, major analytics firms (e.g. Similarweb, Sensor Tower), investor or regulatory disclosures, or reputable media may also be used. ",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nChatGPT failed to reach 1 billion monthly active users in 2025 due to a combination of slowed growth, intensifying competition, and perceived quality declines. Despite strong early growth reaching around 800 million weekly active users, growth stagnated significantly by Q4, with only a 5% increase from August to November. The rise of robust alternatives, particularly Google's Gemini and Anthropic's Claude, fractured the user base. Concurrently, increasing reports of degraded response quality and server instability drove users to these competitors, cementing the failure to reach the 1 billion MAU milestone.\n\n## Timeline Of Key Events\n- **Mid-2025:** ChatGPT hits approximately 500 million MAU on mobile devices.\n- **2025-07-24:** Apple integration announcements and strong early Q3 metrics push market optimism (Yes favored) [art_general_20250919_005_3333820b].\n- **2025-08-08:** Peak market confidence in user growth following news of OpenAI's $300B valuation and expanding enterprise integration.\n- **2025-10-15:** Rising user dissatisfaction with AI outputs and server stability starts gaining significant media traction [art_business_20251015_020_039bbe97].\n- **2025-11-02:** Market prediction flips to 'No' as data begins to show stalling growth [art_tech_20251120_019_f2e4bd89].\n- **2025-11-12 to 2025-11-19:** Severe market volatility; a sharp drop in 'Yes' sentiment occurs as Q4 user metrics indicate only a 5% growth from August.\n- **2025-12-05:** Definitive reports confirm ChatGPT's user growth has dramatically slowed, ending hopes of reaching the 1 billion mark [art_tech_20251205_018_7dad134d].\n- **2025-12-18:** End-of-year retrospectives highlight ChatGPT's failures and user churn to competitors [art_general_20251218_003_564a554a].\n\n## Causal Chain Analysis\nThe failure to reach 1 billion MAU was caused by a sequential breakdown in the user acquisition and retention funnel. Initially, aggressive competition from Google's Gemini (which reached 750 million MAU) and Anthropic's Claude provided viable alternatives, preventing OpenAI from monopolizing new AI users [art_tech_20251205_018_7dad134d]. This led to a dilution of the addressable market. Concurrently, ChatGPT suffered from perceived quality degradation and notable server outages [art_business_20251015_020_039bbe97]. These technical and qualitative failures triggered elevated churn rates among existing users [art_tech_20251120_019_f2e4bd89]. Consequently, the combination of fractured new user acquisition and higher churn resulted in the severe growth slowdown observed in late 2025 (only 5% growth from August to November), ultimately preventing the platform from reaching 1 billion MAU [art_tech_20251205_018_7dad134d].\n\n## Countervailing Factors\nOpenAI attempted to combat these trends through major strategic moves, including the highly anticipated integration with Apple devices and securing a massive $300 billion valuation which provided immense capital for marketing and infrastructure. Additionally, enterprise adoption remained strong, fueling revenue growth. However, these factors were overwhelmed by the sheer scale of the consumer market required to hit 1 billion MAU; enterprise users alone could not bridge the gap, and the Apple integration did not yield the immediate, massive spike in active consumer usage needed to offset churn to Gemini and Claude.\n\n## Event Candidate Inventory\n- E1: Apple integration announcement and OpenAI valuation\n  - Date: July/August 2025\n  - Why it matters causally: Drove initial peak optimism and temporary market shifts toward a 'Yes' resolution.\n  - Source article IDs: art_general_20250919_005_3333820b\n- E2: Reports of ChatGPT quality degradation and server issues\n  - Date: October 2025\n  - Why it matters causally: Triggered increased user churn and dissatisfaction, directly impacting MAU retention.\n  - Source article IDs: art_business_20251015_020_039bbe97\n- E3: Confirmation of stagnant Q4 user growth\n  - Date: November - December 2025\n  - Why it matters causally: The proximate cause of the market permanently shifting to 'No', as data mathematically precluded hitting the 1B target.\n  - Source article IDs: art_tech_20251205_018_7dad134d, art_tech_20251120_019_f2e4bd89\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| ChatGPT user growth slowed to 5% in late 2025 | art_tech_20251205_018_7dad134d | 2025-12-05 | 0.95 | Clear metric confirming the stall. |\n| Quality degradation and server issues caused churn | art_business_20251015_020_039bbe97, art_tech_20251120_019_f2e4bd89 | 2025-10-15, 2025-11-20 | 0.90 | Explains the underlying mechanism for the growth slowdown. |\n| End of year failures and competitor rise | art_general_20251218_003_564a554a | 2025-12-18 | 0.85 | Highlights the broader market context and lost market share. |\n\n## Uncertainties And Alternative Paths\nThe exact split between users who abandoned AI entirely versus those who migrated to Gemini or Claude remains somewhat uncertain, as direct cross-platform analytics are proprietary. An alternative path existed where, had the Apple integration rolled out faster and more flawlessly, it might have captured enough casual iOS users to push the MAU over 1 billion before year-end, negating the impact of the standalone app's quality issues.\n",
-    "is_polymarket": true,
+    "background": "A quantitative measure of political engagement in the US.",
+    "resolution_criteria": "The voter turnout rate will be determined by the official figure released by the US Elections Project for the 2024 presidential election.",
+    "outcome": "66.8",
+    "explanation": "\n## Executive Summary\nThe 2024 US presidential election saw a voter turnout of 66.8%, one of the highest rates in modern American history. This outcome was primarily driven by a confluence of factors that both increased voter accessibility and heightened motivation. The widespread adoption of early and mail-in voting, carried over from the 2020 election, significantly lowered participation barriers. This was amplified by a highly polarized political environment and intense campaign mobilization efforts in key battleground states, which fueled a sense of urgency among the electorate. While some localized instances of lower turnout and concerns over misinformation existed, they were ultimately overwhelmed by the powerful combination of accessible voting methods and a highly motivated populace.\n\n## Timeline Of Key Events\n- **November 5, 2024:** Election Day proceeds with initial reports suggesting the potential for record-breaking turnout, driven by high engagement in battleground states [art_general_20241105_006_2df9a64c]. Local reports, like those from Orange County, begin to trickle in, showing strong initial numbers [art_general_20241105_004_81c88037].\n- **November 6, 2024:** Initial post-election data begins to be compiled and released, with early maps showing state-by-state comparisons and highlighting the record-breaking nature of the turnout [art_politics_20241106_007_79b4bb14].\n- **November 7, 2024:** News outlets report that the initial estimates for voter turnout are hitting record highs, surpassing previous modern records [art_politics_20241107_002_2db1a2b6].\n- **November 9, 2024:** Early demographic breakdowns of the voter turnout are published, offering insights into which groups were most engaged in the election [art_politics_20241109_003_1ab4db1a].\n- **November 12, 2024:** Analyses focusing on the impact of different voting methods are released, with a particular focus on how mail-in ballots contributed to the high turnout numbers [art_politics_20241112_005_a095fd60].\n- **November 15, 2024:** Official state-level data becomes more widely available, with sources like Statista publishing comprehensive tables of turnout by state [art_politics_20241115_005_450963c4].\n- **December 1, 2024:** Non-partisan organizations like USAFacts publish their comprehensive analyses of the total number of voters who participated in the election, confirming the high turnout rate [art_politics_20241201_004_8a4fdf3d].\n- **December 12, 2024:** Final national turnout figures are confirmed and widely reported ahead of the Electoral College meeting, solidifying the 66.8% figure [art_politics_20241212_006_b549b7a7].\n\n## Causal Chain Analysis\nThe historically high voter turnout of 66.8% was not the result of a single cause, but rather a chain of interconnected factors that created a perfect storm of voter engagement.\n\n**Root Causes:** The foundation for this high turnout was laid in the years preceding the election. The expansion of mail-in and early voting options during the 2020 pandemic election became institutionalized in many states. This structural change fundamentally lowered the barrier to voting for millions of Americans, as it decoupled the act of voting from the single day of the election. This increased accessibility is a key root cause, as noted in several analyses [art_politics_20241112_005_a095fd60]. Another root cause was the deep political polarization in the country, which had been intensifying for several election cycles.\n\n**Intermediate Mechanisms:** These root causes were activated by several intermediate mechanisms. First, the perception of high stakes in the 2024 election, fueled by intense media coverage and polarizing issues like abortion rights [art_general_20241016_006_c7094b38], motivated voters on both sides. Second, sophisticated and well-funded campaign operations leveraged data analytics to target and mobilize potential voters with unprecedented efficiency, particularly in swing states [art_general_20241103_008_60828e16, art_politics_20241110_004_030b5fd2]. The combination of easier voting methods and a powerful motivation to vote created a fertile ground for high turnout.\n\n**Proximate Triggers:** The final proximate trigger was the intense get-out-the-vote (GOTV) efforts in the final weeks and days leading up to the election. These efforts, combined with the convenience of early and mail-in voting, resulted in a surge of participation that began weeks before Election Day and culminated in the final high turnout numbers [art_general_20241105_006_2df9a64c].\n\n**Final Outcome:** The result of this causal chain was a national voter turnout rate of 66.8%, a figure that reflects both the structural ease of voting and the powerful motivational forces at play in the 2024 political landscape [art_politics_20241212_006_b549b7a7].\n\n## Countervailing Factors\nDespite the record-breaking turnout, there were several factors that pushed against this outcome. In some urban areas, such as Chicago, voter turnout was surprisingly low, indicating a potential lack of enthusiasm or disillusionment among specific demographics [art_general_20241125_003_3a258aea, art_general_20241118_012_0356f13d]. There were also widespread concerns about the impact of misinformation and disinformation campaigns, which aimed to suppress turnout by sowing confusion and distrust in the electoral process [art_general_20241108_004_41b9ded2]. Additionally, some reports highlighted a sense of 'powerlessness' among young voters, which could have dampened their participation [art_general_20240705_010_6d70ea3c].\n\nHowever, these countervailing factors were ultimately overwhelmed. The structural ease of voting provided by mail-in and early options proved to be a powerful antidote to apathy and suppression efforts. Furthermore, the high-stakes nature of the election appeared to galvanize more voters than it discouraged, with mobilization efforts proving more effective than suppression tactics. The national trend of high engagement, particularly in battleground states, was strong enough to overcome localized pockets of low turnout and produce a historically high national average.\n\n## Event Candidate Inventory\n- **E1: Widespread Adoption of Early/Mail-in Voting:**\n    - **Date:** 2024-11-05 (culmination of early voting period)\n    - **Causal Relevance:** This structural factor was a primary driver of high turnout, as it significantly lowered the barrier to participation for millions of voters.\n    - **Source Article IDs:** [art_politics_20241112_005_a095fd60]\n- **E2: Intense Campaign Mobilization in Swing States:**\n    - **Date:** 2024-10-01 to 2024-11-05\n    - **Causal Relevance:** Highly targeted and well-funded get-out-the-vote efforts by both major parties were crucial in translating voter motivation into actual votes, particularly in states that decided the election.\n    - **Source Article IDs:** [art_general_20241103_008_60828e16, art_politics_20241110_004_030b5fd2]\n- **E3: Publication of Initial Record-High Turnout Estimates:**\n    - **Date:** 2024-11-07\n    - **Causal Relevance:** This event confirmed the outcome of the high voter engagement and provided the first concrete evidence of the record-breaking turnout.\n    - **Source Article IDs:** [art_politics_20241107_002_2db1a2b6]\n- **E4: Confirmation of Final National Turnout Rate:**\n    - **Date:** 2024-12-12\n    - **Causal Relevance:** This event represents the official confirmation of the final outcome and serves as the ground truth figure for the causal analysis.\n    - **Source Article IDs:** [art_politics_20241212_006_b549b7a7]\n- **E5: Low Voter Turnout in Specific Urban Areas:**\n    - **Date:** 2024-11-25\n    - **Causal Relevance:** This is a key countervailing factor that demonstrates not all regions experienced the same surge in turnout, highlighting the complexities of voter behavior.\n    - **Source Article IDs:** [art_general_20241125_003_3a258aea]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Record-high national turnout confirmed | [art_politics_20241212_006_b549b7a7], [art_politics_20241201_004_8a4fdf3d] | 2024-12-12 | 1.0 | Multiple sources confirm the final ~66.8% figure. |\n| Mail-in voting increased accessibility | [art_politics_20241112_005_a095fd60] | 2024-11-12 | 0.9 | Strong analysis, widely accepted causal factor. |\n| Intense mobilization in swing states | [art_general_20241103_008_60828e16], [art_politics_20241110_004_030b5fd2] | 2024-11-03 | 0.9 | Supported by multiple pre- and post-election analyses. |\n| High stakes and polarization as motivators | [art_general_20241016_006_c7094b38], [art_general_20241030_003_c6366cf7] | 2024-10-30 | 0.85 | Strongly implied by the context of the election and specific issue-based articles. |\n| Countervailing low turnout in some cities | [art_general_20241125_003_3a258aea], [art_general_20241118_012_0356f13d] | 2024-11-25 | 1.0 | Directly reported with official data for Chicago. |\n| Misinformation as a potential suppressor | [art_general_20241108_004_41b9ded2] | 2024-11-08 | 0.7 | Acknowledged as a factor, but its overall impact is hard to quantify. |\n\n## Uncertainties And Alternative Paths\n- The precise quantitative impact of each individual factor (e.g., mail-in voting vs. campaign spending) on the final turnout percentage remains an area of ongoing research and debate. It is difficult to isolate the exact weight of each cause.\n- An alternative causal path could argue that the high turnout was less about increased enthusiasm and more about a \"fear-based\" motivation, where voters were driven to the polls primarily to vote *against* a particular candidate or party rather than *for* one. This is a subtle distinction but represents a different primary causal mechanism.\n- The true impact of misinformation campaigns on turnout is difficult to measure. While they were a significant part of the political landscape, it is uncertain whether they successfully suppressed a significant number of votes or, conversely, inadvertently motivated some people to vote in defiance.\n",
+    "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2025-04-23T18:12:08.996515+00:00",
+    "market_open": "2024-11-06T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T11:12:09+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-chatgpt-reach-1b-monthly-active-users-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1745452806,
-          "p": 0.79
-        },
-        {
-          "t": 1745625606,
-          "p": 0.585
-        },
-        {
-          "t": 1745798405,
-          "p": 0.66
-        },
-        {
-          "t": 1745971206,
-          "p": 0.585
-        },
-        {
-          "t": 1746144006,
-          "p": 0.65
-        },
-        {
-          "t": 1746360005,
-          "p": 0.585
-        },
-        {
-          "t": 1746532805,
-          "p": 0.595
-        },
-        {
-          "t": 1746705606,
-          "p": 0.585
-        },
-        {
-          "t": 1746878406,
-          "p": 0.585
-        },
-        {
-          "t": 1747051206,
-          "p": 0.585
-        },
-        {
-          "t": 1747267207,
-          "p": 0.55
-        },
-        {
-          "t": 1747440007,
-          "p": 0.53
-        },
-        {
-          "t": 1747612806,
-          "p": 0.54
-        },
-        {
-          "t": 1747785606,
-          "p": 0.54
-        },
-        {
-          "t": 1747958407,
-          "p": 0.54
-        },
-        {
-          "t": 1748174407,
-          "p": 0.535
-        },
-        {
-          "t": 1748347206,
-          "p": 0.515
-        },
-        {
-          "t": 1748520007,
-          "p": 0.515
-        },
-        {
-          "t": 1748692807,
-          "p": 0.395
-        },
-        {
-          "t": 1748865607,
-          "p": 0.405
-        },
-        {
-          "t": 1749081606,
-          "p": 0.435
-        },
-        {
-          "t": 1749254407,
-          "p": 0.435
-        },
-        {
-          "t": 1749427207,
-          "p": 0.425
-        },
-        {
-          "t": 1749600007,
-          "p": 0.44
-        },
-        {
-          "t": 1749816008,
-          "p": 0.365
-        },
-        {
-          "t": 1749988807,
-          "p": 0.335
-        },
-        {
-          "t": 1750161606,
-          "p": 0.4
-        },
-        {
-          "t": 1750334407,
-          "p": 0.355
-        },
-        {
-          "t": 1750507208,
-          "p": 0.365
-        },
-        {
-          "t": 1750723207,
-          "p": 0.285
-        },
-        {
-          "t": 1750896008,
-          "p": 0.285
-        },
-        {
-          "t": 1751068807,
-          "p": 0.29
-        },
-        {
-          "t": 1751241607,
-          "p": 0.275
-        },
-        {
-          "t": 1751414407,
-          "p": 0.23
-        },
-        {
-          "t": 1751630407,
-          "p": 0.215
-        },
-        {
-          "t": 1751803207,
-          "p": 0.24
-        },
-        {
-          "t": 1751976007,
-          "p": 0.24
-        },
-        {
-          "t": 1752148808,
-          "p": 0.275
-        },
-        {
-          "t": 1752321608,
-          "p": 0.315
-        },
-        {
-          "t": 1752537608,
-          "p": 0.33
-        },
-        {
-          "t": 1752710408,
-          "p": 0.315
-        },
-        {
-          "t": 1752883209,
-          "p": 0.25
-        },
-        {
-          "t": 1753056007,
-          "p": 0.25
-        },
-        {
-          "t": 1753228809,
-          "p": 0.27
-        },
-        {
-          "t": 1753444809,
-          "p": 0.41
-        },
-        {
-          "t": 1753617609,
-          "p": 0.355
-        },
-        {
-          "t": 1753790408,
-          "p": 0.32
-        },
-        {
-          "t": 1753963208,
-          "p": 0.41
-        },
-        {
-          "t": 1754179208,
-          "p": 0.415
-        },
-        {
-          "t": 1754352008,
-          "p": 0.63
-        },
-        {
-          "t": 1754524810,
-          "p": 0.8
-        },
-        {
-          "t": 1754697612,
-          "p": 0.76
-        },
-        {
-          "t": 1754870413,
-          "p": 0.73
-        },
-        {
-          "t": 1755086414,
-          "p": 0.785
-        },
-        {
-          "t": 1755259217,
-          "p": 0.785
-        },
-        {
-          "t": 1755432006,
-          "p": 0.62
-        },
-        {
-          "t": 1755604818,
-          "p": 0.71
-        },
-        {
-          "t": 1755777602,
-          "p": 0.705
-        },
-        {
-          "t": 1755993605,
-          "p": 0.77
-        },
-        {
-          "t": 1756166404,
-          "p": 0.765
-        },
-        {
-          "t": 1756339206,
-          "p": 0.77
-        },
-        {
-          "t": 1756512012,
-          "p": 0.74
-        },
-        {
-          "t": 1756684810,
-          "p": 0.745
-        },
-        {
-          "t": 1756900807,
-          "p": 0.695
-        },
-        {
-          "t": 1757073628,
-          "p": 0.69
-        },
-        {
-          "t": 1757246431,
-          "p": 0.695
-        },
-        {
-          "t": 1757419222,
-          "p": 0.71
-        },
-        {
-          "t": 1757592014,
-          "p": 0.73
-        },
-        {
-          "t": 1757808009,
-          "p": 0.715
-        },
-        {
-          "t": 1757980811,
-          "p": 0.745
-        },
-        {
-          "t": 1758153606,
-          "p": 0.685
-        },
-        {
-          "t": 1758326405,
-          "p": 0.655
-        },
-        {
-          "t": 1758542420,
-          "p": 0.66
-        },
-        {
-          "t": 1758715213,
-          "p": 0.695
-        },
-        {
-          "t": 1758888019,
-          "p": 0.67
-        },
-        {
-          "t": 1759060819,
-          "p": 0.685
-        },
-        {
-          "t": 1759233610,
-          "p": 0.67
-        },
-        {
-          "t": 1759449610,
-          "p": 0.875
-        },
-        {
-          "t": 1759622407,
-          "p": 0.805
-        },
-        {
-          "t": 1759795204,
-          "p": 0.815
-        },
-        {
-          "t": 1759968010,
-          "p": 0.74
-        },
-        {
-          "t": 1760140803,
-          "p": 0.78
-        },
-        {
-          "t": 1760356812,
-          "p": 0.755
-        },
-        {
-          "t": 1760529623,
-          "p": 0.675
-        },
-        {
-          "t": 1760702422,
-          "p": 0.68
-        },
-        {
-          "t": 1760875203,
-          "p": 0.575
-        },
-        {
-          "t": 1761048023,
-          "p": 0.665
-        },
-        {
-          "t": 1761264006,
-          "p": 0.59
-        },
-        {
-          "t": 1761436807,
-          "p": 0.565
-        },
-        {
-          "t": 1761609606,
-          "p": 0.53
-        },
-        {
-          "t": 1761825605,
-          "p": 0.565
-        },
-        {
-          "t": 1761998406,
-          "p": 0.535
-        },
-        {
-          "t": 1762214405,
-          "p": 0.545
-        },
-        {
-          "t": 1762387204,
-          "p": 0.525
-        },
-        {
-          "t": 1762560006,
-          "p": 0.695
-        },
-        {
-          "t": 1762732805,
-          "p": 0.59
-        },
-        {
-          "t": 1762948806,
-          "p": 0.725
-        },
-        {
-          "t": 1763121606,
-          "p": 0.555
-        },
-        {
-          "t": 1763294407,
-          "p": 0.505
-        },
-        {
-          "t": 1763467207,
-          "p": 0.345
-        },
-        {
-          "t": 1763640006,
-          "p": 0.22
-        },
-        {
-          "t": 1763856006,
-          "p": 0.26
-        },
-        {
-          "t": 1764028807,
-          "p": 0.245
-        },
-        {
-          "t": 1764201607,
-          "p": 0.34
-        },
-        {
-          "t": 1764374408,
-          "p": 0.31
-        },
-        {
-          "t": 1764547206,
-          "p": 0.345
-        },
-        {
-          "t": 1764763209,
-          "p": 0.245
-        },
-        {
-          "t": 1764936007,
-          "p": 0.24
-        },
-        {
-          "t": 1765108808,
-          "p": 0.05
-        },
-        {
-          "t": 1765281607,
-          "p": 0.0615
-        },
-        {
-          "t": 1765454408,
-          "p": 0.0905
-        },
-        {
-          "t": 1765670408,
-          "p": 0.047
-        },
-        {
-          "t": 1765843207,
-          "p": 0.034
-        },
-        {
-          "t": 1765972808,
-          "p": 0.052
-        },
-        {
-          "t": 1766145609,
-          "p": 0.049
-        },
-        {
-          "t": 1766318407,
-          "p": 0.037
-        },
-        {
-          "t": 1766534408,
-          "p": 0.0275
-        },
-        {
-          "t": 1766707207,
-          "p": 0.0235
-        },
-        {
-          "t": 1766880009,
-          "p": 0.033
-        },
-        {
-          "t": 1767052812,
-          "p": 0.015
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1745496006,
-          "p": 0.715,
-          "delta": -0.075
-        },
-        {
-          "t": 1745539206,
-          "p": 0.635,
-          "delta": -0.08
-        },
-        {
-          "t": 1745625606,
-          "p": 0.585,
-          "delta": -0.05
-        },
-        {
-          "t": 1745798405,
-          "p": 0.66,
-          "delta": 0.075
-        },
-        {
-          "t": 1745971206,
-          "p": 0.585,
-          "delta": -0.075
-        },
-        {
-          "t": 1746100805,
-          "p": 0.645,
-          "delta": 0.06
-        },
-        {
-          "t": 1746273606,
-          "p": 0.59,
-          "delta": -0.055
-        },
-        {
-          "t": 1747396806,
-          "p": 0.525,
-          "delta": -0.065
-        },
-        {
-          "t": 1748563207,
-          "p": 0.435,
-          "delta": -0.09
-        },
-        {
-          "t": 1748736007,
-          "p": 0.37,
-          "delta": -0.065
-        },
-        {
-          "t": 1748822406,
-          "p": 0.425,
-          "delta": 0.055
-        },
-        {
-          "t": 1749816008,
-          "p": 0.365,
-          "delta": -0.06
-        },
-        {
-          "t": 1750550406,
-          "p": 0.285,
-          "delta": -0.08
-        },
-        {
-          "t": 1751414407,
-          "p": 0.23,
-          "delta": -0.055
-        },
-        {
-          "t": 1752192008,
-          "p": 0.3,
-          "delta": 0.07
-        },
-        {
-          "t": 1752278409,
-          "p": 0.365,
-          "delta": 0.065
-        },
-        {
-          "t": 1752364808,
-          "p": 0.275,
-          "delta": -0.09
-        },
-        {
-          "t": 1752537608,
-          "p": 0.33,
-          "delta": 0.055
-        },
-        {
-          "t": 1752840008,
-          "p": 0.195,
-          "delta": -0.135
-        },
-        {
-          "t": 1752883209,
-          "p": 0.25,
-          "delta": 0.055
-        },
-        {
-          "t": 1753315209,
-          "p": 0.52,
-          "delta": 0.27
-        },
-        {
-          "t": 1753358409,
-          "p": 0.285,
-          "delta": -0.235
-        },
-        {
-          "t": 1753401609,
-          "p": 0.47,
-          "delta": 0.185
-        },
-        {
-          "t": 1753444809,
-          "p": 0.41,
-          "delta": -0.06
-        },
-        {
-          "t": 1753488009,
-          "p": 0.47,
-          "delta": 0.06
-        },
-        {
-          "t": 1753531210,
-          "p": 0.415,
-          "delta": -0.055
-        },
-        {
-          "t": 1753617609,
-          "p": 0.355,
-          "delta": -0.06
-        },
-        {
-          "t": 1753747210,
-          "p": 0.3,
-          "delta": -0.055
-        },
-        {
-          "t": 1753920008,
-          "p": 0.375,
-          "delta": 0.075
-        },
-        {
-          "t": 1754352008,
-          "p": 0.63,
-          "delta": 0.255
-        },
-        {
-          "t": 1754481608,
-          "p": 0.735,
-          "delta": 0.105
-        },
-        {
-          "t": 1754524810,
-          "p": 0.8,
-          "delta": 0.065
-        },
-        {
-          "t": 1754654409,
-          "p": 0.88,
-          "delta": 0.08
-        },
-        {
-          "t": 1754697612,
-          "p": 0.76,
-          "delta": -0.12
-        },
-        {
-          "t": 1754740809,
-          "p": 0.68,
-          "delta": -0.08
-        },
-        {
-          "t": 1754784010,
-          "p": 0.745,
-          "delta": 0.065
-        },
-        {
-          "t": 1755345607,
-          "p": 0.66,
-          "delta": -0.085
-        },
-        {
-          "t": 1755820804,
-          "p": 0.775,
-          "delta": 0.115
-        },
-        {
-          "t": 1756771211,
-          "p": 0.685,
-          "delta": -0.09
-        },
-        {
-          "t": 1757548810,
-          "p": 0.745,
-          "delta": 0.06
-        },
-        {
-          "t": 1758067213,
-          "p": 0.685,
-          "delta": -0.06
-        },
-        {
-          "t": 1758456017,
-          "p": 0.615,
-          "delta": -0.07
-        },
-        {
-          "t": 1758628814,
-          "p": 0.69,
-          "delta": 0.075
-        },
-        {
-          "t": 1759320003,
-          "p": 0.815,
-          "delta": 0.125
-        },
-        {
-          "t": 1759449610,
-          "p": 0.875,
-          "delta": 0.06
-        },
-        {
-          "t": 1759622407,
-          "p": 0.805,
-          "delta": -0.07
-        },
-        {
-          "t": 1759708803,
-          "p": 0.74,
-          "delta": -0.065
-        },
-        {
-          "t": 1759795204,
-          "p": 0.815,
-          "delta": 0.075
-        },
-        {
-          "t": 1759881604,
-          "p": 0.74,
-          "delta": -0.075
-        },
-        {
-          "t": 1760011202,
-          "p": 0.675,
-          "delta": -0.065
-        },
-        {
-          "t": 1760097615,
-          "p": 0.73,
-          "delta": 0.055
-        },
-        {
-          "t": 1760140803,
-          "p": 0.78,
-          "delta": 0.05
-        },
-        {
-          "t": 1760486417,
-          "p": 0.72,
-          "delta": -0.06
-        },
-        {
-          "t": 1760788827,
-          "p": 0.645,
-          "delta": -0.075
-        },
-        {
-          "t": 1760832014,
-          "p": 0.57,
-          "delta": -0.075
-        },
-        {
-          "t": 1761048023,
-          "p": 0.665,
-          "delta": 0.095
-        },
-        {
-          "t": 1761091205,
-          "p": 0.6,
-          "delta": -0.065
-        },
-        {
-          "t": 1761393607,
-          "p": 0.545,
-          "delta": -0.055
-        },
-        {
-          "t": 1762041606,
-          "p": 0.45,
-          "delta": -0.095
-        },
-        {
-          "t": 1762128004,
-          "p": 0.55,
-          "delta": 0.1
-        },
-        {
-          "t": 1762473605,
-          "p": 0.63,
-          "delta": 0.08
-        },
-        {
-          "t": 1762560006,
-          "p": 0.695,
-          "delta": 0.065
-        },
-        {
-          "t": 1762646418,
-          "p": 0.555,
-          "delta": -0.14
-        },
-        {
-          "t": 1762948806,
-          "p": 0.725,
-          "delta": 0.17
-        },
-        {
-          "t": 1762992005,
-          "p": 0.54,
-          "delta": -0.185
-        },
-        {
-          "t": 1763380806,
-          "p": 0.48,
-          "delta": -0.06
-        },
-        {
-          "t": 1763467207,
-          "p": 0.345,
-          "delta": -0.135
-        },
-        {
-          "t": 1763553608,
-          "p": 0.175,
-          "delta": -0.17
-        },
-        {
-          "t": 1763683207,
-          "p": 0.285,
-          "delta": 0.11
-        },
-        {
-          "t": 1764115207,
-          "p": 0.38,
-          "delta": 0.095
-        },
-        {
-          "t": 1764244809,
-          "p": 0.325,
-          "delta": -0.055
-        },
-        {
-          "t": 1764633606,
-          "p": 0.385,
-          "delta": 0.06
-        },
-        {
-          "t": 1764720008,
-          "p": 0.32,
-          "delta": -0.065
-        },
-        {
-          "t": 1764763209,
-          "p": 0.245,
-          "delta": -0.075
-        },
-        {
-          "t": 1764806407,
-          "p": 0.365,
-          "delta": 0.12
-        },
-        {
-          "t": 1764849609,
-          "p": 0.305,
-          "delta": -0.06
-        },
-        {
-          "t": 1764936007,
-          "p": 0.24,
-          "delta": -0.065
-        },
-        {
-          "t": 1765065620,
-          "p": 0.085,
-          "delta": -0.155
-        },
-        {
-          "t": 1765843207,
-          "p": 0.034,
-          "delta": -0.051
-        }
-      ],
-      "price_at_open": 0.79,
-      "price_at_close": 0.003,
-      "min_price": 0.003,
-      "max_price": 0.88,
-      "final_price": 0.003,
-      "fetched_at": "2026-04-27T10:44:00.694405+00:00"
-    },
+    "market_close": "2025-01-31T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
     "events": [
       {
-        "id": "evt_tech_20250724_001_ff683f13",
-        "date": "2025-07-24 10:00",
-        "title": "Apple integration announcements and strong early Q3 metrics",
-        "description": "Apple integration announcements and strong early Q3 metrics push market optimism.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/shadow-ai-economy-isn-t-120000464.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250821_003_01d8373b",
-        "date": "2025-08-21 10:00",
-        "title": "Google's Gemini reaches 750 million MAU",
-        "description": "Aggressive competition from Google's Gemini, which reached 750 million MAU.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/12/05/chatgpts-user-growth-has-slowed-report-finds",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251015_010_613f3713",
-        "date": "2025-10-15 09:00",
-        "title": "ChatGPT experiences notable server outages",
-        "description": "Server stability issues start gaining significant media traction.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.linkedin.com/pulse/what-happened-chatgpt-comprehensive-analysis-recent-issues-palmer-eg2pe",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251120_006_9961c9f3",
-        "date": "2025-11-20 10:00",
-        "title": "Elevated churn rates among existing ChatGPT users",
-        "description": "Technical and qualitative failures triggered elevated churn rates among existing users.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://techsplits.com/ai/why-chatgpt-is-the-worst-ai-in-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251218_009_e6531eb0",
-        "date": "2025-12-18 10:00",
-        "title": "End-of-year retrospectives highlight ChatGPT's failures",
-        "description": "End-of-year retrospectives highlight ChatGPT's failures and user churn to competitors.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://tech.yahoo.com/ai/articles/3-biggest-ai-fails-2025-100000272.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250808_002_abd13360",
-        "date": "2025-08-08 10:00",
-        "title": "OpenAI secures $300 billion valuation",
-        "description": "Peak market confidence in user growth following news of OpenAI's $300B valuation.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/shadow-ai-economy-isn-t-120000464.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250822_004_da984faf",
-        "date": "2025-08-22 10:00",
-        "title": "Anthropic's Claude provides viable alternative",
-        "description": "Anthropic's Claude provides viable alternatives, preventing OpenAI from monopolizing new AI users.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/12/05/chatgpts-user-growth-has-slowed-report-finds",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251015_005_39d943a4",
-        "date": "2025-10-15 10:00",
-        "title": "ChatGPT suffers from perceived quality degradation",
-        "description": "Rising user dissatisfaction with AI outputs starts gaining significant media traction.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.linkedin.com/pulse/what-happened-chatgpt-comprehensive-analysis-recent-issues-palmer-eg2pe",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251120_007_b503ddac",
-        "date": "2025-11-20 12:00",
-        "title": "Fractured new user acquisition for ChatGPT",
-        "description": "The rise of robust alternatives fractured the user base and new user acquisition.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/12/05/chatgpts-user-growth-has-slowed-report-finds",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251205_012_43cd7c63",
-        "date": "2025-12-05 08:00",
-        "title": "ChatGPT user growth slows to 5% from August to November",
-        "description": "Q4 user metrics indicate only a 5% growth from August.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://techcrunch.com/2025/12/05/chatgpts-user-growth-has-slowed-report-finds",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0x7340d11f38c12e86886114cf7d3e0f1063758de8b7ac81db7e580b797aa9dd75",
-    "title": "Will Rockstar Games officially release Grand Theft Auto VI before December 31, 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if it Grand Theft Auto VI is officially released in the US by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nThe market strongly favored a positive resolution throughout much of 2024, expecting Grand Theft Auto VI to be released in 2025. However, as 2025 progressed, reports of development delays began circulating, causing significant shifts in prediction markets. By May 2025, Rockstar Games officially announced that the game would be pushed back to May 26, 2026. This definitive announcement confirmed the delay and guaranteed a negative outcome to the question of a 2025 release.\n\n## Timeline Of Key Events\n- Early 2024: Take-Two Interactive and Rockstar Games signal a Fall 2025 release for GTA VI [art_general_20240318_012_67701958].\n- Early 2025: Rumors of delays begin, but are initially dismissed as jokes [art_general_20250131_019_ea930ca7].\n- March 2025: Market predictions begin to fluctuate as uncertainty grows [art_general_20250318_014_a6741185].\n- April 2025: Reports emerge strongly suggesting a push to 2026 [art_general_20250422_004_2e947996].\n- May 2, 2025: Rockstar Games officially announces the delay to May 26, 2026 [art_general_20250502_007_09a8f9a1].\n\n## Causal Chain Analysis\nThe anticipation of Grand Theft Auto VI created high expectations for a 2025 release [art_general_20240318_012_67701958]. However, the massive scale of the game led to inevitable development hurdles. These underlying development challenges caused rumors of delays, which began circulating in early 2025 [art_general_20250131_019_ea930ca7]. The rumors triggered market uncertainty, leading to significant prediction shifts in March and April [art_general_20250422_004_2e947996]. Finally, the need for more development time resulted in Rockstar Games officially delaying the game to May 26, 2026, on May 2, 2025 [art_general_20250502_007_09a8f9a1].\n\n## Countervailing Factors\nThe primary countervailing factor was the immense financial and fan pressure to release the game as soon as possible. Take-Two Interactive had previously assured investors of a 2025 release to boost financial projections. However, this pressure was overwhelmed by the necessity of delivering a high-quality product, as the studio prioritizing polish over meeting the initial deadline.\n\n## Event Candidate Inventory\n- E1\n  - Title: Rockstar officially delays GTA VI to 2026\n  - Date: May 2, 2025\n  - Why it matters causally: This was the official confirmation that the game would miss the 2025 deadline.\n  - Source article IDs: art_general_20250502_007_09a8f9a1, art_general_20250422_004_2e947996\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| GTA VI initially set for 2025 | art_general_20240318_012_67701958 | Early 2024 | 1.0 | Official initial target |\n| Rumors of delay circulate | art_general_20250131_019_ea930ca7 | Early 2025 | 0.9 | Caused market fluctuations |\n| Official delay to 2026 | art_general_20250502_007_09a8f9a1 | May 2, 2025 | 1.0 | Confirms the negative outcome |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty during early 2025 was whether the development hurdles could be overcome with \"crunch\" (excessive overtime). Had Rockstar enforced a strict crunch policy, a late 2025 release might have been technically possible, though the quality might have suffered.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-01-29T00:11:31.689965+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-01-01T08:44:49+00:00",
-    "polymarket_url": "https://polymarket.com/event/gta-vi-released-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1738152004,
-          "p": 0.715
-        },
-        {
-          "t": 1738368005,
-          "p": 0.7
-        },
-        {
-          "t": 1738627204,
-          "p": 0.745
-        },
-        {
-          "t": 1738843204,
-          "p": 0.685
-        },
-        {
-          "t": 1739102405,
-          "p": 0.745
-        },
-        {
-          "t": 1739361604,
-          "p": 0.745
-        },
-        {
-          "t": 1739577604,
-          "p": 0.675
-        },
-        {
-          "t": 1739836804,
-          "p": 0.69
-        },
-        {
-          "t": 1740052805,
-          "p": 0.69
-        },
-        {
-          "t": 1740312004,
-          "p": 0.69
-        },
-        {
-          "t": 1740571204,
-          "p": 0.66
-        },
-        {
-          "t": 1740787205,
-          "p": 0.66
-        },
-        {
-          "t": 1741046405,
-          "p": 0.635
-        },
-        {
-          "t": 1741305605,
-          "p": 0.665
-        },
-        {
-          "t": 1741521605,
-          "p": 0.665
-        },
-        {
-          "t": 1741780805,
-          "p": 0.695
-        },
-        {
-          "t": 1741996804,
-          "p": 0.62
-        },
-        {
-          "t": 1742256005,
-          "p": 0.655
-        },
-        {
-          "t": 1742515205,
-          "p": 0.63
-        },
-        {
-          "t": 1742731205,
-          "p": 0.615
-        },
-        {
-          "t": 1742990405,
-          "p": 0.665
-        },
-        {
-          "t": 1743206406,
-          "p": 0.66
-        },
-        {
-          "t": 1743465605,
-          "p": 0.63
-        },
-        {
-          "t": 1743724805,
-          "p": 0.67
-        },
-        {
-          "t": 1743940805,
-          "p": 0.645
-        },
-        {
-          "t": 1744200006,
-          "p": 0.58
-        },
-        {
-          "t": 1744459205,
-          "p": 0.685
-        },
-        {
-          "t": 1744675205,
-          "p": 0.69
-        },
-        {
-          "t": 1744934404,
-          "p": 0.735
-        },
-        {
-          "t": 1745150406,
-          "p": 0.685
-        },
-        {
-          "t": 1745409606,
-          "p": 0.655
-        },
-        {
-          "t": 1745668806,
-          "p": 0.685
-        },
-        {
-          "t": 1745884805,
-          "p": 0.63
-        },
-        {
-          "t": 1746144006,
-          "p": 0.685
-        },
-        {
-          "t": 1746360005,
-          "p": 0.0435
-        },
-        {
-          "t": 1746619206,
-          "p": 0.046
-        },
-        {
-          "t": 1746878406,
-          "p": 0.0485
-        },
-        {
-          "t": 1747094406,
-          "p": 0.046
-        },
-        {
-          "t": 1747353606,
-          "p": 0.0435
-        },
-        {
-          "t": 1747612806,
-          "p": 0.051
-        },
-        {
-          "t": 1747828807,
-          "p": 0.0515
-        },
-        {
-          "t": 1748088006,
-          "p": 0.049
-        },
-        {
-          "t": 1748304006,
-          "p": 0.047
-        },
-        {
-          "t": 1748563207,
-          "p": 0.0155
-        },
-        {
-          "t": 1748822406,
-          "p": 0.014
-        },
-        {
-          "t": 1749038406,
-          "p": 0.016
-        },
-        {
-          "t": 1749297608,
-          "p": 0.021
-        },
-        {
-          "t": 1749513606,
-          "p": 0.0215
-        },
-        {
-          "t": 1749772807,
-          "p": 0.0345
-        },
-        {
-          "t": 1750032007,
-          "p": 0.0325
-        },
-        {
-          "t": 1750248007,
-          "p": 0.032
-        },
-        {
-          "t": 1750507208,
-          "p": 0.0365
-        },
-        {
-          "t": 1750766406,
-          "p": 0.0525
-        },
-        {
-          "t": 1750982407,
-          "p": 0.0535
-        },
-        {
-          "t": 1751241607,
-          "p": 0.0645
-        },
-        {
-          "t": 1751457607,
-          "p": 0.0625
-        },
-        {
-          "t": 1751716808,
-          "p": 0.066
-        },
-        {
-          "t": 1751976007,
-          "p": 0.063
-        },
-        {
-          "t": 1752192008,
-          "p": 0.0535
-        },
-        {
-          "t": 1752451207,
-          "p": 0.053
-        },
-        {
-          "t": 1752710408,
-          "p": 0.0525
-        },
-        {
-          "t": 1752926408,
-          "p": 0.0525
-        },
-        {
-          "t": 1753185609,
-          "p": 0.0535
-        },
-        {
-          "t": 1753401609,
-          "p": 0.054
-        },
-        {
-          "t": 1753660809,
-          "p": 0.052
-        },
-        {
-          "t": 1753920008,
-          "p": 0.057
-        },
-        {
-          "t": 1754136010,
-          "p": 0.0475
-        },
-        {
-          "t": 1754395209,
-          "p": 0.047
-        },
-        {
-          "t": 1754611207,
-          "p": 0.0465
-        },
-        {
-          "t": 1754870414,
-          "p": 0.044
-        },
-        {
-          "t": 1755129603,
-          "p": 0.0375
-        },
-        {
-          "t": 1755345619,
-          "p": 0.039
-        },
-        {
-          "t": 1755604814,
-          "p": 0.04
-        },
-        {
-          "t": 1755864005,
-          "p": 0.0385
-        },
-        {
-          "t": 1756080010,
-          "p": 0.036
-        },
-        {
-          "t": 1756339209,
-          "p": 0.037
-        },
-        {
-          "t": 1756555218,
-          "p": 0.033
-        },
-        {
-          "t": 1756814407,
-          "p": 0.035
-        },
-        {
-          "t": 1757073629,
-          "p": 0.036
-        },
-        {
-          "t": 1757289609,
-          "p": 0.0365
-        },
-        {
-          "t": 1757548809,
-          "p": 0.0375
-        },
-        {
-          "t": 1757764833,
-          "p": 0.037
-        },
-        {
-          "t": 1758024027,
-          "p": 0.0355
-        },
-        {
-          "t": 1758283202,
-          "p": 0.039
-        },
-        {
-          "t": 1758499218,
-          "p": 0.0385
-        },
-        {
-          "t": 1758758406,
-          "p": 0.035
-        },
-        {
-          "t": 1759017610,
-          "p": 0.0335
-        },
-        {
-          "t": 1759233606,
-          "p": 0.0315
-        },
-        {
-          "t": 1759492813,
-          "p": 0.031
-        },
-        {
-          "t": 1759708807,
-          "p": 0.0345
-        },
-        {
-          "t": 1759968008,
-          "p": 0.024
-        },
-        {
-          "t": 1760227218,
-          "p": 0.021
-        },
-        {
-          "t": 1760443215,
-          "p": 0.0235
-        },
-        {
-          "t": 1760702406,
-          "p": 0.0225
-        },
-        {
-          "t": 1760918403,
-          "p": 0.0245
-        },
-        {
-          "t": 1761177608,
-          "p": 0.0295
-        },
-        {
-          "t": 1761436811,
-          "p": 0.0205
-        },
-        {
-          "t": 1761652811,
-          "p": 0.024
-        },
-        {
-          "t": 1761955211,
-          "p": 0.0165
-        },
-        {
-          "t": 1762214411,
-          "p": 0.012
-        },
-        {
-          "t": 1762430415,
-          "p": 0.01
-        },
-        {
-          "t": 1762689613,
-          "p": 0.011
-        },
-        {
-          "t": 1762905612,
-          "p": 0.0105
-        },
-        {
-          "t": 1763164812,
-          "p": 0.0105
-        },
-        {
-          "t": 1763424009,
-          "p": 0.0155
-        },
-        {
-          "t": 1763640010,
-          "p": 0.0115
-        },
-        {
-          "t": 1763899210,
-          "p": 0.011
-        },
-        {
-          "t": 1764115211,
-          "p": 0.01
-        },
-        {
-          "t": 1764374415,
-          "p": 0.0095
-        },
-        {
-          "t": 1764633610,
-          "p": 0.0035
-        },
-        {
-          "t": 1764849618,
-          "p": 0.0045
-        },
-        {
-          "t": 1765108813,
-          "p": 0.004
-        },
-        {
-          "t": 1765368016,
-          "p": 0.003
-        },
-        {
-          "t": 1765584013,
-          "p": 0.003
-        },
-        {
-          "t": 1765843211,
-          "p": 0.0035
-        },
-        {
-          "t": 1766016021,
-          "p": 0.003
-        },
-        {
-          "t": 1766275211,
-          "p": 0.003
-        },
-        {
-          "t": 1766534412,
-          "p": 0.0015
-        },
-        {
-          "t": 1766750411,
-          "p": 0.0025
-        },
-        {
-          "t": 1767009613,
-          "p": 0.0025
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1738411205,
-          "p": 0.61,
-          "delta": -0.105
-        },
-        {
-          "t": 1738454404,
-          "p": 0.68,
-          "delta": 0.07
-        },
-        {
-          "t": 1738627204,
-          "p": 0.745,
-          "delta": 0.065
-        },
-        {
-          "t": 1738800005,
-          "p": 0.655,
-          "delta": -0.09
-        },
-        {
-          "t": 1738886404,
-          "p": 0.77,
-          "delta": 0.115
-        },
-        {
-          "t": 1739404804,
-          "p": 0.655,
-          "delta": -0.115
-        },
-        {
-          "t": 1740960005,
-          "p": 0.605,
-          "delta": -0.05
-        },
-        {
-          "t": 1741262405,
-          "p": 0.66,
-          "delta": 0.055
-        },
-        {
-          "t": 1741910405,
-          "p": 0.6,
-          "delta": -0.06
-        },
-        {
-          "t": 1741953605,
-          "p": 0.65,
-          "delta": 0.05
-        },
-        {
-          "t": 1742428805,
-          "p": 0.345,
-          "delta": -0.305
-        },
-        {
-          "t": 1742472006,
-          "p": 0.55,
-          "delta": 0.205
-        },
-        {
-          "t": 1742515205,
-          "p": 0.63,
-          "delta": 0.08
-        },
-        {
-          "t": 1742558406,
-          "p": 0.57,
-          "delta": -0.06
-        },
-        {
-          "t": 1742817604,
-          "p": 0.625,
-          "delta": 0.055
-        },
-        {
-          "t": 1743076805,
-          "p": 0.695,
-          "delta": 0.07
-        },
-        {
-          "t": 1743163206,
-          "p": 0.59,
-          "delta": -0.105
-        },
-        {
-          "t": 1743206406,
-          "p": 0.66,
-          "delta": 0.07
-        },
-        {
-          "t": 1744070406,
-          "p": 0.505,
-          "delta": -0.155
-        },
-        {
-          "t": 1744200006,
-          "p": 0.58,
-          "delta": 0.075
-        },
-        {
-          "t": 1744286406,
-          "p": 0.635,
-          "delta": 0.055
-        },
-        {
-          "t": 1744329605,
-          "p": 0.685,
-          "delta": 0.05
-        },
-        {
-          "t": 1744502405,
-          "p": 0.635,
-          "delta": -0.05
-        },
-        {
-          "t": 1744545605,
-          "p": 0.69,
-          "delta": 0.055
-        },
-        {
-          "t": 1744848006,
-          "p": 0.745,
-          "delta": 0.055
-        },
-        {
-          "t": 1745150406,
-          "p": 0.685,
-          "delta": -0.06
-        },
-        {
-          "t": 1745841606,
-          "p": 0.605,
-          "delta": -0.08
-        },
-        {
-          "t": 1745928005,
-          "p": 0.655,
-          "delta": 0.05
-        },
-        {
-          "t": 1746187206,
-          "p": 0.0325,
-          "delta": -0.6225
-        }
-      ],
-      "price_at_open": 0.715,
-      "price_at_close": 0.002,
-      "min_price": 0.0015,
-      "max_price": 0.775,
-      "final_price": 0.002,
-      "fetched_at": "2026-04-27T07:57:39.056968+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_tech_20250131_002_0f92bb10",
-        "date": "2025-01-31 12:00",
-        "title": "Rumors of GTA VI delays begin circulating",
-        "description": "Rumors of delays begin, but are initially dismissed as jokes.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRumors of delay make the YES outcome less likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.androidheadlines.com/2025/01/gta-vi-release-date-rumor-was-a-joke-that-escalated.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250318_003_856ae6ed",
-        "date": "2025-03-18 12:00",
-        "title": "Market predictions fluctuate due to uncertainty",
-        "description": "Market predictions begin to fluctuate as uncertainty grows.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket uncertainty reflects decreasing likelihood of YES.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/two-interactive-ttwo-lead-growth-192315225.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250422_004_de110044",
-        "date": "2025-04-22 12:00",
-        "title": "Reports emerge strongly suggesting a push to 2026",
-        "description": "Reports emerge strongly suggesting a push to 2026.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nReports of a push to 2026 strongly decrease YES likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/entertainment/articles/grand-theft-auto-vi-won-142459219.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250502_009_ee467fc7",
-        "date": "2025-05-02 11:00",
-        "title": "Rockstar Games officially announces the delay to May 26, 2026",
-        "description": "Rockstar Games officially announces the delay to May 26, 2026.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nOfficial delay to 2026 guarantees NO outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/250502/p8",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20240318_001_1c39b07f",
-        "date": "2024-03-18 12:00",
-        "title": "Take-Two Interactive signals a Fall 2025 release for GTA VI",
-        "description": "Take-Two Interactive and Rockstar Games signal a Fall 2025 release for GTA VI.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSignaling a 2025 release makes the YES outcome more likely.",
+        "id": "evt_politics_20201103_001_4af2c85c",
+        "date": "2020-11-03 00:00",
+        "title": "Expansion of mail-in and early voting options",
+        "description": "The expansion of mail-in and early voting options during the 2020 pandemic election became institutionalized.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nExpansion of voting options increased accessibility.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.yahoo.com/entertainment/grand-theft-auto-6-gets-212517532.html?fr=sycsrp_catchall",
+        "source_url": "https://nationaljournal.com/2024/11/12/mail-in-ballots-turnout",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20240318_007_d9c25525",
-        "date": "2024-03-18 12:00",
-        "title": "Rockstar Games issues a return to office mandate",
-        "description": "Rockstar Games issues a return to office mandate starting in April.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nReturn to office mandate raises concerns about delays.",
+        "id": "evt_politics_20240705_009_d0455be1",
+        "date": "2024-07-05 00:00",
+        "title": "Sense of powerlessness among young voters",
+        "description": "Some reports highlighted a sense of powerlessness among young voters.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPowerlessness reduced turnout.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.yahoo.com/tech/grand-theft-auto-6-production-190422487.html",
+        "source_url": "https://www.thewrap.com/biden-age-gen-z-voter-turnout-debate-reactions",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20240318_011_160d7112",
-        "date": "2024-03-18 12:00",
-        "title": "Take-Two CEO remains mum on GTA 6 release date",
-        "description": "Take-Two CEO remains mum on GTA 6 release date during earnings call.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://finance.yahoo.com/news/two-beats-latest-quarterly-earnings-201550407.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250318_006_555825d7",
-        "date": "2025-03-18 12:00",
-        "title": "Prediction markets shift significantly",
-        "description": "The rumors triggered market uncertainty, leading to significant prediction shifts.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPrediction markets shifting away from 2025 decreases YES likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/two-interactive-ttwo-lead-growth-192315225.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250502_010_5c9cf12f",
-        "date": "2025-05-02 11:00",
-        "title": "Rockstar Games prioritizes polish over meeting the initial deadline",
-        "description": "Rockstar Games prioritizes polish over meeting the initial deadline.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPrioritizing polish over deadline decreases YES likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/250502/p8",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20240318_005_4ca0ecfe",
-        "date": "2024-03-18 12:00",
-        "title": "Take-Two Interactive assures investors of a 2025 release",
-        "description": "Take-Two Interactive assures investors of a 2025 release to boost financial projections.",
-        "impact": "**Affects:** Yes - Will Rockstar Games officially release Grand Theft  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAssuring investors of 2025 release increases YES likelihood.",
+        "id": "evt_politics_20241016_003_a95e52f5",
+        "date": "2024-10-16 00:00",
+        "title": "Intense media coverage on polarizing issues",
+        "description": "Intense media coverage and polarizing issues like abortion rights motivated voters.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMedia coverage increased motivation.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.yahoo.com/entertainment/grand-theft-auto-6-gets-212517532.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0x76ccc95393f89f2af45f7391661be540833d61da56a02a5bc36d561743fe486e",
-    "title": "New 10% US blanket tariff goes into effect by February 28?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to “Yes” if any new general or blanket US tariff of 10% or more on imports into the United States goes into effect for any amount of time by February 28, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nA general or blanket tariff is a tariff policy that applies a baseline tariff rate of 10% or greater to imports broadly, rather than being limited to a narrow set of products or countries. A tariff that includes item-specific, country-specific, or other limited exceptions will still qualify, as long as a baseline policy of a 10% or greater tariff on imports into the United States goes into effect.\n\n“Goes into effect\" means the effective start date for the tariff must have begun without being further delayed or suspended. Any tariff which goes into effect after February 28, 2026, 11:59 PM ET, will not count, regardless of the date on which it was ordered. Tariffs that were in effect prior to February 20, 2026 will not count.\n\nLater suspensions, reductions, or other limitations applied to a qualifying tariff after it goes into effect will have no impact on this market’s resolution.\n\nThis market's primary resolution source will be official information from the United States federal government; however, a consensus of credible information may also be used.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nIn February 2026, the Trump administration successfully implemented a new 10% blanket import tariff, effectively replacing earlier tariffs that the Supreme Court had struck down. The new measure was introduced under Section 122 of the Trade Act of 1974, which allows for a temporary 150-day import surcharge to address severe \"international payments problems.\" Following the Supreme Court ruling against the administration's use of the International Emergency Economic Powers Act (IEEPA), the administration pivoted quickly, and the Section 122 tariff went into effect on February 24, 2026, resolving the question positively.\n\n## Timeline Of Key Events\n- **Early February 2026:** The U.S. Supreme Court rules against the administration's sweeping tariffs imposed under the International Emergency Economic Powers Act (IEEPA), rendering them void.\n- **Mid February 2026:** The administration signals its intent to invoke alternative executive authorities to maintain the tariff regime.\n- **February 22-23, 2026:** The administration announces the implementation of a 10% ad valorem import surcharge under Section 122 of the Trade Act of 1974 [art_business_20260222_004_cac400b3].\n- **February 24, 2026:** The new 10% blanket import surcharge under Section 122 officially goes into effect [art_business_20260223_006_4179b609].\n\n## Causal Chain Analysis\nThe root cause was the Supreme Court's decision to strike down the administration's previous IEEPA-based tariffs, leaving a major policy gap. This triggered the administration to urgently find a legally viable alternative to maintain import duties. The intermediate mechanism was the utilization of Section 122 of the Trade Act of 1974, which grants the executive branch the authority to impose a temporary 150-day import surcharge of up to 15% to address international payments issues. This resulted in the administration issuing a proclamation for a new 10% blanket tariff [art_business_20260222_004_cac400b3]. The final outcome occurred when this temporary 10% tariff went into legal effect on February 24, 2026, prior to the February 28 deadline [art_business_20260223_006_4179b609].\n\n## Countervailing Factors\nThere were immediate legal challenges to the Section 122 tariffs. Critics and importers quickly brought lawsuits to the Court of International Trade [art_politics_20260222_008_de7516e0], arguing the move lacked justification or abused the specific conditions required by Section 122. Additionally, market volatility and a drop in consumer sentiment posed political pressure [art_politics_20260222_008_de7516e0]. However, these factors failed to stop the implementation because the executive authority under Section 122 allowed for immediate enactment prior to any judicial injunction, allowing the tariff to go into effect on February 24.\n\n## Event Candidate Inventory\n- E1\n  - title: The U.S. Supreme Court strikes down earlier IEEPA-based tariffs.\n  - date: Early February 2026\n  - why it matters causally: Forced the administration to find a new legal avenue for tariffs.\n  - source article IDs: [art_politics_20260224_012_a6eb8b8f]\n- E2\n  - title: Administration announces a new 10% tariff under Section 122 of the Trade Act of 1974.\n  - date: February 22-23, 2026\n  - why it matters causally: Proximate trigger for the new tariff framework.\n  - source article IDs: [art_business_20260222_004_cac400b3], [art_business_20260223_006_4179b609]\n- E3\n  - title: Section 122 temporary 10% tariff officially goes into effect.\n  - date: February 24, 2026\n  - why it matters causally: Direct realization of the question's target condition.\n  - source article IDs: [art_business_20260223_006_4179b609], [art_business_20260222_004_cac400b3]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| --- | --- | --- | --- | --- |\n| Announcement of 10% Section 122 tariff | [art_business_20260222_004_cac400b3] | Feb 22, 2026 | 1.0 | Official announcement of the new policy |\n| New tariff goes into effect | [art_business_20260223_006_4179b609] | Feb 24, 2026 | 1.0 | Confirmation of implementation date |\n| Legal challenges mounted against Section 122 | [art_politics_20260222_008_de7516e0] | Feb 22, 2026 | 0.9 | Highlights resistance that failed to prevent enactment |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was the possibility of a federal court issuing a nationwide injunction against the Section 122 proclamation before February 24, which would have resulted in a \"No\" outcome. The uncertainty rested entirely on the speed of the judicial review process at the Court of International Trade. Ultimately, the courts did not act swiftly enough to block the initial implementation. Another uncertainty was whether the administration might push for a 15% rate, but the final enacted rate was 10%.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2026-02-20T22:28:02.230547+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-02-24T15:26:00+00:00",
-    "polymarket_url": "https://polymarket.com/event/new-10-us-blanket-tariff-goes-into-effect-by-february-28",
-    "price_data": {
-      "history": [
-        {
-          "t": 1771632034,
-          "p": 0.925
-        },
-        {
-          "t": 1771675234,
-          "p": 0.945
-        },
-        {
-          "t": 1771718434,
-          "p": 0.9385
-        },
-        {
-          "t": 1771761642,
-          "p": 0.965
-        },
-        {
-          "t": 1771804839,
-          "p": 0.969
-        },
-        {
-          "t": 1771848045,
-          "p": 0.981
-        },
-        {
-          "t": 1771891241,
-          "p": 0.9765
-        },
-        {
-          "t": 1771934454,
-          "p": 0.999
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1771848045,
-          "p": 0.981,
-          "delta": 0.056
-        }
-      ],
-      "price_at_open": 0.925,
-      "price_at_close": 0.999,
-      "min_price": 0.925,
-      "max_price": 0.999,
-      "final_price": 0.999,
-      "fetched_at": "2026-04-27T07:57:55.173820+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20260221_005_ce2cdcf0",
-        "date": "2026-02-21 12:00",
-        "title": "Critics bring lawsuits to Court of International Trade",
-        "description": "Critics and importers quickly bring lawsuits to the Court of International Trade challenging the Section 122 tariffs.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/money/markets/trump-s-section-122-tariffs-challenged-in-court-as-consumer-sentiment-reaches-record-low/ar-AA20CilZ?ocid=BingNewsVerp",
+        "source_url": "https://www.denverpost.com/2024/10/16/abortion-election-amendment-79-trump-harris-ballot",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260221_006_834d03a6",
-        "date": "2026-02-21 14:00",
-        "title": "Market volatility increases",
-        "description": "Market volatility increases following the announcement of the new tariffs.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/money/markets/trump-s-section-122-tariffs-challenged-in-court-as-consumer-sentiment-reaches-record-low/ar-AA20CilZ?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260221_007_b3b62bdc",
-        "date": "2026-02-21 16:00",
-        "title": "Consumer sentiment drops",
-        "description": "Consumer sentiment drops, posing political pressure on the administration.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/money/markets/trump-s-section-122-tariffs-challenged-in-court-as-consumer-sentiment-reaches-record-low/ar-AA20CilZ?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260221_008_0a2e7ca5",
-        "date": "2026-02-21 18:00",
-        "title": "Administration decides on 10% rate",
-        "description": "The administration decides on a 10% rate instead of a 15% rate for the Section 122 tariffs.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.ghy.com/trade-compliance/us-10-section-122-tariff-in-effect-feb-24-ieepa-tariffs-directed-to-wind-down-de-minimis-suspension-continues",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260222_003_9eb75b79",
-        "date": "2026-02-22 00:00",
-        "title": "Administration announces 10% tariff under Section 122",
-        "description": "The administration announces the implementation of a 10% ad valorem import surcharge under Section 122 of the Trade Act of 1974.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.ghy.com/trade-compliance/us-10-section-122-tariff-in-effect-feb-24-ieepa-tariffs-directed-to-wind-down-de-minimis-suspension-continues",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260223_004_ca21cb09",
-        "date": "2026-02-23 00:00",
-        "title": "Courts fail to issue injunction",
-        "description": "The courts do not act swiftly enough to issue a nationwide injunction against the Section 122 proclamation before February 24.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/client-advisories/2026q1/02-23-2026-client-advisory-new-import-surcharge-and-end-of-ieepa-tariffs-effective-feb-24-26",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20260224_009_82c72bf1",
-        "date": "2026-02-24 00:00",
-        "title": "Section 122 temporary 10% tariff officially goes into effect",
-        "description": "The new 10% blanket import surcharge under Section 122 officially goes into effect.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cigionline.org/articles/dont-play-games-with-the-us-dollars-credibility",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20260224_010_6689ce5f",
-        "date": "2026-02-24 00:00",
-        "title": "Tariff goes into legal effect prior to February 28 deadline",
-        "description": "The temporary 10% tariff goes into legal effect on February 24, 2026, prior to the February 28 deadline.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cigionline.org/articles/dont-play-games-with-the-us-dollars-credibility",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260220_001_91206fb9",
-        "date": "2026-02-20 00:00",
-        "title": "Supreme Court strikes down IEEPA-based tariffs",
-        "description": "The U.S. Supreme Court rules against the administration's sweeping tariffs imposed under the International Emergency Economic Powers Act (IEEPA).",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
+        "id": "evt_politics_20241030_002_5c82d442",
+        "date": "2024-10-30 00:00",
+        "title": "Deep political polarization intensifies",
+        "description": "Deep political polarization in the country had been intensifying for several election cycles.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPolarization increased motivation.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.cigionline.org/articles/dont-play-games-with-the-us-dollars-credibility",
+        "source_url": "https://www.euronews.com/2024/10/30/us-election-2024-how-crucial-will-voter-turnout-be",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260220_002_2e123fbb",
-        "date": "2026-02-20 12:00",
-        "title": "Administration signals intent for alternative tariffs",
-        "description": "The administration signals its intent to invoke alternative executive authorities to maintain the tariff regime.",
-        "impact": "**Affects:** Yes - New 10% US blanket tariff goes into effect by Febr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to the tariff going into effect.",
+        "id": "evt_politics_20241101_001_b71a3efc",
+        "date": "2024-11-01 00:00",
+        "title": "Intense political polarization",
+        "description": "Intense political polarization and perceived high stakes of the election.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPolarization drove turnout up.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://reason.com/2026/04/10/in-new-tariff-cases-trump-asserts-unreviewable-power-to-invent-a-balance-of-payments-deficit",
+        "source_url": "https://www.census.gov/newsroom/press-releases/2025/2024-presidential-election-voting-registration-tables.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241103_004_fd6f3ef8",
+        "date": "2024-11-03 00:00",
+        "title": "Sophisticated campaign operations in swing states",
+        "description": "Sophisticated and well-funded campaign operations leveraged data analytics to target and mobilize potential voters.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCampaign operations mobilized voters.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.france24.com/en/video/20241103-us-presidential-election-voter-turnout-crucial-in-battleground-states-expert-says",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241104_001_3eb45741",
+        "date": "2024-11-04 23:59",
+        "title": "Intense Partisan Polarization Defines 2024 Election Climate",
+        "description": "The political landscape in the United States during 2024 was characterized by intense partisan polarization, creating a highly charged atmosphere for the presidential election.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high voter turnout.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.washingtonpost.com/politics/2024/11/06/voter-turnout-2024-by-state",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241105_005_69ff5ec6",
+        "date": "2024-11-05 00:00",
+        "title": "Intense get-out-the-vote efforts",
+        "description": "Intense get-out-the-vote (GOTV) efforts in the final weeks and days leading up to the election.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nGOTV efforts mobilized voters.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://foreignpolicy.com/2024/11/05/election-day-early-voter-turnout-record",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241105_012_3df9f323",
+        "date": "2024-11-05 16:00",
+        "title": "Initial Reports Indicate High Voter Turnout on Election Day",
+        "description": "On Election Day, initial reports and analysis from various parts of the country indicated a high level of voter turnout.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high voter turnout.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.ocregister.com/2024/11/05/2024-election-day-updates-how-orange-countys-voter-turnout-is-shaking-out",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241107_006_1581283f",
+        "date": "2024-11-07 10:00",
+        "title": "Preliminary Estimates Suggest Record-High Voter Turnout",
+        "description": "Initial, though still preliminary, estimates of voter turnout were published, suggesting that the 2024 election could see record-high participation.",
+        "impact": "**Affects:** Quantity outcome: What will be the voter turnout rate in the 2024 US  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high voter turnout.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://politicsnews.com/2024/11/07/voter-turnout-initial-estimates",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

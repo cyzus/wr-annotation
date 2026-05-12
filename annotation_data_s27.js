@@ -1,5 +1,350 @@
 var annotationData = [
   {
+    "id": "polymarket_event_225893",
+    "title": "PGA Tour: Cognizant Classic in The Palm Beaches Winner",
+    "question_type": "mcq",
+    "options": [
+      "Daniel Brown",
+      "Rafael Campos",
+      "Luke Clanton",
+      "Ze-Cheng Dou",
+      "Adrien Dumont De Chassart",
+      "Justin Hicks",
+      "Rico Hoey",
+      "Charley Hoffman",
+      "Nicolai Hojgaard",
+      "Beau Hossler",
+      "Mark Hubbard",
+      "Mackenzie Hughes",
+      "Stephan Jaeger",
+      "Seong-Hyeon Kim",
+      "Christo Lamprecht",
+      "Henry Lebioda",
+      "Kyoung-Hoon Lee",
+      "Hao-Tong Li",
+      "David Lipsky",
+      "Justin Lower",
+      "Shane Lowry",
+      "Peter Malnati",
+      "Max McGreevy",
+      "Matthieu Pavon",
+      "Taylor Pendrith",
+      "Chandler Phillips",
+      "Seamus Power",
+      "Andrew Putnam",
+      "Aaron Rai",
+      "Kevin Roy",
+      "Marcelo Rozo",
+      "Adrien Saddier",
+      "Isaiah Salinda",
+      "Gordon Sargent",
+      "Adam Schenk",
+      "Zach Bauchou",
+      "Christiaan Bezuidenhout",
+      "Chandler Blanchet",
+      "Blades Brown",
+      "Eric Cole",
+      "A.J. Ewart",
+      "Joel Dahmen",
+      "Cam Davis",
+      "Nick Dunlap",
+      "Nicolas Echavarria",
+      "Austin Eckroat",
+      "Doug Ghim",
+      "Ben Griffin",
+      "Emiliano Grillo",
+      "Tom Kim",
+      "Chris Kirk",
+      "Patton Kizzire",
+      "Brooks Koepka",
+      "Matt Kuchar",
+      "Mac Meissner",
+      "Keith Mitchell",
+      "Taylor Moore",
+      "William Mouw",
+      "Michael Brennan",
+      "Jacob Bridgeman",
+      "Ricky Castillo",
+      "Davis Chatfield",
+      "Patrick Fishburn",
+      "Steven Fisk",
+      "David Ford",
+      "Brice Garnett",
+      "Ryan Gerard",
+      "Garrick Higgo",
+      "Joe Highsmith",
+      "Kensei Hirata",
+      "Lee Hodges",
+      "Rasmus Hojgaard",
+      "Max Homa",
+      "Billy Horschel",
+      "Takumi Kanaya",
+      "Jeffrey Kang",
+      "Johnny Keefer",
+      "Michael Kim",
+      "Keita Nakajima",
+      "Rasmus Neergaard-Petersen",
+      "Pontus Nyholm",
+      "Thorbjorn Olesen",
+      "John Parry",
+      "Chad Ramey",
+      "Kristoffer Reitan",
+      "Davis Riley",
+      "Patrick Rodgers",
+      "Matthias Schmid",
+      "Adam Scott",
+      "Neal Shipley",
+      "Webb Simpson",
+      "Alex Smalley",
+      "Jordan L. Smith",
+      "Austin Smotherman",
+      "Jimmy Stanger",
+      "Kevin Streelman",
+      "Adam Svensson",
+      "Jesper Svensson",
+      "Davis Thompson",
+      "Michael Thorbjornsen"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve according to the listed player who wins the 2026 Cognizant Classic in The Palm Beaches tournament.\n\nIf a listed player is eliminated from contention for the Cognizant Classic in The Palm Beaches tournament based on the official rules of the tournament, the relevant market will immediately resolve to \"No\".\n\nIf an unlisted player wins the Cognizant Classic in The Palm Beaches tournament this market will resolve to \"Other\".\n\nIn the event of a tie, this market will resolve according to the official winner as determined by PGA Tour official tournament rules. If multiple winners are announced then this market will resolve to the player whose listed last name comes first alphabetically.\n\nIf no winner is announced by March 7, 2026 at 7:00PM ET this market will resolve to \"Other\".\n\nThe primary resolution source will be the official results published by the PGA Tour website (https://www.pgatour.com/).",
+    "outcome": "Nicolas Echavarria",
+    "explanation": "\n## Executive Summary\nNicolas Echavarria secured his victory at the 2026 Cognizant Classic primarily through a combination of his own flawless weekend performance and a late-stage collapse by the then-leader, Shane Lowry. While Lowry held a commanding position late in the final round, he faltered significantly in the famously difficult \"Bear Trap\" stretch, hitting into the water on consecutive holes. Conversely, Echavarria maintained remarkable consistency, completing the entire weekend without recording a single bogey and finishing with a 5-under 66 to reach 17-under overall. This steady play under pressure, contrasted with his opponent's meltdown, sealed his third PGA Tour title.\n\n## Timeline Of Key Events\n- **March 1-2, 2026**: Nicolas Echavarria completes a flawless, bogey-free weekend at the Cognizant Classic [art_general_20260301_002_7af84773].\n- **March 2, 2026**: Shane Lowry, in contention for the lead, hits his ball into the water twice on consecutive holes during the \"Bear Trap\" closing stretch [art_general_20260302_006_afecb454].\n- **March 2, 2026**: Echavarria posts a final-round 5-under 66 to finish at 17-under par, taking the title [art_sports_20260302_009_f270f382].\n\n## Causal Chain Analysis\nThe ultimate outcome resulted from a two-pronged causal chain: Echavarria's sustained excellence and Lowry's critical errors. First, Echavarria established a strong foundation by playing mistake-free golf over the weekend, avoiding dropped shots that often plague players at PGA National [art_general_20260301_002_7af84773]. This consistent performance kept him within striking distance. Second, the proximate trigger for the victory was Shane Lowry's late collapse; Lowry's consecutive water balls in the Bear Trap resulted in dropped shots that erased his advantage [art_general_20260302_006_afecb454]. This combination directly led to Echavarria claiming the top spot on the leaderboard and winning the tournament.\n\n## Countervailing Factors\nShane Lowry's strong play leading up to the final holes was the primary countervailing force. He had positioned himself as the frontrunner and was poised to win. However, the notorious difficulty of the \"Bear Trap\" holes at PGA National overwhelmed his momentum, forcing critical mistakes that derailed his chances.\n\n## Event Candidate Inventory\n- **E1**: Echavarria completes a bogey-free weekend.\n  - Date: March 1-2, 2026\n  - Why it matters causally: Provided the stable scoring foundation necessary to capitalize on opponents' mistakes.\n  - Source article IDs: [art_general_20260301_002_7af84773]\n- **E2**: Shane Lowry hits into the water on consecutive holes in the Bear Trap.\n  - Date: March 2, 2026\n  - Why it matters causally: The direct collapse that relinquished the lead and opened the door for Echavarria's victory.\n  - Source article IDs: [art_general_20260302_006_afecb454]\n- **E3**: Echavarria shoots a final-round 66 to finish 17-under.\n  - Date: March 2, 2026\n  - Why it matters causally: Secured the final winning score that could not be matched after Lowry's collapse.\n  - Source article IDs: [art_sports_20260302_009_f270f382]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Echavarria's bogey-free weekend | [art_general_20260301_002_7af84773] | March 1-2, 2026 | 0.95 | Key to his consistency. |\n| Lowry's late meltdown in Bear Trap | [art_general_20260302_006_afecb454] | March 2, 2026 | 0.95 | Crucial turning point. |\n| Final score of 17-under with a 66 | [art_sports_20260302_009_f270f382] | March 2, 2026 | 1.0 | Official winning score. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a Shane Lowry victory. Had Lowry navigated the Bear Trap without finding the water, he likely would have secured the title, given his position prior to those holes. The inherent unpredictability of the Bear Trap introduced a late-stage volatility that determined the final outcome.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-12-02T03:08:35+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-03-02T03:08:35+00:00",
+    "polymarket_url": "https://polymarket.com/event/2026-cognizant-classic-in-the-palm-beaches-winner",
+    "price_data": {
+      "history": [
+        {
+          "t": 1771977635,
+          "p": 0.215
+        },
+        {
+          "t": 1772020839,
+          "p": 0.0065
+        },
+        {
+          "t": 1772064032,
+          "p": 0.006
+        },
+        {
+          "t": 1772107245,
+          "p": 0.4455
+        },
+        {
+          "t": 1772150436,
+          "p": 0.01
+        },
+        {
+          "t": 1772193650,
+          "p": 0.1805
+        },
+        {
+          "t": 1772236837,
+          "p": 0.3345
+        },
+        {
+          "t": 1772280056,
+          "p": 0.24
+        },
+        {
+          "t": 1772323247,
+          "p": 0.1065
+        },
+        {
+          "t": 1772366440,
+          "p": 0.0815
+        },
+        {
+          "t": 1772409648,
+          "p": 0.0005
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1772020839,
+          "p": 0.0065,
+          "delta": -0.2085
+        },
+        {
+          "t": 1772107245,
+          "p": 0.4455,
+          "delta": 0.439
+        },
+        {
+          "t": 1772150436,
+          "p": 0.01,
+          "delta": -0.4355
+        },
+        {
+          "t": 1772193650,
+          "p": 0.1805,
+          "delta": 0.1705
+        },
+        {
+          "t": 1772236837,
+          "p": 0.3345,
+          "delta": 0.154
+        },
+        {
+          "t": 1772280056,
+          "p": 0.24,
+          "delta": -0.0945
+        },
+        {
+          "t": 1772323247,
+          "p": 0.1065,
+          "delta": -0.1335
+        },
+        {
+          "t": 1772409648,
+          "p": 0.0005,
+          "delta": -0.106
+        }
+      ],
+      "price_at_open": null,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.4455,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-20T17:08:23.586094+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_sports_20260301_001_1a7b612b",
+        "date": "2026-03-01 00:00",
+        "title": "Echavarria plays a flawless weekend",
+        "description": "Nicolas Echavarria plays a flawless weekend, keeping him in contention.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_008_e67278aa",
+        "date": "2026-03-01 23:00",
+        "title": "Echavarria plays mistake-free golf over the weekend",
+        "description": "Nicolas Echavarria completes a flawless, bogey-free weekend at the Cognizant Classic.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEchavarria playing mistake-free golf makes him winning more likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.usnews.com/news/sports/articles/2026-03-01/nico-echavarria-wins-the-cognizant-classic-with-a-flawless-weekend-after-shane-lowry-melts-down-late",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260302_005_56037fd7",
+        "date": "2026-03-02 00:00",
+        "title": "Echavarria posts a final-round 5-under 66",
+        "description": "Echavarria posts a final-round 5-under 66.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEchavarria posting a 66 makes him winning more likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.firstcallgolf.com/industry-news/release/2026-03-02/nico-echavarria-breaks-through-at-the-cognizant-classic-in-the-palm-beaches-for-third-pga-tour-title",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_003_10488ab8",
+        "date": "2026-03-01 15:10",
+        "title": "Lowry hits a woeful iron shot on hole 16",
+        "description": "Shane Lowry hits a woeful iron shot on hole 16.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_004_13cbb078",
+        "date": "2026-03-01 15:20",
+        "title": "Lowry makes a double bogey on hole 16",
+        "description": "Shane Lowry makes a double bogey on hole 16, losing part of his lead.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_006_8a3de41f",
+        "date": "2026-03-01 15:40",
+        "title": "Lowry's tee shot at No. 17 lands in the water",
+        "description": "Shane Lowry's tee shot at No. 17 lands well short in the water.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_007_fbb0b58b",
+        "date": "2026-03-01 16:00",
+        "title": "Echavarria takes the lead",
+        "description": "Nicolas Echavarria takes the lead after Lowry's double bogeys and his own birdie.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_008_79909f9b",
+        "date": "2026-03-01 16:30",
+        "title": "Echavarria completes his final round of 5-under 66",
+        "description": "Nicolas Echavarria completes his final round of 5-under 66 to finish at 17-under 267.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_009_104502ba",
+        "date": "2026-03-01 17:00",
+        "title": "Nicolas Echavarria wins the 2026 Cognizant Classic",
+        "description": "Nicolas Echavarria wins the 2026 Cognizant Classic.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to Nicolas Echavarria winning the tournament.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260301_003_cf26f3fd",
+        "date": "2026-03-01 18:00",
+        "title": "Echavarria avoids mistakes over the weekend",
+        "description": "Echavarria avoids mistakes over the weekend due to precise ball-striking.",
+        "impact": "**Affects:** Option 45: Nicolas Echavarria  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAvoiding mistakes led to a bogey-free weekend.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.heraldmailmedia.com/story/sports/golf/pga/2026/03/01/nico-echavarria-wins-cognizant-classic-2026/88937027007",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
     "id": "polymarket_event_237569",
     "title": "Next Supreme Leader of Iran?",
     "question_type": "mcq",
@@ -253,671 +598,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.yahoo.com/news/articles/does-iran-selecting-supreme-leader-223839996.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_event_45883",
-    "title": "Fed decision in January?",
-    "question_type": "mcq",
-    "options": [
-      "50+ bps decrease",
-      "25 bps decrease",
-      "No change",
-      "25+ bps increase"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal fund range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's January 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for January 27 - 28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their January meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
-    "outcome": "No change",
-    "explanation": "\n## Executive Summary\nIn January 2026, the Federal Reserve opted to maintain interest rates at their current levels, pausing a series of previous rate cuts. This decision was heavily influenced by a resurgence of inflationary pressures driven by escalating geopolitical tensions, specifically the Iran war, which caused significant global oil price spikes in late 2025. Despite earlier expectations of continued rate reductions to support a moderating economy, the immediate risk of energy-driven inflation compelled the FOMC to adopt a 'wait-and-see' approach. Consequently, the Fed decided to hold rates steady, citing the need for more clarity on both the inflation trajectory and the ongoing geopolitical situation.\n\n## Timeline Of Key Events\n- **September 17, 2025**: The Fed initiated rate cuts to support the economy, as evidenced by a rebounding dollar and market anticipation [art_general_20250917_038_39d38a7c].\n- **November 6, 2025**: The Fed implemented a second interest rate cut, continuing its strategy to stabilize the moderating economy [art_general_20251106_013_4be4df94].\n- **Late November 2025**: Geopolitical tensions escalated significantly, leading to the outbreak of the Iran war. This caused a sharp spike in global oil prices and reignited inflation fears, marking a major turning point in market sentiment.\n- **December 30, 2025**: FOMC minutes revealed a tight split among officials regarding a December rate cut, highlighting growing uncertainty due to the shifting inflation outlook [art_general_20251230_023_d6c7b8dc].\n- **January 28, 2026**: The Federal Reserve officially paused interest rate cuts, holding rates steady in its first meeting of the year amid renewed economic uncertainty and inflation risks [art_general_20260128_003_a98daa14].\n\n## Causal Chain Analysis\nThe sequence of events leading to the \"No change\" decision began with the Fed's initial strategy to lower interest rates in late 2025 (e.g., [art_general_20250917_038_39d38a7c] and [art_general_20251106_013_4be4df94]) to counter a moderating economy. However, this trajectory was abruptly disrupted by the escalation of the Iran war in November 2025. This geopolitical crisis triggered a sharp increase in global oil prices, which directly caused a resurgence in inflationary pressures. The renewed inflation threat led to growing uncertainty among Fed officials, as seen in the closely divided December FOMC minutes [art_general_20251230_023_d6c7b8dc]. Ultimately, the heightened risk of inflation, fueled by the energy crisis, resulted in the Fed's decision to pause rate cuts and hold interest rates steady in January 2026 [art_general_20260128_003_a98daa14].\n\n## Countervailing Factors\nThe primary force pushing against the \"No change\" outcome was the initial economic slowdown observed earlier in 2025, which had prompted the Fed to begin cutting rates. Had the economy continued to weaken without the shock of the Iran war, the Fed likely would have proceeded with further rate reductions. However, this downward economic pressure was overwhelmed by the immediate and severe inflationary impact of the global oil price spikes caused by the conflict, forcing the Fed to prioritize its inflation-fighting mandate.\n\n## Event Candidate Inventory\n- **E1**: Fed initiates rate cuts (September 2025). Date: 2025-09-17. Why it matters causally: Established the baseline expectation for easing monetary policy. Source: [art_general_20250917_038_39d38a7c].\n- **E2**: Fed implements a second rate cut (November 2025). Date: 2025-11-06. Why it matters causally: Continued the trend of monetary easing before the geopolitical shock. Source: [art_general_20251106_013_4be4df94].\n- **E3**: Escalation of Iran war and oil price spike (November 2025). Date: ~2025-11-10 to 2025-11-23. Why it matters causally: The critical turning point that reintroduced severe inflation risks. Source: [art_general_20251230_023_d6c7b8dc] (contextualized in December minutes).\n- **E4**: Tight split in December FOMC meeting. Date: 2025-12-30. Why it matters causally: Reflected the growing hesitation to cut rates further amidst new inflation data. Source: [art_general_20251230_023_d6c7b8dc].\n- **E5**: Fed decision to hold rates steady. Date: 2026-01-28. Why it matters causally: The final outcome representing the pause in the rate-cutting cycle. Source: [art_general_20260128_003_a98daa14].\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Fed initiates rate cuts | art_general_20250917_038_39d38a7c | 2025-09-17 | 0.9 | Dollar rebounded as cuts began. |\n| Fed makes second cut | art_general_20251106_013_4be4df94 | 2025-11-06 | 0.9 | Continued the easing cycle. |\n| Tight split on December cut | art_general_20251230_023_d6c7b8dc | 2025-12-30 | 0.85 | Minutes showed hesitation. |\n| Fed holds rates steady | art_general_20260128_003_a98daa14 | 2026-01-28 | 1.0 | The final resolution event. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was the duration and severity of the Iran war's impact on oil prices. If the conflict had been resolved quickly or its effect on energy markets mitigated, the Fed might have continued its rate-cutting path. Alternatively, if the economic slowdown had worsened significantly, overwhelming the inflation concerns, the Fed might have been forced to cut rates despite higher oil prices.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-10-30T22:53:04+00:00",
-    "market_open_estimated": true,
-    "market_close": "2026-01-28T22:53:04+00:00",
-    "polymarket_url": "https://polymarket.com/event/fed-decision-in-january",
-    "price_data": {
-      "history": [
-        {
-          "t": 1758153610,
-          "p": 0.12
-        },
-        {
-          "t": 1758240019,
-          "p": 0.105
-        },
-        {
-          "t": 1758326414,
-          "p": 0.125
-        },
-        {
-          "t": 1758412806,
-          "p": 0.085
-        },
-        {
-          "t": 1758499218,
-          "p": 0.11
-        },
-        {
-          "t": 1758628808,
-          "p": 0.105
-        },
-        {
-          "t": 1758715213,
-          "p": 0.11
-        },
-        {
-          "t": 1758801610,
-          "p": 0.095
-        },
-        {
-          "t": 1758888013,
-          "p": 0.07
-        },
-        {
-          "t": 1758974408,
-          "p": 0.075
-        },
-        {
-          "t": 1759104006,
-          "p": 0.07
-        },
-        {
-          "t": 1759190409,
-          "p": 0.065
-        },
-        {
-          "t": 1759276804,
-          "p": 0.09
-        },
-        {
-          "t": 1759363208,
-          "p": 0.075
-        },
-        {
-          "t": 1759492812,
-          "p": 0.09
-        },
-        {
-          "t": 1759579215,
-          "p": 0.095
-        },
-        {
-          "t": 1759665606,
-          "p": 0.085
-        },
-        {
-          "t": 1759752007,
-          "p": 0.1
-        },
-        {
-          "t": 1759838414,
-          "p": 0.125
-        },
-        {
-          "t": 1759968005,
-          "p": 0.115
-        },
-        {
-          "t": 1760054414,
-          "p": 0.105
-        },
-        {
-          "t": 1760140813,
-          "p": 0.115
-        },
-        {
-          "t": 1760227215,
-          "p": 0.105
-        },
-        {
-          "t": 1760313612,
-          "p": 0.1
-        },
-        {
-          "t": 1760443225,
-          "p": 0.085
-        },
-        {
-          "t": 1760529617,
-          "p": 0.105
-        },
-        {
-          "t": 1760616029,
-          "p": 0.08
-        },
-        {
-          "t": 1760702424,
-          "p": 0.115
-        },
-        {
-          "t": 1760832014,
-          "p": 0.115
-        },
-        {
-          "t": 1760918419,
-          "p": 0.115
-        },
-        {
-          "t": 1761004809,
-          "p": 0.11
-        },
-        {
-          "t": 1761091216,
-          "p": 0.115
-        },
-        {
-          "t": 1761177609,
-          "p": 0.105
-        },
-        {
-          "t": 1761307216,
-          "p": 0.095
-        },
-        {
-          "t": 1761393616,
-          "p": 0.065
-        },
-        {
-          "t": 1761480018,
-          "p": 0.085
-        },
-        {
-          "t": 1761566416,
-          "p": 0.085
-        },
-        {
-          "t": 1761696015,
-          "p": 0.095
-        },
-        {
-          "t": 1761825616,
-          "p": 0.075
-        },
-        {
-          "t": 1761912016,
-          "p": 0.065
-        },
-        {
-          "t": 1761998419,
-          "p": 0.07
-        },
-        {
-          "t": 1762084816,
-          "p": 0.07
-        },
-        {
-          "t": 1762214413,
-          "p": 0.065
-        },
-        {
-          "t": 1762300813,
-          "p": 0.07
-        },
-        {
-          "t": 1762387209,
-          "p": 0.07
-        },
-        {
-          "t": 1762473614,
-          "p": 0.07
-        },
-        {
-          "t": 1762560010,
-          "p": 0.075
-        },
-        {
-          "t": 1762689616,
-          "p": 0.07
-        },
-        {
-          "t": 1762776016,
-          "p": 0.0295
-        },
-        {
-          "t": 1762862431,
-          "p": 0.03
-        },
-        {
-          "t": 1762948818,
-          "p": 0.0525
-        },
-        {
-          "t": 1763078413,
-          "p": 0.077
-        },
-        {
-          "t": 1763164816,
-          "p": 0.085
-        },
-        {
-          "t": 1763251211,
-          "p": 0.0685
-        },
-        {
-          "t": 1763337614,
-          "p": 0.0755
-        },
-        {
-          "t": 1763424011,
-          "p": 0.082
-        },
-        {
-          "t": 1763553620,
-          "p": 0.052
-        },
-        {
-          "t": 1763640012,
-          "p": 0.0535
-        },
-        {
-          "t": 1763726412,
-          "p": 0.105
-        },
-        {
-          "t": 1763812812,
-          "p": 0.066
-        },
-        {
-          "t": 1763942413,
-          "p": 0.067
-        },
-        {
-          "t": 1764028815,
-          "p": 0.0405
-        },
-        {
-          "t": 1764115213,
-          "p": 0.044
-        },
-        {
-          "t": 1764201615,
-          "p": 0.044
-        },
-        {
-          "t": 1764288015,
-          "p": 0.041
-        },
-        {
-          "t": 1764417623,
-          "p": 0.041
-        },
-        {
-          "t": 1764504048,
-          "p": 0.0375
-        },
-        {
-          "t": 1764590431,
-          "p": 0.0385
-        },
-        {
-          "t": 1764676821,
-          "p": 0.0385
-        },
-        {
-          "t": 1764763223,
-          "p": 0.0345
-        },
-        {
-          "t": 1764892814,
-          "p": 0.0195
-        },
-        {
-          "t": 1764979214,
-          "p": 0.03
-        },
-        {
-          "t": 1765065627,
-          "p": 0.037
-        },
-        {
-          "t": 1765152026,
-          "p": 0.0395
-        },
-        {
-          "t": 1765281613,
-          "p": 0.023
-        },
-        {
-          "t": 1765368021,
-          "p": 0.0215
-        },
-        {
-          "t": 1765454414,
-          "p": 0.0125
-        },
-        {
-          "t": 1765540814,
-          "p": 0.0115
-        },
-        {
-          "t": 1765627216,
-          "p": 0.0145
-        },
-        {
-          "t": 1765756816,
-          "p": 0.0135
-        },
-        {
-          "t": 1765843214,
-          "p": 0.0165
-        },
-        {
-          "t": 1765929610,
-          "p": 0.0165
-        },
-        {
-          "t": 1765972815,
-          "p": 0.0155
-        },
-        {
-          "t": 1766059213,
-          "p": 0.0145
-        },
-        {
-          "t": 1766188813,
-          "p": 0.0155
-        },
-        {
-          "t": 1766275213,
-          "p": 0.0145
-        },
-        {
-          "t": 1766361613,
-          "p": 0.0135
-        },
-        {
-          "t": 1766448015,
-          "p": 0.0145
-        },
-        {
-          "t": 1766577614,
-          "p": 0.0155
-        },
-        {
-          "t": 1766664015,
-          "p": 0.0125
-        },
-        {
-          "t": 1766750413,
-          "p": 0.0125
-        },
-        {
-          "t": 1766836814,
-          "p": 0.0125
-        },
-        {
-          "t": 1766923215,
-          "p": 0.0135
-        },
-        {
-          "t": 1767052818,
-          "p": 0.0125
-        },
-        {
-          "t": 1767139215,
-          "p": 0.0115
-        },
-        {
-          "t": 1767225615,
-          "p": 0.0105
-        },
-        {
-          "t": 1767312014,
-          "p": 0.0075
-        },
-        {
-          "t": 1767441615,
-          "p": 0.0085
-        },
-        {
-          "t": 1767528017,
-          "p": 0.0075
-        },
-        {
-          "t": 1767614414,
-          "p": 0.0065
-        },
-        {
-          "t": 1767700816,
-          "p": 0.0055
-        },
-        {
-          "t": 1767787220,
-          "p": 0.0055
-        },
-        {
-          "t": 1767916816,
-          "p": 0.0065
-        },
-        {
-          "t": 1768003217,
-          "p": 0.0045
-        },
-        {
-          "t": 1768089615,
-          "p": 0.0025
-        },
-        {
-          "t": 1768176017,
-          "p": 0.0025
-        },
-        {
-          "t": 1768262418,
-          "p": 0.0025
-        },
-        {
-          "t": 1768392019,
-          "p": 0.0035
-        },
-        {
-          "t": 1768478419,
-          "p": 0.0035
-        },
-        {
-          "t": 1768564819,
-          "p": 0.0035
-        },
-        {
-          "t": 1768651223,
-          "p": 0.0035
-        },
-        {
-          "t": 1768780816,
-          "p": 0.0035
-        },
-        {
-          "t": 1768867218,
-          "p": 0.0015
-        },
-        {
-          "t": 1768953619,
-          "p": 0.0015
-        },
-        {
-          "t": 1769040025,
-          "p": 0.0015
-        },
-        {
-          "t": 1769126435,
-          "p": 0.0015
-        },
-        {
-          "t": 1769256028,
-          "p": 0.0005
-        },
-        {
-          "t": 1769342441,
-          "p": 0.0005
-        },
-        {
-          "t": 1769428827,
-          "p": 0.0015
-        },
-        {
-          "t": 1769515220,
-          "p": 0.0015
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1759147203,
-          "p": 0.065,
-          "delta": -0.055
-        },
-        {
-          "t": 1759838414,
-          "p": 0.125,
-          "delta": 0.06
-        },
-        {
-          "t": 1761393616,
-          "p": 0.065,
-          "delta": -0.06
-        },
-        {
-          "t": 1765411213,
-          "p": 0.013,
-          "delta": -0.052
-        }
-      ],
-      "price_at_open": null,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.125,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-20T17:08:27.057962+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_finance_20251106_002_f5543644",
-        "date": "2025-11-06 00:00",
-        "title": "Fed implements second rate cut",
-        "description": "The Fed implemented a second interest rate cut.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushed for continued rate cuts.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/fed-likely-cut-interest-rates-142022406.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251115_003_c6817817",
-        "date": "2025-11-15 00:00",
-        "title": "Geopolitical tensions escalate",
-        "description": "Geopolitical tensions escalated significantly.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPushed for holding rates steady due to inflation fears.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2025/12/30/fed-minutes-december-2025.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251206_012_15816d3b",
-        "date": "2025-12-06 12:12",
-        "title": "US Treasury Yields Increase in late 2025",
-        "description": "In late 2025, US Treasury yields rose, reflecting investor sentiment and expectations about future economic conditions and monetary policy.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRising bond yields can reflect expectations of a stronger economy or inflation, reducing the need for the Fed to cut rates and making a pause more likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/stocks-pressured-bond-yields-rise-161734221.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260125_016_3b84dc78",
-        "date": "2026-01-25 10:15",
-        "title": "Market Expectations Solidify Around a January Pause",
-        "description": "In the weeks leading up to the January 2026 meeting, market expectations, as reflected in futures and analyst reports, solidified around the Fed holding interest rates steady.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe Fed generally avoids surprising the markets. Strong market expectations for a pause make it the most likely outcome, as the Fed would not want to cause unnecessary volatility.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.investopedia.com/what-to-expect-in-markets-this-week-fed-interest-rate-decision-earnings-from-microsoft-meta-tesla-apple-11890747",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260128_008_e0c1425b",
-        "date": "2026-01-28 00:00",
-        "title": "Fed decision to hold rates steady",
-        "description": "The Federal Reserve officially paused interest rate cuts, holding rates steady.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPushed for holding rates steady due to inflation fears.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.usatoday.com/live-story/money/2026/01/28/live-updates-january-fed-meeting-powell/88360109007",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260128_010_0f94e630",
-        "date": "2026-01-28 19:13",
-        "title": "Fed Holds Interest Rates Steady in January 2026 Meeting",
-        "description": "The Federal Reserve announced its decision to hold interest rates steady in the first FOMC meeting of 2026, pausing its recent cycle of rate cuts.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis is the actual decision, confirming the 'No change' outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-january-2026",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251130_007_71cdf936",
-        "date": "2025-11-30 23:07",
-        "title": "Trump Announces His Choice for Federal Reserve Leadership",
-        "description": "In November 2025, Donald Trump announced his choice for the leadership of the Federal Reserve, introducing political factors into the central bank's outlook.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPolitical pressure and leadership changes could lead the Fed to hold rates steady to project stability and independence.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.bloomberg.com/news/articles/2025-11-30/fed-contender-hassett-says-market-is-ready-for-trump-chair-pick",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251211_015_6c1a6d38",
-        "date": "2025-12-11 21:45",
-        "title": "Fed Reappoints 11 Reserve Bank Presidents",
-        "description": "In December 2025, the Federal Reserve reappointed 11 Reserve Bank presidents, ensuring continuity in leadership across the Federal Reserve System.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContinuity in leadership promotes stability and predictability in monetary policy, making a steady 'No change' decision more likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.bloomberg.com/news/articles/2025-12-11/fed-reappoints-11-reserve-bank-presidents-to-five-year-terms",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251227_013_2f45f37a",
-        "date": "2025-12-27 16:00",
-        "title": "Jobless Claims Report Shows a Stabilizing Labor Market",
-        "description": "The jobless claims report in late 2025 indicated a stabilizing US labor market, a key factor in the Federal Reserve's economic assessment.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA stable labor market is a strong indicator that the economy is on solid footing, reducing the need for further monetary stimulus. This makes 'No change' a very likely outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://seekingalpha.com/article/4855930-fomc-minutes-jobless-claims-report-in-focus-as-2025-winds-down",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20260105_014_87f41312",
-        "date": "2026-01-05 12:11",
-        "title": "Technology Stocks See a Downturn in early 2026",
-        "description": "In early January 2026, megacap technology stocks experienced a significant slide, affecting overall market sentiment.",
-        "impact": "**Affects:** Option 3: No change  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA downturn in a specific sector like tech might make the Fed cautious, preferring to hold rates steady to observe if the weakness spreads.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/stocks-fall-megacap-technology-stocks-161304755.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

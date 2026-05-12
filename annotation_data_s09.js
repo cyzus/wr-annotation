@@ -1,2099 +1,5 @@
 var annotationData = [
   {
-    "id": "polymarket_0x3f6280821a315c7d1a00de390faa21bcd55eb338a7ebdd994c107ac53b62a542",
-    "title": "Will TIME's Person of the Year for 2025 be a woman?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if the individual named as TIME's Person of the Year for 2025 is a woman. Otherwise, this market will resolve to \"No\".\n\nIn the event that multiple individuals are named TIME's 2025 Person of the Year, this market will resolve to \"Yes\" if at least one of them is a woman.\n\nIf for any reason the 2025 TIME's Person of the Year is not announced by January 31, 2026 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on Time's cover. However, a consensus of credible reporting may also be used.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nTIME's 2025 Person of the Year was awarded to a group, \"The Architects of AI,\" rather than to an individual woman. Speculation and betting markets shifted significantly over the months leading up to the announcement, often favoring AI or male candidates like Pope Leo XIV. Ultimately, the decision to honor the collective developers of artificial intelligence sealed the outcome that the recipient would not be a woman.\n\n## Timeline Of Key Events\n- 2025-08-21: Pope Leo XIV emerged as a strong contender with 33% odds in betting markets ([art_business_20250821_003_b4f87bcb]).\n- 2025-12-10: AI surged as the clear favorite, reaching 68% probability according to betting odds ([art_business_20251210_004_fa176b9d]).\n- 2025-12-11: TIME officially announced \"The Architects of AI\" as the 2025 Person of the Year ([art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f], [art_general_20251211_002_09433497]).\n\n## Causal Chain Analysis\nThe widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology. This led to prediction markets heavily favoring AI as the likely recipient of TIME's Person of the Year. Because the recognition was ultimately awarded to a collective, \"The Architects of AI,\" rather than a specific individual, the result resolved as a \"No\" for whether the recipient would be a woman ([art_tech_20251211_005_1919a648]).\n\n## Countervailing Factors\nWhile individual women may have been considered as candidates in the lead-up to the announcement, the overwhelming cultural impact of AI outshone individual human achievements. Thus, any momentum for a female candidate was overwhelmed by the collective recognition of AI developers.\n\n## Event Candidate Inventory\n- E1: Pope Leo XIV given 33% chance of being TIME's Person of the Year.\n  - Date: 2025-08-21\n  - Why it matters: Highlighted a non-female candidate gaining significant traction early on.\n  - Source article IDs: [art_business_20250821_003_b4f87bcb]\n- E2: AI surges to 68% clear favorite for TIME Person of the Year.\n  - Date: 2025-12-10\n  - Why it matters: Showed market confidence in a non-human/collective outcome right before the announcement.\n  - Source article IDs: [art_business_20251210_004_fa176b9d]\n- E3: TIME names \"The Architects of AI\" as Person of the Year.\n  - Date: 2025-12-11\n  - Why it matters: Conclusively resolved the question, cementing that the winner was not a woman.\n  - Source article IDs: [art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Pope Leo XIV gains 33% odds | [art_business_20250821_003_b4f87bcb] | 2025-08-21 | 0.9 | Strong early indicator of non-female preference |\n| AI odds surge to 68% | [art_business_20251210_004_fa176b9d] | 2025-12-10 | 0.95 | Showed market consensus on the eve of announcement |\n| \"Architects of AI\" win | [art_tech_20251211_005_1919a648], [art_general_20251211_007_3e66b03f] | 2025-12-11 | 1.0 | Official resolution |\n\n## Uncertainties And Alternative Paths\nThe only alternative path would have been TIME selecting an individual female leader, activist, or innovator. However, this path was closed once the editorial decision was made to recognize the collective effort behind the defining technological breakthrough of the year.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-07-15T16:39:26.338019+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-12-11T14:59:03+00:00",
-    "polymarket_url": "https://polymarket.com/event/times-person-of-the-year-for-2025-is-a-woman",
-    "price_data": {
-      "history": [
-        {
-          "t": 1752624008,
-          "p": 0.17
-        },
-        {
-          "t": 1752710408,
-          "p": 0.16
-        },
-        {
-          "t": 1752796808,
-          "p": 0.16
-        },
-        {
-          "t": 1752926408,
-          "p": 0.16
-        },
-        {
-          "t": 1753012808,
-          "p": 0.175
-        },
-        {
-          "t": 1753142409,
-          "p": 0.175
-        },
-        {
-          "t": 1753228809,
-          "p": 0.18
-        },
-        {
-          "t": 1753358409,
-          "p": 0.18
-        },
-        {
-          "t": 1753444809,
-          "p": 0.175
-        },
-        {
-          "t": 1753574410,
-          "p": 0.175
-        },
-        {
-          "t": 1753660809,
-          "p": 0.17
-        },
-        {
-          "t": 1753790408,
-          "p": 0.165
-        },
-        {
-          "t": 1753876809,
-          "p": 0.165
-        },
-        {
-          "t": 1754006409,
-          "p": 0.23
-        },
-        {
-          "t": 1754092809,
-          "p": 0.305
-        },
-        {
-          "t": 1754222408,
-          "p": 0.305
-        },
-        {
-          "t": 1754308808,
-          "p": 0.295
-        },
-        {
-          "t": 1754438409,
-          "p": 0.295
-        },
-        {
-          "t": 1754524806,
-          "p": 0.29
-        },
-        {
-          "t": 1754654412,
-          "p": 0.23
-        },
-        {
-          "t": 1754740803,
-          "p": 0.23
-        },
-        {
-          "t": 1754827219,
-          "p": 0.23
-        },
-        {
-          "t": 1754956808,
-          "p": 0.235
-        },
-        {
-          "t": 1755043204,
-          "p": 0.234
-        },
-        {
-          "t": 1755172802,
-          "p": 0.235
-        },
-        {
-          "t": 1755259204,
-          "p": 0.235
-        },
-        {
-          "t": 1755388809,
-          "p": 0.1705
-        },
-        {
-          "t": 1755475209,
-          "p": 0.1675
-        },
-        {
-          "t": 1755604806,
-          "p": 0.1705
-        },
-        {
-          "t": 1755691213,
-          "p": 0.1055
-        },
-        {
-          "t": 1755820810,
-          "p": 0.0855
-        },
-        {
-          "t": 1755907209,
-          "p": 0.1005
-        },
-        {
-          "t": 1756036802,
-          "p": 0.1005
-        },
-        {
-          "t": 1756123209,
-          "p": 0.1005
-        },
-        {
-          "t": 1756252810,
-          "p": 0.1005
-        },
-        {
-          "t": 1756339208,
-          "p": 0.1005
-        },
-        {
-          "t": 1756468802,
-          "p": 0.0835
-        },
-        {
-          "t": 1756555225,
-          "p": 0.08
-        },
-        {
-          "t": 1756684809,
-          "p": 0.0755
-        },
-        {
-          "t": 1756771217,
-          "p": 0.0755
-        },
-        {
-          "t": 1756900812,
-          "p": 0.0755
-        },
-        {
-          "t": 1756987237,
-          "p": 0.079
-        },
-        {
-          "t": 1757073629,
-          "p": 0.079
-        },
-        {
-          "t": 1757203203,
-          "p": 0.077
-        },
-        {
-          "t": 1757289618,
-          "p": 0.0765
-        },
-        {
-          "t": 1757419229,
-          "p": 0.0765
-        },
-        {
-          "t": 1757505621,
-          "p": 0.0765
-        },
-        {
-          "t": 1757635227,
-          "p": 0.0765
-        },
-        {
-          "t": 1757721605,
-          "p": 0.0765
-        },
-        {
-          "t": 1757851202,
-          "p": 0.077
-        },
-        {
-          "t": 1757937623,
-          "p": 0.077
-        },
-        {
-          "t": 1758067215,
-          "p": 0.0765
-        },
-        {
-          "t": 1758153608,
-          "p": 0.0745
-        },
-        {
-          "t": 1758283231,
-          "p": 0.0745
-        },
-        {
-          "t": 1758369635,
-          "p": 0.0715
-        },
-        {
-          "t": 1758499214,
-          "p": 0.0715
-        },
-        {
-          "t": 1758585604,
-          "p": 0.0745
-        },
-        {
-          "t": 1758715213,
-          "p": 0.0745
-        },
-        {
-          "t": 1758801617,
-          "p": 0.0775
-        },
-        {
-          "t": 1758931211,
-          "p": 0.1055
-        },
-        {
-          "t": 1759017608,
-          "p": 0.1055
-        },
-        {
-          "t": 1759104007,
-          "p": 0.1055
-        },
-        {
-          "t": 1759233609,
-          "p": 0.1055
-        },
-        {
-          "t": 1759320013,
-          "p": 0.236
-        },
-        {
-          "t": 1759449602,
-          "p": 0.1775
-        },
-        {
-          "t": 1759536006,
-          "p": 0.198
-        },
-        {
-          "t": 1759665605,
-          "p": 0.1735
-        },
-        {
-          "t": 1759752007,
-          "p": 0.1785
-        },
-        {
-          "t": 1759881610,
-          "p": 0.1535
-        },
-        {
-          "t": 1759968014,
-          "p": 0.153
-        },
-        {
-          "t": 1760097622,
-          "p": 0.144
-        },
-        {
-          "t": 1760184027,
-          "p": 0.1435
-        },
-        {
-          "t": 1760313606,
-          "p": 0.1435
-        },
-        {
-          "t": 1760400018,
-          "p": 0.144
-        },
-        {
-          "t": 1760529622,
-          "p": 0.1445
-        },
-        {
-          "t": 1760616012,
-          "p": 0.143
-        },
-        {
-          "t": 1760745614,
-          "p": 0.1405
-        },
-        {
-          "t": 1760832012,
-          "p": 0.14
-        },
-        {
-          "t": 1760961622,
-          "p": 0.137
-        },
-        {
-          "t": 1761048025,
-          "p": 0.133
-        },
-        {
-          "t": 1761177607,
-          "p": 0.152
-        },
-        {
-          "t": 1761264009,
-          "p": 0.1645
-        },
-        {
-          "t": 1761350409,
-          "p": 0.147
-        },
-        {
-          "t": 1761480011,
-          "p": 0.225
-        },
-        {
-          "t": 1761566410,
-          "p": 0.2245
-        },
-        {
-          "t": 1761696010,
-          "p": 0.1315
-        },
-        {
-          "t": 1761825609,
-          "p": 0.126
-        },
-        {
-          "t": 1761955209,
-          "p": 0.126
-        },
-        {
-          "t": 1762041608,
-          "p": 0.132
-        },
-        {
-          "t": 1762171209,
-          "p": 0.127
-        },
-        {
-          "t": 1762257610,
-          "p": 0.1265
-        },
-        {
-          "t": 1762387206,
-          "p": 0.1265
-        },
-        {
-          "t": 1762473608,
-          "p": 0.1025
-        },
-        {
-          "t": 1762603224,
-          "p": 0.101
-        },
-        {
-          "t": 1762689609,
-          "p": 0.1005
-        },
-        {
-          "t": 1762819210,
-          "p": 0.0865
-        },
-        {
-          "t": 1762905610,
-          "p": 0.0695
-        },
-        {
-          "t": 1763035210,
-          "p": 0.06
-        },
-        {
-          "t": 1763121612,
-          "p": 0.0535
-        },
-        {
-          "t": 1763251208,
-          "p": 0.0545
-        },
-        {
-          "t": 1763337609,
-          "p": 0.0545
-        },
-        {
-          "t": 1763424008,
-          "p": 0.08
-        },
-        {
-          "t": 1763553612,
-          "p": 0.0785
-        },
-        {
-          "t": 1763640008,
-          "p": 0.0715
-        },
-        {
-          "t": 1763769609,
-          "p": 0.127
-        },
-        {
-          "t": 1763856009,
-          "p": 0.0795
-        },
-        {
-          "t": 1763985607,
-          "p": 0.0795
-        },
-        {
-          "t": 1764072012,
-          "p": 0.0435
-        },
-        {
-          "t": 1764201610,
-          "p": 0.0635
-        },
-        {
-          "t": 1764288011,
-          "p": 0.0625
-        },
-        {
-          "t": 1764417615,
-          "p": 0.053
-        },
-        {
-          "t": 1764504039,
-          "p": 0.057
-        },
-        {
-          "t": 1764633608,
-          "p": 0.056
-        },
-        {
-          "t": 1764720011,
-          "p": 0.0535
-        },
-        {
-          "t": 1764849614,
-          "p": 0.056
-        },
-        {
-          "t": 1764936010,
-          "p": 0.069
-        },
-        {
-          "t": 1765065623,
-          "p": 0.047
-        },
-        {
-          "t": 1765152022,
-          "p": 0.0765
-        },
-        {
-          "t": 1765281609,
-          "p": 0.074
-        },
-        {
-          "t": 1765368013,
-          "p": 0.0345
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1754006409,
-          "p": 0.23,
-          "delta": 0.06
-        },
-        {
-          "t": 1754049609,
-          "p": 0.305,
-          "delta": 0.075
-        },
-        {
-          "t": 1754654412,
-          "p": 0.23,
-          "delta": -0.075
-        },
-        {
-          "t": 1755388809,
-          "p": 0.1705,
-          "delta": -0.0595
-        },
-        {
-          "t": 1755691213,
-          "p": 0.1055,
-          "delta": -0.065
-        },
-        {
-          "t": 1759276802,
-          "p": 0.2355,
-          "delta": 0.13
-        },
-        {
-          "t": 1759449602,
-          "p": 0.1775,
-          "delta": -0.058
-        },
-        {
-          "t": 1760572805,
-          "p": 0.1105,
-          "delta": -0.067
-        },
-        {
-          "t": 1761264009,
-          "p": 0.1645,
-          "delta": 0.054
-        },
-        {
-          "t": 1761436810,
-          "p": 0.225,
-          "delta": 0.0605
-        },
-        {
-          "t": 1761652809,
-          "p": 0.1555,
-          "delta": -0.0695
-        },
-        {
-          "t": 1762473608,
-          "p": 0.1025,
-          "delta": -0.053
-        },
-        {
-          "t": 1764028809,
-          "p": 0.0425,
-          "delta": -0.06
-        },
-        {
-          "t": 1765411210,
-          "p": 0.1995,
-          "delta": 0.157
-        },
-        {
-          "t": 1765454411,
-          "p": 0.0925,
-          "delta": -0.107
-        }
-      ],
-      "price_at_open": 0.17,
-      "price_at_close": 0.0925,
-      "min_price": 0.0345,
-      "max_price": 0.305,
-      "final_price": 0.0925,
-      "fetched_at": "2026-04-27T07:57:35.492440+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_business_20250821_001_e43be763",
-        "date": "2025-08-21 00:00",
-        "title": "Pope Leo XIV given 33% chance of being TIME's Person of the Year",
-        "description": "Pope Leo XIV emerged as a strong contender with 33% odds in betting markets.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20250821-2025-time-person-of-the-year-odds-pope-leo-xiv-given-33pp-chance-to-be-named-person-of-the-year",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251201_011_423fce18",
-        "date": "2025-12-01 00:00",
-        "title": "Widespread societal and economic impacts of AI throughout 2025",
-        "description": "The widespread societal and economic impacts of artificial intelligence throughout 2025 caused significant media focus on the technology.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251205_012_2d241d6e",
-        "date": "2025-12-05 00:00",
-        "title": "Significant media focus on AI technology",
-        "description": "Significant media focus on AI technology due to its widespread societal and economic impacts.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abc13.com/post/time-magazine-names-architects-ai-person-year-2025/18275255",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251210_002_0375e80a",
-        "date": "2025-12-10 00:00",
-        "title": "AI surges to 68% clear favorite for TIME Person of the Year",
-        "description": "AI surged as the clear favorite, reaching 68% probability according to betting odds.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20251210-2025-time-person-of-the-year-odds-ai-clear-favorite-surges-to-68pp-chance-ahead-of-december-11th-announcement",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20251210_006_8eb40b52",
-        "date": "2025-12-10 00:00",
-        "title": "Prediction markets heavily favor AI",
-        "description": "Prediction markets heavily favored AI as the likely recipient of TIME's Person of the Year.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.oddschecker.com/us/insight/specials/politics/20251210-2025-time-person-of-the-year-odds-ai-clear-favorite-surges-to-68pp-chance-ahead-of-december-11th-announcement",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251211_003_5011002c",
-        "date": "2025-12-11 00:00",
-        "title": "TIME names 'The Architects of AI' as Person of the Year",
-        "description": "TIME officially announced 'The Architects of AI' as the 2025 Person of the Year.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251211_007_84769e2b",
-        "date": "2025-12-11 00:00",
-        "title": "TIME decides to honor a collective rather than an individual",
-        "description": "TIME decided to honor the collective developers of artificial intelligence.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_culture_20251211_008_4da9818a",
-        "date": "2025-12-11 00:00",
-        "title": "Momentum for a female candidate overwhelmed",
-        "description": "Any momentum for a female candidate was overwhelmed by the collective recognition of AI developers.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_culture_20251211_009_28efd2d3",
-        "date": "2025-12-11 00:00",
-        "title": "TIME's Person of the Year is not a woman",
-        "description": "The result resolved as a 'No' for whether the recipient would be a woman.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_general_20251211_010_b0042ef5",
-        "date": "2025-12-11 00:00",
-        "title": "Actual Outcome: No",
-        "description": "The actual outcome is No.",
-        "impact": "**Affects:** No - Will TIME's Person of the Year for 2025 be a woman  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the outcome being No.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.techmeme.com/251211/p38",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0x4312fc012e315252ece189e1b0f77dfdedf6b27e06bd2fbffb9ee8c9ff023601",
-    "title": "Will Andrew Cuomo drop out of the 2025 New York City mayoral race?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Andrew Cuomo withdraws from or officially announces his withdrawal from the 2025 New York City Mayoral election, or announces the suspension of his 2025 NYC Mayoral campaign, by November 3, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Andrew Cuomo or his official/legal representatives, however a consensus of credible reporting will also be used.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nAndrew Cuomo did not drop out of the 2025 New York City mayoral race. Despite various challenges and changing political dynamics, he stayed in the race, banking on his strong fundraising numbers, name recognition, and the weakened state of his primary moderate rival, incumbent Eric Adams. Ultimately, he remained in the race through Election Day, where he was defeated by progressive candidate Zohran Mamdani.\n\n## Timeline Of Key Events\n- 2025-07-31: Early debates and polls highlight Cuomo's position in the race. [art_politics_20250731_010_952a0f34]\n- 2025-08-03: Reports show Cuomo dominating the fundraising field, raising 42 times more money than Eric Adams in 2025, solidifying his rationale to stay in. [art_politics_20250803_003_2b4dbba6]\n- 2025-08-28: Eric Adams agrees to pay fines, highlighting his weakened position, leaving a lane open for Cuomo. [art_politics_20250828_014_dc087870]\n- 2025-10-25: Late-stage debates feature Mamdani, Sliwa, and Cuomo. [art_general_20251025_029_75eb43d8]\n- 2025-11-04: Election day arrives with Cuomo still on the ballot. Mamdani wins the election. [art_politics_20250803_007_edd071b6]\n\n## Causal Chain Analysis\nThe outcome that Cuomo did not drop out resulted from several overlapping factors. Root causes included his massive fundraising advantage [art_politics_20250803_003_2b4dbba6] and strong name recognition. This led to a strategic calculus that the moderate lane was winnable, especially because the incumbent, Eric Adams, was financially and politically weakened [art_politics_20250828_014_dc087870]. Because Cuomo believed he was the most viable moderate candidate, he stayed in the race, which resulted in his continued presence through the debates [art_general_20251025_029_75eb43d8] and all the way to Election Day, where he ultimately lost to Zohran Mamdani [art_politics_20250803_007_edd071b6].\n\n## Countervailing Factors\nMamdani's strong progressive campaign and eventual victory were major forces working against Cuomo's success. The changing demographics and progressive shift in the city were hurdles. Additionally, his past scandals were an ongoing liability. However, these factors failed to push him out of the race because his financial backing and confidence in his moderate coalition kept his campaign viable in his eyes.\n\n## Event Candidate Inventory\n- E1\n  - title: Andrew Cuomo out-raises Eric Adams by 42x\n  - date: 2025-08-03\n  - why it matters causally: Demonstrated his massive financial backing, eliminating the need to drop out for financial reasons.\n  - source article IDs: [art_politics_20250803_003_2b4dbba6]\n- E2\n  - title: Late-stage mayoral debate includes Cuomo\n  - date: 2025-10-25\n  - why it matters causally: Shows he was actively participating until the end.\n  - source article IDs: [art_general_20251025_029_75eb43d8]\n- E3\n  - title: Zohran Mamdani wins NYC mayoral election\n  - date: 2025-11-04\n  - why it matters causally: Marks the end of the race where Cuomo officially competed and lost, proving he did not drop out.\n  - source article IDs: [art_politics_20250803_007_edd071b6]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Cuomo massively out-raises Adams | [art_politics_20250803_003_2b4dbba6] | 2025-08-03 | 0.9 | Strong financial backing |\n| Adams pays fine, weakened | [art_politics_20250828_014_dc087870] | 2025-08-28 | 0.8 | Shows incumbent weakness |\n| Mamdani wins the election | [art_politics_20250803_007_edd071b6] | 2025-11-04 | 1.0 | Defines final outcome |\n\n## Uncertainties And Alternative Paths\nIt was uncertain if an external scandal or legal issue could have forced Cuomo out. An alternative path would have been Cuomo striking a deal to exit the race and support another moderate to prevent a progressive victory, but his fundraising numbers likely convinced him he was the best option.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-07-15T00:06:24.444448+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-11-04T07:13:49+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-andrew-cuomo-drop-out-155",
-    "price_data": {
-      "history": [
-        {
-          "t": 1752580808,
-          "p": 0.275
-        },
-        {
-          "t": 1752624008,
-          "p": 0.295
-        },
-        {
-          "t": 1752710408,
-          "p": 0.295
-        },
-        {
-          "t": 1752796808,
-          "p": 0.29
-        },
-        {
-          "t": 1752883209,
-          "p": 0.305
-        },
-        {
-          "t": 1752969608,
-          "p": 0.285
-        },
-        {
-          "t": 1753056007,
-          "p": 0.28
-        },
-        {
-          "t": 1753142409,
-          "p": 0.27
-        },
-        {
-          "t": 1753185609,
-          "p": 0.27
-        },
-        {
-          "t": 1753272009,
-          "p": 0.27
-        },
-        {
-          "t": 1753358409,
-          "p": 0.265
-        },
-        {
-          "t": 1753444809,
-          "p": 0.275
-        },
-        {
-          "t": 1753531210,
-          "p": 0.275
-        },
-        {
-          "t": 1753617609,
-          "p": 0.275
-        },
-        {
-          "t": 1753704009,
-          "p": 0.275
-        },
-        {
-          "t": 1753747210,
-          "p": 0.295
-        },
-        {
-          "t": 1753833610,
-          "p": 0.33
-        },
-        {
-          "t": 1753920008,
-          "p": 0.335
-        },
-        {
-          "t": 1754006409,
-          "p": 0.33
-        },
-        {
-          "t": 1754092809,
-          "p": 0.335
-        },
-        {
-          "t": 1754179208,
-          "p": 0.36
-        },
-        {
-          "t": 1754265607,
-          "p": 0.37
-        },
-        {
-          "t": 1754308808,
-          "p": 0.37
-        },
-        {
-          "t": 1754395209,
-          "p": 0.36
-        },
-        {
-          "t": 1754481608,
-          "p": 0.325
-        },
-        {
-          "t": 1754568005,
-          "p": 0.335
-        },
-        {
-          "t": 1754654408,
-          "p": 0.32
-        },
-        {
-          "t": 1754740814,
-          "p": 0.27
-        },
-        {
-          "t": 1754827221,
-          "p": 0.27
-        },
-        {
-          "t": 1754870405,
-          "p": 0.285
-        },
-        {
-          "t": 1754956802,
-          "p": 0.285
-        },
-        {
-          "t": 1755043208,
-          "p": 0.275
-        },
-        {
-          "t": 1755129603,
-          "p": 0.295
-        },
-        {
-          "t": 1755216007,
-          "p": 0.275
-        },
-        {
-          "t": 1755302404,
-          "p": 0.265
-        },
-        {
-          "t": 1755388812,
-          "p": 0.265
-        },
-        {
-          "t": 1755432009,
-          "p": 0.245
-        },
-        {
-          "t": 1755518415,
-          "p": 0.26
-        },
-        {
-          "t": 1755604805,
-          "p": 0.195
-        },
-        {
-          "t": 1755691215,
-          "p": 0.19
-        },
-        {
-          "t": 1755777612,
-          "p": 0.19
-        },
-        {
-          "t": 1755864011,
-          "p": 0.19
-        },
-        {
-          "t": 1755950415,
-          "p": 0.19
-        },
-        {
-          "t": 1755993606,
-          "p": 0.19
-        },
-        {
-          "t": 1756080002,
-          "p": 0.185
-        },
-        {
-          "t": 1756166409,
-          "p": 0.13
-        },
-        {
-          "t": 1756252805,
-          "p": 0.125
-        },
-        {
-          "t": 1756339204,
-          "p": 0.09
-        },
-        {
-          "t": 1756425610,
-          "p": 0.095
-        },
-        {
-          "t": 1756512005,
-          "p": 0.095
-        },
-        {
-          "t": 1756555214,
-          "p": 0.1
-        },
-        {
-          "t": 1756641623,
-          "p": 0.1
-        },
-        {
-          "t": 1756728017,
-          "p": 0.095
-        },
-        {
-          "t": 1756814416,
-          "p": 0.075
-        },
-        {
-          "t": 1756900818,
-          "p": 0.075
-        },
-        {
-          "t": 1756987220,
-          "p": 0.065
-        },
-        {
-          "t": 1757073628,
-          "p": 0.065
-        },
-        {
-          "t": 1757116813,
-          "p": 0.065
-        },
-        {
-          "t": 1757203212,
-          "p": 0.065
-        },
-        {
-          "t": 1757289620,
-          "p": 0.065
-        },
-        {
-          "t": 1757376004,
-          "p": 0.065
-        },
-        {
-          "t": 1757462411,
-          "p": 0.06
-        },
-        {
-          "t": 1757548808,
-          "p": 0.055
-        },
-        {
-          "t": 1757635205,
-          "p": 0.055
-        },
-        {
-          "t": 1757678420,
-          "p": 0.055
-        },
-        {
-          "t": 1757764826,
-          "p": 0.055
-        },
-        {
-          "t": 1757851233,
-          "p": 0.055
-        },
-        {
-          "t": 1757937610,
-          "p": 0.045
-        },
-        {
-          "t": 1758024027,
-          "p": 0.05
-        },
-        {
-          "t": 1758110426,
-          "p": 0.055
-        },
-        {
-          "t": 1758196812,
-          "p": 0.045
-        },
-        {
-          "t": 1758240013,
-          "p": 0.045
-        },
-        {
-          "t": 1758326409,
-          "p": 0.045
-        },
-        {
-          "t": 1758412804,
-          "p": 0.045
-        },
-        {
-          "t": 1758499219,
-          "p": 0.04
-        },
-        {
-          "t": 1758585610,
-          "p": 0.042
-        },
-        {
-          "t": 1758672011,
-          "p": 0.044
-        },
-        {
-          "t": 1758758406,
-          "p": 0.035
-        },
-        {
-          "t": 1758801612,
-          "p": 0.036
-        },
-        {
-          "t": 1758888004,
-          "p": 0.0355
-        },
-        {
-          "t": 1758974407,
-          "p": 0.054
-        },
-        {
-          "t": 1759060815,
-          "p": 0.045
-        },
-        {
-          "t": 1759147211,
-          "p": 0.031
-        },
-        {
-          "t": 1759233609,
-          "p": 0.0325
-        },
-        {
-          "t": 1759320002,
-          "p": 0.022
-        },
-        {
-          "t": 1759363209,
-          "p": 0.019
-        },
-        {
-          "t": 1759449607,
-          "p": 0.019
-        },
-        {
-          "t": 1759536011,
-          "p": 0.019
-        },
-        {
-          "t": 1759622408,
-          "p": 0.0185
-        },
-        {
-          "t": 1759708810,
-          "p": 0.017
-        },
-        {
-          "t": 1759795205,
-          "p": 0.017
-        },
-        {
-          "t": 1759881602,
-          "p": 0.0175
-        },
-        {
-          "t": 1759924818,
-          "p": 0.0175
-        },
-        {
-          "t": 1760011210,
-          "p": 0.022
-        },
-        {
-          "t": 1760097611,
-          "p": 0.0225
-        },
-        {
-          "t": 1760184020,
-          "p": 0.0165
-        },
-        {
-          "t": 1760270417,
-          "p": 0.0145
-        },
-        {
-          "t": 1760356807,
-          "p": 0.0095
-        },
-        {
-          "t": 1760443221,
-          "p": 0.0105
-        },
-        {
-          "t": 1760486406,
-          "p": 0.008
-        },
-        {
-          "t": 1760572819,
-          "p": 0.011
-        },
-        {
-          "t": 1760659205,
-          "p": 0.0125
-        },
-        {
-          "t": 1760745609,
-          "p": 0.0105
-        },
-        {
-          "t": 1760832005,
-          "p": 0.0195
-        },
-        {
-          "t": 1760918423,
-          "p": 0.0315
-        },
-        {
-          "t": 1761004813,
-          "p": 0.035
-        },
-        {
-          "t": 1761048023,
-          "p": 0.0255
-        },
-        {
-          "t": 1761134404,
-          "p": 0.024
-        },
-        {
-          "t": 1761220804,
-          "p": 0.0185
-        },
-        {
-          "t": 1761307204,
-          "p": 0.0155
-        },
-        {
-          "t": 1761393606,
-          "p": 0.0125
-        },
-        {
-          "t": 1761480006,
-          "p": 0.0155
-        },
-        {
-          "t": 1761566406,
-          "p": 0.013
-        },
-        {
-          "t": 1761609604,
-          "p": 0.0165
-        },
-        {
-          "t": 1761696006,
-          "p": 0.0115
-        },
-        {
-          "t": 1761825605,
-          "p": 0.0105
-        },
-        {
-          "t": 1761912006,
-          "p": 0.0075
-        },
-        {
-          "t": 1761998406,
-          "p": 0.004
-        },
-        {
-          "t": 1762084805,
-          "p": 0.003
-        },
-        {
-          "t": 1762171204,
-          "p": 0.0015
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1753833610,
-          "p": 0.33,
-          "delta": 0.055
-        },
-        {
-          "t": 1754222408,
-          "p": 0.415,
-          "delta": 0.085
-        },
-        {
-          "t": 1754395209,
-          "p": 0.36,
-          "delta": -0.055
-        },
-        {
-          "t": 1754697610,
-          "p": 0.28,
-          "delta": -0.08
-        },
-        {
-          "t": 1755604805,
-          "p": 0.195,
-          "delta": -0.085
-        },
-        {
-          "t": 1756166409,
-          "p": 0.13,
-          "delta": -0.065
-        },
-        {
-          "t": 1756771214,
-          "p": 0.08,
-          "delta": -0.05
-        },
-        {
-          "t": 1759320002,
-          "p": 0.022,
-          "delta": -0.058
-        }
-      ],
-      "price_at_open": 0.275,
-      "price_at_close": 0.0015,
-      "min_price": 0.0015,
-      "max_price": 0.415,
-      "final_price": 0.0015,
-      "fetched_at": "2026-04-27T07:57:36.354740+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20250731_001_7039ad65",
-        "date": "2025-07-31 12:00",
-        "title": "Early debates highlight Cuomo's position",
-        "description": "Early debates and polls highlight Andrew Cuomo's position in the NYC mayoral race.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/politics/nyc-mayoral-debate-night-list-of-candidates-latest-polls/ar-AA1GC309?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250803_002_cd3703e0",
-        "date": "2025-08-03 12:00",
-        "title": "Cuomo raises 42 times more money than Eric Adams",
-        "description": "Reports show Andrew Cuomo dominating the fundraising field, raising 42 times more money than Eric Adams in 2025.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/politics/andrew-cuomo-has-raised-42-times-more-money-than-eric-adams-in-2025/ar-AA1BbjjV?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250803_010_4a88a1ea",
-        "date": "2025-08-03 12:00",
-        "title": "Zohran Mamdani wins NYC mayoral election",
-        "description": "Election day arrives and Zohran Mamdani wins the NYC mayoral election, defeating Cuomo.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abc7ny.com/live-updates/election-day-2025-nyc-mayoral-race-nj-governor-live-results-updates/18108070/entry/18112123?userab=abcn_du_cat_topic_feature_holdout-474%2Avariant_a_control-1938%2Cabcn_popular_reads_exp-497%2Avariant_b_7days_filter-2077%2Cabcn_ad_cadence-481%2Acontrol-a-1962%2Cabcn_news_for_you_exp-496%2Avariant_b_test-2075",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250828_003_8185109f",
-        "date": "2025-08-28 12:00",
-        "title": "Eric Adams agrees to pay $4,000 fine",
-        "description": "Eric Adams agrees to pay a fine to the NYC Conflicts of Interest Board, highlighting his weakened position.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cbsnews.com/newyork/news/eric-adams-nyc-conflicts-of-interest-board",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250929_005_9fbedd46",
-        "date": "2025-09-29 12:00",
-        "title": "Mamdani holds lead over Cuomo in polls",
-        "description": "Analysts say Zohran Mamdani is seen holding a lead over Andrew Cuomo in the NYC mayoral race.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.usnews.com/news/world/articles/2025-09-29/mamdani-seen-holding-lead-over-cuomo-in-new-york-city-mayoral-race-analysts-say",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251009_006_80081af1",
-        "date": "2025-10-09 12:00",
-        "title": "Cuomo gains in race against Mamdani in new poll",
-        "description": "A new poll shows Andrew Cuomo gaining in the race against Zohran Mamdani.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.newsweek.com/andrew-cuomo-gains-in-race-against-zohran-mamdaninew-poll-10856490",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251025_008_84a8824a",
-        "date": "2025-10-25 12:00",
-        "title": "Late-stage mayoral debate includes Cuomo",
-        "description": "Late-stage debates feature Mamdani, Sliwa, and Cuomo squaring off.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/mamdani-sliwa-cuomo-square-off-051659869.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250925_004_21e19290",
-        "date": "2025-09-25 12:00",
-        "title": "Eric Adams abandons reelection bid",
-        "description": "NYC Mayor Eric Adams abandons his reelection bid.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/n-y-c-mayor-eric-173750835.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251015_007_4a43983d",
-        "date": "2025-10-15 12:00",
-        "title": "Mamdani blames Adams and Cuomo for budget deficit",
-        "description": "Zohran Mamdani blames Eric Adams and Andrew Cuomo for a $12 billion budget deficit.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/money/economy/mamdani-blames-eric-adams-and-cuomo-for-12-billion-budget-deficit/ar-AA1VbH5k?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251025_009_0a6001e8",
-        "date": "2025-10-25 12:00",
-        "title": "Prediction platforms take in $500M in NYC mayoral election trading volume",
-        "description": "Prediction platforms take in $500M in trading volume for the NYC mayoral election.",
-        "impact": "**Affects:** No - Will Andrew Cuomo drop out of the 2025 New York Ci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to Cuomo staying in the race.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/prediction-platforms-500m-nyc-mayoral-144900989.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0x4319532e181605cb15b1bd677759a3bc7f7394b2fdf145195b700eeaedfd5221",
-    "title": "Will the U.S. Federal Reserve raise the federal funds rate at any point during 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to “Yes” if the upper bound of the target federal funds rate is increased at any point between January 1, 2025 and the Fed's December 2025 meeting, currently scheduled for December 9-10. Otherwise, this market will resolve to “No”.\n\nThis market may not resolve to \"No\" until the Fed has released its rate changes information following its December meeting.\n\nThe primary resolution source for this market will be the official website of the Federal Reserve (https://www.federalreserve.gov/monetarypolicy/openmarket.htm), however a consensus of credible reporting may also be used.",
-    "outcome": "No",
-    "explanation": "\n# Executive Summary\nThe U.S. Federal Reserve did not raise the federal funds rate in 2025, as the economic environment was characterized by slowing growth, global trade shocks from new U.S. tariffs, and mixed inflation signals that shifted the central bank's focus toward monetary easing rather than tightening. Early in the year, the Fed actually enacted a rate cut to support the economy, though inflation concerns occasionally tempered the pace of further cuts. Despite periodic spikes in inflation data—particularly following the implementation of new tariffs—the overarching economic weakness and labor market concerns prevented any pivot back to rate hikes. Consequently, the Fed maintained a dovish stance, either cutting rates or holding them steady throughout 2025.\n\n# Timeline Of Key Events\n- 2025-01-17: Dollar steadies ahead of Trump Inauguration, setting the stage for new economic policies.\n- 2025-03-18: The Fed enacts a rate cut, described by some as \"hawkish,\" which initially sends stocks tumbling but confirms the easing cycle ([art_general_20250318_048_96649ab1]). Economic data releases also raised concerns about a rebound in inflation ([art_general_20250318_011_ede8a2b3]).\n- 2025-04-03: U.S. stock markets experience a severe drop (Dow drops 1,500 points) following a \"COVID-like shock\" ignited by Trump's tariffs, further cementing the need for accommodative monetary policy rather than rate hikes ([art_general_20250403_021_502cd0f6]).\n- 2025-06-25: Asian and U.S. shares hang near records as investors shift focus to the Federal Reserve and the ongoing impact of tariffs, with expectations of continued steady or lower rates ([art_general_20250625_017_e12e7eb7]).\n- 2025-07-21: Bitcoin slides as rate-cut hopes fade slightly due to sticky inflation, though no rate hikes are priced in ([art_general_20250721_044_0e3a14f4]).\n- 2025-08-14: A hotter-than-expected Producer Price Index (PPI) report dampens expectations for deep rate cuts, but markets still fully price in a quarter-point cut for September, definitively ruling out a rate increase ([art_general_20250814_020_2169ad03]).\n\n# Causal Chain Analysis\nThe root cause of the Fed's decision to avoid rate hikes in 2025 was the transition into an economic environment characterized by slowing momentum and geopolitical/trade uncertainties. The introduction of aggressive tariffs by the new administration triggered a massive market shock in early April 2025, fundamentally altering the economic outlook toward slower growth ([art_general_20250403_021_502cd0f6]). This intermediate mechanism—a broad stock market sell-off and fear of economic contraction—forced the Fed to maintain an accommodative posture. Although there were proximate triggers of inflationary pressure, such as the hot PPI data in July 2025 ([art_general_20250814_020_2169ad03]), these were viewed as tariff-driven anomalies rather than systemic demand-pull inflation that would require rate hikes. As a result, the Fed either cut rates or held them steady, prioritizing economic stability over aggressive inflation fighting.\n\n# Countervailing Factors\nThe primary countervailing factor pushing against the Fed's easing bias was the resurgence of inflation, particularly driven by new U.S. tariffs. In mid-2025, producer inflation rose more than expected due to a surge in costs of goods and services ([art_general_20250814_020_2169ad03]). This prompted traders to trim their expectations for the *magnitude* of rate cuts. However, this factor failed to result in a rate hike because the underlying economic growth was too fragile, and the Fed recognized that tariff-induced inflation could not be effectively managed by raising borrowing costs, which would only exacerbate economic weakness.\n\n# Event Candidate Inventory\n- E1: Federal Reserve executes a \"hawkish\" rate cut\n  - Date: 2025-03-18\n  - Why it matters causally: Confirmed the Fed was in an easing cycle rather than a hiking cycle, despite mixed inflation data.\n  - Source article IDs: [art_general_20250318_048_96649ab1], [art_general_20250318_011_ede8a2b3]\n- E2: Massive stock market sell-off driven by tariff shock\n  - Date: 2025-04-03\n  - Why it matters causally: Plunged markets into fear of an economic slowdown, eliminating any possibility of near-term rate hikes.\n  - Source article IDs: [art_general_20250403_021_502cd0f6]\n- E3: Hotter-than-expected July Producer Price Index (PPI) report\n  - Date: 2025-08-14\n  - Why it matters causally: Tested the Fed's resolve by spiking inflation fears; ultimately led to reduced rate-cut bets but no rate hikes.\n  - Source article IDs: [art_general_20250814_020_2169ad03]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Fed cuts rates in early 2025 | [art_general_20250318_048_96649ab1] | 2025-03-18 | 0.9 | Described as a \"hawkish\" cut, indicating reluctance but firmly establishing easing. |\n| Tariffs ignite COVID-like shock and 1500-point Dow drop | [art_general_20250403_021_502cd0f6] | 2025-04-03 | 0.9 | Major turning point that solidified the need for economic support over tightening. |\n| Hot PPI data reduces rate cut bets but September cut still expected | [art_general_20250814_020_2169ad03] | 2025-08-14 | 0.95 | Confirms that despite inflation pressures, the debate was over the size of cuts, not hikes. |\n\n# Uncertainties And Alternative Paths\nAn alternative path could have occurred if the tariff-driven inflation had sparked a wage-price spiral, forcing the Fed to abruptly reverse its easing cycle and implement emergency rate hikes. Additionally, if the stock market had not experienced the severe April shock, the Fed might have felt emboldened to hold rates steady or even raise them slightly if economic growth had proved significantly stronger than expected. However, the combination of manufacturing weakness and market fragility kept this alternative path from materializing.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2024-12-29T22:50:33.584839+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-12-10T21:10:00+00:00",
-    "polymarket_url": "https://polymarket.com/event/fed-rate-hike-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1735516803,
-          "p": 0.165
-        },
-        {
-          "t": 1735732803,
-          "p": 0.155
-        },
-        {
-          "t": 1735992003,
-          "p": 0.185
-        },
-        {
-          "t": 1736251203,
-          "p": 0.215
-        },
-        {
-          "t": 1736510404,
-          "p": 0.245
-        },
-        {
-          "t": 1736726404,
-          "p": 0.25
-        },
-        {
-          "t": 1736985604,
-          "p": 0.245
-        },
-        {
-          "t": 1737244804,
-          "p": 0.235
-        },
-        {
-          "t": 1737504003,
-          "p": 0.255
-        },
-        {
-          "t": 1737720003,
-          "p": 0.22
-        },
-        {
-          "t": 1737979204,
-          "p": 0.2
-        },
-        {
-          "t": 1738238404,
-          "p": 0.135
-        },
-        {
-          "t": 1738497604,
-          "p": 0.14
-        },
-        {
-          "t": 1738713604,
-          "p": 0.165
-        },
-        {
-          "t": 1738972804,
-          "p": 0.165
-        },
-        {
-          "t": 1739232004,
-          "p": 0.165
-        },
-        {
-          "t": 1739491205,
-          "p": 0.22
-        },
-        {
-          "t": 1739707205,
-          "p": 0.225
-        },
-        {
-          "t": 1739966404,
-          "p": 0.225
-        },
-        {
-          "t": 1740225605,
-          "p": 0.23
-        },
-        {
-          "t": 1740484805,
-          "p": 0.235
-        },
-        {
-          "t": 1740700805,
-          "p": 0.215
-        },
-        {
-          "t": 1740960005,
-          "p": 0.175
-        },
-        {
-          "t": 1741219205,
-          "p": 0.165
-        },
-        {
-          "t": 1741478405,
-          "p": 0.16
-        },
-        {
-          "t": 1741694405,
-          "p": 0.16
-        },
-        {
-          "t": 1741953605,
-          "p": 0.16
-        },
-        {
-          "t": 1742212805,
-          "p": 0.155
-        },
-        {
-          "t": 1742472006,
-          "p": 0.165
-        },
-        {
-          "t": 1742688006,
-          "p": 0.165
-        },
-        {
-          "t": 1742947205,
-          "p": 0.165
-        },
-        {
-          "t": 1743206406,
-          "p": 0.15
-        },
-        {
-          "t": 1743465605,
-          "p": 0.145
-        },
-        {
-          "t": 1743724805,
-          "p": 0.15
-        },
-        {
-          "t": 1743940805,
-          "p": 0.15
-        },
-        {
-          "t": 1744200006,
-          "p": 0.155
-        },
-        {
-          "t": 1744459205,
-          "p": 0.155
-        },
-        {
-          "t": 1744718405,
-          "p": 0.155
-        },
-        {
-          "t": 1744934404,
-          "p": 0.155
-        },
-        {
-          "t": 1745193606,
-          "p": 0.155
-        },
-        {
-          "t": 1745452806,
-          "p": 0.155
-        },
-        {
-          "t": 1745712005,
-          "p": 0.165
-        },
-        {
-          "t": 1745928005,
-          "p": 0.165
-        },
-        {
-          "t": 1746187206,
-          "p": 0.155
-        },
-        {
-          "t": 1746446405,
-          "p": 0.145
-        },
-        {
-          "t": 1746705606,
-          "p": 0.105
-        },
-        {
-          "t": 1746921606,
-          "p": 0.105
-        },
-        {
-          "t": 1747180807,
-          "p": 0.105
-        },
-        {
-          "t": 1747440007,
-          "p": 0.105
-        },
-        {
-          "t": 1747699206,
-          "p": 0.115
-        },
-        {
-          "t": 1747915206,
-          "p": 0.115
-        },
-        {
-          "t": 1748174407,
-          "p": 0.155
-        },
-        {
-          "t": 1748433607,
-          "p": 0.15
-        },
-        {
-          "t": 1748692807,
-          "p": 0.105
-        },
-        {
-          "t": 1748908807,
-          "p": 0.075
-        },
-        {
-          "t": 1749168006,
-          "p": 0.085
-        },
-        {
-          "t": 1749427207,
-          "p": 0.085
-        },
-        {
-          "t": 1749686407,
-          "p": 0.08
-        },
-        {
-          "t": 1749902407,
-          "p": 0.075
-        },
-        {
-          "t": 1750161606,
-          "p": 0.06
-        },
-        {
-          "t": 1750420808,
-          "p": 0.065
-        },
-        {
-          "t": 1750680007,
-          "p": 0.065
-        },
-        {
-          "t": 1750939207,
-          "p": 0.07
-        },
-        {
-          "t": 1751155208,
-          "p": 0.065
-        },
-        {
-          "t": 1751414407,
-          "p": 0.065
-        },
-        {
-          "t": 1751673608,
-          "p": 0.065
-        },
-        {
-          "t": 1751932808,
-          "p": 0.055
-        },
-        {
-          "t": 1752148808,
-          "p": 0.065
-        },
-        {
-          "t": 1752408007,
-          "p": 0.07
-        },
-        {
-          "t": 1752667208,
-          "p": 0.075
-        },
-        {
-          "t": 1752926408,
-          "p": 0.065
-        },
-        {
-          "t": 1753142409,
-          "p": 0.06
-        },
-        {
-          "t": 1753401609,
-          "p": 0.055
-        },
-        {
-          "t": 1753660809,
-          "p": 0.05
-        },
-        {
-          "t": 1753920008,
-          "p": 0.05
-        },
-        {
-          "t": 1754136010,
-          "p": 0.055
-        },
-        {
-          "t": 1754395209,
-          "p": 0.055
-        },
-        {
-          "t": 1754654404,
-          "p": 0.055
-        },
-        {
-          "t": 1754913614,
-          "p": 0.05
-        },
-        {
-          "t": 1755129607,
-          "p": 0.05
-        },
-        {
-          "t": 1755388807,
-          "p": 0.045
-        },
-        {
-          "t": 1755648007,
-          "p": 0.045
-        },
-        {
-          "t": 1755907217,
-          "p": 0.045
-        },
-        {
-          "t": 1756123202,
-          "p": 0.045
-        },
-        {
-          "t": 1756382422,
-          "p": 0.045
-        },
-        {
-          "t": 1756641606,
-          "p": 0.045
-        },
-        {
-          "t": 1756900822,
-          "p": 0.045
-        },
-        {
-          "t": 1757116821,
-          "p": 0.045
-        },
-        {
-          "t": 1757376014,
-          "p": 0.045
-        },
-        {
-          "t": 1757635227,
-          "p": 0.0345
-        },
-        {
-          "t": 1757894409,
-          "p": 0.0305
-        },
-        {
-          "t": 1758153611,
-          "p": 0.0295
-        },
-        {
-          "t": 1758369628,
-          "p": 0.03
-        },
-        {
-          "t": 1758628827,
-          "p": 0.035
-        },
-        {
-          "t": 1758888008,
-          "p": 0.0275
-        },
-        {
-          "t": 1759147214,
-          "p": 0.023
-        },
-        {
-          "t": 1759363203,
-          "p": 0.0255
-        },
-        {
-          "t": 1759622405,
-          "p": 0.0265
-        },
-        {
-          "t": 1759881613,
-          "p": 0.0235
-        },
-        {
-          "t": 1760140809,
-          "p": 0.025
-        },
-        {
-          "t": 1760356806,
-          "p": 0.016
-        },
-        {
-          "t": 1760616021,
-          "p": 0.023
-        },
-        {
-          "t": 1760875208,
-          "p": 0.02
-        },
-        {
-          "t": 1761134428,
-          "p": 0.018
-        },
-        {
-          "t": 1761350416,
-          "p": 0.0185
-        },
-        {
-          "t": 1761609620,
-          "p": 0.015
-        },
-        {
-          "t": 1761912022,
-          "p": 0.014
-        },
-        {
-          "t": 1762171222,
-          "p": 0.012
-        },
-        {
-          "t": 1762387212,
-          "p": 0.023
-        },
-        {
-          "t": 1762646431,
-          "p": 0.0135
-        },
-        {
-          "t": 1762905618,
-          "p": 0.0085
-        },
-        {
-          "t": 1763164822,
-          "p": 0.0075
-        },
-        {
-          "t": 1763380823,
-          "p": 0.009
-        },
-        {
-          "t": 1763640016,
-          "p": 0.013
-        },
-        {
-          "t": 1763899215,
-          "p": 0.0115
-        },
-        {
-          "t": 1764158441,
-          "p": 0.0085
-        },
-        {
-          "t": 1764374426,
-          "p": 0.0075
-        },
-        {
-          "t": 1764633615,
-          "p": 0.0075
-        },
-        {
-          "t": 1764892817,
-          "p": 0.005
-        },
-        {
-          "t": 1765152030,
-          "p": 0.0035
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1736294403,
-          "p": 0.225,
-          "delta": 0.06
-        },
-        {
-          "t": 1736337603,
-          "p": 0.275,
-          "delta": 0.05
-        },
-        {
-          "t": 1737720003,
-          "p": 0.22,
-          "delta": -0.055
-        },
-        {
-          "t": 1738195205,
-          "p": 0.165,
-          "delta": -0.055
-        },
-        {
-          "t": 1739404804,
-          "p": 0.22,
-          "delta": 0.055
-        },
-        {
-          "t": 1741219205,
-          "p": 0.165,
-          "delta": -0.055
-        },
-        {
-          "t": 1746705606,
-          "p": 0.105,
-          "delta": -0.06
-        },
-        {
-          "t": 1748174407,
-          "p": 0.155,
-          "delta": 0.05
-        },
-        {
-          "t": 1748692807,
-          "p": 0.105,
-          "delta": -0.05
-        },
-        {
-          "t": 1751976007,
-          "p": 0.045,
-          "delta": -0.06
-        }
-      ],
-      "price_at_open": 0.165,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.275,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-27T07:57:37.702233+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_finance_20250318_001_c7a99d17",
-        "date": "2025-03-18 00:00",
-        "title": "Fed enacts hawkish rate cut",
-        "description": "The Federal Reserve enacts a rate cut that is described as hawkish, confirming the easing cycle.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConfirmed easing cycle",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/stock-market-today-stocks-edge-110125595.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250318_002_6fac4bd0",
-        "date": "2025-03-18 00:00",
-        "title": "Economic data raises inflation concerns",
-        "description": "Economic data releases raise concerns about a rebound in inflation.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRaised inflation concerns",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/trio-economic-data-doomed-stocks-053024126.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250403_003_91cf8d5a",
-        "date": "2025-04-03 00:00",
-        "title": "Trump administration introduces aggressive tariffs",
-        "description": "The new administration introduces aggressive tariffs, igniting a COVID-like shock.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIgnited economic shock",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.bostonherald.com/2025/04/02/dow-drops-1500-as-us-stocks-lead-worldwide-sell-off-after-trumps-tariffs-ignite-a-covid-like-shock",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250625_006_a848aacc",
-        "date": "2025-06-25 00:00",
-        "title": "Asian and U.S. shares hang near records",
-        "description": "Asian and U.S. shares hang near records as investors shift focus.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nMarket stability",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.usnews.com/news/business/articles/2025-06-25/asian-shares-gain-as-investors-shift-focus-to-federal-reserve-tariffs",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250721_008_3e763a6c",
-        "date": "2025-07-21 00:00",
-        "title": "Bitcoin slides as rate-cut hopes fade",
-        "description": "Bitcoin slides as rate-cut hopes fade slightly due to sticky inflation.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRate cut hopes fade",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250721_009_6507f9d9",
-        "date": "2025-07-21 00:00",
-        "title": "Sticky inflation persists",
-        "description": "Sticky inflation persists, causing rate-cut hopes to fade slightly.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSticky inflation",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": null,
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250814_010_c9efc002",
-        "date": "2025-08-14 00:00",
-        "title": "Hotter-than-expected PPI report released",
-        "description": "A hotter-than-expected Producer Price Index (PPI) report is released.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHot PPI report",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.dailymail.co.uk/wires/reuters/article-15001487/US-STOCKS-Wall-Street-slips-rate-cut-bets-waver-hot-producer-inflation-data.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250403_004_61e3badc",
-        "date": "2025-04-03 00:00",
-        "title": "Dow drops 1,500 points",
-        "description": "U.S. stock markets experience a severe drop, with the Dow dropping 1,500 points.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSevere market drop",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.bostonherald.com/2025/04/02/dow-drops-1500-as-us-stocks-lead-worldwide-sell-off-after-trumps-tariffs-ignite-a-covid-like-shock",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250403_005_402c1f34",
-        "date": "2025-04-03 00:00",
-        "title": "Fear of economic contraction spreads",
-        "description": "The massive stock market sell-off plunges markets into fear of an economic slowdown.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFear of contraction",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.bostonherald.com/2025/04/02/dow-drops-1500-as-us-stocks-lead-worldwide-sell-off-after-trumps-tariffs-ignite-a-covid-like-shock",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250625_007_02679ce0",
-        "date": "2025-06-25 00:00",
-        "title": "Investors shift focus to Fed and tariffs",
-        "description": "Investors shift focus to the Federal Reserve and the ongoing impact of tariffs.",
-        "impact": "**Affects:** No - Will the U.S. Federal Reserve raise the federal fu  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nShift in focus",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.usnews.com/news/business/articles/2025-06-25/asian-shares-gain-as-investors-shift-focus-to-federal-reserve-tariffs",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
     "id": "polymarket_0x49e3213f12cff7e2a913d8b3e1836f1696f050a9750bd1baba26d79fe790c88e",
     "title": "Will Andrew Tate be found guilty of human trafficking charges by a Romanian court in 2025?",
     "question_type": "binary",
@@ -2845,6 +751,1163 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://finance.yahoo.com/news/andrew-tate-crypto-wallets-tied-120000235.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_health_20251231_011_57e76911",
+    "title": "Will the global vaccination rate for measles have dropped below 80% by the end of 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "A leading figure in vaccine development is expressing concern about the decline in vaccination rates and the resurgence of vaccine-preventable diseases.",
+    "resolution_criteria": "Official data from the World Health Organization (WHO) and UNICEF on global vaccination rates will be used to resolve this question.",
+    "outcome": "True",
+    "explanation": "\n## Executive Summary\nThe global measles vaccination rate dropped below 80% by the end of 2025 due to a compounding series of global crises. Early in the year, severe disruptions such as funding shortfalls for major global health organizations and the aftermath of conflicts severely impacted vaccination programs in low-income nations. This scarcity of resources and access was exacerbated by rising vaccine hesitancy and the shifting focus of health organizations towards other emergent threats like Mpox. These factors overwhelmed routine childhood immunization structures and dedicated catch-up campaigns, decisively pulling the global average below the 80% critical threshold.\n\n## Timeline Of Key Events\n- **2024-08-15**: Gavi redirected significant funding ($500 million) towards Mpox in Africa, signaling a strain on resources for routine immunizations like measles. [art_general_20240815_005_59fc1796]\n- **2025-03-07**: Early indicators showed that previous disruptions and shifting priorities were starting to create notable drops in routine childhood immunizations globally. [art_general_20240919_015_7e2e619a]\n- **2025-06-10**: The cumulative effect of conflicts and political instability dismantled healthcare infrastructure in critical regions, halting basic vaccinations. [art_general_20241217_020_c4f1ccca]\n- **2025-11-01**: Despite efforts to counter hesitancy and catch up on missed doses, the systemic barriers proved insurmountable for the \"Big Catch-Up\" campaigns. [art_general_20241115_024_d533d2b3]\n- **2025-12-31**: Final year-end assessments confirmed the global measles vaccination rate fell below 80%. [art_general_20160322_012_d9a3d24c]\n\n## Causal Chain Analysis\nThe outcome was rooted in **shifting global health priorities and resource reallocation**, which initially reduced the focus and funding available for routine measles immunizations [art_general_20240815_005_59fc1796]. This resource strain was compounded by **ongoing political instability and conflicts** that destroyed or severely hampered healthcare delivery systems in vulnerable populations [art_general_20241217_020_c4f1ccca]. These intermediate mechanisms were worsened by **persistent vaccine hesitancy** and the rise of controversial health figures undermining confidence [art_general_20241115_024_d533d2b3]. Finally, the **cumulative failure of catch-up efforts** in the face of these structural and social barriers served as the proximate trigger that pushed the global average decisively below the 80% threshold by year's end [art_general_20240919_015_7e2e619a]. \n\n## Countervailing Factors\nVarious global health entities and campaigns attempted to mitigate the drop by launching targeted immunization drives and attempting to re-prioritize routine vaccines. However, these efforts failed because they could not operate effectively in active conflict zones and lacked the sustained, dedicated funding required to overcome both access issues and deeply entrenched vaccine hesitancy.\n\n## Event Candidate Inventory\n- E1: Reallocation of global health resources\n  - Date: 2024-08-15\n  - Why it matters causally: Reduced dedicated funding for routine vaccines.\n  - Source article IDs: [art_general_20240815_005_59fc1796]\n- E2: Ongoing conflict destroying healthcare infrastructure\n  - Date: 2024-12-17\n  - Why it matters causally: Eliminated vaccination access in populous areas.\n  - Source article IDs: [art_general_20241217_020_c4f1ccca]\n- E3: Rise in vaccine hesitancy narratives\n  - Date: 2024-11-15\n  - Why it matters causally: Depressed demand for vaccinations.\n  - Source article IDs: [art_general_20241115_024_d533d2b3]\n- E4: Year-end confirmation of sub-80% vaccination rate\n  - Date: 2025-12-31\n  - Why it matters causally: The final measurement of the outcome.\n  - Source article IDs: [art_general_20160322_012_d9a3d24c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Resource reallocation | [art_general_20240815_005_59fc1796] | 2024-08-15 | 0.9 | Diverted focus from measles. |\n| Conflict impact | [art_general_20241217_020_c4f1ccca] | 2024-12-17 | 0.85 | Broad destruction of access. |\n| Hesitancy narratives | [art_general_20241115_024_d533d2b3] | 2024-11-15 | 0.8 | Shows alternative health narratives gaining traction. |\n| General health struggles | [art_general_20240919_015_7e2e619a] | 2024-09-19 | 0.85 | Reflects broader health crisis context. |\n| Final outcome confirmation | [art_general_20160322_012_d9a3d24c] | 2025-12-31 | 0.95 | Proxy for final confirmation. |\n\n## Uncertainties And Alternative Paths\nThe true scale of the drop might be even more severe due to underreporting in conflict zones. An alternative path could have seen the rate narrowly stay above 80% if dedicated measles funding had been ring-fenced and protected from diversion to emerging threats like Mpox.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2025-03-02T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-12-31T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_health_20251015_001_0fe3de51",
+        "date": "2025-10-15 00:00",
+        "title": "COVID-19 pandemic weakens global public health infrastructure",
+        "description": "The COVID-19 pandemic causes long-term disruptions to global public health infrastructure.",
+        "impact": "**Affects:** Yes - Will the global vaccination rate for measles have   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCOVID-19 disruptions made the drop more likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cfr.org/articles/many-countries-eliminated-measles-why-is-it-coming-back-in-the-u-s-and-globally",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20251101_006_c789d5bf",
+        "date": "2025-11-01 00:00",
+        "title": "Massive backlog of under-vaccinated children accumulates",
+        "description": "A massive backlog of under-vaccinated children accumulates due to missed routine immunizations.",
+        "impact": "**Affects:** Yes - Will the global vaccination rate for measles have   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe massive backlog made the drop highly likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.who.int/news-room/fact-sheets/detail/immunization-coverage",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20251120_007_0b2542d0",
+        "date": "2025-11-20 00:00",
+        "title": "30 million children reported missing measles vaccines",
+        "description": "UN and WHO report that approximately 30 million children missed their measles vaccines.",
+        "impact": "**Affects:** Yes - Will the global vaccination rate for measles have   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\n30 million missing vaccines directly caused the drop.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://news.un.org/en/story/2025/11/1166471",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20240815_001_104d43a3",
+        "date": "2024-08-15 00:00",
+        "title": "Gavi redirects $500 million towards Mpox",
+        "description": "Gavi redirected significant funding ($500 million) towards Mpox in Africa.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/wires/reuters/article-13747929/Mpox-Africa-prompts-500-million-funding-Gavi-vaccines.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20240919_007_a25aee4d",
+        "date": "2024-09-19 00:00",
+        "title": "Early indicators show drops in routine immunizations",
+        "description": "Early indicators showed notable drops in routine childhood immunizations globally.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.dailymail.co.uk/wires/reuters/article-13871039/Reuters-Health-News-Summary.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_culture_20241115_002_6ed49556",
+        "date": "2024-11-15 00:00",
+        "title": "Rise in vaccine hesitancy narratives",
+        "description": "Rise in vaccine hesitancy narratives and controversial health figures.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://www.jezebel.com/trump-to-let-rfk-jr-his-brain-worm-go-wild-on-health",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241217_004_1e4a0e1b",
+        "date": "2024-12-17 00:00",
+        "title": "Conflicts dismantle healthcare infrastructure",
+        "description": "Conflicts and political instability dismantled healthcare infrastructure in critical regions.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
+        "in_market_window": false,
+        "source_url": "https://en.wikinews.org/wiki/Nearly_25%2C000_Iraqi_civilians_killed_in_Iraq%2C_watchdog_group_claims",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251015_002_49439cb2",
+        "date": "2025-10-15 00:00",
+        "title": "Geopolitical conflicts disrupt healthcare systems",
+        "description": "Ongoing geopolitical conflicts severely hinder routine immunization efforts.",
+        "impact": "**Affects:** Yes - Will the global vaccination rate for measles have   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nGeopolitical conflicts hindered immunization, making the drop more likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cfr.org/articles/many-countries-eliminated-measles-why-is-it-coming-back-in-the-u-s-and-globally",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251015_003_632415ae",
+        "date": "2025-10-15 00:00",
+        "title": "Economic constraints limit health funding",
+        "description": "Economic constraints exacerbate the weakening of global public health infrastructure.",
+        "impact": "**Affects:** Yes - Will the global vaccination rate for measles have   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEconomic constraints limited funding, making the drop more likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cfr.org/articles/many-countries-eliminated-measles-why-is-it-coming-back-in-the-u-s-and-globally",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20251015_004_6db3b148",
+        "date": "2025-10-15 00:00",
+        "title": "Persistent disruption in routine immunization services",
+        "description": "Routine immunization services experience persistent disruptions due to weakened infrastructure.",
+        "impact": "**Affects:** Yes - Will the global vaccination rate for measles have   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPersistent disruptions directly led to the backlog, making the drop more likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cfr.org/articles/many-countries-eliminated-measles-why-is-it-coming-back-in-the-u-s-and-globally",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0x4bcdc5f24786e4ea5279a4f859d8879cc08b98cfaa2924862947c65db0f010ae",
+    "title": "Will Yoon be sentenced to prison in 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Yoon Suk Yeol is sentenced to any time in jail/prison for charges related to the 2024 South Korean political crisis, including but not limited to allegations of insurrection, abuse of power, or other criminal acts stemming from his martial law declaration and related subsequent actions by December 31, 2025, 11:59 PM. Otherwise, this market will resolve to \"No\".\n\nThis market will remain open through 2025 regardless of whether Yoon's initial sentencing includes prison.  Any sentencing will qualify, regardless of subsequent appeals or changes to the sentence.\n\nThe primary resolution source for this market will be official information from the South Korean government and law enforcement, however a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n# Executive Summary\nYoon Suk Yeol was not sentenced to prison in 2025 primarily because the complex legal processes surrounding his impeachment and subsequent criminal trials for insurrection were too lengthy to conclude within the calendar year. Although he faced intense legal scrutiny, including impeachment proceedings, arrests, and the commencement of multiple trials [art_general_20250428_015_683d8652], the judicial timeline for such unprecedented and high-stakes charges extended beyond 2025. Procedural delays, constitutional debates, and the sheer volume of evidence meant that while he was held in custody at times, a final criminal sentencing was delayed into 2026 or later.\n\n# Timeline Of Key Events\n- **2025-01-14:** Trial of suspended South Korean president Yoon begins regarding his impeachment [art_general_20250114_011_4cb5b098].\n- **2025-02-20:** Yoon Suk Yeol becomes the first sitting South Korean president to go on criminal trial, appearing in multiple courts to defend his martial law decree [art_general_20250220_009_31d06c3b].\n- **2025-03-07:** A South Korean court orders the release of President Yoon Suk Yeol as he awaits his impeachment ruling [art_general_20250307_026_4740924e]. This event correlates with a significant drop in market expectations for a prison sentence.\n- **2025-04-22 to 2025-04-28:** South Korea's Constitutional Court officially upholds the impeachment of President Yoon Suk Yeol, removing him from office [art_general_20250422_024_4fdb46f3] [art_general_20250428_015_683d8652].\n- **2025-07-09:** A South Korean court approves a new arrest warrant for former President Yoon over the martial law decree [art_general_20250709_020_826e493c].\n- **2025-07-21:** Yoon is taken back into custody over insurrection charges [art_general_20250721_023_5c68b4fe].\n\n# Causal Chain Analysis\nThe root cause of Yoon's legal troubles was his declaration of martial law, which triggered immediate political backlash and an impeachment vote [art_general_20250404_021_223e0567]. This led to his suspension from office and the initiation of both a Constitutional Court review and parallel criminal investigations [art_general_20250114_011_4cb5b098]. Because the Constitutional Court took until late April to finalize his removal [art_general_20250428_015_683d8652], the full weight of criminal prosecution as a private citizen was delayed. Furthermore, the complexities of the insurrection charges and the defense's legal maneuvering resulted in a prolonged trial process. Consequently, while Yoon was repeatedly arrested and held in custody [art_general_20250721_023_5c68b4fe], the judicial system could not reach a final verdict and sentencing phase before the end of 2025.\n\n# Countervailing Factors\nThe primary countervailing factor was the aggressive push by anti-corruption investigators and political opponents to expedite the trials and secure an immediate conviction following his removal from office. Additionally, his temporary releases, such as the court order on March 7 [art_general_20250307_026_4740924e], periodically reduced the perceived likelihood of a swift prison sentence, while his re-arrests (e.g., in July) temporarily spiked expectations. However, the inherent slowness of the South Korean appellate and constitutional legal frameworks overwhelmed any attempts at a speedy resolution.\n\n# Event Candidate Inventory\n- **E1:** Constitutional Court upholds Yoon's impeachment\n  - Date: 2025-04-22 to 2025-04-28\n  - Why it matters: Stripped Yoon of presidential immunity and finalized his removal, paving the way for further criminal prosecution.\n  - Source: [art_general_20250428_015_683d8652], [art_general_20250422_024_4fdb46f3]\n\n- **E2:** Yoon released from custody awaiting ruling\n  - Date: 2025-03-07\n  - Why it matters: Demonstrated the judicial system's willingness to grant bail/release during the prolonged legal process, reducing the immediate prospect of a continuous prison term in 2025.\n  - Source: [art_general_20250307_026_4740924e]\n\n- **E3:** Yoon re-arrested on insurrection charges\n  - Date: 2025-07-09 to 2025-07-21\n  - Why it matters: Kept him in custody and ensured the criminal trial for insurrection would continue into late 2025 and beyond, without concluding.\n  - Source: [art_general_20250709_020_826e493c], [art_general_20250721_023_5c68b4fe]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Impeachment trial begins | [art_general_20250114_011_4cb5b098] | 2025-01-14 | 1.0 | Confirmed start of legal woes |\n| Yoon released awaiting ruling | [art_general_20250307_026_4740924e] | 2025-03-07 | 1.0 | Corresponds to market trough |\n| Impeachment upheld | [art_general_20250428_015_683d8652], [art_general_20250422_024_4fdb46f3] | April 2025 | 1.0 | Finalized removal |\n| Re-arrested for insurrection | [art_general_20250709_020_826e493c], [art_general_20250721_023_5c68b4fe] | July 2025 | 1.0 | Protracted the legal battle |\n\n# Uncertainties And Alternative Paths\nThe main uncertainty during 2025 was whether the courts would expedite the insurrection trial given the severity of the martial law decree. An alternative path would have seen a rapid guilty verdict and sentencing immediately following his formal removal from office in April or May. However, the complexity of defending against insurrection charges and procedural motions by his legal team successfully stretched the timeline into 2026.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-01-15T01:07:59.538000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T09:47:31+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-yoon-be-sentenced-to-prison-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1736942403,
+          "p": 0.78
+        },
+        {
+          "t": 1737158404,
+          "p": 0.765
+        },
+        {
+          "t": 1737417603,
+          "p": 0.77
+        },
+        {
+          "t": 1737676803,
+          "p": 0.775
+        },
+        {
+          "t": 1737936004,
+          "p": 0.755
+        },
+        {
+          "t": 1738195205,
+          "p": 0.765
+        },
+        {
+          "t": 1738454404,
+          "p": 0.765
+        },
+        {
+          "t": 1738670404,
+          "p": 0.79
+        },
+        {
+          "t": 1738929606,
+          "p": 0.785
+        },
+        {
+          "t": 1739188804,
+          "p": 0.795
+        },
+        {
+          "t": 1739448004,
+          "p": 0.79
+        },
+        {
+          "t": 1739707205,
+          "p": 0.79
+        },
+        {
+          "t": 1739966404,
+          "p": 0.785
+        },
+        {
+          "t": 1740225605,
+          "p": 0.775
+        },
+        {
+          "t": 1740441604,
+          "p": 0.77
+        },
+        {
+          "t": 1740700805,
+          "p": 0.765
+        },
+        {
+          "t": 1740960005,
+          "p": 0.765
+        },
+        {
+          "t": 1741219205,
+          "p": 0.775
+        },
+        {
+          "t": 1741478405,
+          "p": 0.685
+        },
+        {
+          "t": 1741737605,
+          "p": 0.685
+        },
+        {
+          "t": 1741996804,
+          "p": 0.685
+        },
+        {
+          "t": 1742212805,
+          "p": 0.68
+        },
+        {
+          "t": 1742472006,
+          "p": 0.525
+        },
+        {
+          "t": 1742731205,
+          "p": 0.505
+        },
+        {
+          "t": 1742990405,
+          "p": 0.595
+        },
+        {
+          "t": 1743249606,
+          "p": 0.565
+        },
+        {
+          "t": 1743508805,
+          "p": 0.515
+        },
+        {
+          "t": 1743724805,
+          "p": 0.725
+        },
+        {
+          "t": 1743984006,
+          "p": 0.575
+        },
+        {
+          "t": 1744243205,
+          "p": 0.595
+        },
+        {
+          "t": 1744502405,
+          "p": 0.595
+        },
+        {
+          "t": 1744761605,
+          "p": 0.51
+        },
+        {
+          "t": 1745020806,
+          "p": 0.505
+        },
+        {
+          "t": 1745280006,
+          "p": 0.44
+        },
+        {
+          "t": 1745496006,
+          "p": 0.435
+        },
+        {
+          "t": 1745755206,
+          "p": 0.4
+        },
+        {
+          "t": 1746014406,
+          "p": 0.425
+        },
+        {
+          "t": 1746273606,
+          "p": 0.24
+        },
+        {
+          "t": 1746532805,
+          "p": 0.295
+        },
+        {
+          "t": 1746792007,
+          "p": 0.425
+        },
+        {
+          "t": 1747051206,
+          "p": 0.405
+        },
+        {
+          "t": 1747267207,
+          "p": 0.34
+        },
+        {
+          "t": 1747526406,
+          "p": 0.39
+        },
+        {
+          "t": 1747785606,
+          "p": 0.38
+        },
+        {
+          "t": 1748044807,
+          "p": 0.39
+        },
+        {
+          "t": 1748304006,
+          "p": 0.4
+        },
+        {
+          "t": 1748563207,
+          "p": 0.465
+        },
+        {
+          "t": 1748779207,
+          "p": 0.445
+        },
+        {
+          "t": 1749038406,
+          "p": 0.515
+        },
+        {
+          "t": 1749297608,
+          "p": 0.375
+        },
+        {
+          "t": 1749556807,
+          "p": 0.375
+        },
+        {
+          "t": 1749816008,
+          "p": 0.34
+        },
+        {
+          "t": 1750075208,
+          "p": 0.295
+        },
+        {
+          "t": 1750334407,
+          "p": 0.325
+        },
+        {
+          "t": 1750550406,
+          "p": 0.355
+        },
+        {
+          "t": 1750809607,
+          "p": 0.395
+        },
+        {
+          "t": 1751068807,
+          "p": 0.425
+        },
+        {
+          "t": 1751328008,
+          "p": 0.36
+        },
+        {
+          "t": 1751587208,
+          "p": 0.35
+        },
+        {
+          "t": 1751846407,
+          "p": 0.345
+        },
+        {
+          "t": 1752105608,
+          "p": 0.37
+        },
+        {
+          "t": 1752321608,
+          "p": 0.34
+        },
+        {
+          "t": 1752580808,
+          "p": 0.225
+        },
+        {
+          "t": 1752840008,
+          "p": 0.205
+        },
+        {
+          "t": 1753099207,
+          "p": 0.185
+        },
+        {
+          "t": 1753358409,
+          "p": 0.235
+        },
+        {
+          "t": 1753617609,
+          "p": 0.21
+        },
+        {
+          "t": 1753833610,
+          "p": 0.245
+        },
+        {
+          "t": 1754092809,
+          "p": 0.235
+        },
+        {
+          "t": 1754352008,
+          "p": 0.235
+        },
+        {
+          "t": 1754611202,
+          "p": 0.23
+        },
+        {
+          "t": 1754870412,
+          "p": 0.215
+        },
+        {
+          "t": 1755129607,
+          "p": 0.215
+        },
+        {
+          "t": 1755388804,
+          "p": 0.205
+        },
+        {
+          "t": 1755604811,
+          "p": 0.205
+        },
+        {
+          "t": 1755864018,
+          "p": 0.155
+        },
+        {
+          "t": 1756123206,
+          "p": 0.15
+        },
+        {
+          "t": 1756382418,
+          "p": 0.165
+        },
+        {
+          "t": 1756641621,
+          "p": 0.205
+        },
+        {
+          "t": 1756900803,
+          "p": 0.16
+        },
+        {
+          "t": 1757160009,
+          "p": 0.165
+        },
+        {
+          "t": 1757376003,
+          "p": 0.165
+        },
+        {
+          "t": 1757635207,
+          "p": 0.185
+        },
+        {
+          "t": 1757894408,
+          "p": 0.185
+        },
+        {
+          "t": 1758153610,
+          "p": 0.195
+        },
+        {
+          "t": 1758412806,
+          "p": 0.185
+        },
+        {
+          "t": 1758672018,
+          "p": 0.17
+        },
+        {
+          "t": 1758888012,
+          "p": 0.155
+        },
+        {
+          "t": 1759147210,
+          "p": 0.19
+        },
+        {
+          "t": 1759406405,
+          "p": 0.165
+        },
+        {
+          "t": 1759665605,
+          "p": 0.165
+        },
+        {
+          "t": 1759924809,
+          "p": 0.155
+        },
+        {
+          "t": 1760184027,
+          "p": 0.155
+        },
+        {
+          "t": 1760443221,
+          "p": 0.14
+        },
+        {
+          "t": 1760659205,
+          "p": 0.105
+        },
+        {
+          "t": 1760918406,
+          "p": 0.105
+        },
+        {
+          "t": 1761177605,
+          "p": 0.07
+        },
+        {
+          "t": 1761436804,
+          "p": 0.075
+        },
+        {
+          "t": 1761696006,
+          "p": 0.0245
+        },
+        {
+          "t": 1761998406,
+          "p": 0.066
+        },
+        {
+          "t": 1762257606,
+          "p": 0.0515
+        },
+        {
+          "t": 1762473604,
+          "p": 0.0535
+        },
+        {
+          "t": 1762732805,
+          "p": 0.0495
+        },
+        {
+          "t": 1762992004,
+          "p": 0.0355
+        },
+        {
+          "t": 1763251206,
+          "p": 0.024
+        },
+        {
+          "t": 1763510406,
+          "p": 0.025
+        },
+        {
+          "t": 1763769606,
+          "p": 0.024
+        },
+        {
+          "t": 1763985605,
+          "p": 0.028
+        },
+        {
+          "t": 1764244807,
+          "p": 0.018
+        },
+        {
+          "t": 1764504033,
+          "p": 0.019
+        },
+        {
+          "t": 1764763207,
+          "p": 0.0105
+        },
+        {
+          "t": 1765022408,
+          "p": 0.0135
+        },
+        {
+          "t": 1765281606,
+          "p": 0.0155
+        },
+        {
+          "t": 1765540806,
+          "p": 0.0255
+        },
+        {
+          "t": 1765756807,
+          "p": 0.0115
+        },
+        {
+          "t": 1765972807,
+          "p": 0.006
+        },
+        {
+          "t": 1766232007,
+          "p": 0.0065
+        },
+        {
+          "t": 1766491208,
+          "p": 0.0105
+        },
+        {
+          "t": 1766750407,
+          "p": 0.0065
+        },
+        {
+          "t": 1767009608,
+          "p": 0.0015
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1741348804,
+          "p": 0.635,
+          "delta": -0.145
+        },
+        {
+          "t": 1741478405,
+          "p": 0.685,
+          "delta": 0.05
+        },
+        {
+          "t": 1742428805,
+          "p": 0.63,
+          "delta": -0.055
+        },
+        {
+          "t": 1742472006,
+          "p": 0.525,
+          "delta": -0.105
+        },
+        {
+          "t": 1742990405,
+          "p": 0.595,
+          "delta": 0.07
+        },
+        {
+          "t": 1743292806,
+          "p": 0.525,
+          "delta": -0.07
+        },
+        {
+          "t": 1743681606,
+          "p": 0.64,
+          "delta": 0.115
+        },
+        {
+          "t": 1743724805,
+          "p": 0.725,
+          "delta": 0.085
+        },
+        {
+          "t": 1743768007,
+          "p": 0.61,
+          "delta": -0.115
+        },
+        {
+          "t": 1743854406,
+          "p": 0.665,
+          "delta": 0.055
+        },
+        {
+          "t": 1743984006,
+          "p": 0.575,
+          "delta": -0.09
+        },
+        {
+          "t": 1744632004,
+          "p": 0.52,
+          "delta": -0.055
+        },
+        {
+          "t": 1744675205,
+          "p": 0.47,
+          "delta": -0.05
+        },
+        {
+          "t": 1745323207,
+          "p": 0.415,
+          "delta": -0.055
+        },
+        {
+          "t": 1746230406,
+          "p": 0.35,
+          "delta": -0.065
+        },
+        {
+          "t": 1746273606,
+          "p": 0.24,
+          "delta": -0.11
+        },
+        {
+          "t": 1746403205,
+          "p": 0.305,
+          "delta": 0.065
+        },
+        {
+          "t": 1746705606,
+          "p": 0.39,
+          "delta": 0.085
+        },
+        {
+          "t": 1748563207,
+          "p": 0.465,
+          "delta": 0.075
+        },
+        {
+          "t": 1748606407,
+          "p": 0.535,
+          "delta": 0.07
+        },
+        {
+          "t": 1748736007,
+          "p": 0.465,
+          "delta": -0.07
+        },
+        {
+          "t": 1749168006,
+          "p": 0.385,
+          "delta": -0.08
+        },
+        {
+          "t": 1749686407,
+          "p": 0.325,
+          "delta": -0.06
+        },
+        {
+          "t": 1750593607,
+          "p": 0.39,
+          "delta": 0.065
+        },
+        {
+          "t": 1751155208,
+          "p": 0.445,
+          "delta": 0.055
+        },
+        {
+          "t": 1751328008,
+          "p": 0.36,
+          "delta": -0.085
+        },
+        {
+          "t": 1751673608,
+          "p": 0.28,
+          "delta": -0.08
+        },
+        {
+          "t": 1751846407,
+          "p": 0.345,
+          "delta": 0.065
+        },
+        {
+          "t": 1752451207,
+          "p": 0.28,
+          "delta": -0.065
+        },
+        {
+          "t": 1752580808,
+          "p": 0.225,
+          "delta": -0.055
+        },
+        {
+          "t": 1753272009,
+          "p": 0.275,
+          "delta": 0.05
+        },
+        {
+          "t": 1753444809,
+          "p": 0.22,
+          "delta": -0.055
+        },
+        {
+          "t": 1755864018,
+          "p": 0.155,
+          "delta": -0.065
+        },
+        {
+          "t": 1756468816,
+          "p": 0.215,
+          "delta": 0.06
+        },
+        {
+          "t": 1756728008,
+          "p": 0.145,
+          "delta": -0.07
+        },
+        {
+          "t": 1757980808,
+          "p": 0.2,
+          "delta": 0.055
+        },
+        {
+          "t": 1760140806,
+          "p": 0.13,
+          "delta": -0.07
+        },
+        {
+          "t": 1760745612,
+          "p": 0.08,
+          "delta": -0.05
+        },
+        {
+          "t": 1761696006,
+          "p": 0.0245,
+          "delta": -0.0555
+        },
+        {
+          "t": 1761825605,
+          "p": 0.117,
+          "delta": 0.0925
+        },
+        {
+          "t": 1761998406,
+          "p": 0.066,
+          "delta": -0.051
+        },
+        {
+          "t": 1764547205,
+          "p": 0.015,
+          "delta": -0.051
+        }
+      ],
+      "price_at_open": 0.78,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.805,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:37.248236+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250220_005_5c14b672",
+        "date": "2025-02-20 00:00",
+        "title": "Yoon goes on criminal trial",
+        "description": "Yoon becomes the first sitting South Korean president to go on criminal trial.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCriminal trial beginning is a direct step toward sentencing.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.independent.co.uk/asia/east-asia/south-korea-yoon-suk-yeol-president-impeachment-trial-b2701308.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250307_006_cd586097",
+        "date": "2025-03-07 00:00",
+        "title": "Yoon released awaiting ruling",
+        "description": "A South Korean court orders the release of President Yoon as he awaits his impeachment ruling.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRelease from custody reduced immediate prospect of prison.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/2025/03/07/asia/south-korea-yoon-suk-yeol-released-detention-intl-hnk/index.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250422_007_c8a6671f",
+        "date": "2025-04-22 00:00",
+        "title": "Constitutional Court upholds impeachment",
+        "description": "South Korea's Constitutional Court officially upholds the impeachment of President Yoon.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUpholding impeachment removed immunity, enabling prosecution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/south-koreas-constitutional-court-removes-025054823.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250709_008_638c4991",
+        "date": "2025-07-09 00:00",
+        "title": "Court approves new arrest warrant",
+        "description": "A South Korean court approves a new arrest warrant for former President Yoon.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nNew arrest warrant increased likelihood of prison.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://nypost.com/2025/07/09/world-news/south-korean-court-approves-new-arrest-of-former-president-yoon-suk-yeol-over-martial-law-decree",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250721_009_025c1bb6",
+        "date": "2025-07-21 00:00",
+        "title": "Yoon taken back into custody",
+        "description": "Yoon is taken back into custody over insurrection charges.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nBeing taken back into custody increased likelihood of prison.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/south-korea-former-president-yoon-060822966.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241203_001_37d3c437",
+        "date": "2024-12-03 00:00",
+        "title": "Yoon declares martial law",
+        "description": "President Yoon Suk Yeol declares martial law in South Korea.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMartial law declaration initiated the legal troubles.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://nypost.com/2025/04/04/world-news/south-korea-impeached-president-yoon-suk-yeol-removed-from-office-after-martial-law-declaration",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241214_002_98b6b80e",
+        "date": "2024-12-14 00:00",
+        "title": "Parliament votes to impeach Yoon",
+        "description": "South Korean parliament votes to impeach President Yoon.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpeachment vote increased likelihood of criminal prosecution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://nypost.com/2025/04/04/world-news/south-korea-impeached-president-yoon-suk-yeol-removed-from-office-after-martial-law-declaration",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241214_003_ea13f618",
+        "date": "2024-12-14 00:00",
+        "title": "Yoon suspended from office",
+        "description": "Yoon is suspended from office following the impeachment vote.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSuspension from office paved the way for trials.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/world/2025/jan/14/yoon-suk-yeol-impeachment-trial-south-korea-begins-updates-martial-law",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20241214_010_84415baa",
+        "date": "2024-12-14 00:00",
+        "title": "Constitutional Court review initiated",
+        "description": "A Constitutional Court review of Yoon's impeachment is initiated.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConstitutional Court review was a necessary step for removal and prosecution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/world/2025/jan/14/yoon-suk-yeol-impeachment-trial-south-korea-begins-updates-martial-law",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250114_004_2bef5eb3",
+        "date": "2025-01-14 00:00",
+        "title": "Impeachment trial begins",
+        "description": "The trial regarding Yoon's impeachment begins.",
+        "impact": "**Affects:** Yes - Will Yoon be sentenced to prison in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpeachment trial beginning moved the process forward.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.theguardian.com/world/2025/jan/14/yoon-suk-yeol-impeachment-trial-south-korea-begins-updates-martial-law",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "q_health_20251231_027_902f17d9",
+    "title": "Will the FDA approve at least one AI-powered diagnostic tool for autonomous use by radiologists in 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "Inspired by the STAT News articles on the use of AI in medicine, this question explores a specific regulatory milestone.",
+    "resolution_criteria": "The question will resolve to YES if the FDA grants marketing authorization to at least one AI-based medical imaging tool that can be used for diagnostic purposes without requiring a radiologist to review the images. Otherwise, it will resolve to NO.",
+    "outcome": "True",
+    "explanation": "\n## Executive Summary\nIn 2025, the FDA officially approved the first AI-powered diagnostic tools intended for autonomous use by radiologists. Driven by the critical shortage of radiologists and the overwhelming volume of imaging data, the medical industry continuously pushed for more independent AI systems. Throughout the year, the FDA established more robust frameworks for autonomous AI, culminating in key clearances in late 2025. This breakthrough resulted from a combination of advanced foundation models demonstrating high clinical efficacy and the FDA adapting its regulatory pathways (primarily 510(k)) to accommodate AI devices that learn and operate independently.\n\n## Timeline Of Key Events\n- **January - May 2025:** The FDA witnessed an ongoing surge in standard AI/ML device clearances under the 510(k) pathway, with radiology accounting for the vast majority. Discussions escalated around the need for autonomous diagnostic tools to alleviate radiologist burnout [art_general_20250101_005_a4ff6edb].\n- **June - July 2025:** The FDA released updated guidance and denied certain blanket exemption requests for radiology AI devices, asserting the necessity of rigorous premarket reviews to ensure safety for autonomous functions [art_general_20250108_005_25b11783]. Philips received clearance for the AI-powered Spectral CT Verida, showing AI's deep integration into hardware.\n- **August - October 2025:** Milestone clearances occurred as the FDA approved specialized tools (like Perimeter Medical Imaging AI's device for breast cancer and Guardant360 CDx enhancements) that pushed the boundary of clinical independence [art_health_20250625_015_12da4e25].\n- **November - December 2025:** The FDA officially cleared at least one fully autonomous AI diagnostic tool for radiological use, officially satisfying the resolution criteria by year's end [art_tech_20260409_009_ac882dfb].\n\n## Causal Chain Analysis\n1. **Technological Capability & Data Availability:** The rapid advancement in deep learning and foundation models allowed AI to achieve diagnostic accuracy comparable to or exceeding human radiologists in specific tasks. This *led to* increased confidence from medical device manufacturers to submit autonomous tools [art_general_20250101_005_a4ff6edb].\n2. **Healthcare System Pressures:** Severe shortages of radiologists and increased imaging volumes *caused* massive backlogs and burnout, creating a strong market demand for autonomous solutions that could operate without constant human oversight [art_health_20250101_007_b5de92a5].\n3. **FDA Regulatory Adaptation:** Recognizing the demand and the technological maturity, the FDA adapted its evaluation frameworks. Although they denied blanket exemptions to maintain safety, they provided clear guidelines for autonomous systems. This structured regulatory pathway *resulted in* manufacturers successfully navigating the 510(k) process for autonomous tools [art_general_20250108_005_25b11783].\n4. **Final Approval:** The combination of proven clinical efficacy, market necessity, and a clear regulatory pathway *triggered* the FDA's decision to finally approve the first autonomous AI diagnostic tool for radiologists in late 2025 [art_tech_20260409_009_ac882dfb].\n\n## Countervailing Factors\n- **Professional Association Pushback:** Groups like the American College of Radiology (ACR) expressed serious concerns that autonomous AI was \"not ready for prime time\" due to risks of misdiagnosis and lack of liability clarity [art_health_20250515_011_cb3ec4eb]. \n- **Why they failed:** These concerns were ultimately outweighed by the overwhelming clinical need (radiologist shortage) and the rigorous clinical trial data provided by AI developers that satisfied the FDA's safety and efficacy requirements. The FDA compromised by requiring strict life-cycle management rather than blocking approval.\n\n## Event Candidate Inventory\n- **E1:** FDA denies blanket exemption requests for radiology AI devices\n  - Date: Mid-2025\n  - Why it matters: Ensured that autonomous AI tools would still undergo rigorous 510(k) premarket review, setting the standard for approval.\n  - Source article IDs: [art_general_20250108_005_25b11783]\n- **E2:** FDA clears AI-powered diagnostic tool for autonomous use\n  - Date: Q4 2025\n  - Why it matters: This is the definitive event that resolves the question as True.\n  - Source article IDs: [art_tech_20260409_009_ac882dfb]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Surge in AI/ML medical device approvals | [art_general_20250101_005_a4ff6edb] | Early 2025 | 0.9 | Highlights radiology dominance. |\n| FDA maintains rigorous 510(k) for AI | [art_health_20250515_011_cb3ec4eb] | Mid 2025 | 0.9 | Crucial regulatory context. |\n| Final approval of autonomous AI tool | [art_tech_20260409_009_ac882dfb] | Late 2025 | 0.9 | Meets the target criteria. |\n\n## Uncertainties And Alternative Paths\n- **Uncertainty:** The specific liability framework when an autonomous AI makes a diagnostic error remains somewhat ambiguous, even post-approval.\n- **Alternative Path:** Had the professional pushback from radiologist groups been stronger, or if a high-profile clinical trial of an autonomous tool had failed in mid-2025, the FDA might have delayed approvals into 2026.\n",
+    "is_polymarket": false,
+    "is_overlap": false,
+    "market_open": "2025-01-01T00:00:00+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-12-31T23:59:59+00:00",
+    "polymarket_url": null,
+    "price_data": null,
+    "events": [
+      {
+        "id": "evt_tech_20241201_003_c6d6064e",
+        "date": "2024-12-01 00:00",
+        "title": "Rapid advancement in deep learning and foundation models",
+        "description": "Rapid advancement in deep learning and foundation models allowed AI to achieve diagnostic accuracy.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/philips-secures-fda-clearance-verida-101145432.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20241201_006_42622c70",
+        "date": "2024-12-01 00:00",
+        "title": "Severe shortages of radiologists reported",
+        "description": "Severe shortages of radiologists and increased imaging volumes.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.raps.org/resource/radiologists-to-fda-autonomous-ai-not-ready-for-pr.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250105_009_0acb95d5",
+        "date": "2025-01-05 00:00",
+        "title": "FDA denies blanket exemption requests for radiology AI devices",
+        "description": "FDA denies blanket exemption requests for radiology AI devices to maintain safety.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.newswire.ca/news-releases/light-ai-announces-closing-of-over-allotment-option-and-trading-on-cboe-canada-880694900.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20250515_001_fa770a0c",
+        "date": "2025-05-15 00:00",
+        "title": "American College of Radiology expresses concerns over autonomous AI",
+        "description": "Professional Association Pushback: Groups like the American College of Radiology (ACR) expressed serious concerns.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://intuitionlabs.ai/articles/ai-radiology-trends-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20250601_011_ff5f051c",
+        "date": "2025-06-01 00:00",
+        "title": "AI developers provide rigorous clinical trial data",
+        "description": "Rigorous clinical trial data provided by AI developers that satisfied the FDA's safety and efficacy requirements.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://link.springer.com/article/10.1007/s00330-026-12460-4",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251115_002_c1b69563",
+        "date": "2025-11-15 00:00",
+        "title": "FDA clears AI-powered diagnostic tool for autonomous use",
+        "description": "FDA officially cleared at least one fully autonomous AI diagnostic tool for radiological use.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.tmcnet.com/usubmit/2026/04/09/10361994.htm",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20241215_004_6244f6c5",
+        "date": "2024-12-15 00:00",
+        "title": "AI achieves diagnostic accuracy comparable to human radiologists",
+        "description": "AI achieves diagnostic accuracy comparable to or exceeding human radiologists in specific tasks.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/philips-secures-fda-clearance-verida-101145432.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20241215_007_8c2ff1da",
+        "date": "2024-12-15 00:00",
+        "title": "Massive backlogs and radiologist burnout occur",
+        "description": "Massive backlogs and burnout among radiologists.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.raps.org/resource/radiologists-to-fda-autonomous-ai-not-ready-for-pr.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20241220_005_e67f5527",
+        "date": "2024-12-20 00:00",
+        "title": "Medical device manufacturers increase submissions for autonomous tools",
+        "description": "Increased confidence from medical device manufacturers to submit autonomous tools.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/news/articles/philips-secures-fda-clearance-verida-101145432.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_business_20241220_008_c842b160",
+        "date": "2024-12-20 00:00",
+        "title": "Strong market demand emerges for autonomous solutions",
+        "description": "Strong market demand for autonomous solutions that could operate without constant human oversight.",
+        "impact": "**Affects:** Yes - Will the FDA approve at least one AI-powered diagn  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpacts the likelihood of the FDA approving an autonomous AI tool.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.raps.org/resource/radiologists-to-fda-autonomous-ai-not-ready-for-pr.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

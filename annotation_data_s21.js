@@ -1,1013 +1,646 @@
 var annotationData = [
   {
-    "id": "polymarket_0xd966b3c2f9102c0e87883594e5523bcb83609d1f64f44f33010927060e0f3257",
-    "title": "Will Israel allow independent journalists into Gaza by December 31?",
+    "id": "polymarket_0xc645f98013096b0de16e4686c64103b157ed1c4d5674620b8658c42f2efd1f78",
+    "title": "Will Putin meet with Zelenskyy by March 31, 2026?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "Since 7 October 2023, Israel has prevented international journalists from entering Gaza. You can read more about that here: https://www.timesofisrael.com/with-ceasefire-in-place-us-renews-plea-for-israel-to-allow-foreign-press-into-gaza/\n\nThis market will resolve to \"Yes\" if Israel announces that it will allow independent international journalists to enter Gaza by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn official announcement by the Government of Israel that it will permit independent international journalists to enter Gaza will be sufficient to resolve this market, regardless of when and whether such access is actually restored.\n\nAn announcement indicating limited access (e.g., escorted, restricted to specific crossings, or pooled press visits) will still qualify.\n\nAnnouncements that such access is already sufficiently available or may be arranged will not qualify.\n\nThe primary resolution source will be official information from the Government of Israel. However, a consensus of credible reporting may also be used to determine whether independent journalists were allowed access to Gaza.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe market prediction for whether Israel would allow independent journalists into Gaza by the end of 2025 fluctuated significantly during November before finally resolving as 'Yes'. The outcome was driven by mounting international pressure, escalating diplomatic friction, and sustained advocacy from global journalism organizations. Initially, the Israeli government resisted access citing security risks, which caused market skepticism and flips toward 'No'. However, coordinated international demands eventually compelled a policy change, leading to the positive resolution.\n\n## Timeline Of Key Events\n- **2025-11-07**: Market prediction first flipped to 'Yes' (36.0% -> 66.0%) amidst early signs of international pressure regarding press access to Gaza. [art_politics_20251107_011_6cc23c63]\n- **2025-11-13**: Market sentiment peaked briefly before declining, reflecting ongoing uncertainty and resistance from Israeli authorities. [art_politics_20251113_016_8725b6ee]\n- **2025-11-18**: Prediction flipped back to 'No' (57.5% -> 48.0%) as security concerns and government pushback dominated the narrative, causing a sustained period of doubt. [art_politics_20251118_020_12920d56]\n- **2025-11-20**: A significant market trough occurred, followed by a sharp recovery, indicating a critical turning point in behind-the-scenes negotiations. [art_politics_20251120_021_125a78e6]\n- **2025-11-21**: The market definitively flipped to 'Yes' (43.5% -> 100.0%) following decisive international diplomatic actions that forced Israel to concede access. [art_politics_20251121_022_c8f561fb]\n- **2025-11-24**: The question resolved as 'Yes', confirming that independent journalists were granted access. [art_politics_20251124_025_b06dbcbc]\n\n## Causal Chain Analysis\nThe root cause of the initial denial of access was the Israeli government's stated security concerns during the ongoing conflict in Gaza. This led to a near-total blackout of independent foreign reporting, which acted as an intermediate mechanism that galvanized international media watchdogs and foreign governments. The proximate trigger for the policy reversal was a coordinated diplomatic push, likely involving joint statements and pressure from allied nations, which made the political cost of continued denial unsustainable. This directly resulted in the Israeli government changing its policy and allowing independent journalists into Gaza, fulfilling the positive outcome.\n\n## Countervailing Factors\nThe primary countervailing factor was the Israeli military's strict security protocols and the government's stance that the presence of independent journalists could compromise operational security and troop safety. This force pushed heavily against the 'Yes' outcome, as evidenced by the market's return to 'No' on November 18. However, this factor was ultimately overwhelmed by the sheer volume of international diplomatic pressure and the reputational damage of restricting press freedom.\n\n## Event Candidate Inventory\n- **E1**: Initial international pressure mounts for press access.\n  - Date: Around 2025-11-07\n  - Why it matters causally: Sparked the first major market shift towards believing access would be granted.\n  - Source article IDs: [art_politics_20251107_011_6cc23c63]\n- **E2**: Israel reiterates security concerns, blocking access.\n  - Date: Around 2025-11-18\n  - Why it matters causally: Caused a prolonged period where the market believed the outcome would be 'No'.\n  - Source article IDs: [art_politics_20251118_020_12920d56]\n- **E3**: Decisive diplomatic intervention forces policy change.\n  - Date: 2025-11-20 to 2025-11-21\n  - Why it matters causally: The direct trigger that overwhelmed security concerns and led to the 'Yes' resolution.\n  - Source article IDs: [art_politics_20251120_021_125a78e6], [art_politics_20251121_022_c8f561fb]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Initial pressure causes market shift | [art_politics_20251107_011_6cc23c63] | 2025-11-07 | 0.8 | Market data aligns with date |\n| Security concerns lead to 'No' flip | [art_politics_20251118_020_12920d56] | 2025-11-18 | 0.8 | Explains the prolonged negative sentiment |\n| Diplomatic breakthrough forces 'Yes' | [art_politics_20251120_021_125a78e6], [art_politics_20251121_022_c8f561fb] | 2025-11-20 - 2025-11-21 | 0.9 | Accounts for the definitive market reversal |\n\n## Uncertainties And Alternative Paths\nThe exact nature of the final diplomatic agreement remains slightly opaque, as behind-closed-doors negotiations played a significant role. An alternative path could have seen the Israeli Supreme Court formally mandating access, which would have bypassed the executive branch's security arguments entirely, rather than a purely diplomatic concession.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-11-05T23:59:11.221866+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-11-24T00:28:29+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-israel-allow-independent-journalists-into-gaza-by-december-31",
-    "price_data": {
-      "history": [
-        {
-          "t": 1762430432,
-          "p": 0.36
-        },
-        {
-          "t": 1762473622,
-          "p": 0.66
-        },
-        {
-          "t": 1762516830,
-          "p": 0.645
-        },
-        {
-          "t": 1762560015,
-          "p": 0.625
-        },
-        {
-          "t": 1762603241,
-          "p": 0.8
-        },
-        {
-          "t": 1762646435,
-          "p": 0.875
-        },
-        {
-          "t": 1762689626,
-          "p": 0.755
-        },
-        {
-          "t": 1762732814,
-          "p": 0.755
-        },
-        {
-          "t": 1762776026,
-          "p": 0.75
-        },
-        {
-          "t": 1762819224,
-          "p": 0.775
-        },
-        {
-          "t": 1762862443,
-          "p": 0.695
-        },
-        {
-          "t": 1762905620,
-          "p": 0.71
-        },
-        {
-          "t": 1762948830,
-          "p": 0.72
-        },
-        {
-          "t": 1762992022,
-          "p": 0.74
-        },
-        {
-          "t": 1763035232,
-          "p": 0.675
-        },
-        {
-          "t": 1763078421,
-          "p": 0.63
-        },
-        {
-          "t": 1763121632,
-          "p": 0.645
-        },
-        {
-          "t": 1763164825,
-          "p": 0.62
-        },
-        {
-          "t": 1763208034,
-          "p": 0.575
-        },
-        {
-          "t": 1763251217,
-          "p": 0.575
-        },
-        {
-          "t": 1763294429,
-          "p": 0.565
-        },
-        {
-          "t": 1763337622,
-          "p": 0.575
-        },
-        {
-          "t": 1763380828,
-          "p": 0.58
-        },
-        {
-          "t": 1763424017,
-          "p": 0.575
-        },
-        {
-          "t": 1763467230,
-          "p": 0.48
-        },
-        {
-          "t": 1763510425,
-          "p": 0.52
-        },
-        {
-          "t": 1763553633,
-          "p": 0.48
-        },
-        {
-          "t": 1763596816,
-          "p": 0.455
-        },
-        {
-          "t": 1763640018,
-          "p": 0.435
-        },
-        {
-          "t": 1763683229,
-          "p": 0.9995
-        },
-        {
-          "t": 1763726418,
-          "p": 0.9975
-        },
-        {
-          "t": 1763769618,
-          "p": 0.9945
-        },
-        {
-          "t": 1763812818,
-          "p": 0.996
-        },
-        {
-          "t": 1763856019,
-          "p": 0.9975
-        },
-        {
-          "t": 1763899217,
-          "p": 0.9995
-        },
-        {
-          "t": 1763942416,
-          "p": 0.9995
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1762473622,
-          "p": 0.66,
-          "delta": 0.3
-        },
-        {
-          "t": 1762603241,
-          "p": 0.8,
-          "delta": 0.14
-        },
-        {
-          "t": 1762646435,
-          "p": 0.875,
-          "delta": 0.075
-        },
-        {
-          "t": 1762689626,
-          "p": 0.755,
-          "delta": -0.12
-        },
-        {
-          "t": 1762862443,
-          "p": 0.695,
-          "delta": -0.06
-        },
-        {
-          "t": 1763078421,
-          "p": 0.63,
-          "delta": -0.065
-        },
-        {
-          "t": 1763208034,
-          "p": 0.575,
-          "delta": -0.055
-        },
-        {
-          "t": 1763467230,
-          "p": 0.48,
-          "delta": -0.095
-        },
-        {
-          "t": 1763683229,
-          "p": 0.9995,
-          "delta": 0.5195
-        }
-      ],
-      "price_at_open": 0.36,
-      "price_at_close": 0.9995,
-      "min_price": 0.36,
-      "max_price": 0.9995,
-      "final_price": 0.9995,
-      "fetched_at": "2026-04-27T07:57:48.674334+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20251106_003_7ce7aab4",
-        "date": "2025-11-06 12:00",
-        "title": "International media watchdogs advocate for press access",
-        "description": "International media watchdogs are galvanized by the reporting blackout and advocate for press access.",
-        "impact": "**Affects:** Yes - Will Israel allow independent journalists into Gaz  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the positive outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://cpj.org/2025/12/not-journalism-theater-inside-israels-press-tours-to-gaza-2",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251119_004_338bfea0",
-        "date": "2025-11-19 12:00",
-        "title": "Allied nations issue joint statements demanding press access",
-        "description": "Allied nations issue joint statements demanding that Israel allow independent journalists into Gaza.",
-        "impact": "**Affects:** Yes - Will Israel allow independent journalists into Gaz  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the positive outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/closures-food-distribution-hubs-impacting-225219699-1.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251121_009_f240f1d9",
-        "date": "2025-11-21 09:00",
-        "title": "Decisive diplomatic intervention forces policy change",
-        "description": "Decisive international diplomatic actions force Israel to reconsider its policy on press access.",
-        "impact": "**Affects:** Yes - Will Israel allow independent journalists into Gaz  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the positive outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://time.com/7291862/gaza-israel-aid-shooting-1",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251106_002_dbe21441",
-        "date": "2025-11-06 12:00",
-        "title": "International media watchdogs and foreign governments are galvanized",
-        "description": "International media watchdogs and foreign governments are galvanized by the reporting blackout.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://cpj.org/2025/12/not-journalism-theater-inside-israels-press-tours-to-gaza-2",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251107_006_c05d49fd",
-        "date": "2025-11-07 09:00",
-        "title": "Initial international pressure mounts for press access",
-        "description": "Initial international pressure mounts regarding press access to Gaza, sparking a market shift.",
-        "impact": "**Affects:** Yes - Will Israel allow independent journalists into Gaz  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the positive outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://cpj.org/2025/12/not-journalism-theater-inside-israels-press-tours-to-gaza-2",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251107_003_81e70dcb",
-        "date": "2025-11-07 09:30",
-        "title": "Market prediction first flips to Yes",
-        "description": "Market prediction first flips to Yes amidst early signs of international pressure.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://cpj.org/2025/12/not-journalism-theater-inside-israels-press-tours-to-gaza-2",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251120_008_e408954b",
-        "date": "2025-11-20 09:00",
-        "title": "Coordinated diplomatic push occurs",
-        "description": "A coordinated diplomatic push involving foreign governments takes place to pressure Israel.",
-        "impact": "**Affects:** Yes - Will Israel allow independent journalists into Gaz  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the positive outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/closures-food-distribution-hubs-impacting-225219699-1.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251120_005_58d7ecf4",
-        "date": "2025-11-20 09:00",
-        "title": "Coordinated diplomatic push and joint statements from allied nations occur",
-        "description": "Coordinated diplomatic push and joint statements from allied nations occur.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/closures-food-distribution-hubs-impacting-225219699-1.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251121_006_02756618",
-        "date": "2025-11-21 09:00",
-        "title": "Market definitively flips to Yes",
-        "description": "Market definitively flips to Yes following decisive international diplomatic actions.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://time.com/7291862/gaza-israel-aid-shooting-1",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251121_010_705583c4",
-        "date": "2025-11-21 09:30",
-        "title": "Political cost of continued denial becomes unsustainable",
-        "description": "The political cost of continuing to deny press access becomes unsustainable for the Israeli government.",
-        "impact": "**Affects:** Yes - Will Israel allow independent journalists into Gaz  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributes to the positive outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://time.com/7291862/gaza-israel-aid-shooting-1",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xdb46432765f4f6e902618d2746b289d4fb4a80c0d0cb9697c2dfda186cd0e0c9",
-    "title": "Will MicroStrategy face a margin call on its Bitcoin holdings during 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if MicroStrategy incorporated is margin called on any of its Bitcoin-backed loans by December 31, 2025, 11:59 PM ET, resulting in either a forced liquidation of Bitcoin by a lender or MicroStrategy posting additional collateral or making a loan repayment in response to the margin call. Otherwise, this market will resolve to \"No.\"\n\nA margin call is defined as a lender formally requiring MicroStrategy to either provide additional collateral or repay part of a loan due to the value of Bitcoin collateral falling below the required loan-to-value (LTV) ratio. Voluntary Bitcoin sales by MicroStrategy that are not explicitly in response to a margin call will not count. \n\nThe primary resolution sources will be SEC filings, official MicroStrategy statements, and a consensus of credible financial reporting.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Vladimir Putin meets with Volodymyr Zelenskyy between this market's creation and March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn exchange of words, handshake, direct conversation, or other clear personal interaction between the named individuals will qualify as a meeting. Merely standing in proximity, making eye contact, or being present in the same room or event without direct interaction will not qualify.\n\nA meeting is defined as any encounter where both Zelenskyy and Putin are present and interact with each other in person.\n\nThe resolution source will be a consensus of credible reporting.",
     "outcome": "No",
-    "explanation": "\n## Executive Summary\nMicroStrategy did not face a margin call on its Bitcoin holdings in 2025. The company's average purchase price for its vast Bitcoin reserves was significantly lower than the margin call threshold required to trigger a liquidation of its debt positions, particularly the Silvergate loan. Despite a sharp price drop on November 22, 2025, where Bitcoin saw a sudden reversal, the price never reached the critical sub-$21,000 level that would have necessitated a margin call. Michael Saylor's conservative debt structure and substantial uncollateralized Bitcoin holdings allowed the company to comfortably weather market volatility throughout the year.\n\n## Timeline Of Key Events\n- Early 2025: MicroStrategy continues to hold and acquire Bitcoin, maintaining a massive stockpile with a large buffer above any margin thresholds.\n- Mid 2025: Financial results confirm the robust risk-adjusted returns of MSTR and BTC.\n- 2025-11-22: A significant market correction occurs, and Bitcoin price drops rapidly, narrowing the gap to MicroStrategy's margin call limit [art_finance_20251122_002_7079eede].\n- 2025-11-23: Commentary highlights the \"crypto carnage\" and sudden Wall Street reversal, but notes that margin thresholds remain intact [art_general_20251123_014_4136ef4e].\n- 2025-12-18: Bitcoin begins to recover, trading well above the critical margin call levels [art_general_20251218_018_dbebc3f3].\n\n## Causal Chain Analysis\n1. **Conservative Debt Structuring:** MicroStrategy structured its Bitcoin-backed loans (like the Silvergate loan) with a very low Loan-to-Value (LTV) ratio, requiring Bitcoin to drop below roughly $21,000 before a margin call would occur.\n2. **Substantial Unencumbered Assets:** The company held a vast amount of uncollateralized Bitcoin that could be pledged to prevent a margin call if the price dropped closer to the threshold.\n3. **Market Volatility Fails to Break Support:** The proximate trigger of the November 22 market crash led to a sharp decrease in Bitcoin's price [art_finance_20251122_002_7079eede]. However, the drop stopped well short of the critical threshold.\n4. **Final Outcome:** Because the price never breached the extreme downside limit, and MicroStrategy had sufficient collateral buffer, no margin call was triggered during 2025 [art_general_20251123_014_4136ef4e].\n\n## Countervailing Factors\n- **The November 22 Crypto Crash:** A severe market downturn pushed Bitcoin prices down rapidly [art_general_20251123_014_4136ef4e], which temporarily increased fears of a margin call as the gap narrowed [art_finance_20251122_002_7079eede]. However, this factor failed to produce a margin call because the absolute price level remained high enough, and the crash was relatively short-lived before stabilization and recovery [art_general_20251218_018_dbebc3f3].\n\n## Event Candidate Inventory\n- **E1:** Market crash and sudden Wall Street reversal.\n  - Date: 2025-11-22 to 2025-11-23\n  - Why it matters: This was the closest MicroStrategy came to margin call risk in late 2025 due to a rapid price drop.\n  - Source: [art_finance_20251122_002_7079eede], [art_general_20251123_014_4136ef4e]\n- **E2:** MicroStrategy Q2/Q3 Financial Updates.\n  - Date: Mid 2025\n  - Why it matters: Confirmed the company's strong collateral position and falling volatility.\n  - Source: [art_finance_20251122_003_8c049bd2], [art_finance_20251122_004_8a14e923]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Nov 22 Market Crash narrows margin gap | [art_finance_20251122_002_7079eede] | 2025-11-22 | 1.0 | Clear documentation of the crash and narrowing gap. |\n| Wall Street Reversal commentary | [art_general_20251123_014_4136ef4e] | 2025-11-23 | 0.9 | Further analysis of the market drop. |\n| Bitcoin Recovery | [art_general_20251218_018_dbebc3f3] | 2025-12-18 | 0.95 | Price recovers, eliminating margin call risk for the year. |\n\n## Uncertainties And Alternative Paths\n- If the November 22 crash had triggered a broader cascading liquidation across the crypto market, Bitcoin's price could have plunged below $21,000. In such an alternative path, MicroStrategy might have had to pledge additional collateral or face a margin call on its Silvergate loan. However, strong market support prevented this.\n",
+    "explanation": "\n## Executive Summary\nThe expected meeting between Vladimir Putin and Volodymyr Zelenskyy by March 31, 2026, did not materialize, primarily due to Russia's preconditions and the lack of a finalized peace agreement. Despite significant diplomatic momentum and trilateral peace talks involving the United States under the Trump administration in early 2026, Putin maintained that a direct meeting would only happen in the \"final phase\" of negotiations. Disagreements over sensitive issues, such as the fate of occupied territories, led to the abrupt end of the Geneva talks in February 2026, effectively preventing any summit from taking place before the deadline.\n\n## Timeline Of Key Events\n- **Late Summer 2025**: Momentum built around a potential summit, with Zelenskyy expressing readiness to meet Putin to discuss security guarantees.\n- **August 2025**: Putin stated he would only meet Zelenskyy during the \"final phase\" of negotiations.\n- **January 3, 2026**: A significant turning point where diplomatic efforts crystallized into formal trilateral talks, shifting market sentiment.\n- **January 2026**: Talks were held in Abu Dhabi. US negotiators met with Putin in Moscow, but Zelenskyy and Putin did not meet directly [art_politics_20260127_025_a0c6e719].\n- **February 18, 2026**: Trilateral talks in Geneva ended abruptly without agreements on key terms [art_politics_20260218_016_e0d69054] [art_politics_20260218_017_78149c79] [art_politics_20260218_023_5fba4700].\n- **March 1, 2026**: Zelenskyy noted peace talks progress would depend on resolving major sensitive issues [art_politics_20260301_018_4c32c83d].\n- **March 31, 2026**: The deadline passed without a meeting.\n\n## Causal Chain Analysis\n- **Root Cause**: The ongoing conflict and fundamentally opposed demands regarding occupied territories and security guarantees caused deep mistrust between Russia and Ukraine.\n- **Intermediate Mechanism**: This fundamental misalignment led to Putin establishing a precondition that he would only meet Zelenskyy in the \"final phase\" of negotiations, once a framework was already largely agreed upon.\n- **Proximate Trigger**: The failure to resolve major issues during the early 2026 Abu Dhabi and Geneva trilateral talks [art_politics_20260218_017_78149c79] resulted in the talks abruptly ending without a finalized agreement.\n- **Final Outcome**: Because the talks failed to produce a final phase of a peace agreement, Putin's precondition was not met, and no direct meeting between Putin and Zelenskyy occurred by March 31, 2026.\n\n## Countervailing Factors\n- Heavy diplomatic pressure from the US, specifically the Trump administration's efforts to broker a peace deal, pushed strongly for a resolution and a potential summit.\n- Zelenskyy's stated willingness in late 2025 to meet bilaterally for security guarantees also provided positive momentum.\n- However, these factors were overwhelmed by Russia's rigid preconditions and the intractability of territorial disputes.\n\n## Event Candidate Inventory\n- **E1**: Trilateral talks in Abu Dhabi.\n  - Date: January 2026\n  - Why it matters causally: Initiated formal negotiations but failed to produce a direct leader meeting.\n  - Source article IDs: [art_politics_20260127_025_a0c6e719]\n- **E2**: Geneva trilateral talks end abruptly.\n  - Date: February 18, 2026\n  - Why it matters causally: The breakdown of these talks ensured no final agreement was reached, preventing the summit precondition from being met.\n  - Source article IDs: [art_politics_20260218_016_e0d69054], [art_politics_20260218_017_78149c79], [art_politics_20260218_023_5fba4700]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Geneva talks end abruptly | art_politics_20260218_016_e0d69054, art_politics_20260218_017_78149c79, art_politics_20260218_023_5fba4700 | 2026-02-18 | 1.0 | Clear evidence of the failure of key talks |\n| Trilateral talks planned/held | art_politics_20260127_025_a0c6e719 | 2026-01-27 | 0.9 | Shows the diplomatic effort preceding Geneva |\n| Future talks dependent | art_politics_20260301_018_4c32c83d | 2026-03-01 | 0.9 | Confirms unresolved issues late in the window |\n\n## Uncertainties And Alternative Paths\n- It remains uncertain if Putin would have honored his commitment to meet in the \"final phase\" even if an agreement was nominally reached.\n- An alternative path could have involved sudden major concessions by either side under intense US pressure, which might have rushed a symbolic summit before the deadline.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-02-25T21:42:00.158000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-01-01T08:50:45+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-microstrategy-be-margin-called-in-2025",
+    "market_open": "2026-01-01T08:12:21+00:00",
+    "market_open_estimated": true,
+    "market_close": "2026-04-01T08:12:21+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-putin-meet-with-zelenskyy-by-march-31-2026",
     "price_data": {
       "history": [
         {
-          "t": 1740528005,
-          "p": 0.135
-        },
-        {
-          "t": 1740744005,
-          "p": 0.12
-        },
-        {
-          "t": 1740960005,
-          "p": 0.125
-        },
-        {
-          "t": 1741176004,
-          "p": 0.125
-        },
-        {
-          "t": 1741392005,
-          "p": 0.125
-        },
-        {
-          "t": 1741608005,
-          "p": 0.125
-        },
-        {
-          "t": 1741824006,
-          "p": 0.13
-        },
-        {
-          "t": 1742083204,
-          "p": 0.135
-        },
-        {
-          "t": 1742299204,
-          "p": 0.135
-        },
-        {
-          "t": 1742515205,
-          "p": 0.13
-        },
-        {
-          "t": 1742731205,
-          "p": 0.13
-        },
-        {
-          "t": 1742947205,
-          "p": 0.115
-        },
-        {
-          "t": 1743163206,
-          "p": 0.125
-        },
-        {
-          "t": 1743422406,
-          "p": 0.125
-        },
-        {
-          "t": 1743638405,
+          "t": 1765540810,
           "p": 0.105
         },
         {
-          "t": 1743854406,
-          "p": 0.105
+          "t": 1765584011,
+          "p": 0.085
         },
         {
-          "t": 1744070406,
-          "p": 0.115
+          "t": 1765670411,
+          "p": 0.075
         },
         {
-          "t": 1744286406,
-          "p": 0.115
+          "t": 1765756811,
+          "p": 0.075
         },
         {
-          "t": 1744502405,
-          "p": 0.115
-        },
-        {
-          "t": 1744761605,
-          "p": 0.115
-        },
-        {
-          "t": 1744977605,
-          "p": 0.11
-        },
-        {
-          "t": 1745193606,
-          "p": 0.11
-        },
-        {
-          "t": 1745409606,
-          "p": 0.11
-        },
-        {
-          "t": 1745625606,
-          "p": 0.11
-        },
-        {
-          "t": 1745841606,
-          "p": 0.11
-        },
-        {
-          "t": 1746057606,
+          "t": 1765843209,
           "p": 0.08
         },
         {
-          "t": 1746316805,
+          "t": 1765886421,
+          "p": 0.08
+        },
+        {
+          "t": 1765929631,
+          "p": 0.08
+        },
+        {
+          "t": 1766016020,
           "p": 0.075
         },
         {
-          "t": 1746532805,
+          "t": 1766102410,
           "p": 0.075
         },
         {
-          "t": 1746748807,
-          "p": 0.065
+          "t": 1766188809,
+          "p": 0.08
         },
         {
-          "t": 1746964807,
-          "p": 0.065
+          "t": 1766232010,
+          "p": 0.08
         },
         {
-          "t": 1747180807,
-          "p": 0.065
+          "t": 1766318409,
+          "p": 0.075
         },
         {
-          "t": 1747396806,
-          "p": 0.065
-        },
-        {
-          "t": 1747656005,
-          "p": 0.055
-        },
-        {
-          "t": 1747872007,
-          "p": 0.055
-        },
-        {
-          "t": 1748088006,
-          "p": 0.06
-        },
-        {
-          "t": 1748304006,
-          "p": 0.06
-        },
-        {
-          "t": 1748520007,
-          "p": 0.06
-        },
-        {
-          "t": 1748736007,
-          "p": 0.06
-        },
-        {
-          "t": 1748995206,
-          "p": 0.06
-        },
-        {
-          "t": 1749211206,
-          "p": 0.055
-        },
-        {
-          "t": 1749427207,
-          "p": 0.055
-        },
-        {
-          "t": 1749643207,
-          "p": 0.055
-        },
-        {
-          "t": 1749859208,
-          "p": 0.055
-        },
-        {
-          "t": 1750075208,
-          "p": 0.055
-        },
-        {
-          "t": 1750291207,
-          "p": 0.055
-        },
-        {
-          "t": 1750550406,
-          "p": 0.055
-        },
-        {
-          "t": 1750766406,
-          "p": 0.055
-        },
-        {
-          "t": 1750982407,
-          "p": 0.055
-        },
-        {
-          "t": 1751198407,
-          "p": 0.055
-        },
-        {
-          "t": 1751414407,
-          "p": 0.055
-        },
-        {
-          "t": 1751630407,
-          "p": 0.055
-        },
-        {
-          "t": 1751889607,
-          "p": 0.055
-        },
-        {
-          "t": 1752105608,
-          "p": 0.055
-        },
-        {
-          "t": 1752321608,
-          "p": 0.055
-        },
-        {
-          "t": 1752537608,
-          "p": 0.055
-        },
-        {
-          "t": 1752753607,
-          "p": 0.055
-        },
-        {
-          "t": 1752969608,
-          "p": 0.06
-        },
-        {
-          "t": 1753228809,
-          "p": 0.06
-        },
-        {
-          "t": 1753444809,
-          "p": 0.06
-        },
-        {
-          "t": 1753660809,
-          "p": 0.055
-        },
-        {
-          "t": 1753876809,
-          "p": 0.045
-        },
-        {
-          "t": 1754092809,
+          "t": 1766404809,
           "p": 0.07
         },
         {
-          "t": 1754308808,
+          "t": 1766491211,
           "p": 0.07
         },
         {
-          "t": 1754524807,
+          "t": 1766577610,
           "p": 0.07
         },
         {
-          "t": 1754784006,
-          "p": 0.07
-        },
-        {
-          "t": 1755000015,
-          "p": 0.07
-        },
-        {
-          "t": 1755216014,
+          "t": 1766620820,
           "p": 0.065
         },
         {
-          "t": 1755432018,
+          "t": 1766707209,
+          "p": 0.065
+        },
+        {
+          "t": 1766793611,
+          "p": 0.06
+        },
+        {
+          "t": 1766880011,
+          "p": 0.06
+        },
+        {
+          "t": 1766966427,
+          "p": 0.08
+        },
+        {
+          "t": 1767009611,
+          "p": 0.08
+        },
+        {
+          "t": 1767096011,
+          "p": 0.075
+        },
+        {
+          "t": 1767182410,
+          "p": 0.075
+        },
+        {
+          "t": 1767268811,
+          "p": 0.075
+        },
+        {
+          "t": 1767355210,
           "p": 0.055
         },
         {
-          "t": 1755648003,
-          "p": 0.055
-        },
-        {
-          "t": 1755864004,
-          "p": 0.06
-        },
-        {
-          "t": 1756123206,
-          "p": 0.06
-        },
-        {
-          "t": 1756339210,
-          "p": 0.06
-        },
-        {
-          "t": 1756555206,
-          "p": 0.06
-        },
-        {
-          "t": 1756771209,
-          "p": 0.06
-        },
-        {
-          "t": 1756987215,
-          "p": 0.055
-        },
-        {
-          "t": 1757203207,
-          "p": 0.05
-        },
-        {
-          "t": 1757462405,
-          "p": 0.0355
-        },
-        {
-          "t": 1757678429,
-          "p": 0.035
-        },
-        {
-          "t": 1757894409,
-          "p": 0.039
-        },
-        {
-          "t": 1758110417,
-          "p": 0.036
-        },
-        {
-          "t": 1758326413,
-          "p": 0.035
-        },
-        {
-          "t": 1758542405,
-          "p": 0.035
-        },
-        {
-          "t": 1758758409,
-          "p": 0.036
-        },
-        {
-          "t": 1759017606,
-          "p": 0.034
-        },
-        {
-          "t": 1759233615,
-          "p": 0.0345
-        },
-        {
-          "t": 1759449608,
-          "p": 0.035
-        },
-        {
-          "t": 1759665607,
-          "p": 0.0355
-        },
-        {
-          "t": 1759881610,
-          "p": 0.0345
-        },
-        {
-          "t": 1760097621,
-          "p": 0.0335
-        },
-        {
-          "t": 1760356825,
-          "p": 0.035
-        },
-        {
-          "t": 1760572803,
-          "p": 0.0375
-        },
-        {
-          "t": 1760788803,
-          "p": 0.0315
-        },
-        {
-          "t": 1761004815,
-          "p": 0.0315
-        },
-        {
-          "t": 1761220817,
-          "p": 0.0315
-        },
-        {
-          "t": 1761436818,
-          "p": 0.046
-        },
-        {
-          "t": 1761696018,
-          "p": 0.047
-        },
-        {
-          "t": 1761955218,
+          "t": 1767398410,
           "p": 0.0405
         },
         {
-          "t": 1762171221,
-          "p": 0.0405
+          "t": 1767484811,
+          "p": 0.0445
         },
         {
-          "t": 1762387211,
+          "t": 1767571212,
+          "p": 0.06
+        },
+        {
+          "t": 1767657614,
+          "p": 0.0755
+        },
+        {
+          "t": 1767700811,
+          "p": 0.0665
+        },
+        {
+          "t": 1767787216,
+          "p": 0.0655
+        },
+        {
+          "t": 1767873617,
+          "p": 0.04
+        },
+        {
+          "t": 1767960026,
+          "p": 0.044
+        },
+        {
+          "t": 1768046413,
+          "p": 0.044
+        },
+        {
+          "t": 1768089612,
           "p": 0.0435
         },
         {
-          "t": 1762603237,
-          "p": 0.0215
+          "t": 1768176013,
+          "p": 0.0565
         },
         {
-          "t": 1762819219,
-          "p": 0.021
+          "t": 1768262414,
+          "p": 0.0505
         },
         {
-          "t": 1763035226,
-          "p": 0.021
+          "t": 1768348813,
+          "p": 0.049
         },
         {
-          "t": 1763294424,
-          "p": 0.0175
+          "t": 1768435214,
+          "p": 0.054
         },
         {
-          "t": 1763510421,
+          "t": 1768478413,
+          "p": 0.0535
+        },
+        {
+          "t": 1768564814,
+          "p": 0.051
+        },
+        {
+          "t": 1768651215,
+          "p": 0.06
+        },
+        {
+          "t": 1768737629,
+          "p": 0.052
+        },
+        {
+          "t": 1768824014,
+          "p": 0.054
+        },
+        {
+          "t": 1768867214,
+          "p": 0.0485
+        },
+        {
+          "t": 1768953614,
+          "p": 0.0475
+        },
+        {
+          "t": 1769040017,
+          "p": 0.055
+        },
+        {
+          "t": 1769126430,
+          "p": 0.053
+        },
+        {
+          "t": 1769212820,
+          "p": 0.062
+        },
+        {
+          "t": 1769256019,
+          "p": 0.062
+        },
+        {
+          "t": 1769342424,
+          "p": 0.057
+        },
+        {
+          "t": 1769428818,
+          "p": 0.064
+        },
+        {
+          "t": 1769515216,
+          "p": 0.0625
+        },
+        {
+          "t": 1769558417,
+          "p": 0.054
+        },
+        {
+          "t": 1769644831,
+          "p": 0.0515
+        },
+        {
+          "t": 1769731219,
+          "p": 0.051
+        },
+        {
+          "t": 1769817618,
+          "p": 0.047
+        },
+        {
+          "t": 1769904022,
+          "p": 0.051
+        },
+        {
+          "t": 1769947220,
+          "p": 0.0495
+        },
+        {
+          "t": 1770033618,
+          "p": 0.0415
+        },
+        {
+          "t": 1770120020,
+          "p": 0.042
+        },
+        {
+          "t": 1770206420,
+          "p": 0.0375
+        },
+        {
+          "t": 1770292821,
+          "p": 0.046
+        },
+        {
+          "t": 1770336020,
+          "p": 0.037
+        },
+        {
+          "t": 1770422424,
+          "p": 0.0345
+        },
+        {
+          "t": 1770508821,
+          "p": 0.0415
+        },
+        {
+          "t": 1770595221,
+          "p": 0.0395
+        },
+        {
+          "t": 1770681622,
+          "p": 0.033
+        },
+        {
+          "t": 1770724827,
+          "p": 0.045
+        },
+        {
+          "t": 1770811221,
+          "p": 0.046
+        },
+        {
+          "t": 1770897620,
+          "p": 0.041
+        },
+        {
+          "t": 1770984022,
+          "p": 0.051
+        },
+        {
+          "t": 1771070422,
+          "p": 0.0485
+        },
+        {
+          "t": 1771113623,
+          "p": 0.0265
+        },
+        {
+          "t": 1771200034,
+          "p": 0.0245
+        },
+        {
+          "t": 1771286424,
+          "p": 0.0225
+        },
+        {
+          "t": 1771372825,
+          "p": 0.028
+        },
+        {
+          "t": 1771416025,
           "p": 0.026
         },
         {
-          "t": 1763726415,
+          "t": 1771502438,
+          "p": 0.0315
+        },
+        {
+          "t": 1771588818,
+          "p": 0.0335
+        },
+        {
+          "t": 1771675221,
           "p": 0.0255
         },
         {
-          "t": 1763942414,
-          "p": 0.027
+          "t": 1771761623,
+          "p": 0.0335
         },
         {
-          "t": 1764158440,
+          "t": 1771804822,
+          "p": 0.0315
+        },
+        {
+          "t": 1771891222,
           "p": 0.0285
         },
         {
-          "t": 1764374424,
+          "t": 1771977624,
+          "p": 0.0285
+        },
+        {
+          "t": 1772064024,
+          "p": 0.0295
+        },
+        {
+          "t": 1772150426,
+          "p": 0.0295
+        },
+        {
+          "t": 1772193640,
+          "p": 0.0305
+        },
+        {
+          "t": 1772280048,
+          "p": 0.0225
+        },
+        {
+          "t": 1772366432,
+          "p": 0.0285
+        },
+        {
+          "t": 1772452830,
+          "p": 0.0215
+        },
+        {
+          "t": 1772539232,
+          "p": 0.022
+        },
+        {
+          "t": 1772582432,
           "p": 0.0155
         },
         {
-          "t": 1764633614,
-          "p": 0.014
+          "t": 1772668829,
+          "p": 0.0125
         },
         {
-          "t": 1764849630,
-          "p": 0.014
+          "t": 1772755229,
+          "p": 0.012
         },
         {
-          "t": 1765065630,
-          "p": 0.0205
-        },
-        {
-          "t": 1765281616,
-          "p": 0.0135
-        },
-        {
-          "t": 1765497615,
+          "t": 1772841632,
           "p": 0.0115
         },
         {
-          "t": 1765713618,
-          "p": 0.004
+          "t": 1772928028,
+          "p": 0.0085
         },
         {
-          "t": 1765929635,
-          "p": 0.004
+          "t": 1772971225,
+          "p": 0.008
         },
         {
-          "t": 1766145617,
-          "p": 0.0055
+          "t": 1773057621,
+          "p": 0.0095
         },
         {
-          "t": 1766361616,
+          "t": 1773144031,
+          "p": 0.009
+        },
+        {
+          "t": 1773230441,
+          "p": 0.009
+        },
+        {
+          "t": 1773273630,
+          "p": 0.0085
+        },
+        {
+          "t": 1773360047,
+          "p": 0.009
+        },
+        {
+          "t": 1773446450,
+          "p": 0.0085
+        },
+        {
+          "t": 1773532854,
+          "p": 0.0085
+        },
+        {
+          "t": 1773662435,
+          "p": 0.0125
+        },
+        {
+          "t": 1773705641,
+          "p": 0.0065
+        },
+        {
+          "t": 1773792043,
           "p": 0.005
         },
         {
-          "t": 1766577617,
+          "t": 1773921642,
           "p": 0.0035
         },
         {
-          "t": 1766793617,
+          "t": 1774008042,
           "p": 0.0025
         },
         {
-          "t": 1767009618,
-          "p": 0.0035
+          "t": 1774094439,
+          "p": 0.0015
+        },
+        {
+          "t": 1774137644,
+          "p": 0.0015
+        },
+        {
+          "t": 1774224037,
+          "p": 0.0015
+        },
+        {
+          "t": 1774310433,
+          "p": 0.0015
+        },
+        {
+          "t": 1774396845,
+          "p": 0.0015
+        },
+        {
+          "t": 1774483249,
+          "p": 0.0015
+        },
+        {
+          "t": 1774569641,
+          "p": 0.0015
+        },
+        {
+          "t": 1774656044,
+          "p": 0.0015
+        },
+        {
+          "t": 1774742448,
+          "p": 0.0015
+        },
+        {
+          "t": 1774872055,
+          "p": 0.0005
         }
       ],
       "turning_points": [
         {
-          "t": 1746057606,
-          "p": 0.08,
-          "delta": -0.055
-        },
-        {
-          "t": 1762560012,
-          "p": 0.0215,
-          "delta": -0.0585
-        },
-        {
-          "t": 1763769615,
-          "p": 0.0815,
-          "delta": 0.06
-        },
-        {
-          "t": 1763942414,
-          "p": 0.027,
-          "delta": -0.0545
+          "t": 1767312011,
+          "p": 0.0495,
+          "delta": -0.0555
         }
       ],
-      "price_at_open": 0.135,
-      "price_at_close": 0.002,
-      "min_price": 0.002,
-      "max_price": 0.135,
-      "final_price": 0.002,
-      "fetched_at": "2026-04-27T07:57:49.146962+00:00"
+      "price_at_open": null,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.105,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-20T17:08:08.558719+00:00"
     },
     "events": [
       {
-        "id": "evt_finance_20250318_001_4edcdda7",
-        "date": "2025-03-18 00:00",
-        "title": "Analysts note MicroStrategy's debt structure favors unsecured notes",
-        "description": "Analysts noted that MicroStrategy's debt structure heavily favors unsecured convertible notes, reducing margin call risks.",
-        "impact": "**Affects:** No - Will MicroStrategy face a margin call on its Bitco  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUnsecured notes reduce margin call risk.",
+        "id": "evt_politics_20260122_004_8e3a95d5",
+        "date": "2026-01-22 00:00",
+        "title": "Trilateral talks announced",
+        "description": "Ukraine, Russia, and the US announce they will meet for trilateral talks to end the war.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/bitcoin-recovering-drop-below-80-185325418.html?fr=sycsrp_catchall",
+        "source_url": "https://www.aljazeera.com/news/2026/1/22/russia-ukraine-peace-talks-down-to-one-issue-says-us-envoy-witkoff",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250501_001_dcb2af8a",
-        "date": "2025-05-01 00:00",
-        "title": "MicroStrategy structures Silvergate loan with low LTV",
-        "description": "MicroStrategy structured its Bitcoin-backed loans with a very low Loan-to-Value ratio.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.businesswire.com/news/home/20250501465720/en/Strategy-Announces-First-Quarter-2025-Financial-Results",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250731_004_581f2417",
-        "date": "2025-07-31 00:00",
-        "title": "MicroStrategy reports Q2 2025 financial results",
-        "description": "MicroStrategy announces its second quarter 2025 financial results.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.strategy.com/press/strategy-announces-second-quarter-2025-financial-results_07-31-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250910_003_6b999a89",
-        "date": "2025-09-10 12:00",
-        "title": "Bitcoin experiences a market dip",
-        "description": "Bitcoin experiences a market dip in September.",
-        "impact": "**Affects:** No - Will MicroStrategy face a margin call on its Bitco  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket dip increases risk, hindering NO.",
+        "id": "evt_politics_20260123_005_84de450f",
+        "date": "2026-01-23 00:00",
+        "title": "US negotiators meet Putin in Moscow",
+        "description": "US negotiators meet with Russian President Putin in Moscow for overnight peace talks.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.webpronews.com/bitcoins-crypto-carnage-the-hidden-trigger-behind-wall-streets-sudden-reversal",
+        "source_url": "https://www.euronews.com/2026/01/23/ukraine-peace-deal-hinges-on-territory-kremlin-says-after-putin-meets-us-envoys-in-moscow",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20251121_008_819f4099",
-        "date": "2025-11-21 12:00",
-        "title": "Bitcoin price drops rapidly",
-        "description": "Bitcoin price drops rapidly following the market crash.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://thedeepdive.ca/bitcoin-margin-risk-microstrategy-fears",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250501_002_db95fc36",
-        "date": "2025-05-01 00:00",
-        "title": "MicroStrategy holds vast uncollateralized Bitcoin",
-        "description": "The company held a vast amount of uncollateralized Bitcoin that could be pledged to prevent a margin call.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.businesswire.com/news/home/20250501465720/en/Strategy-Announces-First-Quarter-2025-Financial-Results",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250501_003_4e4df465",
-        "date": "2025-05-01 00:00",
-        "title": "MicroStrategy reports Q1 2025 financial results",
-        "description": "MicroStrategy announces its first quarter 2025 financial results.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.businesswire.com/news/home/20250501465720/en/Strategy-Announces-First-Quarter-2025-Financial-Results",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250515_002_39224158",
-        "date": "2025-05-15 12:00",
-        "title": "MicroStrategy clarifies debt structure",
-        "description": "MicroStrategy clarifies its debt structure, showing conservative structuring and unencumbered Bitcoin.",
-        "impact": "**Affects:** No - Will MicroStrategy face a margin call on its Bitco  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nClarifying debt structure showed conservative structuring, strongly supporting NO.",
+        "id": "evt_politics_20260124_006_b975c0cc",
+        "date": "2026-01-24 00:00",
+        "title": "Trilateral talks held in Abu Dhabi",
+        "description": "Trilateral peace talks between Russia, Ukraine, and the US are held in the UAE.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/bitcoin-recovering-drop-below-80-185325418.html?fr=sycsrp_catchall",
+        "source_url": "https://www.cnbc.com/2026/01/24/uae-talks-between-russia-ukraine-focused-on-outstanding-elements-.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250820_002_cbbcb3d9",
+        "id": "evt_politics_20260127_007_546887e6",
+        "date": "2026-01-27 00:00",
+        "title": "Further trilateral talks planned",
+        "description": "Russia, Ukraine, and the US plan further trilateral talks following the Abu Dhabi meetings.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.abc.net.au/news/2026-01-27/major-challenges-ukraine-russia-kremlin/106272110",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260218_008_257129b8",
+        "date": "2026-02-18 00:00",
+        "title": "Geneva trilateral talks end abruptly",
+        "description": "Trilateral peace talks in Geneva end abruptly without an agreement on key issues.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://time.com/7379321/ukraine-russia-peace-talks-end-zelensky-trump-clash",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260301_009_0859c110",
+        "date": "2026-03-01 00:00",
+        "title": "Zelenskyy says peace talks depend on sensitive issues",
+        "description": "Zelenskyy states that progress in peace talks will depend on resolving major sensitive issues.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.theguardian.com/world/2026/mar/01/ukraine-war-briefing-zelenskyy-says-russia-peace-talks-will-depend-on-situation-in-middle-east",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250804_002_3a3da4e0",
+        "date": "2025-08-04 00:00",
+        "title": "Putin sets precondition for meeting",
+        "description": "Russian President Putin states he will only meet Zelenskyy during the final phase of negotiations.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://nypost.com/2025/08/04/world-news/putin-open-to-face-to-face-meeting-with-zelensky-but-only-if-certain-conditions-are-met",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250820_001_10e8c92f",
         "date": "2025-08-20 00:00",
-        "title": "MicroStrategy highlights unpledged Bitcoin reserves",
-        "description": "During a market dip, MicroStrategy's unpledged Bitcoin reserves were highlighted as a strong buffer against any potential margin calls.",
-        "impact": "**Affects:** No - Will MicroStrategy face a margin call on its Bitco  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nUnpledged reserves act as a buffer.",
+        "title": "Zelenskyy expresses readiness for talks with Putin",
+        "description": "Ukrainian President Zelenskyy states he is ready for direct talks with Russian President Putin.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
         "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/bitcoin-recovering-drop-below-80-185325418.html?fr=sycsrp_catchall",
+        "in_market_window": false,
+        "source_url": "https://www.dw.com/en/ukraine-zelenskyy-ready-for-talks-with-putin/live-73674493",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20251121_009_b7219056",
-        "date": "2025-11-21 18:00",
-        "title": "Margin call gap narrows",
-        "description": "The gap to MicroStrategy's margin call limit narrows due to the price drop.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://thedeepdive.ca/bitcoin-margin-risk-microstrategy-fears",
+        "id": "evt_politics_20250824_010_57884b93",
+        "date": "2025-08-24 00:00",
+        "title": "Zelenskyy calls for Putin talks",
+        "description": "Zelenskyy calls for talks with Putin as peace efforts stall.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.themoscowtimes.com/2025/08/24/zelensky-calls-for-putin-talks-as-peace-efforts-stall-a90338",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251228_003_d4993122",
+        "date": "2025-12-28 00:00",
+        "title": "Trump and Zelenskyy suggest peace deal",
+        "description": "US President Trump and Ukrainian President Zelenskyy suggest a peace deal could be close after a meeting.",
+        "impact": "**Affects:** No - Will Putin meet with Zelenskyy by March 31, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAssessed impact on the negative outcome.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.politico.com/news/2025/12/28/trump-zelenskyy-peace-talks-putin-00707152",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1015,380 +648,239 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0xde52badd52a816ddd596afd002b63920df38788e2223817c84e63f13099918de",
-    "title": "Will LDP win a majority in the 2026 Japanese snap election?",
+    "id": "polymarket_0xce4b52a6bcbea0b9a388b4c927e2473acc515f974d62ac8e40c577e009329190",
+    "title": "Will a federal bill or resolution requiring disclosure of Jeffrey Epstein-related documents be enacted during 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "General elections are scheduled to be held in Japan on February 8, 2026.\n\nThis market will resolve to \"Yes\" if the Liberal Democratic Party (LDP) wins a majority of seats, at least 233, in the Japanese House of Representatives (衆議院, Shūgiin) as a result of the next Japanese general election. Otherwise, this market will resolve to \"No\".\n\nIf the results of this election aren't known by November 30, 2026, 11:59 PM ET, this market will resolve 50-50.\n\nThis market's resolution will be based solely on the number of seats won by the respective party, not any coalition or alliance of which it may be a part.\n\nThis market will resolve based on the results of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by the Japanese government, including the Ministry of Internal Affairs and Communications (https://www.soumu.go.jp/) or e-Stat (Japan’s government statistics portal; https://www.e-stat.go.jp/).",
+    "resolution_criteria": "This market will resolve to \"Yes\" if a bill, measure, or resolution that explicitly mandates, compels, or formally calls for the public release of documents related to Jeffrey Epstein is signed into federal law in the United States by December 31, 2025, at 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source will be official information from the U.S. federal government (e.g., Congress.gov) however a consensus of credible reporting may also be used.",
     "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nSanae Takaichi's rise to become Japan's first female Prime Minister in late 2025 revitalized the ruling Liberal Democratic Party (LDP) after a period of electoral defeats and low approval under her predecessor, Shigeru Ishiba. Capitalizing on her immense personal popularity, Takaichi called a snap election for February 8, 2026. Despite facing a newly unified opposition alliance between the Constitutional Democratic Party of Japan (CDPJ) and former LDP partner Komeito, Takaichi's dynamic campaigning, nationalist policy platform, and strategic alliance with the Japan Innovation Party overwhelmed her rivals. Ultimately, her personal appeal and bold policy promises secured the LDP a historic two-thirds supermajority in the lower house.\n\n## Timeline Of Key Events\n- **September 2025**: Prime Minister Shigeru Ishiba resigns after the LDP loses its upper house majority [art_general_20260130_006_73c9af4a].\n- **October 2025**: Sanae Takaichi becomes Japan's first female Prime Minister. Long-time coalition partner Komeito quits the ruling coalition [art_general_20260130_006_73c9af4a].\n- **January 17, 2026**: Takaichi announces the dissolution of parliament, paving the way for a snap election to capitalize on her high approval ratings [art_general_20260116_008_69b8de77].\n- **January 23, 2026**: Parliament is officially dissolved. Market prediction briefly flips to 'No' as the opposition CDPJ and Komeito form a new Centrist Reform Alliance [art_general_20260130_006_73c9af4a].\n- **January 27, 2026**: Official campaigning begins. Takaichi frames the election as a personal referendum, pushing prediction markets back in favor of an LDP majority [art_general_20260130_006_73c9af4a].\n- **February 2, 2026**: Takaichi delivers a major speech advocating for the revision of Article 9 of the Constitution to formally recognize the Self-Defense Forces, rallying her conservative base and causing a peak in market confidence [art_politics_20260209_005_108892e1].\n- **February 5, 2026**: Markets experience a trough as Japanese Government Bond yields hit 27-year highs due to campaign promises of consumption tax cuts, though reports project an LDP absolute majority that reassures investors [art_finance_20260205_004_77239d56].\n- **February 6, 2026**: U.S. President Donald Trump publicly endorses Takaichi, boosting her domestic and international standing [art_politics_20260206_007_fa934882].\n- **February 8, 2026**: Election day. The LDP wins a landslide 316 out of 465 seats, securing a supermajority [art_politics_20260209_005_108892e1].\n\n## Causal Chain Analysis\nThe root cause of the LDP's resurgence was the **leadership change to Sanae Takaichi** in late 2025, which completely reset the party's image following the unpopular tenure of Shigeru Ishiba [art_general_20260130_006_73c9af4a]. This leadership change led to an **immediate spike in public approval for the Prime Minister**, with Takaichi's personal ratings soaring above 70% even as the LDP's party approval languished below 30% [art_general_20260130_006_73c9af4a]. \nThis high personal popularity directly triggered Takaichi's **decision to call a snap election** in early 2026 to secure a mandate before economic headwinds could erode her support [art_politics_20260206_007_fa934882]. During the campaign, her strong nationalist rhetoric, promises of economic reform (including consumption tax cuts), and a historic endorsement from Donald Trump [art_politics_20260206_007_fa934882] overwhelmed the fractured opposition. Consequently, this resulted in the **LDP winning a landslide supermajority** of 316 seats on February 8 [art_politics_20260209_005_108892e1].\n\n## Countervailing Factors\nThe most significant countervailing force was the **unification of the opposition**. The LDP's former coalition partner, Komeito, defected and allied with the Constitutional Democratic Party of Japan (CDPJ) to form a Centrist Reform Alliance [art_general_20260130_006_73c9af4a]. Additionally, persistent economic pressures, including high inflation and falling real wages, posed a threat to the incumbent government. However, these factors failed to prevent the LDP majority because the opposition could not overcome Takaichi's overwhelming personal charisma, her unified right-wing messaging, and her strategic coalition with the Japan Innovation Party.\n\n## Event Candidate Inventory\n- **E1**: Sanae Takaichi becomes Japan's first female Prime Minister.\n  - Date: October 2025\n  - Why it matters causally: Reset the LDP's public image and provided the massive personal popularity needed to win the election.\n  - Source article IDs: art_general_20260130_006_73c9af4a, art_politics_20260209_005_108892e1\n- **E2**: Takaichi dissolves parliament and calls a snap election.\n  - Date: January 23, 2026\n  - Why it matters causally: Initiated the electoral process at the peak of Takaichi's popularity, framing it as a referendum on her leadership.\n  - Source article IDs: art_general_20260130_006_73c9af4a\n- **E3**: Donald Trump publicly endorses Sanae Takaichi.\n  - Date: ~February 6, 2026\n  - Why it matters causally: Provided a high-profile international boost to Takaichi's campaign in the final days before the vote.\n  - Source article IDs: art_politics_20260206_007_fa934882, art_politics_20260209_005_108892e1\n- **E4**: LDP wins 316 seats in the lower house election.\n  - Date: February 8, 2026\n  - Why it matters causally: The direct resolution of the question, giving the LDP a supermajority.\n  - Source article IDs: art_politics_20260209_005_108892e1, art_politics_20260209_002_0e9ec71c\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Takaichi's personal approval exceeds 70% | art_general_20260130_006_73c9af4a | 2026-01-30 | 0.95 | Key driver for calling snap election. |\n| Komeito allies with CDPJ | art_general_20260130_006_73c9af4a | 2026-01-30 | 0.90 | Major opposition threat. |\n| Trump endorses Takaichi | art_politics_20260206_007_fa934882, art_politics_20260209_005_108892e1 | 2026-02-06 | 0.95 | Boosted her nationalist credentials. |\n| LDP wins 316 seats | art_politics_20260209_005_108892e1, art_politics_20260209_002_0e9ec71c | 2026-02-09 | 1.00 | Ground truth outcome. |\n\n## Uncertainties And Alternative Paths\n- **Voter Turnout:** If voter turnout had been significantly lower, the unified CDPJ-Komeito opposition alliance, utilizing Komeito's strong organizational voting machine, might have denied the LDP a majority.\n- **Economic Shocks:** The surge in JGB yields in early February indicated market nervousness. A more severe financial disruption could have alienated voters concerned about the cost of living, potentially leading to a hung parliament.\n",
+    "explanation": "\n## Executive Summary\nA federal bill requiring the disclosure of Jeffrey Epstein-related documents, known as the \"Epstein Files Transparency Act\" (H.R.4405), was enacted in 2025. The legislation was introduced in July 2025 and sought to force the Justice Department to release all unclassified records regarding Epstein. The market began heavily favoring a \"Yes\" outcome around November 18, 2025, after significant political momentum and the end of the government shutdown. The bill was subsequently passed and signed by President Donald Trump on November 19, 2025, confirming the resolution.\n\n## Timeline Of Key Events\n- **2025-07-15**: The \"Epstein Files Transparency Act\" (H.R.4405) is originally introduced in the House by Rep. Ro Khanna [art_general_20251118_003_68b95795].\n- **2025-11-12**: The House passes a deal to end the longest government shutdown, allowing Congress to return to regular legislative business [art_general_20251112_018_12ec2b80].\n- **2025-11-15**: Lawmakers and victims advocate for the release of the Epstein files, indicating strong bipartisan pressure [art_politics_20251115_005_f955f1ce].\n- **2025-11-18**: Prediction markets flip to favor a \"Yes\" outcome as signs of the bill's impending passage become apparent, despite legal challenges from individuals like Ghislaine Maxwell trying to block document releases [art_politics_20251118_002_5439f4aa].\n- **2025-11-19**: President Donald Trump signs the Epstein Files Transparency Act into law, officially mandating the DOJ to release the files.\n\n## Causal Chain Analysis\nThe root cause for the bill's enactment was the long-standing public and political demand for transparency surrounding the DOJ's investigation into Jeffrey Epstein [art_politics_20251115_005_f955f1ce]. This led to the introduction of H.R.4405. The end of the government shutdown in November 2025 [art_general_20251112_018_12ec2b80] served as an intermediate mechanism, clearing the legislative backlog and allowing the bill to move forward. The proximate trigger was the overwhelming bipartisan support and final congressional approval in mid-November, which caused the bill to be sent to the President's desk. This resulted in the final outcome when President Trump signed the bill on November 19, 2025.\n\n## Countervailing Factors\nGhislaine Maxwell and her legal team attempted to fight the release of more Epstein documents, calling the disclosure laws unconstitutional [art_politics_20251118_002_5439f4aa]. However, these efforts failed to halt the legislative momentum because the public and congressional consensus for transparency outweighed the privacy or constitutional concerns raised by Epstein's associates.\n\n## Event Candidate Inventory\n- **E1**: Introduction of the Epstein Files Transparency Act (H.R.4405).\n  - Date: 2025-07-15\n  - Why it matters causally: Initiated the legislative process for mandatory disclosure.\n  - Source: [art_general_20251118_003_68b95795]\n- **E2**: Congress ends government shutdown.\n  - Date: 2025-11-12\n  - Why it matters causally: Allowed Congress to resume voting on bills like H.R.4405.\n  - Source: [art_general_20251112_018_12ec2b80]\n- **E3**: President Trump signs H.R.4405 into law.\n  - Date: 2025-11-19\n  - Why it matters causally: Directly satisfied the resolution criteria.\n  - Source: [art_politics_20251118_006_5e61063b]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|-------------|-------------|--------------|------------------|-------|\n| Introduction of H.R.4405 | [art_general_20251118_003_68b95795] | 2025-07-15 | 0.9 | Established the legislative vehicle. |\n| End of government shutdown | [art_general_20251112_018_12ec2b80] | 2025-11-12 | 0.9 | Cleared legislative path. |\n| Maxwell opposes disclosure | [art_politics_20251118_002_5439f4aa] | 2025-11-18 | 0.9 | Countervailing factor. |\n| Enactment of bill | [art_politics_20251118_006_5e61063b] | 2025-11-19 | 1.0 | Meets the ground truth. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty leading up to the resolution was whether legal challenges by Epstein's associates or partisan gridlock (like the government shutdown) would delay the bill beyond 2025. If the shutdown had persisted or legal injunctions had succeeded, the resolution could have resolved as \"No\".\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2026-01-21T02:18:04.602732+00:00",
+    "market_open": "2025-11-13T23:12:30.126652+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-02-09T05:54:25+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-ldp-win-a-majority-in-the-2026-japanese-snap-election",
+    "market_close": "2025-11-20T03:53:53+00:00",
+    "polymarket_url": "https://polymarket.com/event/epstein-disclosure-billresolution-enacted-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1768996848,
-          "p": 0.475
-        },
-        {
-          "t": 1769040035,
-          "p": 0.485
-        },
-        {
-          "t": 1769083253,
-          "p": 0.54
-        },
-        {
-          "t": 1769126442,
-          "p": 0.52
-        },
-        {
-          "t": 1769169657,
-          "p": 0.495
-        },
-        {
-          "t": 1769212839,
-          "p": 0.495
-        },
-        {
-          "t": 1769256038,
+          "t": 1763078420,
           "p": 0.48
         },
         {
-          "t": 1769299245,
-          "p": 0.545
+          "t": 1763121632,
+          "p": 0.085
         },
         {
-          "t": 1769385644,
+          "t": 1763164825,
+          "p": 0.06
+        },
+        {
+          "t": 1763208033,
+          "p": 0.055
+        },
+        {
+          "t": 1763251216,
+          "p": 0.075
+        },
+        {
+          "t": 1763294428,
+          "p": 0.065
+        },
+        {
+          "t": 1763337621,
+          "p": 0.085
+        },
+        {
+          "t": 1763380827,
+          "p": 0.425
+        },
+        {
+          "t": 1763424016,
+          "p": 0.27
+        },
+        {
+          "t": 1763467229,
           "p": 0.5
         },
         {
-          "t": 1769428838,
-          "p": 0.41
+          "t": 1763510425,
+          "p": 0.978
         },
         {
-          "t": 1769472037,
-          "p": 0.515
+          "t": 1763553632,
+          "p": 0.9715
         },
         {
-          "t": 1769515225,
-          "p": 0.5
-        },
-        {
-          "t": 1769558427,
-          "p": 0.515
-        },
-        {
-          "t": 1769601628,
-          "p": 0.53
-        },
-        {
-          "t": 1769644841,
-          "p": 0.66
-        },
-        {
-          "t": 1769688033,
-          "p": 0.595
-        },
-        {
-          "t": 1769731231,
-          "p": 0.68
-        },
-        {
-          "t": 1769774446,
-          "p": 0.71
-        },
-        {
-          "t": 1769817631,
-          "p": 0.735
-        },
-        {
-          "t": 1769860836,
-          "p": 0.75
-        },
-        {
-          "t": 1769904038,
-          "p": 0.76
-        },
-        {
-          "t": 1769947234,
-          "p": 0.76
-        },
-        {
-          "t": 1769990430,
-          "p": 0.885
-        },
-        {
-          "t": 1770033634,
-          "p": 0.955
-        },
-        {
-          "t": 1770076833,
-          "p": 0.918
-        },
-        {
-          "t": 1770120040,
-          "p": 0.9455
-        },
-        {
-          "t": 1770163243,
-          "p": 0.929
-        },
-        {
-          "t": 1770206434,
-          "p": 0.9315
-        },
-        {
-          "t": 1770249629,
-          "p": 0.8415
-        },
-        {
-          "t": 1770292839,
-          "p": 0.8825
-        },
-        {
-          "t": 1770336037,
-          "p": 0.9065
-        },
-        {
-          "t": 1770379239,
-          "p": 0.925
-        },
-        {
-          "t": 1770422445,
-          "p": 0.939
-        },
-        {
-          "t": 1770465642,
-          "p": 0.98
-        },
-        {
-          "t": 1770508840,
-          "p": 0.963
-        },
-        {
-          "t": 1770552052,
-          "p": 0.995
-        },
-        {
-          "t": 1770595239,
-          "p": 0.9965
+          "t": 1763596816,
+          "p": 0.959
         }
       ],
       "turning_points": [
         {
-          "t": 1769083253,
-          "p": 0.54,
-          "delta": 0.065
+          "t": 1763121632,
+          "p": 0.085,
+          "delta": -0.395
         },
         {
-          "t": 1769256038,
-          "p": 0.48,
-          "delta": -0.06
+          "t": 1763380827,
+          "p": 0.425,
+          "delta": 0.34
         },
         {
-          "t": 1769299245,
-          "p": 0.545,
-          "delta": 0.065
+          "t": 1763424016,
+          "p": 0.27,
+          "delta": -0.155
         },
         {
-          "t": 1769428838,
-          "p": 0.41,
-          "delta": -0.135
+          "t": 1763467229,
+          "p": 0.5,
+          "delta": 0.23
         },
         {
-          "t": 1769472037,
-          "p": 0.515,
-          "delta": 0.105
-        },
-        {
-          "t": 1769644841,
-          "p": 0.66,
-          "delta": 0.145
-        },
-        {
-          "t": 1769688033,
-          "p": 0.595,
-          "delta": -0.065
-        },
-        {
-          "t": 1769731231,
-          "p": 0.68,
-          "delta": 0.085
-        },
-        {
-          "t": 1769817631,
-          "p": 0.735,
-          "delta": 0.055
-        },
-        {
-          "t": 1769990430,
-          "p": 0.885,
-          "delta": 0.15
-        },
-        {
-          "t": 1770033634,
-          "p": 0.955,
-          "delta": 0.07
-        },
-        {
-          "t": 1770249629,
-          "p": 0.8415,
-          "delta": -0.1135
-        },
-        {
-          "t": 1770336037,
-          "p": 0.9065,
-          "delta": 0.065
-        },
-        {
-          "t": 1770465642,
-          "p": 0.98,
-          "delta": 0.0735
+          "t": 1763510425,
+          "p": 0.978,
+          "delta": 0.478
         }
       ],
-      "price_at_open": 0.475,
-      "price_at_close": 0.9965,
-      "min_price": 0.41,
-      "max_price": 0.9965,
-      "final_price": 0.9965,
-      "fetched_at": "2026-04-27T07:57:49.606654+00:00"
+      "price_at_open": 0.48,
+      "price_at_close": 0.959,
+      "min_price": 0.055,
+      "max_price": 0.978,
+      "final_price": 0.959,
+      "fetched_at": "2026-04-27T07:57:47.333537+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20260123_004_063fa247",
-        "date": "2026-01-23 00:00",
-        "title": "Parliament is officially dissolved",
-        "description": "Parliament is officially dissolved.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDissolving parliament initiated the election process.",
+        "id": "evt_politics_20251115_013_c827fe8c",
+        "date": "2025-11-15 11:00",
+        "title": "Lawmakers and victims advocate for Epstein files release",
+        "description": "Lawmakers and victims advocate for the release of the Epstein files.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2026/01/30/japan-snap-election-sanae-takaichi-ratings-ldp-cdp-komeito-tokyo.html",
+        "source_url": "https://www.cnn.com/2026/03/19/politics/epstein-files-next-steps-congress-victims-law",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260202_007_c56d5b85",
-        "date": "2026-02-02 00:00",
-        "title": "Takaichi delivers major speech on Article 9",
-        "description": "Takaichi delivers a major speech advocating for the revision of Article 9 of the Constitution.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe speech rallied the conservative base.",
+        "id": "evt_politics_20251118_015_da616148",
+        "date": "2025-11-18 11:00",
+        "title": "Ghislaine Maxwell fights release of Epstein documents",
+        "description": "Ghislaine Maxwell and her legal team attempt to fight the release of more Epstein documents.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAttempted to block the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://time.com/7372956/japan-takaichi-election-win",
+        "source_url": "https://www.nbcconnecticut.com/news/national-international/ghislaine-maxwell-fights-release-more-epstein-documents-disclosure-law/3705838",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260205_008_c3d32e68",
-        "date": "2026-02-05 00:00",
-        "title": "Japanese Government Bond yields hit 27-year highs",
-        "description": "Japanese Government Bond yields hit 27-year highs due to campaign promises of consumption tax cuts.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket nervousness posed a threat to the incumbent government.",
+        "id": "evt_politics_20251118_010_77350af1",
+        "date": "2025-11-18 11:45",
+        "title": "Congress approves Epstein Files Transparency Act",
+        "description": "Congress approves the Epstein Files Transparency Act.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finvaulta.com/research/natixis-corporate-and-investment-banking/takaichi-ldp-heading-to-absolute-majority-snap-election-2026-02-05",
+        "source_url": "https://www.cbsnews.com/live-updates/epstein-files-released-doj-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260206_009_78841cc0",
-        "date": "2026-02-06 00:00",
-        "title": "Donald Trump endorses Takaichi",
-        "description": "U.S. President Donald Trump publicly endorses Takaichi.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTrump's endorsement boosted Takaichi's standing.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://lansinginstitute.org/2026/02/06/japans-february-8-2026-snap-election-political-context-key-actors-polling-based-outlook-foreign-influence-and-strategic-consequences",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260116_011_618692d5",
-        "date": "2026-01-16 00:00",
-        "title": "Takaichi announces dissolution of parliament",
-        "description": "Takaichi announces the dissolution of parliament, paving the way for a snap election.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCalling the snap election at peak popularity secured the mandate.",
+        "id": "evt_politics_20251112_003_f884a209",
+        "date": "2025-11-12 12:00",
+        "title": "House passes deal to end government shutdown",
+        "description": "The House passes a deal to end the longest government shutdown.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://hanabi.asij.ac.jp/features/landslide-victory-of-ldp-and-prime-minister-takaichi-japanese-lower-house-election-results-surprise-the-country",
+        "source_url": "https://triblive.com/news/world/house-passes-deal-to-end-longest-government-shutdown-trump-to-sign-tonight",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260123_005_1c193703",
-        "date": "2026-01-23 00:00",
-        "title": "CDPJ and Komeito form Centrist Reform Alliance",
-        "description": "The opposition CDPJ and Komeito form a new Centrist Reform Alliance.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe opposition alliance was a major threat to the LDP.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2026/01/30/japan-snap-election-sanae-takaichi-ratings-ldp-cdp-komeito-tokyo.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260127_006_6243a5d7",
-        "date": "2026-01-27 00:00",
-        "title": "Official campaigning begins",
-        "description": "Official campaigning begins with Takaichi framing the election as a personal referendum.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCampaigning allowed Takaichi to rally support.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.cnbc.com/2026/01/30/japan-snap-election-sanae-takaichi-ratings-ldp-cdp-komeito-tokyo.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260208_010_b276a426",
-        "date": "2026-02-08 00:00",
-        "title": "LDP wins 316 seats",
-        "description": "The LDP wins a landslide 316 out of 465 seats, securing a supermajority.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWinning 316 seats directly fulfills the outcome.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://time.com/7372956/japan-takaichi-election-win",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250915_001_b3ce577b",
-        "date": "2025-09-15 00:00",
-        "title": "Shigeru Ishiba resigns",
-        "description": "Prime Minister Shigeru Ishiba resigns after the LDP loses its upper house majority.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIshiba's resignation allowed Takaichi to take over, resetting the party image.",
+        "id": "evt_politics_20250715_002_fe4558cf",
+        "date": "2025-07-15 12:00",
+        "title": "Rep. Ro Khanna introduces H.R.4405",
+        "description": "The Epstein Files Transparency Act (H.R.4405) is introduced in the House by Rep. Ro Khanna.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.cnbc.com/2026/01/30/japan-snap-election-sanae-takaichi-ratings-ldp-cdp-komeito-tokyo.html",
+        "source_url": "https://www.yahoo.com/news/articles/fact-check-fbi-paid-nearly-223000399.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251015_002_e257303d",
-        "date": "2025-10-15 00:00",
-        "title": "Sanae Takaichi becomes Prime Minister",
-        "description": "Sanae Takaichi becomes Japan's first female Prime Minister.",
-        "impact": "**Affects:** Yes - Will LDP win a majority in the 2026 Japanese snap   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTakaichi's popularity was the main driver of the LDP's success.",
+        "id": "evt_politics_20251115_014_4cc0ca13",
+        "date": "2025-11-15 11:30",
+        "title": "Bipartisan pressure builds for H.R.4405",
+        "description": "Strong bipartisan pressure builds for the passage of the Epstein Files Transparency Act.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cnn.com/2026/03/19/politics/epstein-files-next-steps-congress-victims-law",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251118_016_9be5ef1e",
+        "date": "2025-11-18 11:30",
+        "title": "Maxwell calls disclosure laws unconstitutional",
+        "description": "Ghislaine Maxwell calls the disclosure laws unconstitutional.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAttempted to block the bill's passage.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.nbcconnecticut.com/news/national-international/ghislaine-maxwell-fights-release-more-epstein-documents-disclosure-law/3705838",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251118_011_bd1945b6",
+        "date": "2025-11-18 11:55",
+        "title": "President Trump signs H.R.4405 into law",
+        "description": "President Donald Trump signs the Epstein Files Transparency Act into law.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cbsnews.com/live-updates/epstein-files-released-doj-2026",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251118_012_5e01b022",
+        "date": "2025-11-18 12:00",
+        "title": "Prediction markets favor Yes outcome",
+        "description": "Prediction markets flip to favor a Yes outcome as signs of the bill's impending passage become apparent.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.nbcconnecticut.com/news/national-international/ghislaine-maxwell-fights-release-more-epstein-documents-disclosure-law/3705838",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251112_006_c6843fbb",
+        "date": "2025-11-12 22:00",
+        "title": "Congress resumes regular legislative business",
+        "description": "Congress returns to regular legislative business after the government shutdown ends.",
+        "impact": "**Affects:** Yes - Will a federal bill or resolution requiring disclo  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCatalyst for the bill's passage.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.cnbc.com/2026/01/30/japan-snap-election-sanae-takaichi-ratings-ldp-cdp-komeito-tokyo.html",
+        "source_url": "https://triblive.com/news/world/house-passes-deal-to-end-longest-government-shutdown-trump-to-sign-tonight",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1396,691 +888,1545 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0xe51a47c31c725e40e4123e03e6f1921de3156d084b888a7bdfa450dbe3ad785a",
-    "title": "Will 27 named typhoons occur in the Northwest Pacific in 2025?",
+    "id": "polymarket_0xd1754bc54ec5b0af53339ad69d868bcdf5510242212a400db22bc865b103bbfb",
+    "title": "Israel and Lebanon normalize relations in 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve according to the number of named typhoons (i.e., storms assigned an official name) that occur in the Northwest Pacific basin between January 1 and December 31, 2025, 11:59PM UTC, according to the official list published on the Digital Typhoon website by Japan’s National Institute of Informatics. (see: https://agora.ex.nii.ac.jp/digital-typhoon/year/wnp/2025.html.en)\n\nA “named typhoon” refers to any system officially assigned a name by the meteorological agencies responsible for the Western North Pacific basin. Only storms appearing on the 2025 list on the Digital Typhoon website will count.\n\nIf there is a potential named storm that has not yet been classified by Nov 30, 11:59 PM ET, the market may remain open until January 1, 12:00 PM ET to determine if a classification was made prior to midnight.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe Northwest Pacific saw an unusually active late-season tropical cyclone period in 2025, ultimately reaching 27 named storms. A combination of ocean warming and La Niña conditions fueled significant storm formation well into November and December. The prediction market experienced extreme volatility due to the phrasing \"27 named typhoons\" versus \"27 named storms\"—while 27 named storms formed, only 13 reached official typhoon intensity. However, standard meteorological counting conventions often group all named storms in this region under \"typhoon season\" metrics, leading to a final positive resolution.\n\n## Timeline Of Key Events\n- **October 2025**: The arrival of La Niña conditions created a favorable environment for late-season tropical cyclone development in the Western Pacific ([art_general_20251010_025_422e38ea]).\n- **November 14-15, 2025**: Multiple late-season typhoons (like Kalmaegi) struck the Philippines and Southeast Asia, driving up the storm count and shifting market sentiment heavily toward a busy season ([art_general_20251114_008_ab9fcb46], [art_general_20251115_009_b648b0f2]).\n- **November 18 - 28, 2025**: Intense market volatility occurred. The market rapidly flipped between \"Yes\" and \"No\" as the storm count approached the critical 27 mark. Confusion over the definition of \"named typhoons\" versus \"named storms\" caused wild swings in probability as traders debated whether the threshold would be met based on strict intensity criteria or general naming conventions.\n- **December 25, 2025**: Media reports confirm that the 2025 Pacific typhoon season recorded 27 named storms, the most in six years, solidifying the final count ([art_general_20251225_006_0aa3d84c]).\n- **December 31, 2025**: The year concludes with 27 total named storms officially recorded for the 2025 Pacific typhoon season ([art_science_20251231_002_74e1edd6]).\n\n## Causal Chain Analysis\nThe root cause of the high number of storms was record-high sea surface temperatures in the Western Pacific ([art_climate_20251231_004_73d3bdcd], [art_science_20251225_002_b480b639]) combined with the onset of La Niña conditions ([art_general_20251010_025_422e38ea]). This thermodynamic environment caused an extension of the typical typhoon season, triggering a flurry of late-season storm formations in November and December. The proximate trigger for the market's positive resolution was the formation of the 27th named storm of the season. Despite only 13 of these storms reaching strict \"typhoon\" intensity, the standard counting methodology for the Pacific typhoon season counts all named storms, which resulted in the final ground truth of \"Yes\".\n\n## Countervailing Factors\nThe primary countervailing factor was meteorological definition. Of the 27 named storms, only 13 intensified enough to be classified as typhoons (winds > 118 km/h). Traders betting \"No\" relied on the strict interpretation of the question (\"named typhoons\" rather than \"named storms\"). This caused significant downward pressure on the \"Yes\" probability during late November. Ultimately, this strict interpretation was overwhelmed by the broader convention of counting all named storms in the basin's annual total.\n\n## Event Candidate Inventory\n- E1\n  - title: 2025 Pacific Typhoon Season Reaches 27 Named Storms\n  - date: 2025-12-25\n  - why it matters causally: Confirms the final count of named storms for the season, serving as the ultimate trigger for the question's resolution.\n  - source article IDs: [art_general_20251225_006_0aa3d84c], [art_science_20251231_002_74e1edd6]\n- E2\n  - title: La Niña Conditions Emerge in Late 2025\n  - date: 2025-10-10 to 2025-10-15\n  - why it matters causally: The climate pattern created favorable atmospheric conditions that extended the typhoon season and allowed more storms to form.\n  - source article IDs: [art_general_20251010_025_422e38ea], [art_general_20251015_030_34e90b23]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| La Niña conditions formed, boosting late-season activity | [art_general_20251010_025_422e38ea] | 2025-10-10 | 0.9 | Established favorable conditions |\n| Late-season typhoons hit the Philippines in November | [art_general_20251114_008_ab9fcb46] | 2025-11-14 | 0.95 | Increased the storm count late in the year |\n| 27 named storms recorded in the 2025 season | [art_general_20251225_006_0aa3d84c], [art_science_20251231_002_74e1edd6] | 2025-12-25 | 1.0 | Directly answers the core metric of the market |\n| Record ocean temperatures fueled the storms | [art_climate_20251231_004_73d3bdcd] | 2025-12-31 | 0.9 | Explains the underlying physical mechanism |\n\n## Uncertainties And Alternative Paths\nThe largest uncertainty was resolution criteria regarding the phrasing \"named typhoons.\" If the resolution authority had strictly enforced the definition of a typhoon (requiring hurricane-force winds), the final count would have been 13, and the resolution would have been \"No.\" The market volatility reflects traders attempting to price in this ambiguity before a final ruling or consensus emerged.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if both Israel and Lebanon officially announce the establishment of diplomatic relations by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from Israel and the Lebanon, however a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nThroughout 2025, Israel and Lebanon did not normalize relations, despite international efforts and periods of relative calm. The fundamental obstacle remained the ongoing state of war and the powerful influence of Hezbollah within Lebanon, which fundamentally rejects any normalization with Israel. While some tactical agreements regarding border demarcations and ceasefires were discussed and implemented, these were strictly security arrangements and not steps toward diplomatic normalization. Ultimately, the political and security environment in both countries precluded any possibility of a formal peace treaty or normalization of ties before the resolution date of January 1, 2026.\n\n## Timeline Of Key Events\n- **2025-06-06:** Tensions escalate along the border, reinforcing the impossibility of near-term normalization [art_politics_20251229_017_c5c736da].\n- **2025-06-18:** Diplomatic efforts focus purely on de-escalation, not normalization [art_general_20251215_003_ad4627c7].\n- **2025-06-25:** A significant spike in hostilities underscores the volatile security situation [art_politics_20251127_012_779e07bf].\n- **2025-06-28:** Cross-border incidents continue, further hardening political stances in both nations [art_politics_20251126_015_a41d7018].\n- **2025-06-30:** Public statements from Lebanese officials reiterate their refusal to normalize relations with Israel [art_politics_20251104_008_7c0cd5eb].\n- **Late 2025:** Despite some US mediation on border issues, both sides maintain their official state of hostility [art_general_20251024_002_3e4282ce].\n\n## Causal Chain Analysis\nThe failure to normalize relations was rooted in deep-seated historical and political realities. The primary root cause is the enduring ideological opposition to Israel by Hezbollah, a major political and military force in Lebanon, which effectively vetoes any normalization efforts [art_politics_20251010_011_db989242]. This structural barrier led to the intermediate mechanism: the Lebanese government's inability and unwillingness to pursue diplomatic ties, even if it desired economic benefits [art_politics_20250915_020_23a7cf60]. The proximate triggers were the ongoing cycles of violence and border skirmishes throughout 2025, which kept both nations on a war footing and made any political compromise politically toxic [art_politics_20250901_009_4907a3ce]. Consequently, this resulted in the final outcome: no normalization of relations by the end of 2025 [art_politics_20250820_022_ce2d0f4d].\n\n## Countervailing Factors\nThe main countervailing forces were international pressure, particularly from the United States, and the potential economic benefits of normalization, such as resolving maritime border disputes to facilitate natural gas extraction [art_politics_20250815_010_ed761891]. However, these factors were overwhelmed by the immediate security concerns and the entrenched political power of anti-Israel factions within Lebanon [art_politics_20250805_021_1666cdd1].\n\n## Event Candidate Inventory\n- **E1:** Ongoing Border Hostilities June 2025\n  - **Date:** June 2025\n  - **Why it matters:** Demonstrated the continuous state of conflict preventing normalization.\n  - **Source article IDs:** art_politics_20251127_012_779e07bf, art_politics_20251126_015_a41d7018\n- **E2:** Lebanese Rejection of Normalization\n  - **Date:** Mid-to-Late 2025\n  - **Why it matters:** Confirmed the political consensus in Lebanon against peace with Israel.\n  - **Source article IDs:** art_politics_20251104_008_7c0cd5eb, art_general_20251024_002_3e4282ce\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Ongoing hostilities prevent peace | art_politics_20251229_017_c5c736da, art_politics_20251127_012_779e07bf | June 2025 | 0.9 | Continuous border clashes |\n| Hezbollah's veto on normalization | art_politics_20251010_011_db989242, art_politics_20250915_020_23a7cf60 | 2025 | 0.95 | Structural political barrier |\n| Diplomatic focus on ceasefires only | art_general_20251215_003_ad4627c7, art_general_20251024_002_3e4282ce | 2025 | 0.9 | No political normalization discussed |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty was whether a sudden, massive shift in Lebanese domestic politics (e.g., the collapse of Hezbollah's influence) could open a path to normalization. However, this alternative path never materialized in 2025, keeping the status quo firmly in place.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-11-15T00:41:09.898971+00:00",
+    "market_open": "2025-06-02T22:14:57.308000+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T21:09:35+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-27-named-typhoons-occur-in-the-northwest-pacific-in-2025",
+    "market_close": "2026-01-01T08:38:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/israel-and-lebanon-normalize-relations-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1763208009,
-          "p": 0.37
+          "t": 1748908807,
+          "p": 0.225
         },
         {
-          "t": 1763251207,
-          "p": 0.265
+          "t": 1749038406,
+          "p": 0.125
         },
         {
-          "t": 1763294408,
-          "p": 0.37
+          "t": 1749211206,
+          "p": 0.09
         },
         {
-          "t": 1763337606,
-          "p": 0.395
+          "t": 1749340807,
+          "p": 0.095
         },
         {
-          "t": 1763380807,
-          "p": 0.385
+          "t": 1749513606,
+          "p": 0.09
         },
         {
-          "t": 1763424006,
-          "p": 0.405
+          "t": 1749643207,
+          "p": 0.085
         },
         {
-          "t": 1763467208,
-          "p": 0.57
+          "t": 1749816008,
+          "p": 0.11
         },
         {
-          "t": 1763510408,
-          "p": 0.385
+          "t": 1749945608,
+          "p": 0.15
         },
         {
-          "t": 1763553609,
-          "p": 0.405
-        },
-        {
-          "t": 1763596806,
-          "p": 0.445
-        },
-        {
-          "t": 1763640007,
-          "p": 0.38
-        },
-        {
-          "t": 1763683208,
-          "p": 0.385
-        },
-        {
-          "t": 1763726407,
-          "p": 0.415
-        },
-        {
-          "t": 1763769607,
-          "p": 0.42
-        },
-        {
-          "t": 1763812807,
-          "p": 0.4
-        },
-        {
-          "t": 1763856007,
-          "p": 0.4
-        },
-        {
-          "t": 1763899207,
-          "p": 0.41
-        },
-        {
-          "t": 1763942410,
-          "p": 0.435
-        },
-        {
-          "t": 1763985605,
-          "p": 0.46
-        },
-        {
-          "t": 1764028807,
-          "p": 0.425
-        },
-        {
-          "t": 1764072008,
-          "p": 0.53
-        },
-        {
-          "t": 1764115208,
-          "p": 0.55
-        },
-        {
-          "t": 1764158422,
-          "p": 0.45
-        },
-        {
-          "t": 1764201608,
-          "p": 0.415
-        },
-        {
-          "t": 1764244810,
-          "p": 0.56
-        },
-        {
-          "t": 1764288008,
-          "p": 0.195
-        },
-        {
-          "t": 1764331209,
-          "p": 0.265
-        },
-        {
-          "t": 1764374409,
-          "p": 0.145
-        },
-        {
-          "t": 1764417610,
-          "p": 0.185
-        },
-        {
-          "t": 1764460808,
-          "p": 0.18
-        },
-        {
-          "t": 1764504036,
-          "p": 0.23
-        },
-        {
-          "t": 1764547207,
-          "p": 0.23
-        },
-        {
-          "t": 1764590419,
-          "p": 0.155
-        },
-        {
-          "t": 1764633607,
-          "p": 0.155
-        },
-        {
-          "t": 1764676809,
-          "p": 0.35
-        },
-        {
-          "t": 1764720009,
-          "p": 0.28
-        },
-        {
-          "t": 1764763210,
-          "p": 0.24
-        },
-        {
-          "t": 1764806408,
+          "t": 1750118408,
           "p": 0.14
         },
         {
-          "t": 1764849610,
-          "p": 0.395
+          "t": 1750248007,
+          "p": 0.0645
         },
         {
-          "t": 1764892808,
-          "p": 0.43
+          "t": 1750420808,
+          "p": 0.062
         },
         {
-          "t": 1764936008,
-          "p": 0.4
+          "t": 1750550406,
+          "p": 0.0715
         },
         {
-          "t": 1764979208,
-          "p": 0.435
+          "t": 1750723207,
+          "p": 0.167
         },
         {
-          "t": 1765022409,
-          "p": 0.37
+          "t": 1750896008,
+          "p": 0.104
         },
         {
-          "t": 1765065621,
-          "p": 0.375
+          "t": 1751025608,
+          "p": 0.3
         },
         {
-          "t": 1765108808,
-          "p": 0.395
+          "t": 1751198407,
+          "p": 0.208
         },
         {
-          "t": 1765152021,
-          "p": 0.295
+          "t": 1751328008,
+          "p": 0.249
         },
         {
-          "t": 1765195221,
-          "p": 0.355
+          "t": 1751500808,
+          "p": 0.218
         },
         {
-          "t": 1765238419,
-          "p": 0.32
+          "t": 1751630407,
+          "p": 0.2645
         },
         {
-          "t": 1765281607,
-          "p": 0.38
+          "t": 1751803207,
+          "p": 0.2465
         },
         {
-          "t": 1765324808,
-          "p": 0.33
+          "t": 1751932808,
+          "p": 0.2215
         },
         {
-          "t": 1765368010,
-          "p": 0.285
+          "t": 1752105608,
+          "p": 0.1855
         },
         {
-          "t": 1765411208,
-          "p": 0.285
+          "t": 1752235209,
+          "p": 0.181
         },
         {
-          "t": 1765454409,
-          "p": 0.435
+          "t": 1752408007,
+          "p": 0.163
         },
         {
-          "t": 1765497608,
-          "p": 0.41
+          "t": 1752580808,
+          "p": 0.1485
         },
         {
-          "t": 1765540808,
-          "p": 0.39
+          "t": 1752710408,
+          "p": 0.1025
         },
         {
-          "t": 1765584009,
-          "p": 0.485
+          "t": 1752883209,
+          "p": 0.1325
         },
         {
-          "t": 1765627209,
-          "p": 0.47
+          "t": 1753012808,
+          "p": 0.1485
         },
         {
-          "t": 1765670409,
-          "p": 0.485
+          "t": 1753185609,
+          "p": 0.139
         },
         {
-          "t": 1765713609,
-          "p": 0.49
+          "t": 1753315209,
+          "p": 0.151
         },
         {
-          "t": 1765756809,
-          "p": 0.475
+          "t": 1753488009,
+          "p": 0.1535
         },
         {
-          "t": 1765800007,
-          "p": 0.415
+          "t": 1753617609,
+          "p": 0.148
         },
         {
-          "t": 1765843207,
-          "p": 0.55
+          "t": 1753790408,
+          "p": 0.1455
         },
         {
-          "t": 1765886419,
-          "p": 0.79
+          "t": 1753920008,
+          "p": 0.145
         },
         {
-          "t": 1765929604,
-          "p": 0.82
+          "t": 1754092809,
+          "p": 0.086
         },
         {
-          "t": 1765929630,
-          "p": 0.82
+          "t": 1754222408,
+          "p": 0.117
         },
         {
-          "t": 1765972809,
-          "p": 0.77
+          "t": 1754395209,
+          "p": 0.092
         },
         {
-          "t": 1766016018,
-          "p": 0.785
+          "t": 1754568015,
+          "p": 0.0895
         },
         {
-          "t": 1766059208,
-          "p": 0.8
+          "t": 1754697602,
+          "p": 0.1035
         },
         {
-          "t": 1766102409,
-          "p": 0.735
+          "t": 1754870412,
+          "p": 0.105
         },
         {
-          "t": 1766145610,
-          "p": 0.775
+          "t": 1755000002,
+          "p": 0.106
         },
         {
-          "t": 1766188808,
-          "p": 0.775
+          "t": 1755172811,
+          "p": 0.1035
         },
         {
-          "t": 1766232009,
-          "p": 0.78
+          "t": 1755302409,
+          "p": 0.0985
         },
         {
-          "t": 1766275208,
-          "p": 0.76
+          "t": 1755475203,
+          "p": 0.119
         },
         {
-          "t": 1766318408,
-          "p": 0.77
+          "t": 1755604811,
+          "p": 0.101
         },
         {
-          "t": 1766361608,
-          "p": 0.96
+          "t": 1755777611,
+          "p": 0.095
         },
         {
-          "t": 1766404807,
-          "p": 0.966
+          "t": 1755907213,
+          "p": 0.097
         },
         {
-          "t": 1766448009,
-          "p": 0.966
+          "t": 1756080012,
+          "p": 0.0955
         },
         {
-          "t": 1766491209,
-          "p": 0.9635
+          "t": 1756252811,
+          "p": 0.0955
         },
         {
-          "t": 1766534409,
-          "p": 0.974
+          "t": 1756382402,
+          "p": 0.0995
         },
         {
-          "t": 1766577608,
-          "p": 0.9715
+          "t": 1756555229,
+          "p": 0.0855
         },
         {
-          "t": 1766620819,
-          "p": 0.9695
+          "t": 1756684811,
+          "p": 0.087
         },
         {
-          "t": 1766664009,
-          "p": 0.9715
+          "t": 1756857612,
+          "p": 0.0735
         },
         {
-          "t": 1766707208,
-          "p": 0.9715
+          "t": 1756987220,
+          "p": 0.0755
         },
         {
-          "t": 1766750409,
-          "p": 0.9745
+          "t": 1757160023,
+          "p": 0.076
         },
         {
-          "t": 1766793610,
-          "p": 0.9725
+          "t": 1757289604,
+          "p": 0.0755
         },
         {
-          "t": 1766836809,
-          "p": 0.9775
+          "t": 1757462407,
+          "p": 0.0755
         },
         {
-          "t": 1766880010,
-          "p": 0.973
+          "t": 1757592027,
+          "p": 0.0755
         },
         {
-          "t": 1766923209,
-          "p": 0.9735
+          "t": 1757764820,
+          "p": 0.0645
         },
         {
-          "t": 1766966425,
-          "p": 0.9725
+          "t": 1757894412,
+          "p": 0.0785
         },
         {
-          "t": 1767009610,
-          "p": 0.9725
+          "t": 1758067210,
+          "p": 0.066
         },
         {
-          "t": 1767052813,
-          "p": 0.97
+          "t": 1758240009,
+          "p": 0.0655
         },
         {
-          "t": 1767096010,
-          "p": 0.9755
+          "t": 1758369628,
+          "p": 0.065
         },
         {
-          "t": 1767139209,
-          "p": 0.974
+          "t": 1758542417,
+          "p": 0.067
         },
         {
-          "t": 1767182409,
-          "p": 0.9745
+          "t": 1758672019,
+          "p": 0.0675
         },
         {
-          "t": 1767225610,
-          "p": 0.9745
+          "t": 1758844813,
+          "p": 0.094
         },
         {
-          "t": 1767268809,
-          "p": 0.9745
+          "t": 1758974418,
+          "p": 0.148
+        },
+        {
+          "t": 1759147204,
+          "p": 0.1295
+        },
+        {
+          "t": 1759276803,
+          "p": 0.103
+        },
+        {
+          "t": 1759449610,
+          "p": 0.0815
+        },
+        {
+          "t": 1759579216,
+          "p": 0.0705
+        },
+        {
+          "t": 1759752004,
+          "p": 0.072
+        },
+        {
+          "t": 1759924818,
+          "p": 0.063
+        },
+        {
+          "t": 1760054411,
+          "p": 0.066
+        },
+        {
+          "t": 1760227208,
+          "p": 0.067
+        },
+        {
+          "t": 1760356807,
+          "p": 0.0645
+        },
+        {
+          "t": 1760529606,
+          "p": 0.0415
+        },
+        {
+          "t": 1760659214,
+          "p": 0.0425
+        },
+        {
+          "t": 1760832019,
+          "p": 0.04
+        },
+        {
+          "t": 1760961615,
+          "p": 0.0405
+        },
+        {
+          "t": 1761134429,
+          "p": 0.042
+        },
+        {
+          "t": 1761264017,
+          "p": 0.0425
+        },
+        {
+          "t": 1761436819,
+          "p": 0.0495
+        },
+        {
+          "t": 1761566421,
+          "p": 0.035
+        },
+        {
+          "t": 1761782420,
+          "p": 0.0325
+        },
+        {
+          "t": 1761955219,
+          "p": 0.033
+        },
+        {
+          "t": 1762084823,
+          "p": 0.0415
+        },
+        {
+          "t": 1762257625,
+          "p": 0.032
+        },
+        {
+          "t": 1762387212,
+          "p": 0.034
+        },
+        {
+          "t": 1762560013,
+          "p": 0.0235
+        },
+        {
+          "t": 1762689623,
+          "p": 0.0235
+        },
+        {
+          "t": 1762862440,
+          "p": 0.0235
+        },
+        {
+          "t": 1762992020,
+          "p": 0.0235
+        },
+        {
+          "t": 1763164823,
+          "p": 0.0315
+        },
+        {
+          "t": 1763294425,
+          "p": 0.03
+        },
+        {
+          "t": 1763467226,
+          "p": 0.0255
+        },
+        {
+          "t": 1763640016,
+          "p": 0.024
+        },
+        {
+          "t": 1763769616,
+          "p": 0.0305
+        },
+        {
+          "t": 1763942415,
+          "p": 0.023
+        },
+        {
+          "t": 1764072028,
+          "p": 0.0285
+        },
+        {
+          "t": 1764244834,
+          "p": 0.0265
+        },
+        {
+          "t": 1764374427,
+          "p": 0.027
+        },
+        {
+          "t": 1764547223,
+          "p": 0.0215
+        },
+        {
+          "t": 1764676828,
+          "p": 0.0215
+        },
+        {
+          "t": 1764849632,
+          "p": 0.0295
+        },
+        {
+          "t": 1764979219,
+          "p": 0.0125
+        },
+        {
+          "t": 1765152030,
+          "p": 0.014
+        },
+        {
+          "t": 1765281617,
+          "p": 0.0145
+        },
+        {
+          "t": 1765454418,
+          "p": 0.0145
+        },
+        {
+          "t": 1765627221,
+          "p": 0.0115
+        },
+        {
+          "t": 1765756822,
+          "p": 0.0075
+        },
+        {
+          "t": 1765929615,
+          "p": 0.009
+        },
+        {
+          "t": 1766016026,
+          "p": 0.009
+        },
+        {
+          "t": 1766188817,
+          "p": 0.014
+        },
+        {
+          "t": 1766318418,
+          "p": 0.0075
+        },
+        {
+          "t": 1766491222,
+          "p": 0.0095
+        },
+        {
+          "t": 1766620829,
+          "p": 0.004
+        },
+        {
+          "t": 1766793618,
+          "p": 0.0055
+        },
+        {
+          "t": 1766923219,
+          "p": 0.0015
+        },
+        {
+          "t": 1767096022,
+          "p": 0.002
         }
       ],
       "turning_points": [
         {
-          "t": 1763251207,
-          "p": 0.265,
-          "delta": -0.105
-        },
-        {
-          "t": 1763294408,
-          "p": 0.37,
-          "delta": 0.105
-        },
-        {
-          "t": 1763467208,
-          "p": 0.57,
-          "delta": 0.2
-        },
-        {
-          "t": 1763510408,
-          "p": 0.385,
-          "delta": -0.185
-        },
-        {
-          "t": 1763596806,
-          "p": 0.445,
-          "delta": 0.06
-        },
-        {
-          "t": 1763640007,
-          "p": 0.38,
-          "delta": -0.065
-        },
-        {
-          "t": 1763942410,
-          "p": 0.435,
-          "delta": 0.055
-        },
-        {
-          "t": 1764072008,
-          "p": 0.53,
-          "delta": 0.095
-        },
-        {
-          "t": 1764158422,
-          "p": 0.45,
-          "delta": -0.08
-        },
-        {
-          "t": 1764244810,
-          "p": 0.56,
-          "delta": 0.11
-        },
-        {
-          "t": 1764288008,
-          "p": 0.195,
-          "delta": -0.365
-        },
-        {
-          "t": 1764331209,
-          "p": 0.265,
-          "delta": 0.07
-        },
-        {
-          "t": 1764374409,
-          "p": 0.145,
-          "delta": -0.12
-        },
-        {
-          "t": 1764504036,
-          "p": 0.23,
-          "delta": 0.085
-        },
-        {
-          "t": 1764590419,
-          "p": 0.155,
+          "t": 1748952006,
+          "p": 0.15,
           "delta": -0.075
         },
         {
-          "t": 1764676809,
-          "p": 0.35,
-          "delta": 0.195
-        },
-        {
-          "t": 1764720009,
-          "p": 0.28,
-          "delta": -0.07
-        },
-        {
-          "t": 1764806408,
-          "p": 0.14,
-          "delta": -0.14
-        },
-        {
-          "t": 1764849610,
-          "p": 0.395,
-          "delta": 0.255
-        },
-        {
-          "t": 1765152021,
-          "p": 0.295,
-          "delta": -0.1
-        },
-        {
-          "t": 1765195221,
-          "p": 0.355,
-          "delta": 0.06
-        },
-        {
-          "t": 1765368010,
-          "p": 0.285,
-          "delta": -0.07
-        },
-        {
-          "t": 1765454409,
-          "p": 0.435,
-          "delta": 0.15
-        },
-        {
-          "t": 1765713609,
-          "p": 0.49,
-          "delta": 0.055
-        },
-        {
-          "t": 1765800007,
-          "p": 0.415,
-          "delta": -0.075
-        },
-        {
-          "t": 1765843207,
-          "p": 0.55,
-          "delta": 0.135
-        },
-        {
-          "t": 1765886419,
-          "p": 0.79,
-          "delta": 0.24
-        },
-        {
-          "t": 1766102409,
-          "p": 0.735,
+          "t": 1749081606,
+          "p": 0.095,
           "delta": -0.055
         },
         {
-          "t": 1766361608,
-          "p": 0.96,
-          "delta": 0.225
+          "t": 1749945608,
+          "p": 0.15,
+          "delta": 0.055
+        },
+        {
+          "t": 1750204808,
+          "p": 0.0205,
+          "delta": -0.1295
+        },
+        {
+          "t": 1750550406,
+          "p": 0.0715,
+          "delta": 0.051
+        },
+        {
+          "t": 1750723207,
+          "p": 0.167,
+          "delta": 0.0955
+        },
+        {
+          "t": 1750809607,
+          "p": 0.1085,
+          "delta": -0.0585
+        },
+        {
+          "t": 1750939207,
+          "p": 0.2145,
+          "delta": 0.106
+        },
+        {
+          "t": 1750982407,
+          "p": 0.283,
+          "delta": 0.0685
+        },
+        {
+          "t": 1751198407,
+          "p": 0.208,
+          "delta": -0.075
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2645,
+          "delta": 0.0565
+        },
+        {
+          "t": 1751846407,
+          "p": 0.212,
+          "delta": -0.0525
+        },
+        {
+          "t": 1752451207,
+          "p": 0.1545,
+          "delta": -0.0575
+        },
+        {
+          "t": 1752667208,
+          "p": 0.1025,
+          "delta": -0.052
+        },
+        {
+          "t": 1753401609,
+          "p": 0.154,
+          "delta": 0.0515
+        },
+        {
+          "t": 1753963208,
+          "p": 0.092,
+          "delta": -0.062
+        },
+        {
+          "t": 1758931208,
+          "p": 0.148,
+          "delta": 0.056
+        },
+        {
+          "t": 1759363209,
+          "p": 0.086,
+          "delta": -0.062
+        },
+        {
+          "t": 1761523217,
+          "p": 0.035,
+          "delta": -0.051
         }
       ],
-      "price_at_open": 0.37,
-      "price_at_close": 0.9745,
-      "min_price": 0.14,
-      "max_price": 0.9775,
-      "final_price": 0.9745,
-      "fetched_at": "2026-04-20T17:08:09.008052+00:00"
+      "price_at_open": 0.225,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.3325,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:46.403307+00:00"
     },
     "events": [
       {
-        "id": "evt_climate_20251225_005_68de64b6",
-        "date": "2025-12-25 00:00",
-        "title": "13 storms reach strict typhoon intensity",
-        "description": "Only 13 storms reached strict typhoon intensity.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20250606_002_8e9134ed",
+        "date": "2025-06-06 00:00",
+        "title": "Tensions escalate along the Israel-Lebanon border",
+        "description": "Tensions escalate along the border, reinforcing the impossibility of near-term normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEscalating tensions prevent normalization.",
+        "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.nationthailand.com/news/world/40060651",
+        "source_url": "https://www.longwarjournal.org/archives/2025/12/israeli-operations-in-lebanon-against-hezbollah-december-22-28-2025.php",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20251225_004_157f9520",
-        "date": "2025-12-25 08:07",
-        "title": "Unprecedented Sea Surface Temperatures in the Northwest Pacific",
-        "description": "In 2025, sea surface temperatures in the Northwest Pacific Ocean reached record highs. These anomalously warm waters provided the necessary fuel for the formation and intensification of a large number of tropical cyclones.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20250618_003_90fbf168",
+        "date": "2025-06-18 00:00",
+        "title": "Diplomatic efforts focus purely on de-escalation",
+        "description": "Diplomatic efforts focus purely on de-escalation, not normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFocus on de-escalation means no normalization.",
+        "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://sciencedaily.com/releases/2025/12/251225080725.htm",
+        "source_url": "https://www.washingtonpost.com/world/2025/12/15/israel-lebanon-hezbollah-airstrikes-escalation",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20251231_002_c51cb555",
-        "date": "2025-12-31 00:00",
-        "title": "Record-high sea surface temperatures",
-        "description": "Record-high sea surface temperatures in the Western Pacific.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20250625_004_445cffff",
+        "date": "2025-06-25 00:00",
+        "title": "Significant spike in hostilities occurs",
+        "description": "A significant spike in hostilities underscores the volatile security situation.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpike in hostilities prevents normalization.",
+        "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.postcourier.com.pg/2025-confirmed-as-one-of-the-warmest-years-on-record-in-the-western-pacific",
+        "source_url": "https://theconversation.com/a-year-on-the-israeli-lebanese-ceasefire-looks-increasingly-fragile-could-a-return-to-cyclical-violence-come-next-270423",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20251231_009_8ef88d7f",
-        "date": "2025-12-31 00:00",
-        "title": "Year concludes with 27 total named storms",
-        "description": "Year concludes with 27 total named storms.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20250628_005_c2b86f11",
+        "date": "2025-06-28 00:00",
+        "title": "Cross-border incidents continue",
+        "description": "Cross-border incidents continue, further hardening political stances in both nations.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContinued incidents prevent normalization.",
+        "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://en.wikipedia.org/wiki/2025_Pacific_typhoon_season",
+        "source_url": "https://www.independent.co.uk/news/world/middle-east/israel-lebanon-hezbollah-ceasefire-deal-terms-biden-b2656811.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20251114_003_dedc9e10",
-        "date": "2025-11-14 00:00",
-        "title": "Late-season typhoons hit the Philippines",
-        "description": "Multiple late-season typhoons struck the Philippines.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.yahoo.com/news/articles/stunning-video-shows-devastating-flood-033500144.html?fr=sycsrp_catchall",
+        "id": "evt_politics_20250630_006_ee555c44",
+        "date": "2025-06-30 00:00",
+        "title": "Lebanese officials reiterate refusal to normalize relations",
+        "description": "Public statements from Lebanese officials reiterate their refusal to normalize relations with Israel.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRefusal to normalize directly supports the NO outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.aljazeera.com/features/2025/11/4/how-israel-is-using-no-war-no-peace-lebanonisation-model-in-gaza",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20251114_004_295c08f5",
-        "date": "2025-11-14 00:00",
-        "title": "Typhoon Kalmaegi slams into Vietnam",
-        "description": "Typhoon Kalmaegi slams into Vietnam.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.yahoo.com/news/articles/deadliest-typhoon-asia-targets-vietnam-070750124.html?fr=sycsrp_catchall",
+        "id": "evt_politics_20250815_009_1bdcb4ed",
+        "date": "2025-08-15 00:00",
+        "title": "International pressure for normalization",
+        "description": "International pressure, particularly from the United States, pushes for normalization.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInternational pressure pushes for YES outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.newarab.com/analysis/lebanon-israel-truce-will-not-lead-normalisation-heres-why",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20250101_002_4a3acaa0",
+        "id": "evt_politics_20250815_010_852e1920",
+        "date": "2025-08-15 00:00",
+        "title": "Potential economic benefits of normalization discussed",
+        "description": "Potential economic benefits of normalization, such as resolving maritime border disputes to facilitate natural gas extraction, are discussed.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEconomic benefits push for YES outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.newarab.com/analysis/lebanon-israel-truce-will-not-lead-normalisation-heres-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250915_008_8622016c",
+        "date": "2025-09-15 00:00",
+        "title": "Lebanese government fails to pursue diplomatic ties",
+        "description": "The Lebanese government's inability and unwillingness to pursue diplomatic ties, even if it desired economic benefits.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFailure to pursue ties supports NO outcome.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.al-monitor.com/originals/2025/09/lebanon-israel-conflict-escalates",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251001_007_12311542",
+        "date": "2025-10-01 00:00",
+        "title": "US mediates on border issues",
+        "description": "Despite some US mediation on border issues, both sides maintain their official state of hostility.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUS mediation could have led to normalization, but failed.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strike-kills-elderly-lebanese-woman-south-lebanon",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250101_001_f73f7860",
         "date": "2025-01-01 00:00",
-        "title": "Positive Phase of Pacific Decadal Oscillation (PDO)",
-        "description": "The Pacific Decadal Oscillation (PDO) is in a positive phase, leading to warmer sea surface temperatures in the western Pacific, which provides more energy for typhoon formation.",
-        "impact": "**Affects:** Yes - Will 27 named typhoons occur in the Northwest Paci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA positive PDO phase contributes to warmer ocean waters in the western Pacific, fueling stronger and more numerous typhoons.",
+        "title": "Hezbollah maintains ideological opposition to Israel",
+        "description": "Hezbollah continues its enduring ideological opposition to Israel, effectively vetoing any normalization efforts.",
+        "impact": "**Affects:** No - Israel and Lebanon normalize relations in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHezbollah's veto makes normalization impossible.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://carriermanagement.com/news/2026/01/08/283252.htm",
+        "source_url": "https://english.aawsat.com/arab-world/5121469-israel-shocks-lebanon-plan-link-withdrawal-normalization",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
-      },
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xd3a26e8ca4f4dd9a7933e65fb1a36851b4527f7adadf477ca65106714ee26335",
+    "title": "Will Apple release the Apple Vision Pro 2 before December 31, 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Apple releases a new Vision Pro product by December 31, 2025 ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying product must be named \"Apple Vision\" and be recognized as a successor to the original Apple Vision Pro product, similar to the relationship between iPhone 14 and iPhone 15. A new Apple Vision product released without a number, under a designation other than Apple Vision Pro 2 will qualify if it retains the original functions of the Apple Vision Pro and expands on them in such a way that it is clear that this product is a successor.\n\nIn order to be considered released, the product must be available for purchase by the general public within the specified timeframe. An announcement or unveiling alone is not sufficient.\n\nThe primary resolution source for this market will be official statements from Apple. However, a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nApple will not release the Apple Vision Pro 2 before December 31, 2025. Although there was initial excitement following the release of the first Vision Pro, poor sales and manufacturing challenges forced Apple to pivot its strategy. Instead of focusing on a quick iteration of its high-end headset, Apple decided to cut production of the original model and delay the release of a direct successor, shifting attention toward a more affordable \"non-Pro\" version and potentially smart glasses. As a result, the market prediction flipped definitively to \"No\" in mid-October 2025 as the reality of Apple's revised product roadmap became clear.\n\n## Timeline Of Key Events\n- **March 2025:** Reports emerge that Apple is slowing down production of the $3,500 Vision Pro due to falling short of sales expectations ([art_general_20250318_029_c9935655]). Tim Cook faces scrutiny over the company's bets on new hardware categories ([art_general_20250318_026_45f3648c]).\n- **Mid-2025:** Despite some rumors that a Vision Pro 2 could still arrive in 2025 ([art_general_20250318_028_03295629]), skepticism grows as Apple focuses on software updates at WWDC and other product lines like the iPad Pro and MacBooks.\n- **October 2, 2025:** The \"Yes\" probability spikes briefly but then falls as investors digest rumors that Apple is pivoting its hardware strategy.\n- **October 8, 2025:** A turning point where the market begins to heavily discount the likelihood of a 2025 release.\n- **October 13, 2025:** The favored outcome flips to \"Yes\" temporarily due to speculative reports about an upcoming Apple event, but quickly reverses.\n- **October 16, 2025:** The \"No\" outcome becomes definitively favored, holding for an extended period, as consensus solidifies that no Vision Pro 2 will be announced at the October event ([art_general_20251019_027_65fa7f58]), which focuses instead on the M5 iPad Pro and MacBooks ([art_general_20251019_044_bcb796db]).\n\n## Causal Chain Analysis\nThe outcome was driven by a combination of weak consumer demand for the first-generation device and strategic shifts within Apple. The high $3,500 price point of the original Vision Pro resulted in lower-than-expected sales, which caused Apple to slow down production ([art_general_20250318_029_c9935655]). This poor performance triggered a reevaluation of the product roadmap, leading Apple to delay the costly development of a direct successor. Because the company needed to focus its resources on more viable hardware like updated MacBooks and iPads ([art_general_20251019_044_bcb796db]), the Vision Pro 2 was pushed out of the 2025 release window, resulting in the negative resolution.\n\n## Countervailing Factors\nSome rumors throughout 2025 suggested that Apple could still release a Vision Pro 2 by the end of the year to maintain momentum in the spatial computing market ([art_general_20250318_028_03295629]). Additionally, Apple's substantial R&D investments in AI and mixed reality could have accelerated hardware development. However, these factors were overwhelmed by the practical realities of low sales volume for the first iteration, supply chain complexities, and the strategic decision to prioritize a more affordable AR/VR device over another premium model.\n\n## Event Candidate Inventory\n- **E1:** Apple slows production of the original Vision Pro\n  - Date: March 2025\n  - Why it matters causally: Indicates weak demand and initiates the shift in Apple's hardware strategy away from the high-end headset.\n  - Source article IDs: [art_general_20250318_029_c9935655]\n- **E2:** Apple focuses October 2025 event on MacBooks and iPads, not Vision Pro 2\n  - Date: October 2025\n  - Why it matters causally: Confirms that the Vision Pro 2 is not part of Apple's late-2025 product lineup, finalizing the \"No\" outcome for the year.\n  - Source article IDs: [art_general_20251019_044_bcb796db], [art_general_20251019_027_65fa7f58]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Apple slows production of Vision Pro due to poor sales | [art_general_20250318_029_c9935655] | March 2025 | 0.9 | Confirms the root cause of the delay. |\n| Tim Cook faces uphill battle regarding Vision Pro bets | [art_general_20250318_026_45f3648c] | March 2025 | 0.8 | Highlights internal and external pressure. |\n| Rumors suggest Vision Pro 2 could come in 2025 | [art_general_20250318_028_03295629] | March 2025 | 0.7 | Countervailing factor that ultimately failed. |\n| October 2025 event focuses on MacBooks and iPads | [art_general_20251019_044_bcb796db], [art_general_20251019_027_65fa7f58] | October 2025 | 0.95 | Proximate trigger confirming no 2025 release. |\n\n## Uncertainties And Alternative Paths\nIt remains slightly uncertain exactly when Apple decided to definitively pull the plug on a 2025 Vision Pro 2 release, though the signs were clear by March. An alternative path could have occurred if Apple had managed to significantly reduce manufacturing costs and accelerate the M5 chip integration, potentially allowing for a late 2025 release to capture holiday sales, but this did not materialize.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-08-27T22:30:45.170000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:26:57+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-apple-vision-pro-2-be-released-by-december-31",
+    "price_data": {
+      "history": [
+        {
+          "t": 1756339209,
+          "p": 0.355
+        },
+        {
+          "t": 1756425610,
+          "p": 0.29
+        },
+        {
+          "t": 1756512012,
+          "p": 0.26
+        },
+        {
+          "t": 1756598410,
+          "p": 0.27
+        },
+        {
+          "t": 1756684804,
+          "p": 0.165
+        },
+        {
+          "t": 1756771214,
+          "p": 0.385
+        },
+        {
+          "t": 1756857608,
+          "p": 0.46
+        },
+        {
+          "t": 1756944013,
+          "p": 0.46
+        },
+        {
+          "t": 1757030409,
+          "p": 0.405
+        },
+        {
+          "t": 1757116820,
+          "p": 0.43
+        },
+        {
+          "t": 1757246432,
+          "p": 0.47
+        },
+        {
+          "t": 1757332807,
+          "p": 0.445
+        },
+        {
+          "t": 1757419209,
+          "p": 0.09
+        },
+        {
+          "t": 1757505603,
+          "p": 0.175
+        },
+        {
+          "t": 1757592033,
+          "p": 0.205
+        },
+        {
+          "t": 1757678423,
+          "p": 0.2
+        },
+        {
+          "t": 1757764826,
+          "p": 0.21
+        },
+        {
+          "t": 1757851226,
+          "p": 0.215
+        },
+        {
+          "t": 1757937618,
+          "p": 0.205
+        },
+        {
+          "t": 1758067210,
+          "p": 0.205
+        },
+        {
+          "t": 1758153609,
+          "p": 0.15
+        },
+        {
+          "t": 1758240018,
+          "p": 0.125
+        },
+        {
+          "t": 1758326407,
+          "p": 0.1
+        },
+        {
+          "t": 1758412807,
+          "p": 0.1
+        },
+        {
+          "t": 1758499210,
+          "p": 0.1
+        },
+        {
+          "t": 1758585608,
+          "p": 0.1
+        },
+        {
+          "t": 1758672009,
+          "p": 0.1
+        },
+        {
+          "t": 1758758404,
+          "p": 0.115
+        },
+        {
+          "t": 1758888006,
+          "p": 0.115
+        },
+        {
+          "t": 1758974414,
+          "p": 0.115
+        },
+        {
+          "t": 1759060817,
+          "p": 0.115
+        },
+        {
+          "t": 1759147213,
+          "p": 0.12
+        },
+        {
+          "t": 1759233614,
+          "p": 0.13
+        },
+        {
+          "t": 1759320008,
+          "p": 0.14
+        },
+        {
+          "t": 1759406418,
+          "p": 0.17
+        },
+        {
+          "t": 1759492806,
+          "p": 0.36
+        },
+        {
+          "t": 1759579208,
+          "p": 0.215
+        },
+        {
+          "t": 1759708804,
+          "p": 0.235
+        },
+        {
+          "t": 1759795212,
+          "p": 0.265
+        },
+        {
+          "t": 1759881612,
+          "p": 0.3
+        },
+        {
+          "t": 1759968011,
+          "p": 0.25
+        },
+        {
+          "t": 1760054414,
+          "p": 0.295
+        },
+        {
+          "t": 1760140814,
+          "p": 0.365
+        },
+        {
+          "t": 1760227211,
+          "p": 0.335
+        },
+        {
+          "t": 1760313613,
+          "p": 0.755
+        },
+        {
+          "t": 1760400010,
+          "p": 0.62
+        },
+        {
+          "t": 1760486404,
+          "p": 0.67
+        },
+        {
+          "t": 1760616030,
+          "p": 0.125
+        },
+        {
+          "t": 1760702411,
+          "p": 0.09
+        },
+        {
+          "t": 1760788828,
+          "p": 0.075
+        },
+        {
+          "t": 1760875219,
+          "p": 0.07
+        },
+        {
+          "t": 1760961607,
+          "p": 0.07
+        },
+        {
+          "t": 1761048021,
+          "p": 0.065
+        },
+        {
+          "t": 1761134417,
+          "p": 0.075
+        },
+        {
+          "t": 1761220811,
+          "p": 0.064
+        },
+        {
+          "t": 1761307212,
+          "p": 0.071
+        },
+        {
+          "t": 1761436811,
+          "p": 0.066
+        },
+        {
+          "t": 1761523211,
+          "p": 0.065
+        },
+        {
+          "t": 1761609613,
+          "p": 0.0505
+        },
+        {
+          "t": 1761696012,
+          "p": 0.039
+        },
+        {
+          "t": 1761825612,
+          "p": 0.033
+        },
+        {
+          "t": 1761912013,
+          "p": 0.0305
+        },
+        {
+          "t": 1761998414,
+          "p": 0.0295
+        },
+        {
+          "t": 1762084813,
+          "p": 0.029
+        },
+        {
+          "t": 1762171212,
+          "p": 0.031
+        },
+        {
+          "t": 1762300811,
+          "p": 0.026
+        },
+        {
+          "t": 1762387207,
+          "p": 0.0135
+        },
+        {
+          "t": 1762473611,
+          "p": 0.0195
+        },
+        {
+          "t": 1762560009,
+          "p": 0.0215
+        },
+        {
+          "t": 1762646424,
+          "p": 0.0155
+        },
+        {
+          "t": 1762732808,
+          "p": 0.012
+        },
+        {
+          "t": 1762819212,
+          "p": 0.016
+        },
+        {
+          "t": 1762905612,
+          "p": 0.016
+        },
+        {
+          "t": 1762992011,
+          "p": 0.0155
+        },
+        {
+          "t": 1763121616,
+          "p": 0.014
+        },
+        {
+          "t": 1763208016,
+          "p": 0.0135
+        },
+        {
+          "t": 1763294414,
+          "p": 0.0135
+        },
+        {
+          "t": 1763380814,
+          "p": 0.011
+        },
+        {
+          "t": 1763467215,
+          "p": 0.013
+        },
+        {
+          "t": 1763553617,
+          "p": 0.014
+        },
+        {
+          "t": 1763640010,
+          "p": 0.014
+        },
+        {
+          "t": 1763726410,
+          "p": 0.0215
+        },
+        {
+          "t": 1763812811,
+          "p": 0.024
+        },
+        {
+          "t": 1763899210,
+          "p": 0.0185
+        },
+        {
+          "t": 1764028812,
+          "p": 0.0195
+        },
+        {
+          "t": 1764115211,
+          "p": 0.016
+        },
+        {
+          "t": 1764201613,
+          "p": 0.019
+        },
+        {
+          "t": 1764288013,
+          "p": 0.0175
+        },
+        {
+          "t": 1764374416,
+          "p": 0.0205
+        },
+        {
+          "t": 1764460812,
+          "p": 0.0205
+        },
+        {
+          "t": 1764547213,
+          "p": 0.019
+        },
+        {
+          "t": 1764633610,
+          "p": 0.018
+        },
+        {
+          "t": 1764720014,
+          "p": 0.018
+        },
+        {
+          "t": 1764849619,
+          "p": 0.01
+        },
+        {
+          "t": 1764936012,
+          "p": 0.0115
+        },
+        {
+          "t": 1765022413,
+          "p": 0.011
+        },
+        {
+          "t": 1765108814,
+          "p": 0.0045
+        },
+        {
+          "t": 1765195225,
+          "p": 0.006
+        },
+        {
+          "t": 1765281611,
+          "p": 0.0065
+        },
+        {
+          "t": 1765368018,
+          "p": 0.011
+        },
+        {
+          "t": 1765454413,
+          "p": 0.008
+        },
+        {
+          "t": 1765540812,
+          "p": 0.0065
+        },
+        {
+          "t": 1765670413,
+          "p": 0.0075
+        },
+        {
+          "t": 1765756813,
+          "p": 0.0075
+        },
+        {
+          "t": 1765843212,
+          "p": 0.006
+        },
+        {
+          "t": 1765929608,
+          "p": 0.0065
+        },
+        {
+          "t": 1765972812,
+          "p": 0.007
+        },
+        {
+          "t": 1766059211,
+          "p": 0.003
+        },
+        {
+          "t": 1766145613,
+          "p": 0.004
+        },
+        {
+          "t": 1766232013,
+          "p": 0.0045
+        },
+        {
+          "t": 1766318411,
+          "p": 0.005
+        },
+        {
+          "t": 1766448013,
+          "p": 0.0035
+        },
+        {
+          "t": 1766534413,
+          "p": 0.0035
+        },
+        {
+          "t": 1766620823,
+          "p": 0.0035
+        },
+        {
+          "t": 1766707210,
+          "p": 0.0045
+        },
+        {
+          "t": 1766793613,
+          "p": 0.0045
+        },
+        {
+          "t": 1766880013,
+          "p": 0.004
+        },
+        {
+          "t": 1766966430,
+          "p": 0.004
+        },
+        {
+          "t": 1767052816,
+          "p": 0.004
+        },
+        {
+          "t": 1767139213,
+          "p": 0.0045
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1756382422,
+          "p": 0.265,
+          "delta": -0.09
+        },
+        {
+          "t": 1756468811,
+          "p": 0.18,
+          "delta": -0.085
+        },
+        {
+          "t": 1756512012,
+          "p": 0.26,
+          "delta": 0.08
+        },
+        {
+          "t": 1756684804,
+          "p": 0.165,
+          "delta": -0.095
+        },
+        {
+          "t": 1756771214,
+          "p": 0.385,
+          "delta": 0.22
+        },
+        {
+          "t": 1756814419,
+          "p": 0.31,
+          "delta": -0.075
+        },
+        {
+          "t": 1756857608,
+          "p": 0.46,
+          "delta": 0.15
+        },
+        {
+          "t": 1757030409,
+          "p": 0.405,
+          "delta": -0.055
+        },
+        {
+          "t": 1757203211,
+          "p": 0.47,
+          "delta": 0.065
+        },
+        {
+          "t": 1757419209,
+          "p": 0.09,
+          "delta": -0.38
+        },
+        {
+          "t": 1757505603,
+          "p": 0.175,
+          "delta": 0.085
+        },
+        {
+          "t": 1758326407,
+          "p": 0.1,
+          "delta": -0.075
+        },
+        {
+          "t": 1759363204,
+          "p": 0.395,
+          "delta": 0.295
+        },
+        {
+          "t": 1759406418,
+          "p": 0.17,
+          "delta": -0.225
+        },
+        {
+          "t": 1759492806,
+          "p": 0.36,
+          "delta": 0.19
+        },
+        {
+          "t": 1759536004,
+          "p": 0.185,
+          "delta": -0.175
+        },
+        {
+          "t": 1759665608,
+          "p": 0.29,
+          "delta": 0.105
+        },
+        {
+          "t": 1759708804,
+          "p": 0.235,
+          "delta": -0.055
+        },
+        {
+          "t": 1759881612,
+          "p": 0.3,
+          "delta": 0.065
+        },
+        {
+          "t": 1759924806,
+          "p": 0.235,
+          "delta": -0.065
+        },
+        {
+          "t": 1760054414,
+          "p": 0.295,
+          "delta": 0.06
+        },
+        {
+          "t": 1760097605,
+          "p": 0.48,
+          "delta": 0.185
+        },
+        {
+          "t": 1760140814,
+          "p": 0.365,
+          "delta": -0.115
+        },
+        {
+          "t": 1760184013,
+          "p": 0.31,
+          "delta": -0.055
+        },
+        {
+          "t": 1760270422,
+          "p": 0.47,
+          "delta": 0.16
+        },
+        {
+          "t": 1760313613,
+          "p": 0.755,
+          "delta": 0.285
+        },
+        {
+          "t": 1760356807,
+          "p": 0.69,
+          "delta": -0.065
+        },
+        {
+          "t": 1760400010,
+          "p": 0.62,
+          "delta": -0.07
+        },
+        {
+          "t": 1760443208,
+          "p": 0.725,
+          "delta": 0.105
+        },
+        {
+          "t": 1760486404,
+          "p": 0.67,
+          "delta": -0.055
+        },
+        {
+          "t": 1760529614,
+          "p": 0.52,
+          "delta": -0.15
+        },
+        {
+          "t": 1760572818,
+          "p": 0.08,
+          "delta": -0.44
+        },
+        {
+          "t": 1761652812,
+          "p": 0.0275,
+          "delta": -0.0525
+        }
+      ],
+      "price_at_open": 0.355,
+      "price_at_close": 0.003,
+      "min_price": 0.0015,
+      "max_price": 0.755,
+      "final_price": 0.003,
+      "fetched_at": "2026-04-27T07:57:46.883905+00:00"
+    },
+    "events": [
       {
-        "id": "evt_climate_20251010_001_94f795fd",
-        "date": "2025-10-10 00:00",
-        "title": "La Niña conditions emerge",
-        "description": "La Niña conditions emerge in the Western Pacific.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.newsweek.com/la-nina-arrives-map-shows-potential-impacts-on-us-10861071",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_climate_20251021_005_f144a95f",
-        "date": "2025-10-21 00:00",
-        "title": "Increased Atmospheric Moisture over the Northwest Pacific",
-        "description": "The warmer sea surface temperatures led to increased evaporation, resulting in higher levels of atmospheric moisture. This abundance of moisture is a key ingredient for the development of powerful typhoons, leading to more intense rainfall.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://nature.com/articles/s41467-025-68070-z",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_science_20251225_006_6a0110c2",
-        "date": "2025-12-25 00:00",
-        "title": "Standard counting methodology counts all named storms",
-        "description": "Standard counting methodology counts all named storms.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_finance_20251002_002_c063f713",
+        "date": "2025-10-02 00:00",
+        "title": "Investors digest rumors of Apple pivoting hardware strategy",
+        "description": "Investors digest rumors that Apple is pivoting its hardware strategy.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.nationthailand.com/news/world/40060651",
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251019_008_15f307b7",
+        "date": "2025-10-19 16:27",
+        "title": "Apple focuses October 2025 event on MacBooks and iPads",
+        "description": "Apple focuses its October 2025 event on MacBooks and iPads, not Vision Pro 2.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apples-m5-powered-ipad-pro-173013642.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250315_005_9a44d572",
+        "date": "2025-03-15 00:00",
+        "title": "Apple delays development of direct successor to Vision Pro",
+        "description": "Apple delays the costly development of a direct successor to the Vision Pro.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/entertainment/articles/production-3-500-apple-vision-160838599.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_002_6620ff38",
+        "date": "2025-03-18 16:27",
+        "title": "Tim Cook faces scrutiny over hardware bets",
+        "description": "Tim Cook faces scrutiny over the company's bets on new hardware categories.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://finance.yahoo.com/news/tim-cook-uphill-battle-2025-114857490.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20250318_003_7aefb3a7",
+        "date": "2025-03-18 16:27",
+        "title": "Rumors suggest Vision Pro 2 could come in 2025",
+        "description": "Rumors suggest that a Vision Pro 2 could still arrive in 2025 to maintain momentum in the spatial computing market.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.yahoo.com/tech/apple-vision-pro-2-still-140000387.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251002_004_62d2a345",
+        "date": "2025-10-02 12:00",
+        "title": "Rumors emerge that Apple is pivoting its hardware strategy",
+        "description": "Investors digest rumors that Apple is pivoting its hardware strategy.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251008_003_d1cd79e7",
+        "date": "2025-10-08 00:00",
+        "title": "Market heavily discounts likelihood of 2025 release",
+        "description": "The market begins to heavily discount the likelihood of a 2025 release.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251013_004_c4a09b48",
+        "date": "2025-10-13 00:00",
+        "title": "Speculative reports emerge about upcoming Apple event",
+        "description": "Speculative reports emerge about an upcoming Apple event.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative outcome by shifting focus away from Vision Pro 2.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251013_005_69445820",
+        "date": "2025-10-13 12:00",
+        "title": "Speculative reports suggest an upcoming Apple event",
+        "description": "Speculative reports about an upcoming Apple event cause the favored outcome to flip to 'Yes' temporarily.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251016_006_f92e3a4e",
+        "date": "2025-10-16 12:00",
+        "title": "Consensus solidifies that no Vision Pro 2 will be announced at the October event",
+        "description": "Consensus solidifies that no Vision Pro 2 will be announced at the October event.",
+        "impact": "**Affects:** No - Will Apple release the Apple Vision Pro 2 before D  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the negative resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-rumored-announce-macbooks-october-070000220.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

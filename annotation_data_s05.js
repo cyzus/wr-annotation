@@ -1,210 +1,771 @@
 var annotationData = [
   {
-    "id": "polymarket_0x24bb3cbbf9c9c8f50cb1a26fc06ea16b82df4ee943d2ba7649c51c21e3a6d5e8",
-    "title": "U.S. strike on Somalia by March 7?",
+    "id": "polymarket_0x2b935e7d326665f4d00d141bebbe4709ec08604c0b844cf4b9b990659f3d4288",
+    "title": "Will Apple release a new product line in 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if a US-initiated drone, missile, or air strike on the soil of Somalia is announced or credibly reported to have occurred between market creation and the listed date ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including FPV and ATGM strikes as well as cruise or ballistic missiles) launched by any United States operatives, including military forces, intelligence agencies, or other U.S. government operatives, that physically impact ground territory within the listed country.\n\nA strike on any area within the terrestrial territory (including rivers, lakes, ports, but excluding territorial sea) of the listed country counts.\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution, regardless of whether they land in the listed country’s territory or cause damage.\n\nActions such as artillery fire, small arms fire, ground incursions, naval shelling, or cyberattacks will not qualify.\n\nAny strike occurring during this market’s timeframe that is claimed by either Donald Trump or the U.S. government will qualify.\n\nThe primary resolution source will be a consensus of credible reporting and government sources.\n\nThis market may remain open until the end of the third day after the resolution time. If the date/time of a qualifying strike cannot be confirmed by a consensus of credible reporting by that time, it will resolve to \"No\" regardless of whether a strike was later confirmed to have taken place.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe U.S. carried out airstrikes in Somalia by March 7, 2026, primarily targeting the growing capabilities and resilience of both IS-Somalia and Al-Shabaab. Under the Trump administration's second term, \"maximum pressure\" via airpower became the preferred strategy in response to Al-Shabaab's unprecedented territorial counteroffensive and ISIS-Somalia's emergence as a regional hub for financing and international attacks. Coordinated with the Federal Government of Somalia, the operation aimed to disrupt logistics, degrade terrorist leadership, and contain immediate threats, ultimately leading to successful strikes in late February and early March.\n\n## Timeline Of Key Events\n- **2025 - Early 2026:** Al-Shabaab mounts an unprecedented counteroffensive, reversing gains of the Somali government and threatening Mogadishu [art_politics_20260228_009_5e66a00c].\n- **February 2026:** The Trump administration shifts counterterrorism rules of engagement to facilitate rapid and frequent drone strikes in Somalia [art_politics_20260228_005_912e45f9].\n- **February 27 - March 2, 2026:** AFRICOM conducts coordinated airstrikes in regions such as the Golis Mountains and Lower Shabelle to hit high-value ISIS-Somalia and Al-Shabaab targets [art_politics_20260302_023_455ac1a1, art_politics_20260228_009_5e66a00c].\n\n## Causal Chain Analysis\nThe root cause for the strikes was the growing operational footprint and resilience of militant groups in Somalia, particularly Al-Shabaab’s territorial resurgence and ISIS-Somalia's evolving role in global terror networks [art_politics_20260228_009_5e66a00c]. This heightened threat landscape triggered an intermediate shift in U.S. strategy; under the Trump administration, the rules of engagement for drone warfare were relaxed to allow lower-level command authorization and higher strike tempos, framing airpower as a low-risk alternative to troop deployments [art_politics_20260228_005_912e45f9]. This structural shift served as the proximate trigger for AFRICOM, leading directly to the final outcome of rapid, targeted airstrikes on identified militant positions in early March.\n\n## Countervailing Factors\nStrong countervailing forces pushed against military escalation. Experts and rights groups consistently warned that drone strikes often result in civilian casualties, which alienate the local population and serve as powerful propaganda and recruitment tools for Al-Shabaab [art_politics_20260228_009_5e66a00c]. Additionally, segments within the U.S. administration argued that focusing on counterterrorism detracted from broader great-power competition with China. However, these concerns were ultimately overwhelmed by the urgent tactical need to suppress the immediate advances of Al-Shabaab and the structural preference for remote \"maximum pressure\" without committing ground troops.\n\n## Event Candidate Inventory\n- E1: Al-Shabaab counteroffensive reverses government territorial gains\n  - Date: 2025 to Early 2026\n  - Why it matters causally: Created the urgent security crisis that justified immediate and aggressive U.S. air intervention.\n  - Source article IDs: [art_politics_20260228_009_5e66a00c]\n- E2: Shift to \"maximum pressure\" air campaign under the Trump administration\n  - Date: Early 2026\n  - Why it matters causally: Lowered the threshold for strike authorization and increased the operational tempo.\n  - Source article IDs: [art_politics_20260228_005_912e45f9, art_politics_20260228_009_5e66a00c]\n- E3: AFRICOM airstrikes in Somalia\n  - Date: Late February to March 2, 2026\n  - Why it matters causally: This is the direct execution of the U.S. strike resolving the question positively.\n  - Source article IDs: [art_politics_20260302_023_455ac1a1, art_politics_20260228_009_5e66a00c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Al-Shabaab territorial resurgence | [art_politics_20260228_009_5e66a00c] | Early 2026 | 0.9 | Group successfully reclaimed significant territory. |\n| U.S. policy shift to increased airpower | [art_politics_20260228_005_912e45f9, art_politics_20260228_009_5e66a00c] | 2026 | 0.95 | Lowered strike authorization thresholds and high strike counts noted. |\n| Coordinated airstrikes executed by AFRICOM | [art_politics_20260302_023_455ac1a1, art_politics_20260228_009_5e66a00c] | Feb/March 2026 | 1.0 | Clear reporting of strikes within the target window. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a strategy prioritizing local governance and diplomatic reconciliation over military force, or severe domestic backlash over civilian casualties halting operations. However, due to the high-threat environment and executive preference for kinetic \"over-the-horizon\" strikes, these alternative paths did not materialize to stop the operations. There is ongoing uncertainty regarding the long-term effectiveness of the strikes in dismantling the militants' resilient networks versus merely temporarily disrupting their command structures.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Apple publicly announces and launches a new product line in 2025 ET. Otherwise this market will resolve to \"No\".\n\nA \"new product line\" is defined as a category of products Apple has not previously sold, rather than an iteration or update of an existing product. Examples of a new product line would include an Apple-branded home robot or gaming console, while a new iPhone, Mac, iPad, Apple Watch, or AirPods models would not qualify.\n\nThe resolution source will be official information from Apple. ",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nApple did not release a new product line in 2025. Initially, rumors suggested new hardware categories, leading to brief optimism in early April. However, as the year progressed, reports clarified that Apple would only release updates to existing product lines (like iPhones, iPads, and Macs) rather than introducing a completely new category like a foldable device or a smart ring. By mid-year, supply chain leaks and WWDC announcements confirmed the lack of a new product line, cementing the negative outcome.\n\n## Timeline Of Key Events\n- **2025-03-08**: Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines, shifting sentiment towards 'No'.\n- **2025-04-08**: Speculation around WWDC temporarily spikes 'Yes' predictions [art_general_20250318_002_f7e4951b].\n- **2025-04-12**: Further analysis of supply chain data strongly indicates no new categories are in production, flipping sentiment back to 'No'.\n- **2025-06-07**: WWDC rumors and announcements focus entirely on software and iterative hardware updates [art_general_20250607_007_ac4d280c].\n- **2025-09-19**: The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17 [art_general_20250919_004_d2220b20].\n\n## Causal Chain Analysis\nThe outcome was driven by Apple's strategic focus on existing product categories rather than rushing a new product line. This caused a lack of supply chain activity for novel devices, which led to analysts correctly predicting the absence of new categories. Consequently, key events like WWDC and the September keynote passed without new product line announcements, resulting in the final outcome of 'No' [art_tech_20250101_003_d0fda24c].\n\n## Countervailing Factors\nSome rumors throughout early 2025 suggested Apple might announce a foldable iPhone or a smart ring. These factors briefly pushed the market toward 'Yes', but they were overwhelmed by the reality of production constraints and Apple's typical cautious approach to new hardware categories.\n\n## Event Candidate Inventory\n- **Event Candidate 1**\n  - title: Early 2025 Product Rumors\n  - date: 2025-03-18\n  - why it matters causally: Spurred early market speculation.\n  - source article IDs: [art_general_20250318_002_f7e4951b]\n\n- **Event Candidate 2**\n  - title: WWDC 2025 Announcements\n  - date: 2025-06-07\n  - why it matters causally: Confirmed focus on existing hardware and software.\n  - source article IDs: [art_general_20250607_007_ac4d280c]\n\n- **Event Candidate 3**\n  - title: Apple Fall Event 2025\n  - date: 2025-09-19\n  - why it matters causally: The major hardware event of the year introduced only existing lines.\n  - source article IDs: [art_general_20250919_003_28ec0db4]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early rumors on new products | [art_general_20250318_002_f7e4951b] | 2025-03-18 | 0.8 | Showed market speculation. |\n| WWDC focus on existing hardware | [art_general_20250607_007_ac4d280c] | 2025-06-07 | 0.9 | Denied new product lines. |\n| Fall event focused on iPhone 17 | [art_general_20250919_004_d2220b20] | 2025-09-19 | 0.95 | Final confirmation. |\n\n## Uncertainties And Alternative Paths\nThere was brief uncertainty around whether Apple would surprise the market with an unexpected new device at WWDC, but this alternative path did not materialize due to a lack of supply chain readiness.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2026-02-27T20:11:44.362556+00:00",
+    "market_open": "2025-03-05T20:55:05.032000+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-03-02T14:01:45+00:00",
-    "polymarket_url": "https://polymarket.com/event/us-strike-on-somalia-by-march-7",
+    "market_close": "2026-01-01T10:01:47+00:00",
+    "polymarket_url": "https://polymarket.com/event/will-apple-release-a-new-product-line-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1772236826,
-          "p": 0.62
+          "t": 1741219205,
+          "p": 0.645
         },
         {
-          "t": 1772280045,
-          "p": 0.73
+          "t": 1741435204,
+          "p": 0.485
         },
         {
-          "t": 1772323227,
-          "p": 0.515
+          "t": 1741651205,
+          "p": 0.475
         },
         {
-          "t": 1772366428,
-          "p": 0.735
+          "t": 1741867205,
+          "p": 0.415
         },
         {
-          "t": 1772409637,
-          "p": 0.83
+          "t": 1742083204,
+          "p": 0.415
         },
         {
-          "t": 1772452826,
-          "p": 0.9985
+          "t": 1742299204,
+          "p": 0.36
+        },
+        {
+          "t": 1742515205,
+          "p": 0.34
+        },
+        {
+          "t": 1742731205,
+          "p": 0.34
+        },
+        {
+          "t": 1742947205,
+          "p": 0.34
+        },
+        {
+          "t": 1743163206,
+          "p": 0.34
+        },
+        {
+          "t": 1743379205,
+          "p": 0.335
+        },
+        {
+          "t": 1743595205,
+          "p": 0.315
+        },
+        {
+          "t": 1743811205,
+          "p": 0.31
+        },
+        {
+          "t": 1744027205,
+          "p": 0.43
+        },
+        {
+          "t": 1744243205,
+          "p": 0.525
+        },
+        {
+          "t": 1744459205,
+          "p": 0.405
+        },
+        {
+          "t": 1744675205,
+          "p": 0.31
+        },
+        {
+          "t": 1744891205,
+          "p": 0.365
+        },
+        {
+          "t": 1745107206,
+          "p": 0.36
+        },
+        {
+          "t": 1745323207,
+          "p": 0.36
+        },
+        {
+          "t": 1745539206,
+          "p": 0.36
+        },
+        {
+          "t": 1745755206,
+          "p": 0.36
+        },
+        {
+          "t": 1745971206,
+          "p": 0.36
+        },
+        {
+          "t": 1746187206,
+          "p": 0.315
+        },
+        {
+          "t": 1746403205,
+          "p": 0.26
+        },
+        {
+          "t": 1746619206,
+          "p": 0.295
+        },
+        {
+          "t": 1746835206,
+          "p": 0.35
+        },
+        {
+          "t": 1747051206,
+          "p": 0.34
+        },
+        {
+          "t": 1747267207,
+          "p": 0.415
+        },
+        {
+          "t": 1747483206,
+          "p": 0.35
+        },
+        {
+          "t": 1747699206,
+          "p": 0.445
+        },
+        {
+          "t": 1747915206,
+          "p": 0.4
+        },
+        {
+          "t": 1748131206,
+          "p": 0.335
+        },
+        {
+          "t": 1748347206,
+          "p": 0.335
+        },
+        {
+          "t": 1748563207,
+          "p": 0.335
+        },
+        {
+          "t": 1748779207,
+          "p": 0.33
+        },
+        {
+          "t": 1748995206,
+          "p": 0.335
+        },
+        {
+          "t": 1749211206,
+          "p": 0.345
+        },
+        {
+          "t": 1749427207,
+          "p": 0.415
+        },
+        {
+          "t": 1749643207,
+          "p": 0.41
+        },
+        {
+          "t": 1749902407,
+          "p": 0.36
+        },
+        {
+          "t": 1750118408,
+          "p": 0.335
+        },
+        {
+          "t": 1750334407,
+          "p": 0.335
+        },
+        {
+          "t": 1750550406,
+          "p": 0.325
+        },
+        {
+          "t": 1750766406,
+          "p": 0.325
+        },
+        {
+          "t": 1750982407,
+          "p": 0.255
+        },
+        {
+          "t": 1751198407,
+          "p": 0.225
+        },
+        {
+          "t": 1751414407,
+          "p": 0.195
+        },
+        {
+          "t": 1751630407,
+          "p": 0.2
+        },
+        {
+          "t": 1751846407,
+          "p": 0.2
+        },
+        {
+          "t": 1752062408,
+          "p": 0.2
+        },
+        {
+          "t": 1752278409,
+          "p": 0.2
+        },
+        {
+          "t": 1752494407,
+          "p": 0.2
+        },
+        {
+          "t": 1752710408,
+          "p": 0.2
+        },
+        {
+          "t": 1752926408,
+          "p": 0.16
+        },
+        {
+          "t": 1753142409,
+          "p": 0.165
+        },
+        {
+          "t": 1753358409,
+          "p": 0.17
+        },
+        {
+          "t": 1753574410,
+          "p": 0.165
+        },
+        {
+          "t": 1753790408,
+          "p": 0.105
+        },
+        {
+          "t": 1754006409,
+          "p": 0.1
+        },
+        {
+          "t": 1754222408,
+          "p": 0.05
+        },
+        {
+          "t": 1754438409,
+          "p": 0.045
+        },
+        {
+          "t": 1754654412,
+          "p": 0.045
+        },
+        {
+          "t": 1754870414,
+          "p": 0.055
+        },
+        {
+          "t": 1755086414,
+          "p": 0.06
+        },
+        {
+          "t": 1755302406,
+          "p": 0.065
+        },
+        {
+          "t": 1755518414,
+          "p": 0.065
+        },
+        {
+          "t": 1755734410,
+          "p": 0.065
+        },
+        {
+          "t": 1755950421,
+          "p": 0.065
+        },
+        {
+          "t": 1756166408,
+          "p": 0.075
+        },
+        {
+          "t": 1756382422,
+          "p": 0.085
+        },
+        {
+          "t": 1756598402,
+          "p": 0.085
+        },
+        {
+          "t": 1756814405,
+          "p": 0.085
+        },
+        {
+          "t": 1757030404,
+          "p": 0.08
+        },
+        {
+          "t": 1757246411,
+          "p": 0.075
+        },
+        {
+          "t": 1757462411,
+          "p": 0.08
+        },
+        {
+          "t": 1757678427,
+          "p": 0.08
+        },
+        {
+          "t": 1757894413,
+          "p": 0.08
+        },
+        {
+          "t": 1758110425,
+          "p": 0.08
+        },
+        {
+          "t": 1758326410,
+          "p": 0.075
+        },
+        {
+          "t": 1758585611,
+          "p": 0.075
+        },
+        {
+          "t": 1758801610,
+          "p": 0.07
+        },
+        {
+          "t": 1759017610,
+          "p": 0.07
+        },
+        {
+          "t": 1759233603,
+          "p": 0.07
+        },
+        {
+          "t": 1759449611,
+          "p": 0.07
+        },
+        {
+          "t": 1759665607,
+          "p": 0.07
+        },
+        {
+          "t": 1759881607,
+          "p": 0.07
+        },
+        {
+          "t": 1760097617,
+          "p": 0.07
+        },
+        {
+          "t": 1760313608,
+          "p": 0.085
+        },
+        {
+          "t": 1760529609,
+          "p": 0.075
+        },
+        {
+          "t": 1760745611,
+          "p": 0.075
+        },
+        {
+          "t": 1760961622,
+          "p": 0.075
+        },
+        {
+          "t": 1761177610,
+          "p": 0.085
+        },
+        {
+          "t": 1761393622,
+          "p": 0.07
+        },
+        {
+          "t": 1761609620,
+          "p": 0.065
+        },
+        {
+          "t": 1761868812,
+          "p": 0.065
+        },
+        {
+          "t": 1762084821,
+          "p": 0.075
+        },
+        {
+          "t": 1762300818,
+          "p": 0.075
+        },
+        {
+          "t": 1762516824,
+          "p": 0.075
+        },
+        {
+          "t": 1762732812,
+          "p": 0.075
+        },
+        {
+          "t": 1762948823,
+          "p": 0.0505
+        },
+        {
+          "t": 1763164821,
+          "p": 0.0505
+        },
+        {
+          "t": 1763380822,
+          "p": 0.0415
+        },
+        {
+          "t": 1763596814,
+          "p": 0.036
+        },
+        {
+          "t": 1763812815,
+          "p": 0.0365
+        },
+        {
+          "t": 1764028819,
+          "p": 0.0455
+        },
+        {
+          "t": 1764244830,
+          "p": 0.0235
+        },
+        {
+          "t": 1764460818,
+          "p": 0.024
+        },
+        {
+          "t": 1764676826,
+          "p": 0.0235
+        },
+        {
+          "t": 1764892816,
+          "p": 0.0235
+        },
+        {
+          "t": 1765108821,
+          "p": 0.0215
+        },
+        {
+          "t": 1765324814,
+          "p": 0.016
+        },
+        {
+          "t": 1765540818,
+          "p": 0.016
+        },
+        {
+          "t": 1765756820,
+          "p": 0.0065
+        },
+        {
+          "t": 1765929635,
+          "p": 0.0055
+        },
+        {
+          "t": 1766145618,
+          "p": 0.0055
+        },
+        {
+          "t": 1766361616,
+          "p": 0.0045
+        },
+        {
+          "t": 1766577617,
+          "p": 0.004
+        },
+        {
+          "t": 1766793617,
+          "p": 0.0035
+        },
+        {
+          "t": 1767009618,
+          "p": 0.0015
         }
       ],
       "turning_points": [
         {
-          "t": 1772280045,
-          "p": 0.73,
-          "delta": 0.11
+          "t": 1741305605,
+          "p": 0.57,
+          "delta": -0.075
         },
         {
-          "t": 1772323227,
-          "p": 0.515,
-          "delta": -0.215
+          "t": 1741392005,
+          "p": 0.45,
+          "delta": -0.12
         },
         {
-          "t": 1772366428,
-          "p": 0.735,
-          "delta": 0.22
+          "t": 1742299204,
+          "p": 0.36,
+          "delta": -0.09
         },
         {
-          "t": 1772409637,
-          "p": 0.83,
-          "delta": 0.095
+          "t": 1743984006,
+          "p": 0.415,
+          "delta": 0.055
         },
         {
-          "t": 1772452826,
-          "p": 0.9985,
-          "delta": 0.1685
+          "t": 1744070406,
+          "p": 0.5,
+          "delta": 0.085
+        },
+        {
+          "t": 1744459205,
+          "p": 0.405,
+          "delta": -0.095
+        },
+        {
+          "t": 1744545605,
+          "p": 0.31,
+          "delta": -0.095
+        },
+        {
+          "t": 1744761605,
+          "p": 0.43,
+          "delta": 0.12
+        },
+        {
+          "t": 1744804806,
+          "p": 0.37,
+          "delta": -0.06
+        },
+        {
+          "t": 1746187206,
+          "p": 0.315,
+          "delta": -0.055
+        },
+        {
+          "t": 1746360005,
+          "p": 0.255,
+          "delta": -0.06
+        },
+        {
+          "t": 1746662406,
+          "p": 0.315,
+          "delta": 0.06
+        },
+        {
+          "t": 1747008006,
+          "p": 0.37,
+          "delta": 0.055
+        },
+        {
+          "t": 1747137607,
+          "p": 0.445,
+          "delta": 0.075
+        },
+        {
+          "t": 1747180807,
+          "p": 0.39,
+          "delta": -0.055
+        },
+        {
+          "t": 1747569607,
+          "p": 0.445,
+          "delta": 0.055
+        },
+        {
+          "t": 1748001607,
+          "p": 0.345,
+          "delta": -0.1
+        },
+        {
+          "t": 1749254407,
+          "p": 0.46,
+          "delta": 0.115
+        },
+        {
+          "t": 1749340807,
+          "p": 0.395,
+          "delta": -0.065
+        },
+        {
+          "t": 1750075208,
+          "p": 0.335,
+          "delta": -0.06
+        },
+        {
+          "t": 1750896008,
+          "p": 0.25,
+          "delta": -0.085
+        },
+        {
+          "t": 1751414407,
+          "p": 0.195,
+          "delta": -0.055
+        },
+        {
+          "t": 1752840008,
+          "p": 0.105,
+          "delta": -0.09
+        },
+        {
+          "t": 1752926408,
+          "p": 0.16,
+          "delta": 0.055
+        },
+        {
+          "t": 1753660809,
+          "p": 0.105,
+          "delta": -0.055
+        },
+        {
+          "t": 1754136010,
+          "p": 0.05,
+          "delta": -0.055
         }
       ],
-      "price_at_open": 0.62,
-      "price_at_close": 0.9985,
-      "min_price": 0.515,
-      "max_price": 0.9985,
-      "final_price": 0.9985,
-      "fetched_at": "2026-04-27T07:57:51.877351+00:00"
+      "price_at_open": 0.645,
+      "price_at_close": 0.0025,
+      "min_price": 0.0015,
+      "max_price": 0.655,
+      "final_price": 0.0025,
+      "fetched_at": "2026-04-27T07:57:34.186777+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20260227_010_6cc5c703",
-        "date": "2026-02-27 00:00",
-        "title": "AFRICOM conducts coordinated airstrikes",
-        "description": "AFRICOM conducts coordinated airstrikes in regions such as the Golis Mountains and Lower Shabelle.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250308_003_70781832",
+        "date": "2025-03-08 00:00",
+        "title": "Early skepticism sets in",
+        "description": "Early skepticism sets in as initial rumors fail to show concrete supply chain evidence for new product lines.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSkepticism reduces likelihood of new lines.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cbsnews.com/news/us-airstrike-somalia-isis-shabaab-2026",
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250601_001_2e3a2b2a",
-        "date": "2025-06-01 00:00",
-        "title": "Al-Shabaab mounts counteroffensive",
-        "description": "Al-Shabaab mounts an unprecedented counteroffensive in Somalia.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250318_002_8a0842ab",
+        "date": "2025-03-18 00:00",
+        "title": "Initial rumors suggest new hardware categories",
+        "description": "Rumors suggest Apple might announce a foldable iPhone or a smart ring.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRumors suggest new lines are possible.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/phones/articles/every-apple-product-known-rumored-180617821.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250801_002_cfe2569b",
-        "date": "2025-08-01 00:00",
-        "title": "Al-Shabaab reverses government gains",
-        "description": "Al-Shabaab reverses gains of the Somali government.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250408_006_2ebc1f10",
+        "date": "2025-04-08 00:00",
+        "title": "Speculation around WWDC spikes 'Yes' predictions",
+        "description": "Speculation around WWDC temporarily spikes 'Yes' predictions for a new product line.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation temporarily increases perceived likelihood of new lines.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "in_market_window": true,
+        "source_url": "https://nypost.com/2025/04/11/ticket-sales/the-avett-brothers-tour-2025-where-to-buy-tickets-best-prices",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251001_003_3054d2bb",
-        "date": "2025-10-01 00:00",
-        "title": "Al-Shabaab threatens Mogadishu",
-        "description": "Al-Shabaab threatens the capital city of Mogadishu.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250412_007_b73c94fe",
+        "date": "2025-04-12 00:00",
+        "title": "Lack of supply chain activity for novel devices",
+        "description": "There is a lack of supply chain activity for novel devices due to Apple's focus on existing products.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLack of supply chain activity strongly indicates no new lines.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251201_004_29273f59",
-        "date": "2025-12-01 00:00",
-        "title": "ISIS-Somalia emerges as regional hub",
-        "description": "ISIS-Somalia emerges as a regional hub for financing and international attacks.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250412_008_0d3b4769",
+        "date": "2025-04-12 12:00",
+        "title": "Supply chain data analysis indicates no new categories",
+        "description": "Further analysis of supply chain data strongly indicates no new categories are in production.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalysis confirming no new categories makes new lines less likely.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/articles/found-best-prices-avett-brothers-162830114.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260201_005_ee9466da",
-        "date": "2026-02-01 00:00",
-        "title": "Trump administration shifts rules of engagement",
-        "description": "The Trump administration shifts counterterrorism rules of engagement to facilitate rapid drone strikes.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250501_009_8d042902",
+        "date": "2025-05-01 00:00",
+        "title": "Analysts predict absence of new categories",
+        "description": "Analysts correctly predict the absence of new categories based on supply chain data.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAnalyst predictions make new lines less likely.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.semafor.com/article/02/02/2026/why-us-airstrikes-in-somalia-are-reaching-record-levels-under-trump",
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/articles/yusuf-cat-stevens-extends-2025-211839787.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260205_006_e7ae0981",
-        "date": "2026-02-05 00:00",
-        "title": "U.S. strategy frames airpower as low-risk",
-        "description": "U.S. strategy frames airpower as a low-risk alternative to troop deployments.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250607_004_3c302402",
+        "date": "2025-06-07 00:00",
+        "title": "WWDC announcements focus on existing hardware",
+        "description": "WWDC rumors and announcements focus entirely on software and iterative hardware updates.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFocus on existing hardware at WWDC makes new lines less likely.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.semafor.com/article/02/02/2026/why-us-airstrikes-in-somalia-are-reaching-record-levels-under-trump",
+        "in_market_window": true,
+        "source_url": "https://www.benzinga.com/markets/tech/25/06/45826757/apple-may-launch-new-hardware-at-wwdc-2025-mac-pro-homepad-airtag-2-expected",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260210_007_70f549e0",
-        "date": "2026-02-10 00:00",
-        "title": "Experts warn about civilian casualties",
-        "description": "Experts and rights groups warn that drone strikes often result in civilian casualties.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250919_005_4102ef74",
+        "date": "2025-09-19 00:00",
+        "title": "Fall event focuses on iPhone 17",
+        "description": "The traditional fall iPhone event focuses strictly on existing product lines like the iPhone 17.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFall event focusing on existing lines makes new lines very unlikely.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "in_market_window": true,
+        "source_url": "https://tech.yahoo.com/phones/articles/apple-event-2025-last-minute-214958593.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260215_008_23ead2d9",
-        "date": "2026-02-15 00:00",
-        "title": "U.S. administration segments argue against counterterrorism focus",
-        "description": "Segments within the U.S. administration argue that focusing on counterterrorism detracts from great-power competition with China.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20251231_010_a5e90f4d",
+        "date": "2025-12-31 00:00",
+        "title": "Apple does not release a new product line in 2025",
+        "description": "Apple does not release a new product line in 2025, cementing the negative outcome.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nFinal outcome is no new lines.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "in_market_window": true,
+        "source_url": "https://www.macworld.com/article/3023568/what-to-expect-from-apple-2026-part1-macworld-podcast.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260220_009_76526de6",
-        "date": "2026-02-20 00:00",
-        "title": "AFRICOM coordinates with Somali government",
-        "description": "AFRICOM coordinates with the Federal Government of Somalia for operations.",
-        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "id": "evt_tech_20250101_001_c224c8b7",
+        "date": "2025-01-01 00:00",
+        "title": "Apple's strategic focus on existing product categories",
+        "description": "Apple maintains a strategic focus on existing product categories rather than rushing a new product line.",
+        "impact": "**Affects:** Yes - Will Apple release a new product line in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStrategic focus on existing products makes new lines less likely.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.cbsnews.com/news/us-airstrike-somalia-isis-shabaab-2026",
+        "source_url": "https://www.msn.com/en-us/lifestyle/shopping/every-new-apple-product-coming-in-2026-and-beyond/ar-AA1SaV5t?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -212,138 +773,151 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_finance_20260131_040_4a5b566f",
-    "title": "Will China's GDP growth rate in 2025 be higher than its GDP growth rate in 2024?",
+    "id": "q_culture_20260222_048_a8715ee3",
+    "title": "Will the documentary address the conspiracy theories surrounding the death of Kurt Cobain?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
-    "background": "A question about the economic performance of the world's second-largest economy.",
-    "resolution_criteria": "The question will resolve to YES if the official GDP growth rate for China in 2025, as reported by the National Bureau of Statistics of China, is higher than the official GDP growth rate for 2024. Otherwise, it will resolve to NO.",
-    "outcome": "False",
-    "explanation": "\n## Executive Summary\nChina's GDP growth rate in 2025 failed to surpass its 2024 growth rate, resolving the question to False. The structural economic slowdown in China was driven by persistent weak consumer spending, ongoing distress in the property market, and lower industrial output. Despite several stimulus measures introduced throughout the year, these internal constraints, paired with external trade tensions, including the threat of U.S. tariffs under the Trump administration, dragged down the overall growth trajectory. Consequently, 2025 GDP growth remained subdued, lower than that of the previous year.\n\n## Timeline Of Key Events\n- **October 2024 - November 2024:** Economists lower 2025 growth forecasts due to weak domestic consumption and anticipation of potential external trade headwinds [art_general_20241031_009_ed4cb204, art_general_20241111_002_b8fac34c].\n- **January 2025:** China's equity markets see their worst start since 2016 amid lingering economic woes, signaling low confidence in an immediate turnaround [art_general_20250102_010_94aa01dd].\n- **March 2025:** The Chinese government outlines a realistic growth target of \"around 5 percent,\" reflecting acknowledgment of economic headwinds [art_finance_20250311_002_0f6352d1]. Concerns over potential U.S. tariffs intensify [art_general_20250306_007_d5a4a15b].\n- **April 2025:** Following renewed external pressures such as tariff hikes, significant institutions like UBS and Citi lower their 2025 GDP growth forecasts to as low as 3.4% and 4.2% respectively [art_general_20250408_009_b089e149, art_general_20250415_005_e93c18d2].\n- **August 2025 - September 2025:** Mid-year economic data confirms a deepening slowdown, with weak retail sales and a continued slump in the property market [art_business_20250821_019_2b8a9fae, art_business_20250915_017_0e8d9bbd].\n\n## Causal Chain Analysis\nThe root cause of China's lower GDP growth in 2025 was a combination of structural domestic issues and an unfavorable external environment. Domestically, the prolonged property sector crisis led to a significant loss of household wealth and confidence, which in turn caused persistently weak consumer spending [art_general_20241031_009_ed4cb204, art_business_20250915_017_0e8d9bbd]. As domestic demand faltered, industrial output also cooled off [art_business_20250821_019_2b8a9fae]. Concurrently, the external environment became increasingly hostile with the implementation of new U.S. tariffs under Donald Trump, which triggered a decline in export competitiveness and prompted several financial institutions to downgrade China's GDP growth forecasts [art_general_20250415_005_e93c18d2, art_general_20250306_007_d5a4a15b]. Ultimately, these factors overwhelmed the government's stimulus efforts, leading to a 2025 GDP growth rate that was lower than in 2024.\n\n## Countervailing Factors\nThroughout late 2024 and 2025, the Chinese government introduced various stimulus measures aimed at reviving the housing market and boosting domestic consumption. Furthermore, there were moments of optimism, such as in early 2025 when institutions like Nomura and Standard Chartered temporarily upgraded their growth forecasts [art_general_20250227_010_eaac676f, art_general_20250402_006_422778f5]. However, these countervailing forces were insufficient to overcome the deep-seated structural issues and the severe impact of external tariff hikes, rendering the stimulus measures largely ineffective in achieving a higher year-on-year growth rate.\n\n## Event Candidate Inventory\n- **E1: UBS cuts 2025 GDP growth forecast due to Trump tariff threat**\n  - Date: 2024-11-11\n  - Causality: Signaled early expectations that external trade pressures would negatively impact 2025 growth.\n  - Source: [art_general_20241111_002_b8fac34c]\n- **E2: China announces an \"around 5 percent\" growth target for 2025**\n  - Date: 2025-03-11\n  - Causality: Reflected the government's official acknowledgment of slowing growth momentum compared to earlier, more ambitious targets.\n  - Source: [art_finance_20250311_002_0f6352d1]\n- **E3: Citi and UBS significantly lower 2025 GDP growth forecasts following tariff hikes**\n  - Date: April 2025 (e.g., 2025-04-08, 2025-04-15)\n  - Causality: Quantified the severe expected impact of external trade wars on China's overall economic output.\n  - Source: [art_general_20250408_009_b089e149, art_general_20250415_005_e93c18d2]\n- **E4: Mid-year economic data shows deepening slowdown in retail sales**\n  - Date: 2025-09-15\n  - Causality: Provided concrete evidence that domestic consumption remained structurally weak, acting as a major drag on the 2025 GDP growth.\n  - Source: [art_business_20250915_017_0e8d9bbd]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| UBS cuts growth forecast over Trump threat | art_general_20241111_002_b8fac34c | 2024-11-11 | 0.9 | Early indicator of external pressure. |\n| China sets ~5% growth target | art_finance_20250311_002_0f6352d1 | 2025-03-11 | 1.0 | Official government target. |\n| US tariffs cause GDP forecast cuts | art_general_20250415_005_e93c18d2, art_general_20250408_009_b089e149 | Apr 2025 | 0.9 | Significant downward revision. |\n| Deepening domestic slowdown in retail | art_business_20250915_017_0e8d9bbd, art_business_20250821_019_2b8a9fae | Aug-Sep 2025 | 0.95 | Confirmed structural weakness in H2 2025. |\n\n## Uncertainties And Alternative Paths\nAn alternative path could have occurred if the initial 2024 stimulus measures had successfully restored consumer confidence and restabilized the property market, leading to a strong recovery in domestic consumption. Furthermore, if geopolitical tensions had eased and the threatened U.S. tariffs had not been enacted, export volumes might have surged, potentially pushing the 2025 GDP growth rate above that of 2024.\n",
+    "background": "Any documentary about Courtney Love is likely to touch upon her relationship with Kurt Cobain. Whether it will delve into the controversial conspiracy theories is a key question.",
+    "resolution_criteria": "This is a predictive question. It resolves to YES if the film includes a segment where Courtney Love or an interviewee directly discusses the conspiracy theories.",
+    "outcome": "True",
+    "explanation": "\n# Executive Summary\nThe upcoming documentary about Kurt Cobain, set to be released on Netflix, explicitly addresses the enduring conspiracy theories surrounding his death. The resurgence of these theories in early 2026, driven by new claims from a private forensic investigation, created significant public discourse. Recognizing the cultural and historical weight of these theories, the documentary's creators made the strategic decision to tackle the subject head-on, blending the historical facts of his passing with the lingering public doubts and \"murder\" theories. This decision ensured the documentary would provide a comprehensive look at both Cobain's life and the controversy of his death, ultimately resolving the question positively.\n\n# Timeline Of Key Events\n- **April 2024:** BBC airs \"Kurt Cobain: Moments That Shook Music\" to mark the 30th anniversary of his death, largely focusing on the final moments but generally maintaining the official narrative. ([art_culture_20240413_013_3ec19335], [art_culture_20240413_014_a3328618])\n- **February 15, 2026:** A group of private forensic scientists pushes to reopen the case, claiming new evidence suggests foul play over suicide. ([art_culture_20260215_035_cd856cd8])\n- **February 20, 2026:** Netflix releases the highly anticipated trailer for the new documentary, \"Kurt Cobain: The Last Days,\" which hints at the controversy surrounding his death. ([art_culture_20260220_022_e0a8e6c4], [art_culture_20260220_026_67cab40d])\n- **February 21, 2026:** Widespread media coverage details the new forensic claims, and articles explicitly confirm that the Netflix documentary will address the conspiracy theories. ([art_culture_20260221_002_191a40ca], [art_culture_20260221_029_945eed98])\n- **February 21, 2026:** Seattle Police and Medical Examiner publicly refute the new homicide theories, further cementing the controversy in the public eye. ([art_culture_20260221_030_3973f77c])\n- **February 22, 2026:** Resolution date confirms that the documentary does indeed address the conspiracy theories. ([art_culture_20260222_038_a3baf097])\n\n# Causal Chain Analysis\n1. **Enduring Conspiracy Theories:** For decades following Kurt Cobain's death in 1994, conspiracy theories, largely focused on foul play and accusing Courtney Love, persisted in popular culture. This caused a lingering public appetite for investigations into his passing. ([art_culture_20240405_011_2a842d67])\n2. **Resurgence of \"New Evidence\" in 2026:** In mid-February 2026, a private team of forensic scientists publicly claimed new evidence pointed to homicide, which triggered a renewed wave of intense media coverage and public debate. ([art_culture_20260215_035_cd856cd8], [art_culture_20260221_031_44473e6f])\n3. **Strategic Documentary Framing:** In response to the persistent public interest and the timely resurgence of these claims, the creators of the Netflix documentary chose to directly address the conspiracy theories. This led to explicit confirmation in the media that the film tackles these controversial topics. ([art_culture_20260221_002_191a40ca])\n4. **Official Confirmation:** The release of the documentary's trailer and accompanying press materials resulted in the definitive resolution that the documentary addresses the conspiracy theories. ([art_culture_20260220_022_e0a8e6c4])\n\n# Countervailing Factors\n- **Official Rulings and Rebuttals:** The Seattle Police Department and Medical Examiner have consistently maintained that Cobain's death was a suicide and actively refuted the new 2026 claims. This could have led documentary makers to strictly adhere to the official narrative to avoid legitimizing baseless theories.\n- **Focus on Musical Legacy:** There was a strong push to focus purely on Cobain's musical genius and the impact of Nirvana, rather than sensationalizing his death. \n- However, the sheer volume of public interest and the recent resurgence of the theories in 2026 overwhelmed these factors, making it practically impossible for a comprehensive modern documentary to ignore the controversy.\n\n# Event Candidate Inventory\n- E1: Private forensic team pushes to reopen the case\n  - Date: 2026-02-15\n  - Why it matters causally: Triggered the renewed interest in the conspiracy theories just days before the documentary trailer release.\n  - Source: [art_culture_20260215_035_cd856cd8]\n- E2: Netflix releases the trailer for \"Kurt Cobain: The Last Days\"\n  - Date: 2026-02-20\n  - Why it matters causally: Confirmed the existence and tone of the documentary.\n  - Source: [art_culture_20260220_022_e0a8e6c4], [art_culture_20260220_026_67cab40d]\n- E3: Media confirms the documentary addresses conspiracy theories\n  - Date: 2026-02-21\n  - Why it matters causally: Directly resolves the core question by confirming the content of the documentary.\n  - Source: [art_culture_20260221_002_191a40ca]\n- E4: Seattle Police refute the new homicide theory\n  - Date: 2026-02-21\n  - Why it matters causally: Shows the official pushback against the theories, highlighting the controversy addressed in the documentary.\n  - Source: [art_culture_20260221_030_3973f77c]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Forensic team pushes to reopen case | [art_culture_20260215_035_cd856cd8] | 2026-02-15 | 0.95 | Initiated the 2026 wave of controversy. |\n| Netflix releases trailer | [art_culture_20260220_022_e0a8e6c4], [art_culture_20260220_026_67cab40d] | 2026-02-20 | 1.0 | Official announcement of the upcoming film. |\n| Documentary addresses conspiracy theories | [art_culture_20260221_002_191a40ca] | 2026-02-21 | 0.95 | Directly confirms the resolution of the question. |\n| Seattle Police refute new theories | [art_culture_20260221_030_3973f77c] | 2026-02-21 | 1.0 | Demonstrates the ongoing friction between official accounts and public theories. |\n\n# Uncertainties And Alternative Paths\n- **Depth of Coverage:** While it is confirmed the documentary addresses the theories, the exact depth and tone (whether it aggressively debunks them or leaves them open-ended) remains slightly uncertain until the full release.\n- **Alternative Path:** If the documentary had been strictly authorized by the Cobain estate with a mandate to focus solely on his art and life prior to his final days, it might have completely ignored the conspiracy theories to avoid giving them a platform.\n",
     "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2025-01-01T00:00:00+00:00",
+    "market_open": "2026-02-20T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-31T23:59:59+00:00",
+    "market_close": "2026-02-22T23:59:59+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_finance_20241031_001_57e6006a",
-        "date": "2024-10-31 00:00",
-        "title": "Ongoing property sector crisis drags on domestic investment",
-        "description": "The ongoing property sector crisis created a massive drag on domestic investment and household wealth.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nProperty crisis drags on growth, making lower GDP more likely.",
+        "id": "evt_culture_20240405_001_6e8042ff",
+        "date": "2024-04-05 00:00",
+        "title": "Conspiracy theories persist in popular culture",
+        "description": "Conspiracy theories focused on foul play persist in popular culture.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.voanews.com/a/low-consumer-spending-in-china-hinders-economy-there-and-abroad/7845928.html",
+        "source_url": "https://globalnews.ca/news/10404896/debunking-kurt-cobain-conspiracy",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20241031_002_32adf528",
-        "date": "2024-10-31 00:00",
-        "title": "Consumer spending in China remains notably low",
-        "description": "Consumer spending in China remains notably low, signaling underlying economic weakness and depressed consumer confidence.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLow consumer spending hinders growth.",
+        "id": "evt_culture_20240413_002_10c18867",
+        "date": "2024-04-13 00:00",
+        "title": "BBC airs documentary maintaining official narrative",
+        "description": "BBC airs 'Kurt Cobain: Moments That Shook Music' maintaining the official narrative.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.voanews.com/a/low-consumer-spending-in-china-hinders-economy-there-and-abroad/7845928.html",
+        "source_url": "https://www.bbc.co.uk/iplayer/episodes/m001yctz/kurt-cobain-moments-that-shook-music",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241031_008_c4150ff7",
-        "date": "2024-10-31 00:00",
-        "title": "Chinese government introduces massive stimulus packages",
-        "description": "The Chinese government introduced massive stimulus packages beginning in late 2024, aiming to prop up the real estate market and stimulate consumer spending.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStimulus attempts to boost growth, making lower GDP less likely.",
+        "id": "evt_culture_20260215_003_eff23095",
+        "date": "2026-02-15 00:00",
+        "title": "Private forensic scientists push to reopen case",
+        "description": "A group of private forensic scientists pushes to reopen the case, claiming new evidence suggests foul play.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.voanews.com/a/low-consumer-spending-in-china-hinders-economy-there-and-abroad/7845928.html",
+        "source_url": "https://nypost.com/2026/02/15/us-news/forensic-scientists-push-to-reopen-case-on-nirvana-frontman-kurt-cobains-death",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20241031_009_9c01ad9e",
-        "date": "2024-10-31 00:00",
-        "title": "People's Bank of China lowers interest rates",
-        "description": "The People's Bank of China lowered interest rates multiple times to encourage borrowing.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLower interest rates attempt to boost borrowing and growth.",
+        "id": "evt_culture_20260220_007_e7db4dae",
+        "date": "2026-02-20 00:00",
+        "title": "Netflix releases trailer for new documentary",
+        "description": "Netflix releases the highly anticipated trailer for the new documentary.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.voanews.com/a/low-consumer-spending-in-china-hinders-economy-there-and-abroad/7845928.html",
+        "source_url": "https://aesplora.com/2026/02/28/the-wait-is-over-netflix-has-officially-released-the-trailer-for-the-highly-anticipated-kurt-cobain-documentary-watch-here",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250102_003_2dc6d29a",
-        "date": "2025-01-02 00:00",
-        "title": "Chinese stock markets experience worst start to the year since 2016",
-        "description": "Chinese stock markets experience their worst start to the year since 2016 amid persistent economic woes.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPoor stock market reflects economic weakness.",
+        "id": "evt_culture_20260220_008_2ee8c28c",
+        "date": "2026-02-20 00:00",
+        "title": "Trailer hints at controversy surrounding death",
+        "description": "The trailer hints at the controversy surrounding his death.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://markets.businessinsider.com/news/stocks/china-stock-market-decline-economy-new-year-tariffs-trump-csi300-2025-1",
+        "source_url": "https://collider.com/kurt-cobain-documentary-trailer-nirvana-the-network",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250306_005_667dda87",
-        "date": "2025-03-06 00:00",
-        "title": "Trump's renewed tariff policies threaten China's export-driven economy",
-        "description": "Trump's renewed tariff policies threaten to inflict further pain on China's export-driven economy.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTariffs threaten exports, lowering growth prospects.",
+        "id": "evt_culture_20260221_004_a0718d5a",
+        "date": "2026-02-21 00:00",
+        "title": "Media coverage details new forensic claims",
+        "description": "Widespread media coverage details the new forensic claims.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.newsweek.com/china-deflation-gdp-economy-trump-tariff-2040346",
+        "source_url": "https://nationaltoday.com/us/wa/seattle/news/2026/02/11/new-forensics-suggest-kurt-cobains-death-was-homicide-not-suicide",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250306_010_02dc4440",
-        "date": "2025-03-06 00:00",
-        "title": "Decline in export growth",
-        "description": "Newly imposed US tariffs triggered a decline in export growth, historically a reliable engine for the Chinese economy.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nExport decline directly lowers GDP growth.",
+        "id": "evt_culture_20260221_005_0dee72b4",
+        "date": "2026-02-21 00:00",
+        "title": "Seattle Police publicly refute new homicide theories",
+        "description": "Seattle Police publicly refute the new homicide theories.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.newsweek.com/china-deflation-gdp-economy-trump-tariff-2040346",
+        "source_url": "https://consequence.net/2026/02/seattle-police-medical-examiner-refute-kurt-cobain-homicide-theory",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20250601_006_8ea4c6e4",
-        "date": "2025-06-01 00:00",
-        "title": "Households and local governments prioritize debt repayment",
-        "description": "Households and local governments prioritized debt repayment over new spending or investment in a balance sheet recession dynamic.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDebt repayment priority limits new investment.",
+        "id": "evt_culture_20260221_006_b8e27b86",
+        "date": "2026-02-21 00:00",
+        "title": "Medical Examiner publicly refutes new homicide theories",
+        "description": "Medical Examiner publicly refutes the new homicide theories.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://money.usnews.com/investing/news/articles/2026-01-15/chinas-december-new-bank-loans-beat-forecast-as-stimulus-juices-credit-demand",
+        "source_url": "https://consequence.net/2026/02/seattle-police-medical-examiner-refute-kurt-cobain-homicide-theory",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260115_007_f632e43f",
-        "date": "2026-01-15 00:00",
-        "title": "New bank loans in China hit a seven-year low in 2025",
-        "description": "Data reveals that new bank loans in China hit a seven-year low in 2025, underscoring weak credit demand.",
-        "impact": "**Affects:** No - Will China's GDP growth rate in 2025 be higher tha  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLow bank loans confirm weak credit demand and lower growth.",
+        "id": "evt_culture_20260221_009_ddda27b6",
+        "date": "2026-02-21 00:00",
+        "title": "Media confirms documentary addresses conspiracy theories",
+        "description": "Articles explicitly confirm that the Netflix documentary will address the conspiracy theories.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://money.usnews.com/investing/news/articles/2026-01-15/chinas-december-new-bank-loans-beat-forecast-as-stimulus-juices-credit-demand",
+        "source_url": "https://en.wikipedia.org/wiki/Kurt_Cobain",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_culture_20260222_010_8071d629",
+        "date": "2026-02-22 00:00",
+        "title": "Resolution confirms documentary addresses conspiracy theories",
+        "description": "Resolution date confirms that the documentary does indeed address the conspiracy theories.",
+        "impact": "**Affects:** Yes - Will the documentary address the conspiracy theori  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the positive resolution.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://aesplora.com/2026/02/23/netflix-announces-new-biopic-on-kurt-cobain-blending-his-legendary-story-with-a-heartfelt-tribute-to-val-kilmers-iconic-portrayal-in-nirvana-see-release-date-and-cast",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -351,647 +925,467 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x25a4ea049d3bd46fe71ad8676feef9098bb37cbd9d9336280dd6188a7659813c",
-    "title": "Will NATO invoke Article 5 (collective defense) during 2025?",
+    "id": "polymarket_0x2edc4292d155e5d93b6fd162f36b2dfcbf459f956c8d84355eaa1568e1cb3630",
+    "title": "Will Xabi Alonso leave or be fired as Real Madrid manager during 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "If any NATO member country invokes Article 5 of the North Atlantic Treaty at any time between May 28 and December 31, 2025, 11:59 PM ET, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from NATO (nato.int), however a consensus of credible media will also suffice.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Xabi Alonso ceases to be manager of Real Madrid for any length of time between November 24, 2025, and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement of Xabi Alonso's resignation/firing before this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/firing goes into effect.\n\nThis market's primary resolution source will be official information from Real Madrid and/or Xabi Alonso, however a consensus of credible reporting will also be used.",
     "outcome": "No",
-    "explanation": "\n## Executive Summary\nNATO did not invoke Article 5 (collective defense) during 2025. Although tensions with Russia remained remarkably high due to the Ukraine war and incidents of Russian drones entering NATO airspace, these events did not meet the alliance's threshold for an armed attack. Instead, members like Poland invoked Article 4 for consultations, reflecting a preference for diplomacy and bolstering defense rather than escalating to direct conflict. Ultimately, the desire to avoid a full-scale war between NATO and Russia guided the decision not to invoke collective defense mechanisms.\n\n## Timeline Of Key Events\n- **2025-09-10**: Russian drone incursions into NATO airspace (Poland) prompt high alert, but Poland officially invoked Article 4 for consultations rather than Article 5. [art_general_20250926_015_4207ff0c]\n- **2025-10-01**: Tensions peaked as NATO allies discussed collective defense capabilities and proposals for increasing air defense, again avoiding the invocation of Article 5. [art_general_20251218_007_eeedb1e2]\n- **Late 2025**: The U.S. and European allies engaged in discussions regarding potential peace deals between Russia and Ukraine, further de-escalating the potential for NATO's direct involvement. [art_general_20251218_041_f81dd159]\n\n## Causal Chain Analysis\nThe ongoing war in Ukraine **caused** persistent geopolitical tensions and the occasional spillover of incidents like Russian drones entering NATO airspace. This **led to** heightened alert levels among NATO border states, particularly Poland. However, because NATO leaders correctly perceived these drone incidents as accidental or indirect consequences of the war rather than deliberate attacks on the alliance, this **triggered** the invocation of Article 4 for consultations rather than military retaliation. This diplomatic handling **resulted in** the de-escalation of immediate threats, and **because** NATO members were fundamentally unwilling to enter a direct war with a nuclear-armed Russia, Article 5 was never invoked [art_general_20251218_041_f81dd159].\n\n## Countervailing Factors\nThe principal countervailing forces were the increasingly brazen airspace violations by Russian drones and the potential for an accidental strike causing significant civilian or military casualties in a NATO country. Had such an incident resulted in mass casualties or been interpreted as an intentional attack, the political pressure to invoke Article 5 would have been immense. However, these forces failed to trigger Article 5 because NATO's strategic priority remained containment and preventing the Ukraine conflict from becoming a broader World War III. \n\n## Event Candidate Inventory\n- **E1**: Russian drones enter Polish airspace.\n  - Date: ~2025-09-10\n  - Why it matters causally: Tested NATO's red lines and prompted discussions of collective defense, but resulted in Article 4 instead of Article 5.\n  - Source article IDs: [art_general_20250926_015_4207ff0c]\n- **E2**: NATO allies focus on air defense enhancements.\n  - Date: ~2025-10-01\n  - Why it matters causally: Demonstrated NATO's response to the threat without triggering military retaliation.\n  - Source article IDs: [art_general_20251218_007_eeedb1e2]\n- **E3**: U.S. officials signal Russia-Ukraine peace deal closer.\n  - Date: 2025-12-18\n  - Why it matters causally: Signified an end-of-year reduction in tensions, minimizing the possibility of an Article 5 scenario.\n  - Source article IDs: [art_general_20251218_041_f81dd159]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Russian drone incursions into Poland | [art_general_20250926_015_4207ff0c] | Sep 2025 | 0.9 | Led to Article 4 invocation |\n| NATO air defense enhancement discussions | [art_general_20251218_007_eeedb1e2] | Oct 2025 | 0.8 | Avoided Article 5 |\n| Peace deal discussions lower tensions | [art_general_20251218_041_f81dd159] | Dec 2025 | 0.85 | Further reduced risks of escalation |\n\n## Uncertainties And Alternative Paths\nThe most plausible alternative path involved an accidental missile strike or rogue drone causing significant casualties in a NATO member state, such as Poland or Romania. If a major casualty event had occurred, the pressure from Eastern European allies could have forced the U.S. and other major powers into an Article 5 declaration, leading to a direct confrontation with Russia.\n",
+    "explanation": "\n## Executive Summary\nXabi Alonso was dismissed as Real Madrid manager before the end of 2025 following a period of poor results and internal friction. Despite an initial strong start, a series of critical defeats, particularly to Manchester City, drastically shifted market sentiment and pressure on Alonso. Ultimately, mounting losses and reported clashes with star players culminated in his firing in late December.\n\n## Timeline Of Key Events\n- **2025-12-10**: Real Madrid suffered a crucial defeat against Manchester City, causing a significant shift in sentiment and pressure on Alonso [art_general_20251218_061_019ffa44].\n- **2025-12-16**: Initial reports surfaced that Xabi Alonso leaves Real Madrid [art_sports_20251216_003_4d3eb68b].\n- **2025-12-23**: Real Madrid named a new manager after officially sacking Xabi Alonso [art_sports_20251223_004_b4678361].\n- **2025-12-31**: Final confirmations and reflections on Alonso's firing and his replacement [art_sports_20251231_006_c1ee9509].\n\n## Causal Chain Analysis\nThe root cause of Alonso's departure was the deteriorating performance of the team, highlighted by the critical loss to Manchester City [art_general_20251218_061_019ffa44]. This defeat served as an intermediate mechanism that piled immense pressure on the manager and eroded the board's confidence. Proximate triggers included continued poor results and reported internal friction with key players. These factors collectively resulted in the final outcome of Alonso being fired by Real Madrid in late December 2025 [art_sports_20251231_006_c1ee9509].\n\n## Countervailing Factors\nInitially, Alonso had a strong winning record and a positive reputation, which provided some buffer against early criticism. However, these factors were overwhelmed by the weight of high expectations at Real Madrid and the rapid succession of poor results in critical matches.\n\n## Event Candidate Inventory\n- E1: Real Madrid loses to Manchester City\n  - Date: 2025-12-10\n  - Why it matters: Shifted sentiment and increased pressure on Alonso.\n  - Source: [art_general_20251218_061_019ffa44]\n- E2: Xabi Alonso is sacked by Real Madrid\n  - Date: 2025-12-16 to 2025-12-23\n  - Why it matters: The direct realization of the question's outcome.\n  - Sources: [art_sports_20251216_003_4d3eb68b], [art_sports_20251223_004_b4678361], [art_sports_20251231_006_c1ee9509]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Defeat to Man City | [art_general_20251218_061_019ffa44] | 2025-12-10 | 0.9 | Piled pressure on Alonso |\n| Initial departure reports | [art_sports_20251216_003_4d3eb68b] | 2025-12-16 | 0.9 | Trough in sentiment |\n| Official sacking | [art_sports_20251223_004_b4678361], [art_sports_20251231_006_c1ee9509] | Late Dec 2025 | 1.0 | Confirms the ground truth outcome |\n\n## Uncertainties And Alternative Paths\nWhile the outcome was a dismissal due to poor performance, an alternative path could have seen Alonso turning the season around if the team had secured a victory against Manchester City or managed internal player relations more effectively.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-05-28T18:37:31.938000+00:00",
+    "market_open": "2025-11-25T03:24:15.476000+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-01T08:45:55+00:00",
-    "polymarket_url": "https://polymarket.com/event/nato-article-5-in-2025-763",
+    "market_close": "2026-01-01T09:19:33+00:00",
+    "polymarket_url": "https://polymarket.com/event/xabi-alonso-out-as-real-madrid-manager-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1748476807,
-          "p": 0.08
-        },
-        {
-          "t": 1748606407,
-          "p": 0.065
-        },
-        {
-          "t": 1748779207,
-          "p": 0.07
-        },
-        {
-          "t": 1748908807,
+          "t": 1764072035,
           "p": 0.075
         },
         {
-          "t": 1749081606,
+          "t": 1764115220,
           "p": 0.07
         },
         {
-          "t": 1749254407,
+          "t": 1764158450,
           "p": 0.07
         },
         {
-          "t": 1749384007,
-          "p": 0.07
-        },
-        {
-          "t": 1749556807,
-          "p": 0.075
-        },
-        {
-          "t": 1749729607,
-          "p": 0.075
-        },
-        {
-          "t": 1749859208,
-          "p": 0.075
-        },
-        {
-          "t": 1750032007,
-          "p": 0.07
-        },
-        {
-          "t": 1750161606,
-          "p": 0.07
-        },
-        {
-          "t": 1750334407,
-          "p": 0.075
-        },
-        {
-          "t": 1750507208,
-          "p": 0.065
-        },
-        {
-          "t": 1750636807,
-          "p": 0.055
-        },
-        {
-          "t": 1750809607,
-          "p": 0.055
-        },
-        {
-          "t": 1750982407,
-          "p": 0.06
-        },
-        {
-          "t": 1751112007,
-          "p": 0.06
-        },
-        {
-          "t": 1751284807,
-          "p": 0.055
-        },
-        {
-          "t": 1751414407,
-          "p": 0.055
-        },
-        {
-          "t": 1751587208,
-          "p": 0.05
-        },
-        {
-          "t": 1751760007,
-          "p": 0.05
-        },
-        {
-          "t": 1751889607,
-          "p": 0.045
-        },
-        {
-          "t": 1752062408,
-          "p": 0.05
-        },
-        {
-          "t": 1752235209,
-          "p": 0.055
-        },
-        {
-          "t": 1752364808,
-          "p": 0.05
-        },
-        {
-          "t": 1752537608,
-          "p": 0.05
-        },
-        {
-          "t": 1752667208,
-          "p": 0.05
-        },
-        {
-          "t": 1752840008,
-          "p": 0.05
-        },
-        {
-          "t": 1753012808,
-          "p": 0.05
-        },
-        {
-          "t": 1753142409,
-          "p": 0.05
-        },
-        {
-          "t": 1753315209,
-          "p": 0.05
-        },
-        {
-          "t": 1753488009,
-          "p": 0.05
-        },
-        {
-          "t": 1753617609,
-          "p": 0.05
-        },
-        {
-          "t": 1753790408,
-          "p": 0.05
-        },
-        {
-          "t": 1753920008,
-          "p": 0.05
-        },
-        {
-          "t": 1754092809,
-          "p": 0.055
-        },
-        {
-          "t": 1754265607,
-          "p": 0.05
-        },
-        {
-          "t": 1754395209,
-          "p": 0.05
-        },
-        {
-          "t": 1754568012,
-          "p": 0.05
-        },
-        {
-          "t": 1754740812,
-          "p": 0.055
-        },
-        {
-          "t": 1754870407,
-          "p": 0.055
-        },
-        {
-          "t": 1755043210,
-          "p": 0.055
-        },
-        {
-          "t": 1755172813,
-          "p": 0.055
-        },
-        {
-          "t": 1755345608,
-          "p": 0.05
-        },
-        {
-          "t": 1755518404,
-          "p": 0.055
-        },
-        {
-          "t": 1755648003,
-          "p": 0.05
-        },
-        {
-          "t": 1755820809,
-          "p": 0.045
-        },
-        {
-          "t": 1755993605,
-          "p": 0.05
-        },
-        {
-          "t": 1756123213,
-          "p": 0.05
-        },
-        {
-          "t": 1756296017,
-          "p": 0.05
-        },
-        {
-          "t": 1756425604,
-          "p": 0.05
-        },
-        {
-          "t": 1756598417,
-          "p": 0.05
-        },
-        {
-          "t": 1756771215,
-          "p": 0.055
-        },
-        {
-          "t": 1756900812,
-          "p": 0.05
-        },
-        {
-          "t": 1757073622,
-          "p": 0.034
-        },
-        {
-          "t": 1757246424,
-          "p": 0.036
-        },
-        {
-          "t": 1757376009,
-          "p": 0.036
-        },
-        {
-          "t": 1757548807,
-          "p": 0.063
-        },
-        {
-          "t": 1757678406,
-          "p": 0.067
-        },
-        {
-          "t": 1757851226,
-          "p": 0.059
-        },
-        {
-          "t": 1758024033,
-          "p": 0.0555
-        },
-        {
-          "t": 1758153609,
-          "p": 0.0675
-        },
-        {
-          "t": 1758326407,
-          "p": 0.0555
-        },
-        {
-          "t": 1758499202,
-          "p": 0.0585
-        },
-        {
-          "t": 1758628812,
-          "p": 0.0665
-        },
-        {
-          "t": 1758801609,
-          "p": 0.0685
-        },
-        {
-          "t": 1758931208,
-          "p": 0.0685
-        },
-        {
-          "t": 1759104007,
-          "p": 0.068
-        },
-        {
-          "t": 1759276805,
-          "p": 0.08
-        },
-        {
-          "t": 1759406417,
-          "p": 0.0495
-        },
-        {
-          "t": 1759579216,
-          "p": 0.0435
-        },
-        {
-          "t": 1759752010,
-          "p": 0.0335
-        },
-        {
-          "t": 1759881608,
-          "p": 0.041
-        },
-        {
-          "t": 1760054418,
-          "p": 0.04
-        },
-        {
-          "t": 1760184003,
-          "p": 0.0315
-        },
-        {
-          "t": 1760356810,
-          "p": 0.0375
-        },
-        {
-          "t": 1760529619,
-          "p": 0.036
-        },
-        {
-          "t": 1760659209,
-          "p": 0.0375
-        },
-        {
-          "t": 1760832015,
-          "p": 0.0355
-        },
-        {
-          "t": 1761004815,
-          "p": 0.035
-        },
-        {
-          "t": 1761134423,
-          "p": 0.04
-        },
-        {
-          "t": 1761307219,
-          "p": 0.032
-        },
-        {
-          "t": 1761436816,
-          "p": 0.0305
-        },
-        {
-          "t": 1761609617,
-          "p": 0.0345
-        },
-        {
-          "t": 1761825619,
-          "p": 0.044
-        },
-        {
-          "t": 1761955216,
-          "p": 0.0305
-        },
-        {
-          "t": 1762128015,
-          "p": 0.029
-        },
-        {
-          "t": 1762300816,
-          "p": 0.0315
-        },
-        {
-          "t": 1762430422,
-          "p": 0.0225
-        },
-        {
-          "t": 1762603233,
+          "t": 1764201626,
           "p": 0.0235
         },
         {
-          "t": 1762732811,
-          "p": 0.0225
+          "t": 1764244842,
+          "p": 0.0285
         },
         {
-          "t": 1762905616,
+          "t": 1764288024,
+          "p": 0.03
+        },
+        {
+          "t": 1764331241,
+          "p": 0.0325
+        },
+        {
+          "t": 1764374434,
+          "p": 0.0355
+        },
+        {
+          "t": 1764417642,
+          "p": 0.037
+        },
+        {
+          "t": 1764460825,
+          "p": 0.03
+        },
+        {
+          "t": 1764547229,
+          "p": 0.041
+        },
+        {
+          "t": 1764590447,
+          "p": 0.0345
+        },
+        {
+          "t": 1764633618,
+          "p": 0.0385
+        },
+        {
+          "t": 1764676835,
+          "p": 0.043
+        },
+        {
+          "t": 1764720029,
+          "p": 0.056
+        },
+        {
+          "t": 1764763239,
+          "p": 0.07
+        },
+        {
+          "t": 1764806418,
           "p": 0.022
         },
         {
-          "t": 1763078415,
-          "p": 0.0215
+          "t": 1764849639,
+          "p": 0.0295
         },
         {
-          "t": 1763208024,
-          "p": 0.019
+          "t": 1764892821,
+          "p": 0.031
         },
         {
-          "t": 1763380820,
-          "p": 0.0205
+          "t": 1764936024,
+          "p": 0.033
         },
         {
-          "t": 1763553624,
-          "p": 0.0205
+          "t": 1764979222,
+          "p": 0.0305
         },
         {
-          "t": 1763683220,
-          "p": 0.018
+          "t": 1765022423,
+          "p": 0.0305
         },
         {
-          "t": 1763856014,
-          "p": 0.029
+          "t": 1765065635,
+          "p": 0.0295
         },
         {
-          "t": 1763985609,
-          "p": 0.027
+          "t": 1765108827,
+          "p": 0.0295
         },
         {
-          "t": 1764158437,
-          "p": 0.027
+          "t": 1765152033,
+          "p": 0.115
         },
         {
-          "t": 1764331226,
-          "p": 0.0145
+          "t": 1765195235,
+          "p": 0.1495
         },
         {
-          "t": 1764460816,
-          "p": 0.0155
+          "t": 1765238431,
+          "p": 0.241
         },
         {
-          "t": 1764633613,
-          "p": 0.0145
+          "t": 1765281621,
+          "p": 0.2795
         },
         {
-          "t": 1764806414,
-          "p": 0.0145
+          "t": 1765324818,
+          "p": 0.2875
         },
         {
-          "t": 1764936016,
-          "p": 0.0145
+          "t": 1765368037,
+          "p": 0.235
         },
         {
-          "t": 1765108819,
+          "t": 1765411219,
+          "p": 0.15
+        },
+        {
+          "t": 1765454421,
+          "p": 0.114
+        },
+        {
+          "t": 1765497619,
+          "p": 0.1645
+        },
+        {
+          "t": 1765540822,
+          "p": 0.199
+        },
+        {
+          "t": 1765584022,
+          "p": 0.225
+        },
+        {
+          "t": 1765627225,
+          "p": 0.232
+        },
+        {
+          "t": 1765670423,
+          "p": 0.2415
+        },
+        {
+          "t": 1765713623,
+          "p": 0.236
+        },
+        {
+          "t": 1765756827,
+          "p": 0.181
+        },
+        {
+          "t": 1765800022,
+          "p": 0.1155
+        },
+        {
+          "t": 1765843222,
+          "p": 0.096
+        },
+        {
+          "t": 1765886435,
+          "p": 0.073
+        },
+        {
+          "t": 1765929619,
+          "p": 0.0985
+        },
+        {
+          "t": 1765929638,
+          "p": 0.0985
+        },
+        {
+          "t": 1765972835,
+          "p": 0.093
+        },
+        {
+          "t": 1766016029,
+          "p": 0.0875
+        },
+        {
+          "t": 1766059220,
+          "p": 0.1145
+        },
+        {
+          "t": 1766102420,
+          "p": 0.0805
+        },
+        {
+          "t": 1766145622,
+          "p": 0.0745
+        },
+        {
+          "t": 1766188820,
+          "p": 0.0795
+        },
+        {
+          "t": 1766232024,
+          "p": 0.0835
+        },
+        {
+          "t": 1766275221,
+          "p": 0.028
+        },
+        {
+          "t": 1766318421,
+          "p": 0.0115
+        },
+        {
+          "t": 1766361621,
+          "p": 0.015
+        },
+        {
+          "t": 1766404821,
+          "p": 0.013
+        },
+        {
+          "t": 1766448023,
+          "p": 0.011
+        },
+        {
+          "t": 1766491227,
           "p": 0.014
         },
         {
-          "t": 1765238425,
-          "p": 0.0135
+          "t": 1766534423,
+          "p": 0.0145
         },
         {
-          "t": 1765411214,
-          "p": 0.011
+          "t": 1766577623,
+          "p": 0.01
         },
         {
-          "t": 1765584016,
-          "p": 0.011
+          "t": 1766620832,
+          "p": 0.0085
         },
         {
-          "t": 1765713616,
+          "t": 1766664024,
+          "p": 0.0045
+        },
+        {
+          "t": 1766707216,
+          "p": 0.0115
+        },
+        {
+          "t": 1766750420,
+          "p": 0.006
+        },
+        {
+          "t": 1766793621,
+          "p": 0.0085
+        },
+        {
+          "t": 1766836821,
           "p": 0.0095
         },
         {
-          "t": 1765886428,
-          "p": 0.0065
+          "t": 1766880021,
+          "p": 0.006
         },
         {
-          "t": 1766016024,
-          "p": 0.008
+          "t": 1766923222,
+          "p": 0.006
         },
         {
-          "t": 1766145616,
-          "p": 0.008
+          "t": 1766966439,
+          "p": 0.0045
         },
         {
-          "t": 1766318414,
-          "p": 0.0075
-        },
-        {
-          "t": 1766448016,
-          "p": 0.0065
-        },
-        {
-          "t": 1766620826,
+          "t": 1767009622,
           "p": 0.0035
         },
         {
-          "t": 1766793616,
-          "p": 0.004
+          "t": 1767052825,
+          "p": 0.0035
         },
         {
-          "t": 1766923216,
-          "p": 0.0025
+          "t": 1767096026,
+          "p": 0.0035
         },
         {
-          "t": 1767096018,
+          "t": 1767139223,
+          "p": 0.0035
+        },
+        {
+          "t": 1767182423,
+          "p": 0.0035
+        },
+        {
+          "t": 1767225623,
           "p": 0.002
         }
       ],
       "turning_points": [
         {
-          "t": 1761523214,
-          "p": 0.0285,
+          "t": 1764201626,
+          "p": 0.0235,
           "delta": -0.0515
+        },
+        {
+          "t": 1765152033,
+          "p": 0.115,
+          "delta": 0.0915
+        },
+        {
+          "t": 1765238431,
+          "p": 0.241,
+          "delta": 0.126
+        },
+        {
+          "t": 1765411219,
+          "p": 0.15,
+          "delta": -0.091
+        },
+        {
+          "t": 1765584022,
+          "p": 0.225,
+          "delta": 0.075
+        },
+        {
+          "t": 1765800022,
+          "p": 0.1155,
+          "delta": -0.1095
+        },
+        {
+          "t": 1766275221,
+          "p": 0.028,
+          "delta": -0.0875
         }
       ],
-      "price_at_open": 0.08,
-      "price_at_close": 0.0015,
-      "min_price": 0.0015,
-      "max_price": 0.1115,
-      "final_price": 0.0015,
-      "fetched_at": "2026-04-27T07:57:32.844474+00:00"
+      "price_at_open": 0.075,
+      "price_at_close": 0.002,
+      "min_price": 0.002,
+      "max_price": 0.2875,
+      "final_price": 0.002,
+      "fetched_at": "2026-04-27T07:57:33.737851+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250910_001_1a0b90c7",
-        "date": "2025-09-10 00:00",
-        "title": "Russian drones enter Polish airspace",
-        "description": "Russian drones incur into NATO airspace in Poland.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251207_001_d6c0e68f",
+        "date": "2025-12-07 22:00",
+        "title": "Real Madrid loses to Celta Vigo",
+        "description": "Real Madrid suffers a nightmare defeat against Celta Vigo.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.thenewhumanitarian.org/news/2025/09/26/palestine-recognition-al-sharaa-addresses-unga-collective-climate-cheat-sheet",
+        "source_url": "https://www.dailymail.co.uk/sport/football/article-15362129/Jude-Bellingham-left-blood-pouring-face-Xabi-Alonso-rages-Real-Madrid-suffer-shock-defeat-TWO-sent-miserable-night-Bernabeu.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250913_002_08aa2bb5",
-        "date": "2025-09-13 00:00",
-        "title": "Poland intercepts 19 Russian drones",
-        "description": "Poland intercepts 19 Russian drones in NATO airspace.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251210_002_75fdcabc",
+        "date": "2025-12-10 22:00",
+        "title": "Real Madrid loses to Manchester City",
+        "description": "Real Madrid suffers a crucial defeat against Manchester City.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.webpronews.com/poland-intercepts-19-russian-drones-in-nato-airspace-amid-ukraine-strikes",
+        "source_url": "https://sports.yahoo.com/articles/man-city-impressive-comeback-piles-221044718.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250919_005_27ca178b",
-        "date": "2025-09-19 00:00",
-        "title": "Poland invokes Article 4 of the NATO treaty",
-        "description": "Poland responds to Russian drones by invoking Article 4.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251211_003_37470731",
+        "date": "2025-12-11 12:00",
+        "title": "Pressure mounts on Alonso",
+        "description": "Pressure mounts on Xabi Alonso following the defeat to Manchester City.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/poland-responds-russian-drones-incursion-204848058.html?fr=sycsrp_catchall",
+        "source_url": "https://sports.yahoo.com/articles/man-city-impressive-comeback-piles-221044718.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250919_009_136c0625",
-        "date": "2025-09-19 00:00",
-        "title": "NATO leaders perceive drone incidents as accidental",
-        "description": "NATO leaders perceive drone incidents as accidental.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251212_004_74a20445",
+        "date": "2025-12-12 12:00",
+        "title": "Market sentiment shifts",
+        "description": "Market sentiment shifts drastically against Alonso.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/poland-responds-russian-drones-incursion-204848058.html?fr=sycsrp_catchall",
+        "source_url": "https://sports.yahoo.com/articles/man-city-impressive-comeback-piles-221044718.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250919_010_14046cce",
-        "date": "2025-09-19 00:00",
-        "title": "NATO members unwilling to enter direct war with Russia",
-        "description": "NATO members fundamentally unwilling to enter direct war.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251215_005_b3142bed",
+        "date": "2025-12-15 12:00",
+        "title": "Board confidence erodes",
+        "description": "The board's confidence in Alonso erodes due to poor results.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/poland-responds-russian-drones-incursion-204848058.html?fr=sycsrp_catchall",
+        "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251001_007_9b7bc535",
-        "date": "2025-10-01 00:00",
-        "title": "NATO allies discuss air defense enhancements",
-        "description": "NATO allies focus on air defense enhancements.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251216_006_14ce3edd",
+        "date": "2025-12-16 12:00",
+        "title": "Initial reports of Alonso leaving",
+        "description": "Initial reports surface that Xabi Alonso leaves Real Madrid.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/undiscovered-gems-europe-3-promising-103305903.html?fr=sycsrp_catchall",
+        "source_url": "https://sports.yahoo.com/articles/xabi-alonso-leaves-real-madrid-172545902.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251218_008_806a7461",
-        "date": "2025-12-18 00:00",
-        "title": "U.S. officials signal Russia-Ukraine peace deal closer",
-        "description": "U.S. officials signal peace deal closer.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251220_007_0727caeb",
+        "date": "2025-12-20 12:00",
+        "title": "Internal friction with key players",
+        "description": "Reported clashes with star players exacerbate the situation.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/russia-ukraine-peace-deal-could-195736206.html?fr=sycsrp_catchall",
+        "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250915_003_37d0c4f3",
-        "date": "2025-09-15 00:00",
-        "title": "NATO launches Eastern Sentry operation",
-        "description": "NATO responds to Russian drones with Eastern Sentry.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "id": "evt_sports_20251231_009_c7955e4e",
+        "date": "2025-12-31 12:00",
+        "title": "Final confirmations of firing",
+        "description": "Final confirmations and reflections on Alonso's firing.",
+        "impact": "**Affects:** Yes - Will Xabi Alonso leave or be fired as Real Madrid   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nContributed to his firing.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abcnews.go.com/International/eastern-sentry-natos-response-russian-drones/story?id=125576971",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250917_004_bed830fe",
-        "date": "2025-09-17 00:00",
-        "title": "Poland takes toughest measures over drone incursion",
-        "description": "Poland announces toughest measures over Russia drone incursion.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.newsweek.com/poland-will-take-toughest-measures-over-russia-drone-incursion-deputy-pm-2131497",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250921_006_6cedf74b",
-        "date": "2025-09-21 00:00",
-        "title": "UK fighter jets fly over Poland",
-        "description": "UK fighter jets fly over Poland as a signal.",
-        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://metro.co.uk/2025/09/21/british-fighter-jets-fly-over-poland-as-a-clear-signal-nato-airspace-will-be-defended-24221328",
+        "source_url": "https://www.forbes.com/sites/tomsanderson/2026/01/12/real-madrid-fires-head-coach-xabi-alonso",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -999,151 +1393,153 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_politics_20241106_042_a35af80f",
-    "title": "Will there be a change in the party that controls the US House of Representatives after the 2024 elections?",
-    "question_type": "binary",
+    "id": "q_finance_20231013_002_14a60e35",
+    "title": "When will Microsoft close its acquisition of Activision Blizzard?",
+    "question_type": "timeframe",
     "options": [
-      "Yes",
-      "No"
+      "Q2 2023",
+      "Q3 2023",
+      "Q4 2023",
+      "2024 or later"
     ],
-    "background": "Another key outcome of the 2024 US elections.",
-    "resolution_criteria": "The question will resolve to YES if the party with the majority of seats in the US House of Representatives changes as a result of the 2024 elections. Otherwise, it will resolve to NO.",
-    "outcome": "False",
-    "explanation": "\n## Executive Summary\nThe US House of Representatives remained under Republican control following the 2024 elections, meaning there was no change in the party that controls the chamber. This outcome was primarily driven by strong Republican incumbent performance in contested districts and effective gerrymandering in key states that locked in GOP advantages. Additionally, the Republican presidential ticket over-performed in swing areas, which pulled down-ballot House candidates to victory. Ultimately, the structural advantages of the GOP map proved too difficult for Democrats to overcome despite some favorable national environments and generic ballots.\n\n## Timeline Of Key Events\n- **February 14, 2024:** Early electoral maps and polling indicate that despite Democratic gains in special elections, structural advantages heavily favor the GOP [art_politics_20241106_002_01979b42].\n- **October 15, 2024:** Late-stage polling shows a tightening race, but Republican incumbents in battleground districts are polling ahead of their Democratic challengers [art_politics_20241106_004_dff82825].\n- **November 5, 2024:** Election Day occurs, with high turnout in key swing districts [art_politics_20241106_005_1ef4e569].\n- **November 6, 2024:** Race calls confirm that Republicans have retained control of the House by winning critical toss-up districts, securing the majority [art_politics_20241106_006_08af2b55].\n\n## Causal Chain Analysis\nThe outcome resulted from a combination of structural factors and election dynamics. First, effective gerrymandering in key states created a baseline advantage for the GOP, making fewer districts competitive [art_politics_20241106_007_a9a9bfc5]. This caused a situation where Democrats needed an overwhelming national wave to flip the chamber. Second, strong performance by the Republican presidential ticket in swing areas led to a reverse-coattail effect, pulling marginal down-ballot GOP House candidates over the finish line [art_politics_20241106_008_420de023]. Finally, strong incumbent performance and local messaging by Republicans triggered late-deciding voters to stick with the status quo, which resulted in the GOP retaining the majority and maintaining control of the House [art_politics_20241106_009_97887e47].\n\n## Countervailing Factors\nDemocrats experienced significant momentum earlier in the year, particularly through over-performance in special elections and strong fundraising numbers. Issues such as reproductive rights galvanized the Democratic base and pushed against the Republican advantage [art_politics_20241106_010_eb9da414]. However, these factors were overwhelmed by the structural realities of the map and the strong national top-of-the-ticket performance for Republicans, meaning the Democratic momentum was insufficient to flip the required number of seats.\n\n## Event Candidate Inventory\n- E1: Release of finalized congressional maps\n  - Date: Early 2024\n  - Why it matters causally: Locked in the structural advantages for the GOP.\n  - Source: [art_politics_20241106_011_046ce28f]\n- E2: Surging Republican presidential polls in swing states\n  - Date: Late October 2024\n  - Why it matters causally: Provided down-ballot momentum that carried vulnerable GOP incumbents.\n  - Source: [art_politics_20241106_012_4313c5db]\n- E3: Final race calls securing the majority\n  - Date: November 6, 2024\n  - Why it matters causally: Officially confirmed that there would be no change in control.\n  - Source: [art_politics_20241106_013_6e03386f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Gerrymandering advantages for GOP | [art_politics_20241106_002_01979b42], [art_politics_20241106_007_a9a9bfc5] | Early 2024 | 0.9 | Structural baseline for the cycle. |\n| Over-performance of Republican ticket | [art_politics_20241106_008_420de023], [art_politics_20241106_012_4313c5db] | Late 2024 | 0.95 | Down-ballot effect crucial for marginal seats. |\n| Final race calls confirm GOP majority | [art_politics_20241106_006_08af2b55], [art_politics_20241106_013_6e03386f] | Nov 6, 2024 | 1.0 | The final resolution. |\n\n## Uncertainties And Alternative Paths\nOne major uncertainty was how much the issue of reproductive rights would drive suburban voter turnout. Plausible alternative paths included a scenario where high suburban turnout in response to abortion access led to a wave election flipping the House to Democratic control. However, economic concerns and the top-of-the-ticket strength for the GOP ultimately outweighed this factor in key districts.\n",
+    "background": "After being announced in early 2022, Microsoft's acquisition of Activision Blizzard faced significant regulatory scrutiny globally. In April 2023, the UK's CMA blocked the deal, creating major uncertainty about if and when it would close.",
+    "resolution_criteria": "The question resolves to the timeframe corresponding to the official closing date of the acquisition, as announced by Microsoft.",
+    "outcome": "Q4 2023",
+    "explanation": "\n# Executive Summary\nThe closing of Microsoft's $68.7 billion acquisition of Activision Blizzard in Q4 2023 was primarily determined by successfully navigating three major regulatory hurdles across the EU, US, and UK. The European Commission approved the deal in May 2023 following concessions on cloud gaming. In the US, Microsoft won a crucial federal court case against the FTC in July 2023, effectively clearing the path stateside. Finally, after an initial block, the UK's Competition and Markets Authority (CMA) approved a restructured deal in October 2023, which divested cloud streaming rights to Ubisoft, triggering the immediate finalization of the acquisition on October 13, 2023.\n\n# Timeline Of Key Events\n- **May 15, 2023:** The European Commission approves the acquisition after Microsoft agrees to 10-year licensing deals for cloud gaming. [{art_tech_20231010_015_89adf659}]\n- **July 11, 2023:** A US federal judge denies the FTC's request for a preliminary injunction to block the deal, handing Microsoft a major legal victory. [{art_tech_20231008_014_5b9a0758}]\n- **July 14, 2023:** The US appeals court denies the FTC's motion to pause the acquisition, further clearing the US path. [{art_tech_20231008_031_60da2505}]\n- **August 22, 2023:** Microsoft submits a newly restructured deal to the UK CMA, agreeing to transfer cloud gaming rights for current and new Activision Blizzard games to Ubisoft for 15 years. [{art_tech_20231005_013_1961c5d7}]\n- **September 22, 2023:** The UK CMA signals preliminary approval of the restructured deal. [{art_tech_20231005_030_308f5b23}]\n- **October 13, 2023:** The UK CMA grants final official approval to the acquisition. [{art_tech_20231001_012_55c28dc0}]\n- **October 13, 2023:** Microsoft officially closes the acquisition of Activision Blizzard. [{art_tech_20230915_011_b48b4797}]\n\n# Causal Chain Analysis\nThe path to the Q4 2023 outcome was driven by a sequence of necessary regulatory clearances. The European Commission's early approval provided momentum but was insufficient on its own due to ongoing US and UK opposition. The FTC's attempt to secure a preliminary injunction in the US failed in July 2023, which caused the US regulatory threat to effectively collapse, shifting the entire focus to the UK CMA [{art_tech_20231008_014_5b9a0758}]. The CMA had originally blocked the deal over cloud gaming concerns. This led to Microsoft restructuring the deal by divesting global cloud gaming rights (excluding the EEA) to Ubisoft [{art_tech_20231005_013_1961c5d7}]. This massive concession directly resolved the CMA's core anti-competitive concerns, resulting in preliminary clearance in September and final approval on October 13. The CMA's green light was the proximate trigger that allowed Microsoft to immediately close the deal the exact same day [{art_tech_20231001_012_55c28dc0}].\n\n# Countervailing Factors\nThe primary countervailing factors were the concerted efforts by the FTC and CMA to block the deal over anti-competitive concerns, particularly in the nascent cloud gaming market. Sony also heavily lobbied against the deal, arguing it would restrict access to the Call of Duty franchise on PlayStation. These forces ultimately failed because Microsoft demonstrated a willingness to make binding, long-term structural concessions (like the Ubisoft divestiture and 10-year Nintendo/Sony contracts) and successfully defeated the FTC's weak legal arguments in federal court.\n\n# Event Candidate Inventory\n- **E1:** European Commission approves the acquisition.\n  - Date: May 15, 2023\n  - Causality: Provided the first major international regulatory green light.\n  - Source: [{art_tech_20231010_015_89adf659}]\n- **E2:** US Federal Judge denies FTC preliminary injunction.\n  - Date: July 11, 2023\n  - Causality: Removed the primary US legal roadblock preventing the deal's closure.\n  - Source: [{art_tech_20231008_014_5b9a0758}]\n- **E3:** Microsoft submits restructured deal with Ubisoft cloud divestiture to UK CMA.\n  - Date: August 22, 2023\n  - Causality: Directly addressed the CMA's block, opening a new path to UK approval.\n  - Source: [{art_tech_20231005_013_1961c5d7}]\n- **E4:** UK CMA gives final approval.\n  - Date: October 13, 2023\n  - Causality: The final regulatory hurdle cleared, allowing immediate closing.\n  - Source: [{art_tech_20231001_012_55c28dc0}]\n\n# Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| EU Approval | [{art_tech_20231010_015_89adf659}] | May 15, 2023 | 0.95 | Major initial clearance. |\n| FTC loses injunction | [{art_tech_20231008_014_5b9a0758}] | July 11, 2023 | 0.95 | Key legal victory for MS. |\n| Ubisoft restructuring | [{art_tech_20231005_013_1961c5d7}] | August 22, 2023 | 0.95 | Addressed UK CMA block. |\n| CMA final approval | [{art_tech_20231001_012_55c28dc0}] | October 13, 2023 | 1.00 | Proximate trigger for closing. |\n\n# Uncertainties And Alternative Paths\nThe primary alternative path was the deal completely collapsing if the FTC had won its preliminary injunction or if the CMA had rejected the restructured Ubisoft deal. The deadline to close had already been extended from July to October to allow time to negotiate with the CMA. If the October 18, 2023 deadline was missed without approval, Microsoft would have owed a $3 billion termination fee, making deal collapse highly plausible.\n",
     "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2024-01-01T00:00:00+00:00",
+    "market_open": "2023-05-01T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2024-11-06T23:59:59+00:00",
+    "market_close": "2023-10-13T23:59:59+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_politics_20240214_001_f458dcc2",
-        "date": "2024-02-14 00:00",
-        "title": "Release of finalized congressional maps",
-        "description": "Release of finalized congressional maps locking in structural advantages for the GOP.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLocked in structural advantages for GOP.",
-        "has_impact": true,
+        "id": "evt_tech_20230515_001_1565a4e6",
+        "date": "2023-05-15 00:00",
+        "title": "Microsoft agrees to 10-year licensing deals for cloud gaming",
+        "description": "Microsoft agrees to 10-year licensing deals for cloud gaming to appease regulators.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/news/politics/trump-s-election-order-will-not-impact-voting-in-virginia-s-ongoing-redistricting-referendum/ar-AA20iAdP?ocid=BingNewsVerp",
+        "source_url": "https://www.geekwire.com/2025/nearly-two-years-later-ftc-drops-final-challenge-to-microsofts-activision-blizzard-deal",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20240214_004_f8ac478f",
-        "date": "2024-02-14 00:00",
-        "title": "Early electoral maps and polling indicate structural advantages favor GOP",
-        "description": "Early electoral maps and polling indicate that structural advantages heavily favor the GOP.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIndicated structural advantages for GOP.",
-        "has_impact": true,
+        "id": "evt_tech_20230515_002_b180cc0c",
+        "date": "2023-05-15 12:00",
+        "title": "European Commission approves the acquisition",
+        "description": "The European Commission approves the acquisition after Microsoft agrees to 10-year licensing deals.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.cnn.com/election/2024/primaries-and-caucuses/results/california/open-primary/us-house-district-38",
+        "source_url": "https://www.geekwire.com/2025/nearly-two-years-later-ftc-drops-final-challenge-to-microsofts-activision-blizzard-deal",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20240214_007_f5cc2cd7",
-        "date": "2024-02-14 00:00",
-        "title": "Effective gerrymandering in key states creates baseline advantage for GOP",
-        "description": "Effective gerrymandering in key states created a baseline advantage for the GOP.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCreated baseline advantage for GOP.",
-        "has_impact": true,
+        "id": "evt_tech_20230701_003_f1536728",
+        "date": "2023-07-01 00:00",
+        "title": "FTC attempts to secure a preliminary injunction",
+        "description": "The FTC attempts to secure a preliminary injunction in the US to block the deal.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/news/politics/republicans-win-georgia-race-but-democrats-post-largest-swing-yet-in-special-house-elections/ar-AA20nUKS?ocid=BingNewsVerp",
+        "source_url": "https://www.theverge.com/23768244/ftc-microsoft-activision-blizzard-case-news-announcements",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20240214_010_eed89f74",
-        "date": "2024-02-14 00:00",
-        "title": "Democrats experience momentum through over-performance in special elections",
-        "description": "Democrats experienced significant momentum earlier in the year, particularly through over-performance in special elections.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nProvided momentum for Democrats.",
-        "has_impact": true,
+        "id": "evt_tech_20230711_004_f5b1b5e3",
+        "date": "2023-07-11 00:00",
+        "title": "US Federal Judge denies FTC preliminary injunction",
+        "description": "A US federal judge denies the FTC's request for a preliminary injunction to block the deal.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.cbsnews.com/news/obama-calls-on-voters-to-help-democrats-virginia-redistricting-ahead-of-midterm-elections",
+        "source_url": "https://www.theverge.com/23768244/ftc-microsoft-activision-blizzard-case-news-announcements",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241015_002_c99c82e7",
-        "date": "2024-10-15 00:00",
-        "title": "Surging Republican presidential polls in swing states",
-        "description": "Surging Republican presidential polls in swing states providing down-ballot momentum.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nProvided down-ballot momentum for GOP.",
-        "has_impact": true,
+        "id": "evt_tech_20230714_005_aefe7682",
+        "date": "2023-07-14 00:00",
+        "title": "US appeals court denies FTC's motion to pause the acquisition",
+        "description": "The US appeals court denies the FTC's motion to pause the acquisition.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.twincities.com/2026/02/20/election-2026-redistricting-glance",
+        "source_url": "https://www.archyde.com/microsofts-69-billion-activision-blizzard-deal-cleared-after-ftc-legal-battle-ends",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241015_005_df1a28ac",
-        "date": "2024-10-15 00:00",
-        "title": "Late-stage polling shows tightening race but GOP incumbents ahead",
-        "description": "Late-stage polling shows a tightening race, but Republican incumbents in battleground districts are polling ahead.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nShowed GOP incumbents ahead.",
-        "has_impact": true,
+        "id": "evt_tech_20230801_006_3d3af3ee",
+        "date": "2023-08-01 00:00",
+        "title": "CMA originally blocks the deal",
+        "description": "The CMA originally blocked the deal over cloud gaming concerns.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.yahoo.com/news/articles/republicans-win-georgia-race-democrats-025744631.html",
+        "source_url": "https://finance.yahoo.com/news/ftc-drops-case-over-microsoft-094531893.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241105_006_5f30c888",
-        "date": "2024-11-05 00:00",
-        "title": "Election Day occurs with high turnout in key swing districts",
-        "description": "Election Day occurs, with high turnout in key swing districts.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHigh turnout favored GOP in swing districts.",
-        "has_impact": true,
+        "id": "evt_tech_20230822_007_08d517be",
+        "date": "2023-08-22 00:00",
+        "title": "Microsoft submits restructured deal with Ubisoft cloud divestiture",
+        "description": "Microsoft submits a newly restructured deal to the UK CMA, agreeing to transfer cloud gaming rights to Ubisoft.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.aol.com/articles/jersey-voters-decide-fill-mikie-100328350.html",
+        "source_url": "https://finance.yahoo.com/news/ftc-drops-case-over-microsoft-094531893.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241105_008_33865960",
-        "date": "2024-11-05 00:00",
-        "title": "Strong performance by Republican presidential ticket in swing areas",
-        "description": "Strong performance by the Republican presidential ticket in swing areas led to a reverse-coattail effect.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPulled down-ballot GOP candidates.",
-        "has_impact": true,
+        "id": "evt_tech_20230922_008_431e1dc1",
+        "date": "2023-09-22 00:00",
+        "title": "UK CMA signals preliminary approval",
+        "description": "The UK CMA signals preliminary approval of the restructured deal.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.nytimes.com/interactive/2026/us/elections/results-georgia-us-house-14-special-runoff.html",
+        "source_url": "https://www.cnn.com/2023/10/13/tech/microsoft-activision-blizzard-takeover-uk-intl-hnk",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241105_009_c7f303e8",
-        "date": "2024-11-05 00:00",
-        "title": "Strong incumbent performance and local messaging by Republicans",
-        "description": "Strong incumbent performance and local messaging by Republicans triggered late-deciding voters to stick with the status quo.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTriggered late-deciding voters to stick with GOP.",
-        "has_impact": true,
+        "id": "evt_tech_20231013_009_8721fb2e",
+        "date": "2023-10-13 00:00",
+        "title": "UK CMA grants final official approval",
+        "description": "The UK CMA grants final official approval to the acquisition.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.nbcnews.com/politics/2026-special-elections/georgia-house-runoff-results",
+        "source_url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241106_003_88d760c8",
-        "date": "2024-11-06 00:00",
-        "title": "Final race calls securing the majority",
-        "description": "Final race calls confirming that Republicans have retained control of the House.",
-        "impact": "**Affects:** No - Will there be a change in the party that controls   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nConfirmed GOP majority.",
-        "has_impact": true,
+        "id": "evt_tech_20231013_010_25bc8a8e",
+        "date": "2023-10-13 00:00",
+        "title": "Microsoft officially closes the acquisition",
+        "description": "Microsoft officially closes the acquisition of Activision Blizzard.",
+        "impact": "No impact assessment provided.",
+        "has_impact": false,
         "in_market_window": false,
-        "source_url": "https://www.clickorlando.com/news/politics/2026/02/20/us-house-campaigns-are-underway-yet-a-redistricting-battle-triggered-by-trump-rages-in-some-states",
+        "source_url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

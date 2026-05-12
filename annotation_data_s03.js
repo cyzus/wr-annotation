@@ -1,243 +1,210 @@
 var annotationData = [
   {
-    "id": "polymarket_0x13c8546e1600edd62efa2c0530d99214cbbb3e9eb27c3e72fd09e50e874f17b3",
-    "title": "Will NVIDIA (NVDA) beat quarterly earnings?",
+    "id": "polymarket_0x24bb3cbbf9c9c8f50cb1a26fc06ea16b82df4ee943d2ba7649c51c21e3a6d5e8",
+    "title": "U.S. strike on Somalia by March 7?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "As of market creation, NVIDIA is estimated to release earnings on November 19, 2025. The Street consensus estimate for NVIDIA’s non-GAAP EPS for the relevant quarter is $1.25 as of market creation. This market will resolve to \"Yes\" if NVIDIA reports non-GAAP EPS greater than $1.25 for the relevant quarter in its next quarterly earnings release. Otherwise, it will resolve to \"No.\" The resolution source will be the non-GAAP EPS listed in the company’s official earnings documents. \n\nIf NVIDIA releases earnings without non-GAAP EPS, then the market will resolve according to the non-GAAP EPS figure reported by SeekingAlpha. If no such figure is published within 96h of market close (4:00:00pm ET) on the day earnings are announced, the market will resolve according to the GAAP EPS listed in the company’s official earnings documents; or, if not published there, according to the GAAP EPS provided by SeekingAlpha. If no GAAP EPS number is available from either source at that time, the market will resolve to “No.” (For the purposes of this market, GAAP EPS refers to diluted GAAP EPS, unless it is not published, in which case it refers to basic GAAP EPS.)\n\nIf the company does not release earnings within 45 calendar days of the estimated earnings date, this market will resolve to “No.” \n\nNote: Subsequent restatements, corrections, or revisions made to the initially announced non-GAAP EPS figure will not qualify for resolution, except in the case of obvious and immediate mistakes (e.g., fat finger errors, as with Lyft's (LYFT) earnings release in February 2024).\nNote: The strike prices used in these markets are derived from SeekingAlpha estimates, and reflect the consensus of sell-side analyst estimates for non-GAAP EPS.\nNote: All figures will be rounded to the nearest cent using standard rounding.\nNote: For the purposes of this market, IFRS EPS will be treated as GAAP EPS.\nNote: If multiple versions of non-GAAP EPS are published, the market will resolve according to the primary headline non-GAAP EPS number, which is typically presented on a diluted basis. If diluted is not published, then basic non-GAAP EPS will qualify.\nNote: All figures are expressed in USD, unless otherwise indicated.\nNote: For primarily internationally listed companies, this market refers specifically to the shares traded in the United States on U.S. stock exchanges such as the NYSE or Nasdaq. In cases where the company trades in the U.S. through an American Depositary Receipt (ADR) or American Depositary Share (ADS), this market will refer to the ADR/ADS.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if a US-initiated drone, missile, or air strike on the soil of Somalia is announced or credibly reported to have occurred between market creation and the listed date ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a qualifying \"strike\" is defined as the use of aerial bombs, drones, or missiles (including FPV and ATGM strikes as well as cruise or ballistic missiles) launched by any United States operatives, including military forces, intelligence agencies, or other U.S. government operatives, that physically impact ground territory within the listed country.\n\nA strike on any area within the terrestrial territory (including rivers, lakes, ports, but excluding territorial sea) of the listed country counts.\n\nMissiles or drones that are intercepted and surface-to-air missile strikes will not be sufficient for a \"Yes\" resolution, regardless of whether they land in the listed country’s territory or cause damage.\n\nActions such as artillery fire, small arms fire, ground incursions, naval shelling, or cyberattacks will not qualify.\n\nAny strike occurring during this market’s timeframe that is claimed by either Donald Trump or the U.S. government will qualify.\n\nThe primary resolution source will be a consensus of credible reporting and government sources.\n\nThis market may remain open until the end of the third day after the resolution time. If the date/time of a qualifying strike cannot be confirmed by a consensus of credible reporting by that time, it will resolve to \"No\" regardless of whether a strike was later confirmed to have taken place.",
     "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nNvidia successfully beat quarterly earnings expectations for Q3 FY2025. This positive outcome was primarily driven by the unabated surge in global AI infrastructure spending, which fueled massive demand for Nvidia's data center GPUs, particularly the Hopper architecture. Additionally, early ramp-up signals for the next-generation Blackwell chips provided strong forward guidance that bolstered market confidence. Despite some concerns around circular financing and minor supply chain bottlenecks, the overwhelming enterprise demand for generative AI hardware secured both top-line revenue beats and significant margin expansions.\n\n## Timeline Of Key Events\n- **2025-10-16:** TSMC reports a rosy outlook on strong AI demand, providing an early indicator of robust downstream demand for Nvidia's chips ([art_finance_20251016_026_a2642637]).\n- **2025-11-08:** Projections surface showing Nvidia's Data Center revenue poised for a 165% surge, reflecting intense buying from major cloud service providers ([art_finance_20251108_007_3866daf8]).\n- **2025-11-13 12:00:** A significant market sentiment shift (price peak) occurs as preliminary positive indicators or analyst upgrades suggest a massive beat, causing the price to rise 43.5pp before a slight correction.\n- **2025-11-18:** Reports highlight expanding global AI infrastructure spending directly lifting Nvidia's earnings outlook right before the release ([art_tech_20251118_011_f077d26a]).\n- **2025-11-19:** Nvidia officially releases its Q3 earnings, reporting a profit jump of 65% to $31.9 billion and beating expectations across the board ([art_finance_20251119_005_9b829071]; [art_finance_20251119_003_a6a6aa14]).\n\n## Causal Chain Analysis\nThe root cause of the earnings beat was the structural transition of enterprise compute toward generative AI, which caused a massive, sustained spike in capital expenditures by hyperscalers (Microsoft, AWS, Google, Meta). This structural shift led to insatiable demand for Nvidia's H100 and H200 (Hopper) GPUs. Consequently, Nvidia experienced tremendous pricing power and volume growth in its Data Center segment. This directly resulted in record-breaking revenue and gross margins. In the immediate build-up to the earnings release, strong signals from foundry partner TSMC and expanding global AI infrastructure spending acted as proximate triggers that solidified the positive outcome, ultimately resulting in Nvidia beating its quarterly earnings target.\n\n## Countervailing Factors\nThere were several forces that could have negatively impacted the earnings beat. First, there were concerns regarding \"circular financing\" and potential AI bubble fears, where investors worried that the return on investment for AI compute buyers might not justify continued spending ([art_finance_20251120_002_2396c946]). Second, supply chain constraints at TSMC for advanced packaging (CoWoS) threatened to cap Nvidia's ability to fulfill orders. However, these factors failed to derail the outcome because the sheer volume of confirmed enterprise backlogs and Nvidia's successful navigation of supply chain expansions completely overwhelmed these bearish constraints.\n\n## Event Candidate Inventory\n- E1: TSMC raises guidance on strong AI demand\n  - date: 2025-10-16\n  - why it matters causally: Validates the continued high demand for AI chips from the sole manufacturer of Nvidia's advanced GPUs.\n  - source article IDs: [art_finance_20251016_026_a2642637]\n- E2: Market sentiment peaks ahead of earnings\n  - date: 2025-11-13\n  - why it matters causally: Represents the moment market expectations fully priced in an earnings beat based on channel checks and supply chain leaks.\n  - source article IDs: [art_finance_20251108_007_3866daf8]\n- E3: Nvidia announces Q3 FY2025 Earnings\n  - date: 2025-11-19\n  - why it matters causally: The official resolution event where the 65% profit jump to $31.9B confirms the earnings beat.\n  - source article IDs: [art_finance_20251119_005_9b829071], [art_finance_20251119_003_a6a6aa14]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| TSMC rosy outlook on AI demand | [art_finance_20251016_026_a2642637] | 2025-10-16 | 0.9 | Strong proxy for NVDA demand |\n| Data center revenue surge expectations | [art_finance_20251108_007_3866daf8] | 2025-11-08 | 0.9 | Quantifies the hyperscaler demand |\n| Expanding global AI infrastructure spending | [art_tech_20251118_011_f077d26a] | 2025-11-18 | 0.85 | Broad market trend supporting NVDA |\n| Profit jumps 65% to $31.9B (Earnings Beat) | [art_finance_20251119_005_9b829071], [art_finance_20251119_003_a6a6aa14] | 2025-11-19 | 1.0 | Official confirmation of ground truth |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether the transition from Hopper to Blackwell architectures would cause a \"pause\" in customer orders, potentially leading to a revenue miss. An alternative causal path to a negative resolution would have involved a scenario where major cloud providers significantly delayed their Hopper purchases to wait for Blackwell, combined with tightened supply chain bottlenecks at TSMC that restricted Hopper deliveries, pulling Q3 revenues below Wall Street's lofty expectations.\n",
+    "explanation": "\n## Executive Summary\nThe U.S. carried out airstrikes in Somalia by March 7, 2026, primarily targeting the growing capabilities and resilience of both IS-Somalia and Al-Shabaab. Under the Trump administration's second term, \"maximum pressure\" via airpower became the preferred strategy in response to Al-Shabaab's unprecedented territorial counteroffensive and ISIS-Somalia's emergence as a regional hub for financing and international attacks. Coordinated with the Federal Government of Somalia, the operation aimed to disrupt logistics, degrade terrorist leadership, and contain immediate threats, ultimately leading to successful strikes in late February and early March.\n\n## Timeline Of Key Events\n- **2025 - Early 2026:** Al-Shabaab mounts an unprecedented counteroffensive, reversing gains of the Somali government and threatening Mogadishu [art_politics_20260228_009_5e66a00c].\n- **February 2026:** The Trump administration shifts counterterrorism rules of engagement to facilitate rapid and frequent drone strikes in Somalia [art_politics_20260228_005_912e45f9].\n- **February 27 - March 2, 2026:** AFRICOM conducts coordinated airstrikes in regions such as the Golis Mountains and Lower Shabelle to hit high-value ISIS-Somalia and Al-Shabaab targets [art_politics_20260302_023_455ac1a1, art_politics_20260228_009_5e66a00c].\n\n## Causal Chain Analysis\nThe root cause for the strikes was the growing operational footprint and resilience of militant groups in Somalia, particularly Al-Shabaab’s territorial resurgence and ISIS-Somalia's evolving role in global terror networks [art_politics_20260228_009_5e66a00c]. This heightened threat landscape triggered an intermediate shift in U.S. strategy; under the Trump administration, the rules of engagement for drone warfare were relaxed to allow lower-level command authorization and higher strike tempos, framing airpower as a low-risk alternative to troop deployments [art_politics_20260228_005_912e45f9]. This structural shift served as the proximate trigger for AFRICOM, leading directly to the final outcome of rapid, targeted airstrikes on identified militant positions in early March.\n\n## Countervailing Factors\nStrong countervailing forces pushed against military escalation. Experts and rights groups consistently warned that drone strikes often result in civilian casualties, which alienate the local population and serve as powerful propaganda and recruitment tools for Al-Shabaab [art_politics_20260228_009_5e66a00c]. Additionally, segments within the U.S. administration argued that focusing on counterterrorism detracted from broader great-power competition with China. However, these concerns were ultimately overwhelmed by the urgent tactical need to suppress the immediate advances of Al-Shabaab and the structural preference for remote \"maximum pressure\" without committing ground troops.\n\n## Event Candidate Inventory\n- E1: Al-Shabaab counteroffensive reverses government territorial gains\n  - Date: 2025 to Early 2026\n  - Why it matters causally: Created the urgent security crisis that justified immediate and aggressive U.S. air intervention.\n  - Source article IDs: [art_politics_20260228_009_5e66a00c]\n- E2: Shift to \"maximum pressure\" air campaign under the Trump administration\n  - Date: Early 2026\n  - Why it matters causally: Lowered the threshold for strike authorization and increased the operational tempo.\n  - Source article IDs: [art_politics_20260228_005_912e45f9, art_politics_20260228_009_5e66a00c]\n- E3: AFRICOM airstrikes in Somalia\n  - Date: Late February to March 2, 2026\n  - Why it matters causally: This is the direct execution of the U.S. strike resolving the question positively.\n  - Source article IDs: [art_politics_20260302_023_455ac1a1, art_politics_20260228_009_5e66a00c]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Al-Shabaab territorial resurgence | [art_politics_20260228_009_5e66a00c] | Early 2026 | 0.9 | Group successfully reclaimed significant territory. |\n| U.S. policy shift to increased airpower | [art_politics_20260228_005_912e45f9, art_politics_20260228_009_5e66a00c] | 2026 | 0.95 | Lowered strike authorization thresholds and high strike counts noted. |\n| Coordinated airstrikes executed by AFRICOM | [art_politics_20260302_023_455ac1a1, art_politics_20260228_009_5e66a00c] | Feb/March 2026 | 1.0 | Clear reporting of strikes within the target window. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a strategy prioritizing local governance and diplomatic reconciliation over military force, or severe domestic backlash over civilian casualties halting operations. However, due to the high-threat environment and executive preference for kinetic \"over-the-horizon\" strikes, these alternative paths did not materialize to stop the operations. There is ongoing uncertainty regarding the long-term effectiveness of the strikes in dismantling the militants' resilient networks versus merely temporarily disrupting their command structures.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-11-10T23:38:04.249712+00:00",
+    "market_open": "2026-02-27T20:11:44.362556+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-11-19T23:23:45+00:00",
-    "polymarket_url": "https://polymarket.com/event/nvda-quarterly-earnings-nongaap-eps-11-19-2025-1pt25",
+    "market_close": "2026-03-02T14:01:45+00:00",
+    "polymarket_url": "https://polymarket.com/event/us-strike-on-somalia-by-march-7",
     "price_data": {
       "history": [
         {
-          "t": 1762819219,
-          "p": 0.5
+          "t": 1772236826,
+          "p": 0.62
         },
         {
-          "t": 1762862436,
-          "p": 0.88
+          "t": 1772280045,
+          "p": 0.73
         },
         {
-          "t": 1762905617,
-          "p": 0.885
+          "t": 1772323227,
+          "p": 0.515
         },
         {
-          "t": 1762948823,
-          "p": 0.93
+          "t": 1772366428,
+          "p": 0.735
         },
         {
-          "t": 1762992017,
-          "p": 0.925
+          "t": 1772409637,
+          "p": 0.83
         },
         {
-          "t": 1763035226,
-          "p": 0.935
-        },
-        {
-          "t": 1763078417,
-          "p": 0.935
-        },
-        {
-          "t": 1763121626,
-          "p": 0.925
-        },
-        {
-          "t": 1763164821,
-          "p": 0.925
-        },
-        {
-          "t": 1763208026,
-          "p": 0.915
-        },
-        {
-          "t": 1763251213,
-          "p": 0.925
-        },
-        {
-          "t": 1763294423,
-          "p": 0.925
-        },
-        {
-          "t": 1763337618,
-          "p": 0.935
-        },
-        {
-          "t": 1763380822,
-          "p": 0.935
-        },
-        {
-          "t": 1763424014,
-          "p": 0.935
-        },
-        {
-          "t": 1763467223,
-          "p": 0.89
-        },
-        {
-          "t": 1763510421,
-          "p": 0.92
-        },
-        {
-          "t": 1763553627,
-          "p": 0.919
+          "t": 1772452826,
+          "p": 0.9985
         }
       ],
       "turning_points": [
         {
-          "t": 1762862436,
-          "p": 0.88,
-          "delta": 0.38
+          "t": 1772280045,
+          "p": 0.73,
+          "delta": 0.11
         },
         {
-          "t": 1762948823,
-          "p": 0.93,
-          "delta": 0.05
+          "t": 1772323227,
+          "p": 0.515,
+          "delta": -0.215
+        },
+        {
+          "t": 1772366428,
+          "p": 0.735,
+          "delta": 0.22
+        },
+        {
+          "t": 1772409637,
+          "p": 0.83,
+          "delta": 0.095
+        },
+        {
+          "t": 1772452826,
+          "p": 0.9985,
+          "delta": 0.1685
         }
       ],
-      "price_at_open": 0.5,
-      "price_at_close": 0.919,
-      "min_price": 0.5,
-      "max_price": 0.935,
-      "final_price": 0.919,
-      "fetched_at": "2026-04-20T17:08:04.759004+00:00"
+      "price_at_open": 0.62,
+      "price_at_close": 0.9985,
+      "min_price": 0.515,
+      "max_price": 0.9985,
+      "final_price": 0.9985,
+      "fetched_at": "2026-04-27T07:57:51.877351+00:00"
     },
     "events": [
       {
-        "id": "evt_finance_20251113_012_b144c151",
-        "date": "2025-11-13 12:00",
-        "title": "Market sentiment peaks ahead of earnings",
-        "description": "A significant market sentiment shift (price peak) occurs as preliminary positive indicators suggest a massive beat.",
-        "impact": "**Affects:** Yes - Will NVIDIA (NVDA) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMarket sentiment makes beat more likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/ahead-beat-raise-quarter-buy-191958774.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251118_007_b799d277",
-        "date": "2025-11-18 00:00",
-        "title": "Reports highlight expanding global AI infrastructure spending",
-        "description": "Reports highlight expanding global AI infrastructure spending directly lifting Nvidia's earnings outlook.",
-        "impact": "**Affects:** Yes - Will NVIDIA (NVDA) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInfrastructure spending makes beat more likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.analyticsinsight.net/news/nvidias-earnings-outlook-lifted-by-expanding-global-ai-infrastructure-spending",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251119_005_1aa908af",
-        "date": "2025-11-19 00:00",
-        "title": "Strong Data Center Revenue Growth in Q3 2025",
-        "description": "NVIDIA's data center business segment experienced massive year-over-year revenue growth in the third quarter of 2025. This growth was primarily fueled by the strong sales of the new Blackwell-based products.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.fool.com/investing/2025/11/22/should-you-buy-nvidia-after-blowout-earnings",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251119_001_b200523d",
-        "date": "2025-11-19 13:00",
-        "title": "NVIDIA Reports Record Data Center Revenue in Q3 2025",
-        "description": "NVIDIA's Q3 2025 earnings report reveals unprecedented revenue from its Data Center division, massively exceeding analyst expectations. The growth is attributed to the overwhelming demand for its latest AI and HPC accelerators.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.fool.com/investing/2025/12/29/following-nvidia-mark-your-calendars-for-march-16",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251108_006_73527f16",
-        "date": "2025-11-08 00:00",
-        "title": "Projections show Nvidia Data Center revenue surging 165%",
-        "description": "Projections surface showing Nvidia's Data Center revenue poised for a 165% surge.",
-        "impact": "**Affects:** Yes - Will NVIDIA (NVDA) beat quarterly earnings?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nProjections make beat more likely.",
+        "id": "evt_politics_20260227_010_6cc5c703",
+        "date": "2026-02-27 00:00",
+        "title": "AFRICOM conducts coordinated airstrikes",
+        "description": "AFRICOM conducts coordinated airstrikes in regions such as the Golis Mountains and Lower Shabelle.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.fool.com/investing/2025/11/08/nvidias-ai-dominance-data-center-revenue-poised-fo",
+        "source_url": "https://www.cbsnews.com/news/us-airstrike-somalia-isis-shabaab-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_19930101_004_40703d4d",
-        "date": "1993-01-01 00:00",
-        "title": "Jensen Huang's Visionary Leadership",
-        "description": "Jensen Huang, NVIDIA's co-founder and CEO, has been instrumental in guiding the company's strategic direction and fostering a culture of innovation.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20250601_001_2e3a2b2a",
+        "date": "2025-06-01 00:00",
+        "title": "Al-Shabaab mounts counteroffensive",
+        "description": "Al-Shabaab mounts an unprecedented counteroffensive in Somalia.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.techtarget.com/WhatIs/feature/Whats-going-on-with-Nvidia-stock-and-the-booming-AI-market",
+        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20180101_005_b28e91f7",
-        "date": "2018-01-01 00:00",
-        "title": "Exponential Growth of the AI Market",
-        "description": "The rapid growth of the AI market, driven by advancements in deep learning and the increasing availability of large datasets, has created a massive demand for high-performance computing hardware.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20250801_002_cfe2569b",
+        "date": "2025-08-01 00:00",
+        "title": "Al-Shabaab reverses government gains",
+        "description": "Al-Shabaab reverses gains of the Somali government.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.datacenterfrontier.com/machine-learning/article/55315014/nvidia-forecasts-34-trillion-ai-market-driving-next-wave-of-infrastructure",
+        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20200101_006_2aa2b3b2",
-        "date": "2020-01-01 00:00",
-        "title": "NVIDIA's Technological Leadership in GPU Technology",
-        "description": "NVIDIA has consistently out-innovated its competitors, developing new GPU architectures with significant performance and efficiency improvements.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20251001_003_3054d2bb",
+        "date": "2025-10-01 00:00",
+        "title": "Al-Shabaab threatens Mogadishu",
+        "description": "Al-Shabaab threatens the capital city of Mogadishu.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://jompatech.com/upcoming-gpu-market-analysis-nvidia-amd-intel-battle",
+        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20220101_007_0b5ab52b",
-        "date": "2022-01-01 00:00",
-        "title": "Effective Supply Chain Management",
-        "description": "NVIDIA has effectively managed its supply chain to meet the surging demand for its products, despite global chip shortages and other logistical challenges.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20251201_004_29273f59",
+        "date": "2025-12-01 00:00",
+        "title": "ISIS-Somalia emerges as regional hub",
+        "description": "ISIS-Somalia emerges as a regional hub for financing and international attacks.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.nasdaq.com/articles/nvidia-reports-record-q4-revenue-393-billion-full-year-revenue-1305-billion-fiscal-2025",
+        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_tech_20250101_004_c4b53fa6",
-        "date": "2025-01-01 00:00",
-        "title": "Sustained High Demand for AI Accelerators in 2025",
-        "description": "Throughout 2025, there was a sustained and unprecedented high demand for AI accelerators, driven by the rapid expansion of large language models and generative AI applications across various industries. This sustained high demand was a primary driver of revenue for chipmakers, particularly NVIDIA.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20260201_005_ee9466da",
+        "date": "2026-02-01 00:00",
+        "title": "Trump administration shifts rules of engagement",
+        "description": "The Trump administration shifts counterterrorism rules of engagement to facilitate rapid drone strikes.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.crn.com/news/ai/2025/the-10-biggest-ai-news-stories-of-2025",
+        "source_url": "https://www.semafor.com/article/02/02/2026/why-us-airstrikes-in-somalia-are-reaching-record-levels-under-trump",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260205_006_e7ae0981",
+        "date": "2026-02-05 00:00",
+        "title": "U.S. strategy frames airpower as low-risk",
+        "description": "U.S. strategy frames airpower as a low-risk alternative to troop deployments.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.semafor.com/article/02/02/2026/why-us-airstrikes-in-somalia-are-reaching-record-levels-under-trump",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260210_007_70f549e0",
+        "date": "2026-02-10 00:00",
+        "title": "Experts warn about civilian casualties",
+        "description": "Experts and rights groups warn that drone strikes often result in civilian casualties.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_008_23ead2d9",
+        "date": "2026-02-15 00:00",
+        "title": "U.S. administration segments argue against counterterrorism focus",
+        "description": "Segments within the U.S. administration argue that focusing on counterterrorism detracts from great-power competition with China.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.aljazeera.com/news/2025/6/24/under-trump-us-strikes-on-somalia-have-doubled-since-last-year-why",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260220_009_76526de6",
+        "date": "2026-02-20 00:00",
+        "title": "AFRICOM coordinates with Somali government",
+        "description": "AFRICOM coordinates with the Federal Government of Somalia for operations.",
+        "impact": "**Affects:** Yes - U.S. strike on Somalia by March 7?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES outcome",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cbsnews.com/news/us-airstrike-somalia-isis-shabaab-2026",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -397,907 +364,647 @@ var annotationData = [
     ]
   },
   {
-    "id": "polymarket_0x17b9d9abd9064c5d892b522ddb245fdc853183b20dd5001aba4294ebd1c371b8",
-    "title": "Will Elon and DOGE cut 150-200k employees in 2025?",
+    "id": "polymarket_0x25a4ea049d3bd46fe71ad8676feef9098bb37cbd9d9336280dd6188a7659813c",
+    "title": "Will NATO invoke Article 5 (collective defense) during 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve based on the seasonally adjusted number of federal employees, as reported by the U.S. Bureau of Labor Statistics (BLS) under the \"All Employees, Federal\" series (CES9091000001), displayed here (https://fred.stlouisfed.org/series/CES9091000001)\n\nThis market will resolve according to the decrease in the seasonally adjusted number of federal employees between the December 2024 report and the December 2025 report.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe difference will be calculated as the December 2024 value minus the December 2025 value.\n\nThe December 2024 figure will be based on the initial December 2024 BLS Employment Situation report scheduled for release on January 3, 2025, and the initial December 2025 figure will be based on the report scheduled for release on January 9, 2026. Revisions made to these figures will not be considered, only the values reported in the initial reports will be used.\n\nThe resolution source will be the BLS Employment Situation data, specifically the series CES9091000001, available at https://fred.stlouisfed.org/series/CES9091000001 or the official BLS website.\n",
+    "resolution_criteria": "If any NATO member country invokes Article 5 of the North Atlantic Treaty at any time between May 28 and December 31, 2025, 11:59 PM ET, this market will resolve to \"Yes\". Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from NATO (nato.int), however a consensus of credible media will also suffice.",
     "outcome": "No",
-    "explanation": "\n# Required Output Format\n\n## Executive Summary\nElon Musk and the Department of Government Efficiency (DOGE) failed to execute their proposed 150-200k federal employee cuts in 2025 due to massive legal, political, and operational pushback. While the initiative started with strong momentum, aiming to slash budgets and personnel, it quickly became mired in lawsuits from federal workers, unions, and affected organizations. Operational dysfunction, including the controversial use of ChatGPT to identify programs for elimination, severely undermined DOGE's credibility and led to public backlash. Ultimately, compounding legal defeats and injunctions forced the early disbandment of DOGE, preventing the sweeping personnel cuts.\n\n## Timeline Of Key Events\n- Early 2025: President Trump establishes the Department of Government Efficiency (DOGE) and appoints Elon Musk to lead efforts to significantly reduce federal spending and workforce [art_politics_20251123_008_33d6ed69].\n- August-September 2025: Pushback from federal agencies and unions intensifies as DOGE attempts to implement widespread cuts [art_politics_20250818_002_f8572ae8, art_politics_20250916_003_e372efca].\n- 2025-10-30: Depositions from DOGE employees reveal the agency relied on ChatGPT to identify over $100 million in DEI-related grants for cancellation, sparking widespread controversy and legal challenges [art_politics_20251030_007_8ac39987].\n- November 2025: OPM Director Scott Kupor announces that DOGE has been quietly disbanded, with its remaining functions absorbed by OPM, eight months ahead of schedule [art_politics_20251021_004_c5e1cb8f].\n- 2025-12-15: Elon Musk admits that DOGE \"became the whipping boy\" for all government problems [art_politics_20251215_010_65ffac1d].\n\n## Causal Chain Analysis\nThe ambitious goal to cut 150-200k federal employees began with the creation of DOGE, intended to aggressively slash government spending. However, this aggressive mandate triggered immediate and massive resistance from federal agencies and labor unions, leading to numerous lawsuits. These legal challenges resulted in federal judges issuing injunctions that blocked the mass terminations. Concurrently, operational missteps, notably using AI (ChatGPT) for critical decision-making regarding grant cancellations, caused severe public and political backlash. This combination of legal gridlock and loss of credibility ultimately led the administration to disband DOGE prematurely, thereby ensuring the massive workforce cuts were never realized.\n\n## Countervailing Factors\nThe primary countervailing factor was the initial strong backing from the President and the political mandate to reduce government size. Musk's influence and the rapid initial actions of DOGE suggested the cuts might succeed. However, these forces were ultimately overwhelmed by the entrenched protections of the federal civil service system, the judicial system's willingness to grant injunctions, and the self-inflicted damage from DOGE's own chaotic operational methods.\n\n## Event Candidate Inventory\n- **E1: Creation of DOGE**\n  - Date: Early 2025\n  - Why it matters: Established the vehicle through which the cuts were attempted.\n  - Source: [art_politics_20251123_008_33d6ed69]\n- **E2: DOGE employee depositions reveal ChatGPT use**\n  - Date: 2025-10-30\n  - Why it matters: Severely damaged the credibility of DOGE's methodology, fueling legal and political opposition.\n  - Source: [art_politics_20251030_007_8ac39987]\n- **E3: Disbandment of DOGE**\n  - Date: November 2025\n  - Why it matters: The formal end of the entity attempting to make the cuts, officially resolving the outcome as negative.\n  - Source: [art_politics_20251021_004_c5e1cb8f]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| DOGE targeted federal agencies early on | art_politics_20251123_008_33d6ed69 | 2025-11-23 | 0.9 | Recounts early days |\n| ChatGPT used for grant cuts | art_politics_20251030_007_8ac39987 | 2025-10-30 | 0.95 | Deposition reveals details |\n| DOGE disbanded early by OPM | art_politics_20251021_004_c5e1cb8f | 2025-10-21 | 0.95 | OPM director confirms |\n| Musk cites DOGE as whipping boy | art_politics_20251215_010_65ffac1d | 2025-12-15 | 0.85 | Musk's reflection on failure |\n\n## Uncertainties And Alternative Paths\nThe exact number of employees that might have been cut had DOGE not been disbanded remains uncertain. An alternative path could have occurred if DOGE had utilized more rigorous, legally sound methodologies for identifying cuts, potentially allowing them to survive judicial scrutiny and achieve at least a portion of their targeted reductions.\n",
+    "explanation": "\n## Executive Summary\nNATO did not invoke Article 5 (collective defense) during 2025. Although tensions with Russia remained remarkably high due to the Ukraine war and incidents of Russian drones entering NATO airspace, these events did not meet the alliance's threshold for an armed attack. Instead, members like Poland invoked Article 4 for consultations, reflecting a preference for diplomacy and bolstering defense rather than escalating to direct conflict. Ultimately, the desire to avoid a full-scale war between NATO and Russia guided the decision not to invoke collective defense mechanisms.\n\n## Timeline Of Key Events\n- **2025-09-10**: Russian drone incursions into NATO airspace (Poland) prompt high alert, but Poland officially invoked Article 4 for consultations rather than Article 5. [art_general_20250926_015_4207ff0c]\n- **2025-10-01**: Tensions peaked as NATO allies discussed collective defense capabilities and proposals for increasing air defense, again avoiding the invocation of Article 5. [art_general_20251218_007_eeedb1e2]\n- **Late 2025**: The U.S. and European allies engaged in discussions regarding potential peace deals between Russia and Ukraine, further de-escalating the potential for NATO's direct involvement. [art_general_20251218_041_f81dd159]\n\n## Causal Chain Analysis\nThe ongoing war in Ukraine **caused** persistent geopolitical tensions and the occasional spillover of incidents like Russian drones entering NATO airspace. This **led to** heightened alert levels among NATO border states, particularly Poland. However, because NATO leaders correctly perceived these drone incidents as accidental or indirect consequences of the war rather than deliberate attacks on the alliance, this **triggered** the invocation of Article 4 for consultations rather than military retaliation. This diplomatic handling **resulted in** the de-escalation of immediate threats, and **because** NATO members were fundamentally unwilling to enter a direct war with a nuclear-armed Russia, Article 5 was never invoked [art_general_20251218_041_f81dd159].\n\n## Countervailing Factors\nThe principal countervailing forces were the increasingly brazen airspace violations by Russian drones and the potential for an accidental strike causing significant civilian or military casualties in a NATO country. Had such an incident resulted in mass casualties or been interpreted as an intentional attack, the political pressure to invoke Article 5 would have been immense. However, these forces failed to trigger Article 5 because NATO's strategic priority remained containment and preventing the Ukraine conflict from becoming a broader World War III. \n\n## Event Candidate Inventory\n- **E1**: Russian drones enter Polish airspace.\n  - Date: ~2025-09-10\n  - Why it matters causally: Tested NATO's red lines and prompted discussions of collective defense, but resulted in Article 4 instead of Article 5.\n  - Source article IDs: [art_general_20250926_015_4207ff0c]\n- **E2**: NATO allies focus on air defense enhancements.\n  - Date: ~2025-10-01\n  - Why it matters causally: Demonstrated NATO's response to the threat without triggering military retaliation.\n  - Source article IDs: [art_general_20251218_007_eeedb1e2]\n- **E3**: U.S. officials signal Russia-Ukraine peace deal closer.\n  - Date: 2025-12-18\n  - Why it matters causally: Signified an end-of-year reduction in tensions, minimizing the possibility of an Article 5 scenario.\n  - Source article IDs: [art_general_20251218_041_f81dd159]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Russian drone incursions into Poland | [art_general_20250926_015_4207ff0c] | Sep 2025 | 0.9 | Led to Article 4 invocation |\n| NATO air defense enhancement discussions | [art_general_20251218_007_eeedb1e2] | Oct 2025 | 0.8 | Avoided Article 5 |\n| Peace deal discussions lower tensions | [art_general_20251218_041_f81dd159] | Dec 2025 | 0.85 | Further reduced risks of escalation |\n\n## Uncertainties And Alternative Paths\nThe most plausible alternative path involved an accidental missile strike or rogue drone causing significant casualties in a NATO member state, such as Poland or Romania. If a major casualty event had occurred, the pressure from Eastern European allies could have forced the U.S. and other major powers into an Article 5 declaration, leading to a direct confrontation with Russia.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-02-05T23:45:24.559772+00:00",
+    "market_open": "2025-05-28T18:37:31.938000+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-01-11T18:27:02+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-elon-and-doge-cut-150-200k-employees-in-2025",
+    "market_close": "2026-01-01T08:45:55+00:00",
+    "polymarket_url": "https://polymarket.com/event/nato-article-5-in-2025-763",
     "price_data": {
       "history": [
         {
-          "t": 1738800005,
-          "p": 0.35
-        },
-        {
-          "t": 1739016005,
-          "p": 0.185
-        },
-        {
-          "t": 1739275204,
-          "p": 0.17
-        },
-        {
-          "t": 1739534404,
-          "p": 0.115
-        },
-        {
-          "t": 1739750404,
-          "p": 0.155
-        },
-        {
-          "t": 1740009604,
-          "p": 0.155
-        },
-        {
-          "t": 1740268804,
-          "p": 0.155
-        },
-        {
-          "t": 1740484805,
-          "p": 0.15
-        },
-        {
-          "t": 1740744005,
+          "t": 1748476807,
           "p": 0.08
         },
         {
-          "t": 1741003205,
-          "p": 0.075
-        },
-        {
-          "t": 1741219205,
-          "p": 0.075
-        },
-        {
-          "t": 1741478405,
-          "p": 0.08
-        },
-        {
-          "t": 1741737605,
-          "p": 0.075
-        },
-        {
-          "t": 1741953605,
-          "p": 0.075
-        },
-        {
-          "t": 1742212805,
-          "p": 0.075
-        },
-        {
-          "t": 1742472006,
-          "p": 0.075
-        },
-        {
-          "t": 1742688006,
+          "t": 1748606407,
           "p": 0.065
         },
         {
-          "t": 1742947205,
-          "p": 0.065
-        },
-        {
-          "t": 1743206406,
+          "t": 1748779207,
           "p": 0.07
         },
         {
-          "t": 1743422406,
-          "p": 0.07
-        },
-        {
-          "t": 1743681606,
-          "p": 0.07
-        },
-        {
-          "t": 1743940805,
-          "p": 0.07
-        },
-        {
-          "t": 1744156806,
-          "p": 0.07
-        },
-        {
-          "t": 1744416006,
-          "p": 0.065
-        },
-        {
-          "t": 1744675205,
-          "p": 0.065
-        },
-        {
-          "t": 1744891205,
-          "p": 0.065
-        },
-        {
-          "t": 1745150406,
-          "p": 0.07
-        },
-        {
-          "t": 1745409606,
-          "p": 0.07
-        },
-        {
-          "t": 1745625606,
-          "p": 0.07
-        },
-        {
-          "t": 1745884805,
-          "p": 0.07
-        },
-        {
-          "t": 1746144006,
+          "t": 1748908807,
           "p": 0.075
-        },
-        {
-          "t": 1746360005,
-          "p": 0.085
-        },
-        {
-          "t": 1746619206,
-          "p": 0.115
-        },
-        {
-          "t": 1746878406,
-          "p": 0.125
-        },
-        {
-          "t": 1747094406,
-          "p": 0.125
-        },
-        {
-          "t": 1747353606,
-          "p": 0.135
-        },
-        {
-          "t": 1747612806,
-          "p": 0.135
-        },
-        {
-          "t": 1747828807,
-          "p": 0.135
-        },
-        {
-          "t": 1748088006,
-          "p": 0.165
-        },
-        {
-          "t": 1748347206,
-          "p": 0.165
-        },
-        {
-          "t": 1748563207,
-          "p": 0.175
-        },
-        {
-          "t": 1748822406,
-          "p": 0.185
         },
         {
           "t": 1749081606,
-          "p": 0.095
+          "p": 0.07
         },
         {
-          "t": 1749297608,
-          "p": 0.115
+          "t": 1749254407,
+          "p": 0.07
+        },
+        {
+          "t": 1749384007,
+          "p": 0.07
         },
         {
           "t": 1749556807,
-          "p": 0.115
+          "p": 0.075
         },
         {
-          "t": 1749816008,
-          "p": 0.115
+          "t": 1749729607,
+          "p": 0.075
+        },
+        {
+          "t": 1749859208,
+          "p": 0.075
         },
         {
           "t": 1750032007,
-          "p": 0.105
+          "p": 0.07
         },
         {
-          "t": 1750291207,
-          "p": 0.1
+          "t": 1750161606,
+          "p": 0.07
         },
         {
-          "t": 1750550406,
-          "p": 0.095
+          "t": 1750334407,
+          "p": 0.075
         },
         {
-          "t": 1750766406,
-          "p": 0.095
+          "t": 1750507208,
+          "p": 0.065
         },
         {
-          "t": 1751025608,
-          "p": 0.095
+          "t": 1750636807,
+          "p": 0.055
+        },
+        {
+          "t": 1750809607,
+          "p": 0.055
+        },
+        {
+          "t": 1750982407,
+          "p": 0.06
+        },
+        {
+          "t": 1751112007,
+          "p": 0.06
         },
         {
           "t": 1751284807,
-          "p": 0.1
+          "p": 0.055
         },
         {
-          "t": 1751500808,
-          "p": 0.155
+          "t": 1751414407,
+          "p": 0.055
+        },
+        {
+          "t": 1751587208,
+          "p": 0.05
         },
         {
           "t": 1751760007,
-          "p": 0.145
+          "p": 0.05
         },
         {
-          "t": 1752019207,
-          "p": 0.16
+          "t": 1751889607,
+          "p": 0.045
+        },
+        {
+          "t": 1752062408,
+          "p": 0.05
         },
         {
           "t": 1752235209,
-          "p": 0.16
+          "p": 0.055
         },
         {
-          "t": 1752494407,
-          "p": 0.16
+          "t": 1752364808,
+          "p": 0.05
         },
         {
-          "t": 1752753607,
-          "p": 0.16
+          "t": 1752537608,
+          "p": 0.05
         },
         {
-          "t": 1752969608,
-          "p": 0.14
+          "t": 1752667208,
+          "p": 0.05
         },
         {
-          "t": 1753228809,
-          "p": 0.135
+          "t": 1752840008,
+          "p": 0.05
+        },
+        {
+          "t": 1753012808,
+          "p": 0.05
+        },
+        {
+          "t": 1753142409,
+          "p": 0.05
+        },
+        {
+          "t": 1753315209,
+          "p": 0.05
         },
         {
           "t": 1753488009,
-          "p": 0.135
+          "p": 0.05
         },
         {
-          "t": 1753704009,
-          "p": 0.14
+          "t": 1753617609,
+          "p": 0.05
         },
         {
-          "t": 1753963208,
-          "p": 0.155
+          "t": 1753790408,
+          "p": 0.05
         },
         {
-          "t": 1754222408,
-          "p": 0.095
+          "t": 1753920008,
+          "p": 0.05
         },
         {
-          "t": 1754438409,
-          "p": 0.14
+          "t": 1754092809,
+          "p": 0.055
         },
         {
-          "t": 1754697607,
-          "p": 0.14
+          "t": 1754265607,
+          "p": 0.05
         },
         {
-          "t": 1754956805,
-          "p": 0.14
+          "t": 1754395209,
+          "p": 0.05
         },
         {
-          "t": 1755172809,
-          "p": 0.2
+          "t": 1754568012,
+          "p": 0.05
         },
         {
-          "t": 1755432007,
-          "p": 0.195
+          "t": 1754740812,
+          "p": 0.055
         },
         {
-          "t": 1755691204,
-          "p": 0.24
+          "t": 1754870407,
+          "p": 0.055
         },
         {
-          "t": 1755907202,
-          "p": 0.23
+          "t": 1755043210,
+          "p": 0.055
         },
         {
-          "t": 1756166406,
-          "p": 0.19
+          "t": 1755172813,
+          "p": 0.055
         },
         {
-          "t": 1756425610,
-          "p": 0.175
+          "t": 1755345608,
+          "p": 0.05
         },
         {
-          "t": 1756641606,
-          "p": 0.14
+          "t": 1755518404,
+          "p": 0.055
+        },
+        {
+          "t": 1755648003,
+          "p": 0.05
+        },
+        {
+          "t": 1755820809,
+          "p": 0.045
+        },
+        {
+          "t": 1755993605,
+          "p": 0.05
+        },
+        {
+          "t": 1756123213,
+          "p": 0.05
+        },
+        {
+          "t": 1756296017,
+          "p": 0.05
+        },
+        {
+          "t": 1756425604,
+          "p": 0.05
+        },
+        {
+          "t": 1756598417,
+          "p": 0.05
+        },
+        {
+          "t": 1756771215,
+          "p": 0.055
         },
         {
           "t": 1756900812,
-          "p": 0.235
+          "p": 0.05
         },
         {
-          "t": 1757160002,
-          "p": 0.285
+          "t": 1757073622,
+          "p": 0.034
         },
         {
-          "t": 1757376005,
-          "p": 0.335
+          "t": 1757246424,
+          "p": 0.036
         },
         {
-          "t": 1757635214,
-          "p": 0.3
+          "t": 1757376009,
+          "p": 0.036
         },
         {
-          "t": 1757894406,
-          "p": 0.25
+          "t": 1757548807,
+          "p": 0.063
         },
         {
-          "t": 1758110408,
-          "p": 0.305
+          "t": 1757678406,
+          "p": 0.067
         },
         {
-          "t": 1758369617,
-          "p": 0.185
+          "t": 1757851226,
+          "p": 0.059
         },
         {
-          "t": 1758628830,
-          "p": 0.23
+          "t": 1758024033,
+          "p": 0.0555
         },
         {
-          "t": 1758844807,
-          "p": 0.26
+          "t": 1758153609,
+          "p": 0.0675
         },
         {
-          "t": 1759104008,
-          "p": 0.21
+          "t": 1758326407,
+          "p": 0.0555
         },
         {
-          "t": 1759363204,
-          "p": 0.2
+          "t": 1758499202,
+          "p": 0.0585
         },
         {
-          "t": 1759579202,
-          "p": 0.2
+          "t": 1758628812,
+          "p": 0.0665
         },
         {
-          "t": 1759838417,
-          "p": 0.195
+          "t": 1758801609,
+          "p": 0.0685
         },
         {
-          "t": 1760097612,
-          "p": 0.2
+          "t": 1758931208,
+          "p": 0.0685
         },
         {
-          "t": 1760313615,
-          "p": 0.215
+          "t": 1759104007,
+          "p": 0.068
         },
         {
-          "t": 1760572819,
-          "p": 0.215
+          "t": 1759276805,
+          "p": 0.08
         },
         {
-          "t": 1760832013,
-          "p": 0.195
+          "t": 1759406417,
+          "p": 0.0495
         },
         {
-          "t": 1761048021,
-          "p": 0.53
+          "t": 1759579216,
+          "p": 0.0435
         },
         {
-          "t": 1761307205,
-          "p": 0.49
+          "t": 1759752010,
+          "p": 0.0335
         },
         {
-          "t": 1761566406,
-          "p": 0.515
+          "t": 1759881608,
+          "p": 0.041
         },
         {
-          "t": 1761825605,
-          "p": 0.455
+          "t": 1760054418,
+          "p": 0.04
         },
         {
-          "t": 1762084805,
-          "p": 0.375
+          "t": 1760184003,
+          "p": 0.0315
         },
         {
-          "t": 1762344006,
-          "p": 0.375
+          "t": 1760356810,
+          "p": 0.0375
         },
         {
-          "t": 1762560006,
-          "p": 0.285
+          "t": 1760529619,
+          "p": 0.036
         },
         {
-          "t": 1762819207,
-          "p": 0.305
+          "t": 1760659209,
+          "p": 0.0375
         },
         {
-          "t": 1763078406,
-          "p": 0.31
+          "t": 1760832015,
+          "p": 0.0355
         },
         {
-          "t": 1763294406,
-          "p": 0.45
+          "t": 1761004815,
+          "p": 0.035
         },
         {
-          "t": 1763553607,
-          "p": 0.395
+          "t": 1761134423,
+          "p": 0.04
         },
         {
-          "t": 1763812806,
-          "p": 0.515
+          "t": 1761307219,
+          "p": 0.032
         },
         {
-          "t": 1764028806,
-          "p": 0.45
+          "t": 1761436816,
+          "p": 0.0305
         },
         {
-          "t": 1764288008,
-          "p": 0.47
+          "t": 1761609617,
+          "p": 0.0345
         },
         {
-          "t": 1764547205,
-          "p": 0.435
+          "t": 1761825619,
+          "p": 0.044
         },
         {
-          "t": 1764763207,
-          "p": 0.39
+          "t": 1761955216,
+          "p": 0.0305
         },
         {
-          "t": 1765022408,
-          "p": 0.235
+          "t": 1762128015,
+          "p": 0.029
         },
         {
-          "t": 1765281606,
-          "p": 0.225
+          "t": 1762300816,
+          "p": 0.0315
         },
         {
-          "t": 1765497607,
-          "p": 0.405
+          "t": 1762430422,
+          "p": 0.0225
         },
         {
-          "t": 1765756807,
-          "p": 0.445
+          "t": 1762603233,
+          "p": 0.0235
         },
         {
-          "t": 1765972808,
-          "p": 0.0805
+          "t": 1762732811,
+          "p": 0.0225
         },
         {
-          "t": 1766188807,
-          "p": 0.004
+          "t": 1762905616,
+          "p": 0.022
         },
         {
-          "t": 1766448008,
-          "p": 0.0055
+          "t": 1763078415,
+          "p": 0.0215
         },
         {
-          "t": 1766707207,
-          "p": 0.0055
+          "t": 1763208024,
+          "p": 0.019
         },
         {
-          "t": 1766923208,
-          "p": 0.003
+          "t": 1763380820,
+          "p": 0.0205
         },
         {
-          "t": 1767182408,
-          "p": 0.003
+          "t": 1763553624,
+          "p": 0.0205
         },
         {
-          "t": 1767441609,
-          "p": 0.002
+          "t": 1763683220,
+          "p": 0.018
         },
         {
-          "t": 1767657612,
+          "t": 1763856014,
+          "p": 0.029
+        },
+        {
+          "t": 1763985609,
+          "p": 0.027
+        },
+        {
+          "t": 1764158437,
+          "p": 0.027
+        },
+        {
+          "t": 1764331226,
+          "p": 0.0145
+        },
+        {
+          "t": 1764460816,
+          "p": 0.0155
+        },
+        {
+          "t": 1764633613,
+          "p": 0.0145
+        },
+        {
+          "t": 1764806414,
+          "p": 0.0145
+        },
+        {
+          "t": 1764936016,
+          "p": 0.0145
+        },
+        {
+          "t": 1765108819,
+          "p": 0.014
+        },
+        {
+          "t": 1765238425,
+          "p": 0.0135
+        },
+        {
+          "t": 1765411214,
+          "p": 0.011
+        },
+        {
+          "t": 1765584016,
+          "p": 0.011
+        },
+        {
+          "t": 1765713616,
+          "p": 0.0095
+        },
+        {
+          "t": 1765886428,
+          "p": 0.0065
+        },
+        {
+          "t": 1766016024,
           "p": 0.008
         },
         {
-          "t": 1767916810,
-          "p": 0.0045
+          "t": 1766145616,
+          "p": 0.008
+        },
+        {
+          "t": 1766318414,
+          "p": 0.0075
+        },
+        {
+          "t": 1766448016,
+          "p": 0.0065
+        },
+        {
+          "t": 1766620826,
+          "p": 0.0035
+        },
+        {
+          "t": 1766793616,
+          "p": 0.004
+        },
+        {
+          "t": 1766923216,
+          "p": 0.0025
+        },
+        {
+          "t": 1767096018,
+          "p": 0.002
         }
       ],
       "turning_points": [
         {
-          "t": 1738843204,
-          "p": 0.185,
-          "delta": -0.165
-        },
-        {
-          "t": 1739361604,
-          "p": 0.125,
-          "delta": -0.06
-        },
-        {
-          "t": 1740787205,
-          "p": 0.075,
-          "delta": -0.05
-        },
-        {
-          "t": 1746748807,
-          "p": 0.125,
-          "delta": 0.05
-        },
-        {
-          "t": 1748390406,
-          "p": 0.18,
-          "delta": 0.055
-        },
-        {
-          "t": 1749081606,
-          "p": 0.095,
-          "delta": -0.085
-        },
-        {
-          "t": 1751500808,
-          "p": 0.155,
-          "delta": 0.06
-        },
-        {
-          "t": 1754092809,
-          "p": 0.095,
-          "delta": -0.06
-        },
-        {
-          "t": 1754524803,
-          "p": 0.155,
-          "delta": 0.06
-        },
-        {
-          "t": 1755043207,
-          "p": 0.255,
-          "delta": 0.1
-        },
-        {
-          "t": 1755172809,
-          "p": 0.2,
-          "delta": -0.055
-        },
-        {
-          "t": 1755216002,
-          "p": 0.295,
-          "delta": 0.095
-        },
-        {
-          "t": 1755302410,
-          "p": 0.22,
-          "delta": -0.075
-        },
-        {
-          "t": 1755475207,
-          "p": 0.365,
-          "delta": 0.145
-        },
-        {
-          "t": 1755518409,
-          "p": 0.445,
-          "delta": 0.08
-        },
-        {
-          "t": 1755561602,
-          "p": 0.215,
-          "delta": -0.23
-        },
-        {
-          "t": 1756598419,
-          "p": 0.14,
-          "delta": -0.075
-        },
-        {
-          "t": 1756728026,
-          "p": 0.22,
-          "delta": 0.08
-        },
-        {
-          "t": 1757116812,
-          "p": 0.325,
-          "delta": 0.105
-        },
-        {
-          "t": 1757462406,
-          "p": 0.205,
-          "delta": -0.12
-        },
-        {
-          "t": 1757505612,
-          "p": 0.315,
-          "delta": 0.11
-        },
-        {
-          "t": 1757678433,
-          "p": 0.215,
-          "delta": -0.1
-        },
-        {
-          "t": 1757721609,
-          "p": 0.3,
-          "delta": 0.085
-        },
-        {
-          "t": 1757764828,
-          "p": 0.245,
-          "delta": -0.055
-        },
-        {
-          "t": 1758024005,
-          "p": 0.35,
-          "delta": 0.105
-        },
-        {
-          "t": 1758240017,
-          "p": 0.175,
-          "delta": -0.175
-        },
-        {
-          "t": 1758542422,
-          "p": 0.27,
-          "delta": 0.095
-        },
-        {
-          "t": 1758974419,
-          "p": 0.21,
-          "delta": -0.06
-        },
-        {
-          "t": 1759190407,
-          "p": 0.135,
-          "delta": -0.075
-        },
-        {
-          "t": 1759363204,
-          "p": 0.2,
-          "delta": 0.065
-        },
-        {
-          "t": 1761004811,
-          "p": 0.375,
-          "delta": 0.175
-        },
-        {
-          "t": 1761048021,
-          "p": 0.53,
-          "delta": 0.155
-        },
-        {
-          "t": 1761264006,
-          "p": 0.48,
-          "delta": -0.05
-        },
-        {
-          "t": 1761436806,
-          "p": 0.55,
-          "delta": 0.07
-        },
-        {
-          "t": 1761782406,
-          "p": 0.455,
-          "delta": -0.095
-        },
-        {
-          "t": 1761912006,
-          "p": 0.395,
-          "delta": -0.06
-        },
-        {
-          "t": 1762560006,
-          "p": 0.285,
-          "delta": -0.11
-        },
-        {
-          "t": 1762776006,
-          "p": 0.365,
-          "delta": 0.08
-        },
-        {
-          "t": 1762819207,
-          "p": 0.305,
-          "delta": -0.06
-        },
-        {
-          "t": 1763208006,
-          "p": 0.425,
-          "delta": 0.12
-        },
-        {
-          "t": 1763683206,
-          "p": 0.505,
-          "delta": 0.08
-        },
-        {
-          "t": 1763942409,
-          "p": 0.435,
-          "delta": -0.07
-        },
-        {
-          "t": 1764892807,
-          "p": 0.35,
-          "delta": -0.085
-        },
-        {
-          "t": 1765022408,
-          "p": 0.235,
-          "delta": -0.115
-        },
-        {
-          "t": 1765195219,
-          "p": 0.295,
-          "delta": 0.06
-        },
-        {
-          "t": 1765238418,
-          "p": 0.23,
-          "delta": -0.065
-        },
-        {
-          "t": 1765368007,
-          "p": 0.285,
-          "delta": 0.055
-        },
-        {
-          "t": 1765497607,
-          "p": 0.405,
-          "delta": 0.12
-        },
-        {
-          "t": 1765800006,
-          "p": 0.355,
-          "delta": -0.05
-        },
-        {
-          "t": 1765843206,
-          "p": 0.405,
-          "delta": 0.05
-        },
-        {
-          "t": 1765929603,
-          "p": 0.025,
-          "delta": -0.38
-        },
-        {
-          "t": 1765972808,
-          "p": 0.0805,
-          "delta": 0.0555
-        },
-        {
-          "t": 1766016018,
-          "p": 0.027,
-          "delta": -0.0535
+          "t": 1761523214,
+          "p": 0.0285,
+          "delta": -0.0515
         }
       ],
-      "price_at_open": 0.35,
-      "price_at_close": 0.004,
-      "min_price": 0.0005,
-      "max_price": 0.55,
-      "final_price": 0.004,
-      "fetched_at": "2026-04-20T17:08:05.308350+00:00"
+      "price_at_open": 0.08,
+      "price_at_close": 0.0015,
+      "min_price": 0.0015,
+      "max_price": 0.1115,
+      "final_price": 0.0015,
+      "fetched_at": "2026-04-27T07:57:32.844474+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250815_003_7409ec9b",
-        "date": "2025-08-15 12:00",
-        "title": "Pushback from federal agencies",
-        "description": "Federal agencies and unions push back against DOGE's attempted cuts.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushback hindered the cuts.",
+        "id": "evt_politics_20250910_001_1a0b90c7",
+        "date": "2025-09-10 00:00",
+        "title": "Russian drones enter Polish airspace",
+        "description": "Russian drones incur into NATO airspace in Poland.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/opinion/former-doge-employees-give-an-inside-look-at-the-elon-musk-led-agency/ar-AA1YBaPY?ocid=BingNewsVerp",
+        "source_url": "https://www.thenewhumanitarian.org/news/2025/09/26/palestine-recognition-al-sharaa-addresses-unga-collective-climate-cheat-sheet",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250915_005_16e80bf1",
-        "date": "2025-09-15 12:00",
-        "title": "Judges issue injunctions",
-        "description": "Federal judges issue injunctions blocking mass terminations.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInjunctions legally blocked the mass terminations.",
+        "id": "evt_politics_20250913_002_08aa2bb5",
+        "date": "2025-09-13 00:00",
+        "title": "Poland intercepts 19 Russian drones",
+        "description": "Poland intercepts 19 Russian drones in NATO airspace.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/us/a-year-later-experts-say-full-effect-of-doge-cuts-may-never-be-known/ar-AA1WPIsA?ocid=BingNewsVerp",
+        "source_url": "https://www.webpronews.com/poland-intercepts-19-russian-drones-in-nato-airspace-amid-ukraine-strikes",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251021_009_e30a33e4",
-        "date": "2025-10-21 09:00",
-        "title": "Disbandment of DOGE",
-        "description": "OPM Director Scott Kupor announces DOGE is disbanded.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDisbandment of DOGE ended the possibility of the cuts.",
+        "id": "evt_politics_20250919_005_27ca178b",
+        "date": "2025-09-19 00:00",
+        "title": "Poland invokes Article 4 of the NATO treaty",
+        "description": "Poland responds to Russian drones by invoking Article 4.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://time.com/7336327/doge-disbanded-elon-musk",
+        "source_url": "https://www.yahoo.com/news/articles/poland-responds-russian-drones-incursion-204848058.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251030_006_696de998",
-        "date": "2025-10-30 09:00",
-        "title": "Depositions reveal ChatGPT use",
-        "description": "Depositions reveal DOGE used ChatGPT to identify grants for cancellation.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nChatGPT use revelation damaged credibility.",
+        "id": "evt_politics_20250919_009_136c0625",
+        "date": "2025-09-19 00:00",
+        "title": "NATO leaders perceive drone incidents as accidental",
+        "description": "NATO leaders perceive drone incidents as accidental.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "source_url": "https://www.yahoo.com/news/articles/poland-responds-russian-drones-incursion-204848058.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251215_010_60fec0ee",
-        "date": "2025-12-15 09:00",
-        "title": "Musk admits DOGE became whipping boy",
-        "description": "Elon Musk admits DOGE became the whipping boy for government problems.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMusk's admission reflected the failure of the initiative.",
+        "id": "evt_politics_20250919_010_14046cce",
+        "date": "2025-09-19 00:00",
+        "title": "NATO members unwilling to enter direct war with Russia",
+        "description": "NATO members fundamentally unwilling to enter direct war.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/politics/government/elon-musk-said-doge-became-the-whipping-boy-for-all-government-problems/ar-AA1FUkZp?ocid=BingNewsVerp",
+        "source_url": "https://www.yahoo.com/news/articles/poland-responds-russian-drones-incursion-204848058.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_business_20251231_006_bb503083",
-        "date": "2025-12-31 23:59",
-        "title": "No mass layoffs at Tesla/SpaceX in 2025",
-        "description": "Contrary to some predictions, Tesla and SpaceX did not conduct mass layoffs of 150,000 to 200,000 employees during 2025.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20251001_007_9b7bc535",
+        "date": "2025-10-01 00:00",
+        "title": "NATO allies discuss air defense enhancements",
+        "description": "NATO allies focus on air defense enhancements.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
+        "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.aol.com/articles/invested-500-more-tesla-stock-141305006.html",
+        "source_url": "https://finance.yahoo.com/news/undiscovered-gems-europe-3-promising-103305903.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250120_001_88e8f447",
-        "date": "2025-01-20 12:00",
-        "title": "Creation of DOGE",
-        "description": "President Trump establishes the Department of Government Efficiency (DOGE) and appoints Elon Musk.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nCreation of DOGE was the primary vehicle for the cuts.",
+        "id": "evt_politics_20251218_008_806a7461",
+        "date": "2025-12-18 00:00",
+        "title": "U.S. officials signal Russia-Ukraine peace deal closer",
+        "description": "U.S. officials signal peace deal closer.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.businessinsider.com/federal-agencies-musk-doge-targeted-list-2025-2",
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/russia-ukraine-peace-deal-could-195736206.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251030_007_eea3f3d1",
-        "date": "2025-10-30 09:30",
-        "title": "Public backlash over ChatGPT",
-        "description": "Public and political backlash occurs due to DOGE's use of ChatGPT.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPublic backlash increased political resistance.",
+        "id": "evt_politics_20250915_003_37d0c4f3",
+        "date": "2025-09-15 00:00",
+        "title": "NATO launches Eastern Sentry operation",
+        "description": "NATO responds to Russian drones with Eastern Sentry.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "source_url": "https://abcnews.go.com/International/eastern-sentry-natos-response-russian-drones/story?id=125576971",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251030_008_ca03835b",
-        "date": "2025-10-30 09:45",
-        "title": "DOGE credibility undermined",
-        "description": "DOGE's credibility is severely undermined by the ChatGPT controversy.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLoss of credibility undermined the entire effort.",
+        "id": "evt_politics_20250917_004_bed830fe",
+        "date": "2025-09-17 00:00",
+        "title": "Poland takes toughest measures over drone incursion",
+        "description": "Poland announces toughest measures over Russia drone incursion.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "source_url": "https://www.newsweek.com/poland-will-take-toughest-measures-over-russia-drone-incursion-deputy-pm-2131497",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250901_004_0a6ceb1c",
-        "date": "2025-09-01 12:00",
-        "title": "Lawsuits filed against DOGE",
-        "description": "Lawsuits are filed by federal workers and unions against DOGE.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLawsuits created legal barriers to the cuts.",
+        "id": "evt_politics_20250921_006_6cedf74b",
+        "date": "2025-09-21 00:00",
+        "title": "UK fighter jets fly over Poland",
+        "description": "UK fighter jets fly over Poland as a signal.",
+        "impact": "**Affects:** Yes - Will NATO invoke Article 5 (collective defense) du  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on YES",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/news/us/a-year-later-experts-say-full-effect-of-doge-cuts-may-never-be-known/ar-AA1WPIsA?ocid=BingNewsVerp",
+        "source_url": "https://metro.co.uk/2025/09/21/british-fighter-jets-fly-over-poland-as-a-clear-signal-nato-airspace-will-be-defended-24221328",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1305,151 +1012,153 @@ var annotationData = [
     ]
   },
   {
-    "id": "q_culture_20260220_001_ef43e999",
-    "title": "Will the DOJ's monopoly trial against Live Nation be delayed past its original March 2026 start date?",
-    "question_type": "binary",
+    "id": "q_culture_20260219_003_2b36f0d3",
+    "title": "Which film won the Best Film award at the 2026 BAFTA Film Awards?",
+    "question_type": "mcq",
     "options": [
-      "Yes",
-      "No"
+      "One Battle After Another",
+      "Sinners",
+      "I Swear",
+      "The Holdovers"
     ],
-    "background": "Live Nation has filed a motion to delay its monopoly trial. A federal judge has already denied a motion to dismiss, clearing the case for trial.",
-    "resolution_criteria": "The trial will be considered delayed if the opening arguments do not begin by March 31, 2026. This is determined by official court records.",
-    "outcome": "False",
-    "explanation": "## Executive Summary\nThe DOJ's monopoly trial against Live Nation was originally scheduled to commence in March 2026. In mid-February 2026, Live Nation sought to delay the proceedings, arguing that a pending appeal on a pre-trial ruling could significantly alter the trial's nature and scope. However, the court ultimately denied this request for a delay, maintaining the March 2026 schedule. Consequently, the trial proceeded without being pushed back, resulting in a negative resolution to the question of whether it would be delayed past its original start date.\n\n## Timeline Of Key Events\n- Early 2026: The antitrust trial against Live Nation is scheduled to start in March 2026.\n- February 18-20, 2026: Live Nation files motions to delay the trial, citing a pending appeal on a pre-trial ruling (art_politics_20260220_010_484b669a).\n- Late February 2026: The presiding judge rejects Live Nation's motion for delay, affirming the March 2026 start date (art_general_20260220_002_237b32e5).\n- March 2026: The trial officially begins as planned.\n\n## Causal Chain Analysis\nThe outcome was determined through the following sequence:\n- The Department of Justice brought an antitrust lawsuit against Live Nation with a trial start date firmly set for March 2026.\n- In February 2026, Live Nation attempted a legal maneuver to delay the trial by arguing that the results of a pending pre-trial appeal would alter the case's fundamental elements (art_politics_20260220_010_484b669a).\n- This attempt caused the court to review the necessity of a delay.\n- The court's subsequent ruling denied the request, which directly led to the trial proceeding on its original schedule (art_general_20260220_002_237b32e5).\n- Because the delay was rejected, the trial was not delayed past its original start date.\n\n## Countervailing Factors\nThe primary countervailing factor was Live Nation's active legal effort to stay the proceedings pending the resolution of their appeal. If the court had been convinced that proceeding without the appeal's resolution would prejudice the defense or waste judicial resources, a delay would have been granted. However, this factor failed because the judge did not find the appeal sufficient grounds to halt the impending trial.\n\n## Event Candidate Inventory\n- E1\n  - title: Live Nation files motion to delay trial\n  - date: 2026-02-18\n  - why it matters causally: Represented the direct effort to achieve the outcome in question (a delay).\n  - source article IDs: [art_politics_20260220_010_484b669a]\n- E2\n  - title: Judge denies trial delay request\n  - date: 2026-02-20\n  - why it matters causally: Foreclosed the possibility of a delay, forcing the trial to start as originally scheduled in March.\n  - source article IDs: [art_general_20260220_002_237b32e5]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Live Nation seeks delay | art_politics_20260220_010_484b669a | 2026-02-18 | 0.9 | Motion filed citing pending appeal |\n| Court denies delay request | art_general_20260220_002_237b32e5 | 2026-02-20 | 0.9 | Denied attempt to push back March start |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was the judge's discretion regarding the stay motion. An alternative path would have materialized if the judge agreed that the pending pre-trial appeal fundamentally impacted the trial's viability or scope, which would have likely caused a significant delay and a positive resolution.\n",
+    "background": "The 79th British Academy Film Awards (BAFTAs) were held on February 18, 2026, honoring the best in film for 2025.",
+    "resolution_criteria": "The question resolves to the film that officially won the Best Film award at the 2026 British Academy Film Awards.",
+    "outcome": "One Battle After Another",
+    "explanation": "\n# Executive Summary\nThe film \"One Battle After Another\" dominated the 2026 BAFTA Film Awards, culminating in winning the prestigious Best Film award. Early momentum was established when it led the BAFTA longlists with a record-breaking 16 mentions and followed up with a commanding 14 nominations, making it a clear frontrunner. Competing films like \"Sinners\" and \"Hamnet\" won important secondary categories, but \"One Battle After Another\" maintained its broad, undeniable industry support to secure the night's top honor, alongside five other key victories, cementing its status as the most celebrated film of the year.\n\n## Timeline Of Key Events\n- **2026-01-09**: The BAFTA longlists were announced. \"One Battle After Another\" led all films with 16 mentions, becoming the most longlisted film in BAFTA history [art_culture_20260212_019_be7fe7da].\n- **2026-01-27**: The BAFTA nominations were officially announced. \"One Battle After Another\" received the most nominations with 14, establishing itself as the leading contender [art_culture_20260212_019_be7fe7da].\n- **2026-02-22**: The 79th British Academy Film Awards took place at the Royal Festival Hall in London [art_culture_20260212_019_be7fe7da]. \"One Battle After Another\" won six awards, including Best Film [art_culture_20260215_021_e366ae96].\n- **2026-02-22**: During the ceremony, \"Sinners\" won three awards (including Original Score, Original Screenplay, and Supporting Actress), but its success was overshadowed by a high-profile controversy during the broadcast [art_culture_20260204_013_7a3060fe].\n\n## Causal Chain Analysis\nThe sweeping success of \"One Battle After Another\" was driven by widespread acclaim that was formalized early in the awards season. This widespread industry backing caused it to break the record for the most BAFTA longlist mentions (16) [art_culture_20260212_019_be7fe7da]. This unprecedented early support led to a commanding lead in the final nominations, securing 14 nods. Because it was the clear favorite across multiple technical and major categories, the film carried unstoppable momentum into the final voting phase, which ultimately resulted in its victory for Best Film along with five other awards [art_culture_20260215_021_e366ae96].\n\n## Countervailing Factors\nThe main countervailing force was the film \"Sinners,\" which had strong momentum, particularly following historical achievements by its Black director Ryan Coogler and widespread acclaim for its original screenplay and acting [art_culture_20260212_019_be7fe7da]. \"Sinners\" secured 13 nominations and ultimately won three major awards. However, \"Sinners\" could not overcome the sheer breadth of support across all voting branches that \"One Battle After Another\" commanded.\n\n## Event Candidate Inventory\n- **E1**: BAFTA longlist announcement establishing \"One Battle After Another\" as the frontrunner.\n  - Date: 2026-01-09\n  - Why it matters causally: Broke the record for most longlist mentions, signaling overwhelming early industry support.\n  - Source article IDs: [art_culture_20260212_019_be7fe7da]\n- **E2**: BAFTA nomination announcement.\n  - Date: 2026-01-27\n  - Why it matters causally: Translated longlist momentum into 14 official nominations, cementing its frontrunner status.\n  - Source article IDs: [art_culture_20260212_019_be7fe7da]\n- **E3**: \"One Battle After Another\" wins Best Film at the 79th BAFTA Film Awards.\n  - Date: 2026-02-22\n  - Why it matters causally: The final outcome resolving the question.\n  - Source article IDs: [art_culture_20260215_021_e366ae96]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| \"One Battle After Another\" breaks BAFTA longlist record (16 mentions) | [art_culture_20260212_019_be7fe7da] | 2026-01-09 | 1.0 | Clear historical milestone. |\n| \"One Battle After Another\" receives most nominations (14) | [art_culture_20260212_019_be7fe7da] | 2026-01-27 | 1.0 | Confirms frontrunner status. |\n| \"Sinners\" receives 13 nominations and wins 3 awards | [art_culture_20260212_019_be7fe7da], [art_culture_20260204_013_7a3060fe] | 2026-02-22 | 1.0 | Main competitor. |\n| \"One Battle After Another\" wins Best Film | [art_culture_20260215_021_e366ae96] | 2026-02-22 | 1.0 | The resolved outcome. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a victory for \"Sinners,\" which won Original Screenplay and Supporting Actress. If \"Sinners\" had secured a few more key wins (such as Director or Best Actor), it might have carried the Best Film prize. However, the historic and widespread support for \"One Battle After Another\" across all branches made this highly unlikely.\n",
     "is_polymarket": false,
     "is_overlap": false,
-    "market_open": "2026-02-18T00:00:00+00:00",
+    "market_open": "2026-01-18T00:00:00+00:00",
     "market_open_estimated": false,
-    "market_close": "2026-02-20T23:59:59+00:00",
+    "market_close": "2026-02-19T00:00:00+00:00",
     "polymarket_url": null,
     "price_data": null,
     "events": [
       {
-        "id": "evt_politics_20240601_001_23989744",
-        "date": "2024-06-01 00:00",
-        "title": "DOJ and states initiate antitrust lawsuit against Live Nation",
-        "description": "The DOJ and several states initiated an antitrust lawsuit against Live Nation and Ticketmaster.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260109_001_6d93a752",
+        "date": "2026-01-09 12:00",
+        "title": "BAFTA longlists announced",
+        "description": "The BAFTA longlists were announced for the 2026 awards.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260115_001_627b208c",
-        "date": "2026-01-15 00:00",
-        "title": "DOJ brings antitrust lawsuit against Live Nation",
-        "description": "The Department of Justice brought an antitrust lawsuit against Live Nation.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.npr.org/2026/04/15/nx-s1-5786715/live-nation-ticketmaster-antitrust-verdict-monopoly",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_general_20260218_009_a8fd1774",
-        "date": "2026-02-18 10:00",
-        "title": "Reports confirm the jury's verdict against Live Nation",
-        "description": "Reports continue to confirm the jury's verdict against Live Nation.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/music/news/live-nation-loses-jury-trial-to-states-in-monopoly-case/ar-AA20YUDp?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260219_006_97ddc69e",
-        "date": "2026-02-19 00:00",
-        "title": "Court reviews necessity of delay",
-        "description": "The court reviews the necessity of a delay following Live Nation's motion.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.musicbusinessworldwide.com/live-nation-says-ticketmaster-breakup-threat-is-already-over-calls-for-doj-settlement-its-time-to-move-on",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250101_002_06056291",
-        "date": "2025-01-01 00:00",
-        "title": "Live Nation files pre-trial motions aimed at delaying proceedings",
-        "description": "Live Nation filed typical pre-trial motions aimed at delaying the proceedings.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260204_008_adcba3d3",
+        "date": "2026-02-04 09:00",
+        "title": "Sinners wins three awards",
+        "description": "Sinners won three awards including Original Score, Original Screenplay, and Supporting Actress.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://www.ebony.com/sinners-bafta-2026-wins-onscreen-slur-incident",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250601_003_72cf3d72",
-        "date": "2025-06-01 00:00",
-        "title": "Judge issues strict judicial scheduling order",
-        "description": "A strict judicial scheduling order was issued for the antitrust case.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260215_010_a01c32bf",
+        "date": "2026-02-15 09:00",
+        "title": "One Battle After Another wins six awards",
+        "description": "One Battle After Another won six awards at the ceremony.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://www.telegraph.co.uk/films/2026/02/23/bafta-film-awards-2026-winners",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251001_004_22f660d1",
-        "date": "2025-10-01 00:00",
-        "title": "Court proceedings advance more quickly than anticipated",
-        "description": "The court proceedings advanced more quickly than initially anticipated.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260109_002_44444e2a",
+        "date": "2026-01-09 12:00",
+        "title": "One Battle After Another gets 16 longlist mentions",
+        "description": "One Battle After Another led all films with 16 mentions on the BAFTA longlists.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251101_005_251ed532",
-        "date": "2025-11-01 00:00",
-        "title": "Expedited proceedings overcome typical pre-trial delays",
-        "description": "The expedited proceedings and strict scheduling order overwhelmed the typical pre-trial delays.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260109_003_2e205092",
+        "date": "2026-01-09 12:00",
+        "title": "One Battle After Another breaks longlist record",
+        "description": "One Battle After Another became the most longlisted film in BAFTA history.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260115_006_fd985aa7",
-        "date": "2026-01-15 00:00",
-        "title": "Antitrust trial commences earlier than expected",
-        "description": "The antitrust trial commenced earlier than the expected March 2026 start date.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260127_004_2c49e5b0",
+        "date": "2026-01-27 12:00",
+        "title": "BAFTA nominations officially announced",
+        "description": "The BAFTA nominations were officially announced.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260214_007_3c1d031f",
-        "date": "2026-02-14 00:00",
-        "title": "Antitrust trial concludes by mid-February 2026",
-        "description": "The antitrust trial concluded by mid-February 2026.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
+        "id": "evt_culture_20260127_005_f847a551",
+        "date": "2026-01-27 12:00",
+        "title": "One Battle After Another receives 14 nominations",
+        "description": "One Battle After Another received the most nominations with 14.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
         "has_impact": true,
         "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_culture_20260127_006_03487878",
+        "date": "2026-01-27 12:00",
+        "title": "Sinners receives 13 nominations",
+        "description": "Sinners secured 13 nominations.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_culture_20260204_009_a5939079",
+        "date": "2026-02-04 09:30",
+        "title": "High-profile controversy during broadcast",
+        "description": "A high-profile controversy occurred during the broadcast, overshadowing Sinners' success.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.ebony.com/sinners-bafta-2026-wins-onscreen-slur-incident",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_culture_20260212_007_f0c47a02",
+        "date": "2026-02-12 09:00",
+        "title": "79th British Academy Film Awards takes place",
+        "description": "The 79th British Academy Film Awards took place at the Royal Festival Hall in London.",
+        "impact": "**Affects:** Option 1: One Battle After Another  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the final outcome.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://en.wikipedia.org/wiki/79th_British_Academy_Film_Awards",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -1,2553 +1,2934 @@
 var annotationData = [
   {
-    "id": "polymarket_0xd63074a69db9fbe28c8a9f3bfe64d8c16eb39e302be281ad9e3a91081b7429f5",
-    "title": "Will Trump meet with Xi Jinping by October 31?",
+    "id": "polymarket_0xaf11eaf31826a155b5aa4d28fafcebfd641ed153210d547fb431b7797ef30d0c",
+    "title": "Will Elon Musk's net worth reach $1 trillion before December 31, 2025?",
     "question_type": "binary",
     "options": [
       "Yes",
       "No"
     ],
     "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Donald Trump meets with Xi Jinping between July 21, and October 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn exchange of words, handshake, direct conversation, or other clear personal interaction between the named individuals will qualify as a meeting. Merely standing in proximity, making eye contact, or being present in the same room or event without direct interaction will not qualify.\n\nA meeting is defined as any encounter where both listed individual and Trump are present and interact with each other in person.\n\nThe resolution source will be a consensus of credible reporting.",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe market predicted that Donald Trump and Xi Jinping would meet before October 31, 2025. After months of fluctuations, driven by broader US-China economic relations, tariff threats, and global events, preparations culminated in a highly anticipated summit in Asia. The final confirmation and actual meeting occurred as part of Trump's diplomatic tour in late October, resulting in a positive resolution.\n\n## Timeline Of Key Events\n- **2025-07 to 2025-09**: Fluctuating market sentiment regarding a potential meeting, reflecting shifting expectations around tariffs and diplomacy.\n- **2025-09-18**: A significant market trough occurred, followed by a strong recovery, possibly tied to renewed hopes for a diplomatic breakthrough.\n- **2025-10-15**: Market sentiment peaked as diplomatic preparations intensified.\n- **2025-10-20**: Reports confirmed Trump arrived in Asia for key talks, including a scheduled meeting with Xi Jinping [art_general_20251020_028_7893bd94]. Additional reports highlighted the importance of this meeting alongside Big Tech earnings and a crucial Fed meeting [art_general_20251020_023_79f2d236].\n- **2025-10-29**: Trump discussed cutting tariffs on fentanyl-related goods from China, expressing expectations for a 'great deal' with Xi, indicating the meeting was successful or imminent [art_general_20251029_012_3af246a9].\n\n## Causal Chain Analysis\nThe necessity to manage US-China economic tensions, exacerbated by tariff threats and trade war concerns, led to quiet diplomatic efforts throughout mid-2025. These efforts paved the way for a scheduled summit in Asia. Trump's arrival in Asia [art_general_20251020_028_7893bd94] served as the proximate trigger, confirming the meeting. The actual engagement, highlighted by discussions on specific trade and policy issues like fentanyl tariffs [art_general_20251029_012_3af246a9], resulted in the final outcome of the meeting taking place before the October 31 deadline.\n\n## Countervailing Factors\nPersistent trade tensions, threats of increased tariffs (e.g., Trump threatening a \"massive increase\" on certain goods), and geopolitical conflicts (such as Middle East tensions) created a volatile environment that repeatedly threatened to derail the meeting. However, the mutual economic necessity to stabilize relations, particularly ahead of crucial domestic economic decisions in the US, overwhelmed these negative factors, compelling both leaders to meet.\n\n## Event Candidate Inventory\n- **E1**: Trump arrives in Asia for diplomatic tour.\n  - Date: 2025-10-20\n  - Why it matters causally: Confirmed the physical proximity and the scheduled engagement between the two leaders, locking in the meeting.\n  - Source article IDs: art_general_20251020_028_7893bd94, art_general_20251020_023_79f2d236\n\n- **E2**: Trump announces expectations for a 'great deal' with Xi.\n  - Date: 2025-10-29\n  - Why it matters causally: Provided definitive public confirmation of the ongoing or recent engagement between the leaders, directly addressing key bilateral issues.\n  - Source article IDs: art_general_20251029_012_3af246a9\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Trump arrives in Asia for talks with Xi | art_general_20251020_028_7893bd94, art_general_20251020_023_79f2d236 | 2025-10-20 | 0.95 | Key trigger for the meeting taking place. |\n| Trump expects 'great deal' with Xi on tariffs | art_general_20251029_012_3af246a9 | 2025-10-29 | 0.90 | Final confirmation of successful engagement. |\n\n## Uncertainties And Alternative Paths\nThe main uncertainty involved the exact timing and scope of the meeting, which was frequently challenged by volatile tariff announcements and broader geopolitical instability. An alternative path could have seen the meeting delayed or canceled if an immediate trade crisis had escalated uncontrollably, forcing a diplomatic withdrawal.\n",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Elon Musk's net worth, as listed on the Bloomberg Billionaires Index, reaches or exceeds $1 trillion at any point by December 31, 2025, 11:59 PM ET. Otherwise this market will resolve to \"No\".\n\nThe resolution source for this market will be the Bloomberg Billionaires Index (https://www.bloomberg.com/billionaires/), however a consensus of credible reporting may also be used.\n",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nDespite Elon Musk's various ventures (Tesla, SpaceX, xAI, Twitter/X) reaching new heights in 2025, his net worth did not reach the $1 trillion mark by December 31, 2025. While market rallies, a potential SpaceX IPO, and the xAI merger provided significant momentum, broader market conditions, regulatory scrutiny, and volatility in Tesla's stock price constrained his total wealth accumulation just short of the trillion-dollar threshold.\n\n## Timeline Of Key Events\n- 2025-01-21: Peak market sentiment shift around Musk's wealth pushing boundaries [art_general_20251231_015_9533fbc6].\n- 2025-01-22: Trough and recovery in Tesla's stock price, demonstrating market volatility [art_general_20251223_012_c9b93a21].\n- Mid 2025: SpaceX's valuation surges, rumors of a potential IPO circulate, increasing Musk's theoretical net worth [art_general_20251218_008_498552c6].\n- Late 2025: xAI and SpaceX activities dominate headlines, with Musk's government efficiency role (DOGE) adding political complexities [art_general_20251118_016_f2c08a21].\n- 2025-12-31: Despite all positive catalysts, the cumulative valuation of his holdings fails to breach the $1 trillion mark.\n\n## Causal Chain Analysis\n- **Root Cause**: Musk's wealth is heavily tied to the equity of his companies (Tesla, SpaceX, xAI), which are subject to market volatility and investor sentiment [art_general_20251231_015_9533fbc6].\n- **Intermediate Mechanism**: Throughout 2025, while SpaceX saw significant valuation increases and xAI integration provided a boost, Tesla faced an uneven market environment. The turning points in January 2025 indicated early volatility that set a cautious tone for Tesla investors [art_general_20251223_012_c9b93a21].\n- **Proximate Trigger**: In the final quarter of 2025, market corrections and the sheer mathematical difficulty of reaching a $1 trillion personal net worth (requiring roughly a doubling or tripling of his early 2024 wealth) proved insurmountable within the timeframe [art_general_20251218_008_498552c6].\n- **Final Outcome**: Consequently, Musk's net worth remained below $1 trillion by December 31, 2025.\n\n## Countervailing Factors\n- **SpaceX Valuation Surge**: The massive increase in SpaceX's private market valuation was a strong force pushing towards the $1 trillion mark, but it was not enough to offset the total required growth [art_general_20251218_008_498552c6].\n- **xAI Development**: The growth of his AI venture added significant value, yet the illiquid nature of private holdings and market caps limited immediate net worth impact [art_general_20251118_016_f2c08a21].\n\n## Event Candidate Inventory\n- E1: Peak market sentiment shift.\n  - Date: 2025-01-21\n  - Why it matters causally: Showed resistance to continuous market surge.\n  - Source article IDs: [art_general_20251231_015_9533fbc6]\n- E2: Trough and recovery in Tesla stock.\n  - Date: 2025-01-22\n  - Why it matters causally: Re-established baseline volatility.\n  - Source article IDs: [art_general_20251223_012_c9b93a21]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Overall wealth trajectory | [art_general_20251231_015_9533fbc6] | 2025-01-21 | 0.9 | Musk's wealth grew but fell short of $1T |\n| SpaceX valuation | [art_general_20251218_008_498552c6] | 2025-06-15 | 0.8 | Significant contributor |\n| xAI impact | [art_general_20251118_016_f2c08a21] | 2025-11-01 | 0.8 | AI hype |\n\n## Uncertainties And Alternative Paths\n- If Tesla's stock had experienced another historic, sustained rally (similar to 2020-2021), the $1 trillion mark might have been achieved.\n- A sudden, massive public offering of SpaceX at a highly inflated valuation could have alternatively pushed his net worth over the line.\n",
     "is_polymarket": true,
     "is_overlap": false,
-    "market_open": "2025-07-21T19:54:03.523122+00:00",
+    "market_open": "2025-01-07T17:00:33.133000+00:00",
     "market_open_estimated": false,
-    "market_close": "2025-10-30T05:39:11+00:00",
-    "polymarket_url": "https://polymarket.com/event/will-trump-meet-with-xi-jinping-by-october-31",
+    "market_close": "2026-01-01T08:32:53+00:00",
+    "polymarket_url": "https://polymarket.com/event/elon-musk-trillionaire-in-2025",
     "price_data": {
       "history": [
         {
-          "t": 1753142409,
-          "p": 0.445
+          "t": 1736294403,
+          "p": 0.085
         },
         {
-          "t": 1753185609,
-          "p": 0.44
+          "t": 1736510404,
+          "p": 0.085
+        },
+        {
+          "t": 1736769603,
+          "p": 0.09
+        },
+        {
+          "t": 1737028803,
+          "p": 0.095
+        },
+        {
+          "t": 1737288003,
+          "p": 0.135
+        },
+        {
+          "t": 1737547203,
+          "p": 0.095
+        },
+        {
+          "t": 1737806403,
+          "p": 0.115
+        },
+        {
+          "t": 1738065604,
+          "p": 0.11
+        },
+        {
+          "t": 1738324804,
+          "p": 0.095
+        },
+        {
+          "t": 1738584004,
+          "p": 0.095
+        },
+        {
+          "t": 1738843204,
+          "p": 0.095
+        },
+        {
+          "t": 1739102405,
+          "p": 0.105
+        },
+        {
+          "t": 1739361604,
+          "p": 0.115
+        },
+        {
+          "t": 1739620805,
+          "p": 0.115
+        },
+        {
+          "t": 1739880004,
+          "p": 0.115
+        },
+        {
+          "t": 1740139204,
+          "p": 0.115
+        },
+        {
+          "t": 1740398404,
+          "p": 0.115
+        },
+        {
+          "t": 1740657606,
+          "p": 0.115
+        },
+        {
+          "t": 1740916805,
+          "p": 0.115
+        },
+        {
+          "t": 1741176004,
+          "p": 0.095
+        },
+        {
+          "t": 1741435204,
+          "p": 0.095
+        },
+        {
+          "t": 1741694405,
+          "p": 0.09
+        },
+        {
+          "t": 1741953605,
+          "p": 0.08
+        },
+        {
+          "t": 1742212805,
+          "p": 0.08
+        },
+        {
+          "t": 1742472006,
+          "p": 0.075
+        },
+        {
+          "t": 1742731205,
+          "p": 0.075
+        },
+        {
+          "t": 1742990405,
+          "p": 0.075
+        },
+        {
+          "t": 1743249606,
+          "p": 0.065
+        },
+        {
+          "t": 1743508805,
+          "p": 0.065
+        },
+        {
+          "t": 1743768007,
+          "p": 0.075
+        },
+        {
+          "t": 1744027205,
+          "p": 0.075
+        },
+        {
+          "t": 1744243205,
+          "p": 0.075
+        },
+        {
+          "t": 1744502405,
+          "p": 0.075
+        },
+        {
+          "t": 1744761605,
+          "p": 0.065
+        },
+        {
+          "t": 1745020806,
+          "p": 0.065
+        },
+        {
+          "t": 1745280006,
+          "p": 0.07
+        },
+        {
+          "t": 1745539206,
+          "p": 0.065
+        },
+        {
+          "t": 1745798405,
+          "p": 0.065
+        },
+        {
+          "t": 1746057606,
+          "p": 0.06
+        },
+        {
+          "t": 1746316805,
+          "p": 0.06
+        },
+        {
+          "t": 1746576005,
+          "p": 0.055
+        },
+        {
+          "t": 1746835206,
+          "p": 0.055
+        },
+        {
+          "t": 1747094406,
+          "p": 0.055
+        },
+        {
+          "t": 1747353606,
+          "p": 0.055
+        },
+        {
+          "t": 1747612806,
+          "p": 0.065
+        },
+        {
+          "t": 1747872007,
+          "p": 0.065
+        },
+        {
+          "t": 1748131206,
+          "p": 0.065
+        },
+        {
+          "t": 1748390406,
+          "p": 0.06
+        },
+        {
+          "t": 1748649607,
+          "p": 0.055
+        },
+        {
+          "t": 1748908807,
+          "p": 0.06
+        },
+        {
+          "t": 1749168006,
+          "p": 0.055
+        },
+        {
+          "t": 1749427207,
+          "p": 0.05
+        },
+        {
+          "t": 1749686407,
+          "p": 0.05
+        },
+        {
+          "t": 1749945608,
+          "p": 0.055
+        },
+        {
+          "t": 1750204808,
+          "p": 0.055
+        },
+        {
+          "t": 1750464008,
+          "p": 0.05
+        },
+        {
+          "t": 1750723207,
+          "p": 0.045
+        },
+        {
+          "t": 1750982407,
+          "p": 0.045
+        },
+        {
+          "t": 1751241607,
+          "p": 0.045
+        },
+        {
+          "t": 1751500808,
+          "p": 0.045
+        },
+        {
+          "t": 1751760007,
+          "p": 0.045
+        },
+        {
+          "t": 1751976007,
+          "p": 0.045
+        },
+        {
+          "t": 1752235209,
+          "p": 0.045
+        },
+        {
+          "t": 1752494407,
+          "p": 0.04
+        },
+        {
+          "t": 1752753607,
+          "p": 0.04
+        },
+        {
+          "t": 1753012808,
+          "p": 0.055
         },
         {
           "t": 1753272009,
-          "p": 0.605
+          "p": 0.033
         },
         {
-          "t": 1753358409,
-          "p": 0.45
-        },
-        {
-          "t": 1753401609,
-          "p": 0.535
-        },
-        {
-          "t": 1753488009,
-          "p": 0.59
-        },
-        {
-          "t": 1753574410,
-          "p": 0.58
-        },
-        {
-          "t": 1753617609,
-          "p": 0.58
-        },
-        {
-          "t": 1753704009,
-          "p": 0.575
+          "t": 1753531210,
+          "p": 0.032
         },
         {
           "t": 1753790408,
-          "p": 0.575
-        },
-        {
-          "t": 1753833610,
-          "p": 0.565
-        },
-        {
-          "t": 1753920008,
-          "p": 0.59
-        },
-        {
-          "t": 1754006409,
-          "p": 0.59
+          "p": 0.0325
         },
         {
           "t": 1754049609,
-          "p": 0.585
+          "p": 0.0345
         },
         {
-          "t": 1754136010,
-          "p": 0.57
+          "t": 1754308808,
+          "p": 0.035
         },
         {
-          "t": 1754222408,
-          "p": 0.575
+          "t": 1754568004,
+          "p": 0.032
         },
         {
-          "t": 1754265607,
-          "p": 0.575
+          "t": 1754827209,
+          "p": 0.0325
         },
         {
-          "t": 1754352008,
-          "p": 0.58
+          "t": 1755086414,
+          "p": 0.0325
         },
         {
-          "t": 1754438409,
-          "p": 0.52
+          "t": 1755345619,
+          "p": 0.032
         },
         {
-          "t": 1754481608,
-          "p": 0.51
+          "t": 1755604818,
+          "p": 0.032
         },
         {
-          "t": 1754568016,
-          "p": 0.505
+          "t": 1755864015,
+          "p": 0.032
         },
         {
-          "t": 1754654412,
-          "p": 0.51
+          "t": 1756123210,
+          "p": 0.032
         },
         {
-          "t": 1754697614,
-          "p": 0.595
+          "t": 1756382422,
+          "p": 0.0265
         },
         {
-          "t": 1754784005,
-          "p": 0.555
+          "t": 1756641615,
+          "p": 0.0265
         },
         {
-          "t": 1754870403,
-          "p": 0.56
+          "t": 1756900824,
+          "p": 0.0265
         },
         {
-          "t": 1754913602,
-          "p": 0.57
+          "t": 1757160005,
+          "p": 0.0265
         },
         {
-          "t": 1755000012,
-          "p": 0.6
+          "t": 1757419212,
+          "p": 0.0265
         },
         {
-          "t": 1755086416,
-          "p": 0.605
+          "t": 1757678437,
+          "p": 0.0315
         },
         {
-          "t": 1755129606,
-          "p": 0.605
+          "t": 1757937612,
+          "p": 0.035
         },
         {
-          "t": 1755216012,
-          "p": 0.605
+          "t": 1758196830,
+          "p": 0.0355
         },
         {
-          "t": 1755302405,
-          "p": 0.61
+          "t": 1758456022,
+          "p": 0.0425
         },
         {
-          "t": 1755345607,
-          "p": 0.605
+          "t": 1758715208,
+          "p": 0.047
         },
         {
-          "t": 1755432006,
-          "p": 0.605
+          "t": 1758974411,
+          "p": 0.046
         },
         {
-          "t": 1755518408,
-          "p": 0.595
+          "t": 1759233603,
+          "p": 0.0275
         },
         {
-          "t": 1755561616,
-          "p": 0.595
+          "t": 1759492806,
+          "p": 0.027
         },
         {
-          "t": 1755648004,
-          "p": 0.585
-        },
-        {
-          "t": 1755734405,
-          "p": 0.57
-        },
-        {
-          "t": 1755777605,
-          "p": 0.585
-        },
-        {
-          "t": 1755864019,
-          "p": 0.485
-        },
-        {
-          "t": 1755950421,
-          "p": 0.285
-        },
-        {
-          "t": 1755993608,
-          "p": 0.29
-        },
-        {
-          "t": 1756080012,
-          "p": 0.315
-        },
-        {
-          "t": 1756166409,
-          "p": 0.175
-        },
-        {
-          "t": 1756209613,
-          "p": 0.31
-        },
-        {
-          "t": 1756296021,
-          "p": 0.32
-        },
-        {
-          "t": 1756382425,
-          "p": 0.32
-        },
-        {
-          "t": 1756425605,
-          "p": 0.315
-        },
-        {
-          "t": 1756512002,
-          "p": 0.325
-        },
-        {
-          "t": 1756598418,
-          "p": 0.335
-        },
-        {
-          "t": 1756641628,
-          "p": 0.33
-        },
-        {
-          "t": 1756728010,
-          "p": 0.305
-        },
-        {
-          "t": 1756814423,
-          "p": 0.335
-        },
-        {
-          "t": 1756857611,
-          "p": 0.46
-        },
-        {
-          "t": 1756944006,
-          "p": 0.445
-        },
-        {
-          "t": 1757030413,
-          "p": 0.445
-        },
-        {
-          "t": 1757073606,
-          "p": 0.4
-        },
-        {
-          "t": 1757160013,
-          "p": 0.42
-        },
-        {
-          "t": 1757246405,
-          "p": 0.55
-        },
-        {
-          "t": 1757289621,
-          "p": 0.53
-        },
-        {
-          "t": 1757376014,
-          "p": 0.6
-        },
-        {
-          "t": 1757462407,
-          "p": 0.485
-        },
-        {
-          "t": 1757505614,
-          "p": 0.585
-        },
-        {
-          "t": 1757592027,
-          "p": 0.555
-        },
-        {
-          "t": 1757678413,
-          "p": 0.59
-        },
-        {
-          "t": 1757721603,
-          "p": 0.575
-        },
-        {
-          "t": 1757808009,
-          "p": 0.635
-        },
-        {
-          "t": 1757894403,
-          "p": 0.585
-        },
-        {
-          "t": 1757937610,
-          "p": 0.575
-        },
-        {
-          "t": 1758024012,
-          "p": 0.745
-        },
-        {
-          "t": 1758110408,
-          "p": 0.615
-        },
-        {
-          "t": 1758153610,
-          "p": 0.55
-        },
-        {
-          "t": 1758240007,
-          "p": 0.68
-        },
-        {
-          "t": 1758326405,
-          "p": 0.91
-        },
-        {
-          "t": 1758369633,
-          "p": 0.905
-        },
-        {
-          "t": 1758456018,
-          "p": 0.885
-        },
-        {
-          "t": 1758542415,
-          "p": 0.885
-        },
-        {
-          "t": 1758585608,
-          "p": 0.885
-        },
-        {
-          "t": 1758672007,
-          "p": 0.87
-        },
-        {
-          "t": 1758758406,
-          "p": 0.855
-        },
-        {
-          "t": 1758801609,
-          "p": 0.855
-        },
-        {
-          "t": 1758888018,
-          "p": 0.825
-        },
-        {
-          "t": 1758974419,
-          "p": 0.83
-        },
-        {
-          "t": 1759017616,
-          "p": 0.835
-        },
-        {
-          "t": 1759104004,
-          "p": 0.845
-        },
-        {
-          "t": 1759190412,
-          "p": 0.82
-        },
-        {
-          "t": 1759233613,
-          "p": 0.815
-        },
-        {
-          "t": 1759320007,
-          "p": 0.82
-        },
-        {
-          "t": 1759406402,
-          "p": 0.87
-        },
-        {
-          "t": 1759449609,
-          "p": 0.855
-        },
-        {
-          "t": 1759536003,
-          "p": 0.87
-        },
-        {
-          "t": 1759622406,
-          "p": 0.835
-        },
-        {
-          "t": 1759665608,
-          "p": 0.855
-        },
-        {
-          "t": 1759752010,
-          "p": 0.865
-        },
-        {
-          "t": 1759838409,
-          "p": 0.83
-        },
-        {
-          "t": 1759881614,
-          "p": 0.8
+          "t": 1759708809,
+          "p": 0.0275
         },
         {
           "t": 1759968010,
-          "p": 0.79
+          "p": 0.035
         },
         {
-          "t": 1760054411,
-          "p": 0.73
+          "t": 1760227208,
+          "p": 0.0315
         },
         {
-          "t": 1760097612,
-          "p": 0.67
+          "t": 1760486411,
+          "p": 0.0335
         },
         {
-          "t": 1760184003,
-          "p": 0.595
+          "t": 1760745606,
+          "p": 0.0335
         },
         {
-          "t": 1760270419,
-          "p": 0.625
+          "t": 1761004817,
+          "p": 0.0305
         },
         {
-          "t": 1760313611,
+          "t": 1761264021,
+          "p": 0.0315
+        },
+        {
+          "t": 1761523220,
+          "p": 0.032
+        },
+        {
+          "t": 1761825629,
+          "p": 0.038
+        },
+        {
+          "t": 1762084828,
+          "p": 0.0335
+        },
+        {
+          "t": 1762344032,
+          "p": 0.0325
+        },
+        {
+          "t": 1762603243,
+          "p": 0.0255
+        },
+        {
+          "t": 1762862446,
+          "p": 0.0185
+        },
+        {
+          "t": 1763121636,
+          "p": 0.0145
+        },
+        {
+          "t": 1763380830,
+          "p": 0.0155
+        },
+        {
+          "t": 1763640019,
+          "p": 0.012
+        },
+        {
+          "t": 1763899218,
+          "p": 0.011
+        },
+        {
+          "t": 1764158449,
+          "p": 0.0155
+        },
+        {
+          "t": 1764417641,
+          "p": 0.0135
+        },
+        {
+          "t": 1764720028,
+          "p": 0.0085
+        },
+        {
+          "t": 1764979221,
+          "p": 0.0025
+        },
+        {
+          "t": 1765238430,
+          "p": 0.0095
+        },
+        {
+          "t": 1765497619,
+          "p": 0.005
+        },
+        {
+          "t": 1765756826,
+          "p": 0.005
+        },
+        {
+          "t": 1765972833,
+          "p": 0.0045
+        },
+        {
+          "t": 1766232024,
+          "p": 0.006
+        },
+        {
+          "t": 1766491226,
+          "p": 0.005
+        },
+        {
+          "t": 1766750420,
+          "p": 0.0035
+        },
+        {
+          "t": 1767009621,
+          "p": 0.0025
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1737288003,
+          "p": 0.135,
+          "delta": 0.05
+        },
+        {
+          "t": 1741737605,
+          "p": 0.08,
+          "delta": -0.055
+        },
+        {
+          "t": 1756252811,
+          "p": 0.028,
+          "delta": -0.052
+        }
+      ],
+      "price_at_open": 0.085,
+      "price_at_close": 0.001,
+      "min_price": 0.0005,
+      "max_price": 0.145,
+      "final_price": 0.001,
+      "fetched_at": "2026-04-27T07:57:45.032092+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20250121_001_ad2b0238",
+        "date": "2025-01-21 00:00",
+        "title": "Peak market sentiment shift",
+        "description": "Peak market sentiment shift around Musk's wealth pushing boundaries.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nShifted sentiment away from continuous growth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250122_002_de4008d5",
+        "date": "2025-01-22 00:00",
+        "title": "Trough and recovery in Tesla stock",
+        "description": "Trough and recovery in Tesla's stock price, demonstrating market volatility.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRe-established baseline volatility.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250601_007_89f0e0af",
+        "date": "2025-06-01 00:00",
+        "title": "Tesla faces uneven market environment",
+        "description": "Tesla faces an uneven market environment throughout 2025.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nUneven market environment hindered growth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://247wallst.com/investing/2025/12/23/elon-musks-net-worth-up-215-billion-in-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250615_003_1dcfdf00",
+        "date": "2025-06-15 00:00",
+        "title": "SpaceX valuation surges",
+        "description": "SpaceX's valuation surges, increasing Musk's theoretical net worth.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSurge in valuation pushed towards $1T.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250615_004_fd3d495c",
+        "date": "2025-06-15 00:00",
+        "title": "SpaceX IPO rumors circulate",
+        "description": "Rumors of a potential SpaceX IPO circulate.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nIPO rumors increased theoretical net worth.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251001_008_bf4ed231",
+        "date": "2025-10-01 00:00",
+        "title": "Market corrections in final quarter",
+        "description": "Market corrections in the final quarter of 2025.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMarket corrections constrained wealth accumulation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/much-richer-elon-musk-gotten-142104896.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_tech_20251101_005_8ef4942e",
+        "date": "2025-11-01 00:00",
+        "title": "xAI activities dominate headlines",
+        "description": "xAI activities dominate headlines, adding value.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nxAI growth added value.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251101_006_b53ea574",
+        "date": "2025-11-01 00:00",
+        "title": "Musk's DOGE role adds complexities",
+        "description": "Musk's government efficiency role (DOGE) adds political complexities.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPolitical complexities added risk.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/jack-schlossberg-taking-break-shitposting-140149984.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20251231_009_3fd58f92",
+        "date": "2025-12-31 00:00",
+        "title": "Cumulative valuation fails to breach $1 trillion",
+        "description": "The cumulative valuation of his holdings fails to breach the $1 trillion mark.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDirectly resulted in failure to reach $1T.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.forbes.com/sites/tylerroush/2025/12/31/elon-musks-net-worth-ends-2025-at-726-billion-more-valuable-than-belgium-oracle-more",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250820_010_52a861ba",
+        "date": "2025-08-20 00:00",
+        "title": "DOGE data leak adds political complexities",
+        "description": "Musk's government efficiency role (DOGE) faces a data leak, adding political complexities.",
+        "impact": "**Affects:** Yes - Will Elon Musk's net worth reach $1 trillion befor  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nData leak added political complexities and risk.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/doge-datal-leak-did-elon-195152697.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xb58d0e3b3dd34b2b8d8997e6ce36ca3873bdd6034fe0dde633f11e50d4b18c69",
+    "title": "Will Ukrainian President Volodymyr Zelensky resign from office during 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if President of Ukraine Volodymyr Zelenskyy announces he has resigned or will resign the presidency by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nIf it becomes impossible for Volodymyr Zelenskyy to resign or to announce his resignation (e.g., due to his removal from office by other means, etc.), this market will immediately resolve to \"No.\"\n\nFor this market to resolve to \"Yes,\" it is only necessary that Zelenskyy announce that he has resigned or will resign. Whether he actually resigns will have no bearing on the resolution of this market.\n\nThe primary resolution source for this market will be official information from the government of Ukraine; however, a consensus of credible reporting will also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nDespite significant domestic and international pressure, Ukrainian President Volodymyr Zelensky did not resign during 2025. Rumors of his resignation spiked multiple times due to war fatigue, international political shifts (particularly the new US administration under Donald Trump), and domestic corruption scandals. However, Zelensky maintained his position, stating he would only step down after the war concluded or if it guaranteed a favorable peace. The lack of a clear successor and the ongoing state of martial law further cemented his continuation in office through the end of the year.\n\n## Timeline Of Key Events\n- **February 23, 2025:** Zelensky states he is \"ready to quit if it brings peace\" but pushes back against US demands, setting a conditional tone for any resignation rumors [art_politics_20250223_003_59bef146].\n- **March 18, 2025:** Donald Trump labels Zelensky a \"dictator,\" increasing international pressure and straining US-Ukraine relations [art_general_20250318_030_b4071990].\n- **June 1, 2025:** Speculation peaks again as MPs claim Zelensky was \"ordered to resign,\" and he confirms he would resign under specific conditions, though no action is taken [art_politics_20250601_004_810ca962].\n- **July 15, 2025:** Ukraine's Prime Minister resigns, increasing instability and pressure on Zelensky's administration [art_politics_20250715_006_e8e45301].\n- **July 21, 2025:** Public anger against Zelensky grows, marking a watershed moment for wartime Ukraine [art_general_20250721_015_a673bc48].\n- **September 25, 2025:** Zelensky announces he will hold elections during a ceasefire and step down *after* the war, confirming his intention to stay through the immediate conflict [art_politics_20250925_009_01dac203].\n- **November 18, 2025:** The \"Golden toilet scandal\" puts extreme pressure on Zelensky to fire his chief of staff, fueling further resignation rumors [art_general_20251118_013_76611005].\n- **December 3, 2025:** Analysts suggest that if scandal doesn't finish Zelensky, a peace deal might, though he survives the year [art_politics_20251203_005_ad5f563a].\n\n## Causal Chain Analysis\nThe outcome of Zelensky remaining in office was caused by a combination of constitutional constraints and strategic political maneuvering. \n- The ongoing martial law caused elections to be suspended, providing a legal basis for him to remain in power beyond his original term [art_general_20240522_040_70a216c5].\n- External pressure, particularly from the US administration under Donald Trump, triggered intense scrutiny and rumors of forced resignation [art_general_20250318_030_b4071990].\n- This led to Zelensky strategically offering to resign *only* if it guaranteed peace, effectively countering demands for immediate resignation [art_politics_20250223_003_59bef146].\n- Despite domestic scandals like the \"Golden toilet\" affair causing significant public anger [art_general_20251118_013_76611005], the lack of a viable alternative during wartime resulted in his administration weathering these crises.\n- Ultimately, Zelensky's commitment to step down only *after* the war [art_politics_20250925_009_01dac203] ensured he remained in office through the end of 2025.\n\n## Countervailing Factors\nSeveral strong forces pushed towards resignation:\n1. **US Pressure:** The incoming Trump administration's hostility, including labeling him a dictator, created massive diplomatic friction [art_general_20250318_030_b4071990].\n2. **Domestic Scandals:** High-level corruption, notably the \"Golden toilet\" scandal, eroded public trust [art_general_20251118_013_76611005].\n3. **Political Instability:** The resignation of his Prime Minister in July signaled internal fractures [art_politics_20250715_006_e8e45301].\nThese factors failed because the necessity of unified leadership during an active war, combined with martial law preventing immediate elections, outweighed the pressures to resign.\n\n## Event Candidate Inventory\n- E1: Zelensky offers conditional resignation for peace\n  - date: 2025-02-23\n  - why it matters causally: Addressed early rumors and set his baseline condition for leaving office.\n  - source article IDs: art_politics_20250223_003_59bef146\n- E2: Trump labels Zelensky a dictator\n  - date: 2025-03-18\n  - why it matters causally: Spiked international pressure and strained crucial US support.\n  - source article IDs: art_general_20250318_030_b4071990\n- E3: Ukraine Prime Minister resigns\n  - date: 2025-07-15\n  - why it matters causally: Increased domestic instability, though Zelensky absorbed the shock.\n  - source article IDs: art_politics_20250715_006_e8e45301\n- E4: Zelensky commits to post-war departure\n  - date: 2025-09-25\n  - why it matters causally: Clarified his timeline, effectively confirming he would stay through the immediate term.\n  - source article IDs: art_politics_20250925_009_01dac203\n- E5: Golden toilet scandal peaks\n  - date: 2025-11-18\n  - why it matters causally: Created the strongest domestic pressure for leadership change late in the year.\n  - source article IDs: art_general_20251118_013_76611005\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Conditional offer to quit | art_politics_20250223_003_59bef146 | 2025-02-23 | 0.9 | Video evidence exists |\n| Trump's 'dictator' comment | art_general_20250318_030_b4071990 | 2025-03-18 | 0.9 | Widely reported shift in US stance |\n| PM Resignation | art_politics_20250715_006_e8e45301 | 2025-07-15 | 0.9 | Major internal political shift |\n| Post-war departure plan | art_politics_20250925_009_01dac203 | 2025-09-25 | 0.9 | Direct quote from Zelensky |\n| Golden toilet scandal | art_general_20251118_013_76611005 | 2025-11-18 | 0.8 | Highlighted late-year vulnerability |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a forced resignation tied to a US-brokered peace deal that explicitly required his removal as a condition for Russian compliance or continued US aid. Additionally, the corruption scandals could have triggered a vote of no confidence or a military coup, though wartime martial law mitigated these risks.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-02-25T00:09:12.975789+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T08:36:55+00:00",
+    "polymarket_url": "https://polymarket.com/event/zelensky-resigns-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1740484805,
+          "p": 0.33
+        },
+        {
+          "t": 1740700805,
+          "p": 0.29
+        },
+        {
+          "t": 1740916805,
+          "p": 0.255
+        },
+        {
+          "t": 1741132804,
+          "p": 0.235
+        },
+        {
+          "t": 1741348804,
+          "p": 0.235
+        },
+        {
+          "t": 1741564804,
+          "p": 0.235
+        },
+        {
+          "t": 1741780805,
+          "p": 0.235
+        },
+        {
+          "t": 1742040004,
+          "p": 0.225
+        },
+        {
+          "t": 1742256005,
+          "p": 0.23
+        },
+        {
+          "t": 1742472006,
+          "p": 0.26
+        },
+        {
+          "t": 1742688006,
+          "p": 0.265
+        },
+        {
+          "t": 1742904006,
+          "p": 0.23
+        },
+        {
+          "t": 1743120006,
+          "p": 0.23
+        },
+        {
+          "t": 1743379205,
+          "p": 0.215
+        },
+        {
+          "t": 1743595205,
+          "p": 0.2
+        },
+        {
+          "t": 1743811205,
+          "p": 0.135
+        },
+        {
+          "t": 1744027205,
+          "p": 0.15
+        },
+        {
+          "t": 1744243205,
+          "p": 0.15
+        },
+        {
+          "t": 1744459205,
+          "p": 0.15
+        },
+        {
+          "t": 1744718405,
+          "p": 0.15
+        },
+        {
+          "t": 1744934404,
+          "p": 0.14
+        },
+        {
+          "t": 1745150406,
+          "p": 0.15
+        },
+        {
+          "t": 1745366407,
+          "p": 0.155
+        },
+        {
+          "t": 1745582406,
+          "p": 0.145
+        },
+        {
+          "t": 1745798405,
+          "p": 0.13
+        },
+        {
+          "t": 1746014406,
+          "p": 0.145
+        },
+        {
+          "t": 1746273606,
+          "p": 0.13
+        },
+        {
+          "t": 1746489606,
+          "p": 0.115
+        },
+        {
+          "t": 1746705606,
+          "p": 0.12
+        },
+        {
+          "t": 1746921606,
+          "p": 0.12
+        },
+        {
+          "t": 1747137607,
+          "p": 0.115
+        },
+        {
+          "t": 1747353606,
+          "p": 0.115
+        },
+        {
+          "t": 1747612806,
+          "p": 0.115
+        },
+        {
+          "t": 1747828807,
+          "p": 0.105
+        },
+        {
+          "t": 1748044807,
+          "p": 0.105
+        },
+        {
+          "t": 1748260806,
+          "p": 0.105
+        },
+        {
+          "t": 1748476807,
+          "p": 0.105
+        },
+        {
+          "t": 1748692807,
+          "p": 0.11
+        },
+        {
+          "t": 1748952006,
+          "p": 0.115
+        },
+        {
+          "t": 1749168006,
+          "p": 0.11
+        },
+        {
+          "t": 1749384007,
+          "p": 0.105
+        },
+        {
+          "t": 1749600007,
+          "p": 0.105
+        },
+        {
+          "t": 1749816008,
+          "p": 0.105
+        },
+        {
+          "t": 1750032007,
+          "p": 0.1
+        },
+        {
+          "t": 1750248007,
+          "p": 0.095
+        },
+        {
+          "t": 1750507208,
+          "p": 0.095
+        },
+        {
+          "t": 1750723207,
+          "p": 0.09
+        },
+        {
+          "t": 1750939207,
+          "p": 0.09
+        },
+        {
+          "t": 1751155208,
+          "p": 0.08
+        },
+        {
+          "t": 1751371207,
+          "p": 0.07
+        },
+        {
+          "t": 1751587208,
+          "p": 0.065
+        },
+        {
+          "t": 1751846407,
+          "p": 0.065
+        },
+        {
+          "t": 1752062408,
+          "p": 0.085
+        },
+        {
+          "t": 1752278409,
+          "p": 0.085
+        },
+        {
+          "t": 1752494407,
+          "p": 0.085
+        },
+        {
+          "t": 1752710408,
+          "p": 0.065
+        },
+        {
+          "t": 1752926408,
+          "p": 0.095
+        },
+        {
+          "t": 1753185609,
+          "p": 0.1
+        },
+        {
+          "t": 1753401609,
+          "p": 0.11
+        },
+        {
+          "t": 1753617609,
+          "p": 0.145
+        },
+        {
+          "t": 1753833610,
+          "p": 0.155
+        },
+        {
+          "t": 1754049609,
+          "p": 0.13
+        },
+        {
+          "t": 1754265607,
+          "p": 0.1
+        },
+        {
+          "t": 1754481608,
+          "p": 0.095
+        },
+        {
+          "t": 1754740812,
+          "p": 0.105
+        },
+        {
+          "t": 1754956807,
+          "p": 0.115
+        },
+        {
+          "t": 1755172810,
+          "p": 0.115
+        },
+        {
+          "t": 1755388815,
+          "p": 0.115
+        },
+        {
+          "t": 1755604811,
+          "p": 0.12
+        },
+        {
+          "t": 1755820804,
+          "p": 0.085
+        },
+        {
+          "t": 1756080004,
+          "p": 0.085
+        },
+        {
+          "t": 1756296024,
+          "p": 0.085
+        },
+        {
+          "t": 1756512007,
+          "p": 0.085
+        },
+        {
+          "t": 1756728013,
+          "p": 0.085
+        },
+        {
+          "t": 1756944011,
+          "p": 0.085
+        },
+        {
+          "t": 1757160005,
+          "p": 0.075
+        },
+        {
+          "t": 1757419202,
+          "p": 0.07
+        },
+        {
+          "t": 1757635223,
+          "p": 0.07
+        },
+        {
+          "t": 1757851224,
+          "p": 0.065
+        },
+        {
+          "t": 1758067217,
+          "p": 0.06
+        },
+        {
+          "t": 1758283217,
+          "p": 0.06
+        },
+        {
+          "t": 1758499206,
+          "p": 0.045
+        },
+        {
+          "t": 1758715213,
+          "p": 0.045
+        },
+        {
+          "t": 1758974414,
+          "p": 0.045
+        },
+        {
+          "t": 1759190406,
+          "p": 0.045
+        },
+        {
+          "t": 1759406409,
+          "p": 0.045
+        },
+        {
+          "t": 1759622404,
+          "p": 0.045
+        },
+        {
+          "t": 1759838402,
+          "p": 0.045
+        },
+        {
+          "t": 1760054414,
+          "p": 0.045
+        },
+        {
+          "t": 1760313607,
+          "p": 0.045
+        },
+        {
+          "t": 1760529621,
+          "p": 0.045
+        },
+        {
+          "t": 1760745610,
+          "p": 0.045
+        },
+        {
+          "t": 1760961622,
+          "p": 0.05
+        },
+        {
+          "t": 1761177612,
+          "p": 0.045
+        },
+        {
+          "t": 1761393628,
+          "p": 0.045
+        },
+        {
+          "t": 1761652824,
+          "p": 0.045
+        },
+        {
+          "t": 1761912028,
+          "p": 0.045
+        },
+        {
+          "t": 1762128022,
+          "p": 0.045
+        },
+        {
+          "t": 1762344031,
+          "p": 0.045
+        },
+        {
+          "t": 1762560016,
+          "p": 0.0225
+        },
+        {
+          "t": 1762776027,
+          "p": 0.016
+        },
+        {
+          "t": 1762992023,
+          "p": 0.024
+        },
+        {
+          "t": 1763251218,
+          "p": 0.0605
+        },
+        {
+          "t": 1763467232,
+          "p": 0.0355
+        },
+        {
+          "t": 1763683230,
+          "p": 0.047
+        },
+        {
+          "t": 1763899218,
+          "p": 0.0505
+        },
+        {
+          "t": 1764115219,
+          "p": 0.04
+        },
+        {
+          "t": 1764331239,
+          "p": 0.0435
+        },
+        {
+          "t": 1764633617,
+          "p": 0.045
+        },
+        {
+          "t": 1764849638,
+          "p": 0.024
+        },
+        {
+          "t": 1765065634,
+          "p": 0.0275
+        },
+        {
+          "t": 1765281620,
+          "p": 0.0265
+        },
+        {
+          "t": 1765497618,
+          "p": 0.0145
+        },
+        {
+          "t": 1765713622,
+          "p": 0.0105
+        },
+        {
+          "t": 1765929637,
+          "p": 0.0095
+        },
+        {
+          "t": 1766145622,
+          "p": 0.008
+        },
+        {
+          "t": 1766361620,
+          "p": 0.0065
+        },
+        {
+          "t": 1766577622,
+          "p": 0.0035
+        },
+        {
+          "t": 1766793620,
+          "p": 0.0045
+        },
+        {
+          "t": 1767009621,
+          "p": 0.0035
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1740830405,
+          "p": 0.275,
+          "delta": -0.055
+        },
+        {
+          "t": 1741824006,
+          "p": 0.22,
+          "delta": -0.055
+        },
+        {
+          "t": 1743638405,
+          "p": 0.135,
+          "delta": -0.085
+        },
+        {
+          "t": 1751112007,
+          "p": 0.08,
+          "delta": -0.055
+        },
+        {
+          "t": 1753315209,
+          "p": 0.135,
+          "delta": 0.055
+        },
+        {
+          "t": 1755734408,
+          "p": 0.085,
+          "delta": -0.05
+        },
+        {
+          "t": 1762387214,
+          "p": 0.025,
+          "delta": -0.06
+        },
+        {
+          "t": 1763596817,
+          "p": 0.092,
+          "delta": 0.067
+        },
+        {
+          "t": 1764072033,
+          "p": 0.0395,
+          "delta": -0.0525
+        }
+      ],
+      "price_at_open": 0.33,
+      "price_at_close": 0.0005,
+      "min_price": 0.0005,
+      "max_price": 0.33,
+      "final_price": 0.0005,
+      "fetched_at": "2026-04-27T07:57:45.481278+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_politics_20250318_003_3c6c83b9",
+        "date": "2025-03-18 12:00",
+        "title": "Trump labels Zelensky a dictator",
+        "description": "Donald Trump labels Zelensky a dictator, increasing international pressure.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nTrump's comments increase international pressure, pushing towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/trump-zelensky-ukraine-dictator-russia-putin-112845224.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250601_004_96f368e5",
+        "date": "2025-06-01 12:00",
+        "title": "MPs claim Zelensky ordered to resign",
+        "description": "Speculation peaks as MPs claim Zelensky was ordered to resign.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSpeculation and claims by MPs push towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.express.co.uk/news/world/2021583/ukraine-president-volodymyr-zelensky-confirms",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250715_005_24fb7e67",
+        "date": "2025-07-15 12:00",
+        "title": "Ukraine Prime Minister resigns",
+        "description": "Ukraine's Prime Minister resigns, increasing instability.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPM's resignation increases instability, pushing towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.latimes.com/world-nation/story/2025-07-15/ukraines-prime-minister-resigns-opening-the-door-to-a-broad-government-reshuffle",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250721_006_8b200cc4",
+        "date": "2025-07-21 12:00",
+        "title": "Public anger against Zelensky grows",
+        "description": "Public anger against Zelensky grows, marking a watershed moment.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPublic anger pushes towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/zelensky-united-ukraine-fight-russia-120000099.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250925_007_836bacd5",
+        "date": "2025-09-25 12:00",
+        "title": "Zelensky commits to post-war departure",
+        "description": "Zelensky announces he will hold elections during a ceasefire and step down after the war.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nCommitment to step down only after the war makes resignation in 2025 less likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.axios.com/2025/09/25/zelensky-elections-ukraine-axios-show",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251118_008_b03724ee",
+        "date": "2025-11-18 12:00",
+        "title": "Golden toilet scandal peaks",
+        "description": "The Golden toilet scandal puts extreme pressure on Zelensky.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nScandal puts extreme pressure on Zelensky, pushing towards resignation.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/zelensky-under-pressure-fire-chief-104427574.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20240522_001_32d9578c",
+        "date": "2024-05-22 12:00",
+        "title": "Martial law suspends elections",
+        "description": "Ongoing martial law causes elections to be suspended, providing a legal basis for Zelensky to remain in power.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMartial law suspends elections, making resignation less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://townhall.com/tipsheet/leahbarkoukis/2024/05/22/zelensky-term-n2639342",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250223_002_57b8b1ff",
+        "date": "2025-02-23 12:00",
+        "title": "Zelensky offers conditional resignation",
+        "description": "Zelensky states he is ready to quit if it brings peace, pushing back against US demands.",
+        "impact": "**Affects:** Yes - Will Ukrainian President Volodymyr Zelensky resign  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nConditional offer counters demands for immediate resignation.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://edition.cnn.com/2025/02/23/europe/ukraine-zelensky-resign-nato-intl?Date=20250223&Profile=CNN",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xb643afacc478a059b67089ac1bca30cda972a006784ed51bae2241ce87d884d0",
+    "title": "Will the U.S. SEC approve a Dogecoin ETF before December 31, 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if any spot Dogecoin ETF receives approval from the SEC by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nApproval under Rule 19-4b will qualify for a \"Yes\" resolution, even if there has not been an S-1 approval. Similarly, an S-1 approval without a 19-4b approval will also qualify for a \"Yes\" resolution.\n\nThe primary resolution source for this market will be information from the SEC, however a consensus of credible reporting may also be used.",
+    "outcome": "Yes",
+    "explanation": "\n## Executive Summary\nThe U.S. SEC's approval of a Dogecoin ETF before December 31, 2025, was primarily driven by the progressive institutionalization of memecoins and a broad regulatory easing pathway for crypto assets. Initially, the SEC pushed back decisions on filings from issuers like Bitwise and Grayscale, leading to significant market volatility and sentiment shifts. However, continued demand and a massive backlog forced the SEC to clarify its stance. By September 18, 2025, the SEC eased its regulatory pathway for alternative crypto ETFs, culminating in the official launch of the first Dogecoin ETF.\n\n## Timeline Of Key Events\n- **2025-01-23 to 2025-01-29**: The SEC delayed decisions on multiple Dogecoin and Hedera ETF applications, pushing potential approval dates to later in the year, which caused market sentiment to fluctuate wildly ([art_finance_20250124_003_b3dda15a], [art_finance_20250129_005_9b6f2a59]).\n- **2025-02-28**: A major trough occurred when the SEC reiterated its delays, reinforcing negative sentiment in the short term ([art_finance_20250228_006_5fc71406]).\n- **2025-06-04 to 2025-06-10**: The SEC extended its review period for the Bitwise Dogecoin ETF amid a record backlog, causing favored predictions to flip multiple times between 'Yes' and 'No' ([art_finance_20250604_007_fe345b77], [art_finance_20250610_011_e8f9cedc]).\n- **Late June to August 2025**: Sentiment recovered as demand rose and Grayscale actively pushed for its spot DOGE ETF, keeping hopes alive despite previous delays ([art_general_20250622_005_2bc0f741], [art_general_20250821_002_72616d79]).\n- **2025-09-18**: The SEC officially eased the regulatory pathway for crypto ETFs and approved the first Dogecoin ETF, resolving the question positively ([art_finance_20250918_009_817ac588]).\n\n## Causal Chain Analysis\nThe root cause was the initial wave of spot ETF filings by major institutional players like Bitwise and Grayscale, which established a formal regulatory dialogue for Dogecoin. This led to intermediate mechanisms where the SEC, faced with a record backlog and mounting institutional pressure, implemented standard delay tactics to buy time for policy formulation ([art_finance_20250604_007_fe345b77]). These delays triggered extreme market volatility and shifting predictions as traders speculated on the final outcome. The proximate trigger was the SEC's internal decision to ease the pathway for alternative crypto assets, resulting in the final outcome of the SEC approving a Dogecoin ETF on September 18, 2025 ([art_finance_20250918_009_817ac588]).\n\n## Countervailing Factors\nThe main countervailing factor was the SEC's historical reluctance to approve crypto assets beyond Bitcoin and Ethereum, citing concerns over market manipulation and lack of utility. This skepticism was reflected in the repeated delays and pushed back deadlines ([art_finance_20250124_003_b3dda15a]). However, this resistance was eventually overwhelmed by relentless institutional pressure, sustained retail demand, and a shifting broader regulatory framework that accommodated a wider array of crypto ETFs.\n\n## Event Candidate Inventory\n- E1: SEC delays initial key decisions on Dogecoin ETFs\n  - Date: 2025-01-24\n  - Why it matters causally: Reset market expectations and established a longer timeline for potential approval.\n  - Source: [art_finance_20250124_003_b3dda15a]\n- E2: SEC extends Bitwise Dogecoin ETF review amid backlog\n  - Date: 2025-06-10\n  - Why it matters causally: Confirmed the SEC was actively reviewing but needed more time, driving the massive prediction flips in early June.\n  - Source: [art_finance_20250610_011_e8f9cedc]\n- E3: Grayscale seeks SEC approval for spot DOGE ETF\n  - Date: August 2025\n  - Why it matters causally: Kept institutional pressure high leading up to the final decision.\n  - Source: [art_general_20250821_002_72616d79]\n- E4: SEC eases pathway and approves Dogecoin ETF\n  - Date: 2025-09-18\n  - Why it matters causally: The direct final event that resolved the question positively.\n  - Source: [art_finance_20250918_009_817ac588]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| SEC delays initial Dogecoin ETF decisions | [art_finance_20250124_003_b3dda15a], [art_finance_20250129_005_9b6f2a59] | 2025-01-24 to 2025-01-29 | 0.95 | Triggered January prediction flips. |\n| Record backlog causes further delays | [art_finance_20250604_007_fe345b77], [art_finance_20250610_011_e8f9cedc] | 2025-06-04 to 2025-06-10 | 0.95 | Caused massive June volatility. |\n| Institutional pressure continues with Grayscale | [art_general_20250821_002_72616d79] | August 2025 | 0.90 | Sustained momentum. |\n| SEC approves Dogecoin ETF | [art_finance_20250918_009_817ac588] | 2025-09-18 | 1.0 | Final positive resolution. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether the SEC would classify Dogecoin as a security or demand surveillance-sharing agreements that didn't exist, which could have led to outright denials instead of delays. An alternative path would have seen the SEC blanket-rejecting all altcoin ETFs, causing the market prediction to permanently stay 'No', resolving the question negatively. The broader crypto market conditions (like a potential massive crash) could also have derailed the approval process.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2024-12-31T18:50:59.285000+00:00",
+    "market_open_estimated": false,
+    "market_close": "2025-09-18T17:40:04+00:00",
+    "polymarket_url": "https://polymarket.com/event/doge-etf-approved-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1735689604,
+          "p": 0.37
+        },
+        {
+          "t": 1735862404,
+          "p": 0.27
+        },
+        {
+          "t": 1736035203,
+          "p": 0.29
+        },
+        {
+          "t": 1736251203,
+          "p": 0.36
+        },
+        {
+          "t": 1736424003,
+          "p": 0.36
+        },
+        {
+          "t": 1736596803,
+          "p": 0.335
+        },
+        {
+          "t": 1736812803,
+          "p": 0.335
+        },
+        {
+          "t": 1736985604,
+          "p": 0.475
+        },
+        {
+          "t": 1737158404,
+          "p": 0.365
+        },
+        {
+          "t": 1737374404,
+          "p": 0.355
+        },
+        {
+          "t": 1737547203,
+          "p": 0.365
+        },
+        {
+          "t": 1737720003,
+          "p": 0.51
+        },
+        {
+          "t": 1737936004,
+          "p": 0.495
+        },
+        {
+          "t": 1738108804,
+          "p": 0.555
+        },
+        {
+          "t": 1738281604,
+          "p": 0.54
+        },
+        {
+          "t": 1738497604,
+          "p": 0.535
+        },
+        {
+          "t": 1738670404,
+          "p": 0.54
+        },
+        {
+          "t": 1738843204,
+          "p": 0.535
+        },
+        {
+          "t": 1739059206,
+          "p": 0.53
+        },
+        {
+          "t": 1739232004,
+          "p": 0.63
+        },
+        {
+          "t": 1739448004,
+          "p": 0.615
+        },
+        {
+          "t": 1739620805,
+          "p": 0.755
+        },
+        {
+          "t": 1739793604,
+          "p": 0.745
+        },
+        {
+          "t": 1740009604,
+          "p": 0.745
+        },
+        {
+          "t": 1740182405,
+          "p": 0.75
+        },
+        {
+          "t": 1740355204,
+          "p": 0.75
+        },
+        {
+          "t": 1740571204,
+          "p": 0.745
+        },
+        {
+          "t": 1740744005,
+          "p": 0.525
+        },
+        {
+          "t": 1740916805,
           "p": 0.585
         },
         {
-          "t": 1760400012,
-          "p": 0.725
+          "t": 1741132804,
+          "p": 0.655
         },
         {
-          "t": 1760486417,
-          "p": 0.775
+          "t": 1741305605,
+          "p": 0.65
         },
         {
-          "t": 1760529624,
-          "p": 0.805
+          "t": 1741478405,
+          "p": 0.655
         },
         {
-          "t": 1760616026,
+          "t": 1741694405,
+          "p": 0.62
+        },
+        {
+          "t": 1741867205,
           "p": 0.685
         },
         {
-          "t": 1760702412,
-          "p": 0.79
+          "t": 1742040004,
+          "p": 0.695
         },
         {
-          "t": 1760745617,
-          "p": 0.875
+          "t": 1742256005,
+          "p": 0.73
         },
         {
-          "t": 1760832008,
-          "p": 0.835
+          "t": 1742428805,
+          "p": 0.69
         },
         {
-          "t": 1760918409,
-          "p": 0.78
+          "t": 1742601606,
+          "p": 0.735
         },
         {
-          "t": 1760961617,
-          "p": 0.845
+          "t": 1742817604,
+          "p": 0.72
         },
         {
-          "t": 1761048025,
-          "p": 0.795
+          "t": 1742990405,
+          "p": 0.69
         },
         {
-          "t": 1761134420,
+          "t": 1743206406,
+          "p": 0.69
+        },
+        {
+          "t": 1743379205,
+          "p": 0.69
+        },
+        {
+          "t": 1743552006,
+          "p": 0.69
+        },
+        {
+          "t": 1743768007,
+          "p": 0.69
+        },
+        {
+          "t": 1743940805,
+          "p": 0.69
+        },
+        {
+          "t": 1744113606,
+          "p": 0.69
+        },
+        {
+          "t": 1744329605,
+          "p": 0.625
+        },
+        {
+          "t": 1744502405,
+          "p": 0.615
+        },
+        {
+          "t": 1744675205,
+          "p": 0.625
+        },
+        {
+          "t": 1744891205,
+          "p": 0.585
+        },
+        {
+          "t": 1745064006,
+          "p": 0.545
+        },
+        {
+          "t": 1745236806,
+          "p": 0.51
+        },
+        {
+          "t": 1745452806,
+          "p": 0.53
+        },
+        {
+          "t": 1745625606,
+          "p": 0.54
+        },
+        {
+          "t": 1745798405,
+          "p": 0.575
+        },
+        {
+          "t": 1746014406,
+          "p": 0.725
+        },
+        {
+          "t": 1746187206,
+          "p": 0.68
+        },
+        {
+          "t": 1746360005,
+          "p": 0.655
+        },
+        {
+          "t": 1746576005,
+          "p": 0.64
+        },
+        {
+          "t": 1746748807,
+          "p": 0.61
+        },
+        {
+          "t": 1746964807,
+          "p": 0.615
+        },
+        {
+          "t": 1747137607,
+          "p": 0.6
+        },
+        {
+          "t": 1747310407,
+          "p": 0.665
+        },
+        {
+          "t": 1747526406,
+          "p": 0.63
+        },
+        {
+          "t": 1747699206,
+          "p": 0.625
+        },
+        {
+          "t": 1747872007,
+          "p": 0.625
+        },
+        {
+          "t": 1748088006,
+          "p": 0.64
+        },
+        {
+          "t": 1748260806,
+          "p": 0.665
+        },
+        {
+          "t": 1748433607,
+          "p": 0.675
+        },
+        {
+          "t": 1748649607,
+          "p": 0.685
+        },
+        {
+          "t": 1748822406,
+          "p": 0.68
+        },
+        {
+          "t": 1748995206,
+          "p": 0.49
+        },
+        {
+          "t": 1749211206,
+          "p": 0.525
+        },
+        {
+          "t": 1749384007,
+          "p": 0.435
+        },
+        {
+          "t": 1749556807,
+          "p": 0.575
+        },
+        {
+          "t": 1749772807,
+          "p": 0.635
+        },
+        {
+          "t": 1749945608,
+          "p": 0.59
+        },
+        {
+          "t": 1750118408,
+          "p": 0.595
+        },
+        {
+          "t": 1750334407,
+          "p": 0.645
+        },
+        {
+          "t": 1750507208,
+          "p": 0.81
+        },
+        {
+          "t": 1750723207,
+          "p": 0.69
+        },
+        {
+          "t": 1750896008,
           "p": 0.71
         },
         {
-          "t": 1761177609,
+          "t": 1751068807,
+          "p": 0.735
+        },
+        {
+          "t": 1751284807,
+          "p": 0.755
+        },
+        {
+          "t": 1751457607,
+          "p": 0.77
+        },
+        {
+          "t": 1751630407,
+          "p": 0.76
+        },
+        {
+          "t": 1751846407,
           "p": 0.765
         },
         {
-          "t": 1761264013,
-          "p": 0.9
+          "t": 1752019207,
+          "p": 0.745
         },
         {
-          "t": 1761350413,
-          "p": 0.935
+          "t": 1752192008,
+          "p": 0.795
         },
         {
-          "t": 1761393617,
-          "p": 0.935
+          "t": 1752408007,
+          "p": 0.765
         },
         {
-          "t": 1761480019,
-          "p": 0.955
+          "t": 1752580808,
+          "p": 0.74
         },
         {
-          "t": 1761566416,
-          "p": 0.952
+          "t": 1752753607,
+          "p": 0.74
         },
         {
-          "t": 1761609616,
-          "p": 0.9535
+          "t": 1752969608,
+          "p": 0.835
         },
         {
-          "t": 1761696015,
-          "p": 0.975
+          "t": 1753142409,
+          "p": 0.795
+        },
+        {
+          "t": 1753315209,
+          "p": 0.75
+        },
+        {
+          "t": 1753531210,
+          "p": 0.755
+        },
+        {
+          "t": 1753704009,
+          "p": 0.755
+        },
+        {
+          "t": 1753876809,
+          "p": 0.755
+        },
+        {
+          "t": 1754092809,
+          "p": 0.6
+        },
+        {
+          "t": 1754265607,
+          "p": 0.61
+        },
+        {
+          "t": 1754438409,
+          "p": 0.725
+        },
+        {
+          "t": 1754654406,
+          "p": 0.695
+        },
+        {
+          "t": 1754827202,
+          "p": 0.68
+        },
+        {
+          "t": 1755043214,
+          "p": 0.755
+        },
+        {
+          "t": 1755216010,
+          "p": 0.735
+        },
+        {
+          "t": 1755388808,
+          "p": 0.75
+        },
+        {
+          "t": 1755604809,
+          "p": 0.735
+        },
+        {
+          "t": 1755777614,
+          "p": 0.705
+        },
+        {
+          "t": 1755950412,
+          "p": 0.67
+        },
+        {
+          "t": 1756166404,
+          "p": 0.755
+        },
+        {
+          "t": 1756339207,
+          "p": 0.82
+        },
+        {
+          "t": 1756512008,
+          "p": 0.795
+        },
+        {
+          "t": 1756728019,
+          "p": 0.785
+        },
+        {
+          "t": 1756900811,
+          "p": 0.785
+        },
+        {
+          "t": 1757073614,
+          "p": 0.89
+        },
+        {
+          "t": 1757289612,
+          "p": 0.915
+        },
+        {
+          "t": 1757462408,
+          "p": 0.915
+        },
+        {
+          "t": 1757635207,
+          "p": 0.925
+        },
+        {
+          "t": 1757851217,
+          "p": 0.96
+        },
+        {
+          "t": 1758024005,
+          "p": 0.96
+        }
+      ],
+      "turning_points": [
+        {
+          "t": 1735776003,
+          "p": 0.265,
+          "delta": -0.105
+        },
+        {
+          "t": 1736078403,
+          "p": 0.32,
+          "delta": 0.055
+        },
+        {
+          "t": 1736856003,
+          "p": 0.385,
+          "delta": 0.065
+        },
+        {
+          "t": 1736985604,
+          "p": 0.475,
+          "delta": 0.09
+        },
+        {
+          "t": 1737072004,
+          "p": 0.36,
+          "delta": -0.115
+        },
+        {
+          "t": 1737590404,
+          "p": 0.525,
+          "delta": 0.165
+        },
+        {
+          "t": 1737633604,
+          "p": 0.475,
+          "delta": -0.05
+        },
+        {
+          "t": 1738108804,
+          "p": 0.555,
+          "delta": 0.08
+        },
+        {
+          "t": 1739232004,
+          "p": 0.63,
+          "delta": 0.075
+        },
+        {
+          "t": 1739534404,
+          "p": 0.7,
+          "delta": 0.07
+        },
+        {
+          "t": 1739620805,
+          "p": 0.755,
+          "delta": 0.055
+        },
+        {
+          "t": 1740700805,
+          "p": 0.575,
+          "delta": -0.18
+        },
+        {
+          "t": 1741046405,
+          "p": 0.665,
+          "delta": 0.09
+        },
+        {
+          "t": 1742256005,
+          "p": 0.73,
+          "delta": 0.065
+        },
+        {
+          "t": 1744200006,
+          "p": 0.635,
+          "delta": -0.095
+        },
+        {
+          "t": 1744804806,
+          "p": 0.545,
+          "delta": -0.09
+        },
+        {
+          "t": 1746014406,
+          "p": 0.725,
+          "delta": 0.18
+        },
+        {
+          "t": 1746316805,
+          "p": 0.655,
+          "delta": -0.07
+        },
+        {
+          "t": 1746489606,
+          "p": 0.59,
+          "delta": -0.065
+        },
+        {
+          "t": 1746532805,
+          "p": 0.64,
+          "delta": 0.05
+        },
+        {
+          "t": 1748995206,
+          "p": 0.49,
+          "delta": -0.15
+        },
+        {
+          "t": 1749340807,
+          "p": 0.435,
+          "delta": -0.055
+        },
+        {
+          "t": 1749513606,
+          "p": 0.545,
+          "delta": 0.11
+        },
+        {
+          "t": 1749600007,
+          "p": 0.685,
+          "delta": 0.14
+        },
+        {
+          "t": 1749772807,
+          "p": 0.635,
+          "delta": -0.05
+        },
+        {
+          "t": 1749902407,
+          "p": 0.585,
+          "delta": -0.05
+        },
+        {
+          "t": 1750291207,
+          "p": 0.655,
+          "delta": 0.07
+        },
+        {
+          "t": 1750464008,
+          "p": 0.755,
+          "delta": 0.1
+        },
+        {
+          "t": 1750507208,
+          "p": 0.81,
+          "delta": 0.055
+        },
+        {
+          "t": 1750550406,
+          "p": 0.75,
+          "delta": -0.06
+        },
+        {
+          "t": 1750593607,
+          "p": 0.675,
+          "delta": -0.075
+        },
+        {
+          "t": 1750636807,
+          "p": 0.765,
+          "delta": 0.09
+        },
+        {
+          "t": 1750723207,
+          "p": 0.69,
+          "delta": -0.075
+        },
+        {
+          "t": 1750766406,
+          "p": 0.745,
+          "delta": 0.055
+        },
+        {
+          "t": 1750982407,
+          "p": 0.68,
+          "delta": -0.065
+        },
+        {
+          "t": 1751068807,
+          "p": 0.735,
+          "delta": 0.055
+        },
+        {
+          "t": 1751155208,
+          "p": 0.665,
+          "delta": -0.07
+        },
+        {
+          "t": 1751241607,
+          "p": 0.75,
+          "delta": 0.085
+        },
+        {
+          "t": 1751328008,
+          "p": 0.62,
+          "delta": -0.13
+        },
+        {
+          "t": 1751371207,
+          "p": 0.73,
+          "delta": 0.11
+        },
+        {
+          "t": 1751500808,
+          "p": 0.785,
+          "delta": 0.055
+        },
+        {
+          "t": 1752667208,
+          "p": 0.735,
+          "delta": -0.05
+        },
+        {
+          "t": 1752710408,
+          "p": 0.795,
+          "delta": 0.06
+        },
+        {
+          "t": 1752753607,
+          "p": 0.74,
+          "delta": -0.055
+        },
+        {
+          "t": 1752796808,
+          "p": 0.81,
+          "delta": 0.07
+        },
+        {
+          "t": 1753315209,
+          "p": 0.75,
+          "delta": -0.06
+        },
+        {
+          "t": 1754092809,
+          "p": 0.6,
+          "delta": -0.15
+        },
+        {
+          "t": 1754308808,
+          "p": 0.765,
+          "delta": 0.165
+        },
+        {
+          "t": 1754481608,
+          "p": 0.715,
+          "delta": -0.05
+        },
+        {
+          "t": 1754524806,
+          "p": 0.66,
+          "delta": -0.055
+        },
+        {
+          "t": 1754870407,
+          "p": 0.755,
+          "delta": 0.095
+        },
+        {
+          "t": 1755086406,
+          "p": 0.695,
+          "delta": -0.06
+        },
+        {
+          "t": 1755129608,
+          "p": 0.61,
+          "delta": -0.085
+        },
+        {
+          "t": 1755216010,
+          "p": 0.735,
+          "delta": 0.125
+        },
+        {
+          "t": 1755864002,
+          "p": 0.675,
+          "delta": -0.06
+        },
+        {
+          "t": 1756080004,
+          "p": 0.73,
+          "delta": 0.055
+        },
+        {
+          "t": 1756339207,
+          "p": 0.82,
+          "delta": 0.09
+        },
+        {
+          "t": 1757030412,
+          "p": 0.885,
+          "delta": 0.065
+        },
+        {
+          "t": 1757116822,
+          "p": 0.935,
+          "delta": 0.05
+        }
+      ],
+      "price_at_open": 0.37,
+      "price_at_close": 0.9765,
+      "min_price": 0.265,
+      "max_price": 0.985,
+      "final_price": 0.9765,
+      "fetched_at": "2026-04-27T07:57:45.944142+00:00"
+    },
+    "events": [
+      {
+        "id": "evt_finance_20250124_001_53eda005",
+        "date": "2025-01-24 12:00",
+        "title": "SEC delays key decisions on Dogecoin and Hedera ETFs",
+        "description": "The SEC delayed decisions on multiple Dogecoin and Hedera ETF applications, pushing potential approval dates to later in the year.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nInitial delays made the approval seem less likely in the short term.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://coincodex.com/article/72928/sec-delays-dogecoin-hedera-etf-decisions-november-2025",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250129_002_37a67581",
+        "date": "2025-01-29 12:00",
+        "title": "SEC delays decision on Bitwise Dogecoin ETF",
+        "description": "The SEC specifically delayed the decision on the Bitwise Dogecoin ETF launch.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSpecific delay on Bitwise further reduced short-term likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://coincentral.com/sec-delays-decision-on-bitwise-dogecoin-etf-ahead-first-doge-etf-launch",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250228_003_cf0010bf",
+        "date": "2025-02-28 12:00",
+        "title": "SEC reiterates delays on Dogecoin ETFs",
+        "description": "The SEC reiterated its delays on Dogecoin ETFs, reinforcing negative sentiment in the short term.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nReiterated delays reinforced negative sentiment.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.cryptometer.io/news/sec-pushes-back-decisions-on-dogecoin-and-hedera-etfs-to-november",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250604_004_eda317e2",
+        "date": "2025-06-04 12:00",
+        "title": "SEC pushes Dogecoin ETF approval to November due to record backlog",
+        "description": "The SEC pushed the Dogecoin ETF approval to November as it faced a record backlog of applications.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushing to November due to backlog significantly delayed the timeline.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://parameter.io/dogecoin-etf-approval-pushed-to-november-as-sec-faces-record-backlog",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250610_005_ff426c23",
+        "date": "2025-06-10 12:00",
+        "title": "SEC extends Bitwise Dogecoin ETF review",
+        "description": "The SEC extended its review period for the Bitwise Dogecoin ETF amid market scrutiny.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nExtended review period added to the uncertainty.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://chainaffairs.com/sec-extends-bitwise-dogecoin-etf-review-to-november-amid-market-scrutiny",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250821_007_b72d6ed1",
+        "date": "2025-08-21 01:10",
+        "title": "Grayscale seeks SEC approval for spot DOGE ETF",
+        "description": "Grayscale actively pushed for its spot DOGE ETF, keeping institutional pressure high.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nInstitutional pressure from Grayscale increased the likelihood of approval.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/dogecoin-holds-above-20-cents-150254168.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250918_008_82d1d1ee",
+        "date": "2025-09-18 10:00",
+        "title": "SEC eases regulatory pathway for alternative crypto ETFs",
+        "description": "The SEC officially eased the regulatory pathway for alternative crypto assets.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEasing the regulatory pathway was a major step towards approval.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250918_009_334a048c",
+        "date": "2025-09-18 11:00",
+        "title": "SEC approves the first Dogecoin ETF",
+        "description": "The SEC officially approved the first Dogecoin ETF.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDirect approval of the ETF.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250918_010_99188f3e",
+        "date": "2025-09-18 12:00",
+        "title": "First Dogecoin ETF officially launches",
+        "description": "The first Dogecoin ETF officially launched following SEC approval.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLaunch of the ETF confirms the positive resolution.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://fortune.com/crypto/2025/09/18/dogecoin-xrp-etf-rex-osprey-sec-rule-change-exchanges",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_finance_20250622_006_e563302d",
+        "date": "2025-06-22 01:10",
+        "title": "Dogecoin experiences V-shaped recovery showing rising demand",
+        "description": "Dogecoin jumped 5% in a V-shaped recovery, indicating rising market demand.",
+        "impact": "**Affects:** Yes - Will the U.S. SEC approve a Dogecoin ETF before De  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRising demand showed market resilience, slightly increasing likelihood.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://finance.yahoo.com/news/dogecoin-jumps-5-v-shaped-072236917.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      }
+    ]
+  },
+  {
+    "id": "polymarket_0xbacb4cac4e7ceecce559529eb0111f0db4e45cbcc739db3957acc885a8f82173",
+    "title": "Will Ghislaine Maxwell be released from federal prison during 2025?",
+    "question_type": "binary",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "background": "No background available.",
+    "resolution_criteria": "This market will resolve to \"Yes\" if Ghislaine Maxwell is released from custody by December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIf Maxwell is released but remains under house arrest, the market will still resolve to \"Yes\".\n\nIf Maxwell is released on parole, bond, or any other condition that results in them leaving state custody, the market will resolve to \"Yes\".\n\nTransporting Maxwell to another location of custody (e.g., a different prison, court, or hospital within the correctional system) will not suffice to resolve this market to \"Yes\". \n\nTemporary outings from prison for purposes such as testifying in court or before Congress, while still under the custody of correctional authorities, will not count as a release.\n\nThe primary resolution source for this market will be official information from government authorities or corrections departments; however, a consensus of credible reporting may also be used.",
+    "outcome": "No",
+    "explanation": "\n## Executive Summary\nGhislaine Maxwell, convicted for her role in Jeffrey Epstein's sex trafficking ring, remained in federal custody throughout 2025. During the year, she was transferred to a minimum-security prison in Texas, which sparked public and political scrutiny and temporarily fueled speculation of an imminent release. Later, she sought clemency from President Trump in exchange for testimony and declined to answer lawmakers' questions. Despite these legal maneuvers and public appeals, no pardon or release was granted, leading to the negative outcome on the target date.\n\n## Timeline Of Key Events\n- **2025-07-27**: It was widely reported that Maxwell was transferred to a minimum-security federal prison camp in Texas, sparking speculation and tension [art_general_20250727_012_e5ecb310].\n- **2025-07-27**: The Trump administration declined to clarify why she was transferred to a minimum-security facility [art_general_20250727_003_d93a9f77].\n- **2025-08-13**: Rumors surfaced that Maxwell was cleared to leave prison on work release, but this did not amount to a full release [art_general_20250813_026_3098be52].\n- **2025-10-01**: Maxwell sought clemency from President Trump, offering testimony that would allegedly prove his innocence [art_general_20251001_003_c40f4d51].\n- **2025-10-01**: The White House indicated that a pardon for Maxwell was \"not a priority\" [art_general_20251001_006_45036c3d].\n- **2025-11-24**: Maxwell was reported to be \"much happier\" at the minimum-security prison and working on a prison release application [art_general_20251124_014_a5207b6d] [art_general_20251124_017_a875aca9].\n\n## Causal Chain Analysis\nThe core causal chain leading to the negative outcome began with Maxwell's status as a high-profile convicted federal inmate. While her transfer to a minimum-security prison in Texas in July 2025 triggered temporary speculation and a peak in market sentiment (as it appeared to signal softer treatment) [art_general_20250727_012_e5ecb310], the transfer did not alter her core sentence. To secure an early release, she actively pursued a pardon or clemency from President Trump, leveraging potential testimony [art_general_20251001_003_c40f4d51]. However, this strategy failed because the political risk of pardoning her was too high, and the administration publicly stated that her pardon was not a priority [art_general_20251001_006_45036c3d]. Ultimately, the absence of any successful legal or executive intervention resulted in her remaining in prison through the end of 2025.\n\n## Countervailing Factors\nThe primary countervailing factors were the visible improvements in her prison conditions and her aggressive legal strategies. Her transfer to a minimum-security facility [art_general_20250727_012_e5ecb310] and rumors of work release [art_general_20250813_026_3098be52] pushed market sentiment toward a potential early release. Furthermore, her offer to provide favorable testimony for President Trump in exchange for clemency represented a plausible alternative path to freedom. These factors failed to materialize into an actual release because the executive branch deprioritized her pardon [art_general_20251001_006_45036c3d] and her underlying conviction remained intact.\n\n## Event Candidate Inventory\n- **E1**: Maxwell transferred to a minimum-security prison in Texas\n  - Date: 2025-07-27\n  - Causally important: Created a false signal of leniency that spiked market expectations of an early release.\n  - Source: [art_general_20250727_012_e5ecb310]\n- **E2**: White House declares Maxwell pardon \"not a priority\"\n  - Date: 2025-10-01\n  - Causally important: Closed the most viable executive path for her early release, ensuring she would remain in prison.\n  - Source: [art_general_20251001_006_45036c3d]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Transfer to minimum-security Texas prison | [art_general_20250727_012_e5ecb310] | 2025-07-27 | 1.0 | Triggered market sentiment shifts |\n| Seeks clemency from Trump | [art_general_20251001_003_c40f4d51] | 2025-10-01 | 0.9 | Attempted legal path to freedom |\n| White House deprioritizes pardon | [art_general_20251001_006_45036c3d] | 2025-10-01 | 1.0 | Sealed the outcome |\n| Working on release application | [art_general_20251124_017_a875aca9] | 2025-11-24 | 0.9 | Shows continued but failed efforts |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path would have been a successful negotiation of clemency with the Trump administration in exchange for valuable testimony or political favor. Additionally, if the rumors regarding a significant work release program had been fully realized and expanded into a full release, the outcome could have been altered. However, political realities and the severity of her crimes kept these paths from materializing.\n",
+    "is_polymarket": true,
+    "is_overlap": false,
+    "market_open": "2025-07-15T15:08:01.052473+00:00",
+    "market_open_estimated": false,
+    "market_close": "2026-01-01T09:30:19+00:00",
+    "polymarket_url": "https://polymarket.com/event/ghislaine-maxwell-released-from-custody-in-2025",
+    "price_data": {
+      "history": [
+        {
+          "t": 1752624008,
+          "p": 0.055
+        },
+        {
+          "t": 1752710408,
+          "p": 0.055
+        },
+        {
+          "t": 1752840008,
+          "p": 0.055
+        },
+        {
+          "t": 1752969608,
+          "p": 0.055
+        },
+        {
+          "t": 1753099207,
+          "p": 0.07
+        },
+        {
+          "t": 1753228809,
+          "p": 0.13
+        },
+        {
+          "t": 1753315209,
+          "p": 0.095
+        },
+        {
+          "t": 1753444809,
+          "p": 0.105
+        },
+        {
+          "t": 1753574410,
+          "p": 0.18
+        },
+        {
+          "t": 1753704009,
+          "p": 0.17
+        },
+        {
+          "t": 1753833610,
+          "p": 0.175
+        },
+        {
+          "t": 1753963208,
+          "p": 0.175
+        },
+        {
+          "t": 1754049609,
+          "p": 0.175
+        },
+        {
+          "t": 1754179208,
+          "p": 0.16
+        },
+        {
+          "t": 1754308808,
+          "p": 0.155
+        },
+        {
+          "t": 1754438409,
+          "p": 0.135
+        },
+        {
+          "t": 1754568010,
+          "p": 0.13
+        },
+        {
+          "t": 1754697612,
+          "p": 0.125
+        },
+        {
+          "t": 1754784005,
+          "p": 0.12
+        },
+        {
+          "t": 1754913617,
+          "p": 0.125
+        },
+        {
+          "t": 1755043203,
+          "p": 0.125
+        },
+        {
+          "t": 1755172813,
+          "p": 0.115
+        },
+        {
+          "t": 1755302410,
+          "p": 0.125
+        },
+        {
+          "t": 1755388814,
+          "p": 0.125
+        },
+        {
+          "t": 1755518406,
+          "p": 0.125
+        },
+        {
+          "t": 1755648004,
+          "p": 0.12
+        },
+        {
+          "t": 1755777611,
+          "p": 0.115
+        },
+        {
+          "t": 1755907209,
+          "p": 0.12
+        },
+        {
+          "t": 1756036807,
+          "p": 0.125
+        },
+        {
+          "t": 1756123216,
+          "p": 0.125
+        },
+        {
+          "t": 1756252805,
+          "p": 0.13
+        },
+        {
+          "t": 1756382411,
+          "p": 0.115
+        },
+        {
+          "t": 1756512010,
+          "p": 0.105
+        },
+        {
+          "t": 1756641628,
+          "p": 0.095
+        },
+        {
+          "t": 1756771211,
+          "p": 0.095
+        },
+        {
+          "t": 1756857611,
+          "p": 0.09
+        },
+        {
+          "t": 1756987211,
+          "p": 0.095
+        },
+        {
+          "t": 1757116812,
+          "p": 0.09
+        },
+        {
+          "t": 1757246413,
+          "p": 0.095
+        },
+        {
+          "t": 1757376003,
+          "p": 0.08
+        },
+        {
+          "t": 1757505621,
+          "p": 0.08
+        },
+        {
+          "t": 1757592005,
+          "p": 0.08
+        },
+        {
+          "t": 1757721605,
+          "p": 0.08
+        },
+        {
+          "t": 1757851205,
+          "p": 0.08
+        },
+        {
+          "t": 1757980805,
+          "p": 0.08
+        },
+        {
+          "t": 1758110402,
+          "p": 0.085
+        },
+        {
+          "t": 1758196830,
+          "p": 0.085
+        },
+        {
+          "t": 1758326414,
+          "p": 0.08
+        },
+        {
+          "t": 1758456015,
+          "p": 0.08
+        },
+        {
+          "t": 1758585605,
+          "p": 0.08
+        },
+        {
+          "t": 1758715213,
+          "p": 0.08
+        },
+        {
+          "t": 1758844811,
+          "p": 0.08
+        },
+        {
+          "t": 1758931210,
+          "p": 0.075
+        },
+        {
+          "t": 1759060803,
+          "p": 0.065
+        },
+        {
+          "t": 1759190409,
+          "p": 0.065
+        },
+        {
+          "t": 1759320010,
+          "p": 0.065
+        },
+        {
+          "t": 1759449609,
+          "p": 0.065
+        },
+        {
+          "t": 1759579206,
+          "p": 0.065
+        },
+        {
+          "t": 1759665610,
+          "p": 0.06
+        },
+        {
+          "t": 1759795209,
+          "p": 0.055
+        },
+        {
+          "t": 1759924809,
+          "p": 0.055
+        },
+        {
+          "t": 1760054418,
+          "p": 0.055
+        },
+        {
+          "t": 1760184003,
+          "p": 0.05
+        },
+        {
+          "t": 1760270418,
+          "p": 0.06
+        },
+        {
+          "t": 1760400018,
+          "p": 0.06
+        },
+        {
+          "t": 1760529603,
+          "p": 0.06
+        },
+        {
+          "t": 1760659211,
+          "p": 0.065
+        },
+        {
+          "t": 1760788816,
+          "p": 0.06
+        },
+        {
+          "t": 1760918403,
+          "p": 0.065
+        },
+        {
+          "t": 1761004815,
+          "p": 0.065
+        },
+        {
+          "t": 1761134419,
+          "p": 0.065
+        },
+        {
+          "t": 1761264012,
+          "p": 0.065
+        },
+        {
+          "t": 1761393616,
+          "p": 0.06
+        },
+        {
+          "t": 1761523213,
+          "p": 0.07
+        },
+        {
+          "t": 1761652813,
+          "p": 0.065
+        },
+        {
+          "t": 1761782414,
+          "p": 0.065
+        },
+        {
+          "t": 1761912015,
+          "p": 0.065
+        },
+        {
+          "t": 1762041611,
+          "p": 0.065
+        },
+        {
+          "t": 1762171214,
+          "p": 0.06
+        },
+        {
+          "t": 1762300813,
+          "p": 0.05
+        },
+        {
+          "t": 1762430418,
+          "p": 0.045
+        },
+        {
+          "t": 1762516817,
+          "p": 0.045
+        },
+        {
+          "t": 1762646426,
+          "p": 0.045
+        },
+        {
+          "t": 1762776015,
+          "p": 0.036
+        },
+        {
+          "t": 1762905614,
+          "p": 0.053
+        },
+        {
+          "t": 1763035218,
+          "p": 0.064
+        },
+        {
+          "t": 1763121618,
+          "p": 0.06
+        },
+        {
+          "t": 1763251211,
+          "p": 0.058
+        },
+        {
+          "t": 1763380816,
+          "p": 0.06
+        },
+        {
+          "t": 1763510415,
+          "p": 0.0505
+        },
+        {
+          "t": 1763640011,
+          "p": 0.054
+        },
+        {
+          "t": 1763769612,
+          "p": 0.046
+        },
+        {
+          "t": 1763856012,
+          "p": 0.0455
+        },
+        {
+          "t": 1763985608,
+          "p": 0.0465
+        },
+        {
+          "t": 1764115212,
+          "p": 0.0445
+        },
+        {
+          "t": 1764244822,
+          "p": 0.0385
+        },
+        {
+          "t": 1764374418,
+          "p": 0.0405
+        },
+        {
+          "t": 1764504046,
+          "p": 0.038
+        },
+        {
+          "t": 1764590430,
+          "p": 0.032
+        },
+        {
+          "t": 1764720017,
+          "p": 0.0225
+        },
+        {
+          "t": 1764849621,
+          "p": 0.025
+        },
+        {
+          "t": 1764979214,
+          "p": 0.03
+        },
+        {
+          "t": 1765108815,
+          "p": 0.0255
+        },
+        {
+          "t": 1765195227,
+          "p": 0.0285
+        },
+        {
+          "t": 1765324812,
+          "p": 0.0185
+        },
+        {
+          "t": 1765454414,
+          "p": 0.0275
+        },
+        {
+          "t": 1765584014,
+          "p": 0.0165
+        },
+        {
+          "t": 1765713614,
+          "p": 0.0165
+        },
+        {
+          "t": 1765843213,
+          "p": 0.014
+        },
+        {
+          "t": 1765929610,
+          "p": 0.0135
+        },
+        {
+          "t": 1766016022,
+          "p": 0.012
+        },
+        {
+          "t": 1766145615,
+          "p": 0.014
+        },
+        {
+          "t": 1766275213,
+          "p": 0.0125
+        },
+        {
+          "t": 1766404812,
+          "p": 0.009
+        },
+        {
+          "t": 1766534414,
+          "p": 0.005
+        },
+        {
+          "t": 1766620824,
+          "p": 0.0035
+        },
+        {
+          "t": 1766750413,
+          "p": 0.003
+        },
+        {
+          "t": 1766880014,
+          "p": 0.0025
+        },
+        {
+          "t": 1767009614,
+          "p": 0.002
+        },
+        {
+          "t": 1767139215,
+          "p": 0.0025
         }
       ],
       "turning_points": [
         {
           "t": 1753228809,
-          "p": 0.54,
-          "delta": 0.095
-        },
-        {
-          "t": 1753272009,
-          "p": 0.605,
-          "delta": 0.065
-        },
-        {
-          "t": 1753315209,
-          "p": 0.485,
-          "delta": -0.12
-        },
-        {
-          "t": 1753401609,
-          "p": 0.535,
-          "delta": 0.05
-        },
-        {
-          "t": 1753488009,
-          "p": 0.59,
-          "delta": 0.055
-        },
-        {
-          "t": 1754395209,
-          "p": 0.515,
-          "delta": -0.075
-        },
-        {
-          "t": 1754697614,
-          "p": 0.595,
-          "delta": 0.08
-        },
-        {
-          "t": 1755864019,
-          "p": 0.485,
-          "delta": -0.11
-        },
-        {
-          "t": 1755907204,
-          "p": 0.325,
-          "delta": -0.16
-        },
-        {
-          "t": 1756166409,
-          "p": 0.175,
-          "delta": -0.15
-        },
-        {
-          "t": 1756209613,
-          "p": 0.31,
-          "delta": 0.135
-        },
-        {
-          "t": 1756555214,
-          "p": 0.375,
-          "delta": 0.065
-        },
-        {
-          "t": 1756684811,
-          "p": 0.305,
-          "delta": -0.07
-        },
-        {
-          "t": 1756857611,
-          "p": 0.46,
-          "delta": 0.155
-        },
-        {
-          "t": 1757073606,
-          "p": 0.4,
-          "delta": -0.06
-        },
-        {
-          "t": 1757203207,
-          "p": 0.54,
-          "delta": 0.14
-        },
-        {
-          "t": 1757332831,
-          "p": 0.605,
-          "delta": 0.065
-        },
-        {
-          "t": 1757462407,
-          "p": 0.485,
-          "delta": -0.12
-        },
-        {
-          "t": 1757505614,
-          "p": 0.585,
-          "delta": 0.1
-        },
-        {
-          "t": 1757808009,
-          "p": 0.635,
-          "delta": 0.05
-        },
-        {
-          "t": 1757894403,
-          "p": 0.585,
-          "delta": -0.05
-        },
-        {
-          "t": 1757980817,
-          "p": 0.685,
-          "delta": 0.1
-        },
-        {
-          "t": 1758024012,
-          "p": 0.745,
-          "delta": 0.06
-        },
-        {
-          "t": 1758067206,
-          "p": 0.655,
-          "delta": -0.09
-        },
-        {
-          "t": 1758153610,
-          "p": 0.55,
-          "delta": -0.105
-        },
-        {
-          "t": 1758196827,
-          "p": 0.64,
-          "delta": 0.09
-        },
-        {
-          "t": 1758326405,
-          "p": 0.91,
-          "delta": 0.27
-        },
-        {
-          "t": 1758758406,
-          "p": 0.855,
-          "delta": -0.055
-        },
-        {
-          "t": 1758844805,
-          "p": 0.795,
-          "delta": -0.06
-        },
-        {
-          "t": 1759363203,
-          "p": 0.87,
-          "delta": 0.075
-        },
-        {
-          "t": 1759881614,
-          "p": 0.8,
-          "delta": -0.07
-        },
-        {
-          "t": 1760054411,
-          "p": 0.73,
-          "delta": -0.07
-        },
-        {
-          "t": 1760097612,
-          "p": 0.67,
-          "delta": -0.06
-        },
-        {
-          "t": 1760140816,
-          "p": 0.595,
-          "delta": -0.075
-        },
-        {
-          "t": 1760356809,
-          "p": 0.665,
-          "delta": 0.07
-        },
-        {
-          "t": 1760400012,
-          "p": 0.725,
-          "delta": 0.06
-        },
-        {
-          "t": 1760486417,
-          "p": 0.775,
-          "delta": 0.05
-        },
-        {
-          "t": 1760616026,
-          "p": 0.685,
-          "delta": -0.09
-        },
-        {
-          "t": 1760659207,
-          "p": 0.765,
-          "delta": 0.08
-        },
-        {
-          "t": 1760745617,
-          "p": 0.875,
-          "delta": 0.11
-        },
-        {
-          "t": 1760875226,
-          "p": 0.805,
-          "delta": -0.07
-        },
-        {
-          "t": 1761091216,
-          "p": 0.725,
-          "delta": -0.08
-        },
-        {
-          "t": 1761264013,
-          "p": 0.9,
-          "delta": 0.175
-        },
-        {
-          "t": 1761480019,
-          "p": 0.955,
-          "delta": 0.055
-        }
-      ],
-      "price_at_open": 0.445,
-      "price_at_close": 0.997,
-      "min_price": 0.175,
-      "max_price": 0.997,
-      "final_price": 0.997,
-      "fetched_at": "2026-04-27T07:57:47.793376+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20250915_004_7c5c52a1",
-        "date": "2025-09-15 12:00",
-        "title": "Trump and Xi agree to meet",
-        "description": "Trump and Xi agreed to meet after striking a deal over TikTok ownership.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAgreeing to meet directly increases the likelihood of the meeting occurring.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251019_010_32006a8f",
-        "date": "2025-10-19 12:00",
-        "title": "Trump arrives in Asia for diplomatic tour",
-        "description": "Trump arrived in Asia for key talks, including a scheduled meeting with Xi Jinping.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nArriving in Asia for the diplomatic tour makes the meeting highly likely.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/trump-heads-asia-talk-trade-091609672.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251028_011_f2ccafdb",
-        "date": "2025-10-28 12:00",
-        "title": "Trump announces expectations for a 'great deal' with Xi",
-        "description": "Trump discussed cutting tariffs on fentanyl-related goods from China, expressing expectations for a 'great deal' with Xi.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAnnouncing expectations for a 'great deal' confirms the engagement, making the meeting almost certain.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.theguardian.com/business/live/2025/oct/29/donald-trump-cut-fentanyl-tariff-chinese-goods-expects-great-deal-with-xi-jinping-federal-reserve-rate-cut-business-live",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251010_006_21937f7f",
-        "date": "2025-10-10 12:00",
-        "title": "Trump vows to hit China with 100% tariffs",
-        "description": "Donald Trump vowed to hit China with fresh 100% tariffs within weeks.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nVowing 100% tariffs severely escalates tensions, threatening the meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251010_009_1e3c4262",
-        "date": "2025-10-10 12:00",
-        "title": "Trump threatens to cancel meeting with Xi",
-        "description": "Trump stated there seems to be no reason to meet with President Xi, threatening to cancel the upcoming meeting.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThreatening to cancel the meeting directly decreases its likelihood.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250915_003_6bf14661",
-        "date": "2025-09-15 12:00",
-        "title": "US and China strike deal over TikTok ownership",
-        "description": "The US and China struck a deal over the ownership of the US operations of Chinese social media platform TikTok.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nStriking a deal over TikTok ownership improves relations, facilitating a meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251009_005_b062373e",
-        "date": "2025-10-09 12:00",
-        "title": "China announces export controls on rare earths",
-        "description": "China's Commerce Ministry announced heavy-handed export controls on rare earths.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nExport controls on rare earths escalate tensions, threatening the meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20251010_007_59dfbe5b",
-        "date": "2025-10-10 12:00",
-        "title": "US announces export restrictions on critical software",
-        "description": "America announced it will impose export restrictions on 'any and all critical software'.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nExport restrictions on critical software add to tensions, hindering the meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20251010_008_bf50bdce",
-        "date": "2025-10-10 12:00",
-        "title": "Beijing announces additional port fees for US ships",
-        "description": "Beijing announced it would charge additional port fees for American-flagged ships.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nAdditional port fees are retaliatory, slightly hindering the meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250410_001_aab7737d",
-        "date": "2025-04-10 12:00",
-        "title": "US imposes 145% tariffs on Chinese goods",
-        "description": "The US imposed tariffs as high as 145% on Chinese goods in the wake of Trump's 'Liberation Day' tariffs.",
-        "impact": "**Affects:** Yes - Will Trump meet with Xi Jinping by October 31?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHigh tariffs create tension, making a meeting less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://finance.yahoo.com/news/wall-street-plunges-trump-threatens-203141770.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xd7e56a7799ba9c0874f925d51e11fbaf17000b7c94dd0e0ac84f753d839fc615",
-    "title": "ODI Series West Indies vs Sri Lanka, Women: West Indies vs Sri Lanka",
-    "question_type": "binary",
-    "options": [
-      "West Indies",
-      "Sri Lanka"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market refers to the cricket match between West Indies and Sri Lanka scheduled for February 22 2026 in ODI Series West Indies vs Sri Lanka, Women.\n\n  This market resolves according to the finalized match result as published by https://www.espncricinfo.com/.  \n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition to declare a winner are treated as ordinary wins.\n\nIf the match ends tied and the playing conditions provide an on-field tiebreak (e.g., Super Over), the winner determined by that tiebreak will be used for resolution. If the match ends tied and no on-field tiebreak is used or available under the playing conditions (e.g., group-stage ODI with no Super Over), the market will resolve 50-50.\n\nIf the match is postponed/rescheduled, the market remains open until the listed fixture is completed. If the match is permanently canceled or abandoned or otherwise is completed without a winner, the market resolves 50-50.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, a consensus of credible reporting may be used instead.\n",
-    "outcome": "Sri Lanka",
-    "explanation": "\n## Executive Summary\nSri Lanka Women secured a series victory over the West Indies Women in the February 2026 ODI series primarily through clutch bowling performances and unexpected dismissals that halted West Indies run chases. In the crucial first ODI, despite strong batting performances from the West Indies, Sri Lanka won a narrow 10-run victory driven by Inoka Ranaweera's four-wicket haul. The series was sealed in the second ODI following a bizarre obstructing the field dismissal of Deandra Dottin, which completely derailed the West Indies chase and cemented Sri Lanka's triumph.\n\n## Timeline Of Key Events\n- 2026-02-19: Sri Lanka and West Indies played the 1st ODI. West Indies' Stafanie Taylor and Jannilea Glasgow scored half-centuries, but Inoka Ranaweera's 4-wicket haul restricted the chase, leading to a 10-run victory for Sri Lanka [art_sports_20260219_003_05cfa109].\n- 2026-02-22: In the 2nd ODI, West Indies batter Deandra Dottin was controversially given out for obstructing the field [art_sports_20260222_007_f87e5100].\n- 2026-02-22: The dismissal broke the momentum of the West Indies chase, allowing Sri Lanka to seal the ODI series [art_sports_20260222_019_24af8123].\n\n## Causal Chain Analysis\nThe outcome was caused by Sri Lanka's ability to win key moments during tight run chases. First, in the opening match, the West Indies were building a strong foundation with half-centuries from Taylor and Glasgow. However, Inoka Ranaweera's pivotal 4-wicket haul resulted in a collapse that secured a narrow 10-run win for Sri Lanka, providing them with early series momentum [art_sports_20260219_003_05cfa109]. This led to a must-win situation for the West Indies in the subsequent match. During the critical chase in the second ODI, Deandra Dottin's bizarre dismissal for obstructing the field triggered a loss of momentum, because she was a key player anchoring the innings [art_sports_20260222_007_f87e5100]. This unusual setback directly caused the West Indies chase to falter, ultimately leading to Sri Lanka winning the match and securing the series victory [art_sports_20260222_019_24af8123].\n\n## Countervailing Factors\nThe West Indies had significant batting power, as evidenced by Stafanie Taylor and Jannilea Glasgow both scoring half-centuries in the first match. This initially threatened Sri Lanka's total and posed a strong countervailing force against Sri Lanka's series win. However, this factor failed to overcome Sri Lanka because the West Indies middle and lower order could not withstand Inoka Ranaweera's bowling, and bizarre dismissals later broke their resistance.\n\n## Event Candidate Inventory\n- E1: Inoka Ranaweera takes a 4-wicket haul in the 1st ODI\n  - Date: 2026-02-19\n  - Why it matters causally: Secured a narrow 10-run victory for Sri Lanka, establishing series momentum.\n  - Source article IDs: art_sports_20260219_003_05cfa109\n- E2: Deandra Dottin given out obstructing the field in 2nd ODI\n  - Date: 2026-02-22\n  - Why it matters causally: Derailed the West Indies run chase when they were in contention to tie the series.\n  - Source article IDs: art_sports_20260222_007_f87e5100\n- E3: Sri Lanka seals the ODI series against West Indies\n  - Date: 2026-02-22\n  - Why it matters causally: The direct final outcome.\n  - Source article IDs: art_sports_20260222_019_24af8123\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| --- | --- | --- | --- | --- |\n| Sri Lanka wins 1st ODI by 10 runs | art_sports_20260219_003_05cfa109 | 2026-02-19 | 1.0 | Ranaweera took 4 wickets |\n| Dottin given out obstructing the field | art_sports_20260222_007_f87e5100 | 2026-02-22 | 1.0 | Bizarre dismissal in 2nd ODI |\n| Sri Lanka seals series | art_sports_20260222_019_24af8123 | 2026-02-22 | 1.0 | Overcame WI batting |\n\n## Uncertainties And Alternative Paths\nThe main alternative path would have occurred if West Indies had successfully completed the chase in the 1st ODI or if Deandra Dottin had not been dismissed in such a bizarre manner. If Dottin had continued batting, the West Indies might have leveled the series, pushing it to a decider. The margins of victory were relatively narrow, indicating a highly competitive series.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2026-02-19T17:18:13.701035+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-02-22T23:53:04+00:00",
-    "polymarket_url": "https://polymarket.com/event/crint-wst-lka-2026-02-22",
-    "price_data": {
-      "history": [
-        {
-          "t": 1771545631,
-          "p": 0.705
-        },
-        {
-          "t": 1771588821,
-          "p": 0.69
-        },
-        {
-          "t": 1771632023,
-          "p": 0.56
-        },
-        {
-          "t": 1771675224,
-          "p": 0.56
-        },
-        {
-          "t": 1771718424,
-          "p": 0.595
-        },
-        {
-          "t": 1771761627,
-          "p": 0.61
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1771632023,
-          "p": 0.56,
-          "delta": -0.145
-        }
-      ],
-      "price_at_open": 0.705,
-      "price_at_close": 0.61,
-      "min_price": 0.56,
-      "max_price": 0.705,
-      "final_price": 0.61,
-      "fetched_at": "2026-04-27T07:57:52.762500+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_sports_20260222_006_7c782311",
-        "date": "2026-02-22 10:00",
-        "title": "Deandra Dottin anchors innings",
-        "description": "Deandra Dottin anchors the innings in the 2nd ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_004_9aa4a790",
-        "date": "2026-02-22 10:00",
-        "title": "West Indies chase loses momentum in 2nd ODI",
-        "description": "The West Indies run chase loses momentum following Dottin's dismissal.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260219_001_72e37ec8",
-        "date": "2026-02-19 12:00",
-        "title": "Stafanie Taylor scores half-century",
-        "description": "Stafanie Taylor scores a half-century in the 1st ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/sports/other/inoka-ranaweera-guides-sri-lanka-to-a-thrilling-win-over-west-indies-in-1st-women-s-odi/ar-AA1WMVtF?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_007_49ec69b3",
-        "date": "2026-02-22 10:00",
-        "title": "Deandra Dottin given out obstructing the field",
-        "description": "Deandra Dottin is given out obstructing the field in the 2nd ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_003_0df75881",
-        "date": "2026-02-22 10:00",
-        "title": "West Indies faces must-win situation in 2nd ODI",
-        "description": "West Indies enters the 2nd ODI in a must-win situation to save the series.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_002_d1e038de",
-        "date": "2026-02-22 10:00",
-        "title": "West Indies chase falters in the 2nd ODI",
-        "description": "West Indies chase falters in the 2nd ODI after losing momentum.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_005_87c4eefa",
-        "date": "2026-02-22 10:00",
-        "title": "Deandra Dottin anchors the innings in the 2nd ODI",
-        "description": "Deandra Dottin anchored the innings for the West Indies in the 2nd ODI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.msn.com/en-us/sports/other/deandra-dottin-given-out-obstructing-the-field-in-bizarre-dismissal-as-sri-lanka-seal-odi-series/ar-AA1WS6Te?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_001_e12dfae9",
-        "date": "2026-02-22 10:00",
-        "title": "West Indies chase falters",
-        "description": "West Indies chase falters in the 2nd ODI.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_009_b5e294ff",
-        "date": "2026-02-22 11:00",
-        "title": "Sri Lanka wins 2nd ODI",
-        "description": "Sri Lanka wins the 2nd ODI.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260222_010_1788eef6",
-        "date": "2026-02-22 11:00",
-        "title": "Sri Lanka seals ODI series",
-        "description": "Sri Lanka seals the ODI series against West Indies.",
-        "impact": "**Affects:** Yes - ODI Series West Indies vs Sri Lanka, Women: West I  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nImpact on Sri Lanka winning the series.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.timesofindia.com/cricket/more-article-19-1776560543.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xd8abd2e16448e67a54cdef29c16d7b45d2153c47dda6c0dcb18a955160129b9c",
-    "title": "Trump, Putin, and Zelensky seen together in 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if Donald Trump, Vladimir Putin, and Volodymyr Zelensky are photographed or videotaped together, in the same frame, between August 6, 5:00 PM ET and December 31, 2025, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor this market to resolve to \"Yes\" the images or video must be taken and released within this market's timeframe. The images or video must be authentic, not the result of artificial intelligence or video editing.\n\nThe resolution source for this market will be the images or video of Donald Trump, Vladimir Putin, and Volodymyr Zelensky together.",
-    "outcome": "No",
-    "explanation": "\n## Executive Summary\nDonald Trump attempted to broker a rapid peace agreement between Russia and Ukraine in August 2025, leading to intense diplomatic efforts to bring Vladimir Putin and Volodymyr Zelensky to the negotiating table. Speculation peaked mid-August that Zelensky might join a planned summit between Trump and Putin in Alaska, temporarily driving market expectations toward a trilateral meeting. However, due to mutual hostility and fundamental disagreements over territorial concessions, both Russian officials and Zelensky rejected a direct joint meeting. Consequently, Trump met with Putin in Alaska and separately with Zelensky at the White House, meaning the three leaders were never seen together in 2025.\n\n## Timeline Of Key Events\n- Mid-August 2025: Trump administration officials actively work to broker a meeting between Putin and Zelensky to end the war [art_general_20250820_009_9bd59720].\n- 2025-08-19: News breaks that Trump and Putin agree to meet in Alaska, with widespread speculation that Zelensky might also attend, causing prediction markets to briefly favor a trilateral meeting [art_general_20250820_011_d691aec8].\n- 2025-08-20: Russian officials explicitly state there will be no direct meeting between Putin and Zelensky [art_general_20250820_039_3036a8e0].\n- Late August 2025: Trump holds an inconclusive summit with Putin in Alaska [art_general_20250820_008_adbd1ff0].\n- Late August 2025: Zelensky travels to Washington to meet Trump separately at the White House, definitively ruling out a joint trilateral appearance [art_general_20250820_047_7ea7999a].\n\n## Causal Chain Analysis\nThe root cause of the speculation was Donald Trump's aggressive diplomatic push to negotiate a ceasefire in the Russia-Ukraine war [art_general_20250820_009_9bd59720]. This led to the intermediate mechanism of scheduling a high-stakes summit in Alaska, which triggered media and market speculation that Trump could force both leaders into a room together [art_general_20250820_011_d691aec8]. The proximate trigger for the negative outcome was the deep-seated enmity and irreconcilable territorial demands between the two warring nations, causing both Russian officials and Zelensky to publicly refuse a joint meeting [art_general_20250820_039_3036a8e0]. This resulted in the final outcome where Trump was forced to conduct separate, bilateral meetings—first with Putin in Alaska and then with Zelensky in Washington—ensuring the three were not seen together [art_general_20250820_047_7ea7999a].\n\n## Countervailing Factors\nThe primary countervailing factor was Trump's immense political and financial leverage (specifically regarding U.S. military aid to Ukraine and sanctions on Russia), which he attempted to use to force both leaders to the negotiating table. This effort was overwhelmed by the fact that neither Putin nor Zelensky was willing to risk the domestic and strategic fallout of a direct meeting while active hostilities and unbridgeable demands regarding Crimea and the Donbas remained.\n\n## Event Candidate Inventory\n- E1: Trump announces Alaska peace summit with Putin\n  - Date: Mid-August 2025\n  - Why it matters causally: Initiated the specific sequence of events and market speculation regarding a trilateral meeting.\n  - Source article IDs: art_general_20250820_011_d691aec8\n- E2: Russian officials deny Putin-Zelensky joint meeting\n  - Date: 2025-08-20\n  - Why it matters causally: Served as the definitive signal that a trilateral appearance would not happen, flipping the market back to \"No\".\n  - Source article IDs: art_general_20250820_039_3036a8e0\n- E3: Trump meets Zelensky separately at the White House\n  - Date: Late August 2025\n  - Why it matters causally: Solidified the negative outcome by confirming the diplomatic engagements would remain strictly bilateral.\n  - Source article IDs: art_general_20250820_047_7ea7999a\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Trump attempts to broker Putin-Zelensky meeting | art_general_20250820_009_9bd59720 | 2025-08-20 | 0.9 | Confirms the initial diplomatic push. |\n| Speculation of Zelensky joining Alaska summit | art_general_20250820_011_d691aec8 | 2025-08-20 | 0.9 | Explains the market shift to \"Yes\". |\n| Russian denial of joint meeting | art_general_20250820_039_3036a8e0 | 2025-08-20 | 1.0 | Key trigger for the market flipping to \"No\". |\n| Separate White House meeting | art_general_20250820_047_7ea7999a | 2025-08-20 | 1.0 | Confirms the physical separation of the leaders. |\n\n## Uncertainties And Alternative Paths\nThe primary uncertainty was whether Trump would withhold military aid to compel Zelensky to travel to Alaska. An alternative causal path could have seen a forced, brief trilateral photo opportunity if Trump had successfully leveraged sufficient threats against both sides, but the fundamental intractability of the conflict prevented this scenario.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-08-06T21:54:11.634000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2026-01-01T07:45:39+00:00",
-    "polymarket_url": "https://polymarket.com/event/trump-putin-and-zelensky-seen-together-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1754524808,
-          "p": 0.215
-        },
-        {
-          "t": 1754611205,
-          "p": 0.19
-        },
-        {
-          "t": 1754697611,
-          "p": 0.235
-        },
-        {
-          "t": 1754827219,
-          "p": 0.235
-        },
-        {
-          "t": 1754913616,
-          "p": 0.22
-        },
-        {
-          "t": 1755043204,
-          "p": 0.225
-        },
-        {
-          "t": 1755129607,
-          "p": 0.31
-        },
-        {
-          "t": 1755259219,
-          "p": 0.32
-        },
-        {
-          "t": 1755345613,
-          "p": 0.36
-        },
-        {
-          "t": 1755475209,
-          "p": 0.405
-        },
-        {
-          "t": 1755561606,
-          "p": 0.555
-        },
-        {
-          "t": 1755648007,
-          "p": 0.535
-        },
-        {
-          "t": 1755777608,
-          "p": 0.35
-        },
-        {
-          "t": 1755864013,
-          "p": 0.215
-        },
-        {
-          "t": 1755993607,
-          "p": 0.165
-        },
-        {
-          "t": 1756080004,
-          "p": 0.135
-        },
-        {
-          "t": 1756209609,
-          "p": 0.165
-        },
-        {
-          "t": 1756296022,
-          "p": 0.16
-        },
-        {
-          "t": 1756425602,
-          "p": 0.18
-        },
-        {
-          "t": 1756512005,
-          "p": 0.21
-        },
-        {
-          "t": 1756641628,
-          "p": 0.225
-        },
-        {
-          "t": 1756728022,
-          "p": 0.195
-        },
-        {
-          "t": 1756814412,
-          "p": 0.18
-        },
-        {
-          "t": 1756944013,
-          "p": 0.17
-        },
-        {
-          "t": 1757030411,
-          "p": 0.14
-        },
-        {
-          "t": 1757160016,
-          "p": 0.17
-        },
-        {
-          "t": 1757246402,
-          "p": 0.165
-        },
-        {
-          "t": 1757376013,
-          "p": 0.155
-        },
-        {
-          "t": 1757462408,
-          "p": 0.16
-        },
-        {
-          "t": 1757592027,
-          "p": 0.16
-        },
-        {
-          "t": 1757678433,
-          "p": 0.15
-        },
-        {
-          "t": 1757764816,
-          "p": 0.15
-        },
-        {
-          "t": 1757894410,
-          "p": 0.15
-        },
-        {
-          "t": 1757980811,
-          "p": 0.13
-        },
-        {
-          "t": 1758110405,
-          "p": 0.145
-        },
-        {
-          "t": 1758196820,
-          "p": 0.13
-        },
-        {
-          "t": 1758326421,
-          "p": 0.125
-        },
-        {
-          "t": 1758412802,
-          "p": 0.13
-        },
-        {
-          "t": 1758542419,
-          "p": 0.125
-        },
-        {
-          "t": 1758628815,
-          "p": 0.125
-        },
-        {
-          "t": 1758758408,
-          "p": 0.125
-        },
-        {
-          "t": 1758844806,
-          "p": 0.125
-        },
-        {
-          "t": 1758931211,
-          "p": 0.12
-        },
-        {
-          "t": 1759060803,
-          "p": 0.12
-        },
-        {
-          "t": 1759147215,
-          "p": 0.115
-        },
-        {
-          "t": 1759276802,
-          "p": 0.105
-        },
-        {
-          "t": 1759363208,
-          "p": 0.07
-        },
-        {
-          "t": 1759492806,
-          "p": 0.065
-        },
-        {
-          "t": 1759579204,
-          "p": 0.075
-        },
-        {
-          "t": 1759708808,
-          "p": 0.065
-        },
-        {
-          "t": 1759795211,
-          "p": 0.065
-        },
-        {
-          "t": 1759881608,
-          "p": 0.065
-        },
-        {
-          "t": 1760011221,
-          "p": 0.065
-        },
-        {
-          "t": 1760097613,
-          "p": 0.065
-        },
-        {
-          "t": 1760227211,
-          "p": 0.065
-        },
-        {
-          "t": 1760313611,
-          "p": 0.065
-        },
-        {
-          "t": 1760443216,
-          "p": 0.085
-        },
-        {
-          "t": 1760529618,
-          "p": 0.075
-        },
-        {
-          "t": 1760659211,
-          "p": 0.145
-        },
-        {
-          "t": 1760745610,
-          "p": 0.155
-        },
-        {
-          "t": 1760875225,
-          "p": 0.15
-        },
-        {
-          "t": 1760961616,
-          "p": 0.14
-        },
-        {
-          "t": 1761048025,
-          "p": 0.13
-        },
-        {
-          "t": 1761177612,
-          "p": 0.09
-        },
-        {
-          "t": 1761264019,
-          "p": 0.09
-        },
-        {
-          "t": 1761393626,
-          "p": 0.095
-        },
-        {
-          "t": 1761480028,
-          "p": 0.085
-        },
-        {
-          "t": 1761609622,
-          "p": 0.08
-        },
-        {
-          "t": 1761696022,
-          "p": 0.085
-        },
-        {
-          "t": 1761868814,
-          "p": 0.07
-        },
-        {
-          "t": 1761955221,
-          "p": 0.055
-        },
-        {
-          "t": 1762041617,
-          "p": 0.06
-        },
-        {
-          "t": 1762171225,
-          "p": 0.055
-        },
-        {
-          "t": 1762257628,
-          "p": 0.055
-        },
-        {
-          "t": 1762387214,
-          "p": 0.035
-        },
-        {
-          "t": 1762473622,
-          "p": 0.043
-        },
-        {
-          "t": 1762603241,
-          "p": 0.043
-        },
-        {
-          "t": 1762689626,
-          "p": 0.03
-        },
-        {
-          "t": 1762819223,
-          "p": 0.0375
-        },
-        {
-          "t": 1762905620,
-          "p": 0.036
-        },
-        {
-          "t": 1763035232,
-          "p": 0.0395
-        },
-        {
-          "t": 1763121632,
-          "p": 0.0345
-        },
-        {
-          "t": 1763208033,
-          "p": 0.036
-        },
-        {
-          "t": 1763337622,
-          "p": 0.035
-        },
-        {
-          "t": 1763424017,
-          "p": 0.029
-        },
-        {
-          "t": 1763553633,
-          "p": 0.0315
-        },
-        {
-          "t": 1763640017,
-          "p": 0.048
-        },
-        {
-          "t": 1763769617,
-          "p": 0.0515
-        },
-        {
-          "t": 1763856019,
-          "p": 0.0525
-        },
-        {
-          "t": 1763985612,
-          "p": 0.0545
-        },
-        {
-          "t": 1764072031,
-          "p": 0.0475
-        },
-        {
-          "t": 1764158446,
-          "p": 0.059
-        },
-        {
-          "t": 1764288021,
-          "p": 0.056
-        },
-        {
-          "t": 1764374430,
-          "p": 0.058
-        },
-        {
-          "t": 1764547226,
-          "p": 0.0475
-        },
-        {
-          "t": 1764633616,
-          "p": 0.053
-        },
-        {
-          "t": 1764763235,
-          "p": 0.0215
-        },
-        {
-          "t": 1764849635,
-          "p": 0.0165
-        },
-        {
-          "t": 1764979220,
-          "p": 0.017
-        },
-        {
-          "t": 1765065633,
-          "p": 0.0175
-        },
-        {
-          "t": 1765195233,
-          "p": 0.0135
-        },
-        {
-          "t": 1765281618,
-          "p": 0.016
-        },
-        {
-          "t": 1765368033,
-          "p": 0.0175
-        },
-        {
-          "t": 1765497618,
-          "p": 0.012
-        },
-        {
-          "t": 1765584020,
-          "p": 0.0125
-        },
-        {
-          "t": 1765713621,
-          "p": 0.0105
-        },
-        {
-          "t": 1765800019,
-          "p": 0.011
-        },
-        {
-          "t": 1765929616,
-          "p": 0.0095
-        },
-        {
-          "t": 1765972830,
-          "p": 0.012
-        },
-        {
-          "t": 1766102418,
-          "p": 0.0085
-        },
-        {
-          "t": 1766188818,
-          "p": 0.0125
-        },
-        {
-          "t": 1766275219,
-          "p": 0.0085
-        },
-        {
-          "t": 1766404818,
-          "p": 0.006
-        },
-        {
-          "t": 1766491224,
-          "p": 0.0025
-        },
-        {
-          "t": 1766620830,
-          "p": 0.0045
-        },
-        {
-          "t": 1766707215,
-          "p": 0.0025
-        },
-        {
-          "t": 1766836820,
-          "p": 0.0015
-        },
-        {
-          "t": 1766923220,
-          "p": 0.0035
-        },
-        {
-          "t": 1767052824,
-          "p": 0.0025
-        },
-        {
-          "t": 1767139221,
-          "p": 0.002
-        }
-      ],
-      "turning_points": [
-        {
-          "t": 1755129607,
-          "p": 0.31,
-          "delta": 0.095
-        },
-        {
-          "t": 1755388810,
-          "p": 0.375,
-          "delta": 0.065
-        },
-        {
-          "t": 1755561606,
-          "p": 0.555,
-          "delta": 0.18
-        },
-        {
-          "t": 1755734404,
-          "p": 0.34,
-          "delta": -0.215
-        },
-        {
-          "t": 1755820806,
-          "p": 0.235,
-          "delta": -0.105
-        },
-        {
-          "t": 1755993607,
-          "p": 0.165,
-          "delta": -0.07
-        },
-        {
-          "t": 1756598402,
-          "p": 0.24,
-          "delta": 0.075
-        },
-        {
-          "t": 1756771217,
-          "p": 0.185,
-          "delta": -0.055
-        },
-        {
-          "t": 1757937627,
           "p": 0.13,
-          "delta": -0.055
-        },
-        {
-          "t": 1759363208,
-          "p": 0.07,
-          "delta": -0.06
-        },
-        {
-          "t": 1760659211,
-          "p": 0.145,
           "delta": 0.075
         },
         {
-          "t": 1761091223,
-          "p": 0.085,
-          "delta": -0.06
-        },
-        {
-          "t": 1762387214,
-          "p": 0.035,
-          "delta": -0.05
-        }
-      ],
-      "price_at_open": 0.215,
-      "price_at_close": 0.0005,
-      "min_price": 0.0005,
-      "max_price": 0.59,
-      "final_price": 0.0005,
-      "fetched_at": "2026-04-27T07:57:48.236447+00:00"
-    },
-    "events": [
-      {
-        "id": "evt_politics_20250815_001_607feb2c",
-        "date": "2025-08-15 00:00",
-        "title": "Trump administration works to broker Putin-Zelensky meeting",
-        "description": "Trump administration officials actively work to broker a meeting between Putin and Zelensky to end the war.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushed towards a meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/trump-zelensky-eu-leaders-ready-172048620.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250819_002_6bb322d8",
-        "date": "2025-08-19 00:00",
-        "title": "Trump and Putin agree to meet in Alaska",
-        "description": "News breaks that Trump and Putin agree to meet in Alaska.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushed towards a meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/trump-putin-agree-meet-next-162056366.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250819_003_e4713450",
-        "date": "2025-08-19 12:00",
-        "title": "Speculation of Zelensky joining Alaska summit",
-        "description": "Widespread speculation that Zelensky might also attend the planned summit between Trump and Putin in Alaska.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushed towards a meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/trump-putin-agree-meet-next-162056366.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_finance_20250819_004_2e4d10f4",
-        "date": "2025-08-19 18:00",
-        "title": "Prediction markets favor trilateral meeting",
-        "description": "Prediction markets briefly favor a trilateral meeting due to speculation.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPushed towards a meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/trump-putin-agree-meet-next-162056366.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250820_005_d95b8183",
-        "date": "2025-08-20 00:00",
-        "title": "Russian officials deny Putin-Zelensky joint meeting",
-        "description": "Russian officials explicitly state there will be no direct meeting between Putin and Zelensky.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrevented a joint meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/russian-says-no-meeting-between-182002077.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250820_006_1766602e",
-        "date": "2025-08-20 12:00",
-        "title": "Zelensky refuses joint meeting",
-        "description": "Zelensky publicly refuses a joint meeting with Putin.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrevented a joint meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/zelensky-undermines-trump-big-meeting-090706228.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250820_007_bbb0b771",
-        "date": "2025-08-20 12:00",
-        "title": "Trump holds summit with Putin in Alaska",
-        "description": "Trump holds an inconclusive summit with Putin in Alaska.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrevented a joint meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/trump-no-business-putin-until-163809392.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250820_008_1ef746b7",
-        "date": "2025-08-20 13:00",
-        "title": "Zelensky travels to Washington",
-        "description": "Zelensky travels to Washington to meet Trump.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrevented a joint meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/zelensky-undermines-trump-big-meeting-090706228.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250820_009_8908e86d",
-        "date": "2025-08-20 14:00",
-        "title": "Trump meets Zelensky separately at the White House",
-        "description": "Zelensky meets Trump separately at the White House, definitively ruling out a joint trilateral appearance.",
-        "impact": "**Affects:** No - Trump, Putin, and Zelensky seen together in 2025?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nPrevented a joint meeting.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.yahoo.com/news/articles/zelensky-undermines-trump-big-meeting-090706228.html?fr=sycsrp_catchall",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      }
-    ]
-  },
-  {
-    "id": "polymarket_0xd8dc35e690ede1455c476595bc9bddd5c354ff86c8455a2d530ad94673740d7a",
-    "title": "Will the U.S. federal government experience a partial or full shutdown during 2025?",
-    "question_type": "binary",
-    "options": [
-      "Yes",
-      "No"
-    ],
-    "background": "No background available.",
-    "resolution_criteria": "This market will resolve to \"Yes\" if the U.S. Office of Personnel Management announces that the U.S. federal government is shut down due to a lapse in appropriations by December 31, 2025, 11:59 PM. Otherwise this market will resolve to \"No\".\n\nIf the Office of Personnel Management announces a partial shutdown this will count, however announcements of office closures due to holidays or inclement weather will not qualify. \n\nThe resolution source for this market will be the website of the U.S. Office of Personnel Management (https://www.opm.gov/policy-data-oversight/snow-dismissal-procedures/current-status/).",
-    "outcome": "Yes",
-    "explanation": "\n## Executive Summary\nThe U.S. federal government experienced a shutdown in 2025 driven by intractable partisan conflict over spending levels and policy riders. Early in the year, initial expectations of a smooth budget process deteriorated as hardline factions demanded steep cuts, resulting in a brief funding lapse in February. Although stopgap measures temporarily restored operations through March, fundamental disagreements remained unresolved. Ultimately, by September 2025, negotiations broke down completely, leading to a failure to pass a continuing resolution and causing a full government shutdown on October 1, 2025.\n\n## Timeline Of Key Events\n- **2024-12-19**: Early optimism as House Republicans proposed a spending deal to avert a shutdown [art_general_20241219_016_3b06e24c].\n- **2025-02-04**: Tensions flared over preliminary funding proposals as early legislative hurdles emerged.\n- **2025-02-08**: A preliminary shutdown began as lawmakers temporarily failed to reach a deal to extend funding, shifting market sentiment [art_business_20250208_039_6e5fc3a5].\n- **2025-03-12**: Renewed shutdown fears pressured the stock market despite a stopgap measure being debated [art_finance_20250312_054_1348f1c0].\n- **2025-08-30**: Negotiations completely stalled, marking a turning point where a shutdown became the baseline expectation.\n- **2025-09-15**: Desperate bipartisan attempts to craft another continuing resolution failed, raising concerns about when the government would reopen [art_politics_20250915_068_7091a5f9] [art_business_20250915_070_07cd0971].\n- **2025-09-28**: Leadership acknowledged they lacked the votes for any funding measure, solidifying the economic threat of a prolonged shutdown [art_finance_20250928_071_a5e4c02b].\n- **2025-10-01**: The fiscal year ended without a funding agreement, resulting in a full federal government shutdown.\n\n## Causal Chain Analysis\nThe root cause of the shutdown was deep partisan polarization and the narrow margins of control in Congress, which empowered hardline factions to demand significant spending cuts and controversial policy riders [art_general_20241219_016_3b06e24c]. This polarization caused intermediate mechanisms of legislative dysfunction, where traditional bipartisan compromises were consistently derailed by threats of leadership challenges. This dynamic triggered a cycle of reliance on short-term continuing resolutions, which merely postponed the inevitable conflict [art_business_20250208_039_6e5fc3a5]. The proximate trigger was the absolute breakdown of negotiations in late September, as neither side was willing to concede on defense and social spending allocations [art_politics_20250915_068_7091a5f9]. This resulted in the final outcome: the exhaustion of all temporary funding measures and a full government shutdown on October 1, 2025 [art_finance_20250928_071_a5e4c02b].\n\n## Countervailing Factors\nModerate lawmakers from both parties, alongside business lobbying groups warning of economic damage, consistently pushed for a bipartisan continuing resolution [art_finance_20250312_054_1348f1c0]. These forces managed to secure temporary reprieves in March. However, they ultimately failed because the hardline factions held outsized leverage over leadership, making any compromise politically toxic for the majority party's leadership, overwhelming the moderates' efforts.\n\n## Event Candidate Inventory\n- E1: Initial funding lapse in February 2025.\n  - Date: 2025-02-08\n  - Why it matters causally: It established the inability of the current Congress to easily pass funding, setting a precedent for the final shutdown.\n  - Source article IDs: [art_business_20250208_039_6e5fc3a5]\n- E2: Breakdown of September funding negotiations.\n  - Date: 2025-09-15\n  - Why it matters causally: The failure of the final bipartisan attempt to craft a continuing resolution directly paved the way for the October 1 deadline to pass without funding.\n  - Source article IDs: [art_politics_20250915_068_7091a5f9], [art_business_20250915_070_07cd0971]\n- E3: Admission of insufficient votes by leadership.\n  - Date: 2025-09-28\n  - Why it matters causally: Marked the point of no return where a shutdown became a mathematical certainty in the House.\n  - Source article IDs: [art_finance_20250928_071_a5e4c02b]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Early December spending deal proposals | [art_general_20241219_016_3b06e24c] | 2024-12-19 | 0.9 | Showed early attempts to avoid shutdown. |\n| February funding lapse begins | [art_business_20250208_039_6e5fc3a5] | 2025-02-08 | 0.95 | Early preview of the broader dysfunction. |\n| Mid-September breakdown of negotiations | [art_politics_20250915_068_7091a5f9], [art_business_20250915_070_07cd0971] | 2025-09-15 | 0.95 | House and Senate divided on the path forward. |\n| Late September realization of economic hit | [art_finance_20250928_071_a5e4c02b] | 2025-09-28 | 0.9 | Final confirmation that no deal would be reached. |\n\n## Uncertainties And Alternative Paths\nOne major uncertainty remains regarding whether a cleaner, long-term continuing resolution could have passed had leadership relied entirely on minority party votes, risking their own positions. An alternative path would have involved the moderate wing successfully executing a discharge petition to force a vote on a clean funding bill, which was discussed but never materialized due to intense partisan loyalty.\n",
-    "is_polymarket": true,
-    "is_overlap": false,
-    "market_open": "2025-01-09T22:50:43.758000+00:00",
-    "market_open_estimated": false,
-    "market_close": "2025-10-01T06:35:55+00:00",
-    "polymarket_url": "https://polymarket.com/event/us-government-shutdown-in-2025",
-    "price_data": {
-      "history": [
-        {
-          "t": 1736467204,
-          "p": 0.245
-        },
-        {
-          "t": 1736640004,
-          "p": 0.125
-        },
-        {
-          "t": 1736812803,
-          "p": 0.145
-        },
-        {
-          "t": 1737028803,
-          "p": 0.155
-        },
-        {
-          "t": 1737201603,
-          "p": 0.165
-        },
-        {
-          "t": 1737417603,
-          "p": 0.17
-        },
-        {
-          "t": 1737590404,
-          "p": 0.18
-        },
-        {
-          "t": 1737763205,
-          "p": 0.235
-        },
-        {
-          "t": 1737979204,
-          "p": 0.24
-        },
-        {
-          "t": 1738152004,
-          "p": 0.285
-        },
-        {
-          "t": 1738368005,
-          "p": 0.295
-        },
-        {
-          "t": 1738540805,
-          "p": 0.31
-        },
-        {
-          "t": 1738713604,
-          "p": 0.515
-        },
-        {
-          "t": 1738929606,
-          "p": 0.525
-        },
-        {
-          "t": 1739102405,
-          "p": 0.49
-        },
-        {
-          "t": 1739318404,
-          "p": 0.61
-        },
-        {
-          "t": 1739491205,
-          "p": 0.615
-        },
-        {
-          "t": 1739664004,
-          "p": 0.615
-        },
-        {
-          "t": 1739880004,
-          "p": 0.615
-        },
-        {
-          "t": 1740052805,
-          "p": 0.625
-        },
-        {
-          "t": 1740268804,
-          "p": 0.605
-        },
-        {
-          "t": 1740441604,
-          "p": 0.605
-        },
-        {
-          "t": 1740614405,
-          "p": 0.535
-        },
-        {
-          "t": 1740830405,
-          "p": 0.55
-        },
-        {
-          "t": 1741003205,
-          "p": 0.545
-        },
-        {
-          "t": 1741219205,
-          "p": 0.58
-        },
-        {
-          "t": 1741392005,
-          "p": 0.525
-        },
-        {
-          "t": 1741608005,
-          "p": 0.525
-        },
-        {
-          "t": 1741780805,
-          "p": 0.33
-        },
-        {
-          "t": 1741953605,
-          "p": 0.345
-        },
-        {
-          "t": 1742169604,
-          "p": 0.325
-        },
-        {
-          "t": 1742342405,
-          "p": 0.365
-        },
-        {
-          "t": 1742558406,
-          "p": 0.375
-        },
-        {
-          "t": 1742731205,
-          "p": 0.38
-        },
-        {
-          "t": 1742904006,
-          "p": 0.385
-        },
-        {
-          "t": 1743120006,
-          "p": 0.385
-        },
-        {
-          "t": 1743292806,
-          "p": 0.385
-        },
-        {
-          "t": 1743508805,
-          "p": 0.375
-        },
-        {
-          "t": 1743681606,
-          "p": 0.37
-        },
-        {
-          "t": 1743854406,
-          "p": 0.365
-        },
-        {
-          "t": 1744070406,
-          "p": 0.345
-        },
-        {
-          "t": 1744243205,
-          "p": 0.335
-        },
-        {
-          "t": 1744459205,
-          "p": 0.345
-        },
-        {
-          "t": 1744632004,
-          "p": 0.345
-        },
-        {
-          "t": 1744804806,
-          "p": 0.345
-        },
-        {
-          "t": 1745020806,
-          "p": 0.34
-        },
-        {
-          "t": 1745193606,
-          "p": 0.335
-        },
-        {
-          "t": 1745409606,
-          "p": 0.335
-        },
-        {
-          "t": 1745582406,
-          "p": 0.335
-        },
-        {
-          "t": 1745798405,
-          "p": 0.345
-        },
-        {
-          "t": 1745971206,
-          "p": 0.345
-        },
-        {
-          "t": 1746144006,
-          "p": 0.335
-        },
-        {
-          "t": 1746360005,
-          "p": 0.335
-        },
-        {
-          "t": 1746532805,
-          "p": 0.335
-        },
-        {
-          "t": 1746748807,
-          "p": 0.335
-        },
-        {
-          "t": 1746921606,
-          "p": 0.325
-        },
-        {
-          "t": 1747094406,
-          "p": 0.325
-        },
-        {
-          "t": 1747310407,
-          "p": 0.325
-        },
-        {
-          "t": 1747483206,
-          "p": 0.325
-        },
-        {
-          "t": 1747699206,
-          "p": 0.325
-        },
-        {
-          "t": 1747872007,
-          "p": 0.32
-        },
-        {
-          "t": 1748044807,
-          "p": 0.325
-        },
-        {
-          "t": 1748260806,
-          "p": 0.32
-        },
-        {
-          "t": 1748433607,
-          "p": 0.325
-        },
-        {
-          "t": 1748649607,
-          "p": 0.315
-        },
-        {
-          "t": 1748822406,
-          "p": 0.31
-        },
-        {
-          "t": 1748995206,
-          "p": 0.325
-        },
-        {
-          "t": 1749211206,
-          "p": 0.305
-        },
-        {
-          "t": 1749384007,
-          "p": 0.31
-        },
-        {
-          "t": 1749600007,
-          "p": 0.305
-        },
-        {
-          "t": 1749772807,
-          "p": 0.32
-        },
-        {
-          "t": 1749945608,
-          "p": 0.325
-        },
-        {
-          "t": 1750161606,
-          "p": 0.325
-        },
-        {
-          "t": 1750334407,
-          "p": 0.315
-        },
-        {
-          "t": 1750550406,
-          "p": 0.32
-        },
-        {
-          "t": 1750723207,
-          "p": 0.32
-        },
-        {
-          "t": 1750939207,
-          "p": 0.325
-        },
-        {
-          "t": 1751112007,
-          "p": 0.315
-        },
-        {
-          "t": 1751284807,
-          "p": 0.315
-        },
-        {
-          "t": 1751500808,
-          "p": 0.305
-        },
-        {
-          "t": 1751673608,
-          "p": 0.295
-        },
-        {
-          "t": 1751889607,
-          "p": 0.275
-        },
-        {
-          "t": 1752062408,
-          "p": 0.35
-        },
-        {
-          "t": 1752235209,
-          "p": 0.4
-        },
-        {
-          "t": 1752451207,
-          "p": 0.405
-        },
-        {
-          "t": 1752624008,
-          "p": 0.395
-        },
-        {
-          "t": 1752840008,
-          "p": 0.395
-        },
-        {
-          "t": 1753012808,
-          "p": 0.405
-        },
-        {
-          "t": 1753185609,
-          "p": 0.425
-        },
-        {
-          "t": 1753401609,
-          "p": 0.425
-        },
-        {
-          "t": 1753574410,
-          "p": 0.375
-        },
-        {
-          "t": 1753790408,
-          "p": 0.385
-        },
-        {
-          "t": 1753963208,
-          "p": 0.365
-        },
-        {
-          "t": 1754136010,
-          "p": 0.375
+          "t": 1753531210,
+          "p": 0.2,
+          "delta": 0.07
         },
         {
           "t": 1754352008,
-          "p": 0.385
+          "p": 0.135,
+          "delta": -0.065
         },
         {
-          "t": 1754524802,
-          "p": 0.375
+          "t": 1756598419,
+          "p": 0.085,
+          "delta": -0.05
         },
         {
-          "t": 1754740812,
-          "p": 0.39
+          "t": 1762732809,
+          "p": 0.0345,
+          "delta": -0.0505
         },
         {
-          "t": 1754913608,
-          "p": 0.395
+          "t": 1762819215,
+          "p": 0.088,
+          "delta": 0.0535
         },
         {
-          "t": 1755129607,
-          "p": 0.385
-        },
-        {
-          "t": 1755302409,
-          "p": 0.405
-        },
-        {
-          "t": 1755475205,
-          "p": 0.41
-        },
-        {
-          "t": 1755691202,
-          "p": 0.4
-        },
-        {
-          "t": 1755864005,
-          "p": 0.38
-        },
-        {
-          "t": 1756080014,
-          "p": 0.345
-        },
-        {
-          "t": 1756252805,
-          "p": 0.335
-        },
-        {
-          "t": 1756425608,
-          "p": 0.335
-        },
-        {
-          "t": 1756641618,
-          "p": 0.44
-        },
-        {
-          "t": 1756814405,
-          "p": 0.515
-        },
-        {
-          "t": 1757030411,
-          "p": 0.5
-        },
-        {
-          "t": 1757203214,
-          "p": 0.425
-        },
-        {
-          "t": 1757376005,
-          "p": 0.5
-        },
-        {
-          "t": 1757592014,
-          "p": 0.555
-        },
-        {
-          "t": 1757764806,
-          "p": 0.55
-        },
-        {
-          "t": 1757980824,
-          "p": 0.605
-        },
-        {
-          "t": 1758153614,
-          "p": 0.56
-        },
-        {
-          "t": 1758326409,
-          "p": 0.6
-        },
-        {
-          "t": 1758542415,
-          "p": 0.675
-        },
-        {
-          "t": 1758715208,
-          "p": 0.755
-        },
-        {
-          "t": 1758931210,
-          "p": 0.82
-        },
-        {
-          "t": 1759104008,
-          "p": 0.68
+          "t": 1764288014,
+          "p": 0.0375,
+          "delta": -0.0505
         }
       ],
-      "turning_points": [
-        {
-          "t": 1736510404,
-          "p": 0.165,
-          "delta": -0.08
-        },
-        {
-          "t": 1737763205,
-          "p": 0.235,
-          "delta": 0.07
-        },
-        {
-          "t": 1738195205,
-          "p": 0.295,
-          "delta": 0.06
-        },
-        {
-          "t": 1738627204,
-          "p": 0.56,
-          "delta": 0.265
-        },
-        {
-          "t": 1738800005,
-          "p": 0.51,
-          "delta": -0.05
-        },
-        {
-          "t": 1739188804,
-          "p": 0.56,
-          "delta": 0.05
-        },
-        {
-          "t": 1739275204,
-          "p": 0.615,
-          "delta": 0.055
-        },
-        {
-          "t": 1740571204,
-          "p": 0.53,
-          "delta": -0.085
-        },
-        {
-          "t": 1741435204,
-          "p": 0.47,
-          "delta": -0.06
-        },
-        {
-          "t": 1741608005,
-          "p": 0.525,
-          "delta": 0.055
-        },
-        {
-          "t": 1741737605,
-          "p": 0.375,
-          "delta": -0.15
-        },
-        {
-          "t": 1741824006,
-          "p": 0.54,
-          "delta": 0.165
-        },
-        {
-          "t": 1741910405,
-          "p": 0.295,
-          "delta": -0.245
-        },
-        {
-          "t": 1742212805,
-          "p": 0.395,
-          "delta": 0.1
-        },
-        {
-          "t": 1743984006,
-          "p": 0.345,
-          "delta": -0.05
-        },
-        {
-          "t": 1749643207,
-          "p": 0.27,
-          "delta": -0.075
-        },
-        {
-          "t": 1749816008,
-          "p": 0.325,
-          "delta": 0.055
-        },
-        {
-          "t": 1752105608,
-          "p": 0.405,
-          "delta": 0.08
-        },
-        {
-          "t": 1754438409,
-          "p": 0.355,
-          "delta": -0.05
-        },
-        {
-          "t": 1754827211,
-          "p": 0.415,
-          "delta": 0.06
-        },
-        {
-          "t": 1755950418,
-          "p": 0.355,
-          "delta": -0.06
-        },
-        {
-          "t": 1756468807,
-          "p": 0.405,
-          "delta": 0.05
-        },
-        {
-          "t": 1756512008,
-          "p": 0.475,
-          "delta": 0.07
-        },
-        {
-          "t": 1757419209,
-          "p": 0.545,
-          "delta": 0.07
-        },
-        {
-          "t": 1757937618,
-          "p": 0.495,
-          "delta": -0.05
-        },
-        {
-          "t": 1757980824,
-          "p": 0.605,
-          "delta": 0.11
-        },
-        {
-          "t": 1758024023,
-          "p": 0.55,
-          "delta": -0.055
-        },
-        {
-          "t": 1758369626,
-          "p": 0.635,
-          "delta": 0.085
-        },
-        {
-          "t": 1758672003,
-          "p": 0.705,
-          "delta": 0.07
-        },
-        {
-          "t": 1758715208,
-          "p": 0.755,
-          "delta": 0.05
-        },
-        {
-          "t": 1758931210,
-          "p": 0.82,
-          "delta": 0.065
-        },
-        {
-          "t": 1759060810,
-          "p": 0.635,
-          "delta": -0.185
-        },
-        {
-          "t": 1759147208,
-          "p": 0.72,
-          "delta": 0.085
-        },
-        {
-          "t": 1759190409,
-          "p": 0.825,
-          "delta": 0.105
-        },
-        {
-          "t": 1759276803,
-          "p": 0.989,
-          "delta": 0.164
-        }
-      ],
-      "price_at_open": 0.245,
-      "price_at_close": 0.989,
-      "min_price": 0.125,
-      "max_price": 0.989,
-      "final_price": 0.989,
-      "fetched_at": "2026-04-27T10:44:01.603974+00:00"
+      "price_at_open": 0.055,
+      "price_at_close": 0.002,
+      "min_price": 0.0015,
+      "max_price": 0.2,
+      "final_price": 0.002,
+      "fetched_at": "2026-04-27T10:44:01.145081+00:00"
     },
     "events": [
       {
-        "id": "evt_politics_20250208_003_30dcadb3",
-        "date": "2025-02-08 00:00",
-        "title": "Preliminary shutdown begins",
-        "description": "A preliminary shutdown begins as lawmakers temporarily fail to reach a deal to extend funding.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA preliminary shutdown strongly indicated a full shutdown was likely.",
+        "id": "evt_general_20250727_001_85c8a863",
+        "date": "2025-07-27 00:00",
+        "title": "Maxwell transferred to minimum-security prison",
+        "description": "Ghislaine Maxwell was transferred to a minimum-security federal prison camp in Texas.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nTransfer to minimum security made release seem more likely, hindering the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cbsnews.com/live-updates/government-shutdown-latest-trump-congress-senate-vote?t=303",
+        "source_url": "https://www.yahoo.com/news/articles/ghislaine-maxwell-moved-federal-prison-170922035.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250208_004_2d8ae4de",
-        "date": "2025-02-08 12:00",
-        "title": "Lawmakers rely on short-term continuing resolutions",
-        "description": "Lawmakers rely on short-term continuing resolutions to postpone the inevitable conflict over funding.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRelying on short-term measures postponed the conflict, increasing long-term shutdown risk.",
+        "id": "evt_politics_20250727_002_7465697e",
+        "date": "2025-07-27 00:00",
+        "title": "Trump administration declines to clarify transfer",
+        "description": "The Trump administration declined to clarify why Maxwell was transferred to a minimum-security facility.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDeclining to clarify transfer maintained the status quo.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.cbsnews.com/live-updates/government-shutdown-latest-trump-congress-senate-vote?t=303",
+        "source_url": "https://www.yahoo.com/news/articles/trump-administration-won-t-why-175324696.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250312_005_e35ef786",
-        "date": "2025-03-12 10:00",
-        "title": "Moderates push for bipartisan continuing resolution",
-        "description": "Moderate lawmakers and business lobbying groups push for a bipartisan continuing resolution.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nModerates pushing for a resolution decreased the likelihood of a shutdown.",
+        "id": "evt_general_20250813_003_caf62e13",
+        "date": "2025-08-13 00:00",
+        "title": "Rumors of work release surface",
+        "description": "Rumors surfaced that Maxwell was cleared to leave prison on work release.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nRumors of work release suggested a potential early release, hindering the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/stock-market-today-stocks-sink-143748282.html?fr=sycsrp_catchall%3Ft%3D123",
+        "source_url": "https://www.snopes.com/news/2025/08/13/ghislaine-maxwell-work-release",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250312_008_4711d3fc",
-        "date": "2025-03-12 11:00",
-        "title": "Moderates secure temporary reprieves",
-        "description": "Moderate lawmakers secure temporary reprieves in March to keep the government funded.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSecuring reprieves temporarily decreased the likelihood of a shutdown.",
+        "id": "evt_politics_20250815_010_13521ea8",
+        "date": "2025-08-15 00:00",
+        "title": "Maxwell declines to answer lawmakers",
+        "description": "Maxwell declined to answer questions from lawmakers.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDeclining to answer lawmakers reduced her chances of gaining political favor for a pardon.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/stock-market-today-stocks-sink-143748282.html?fr=sycsrp_catchall%3Ft%3D123",
+        "source_url": "https://www.newsandsentinel.com/news/local-news/2026/02/ghislaine-maxwell-appeals-for-clemency-from-trump-as-she-declines-to-answer-questions-from-lawmakers",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250915_006_1b18a652",
-        "date": "2025-09-15 10:00",
-        "title": "Lawmakers refuse to concede on spending allocations",
-        "description": "Neither side is willing to concede on defense and social spending allocations.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nRefusal to concede made a shutdown highly likely.",
+        "id": "evt_politics_20251001_004_29e7af36",
+        "date": "2025-10-01 00:00",
+        "title": "Maxwell seeks clemency from Trump",
+        "description": "Maxwell sought clemency from President Trump.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSeeking clemency was an attempt to secure release.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-in/news/world/govt-shutdown-2025-when-will-government-reopen-jeffries-sends-key-message-before-house-vote/ar-AA1VoQ4n?ocid=BingNewsVerp%3Ft%3D3701",
+        "source_url": "https://time.com/7375277/ghislaine-maxwell-epstein-trump-clinton-innocent-congress-testimony-clemency-pardon",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250915_009_883679e4",
-        "date": "2025-09-15 11:00",
-        "title": "Bipartisan attempts to craft continuing resolution fail",
-        "description": "Desperate bipartisan attempts to craft another continuing resolution fail.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFailure of bipartisan attempts made a shutdown highly likely.",
+        "id": "evt_politics_20251001_005_fa8d15b8",
+        "date": "2025-10-01 00:00",
+        "title": "Maxwell offers testimony",
+        "description": "Maxwell offered testimony that would allegedly prove Trump's innocence.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nOffering testimony was a strategy to gain clemency and release.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.msn.com/en-in/news/world/govt-shutdown-2025-when-will-government-reopen-jeffries-sends-key-message-before-house-vote/ar-AA1VoQ4n?ocid=BingNewsVerp%3Ft%3D3701",
+        "source_url": "https://time.com/7375277/ghislaine-maxwell-epstein-trump-clinton-innocent-congress-testimony-clemency-pardon",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20250928_007_83043b60",
-        "date": "2025-09-28 12:00",
-        "title": "Leadership acknowledges lacking votes for funding measure",
-        "description": "Leadership acknowledges they lack the votes for any funding measure.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLacking votes made a shutdown inevitable.",
+        "id": "evt_politics_20251001_006_0b533b38",
+        "date": "2025-10-01 00:00",
+        "title": "White House deprioritizes pardon",
+        "description": "The White House indicated that a pardon for Maxwell was 'not a priority'.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDeprioritizing the pardon sealed the negative outcome.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://finance.yahoo.com/news/federal-government-shutdown-last-long-152434388.html?fr=sycsrp_catchall%3Ft%3D3014",
+        "source_url": "https://www.yahoo.com/news/articles/white-house-ghislaine-maxwell-pardon-193839600.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241219_001_68719a1a",
-        "date": "2024-12-19 12:00",
-        "title": "Hardline factions demand significant spending cuts",
-        "description": "Hardline factions in Congress demand significant spending cuts and controversial policy riders.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nHardline demands increased the likelihood of a shutdown.",
+        "id": "evt_general_20251124_007_1c326ec7",
+        "date": "2025-11-24 00:00",
+        "title": "Maxwell reported happier in prison",
+        "description": "Maxwell was reported to be 'much happier' at the minimum-security prison.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nBeing happier in a minimum security prison might signal a softer sentence, hindering the negative outcome.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.theguardian.com/us-news/2024/dec/18/government-funding-trump-shutdown",
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/ghislaine-maxwell-much-happier-minimum-172803659.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20241219_002_9dc420dd",
-        "date": "2024-12-19 14:00",
-        "title": "House Republicans propose spending deal",
-        "description": "House Republicans propose a spending deal to avert a government shutdown.",
-        "impact": "**Affects:** Yes - Will the U.S. federal government experience a part  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nProposing a deal decreased the likelihood of a shutdown.",
+        "id": "evt_general_20251124_008_b30f8b99",
+        "date": "2025-11-24 00:00",
+        "title": "Maxwell works on release application",
+        "description": "Maxwell was reported to be working on a prison release application.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nWorking on a release application was an attempt to change the outcome.",
         "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.theguardian.com/us-news/2024/dec/18/government-funding-trump-shutdown",
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/ghislaine-maxwell-working-prison-release-190437477.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251124_009_0b6fa007",
+        "date": "2025-11-24 00:00",
+        "title": "Lawmakers question prison placement",
+        "description": "Lawmakers questioned Ghislaine Maxwell's Texas prison placement.",
+        "impact": "**Affects:** No - Will Ghislaine Maxwell be released from federal pr  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLawmakers questioning the placement added scrutiny, making release less likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/news/articles/lawmakers-ghislaine-maxwells-texas-prison-160401993.html?fr=sycsrp_catchall",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
