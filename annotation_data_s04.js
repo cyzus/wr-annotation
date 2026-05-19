@@ -454,6 +454,19 @@ var annotationData = [
     "price_data": null,
     "events": [
       {
+        "id": "evt_politics_20240501_001_e5e83324",
+        "date": "2024-05-01 00:00",
+        "title": "DOJ and states sue Live Nation and Ticketmaster",
+        "description": "The DOJ, joined by attorneys general from 39 states and the District of Columbia, sued Live Nation and Ticketmaster alleging monopolistic conduct.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe lawsuit initiated the process with a set schedule, making a delay less likely.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.ticketnews.com/2026/02/judge-says-not-inclined-delay-doj-case",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_politics_20240601_001_23989744",
         "date": "2024-06-01 00:00",
         "title": "DOJ and states initiate antitrust lawsuit against Live Nation",
@@ -467,14 +480,27 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260115_001_627b208c",
-        "date": "2026-01-15 00:00",
-        "title": "DOJ brings antitrust lawsuit against Live Nation",
-        "description": "The Department of Justice brought an antitrust lawsuit against Live Nation.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "id": "evt_politics_20260218_004_1ab0eada",
+        "date": "2026-02-18 00:00",
+        "title": "Live Nation files motion to delay trial",
+        "description": "Live Nation files a motion to delay the trial, citing the pending appeal.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe motion to delay was a direct attempt to push back the trial date.",
+        "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.npr.org/2026/04/15/nx-s1-5786715/live-nation-ticketmaster-antitrust-verdict-monopoly",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260219_009_d7f55a40",
+        "date": "2026-02-19 12:00",
+        "title": "Judge denies trial delay request",
+        "description": "The presiding judge rejects Live Nation's motion for delay.",
+        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe judge's denial directly prevented the delay.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.musicbusinessworldwide.com/live-nation-says-ticketmaster-breakup-threat-is-already-over-calls-for-doj-settlement-its-time-to-move-on",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -488,19 +514,6 @@ var annotationData = [
         "has_impact": false,
         "in_market_window": false,
         "source_url": "https://www.msn.com/en-us/music/news/live-nation-loses-jury-trial-to-states-in-monopoly-case/ar-AA20YUDp?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260219_006_97ddc69e",
-        "date": "2026-02-19 00:00",
-        "title": "Court reviews necessity of delay",
-        "description": "The court reviews the necessity of a delay following Live Nation's motion.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.musicbusinessworldwide.com/live-nation-says-ticketmaster-breakup-threat-is-already-over-calls-for-doj-settlement-its-time-to-move-on",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -562,19 +575,6 @@ var annotationData = [
         "date": "2026-01-15 00:00",
         "title": "Antitrust trial commences earlier than expected",
         "description": "The antitrust trial commenced earlier than the expected March 2026 start date.",
-        "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.msn.com/en-us/money/companies/live-nation-illegally-monopolized-ticketing-market-jury-in-antitrust-trial-finds/ar-AA20YRGg?ocid=BingNewsVerp",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260214_007_3c1d031f",
-        "date": "2026-02-14 00:00",
-        "title": "Antitrust trial concludes by mid-February 2026",
-        "description": "The antitrust trial concluded by mid-February 2026.",
         "impact": "**Affects:** No - Will the DOJ's monopoly trial against Live Nation   \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the trial concluding early, making a delay past March 2026 less likely.",
         "has_impact": true,
         "in_market_window": false,

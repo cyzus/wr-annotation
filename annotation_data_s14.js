@@ -354,7 +354,7 @@ var annotationData = [
   {
     "id": "polymarket_0x7a21ed48a64137a224a45841d4d151edc4c37831cf561d2909821d08fa10cac9",
     "title": "Men's Knockout - Slovakia vs. Finland",
-    "question_type": "binary",
+    "question_type": "mcq",
     "options": [
       "Slovakia",
       "Finland"
@@ -532,12 +532,12 @@ var annotationData = [
     "title": "How many executive orders will the US President issue in 2025?",
     "question_type": "quantity",
     "options": [
-      "100"
+      "225"
     ],
     "background": "A quantitative measure of presidential activity.",
     "resolution_criteria": "The number of executive orders will be determined by the official count published in the Federal Register for the 2025 calendar year.",
-    "outcome": "100",
-    "explanation": "\n## Executive Summary\nIn 2025, President Donald Trump issued exactly 100 executive orders. Upon taking office in January 2025, he aggressively utilized executive authority to implement sweeping policy changes and rapidly reverse the actions of the Biden administration. By the end of his first 100 days, he had already issued a historically high number of executive orders, setting a torrid pace that continued throughout the year, eventually reaching exactly 100 orders by the end of December.\n\n## Timeline Of Key Events\n- **January 20, 2025**: Donald Trump is inaugurated and immediately begins issuing executive orders, including actions on artificial intelligence ([art_tech_20250120_005_50d006ae]).\n- **January 25-26, 2025**: Trump signs executive orders ending diversity, equity, and inclusion (DEI) programs across federal agencies, such as the FAA ([art_politics_20250125_007_c39c5b2a], [art_politics_20250126_008_eb644702]).\n- **February-March 2025**: The administration continues a rapid pace of executive actions focusing on social and bureaucratic issues, including reducing federal bureaucracy ([art_politics_20250301_002_3aff5e38]) and restricting policies in women's sports ([art_politics_20250215_009_12cd20e1]). Trump rescinds additional harmful Biden executive actions ([art_politics_20250315_003_25b2f503], [art_politics_20250316_004_6092f359]).\n- **April 28-29, 2025**: Approaching his 100th day in office, Trump orders the government to recognize only male and female sexes ([art_general_20250428_002_2576580e]), highlighting the dense cluster of orders issued in his early presidency ([art_general_20250429_009_67083596]).\n- **May-June 2025**: The administration expands executive actions into education and sports, drawing responses from organizations like the NCAA ([art_sports_20250501_010_3262cc87], [art_sports_20250505_011_f9137522]). Scrutiny increases over the justifications used for these actions ([art_general_20250630_011_b91d4d53]).\n- **November-December 2025**: Trump escalates the use of executive power while defending his use of the autopen ([art_general_20251128_005_530ea3de]). By the end of the year, the steady accumulation of executive actions, despite some pushback, results in exactly 100 executive orders signed ([art_general_20251231_010_9d95f75d], [art_general_20251204_007_186a6d28]).\n\n## Causal Chain Analysis\nThe outcome of exactly 100 executive orders was driven by a deliberate strategy to quickly enact policy changes and dismantle the previous administration's legacy without relying on Congress.\n1. **Root Cause**: Trump's desire to immediately execute his campaign promises and reverse Biden-era policies upon taking office in January 2025 ([art_tech_20250120_005_50d006ae]).\n2. **Intermediate Mechanism**: A centralized White House effort to draft and sign executive orders at an unprecedented rate, focusing on hot-button issues like DEI, transgender rights, and government bureaucracy ([art_politics_20250126_008_eb644702], [art_politics_20250301_002_3aff5e38]).\n3. **Proximate Trigger**: The consistent, year-long signing of these documents, utilizing tools like the autopen to maintain volume and pace, despite political and legal pushback ([art_general_20251128_005_530ea3de]).\n4. **Final Outcome**: The culmination of this aggressive, high-volume strategy resulted in exactly 100 executive orders being issued by the President by December 31, 2025 ([art_general_20251231_010_9d95f75d]).\n\n## Countervailing Factors\n- **Legal Challenges**: Federal judges occasionally blocked or scrutinized administration actions, such as ordering the restoration of funds for Radio Free Europe ([art_general_20250430_004_2ee173b5]). However, this did not slow the issuance of the orders themselves.\n- **Political Backlash**: Pushback from educational institutions and sports organizations regarding DEI and transgender policies created controversy but failed to deter the administration's reliance on executive orders ([art_general_20250307_006_9d9eec39], [art_sports_20250505_011_f9137522]).\n\n## Event Candidate Inventory\n- E1: Inauguration and initial executive orders on AI\n  - title: Inauguration and initial AI executive orders\n  - date: 2025-01-20\n  - why it matters causally: Established the immediate aggressive use of executive orders.\n  - source article IDs: [art_tech_20250120_005_50d006ae]\n- E2: Cancellation of federal DEI programs\n  - title: Cancellation of DEI programs\n  - date: 2025-01-25 to 2025-01-26\n  - why it matters causally: Added significantly to the volume of early executive actions.\n  - source article IDs: [art_politics_20250125_007_c39c5b2a], [art_politics_20250126_008_eb644702]\n- E3: Rescission of Biden administration actions\n  - title: Rescission of Biden administration actions\n  - date: 2025-03-15 to 2025-03-16\n  - why it matters causally: Kept the pace of executive order issuances high to undo previous administration policies.\n  - source article IDs: [art_politics_20250315_003_25b2f503], [art_politics_20250316_004_6092f359]\n- E4: Orders on sex recognition and sports\n  - title: Orders on sex recognition and sports\n  - date: 2025-04-28\n  - why it matters causally: Showed continued use of executive orders for sweeping social policy as the 100-day mark approached.\n  - source article IDs: [art_general_20250428_002_2576580e]\n- E5: Year-end total reaches 100\n  - title: Year-end total reaches 100\n  - date: 2025-12-31\n  - why it matters causally: Represents the final count reflecting the steady issuance throughout the year.\n  - source article IDs: [art_general_20251231_010_9d95f75d]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Aggressive start on inauguration day | [art_tech_20250120_005_50d006ae] | 2025-01-20 | 1.0 | Immediate actions on AI. |\n| Elimination of DEI programs via executive order | [art_politics_20250125_007_c39c5b2a], [art_politics_20250126_008_eb644702] | 2025-01-25 | 1.0 | Major policy shifts via executive action. |\n| Rapid pace of reversing Biden policies | [art_politics_20250315_003_25b2f503], [art_politics_20250316_004_6092f359] | 2025-03-15 | 1.0 | Added to the growing total of orders. |\n| Reliance on autopen to sign documents | [art_general_20251128_005_530ea3de] | 2025-11-28 | 0.9 | Enabled volume of output. |\n| Year concludes with high number of orders | [art_general_20251231_010_9d95f75d] | 2025-12-31 | 1.0 | Reflects the final tally. |\n\n## Uncertainties And Alternative Paths\n- It remains uncertain if any executive orders were drafted but never finalized or signed due to internal administrative friction.\n- An alternative path could have seen a slower issuance rate if Congress had been more amenable to passing Trump's legislative priorities, reducing the reliance on unilateral executive action.\n",
+    "outcome": "225",
+    "explanation": "\n## Executive Summary\nIn 2025, President Donald Trump issued a record-breaking 225 executive orders, fundamentally reshaping the federal government and bypassing congressional gridlock. This outcome was driven by a deliberate, aggressive strategy to rapidly implement the sweeping conservative agenda outlined in 'Project 2025' directly from the Oval Office. Knowing that the legislative process would be too slow, the administration embraced a 'Go ahead, sue me' strategy, accepting the massive wave of resulting litigation as a worthwhile cost for immediately changing facts on the ground. Consequently, the combination of a compliant legislative branch and a determined executive led directly to an unprecedented volume of unilateral presidential directives throughout the year.\n\n## Timeline Of Key Events\n- **2025-01-20**: President Trump is inaugurated and immediately launches a flurry of Day One executive orders, including withdrawing the U.S. from the Paris Agreement and initiating steps to end birthright citizenship ([art_general_20250121_007_b0d73337], [art_general_20250121_006_6f2423ad]).\n- **2025-01-25**: Trump signs an executive order to end Diversity, Equity, and Inclusion (DEI) programs within the federal bureaucracy, fulfilling major campaign promises ([art_politics_20250125_007_c39c5b2a]).\n- **2025-02-05**: The administration's pace continues as analysis shows Trump’s executive orders closely mirror the structural changes proposed in 'Project 2025' ([art_general_20250205_027_d542e442]).\n- **2025-03-27**: The Department of Government Efficiency (DOGE) is formally recognized as a central initiative created to restructure the government, initiated by executive power ([art_general_20250327_010_2487afe2]).\n- **2025-04-29**: Marking 100 days in office, Trump hails his aggressive use of executive orders for immigration crackdowns and rolling back progressive policies ([art_general_20250429_009_67083596]).\n- **2025-09-19**: Observers note that the administration has completely bypassed the legislative process, even symbolically renaming the Department of Defense to the 'Department of War' via executive decree ([art_general_20250919_022_1a765c6f]).\n- **2025-11-28**: Trump escalates his use of unilateral power by issuing directives claiming to legally nullify 92% of the previous administration's documents that were signed using an 'autopen' ([art_general_20251128_005_530ea3de]).\n- **2025-12-31**: By the end of the year, political analysts conclude that the legislative branch effectively abdicated its lawmaking power, cementing the reliance on the 225 executive orders issued by Trump ([art_general_20251231_010_9d95f75d]).\n\n## Causal Chain Analysis\n1. **Root Cause**: The Trump administration entered office with a massive, pre-planned policy blueprint ('Project 2025') but faced the structural reality of a slow, often gridlocked legislative branch ([art_general_20250205_027_d542e442]).\n2. **Intermediate Mechanism**: To achieve rapid implementation, the administration deliberately chose an aggressive unilateral strategy, explicitly accepting inevitable legal battles (the 'Go ahead, sue me' approach) rather than negotiating with Congress ([art_general_20241214_020_0a1b7d5b], [art_general_20250121_007_b0d73337]).\n3. **Proximate Triggers**: The constant need to undo Biden-era regulations (such as DEI programs and autopen-signed documents) and immediately enact conservative priorities (like the DOGE initiative and immigration limits) required a high volume of individual, specific orders throughout the entire year ([art_general_20251128_005_530ea3de], [art_general_20250327_010_2487afe2]).\n4. **Final Outcome**: This relentless reliance on executive action, compounded by Congress effectively ceding its power, resulted in the historic issuance of 225 executive orders by the end of 2025 ([art_general_20251231_010_9d95f75d], [art_general_20250919_022_1a765c6f]).\n\n## Countervailing Factors\n- **Judicial Pushback**: Civil rights organizations, states, and political opponents filed roughly 100 lawsuits in the first half of the year alone, seeking injunctions against many of the most controversial orders. However, this factor failed to lower the *number* of orders issued; in fact, legal hurdles often prompted the administration to issue supplementary or revised executive orders to bypass court injunctions.\n- **Political Backlash**: Significant media scrutiny and criticism regarding executive overreach pushed against this strategy. Nevertheless, the administration was emboldened by its base's approval, making the backlash a catalyst for even more executive actions rather than a deterrent.\n\n## Event Candidate Inventory\n- **E1**: Trump Inauguration and Day One Executive Orders\n  - **Title**: Issuance of First Wave of Executive Orders\n  - **Date**: 2025-01-20\n  - **Why it matters**: Established the administration's 'Go ahead, sue me' strategy and set the rapid pace for the rest of the year.\n  - **Source Article IDs**: [art_general_20250121_007_b0d73337], [art_general_20250121_006_6f2423ad]\n- **E2**: 100 Days Benchmark\n  - **Title**: Trump marks 100 days with focus on immigration and policy rollbacks\n  - **Date**: 2025-04-29\n  - **Why it matters**: Confirmed the administration's ongoing reliance on executive fiat rather than legislation to fulfill campaign promises.\n  - **Source Article IDs**: [art_general_20250429_009_67083596]\n- **E3**: Nullification of Autopen Directives\n  - **Title**: Trump nullifies Biden's autopen-signed orders\n  - **Date**: 2025-11-28\n  - **Why it matters**: Demonstrated the extreme and legally untested lengths to which executive orders were utilized late in the year to dismantle previous administration policies.\n  - **Source Article IDs**: [art_general_20251128_005_530ea3de]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Day One flurry of orders bypassing Congress | [art_general_20250121_007_b0d73337], [art_general_20250121_006_6f2423ad] | 2025-01-21 | 0.95 | Initiated the legal battles and set the tone. |\n| Implementation of Project 2025 via executive action | [art_general_20250205_027_d542e442], [art_general_20250317_021_ea447a81] | 2025-02-05 | 0.90 | Explains the overarching blueprint for the 225 orders. |\n| Nullification of Biden's autopen documents | [art_general_20251128_005_530ea3de] | 2025-11-28 | 0.95 | Shows the continuation of high-volume executive actions late in the year. |\n| Congressional abdication fueling executive action | [art_general_20251231_010_9d95f75d], [art_general_20250919_022_1a765c6f] | 2025-12-31 | 0.85 | Explains why the legislative route was abandoned. |\n\n## Uncertainties And Alternative Paths\n- **Alternative Path**: Had Congress been more cooperative, the administration might have codified its agenda into law, potentially reducing the sheer number of executive orders. Conversely, if the Supreme Court had issued broad rulings entirely limiting the President's executive authority early in the year, the administration might have been forced to slow down the issuance of legally dubious directives.\n- **Unresolved Uncertainty**: The ultimate legal survival of many of these 225 executive orders remains unknown, as key cases are still moving through the appellate courts.\n",
     "is_polymarket": false,
     "is_overlap": false,
     "market_open": "2025-01-01T00:00:00+00:00",
@@ -547,6 +547,19 @@ var annotationData = [
     "price_data": null,
     "events": [
       {
+        "id": "evt_politics_20241214_001_78b7a761",
+        "date": "2024-12-14 17:00",
+        "title": "Trump administration adopts 'Go ahead, sue me' executive action strategy",
+        "description": "Officials in the incoming Trump administration deliberately chose an aggressive unilateral strategy, explicitly accepting inevitable legal battles rather than negotiating with Congress.",
+        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe 'Go ahead, sue me' strategy set the stage for a high volume of unilateral actions.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.washingtonpost.com/politics/2024/12/14/trump-executive-actions-birthright-citizenship-courts",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_politics_20250120_001_a6c9a68c",
         "date": "2025-01-20 12:00",
         "title": "Trump inaugurated and issues AI executive orders",
@@ -555,6 +568,32 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.whitehouse.gov/fact-sheets/2025/01/fact-sheet-president-donald-j-trump-takes-action-to-enhance-americas-ai-leadership",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250120_002_138c7e79",
+        "date": "2025-01-20 12:00",
+        "title": "Trump issues Day One executive orders on Paris Agreement and birthright citizenship",
+        "description": "President Trump is inaugurated and immediately launches a flurry of Day One executive orders, including withdrawing the U.S. from the Paris Agreement and initiating steps to end birthright citizenship.",
+        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDay One orders established the rapid pace of executive actions.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.usnews.com/news/national-news/articles/2025-01-21/trump-signed-a-flurry-of-executive-orders-what-legal-challenges-do-they-face",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250121_003_6c23fa2d",
+        "date": "2025-01-21 17:14",
+        "title": "Opponents file lawsuits challenging Trump's initial executive orders",
+        "description": "Civil rights organizations, states, and political opponents file numerous lawsuits seeking injunctions against Trump's controversial Day One executive orders.",
+        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLawsuits prompted the administration to issue supplementary orders to bypass injunctions, increasing the total count.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://nypost.com/2025/01/21/us-news/trumps-executive-orders-on-creating-doge-nixing-birthright-citizenship-are-first-to-face-legal-challenges",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -581,6 +620,19 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20250205_005_6c6e05ba",
+        "date": "2025-02-05 16:46",
+        "title": "Analysis reveals Trump's executive orders closely mirror Project 2025",
+        "description": "Analysis shows Trump's executive orders closely mirror the structural changes proposed in 'Project 2025', confirming the administration's blueprint.",
+        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe Project 2025 blueprint required a massive number of executive orders to implement.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-executive-orders-project-2025-b2692797.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -620,58 +672,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-rescinds-additional-harmful-biden-executive-actions",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250316_007_ad5c9d15",
-        "date": "2025-03-16 12:00",
-        "title": "Trump rescinds additional Biden actions",
-        "description": "Trump continues to rescind Biden administration actions.",
-        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high volume of executive orders issued by the President.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.whitehouse.gov/presidential-actions/2025/03/additional-recissions-of-harmful-executive-orders-and-actions",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250429_010_6515b45c",
-        "date": "2025-04-29 09:00",
-        "title": "Trump marks 100 days in office",
-        "description": "Approaching his 100th day in office, Trump highlights the dense cluster of orders issued in his early presidency.",
-        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high volume of executive orders issued by the President.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnn.com/politics/live-news/trump-presidency-news-04-29-25",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250501_008_a34b842d",
-        "date": "2025-05-01 12:00",
-        "title": "Trump signs executive order on college sports",
-        "description": "The administration expands executive actions into education and sports.",
-        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high volume of executive orders issued by the President.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nytimes.com/athletic/7169907/2026/04/03/trump-executive-order-college-sports-rules",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251128_009_7324956c",
-        "date": "2025-11-28 12:00",
-        "title": "Trump defends use of autopen",
-        "description": "Trump escalates the use of executive power while defending his use of the autopen.",
-        "impact": "**Affects:** Quantity outcome: How many executive orders will the US President is  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event contributed to the high volume of executive orders issued by the President.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.cnn.com/2025/11/28/politics/trump-biden-auto-pen",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -1274,6 +1274,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_tech_20251118_008_15287bca",
+        "date": "2025-11-18 00:00",
+        "title": "Supply chain constraints at TSMC",
+        "description": "Supply chain constraints at TSMC for advanced packaging (CoWoS) threaten to cap Nvidia's ability to fulfill orders.",
+        "impact": "**Affects:** Yes - Will NVIDIA (NVDA) beat quarterly earnings?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nSupply chain constraints threatened to cap Nvidia's ability to fulfill orders.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.businessinsider.com/nvidia-q3-earnings-live-updates-nvda-stock-price-ai-chips-2025-11?op=1",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_finance_20251119_005_1aa908af",
         "date": "2025-11-19 00:00",
         "title": "Strong Data Center Revenue Growth in Q3 2025",
@@ -1360,19 +1373,6 @@ var annotationData = [
         "has_impact": false,
         "in_market_window": false,
         "source_url": "https://www.nasdaq.com/articles/nvidia-reports-record-q4-revenue-393-billion-full-year-revenue-1305-billion-fiscal-2025",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_tech_20250101_004_c4b53fa6",
-        "date": "2025-01-01 00:00",
-        "title": "Sustained High Demand for AI Accelerators in 2025",
-        "description": "Throughout 2025, there was a sustained and unprecedented high demand for AI accelerators, driven by the rapid expansion of large language models and generative AI applications across various industries. This sustained high demand was a primary driver of revenue for chipmakers, particularly NVIDIA.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.crn.com/news/ai/2025/the-10-biggest-ai-news-stories-of-2025",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

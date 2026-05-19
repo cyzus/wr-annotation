@@ -1710,6 +1710,45 @@ var annotationData = [
     "price_data": null,
     "events": [
       {
+        "id": "evt_health_20250615_001_63652575",
+        "date": "2025-06-15 00:00",
+        "title": "Publication of study suggesting antibacterial products contribute to superbug crisis",
+        "description": "A study is published suggesting that widespread use of antibacterial products may contribute to the dangerous superbug crisis, highlighting the role of inappropriate antimicrobial use.",
+        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe study on antibacterial products highlights inappropriate antimicrobial use, a contributing factor to the superbug crisis and rising mortality.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.foxnews.com/health/antibacterial-products-may-contribute-dangerous-superbug-crisis-study-suggests",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20250615_002_8093c278",
+        "date": "2025-06-15 00:00",
+        "title": "Report raises fresh concerns over rising drug-resistant infections",
+        "description": "A new report raises fresh concerns over the rising rates of drug-resistant infections globally, indicating an escalating crisis.",
+        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nFresh concerns over rising drug-resistant infections indicate an escalating crisis that pushes mortality rates higher.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://thenationonlineng.net/report-raises-fresh-concerns-over-rising-drug-resistant-infections-2",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20250701_003_b5441967",
+        "date": "2025-07-01 00:00",
+        "title": "Ongoing struggles with drug-resistant strains like multidrug-resistant TB",
+        "description": "In mid-2025, ongoing struggles with drug-resistant strains like multidrug-resistant TB and malaria exacerbate baseline AMR mortality rates.",
+        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nOngoing struggles with multidrug-resistant TB and malaria directly exacerbate baseline AMR mortality rates.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://phys.org/news/2025-12-heart-barrier-drug-resistant-tb.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_tech_20250814_008_d1b7084a",
         "date": "2025-08-14 15:00",
         "title": "Generative AI designs compounds to kill drug-resistant bacteria",
@@ -1718,6 +1757,19 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://phys.org/news/2025-08-generative-ai-compounds-drug-resistant.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_health_20250829_004_6a3dd7c2",
+        "date": "2025-08-29 18:00",
+        "title": "Study on effects of Advil and Tylenol on superbugs",
+        "description": "A new study investigates the effects of common medications like Advil and Tylenol on antibiotic resistance, adding to concerns about superbug strength.",
+        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe potential effects of common medications on superbugs add to the overall resistance burden, slightly increasing mortality risk.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://blackamericaweb.com/2025/08/29/advil-ibuprofen-tylenol-acetaminophen-antibiotic-resistance-study",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1783,32 +1835,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.thedailystar.net/health/disease/who/news/some-critical-antibiotics-now-show-79-97-resistance-4010276",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251016_004_5fd78a19",
-        "date": "2025-10-16 12:30",
-        "title": "Public health data confirms 1.2 million yearly AMR deaths",
-        "description": "Consolidated public health data confirms that antimicrobial resistance is causing approximately 1.2 million deaths yearly.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.webpronews.com/rising-antimicrobial-resistance-1-2m-deaths-yearly-10m-projected-by-2050",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_health_20251201_005_9dd671e8",
-        "date": "2025-12-01 21:00",
-        "title": "Researchers report ongoing struggles with multidrug-resistant TB",
-        "description": "Reports indicate ongoing struggles with drug-resistant strains like multidrug-resistant TB, exacerbating baseline AMR mortality rates.",
-        "impact": "**Affects:** Yes - Will the global number of deaths from drug-resista  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThis event indicates worsening AMR, making the 1 million death threshold more likely.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://phys.org/news/2025-12-heart-barrier-drug-resistant-tb.html",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

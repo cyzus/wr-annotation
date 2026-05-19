@@ -301,11 +301,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260215_005_7b7f691c",
+        "id": "evt_politics_20260215_006_f5113e06",
         "date": "2026-02-15 00:00",
-        "title": "Russia maintains maximalist territorial demands",
-        "description": "Russia maintained its maximalist territorial demands, creating an intractable baseline for negotiations.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMaximalist demands prevent agreement.",
+        "title": "Ukraine demands robust security guarantees",
+        "description": "Ukraine maintained its existential need for sovereignty and robust security guarantees.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDemands for security guarantees complicate agreement.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
@@ -340,11 +340,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260218_002_9918e089",
-        "date": "2026-02-18 00:00",
-        "title": "US-Ukraine-Russia trilateral meetings held in Geneva",
-        "description": "Trilateral US-Ukraine-Russia meetings were held in Geneva, but failed to produce any significant breakthrough or agreement on ceasefire terms.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nMeetings provided a chance for peace.",
+        "id": "evt_politics_20260217_002_64d82fcd",
+        "date": "2026-02-17 00:00",
+        "title": "US-Ukraine-Russia trilateral meetings begin in Geneva",
+        "description": "Trilateral US-Ukraine-Russia meetings were held in Geneva to discuss ceasefire terms.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe convening of trilateral meetings represented a diplomatic effort to reach a ceasefire.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://en.wikipedia.org/wiki/2026_United_States%E2%80%93Ukraine%E2%80%93Russia_meetings_in_Geneva",
@@ -379,19 +379,6 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260215_006_f5113e06",
-        "date": "2026-02-15 00:00",
-        "title": "Ukraine demands robust security guarantees",
-        "description": "Ukraine maintained its existential need for sovereignty and robust security guarantees.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nDemands for security guarantees complicate agreement.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
         "id": "evt_politics_20260215_009_ec41fdf1",
         "date": "2026-02-15 00:00",
         "title": "Domestic political pressure reinforces hardline stances",
@@ -405,14 +392,27 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20260215_001_293d16b3",
+        "id": "evt_politics_20260215_001_7242aea1",
         "date": "2026-02-15 00:00",
-        "title": "Trump administration launches diplomatic initiative",
-        "description": "The Trump administration launches a high-pressure diplomatic initiative aimed at securing a quick resolution.",
-        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nDiplomatic initiative aimed at peace.",
+        "title": "Ukrainian forces launch strikes against Russian oil hub",
+        "description": "Ukrainian forces launched strikes against a Russian oil hub ahead of a major European summit, demonstrating continued military pressure.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMilitary escalation undermined the fragile trust needed for a ceasefire.",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://www.adn.com/nation-world/2026/02/22/after-4-years-of-war-by-russia-in-ukraine-peace-is-still-elusive-despite-a-us-push-for-a-settlement",
+        "source_url": "https://www.msn.com/en-gb/news/world/ukraine-war-kyiv-strikes-russian-oil-hub-ahead-of-macron-summit/ar-AA1YrHKV?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20260215_005_7b7f691c",
+        "date": "2026-02-15 00:00",
+        "title": "Russia maintains maximalist territorial demands",
+        "description": "Russia maintained its maximalist territorial demands, creating an intractable baseline for negotiations.",
+        "impact": "**Affects:** Yes - Russia x Ukraine ceasefire by February 28, 2026?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nMaximalist demands prevent agreement.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.orfonline.org/expert-speak/russia-ukraine-war-in-2026-at-the-crossroads-of-peace-and-war",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

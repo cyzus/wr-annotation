@@ -1019,6 +1019,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_general_20251115_005_098cfc56",
+        "date": "2025-11-15 00:00",
+        "title": "Typhoon activity reported as busier-than-expected",
+        "description": "Typhoon activity in 2025 is reported as a busier-than-expected year so far.",
+        "impact": "**Affects:** Yes - Will 27 named typhoons occur in the Northwest Paci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nA busier-than-expected season increased the likelihood of reaching 27 storms.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://gulfnews.com/world/asia/philippines/typhoon-activity-in-2025-a-busier-than-expected-year-so-far-1.500292328",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_climate_20250101_002_4a3acaa0",
         "date": "2025-01-01 00:00",
         "title": "Positive Phase of Pacific Decadal Oscillation (PDO)",
@@ -1032,12 +1045,12 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_climate_20251010_001_94f795fd",
+        "id": "evt_climate_20251010_002_cfc518e0",
         "date": "2025-10-10 00:00",
-        "title": "La Niña conditions emerge",
-        "description": "La Niña conditions emerge in the Western Pacific.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
+        "title": "La Niña conditions emerge in the Western Pacific",
+        "description": "La Niña conditions emerge, creating a favorable environment for late-season tropical cyclone development.",
+        "impact": "**Affects:** Yes - Will 27 named typhoons occur in the Northwest Paci  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nLa Niña conditions created a favorable environment for late-season storms.",
+        "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.newsweek.com/la-nina-arrives-map-shows-potential-impacts-on-us-10861071",
         "current_status": "pending",
@@ -1053,19 +1066,6 @@ var annotationData = [
         "has_impact": false,
         "in_market_window": false,
         "source_url": "https://nature.com/articles/s41467-025-68070-z",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_science_20251225_006_6a0110c2",
-        "date": "2025-12-25 00:00",
-        "title": "Standard counting methodology counts all named storms",
-        "description": "Standard counting methodology counts all named storms.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://www.nationthailand.com/news/world/40060651",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

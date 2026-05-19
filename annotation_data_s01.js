@@ -499,12 +499,12 @@ var annotationData = [
     "title": "What will be the average daily amount of Venezuelan crude oil (in thousands of barrels) imported by the US in the fourth quarter of 2025?",
     "question_type": "quantity",
     "options": [
-      "200"
+      "142"
     ],
     "background": "No background available.",
     "resolution_criteria": "The figure will be based on the official data for the daily average of crude oil imports from Venezuela for October, November, and December 2025, as reported by the U.S. Energy Information Administration (EIA).",
-    "outcome": "200",
-    "explanation": "\n## Executive Summary\nThe US imported around 200,000 barrels per day (bpd) of Venezuelan crude oil on average in the fourth quarter of 2025, driven largely by the continued operations of Chevron and other entities under specific US Treasury licenses. Despite the tightening of sanctions on Venezuela's oil sector after disputed elections, the US maintained exceptions that allowed Western oil companies to pump and export Venezuelan crude to US refineries. This strategic carve-out ensured a steady flow of heavy crude to the US Gulf Coast, balancing the dual goals of maintaining global supply stability and avoiding spikes in domestic fuel prices ahead of geopolitical shifts. By Q4 2025, Chevron's successful efforts to incrementally boost production and exports, coupled with approvals for other companies like Repsol and Eni, sustained the targeted ~200k bpd import volume, cementing the outcome.\n\n## Timeline Of Key Events\n- **October 2024 - January 2025**: The Biden administration tightened general oil sanctions on Venezuela via the expiration of General License 44, shifting to a case-by-case authorization model. [art_general_20251230_003_3962876e]\n- **Mid 2025**: Chevron continued its joint venture operations in Venezuela under General License 41, gradually increasing output and directing exports to US Gulf Coast refiners. [art_business_20260128_011_38b591f7]\n- **October 1 - December 31, 2025 (Q4 2025)**: Sustained operations by Chevron and specific waivers for allied companies resulted in an average of approximately 200,000 bpd of Venezuelan crude being imported by the US. Refineries such as Valero, PBF Energy, and Chevron's own facilities optimized their runs with this heavy crude. [art_business_20251230_004_d4398cea]\n- **Late December 2025 / Early January 2026**: A dramatic US-led operation resulted in the capture of Nicolas Maduro, shaking up the geopolitical landscape but occurring just after the close of the Q4 2025 measurement period. The incoming Trump administration subsequently signaled plans to completely overhaul the Venezuelan oil sector. [art_general_20260101_044_5724dcd7]\n\n## Causal Chain Analysis\nThe primary root cause of this outcome was the US government's strategic decision to replace broad sanctions relief (General License 44) with targeted, company-specific licenses (such as General License 41 for Chevron). This caused a restructuring of Venezuela's oil export flows, prioritizing debt repayment and supply to Western markets over open-market sales. This policy intermediate mechanism allowed Chevron to bypass the corruption and inefficiencies of PDVSA, directly managing operations and exports. The proximate trigger was Chevron's successful execution of its operational plan, drilling new wells and optimizing existing infrastructure throughout 2025. This led directly to a steady export volume of approximately 200,000 bpd to the US Gulf Coast in Q4 2025, fulfilling the target outcome. \n\n## Countervailing Factors\nSeveral forces threatened to push imports below the 100k bpd mark. Chief among these was the overall deterioration of Venezuela's oil infrastructure and severe power outages, such as the blackout at the Cardon refinery. Furthermore, heightened political tensions following the disputed 2024 Venezuelan elections and subsequent crackdowns on the opposition led to calls for a complete embargo on Venezuelan oil. However, these countervailing factors failed because the US prioritized energy security and the specific licenses granted to Chevron insulated its operations from the broader dysfunction of PDVSA. The infrastructure used by Chevron was prioritized for power and resources, overcoming the systemic failures.\n\n## Event Candidate Inventory\n- **E1**: US Treasury issues specific licenses to Chevron and allied oil companies, enabling continued Venezuelan operations.\n  - Date: Late 2024 / Early 2025\n  - Why it matters causally: Established the legal framework allowing the ~200k bpd flow to the US.\n  - Source: [art_business_20251230_004_d4398cea]\n- **E2**: Chevron successfully increases crude production at its Venezuelan joint ventures to meet export targets.\n  - Date: Q1-Q3 2025\n  - Why it matters causally: Provided the physical volumes needed to hit the ~200k bpd target in Q4.\n  - Source: [art_business_20260128_011_38b591f7]\n- **E3**: US military/political intervention culminates in the capture of Nicolas Maduro.\n  - Date: Late December 2025 / January 2026\n  - Why it matters causally: Caused massive market volatility and shaped the future of Venezuelan oil, though it occurred at the end/after the Q4 measurement period, cementing the Q4 status quo right up until the collapse.\n  - Source: [art_general_20260101_044_5724dcd7], [art_general_20260101_051_b5072394]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n| :--- | :--- | :--- | :--- | :--- |\n| Specific US Treasury licenses allowed Chevron to maintain and grow operations in Venezuela. | [art_business_20251230_004_d4398cea], [art_business_20260128_011_38b591f7] | Early to Mid 2025 | 0.95 | Widely reported policy mechanism. |\n| Chevron optimized production and directed exports to US Gulf Coast refineries. | [art_business_20260128_011_38b591f7], [art_business_20260107_002_d00e1586] | Throughout 2025 | 0.90 | Refiners favored heavy Venezuelan crude. |\n| Maduro's regime was toppled in a US-led operation at the end of the year. | [art_general_20260101_044_5724dcd7], [art_general_20260101_051_b5072394] | Dec 2025 / Jan 2026 | 0.99 | Major geopolitical shock. |\n\n## Uncertainties And Alternative Paths\nThe primary alternative path was a complete collapse of US imports to below 100k bpd. This could have occurred if the US Treasury revoked General License 41 due to human rights violations by the Maduro regime, or if PDVSA's failing infrastructure catastrophically impacted Chevron's joint ventures. The uncertainty regarding exact daily fluctuations was smoothed out by the quarterly average metric, but sudden policy shifts in Washington remained a tail risk until the end of the period.\n",
+    "outcome": "142",
+    "explanation": "\n## Executive Summary\nThe outcome of US imports of Venezuelan crude averaging 142,000 barrels per day (bpd) in the fourth quarter of 2025 was primarily driven by the persistence of specific US sanctions carve-outs amid broader sector restrictions. Following years of deep decline due to mismanagement and harsh sanctions, the Office of Foreign Assets Control (OFAC) maintained narrow authorizations—most notably General License 41A/41B—allowing companies like Chevron to extract and export oil strictly for debt repayment. While US Gulf Coast refineries have strong demand for Venezuela's heavy sour crude, severe infrastructural decay and the reinstatement of broader sanctions against the Maduro regime capped any significant production growth. Consequently, the import volumes were tightly bounded to the operational capacity permitted under Chevron's specific license, stabilizing at 142,000 bpd.\n\n## Timeline Of Key Events\n- **Pre-2025**: Venezuelan crude production collapses from over 2.5 million bpd to under 500,000 bpd due to chronic underinvestment and the initial wave of US sanctions ([art_general_20260107_007_2df5a038]).\n- **Late 2024 / Early 2025**: The Biden administration ends broad sanctions relief but maintains specific carve-outs for international majors like Chevron ([art_politics_20251210_003_873d5dd0]).\n- **October - November 2025**: Despite increasing political friction and tightening sanctions enforcement against the Maduro regime, Chevron continues to export roughly 140,000-150,000 bpd to the US under its specific \"debt-for-oil\" license ([art_politics_20251210_003_873d5dd0], [art_general_20260104_019_7753e31d]).\n- **December 2025**: The US Treasury targets Maduro's circle with further sanctions, but explicitly keeps the specific energy licenses active to prevent total collapse and recover outstanding debts ([art_general_20251212_011_12485552]).\n- **January 2026**: Trump assumes office and captures Nicolás Maduro, sparking discussions of a massive influx of investment to rebuild the industry, but this occurs after the Q4 2025 window has closed ([art_general_20260103_050_50dd1246]).\n\n## Causal Chain Analysis\n1. **Root Cause**: Years of severe underinvestment, loss of skilled labor, and stringent US sanctions caused Venezuela's oil infrastructure to decay dramatically, reducing the nation's capacity to produce its heavy Orinoco crude ([art_general_20260107_007_2df5a038]).\n2. **Intermediate Mechanism**: Because US Gulf Coast refineries were explicitly designed to process dense, sticky Venezuelan crude, there remained a strong economic incentive to import it rather than rely solely on Canadian oil sands ([art_general_20260106_004_049920ff]).\n3. **Proximate Trigger**: To facilitate debt recovery without providing cash to the Maduro regime, OFAC issued and maintained specific authorizations, primarily General License 41A/41B for Chevron. This allowed a controlled, legally compliant flow of crude from joint ventures directly to the US ([art_politics_20251210_003_873d5dd0]).\n4. **Final Outcome**: Lacking the capital to expand and constrained by the narrow scope of the specific licenses, Chevron's export capacity hit a ceiling, resulting in an average daily import volume of 142,000 bpd in Q4 2025 ([art_general_20260104_020_7e816170]).\n\n## Countervailing Factors\n- **Total Sanctions Reinstatement**: There was a strong push from US hardliners to completely sever all oil trade with Venezuela in retaliation for Maduro's authoritarian actions. This was overwhelmed by the pragmatic need to recover billions in outstanding debt owed to US companies, leading to the preservation of the Chevron carve-out ([art_business_20251230_004_d4398cea]).\n- **Industry Revival Potential**: With the world's largest proven oil reserves, some analysts predicted a faster rebound in production. However, this failed to materialize in 2025 because international companies were unwilling to risk major capital expenditures in a highly volatile political environment without permanent legal and fiscal protections.\n\n## Event Candidate Inventory\n- E1\n    - title: OFAC maintains General License 41A/41B for Chevron\n    - date: 2025-01-01 to 2025-12-31 (bounded)\n    - why it matters causally: This was the explicit legal mechanism that allowed the 142,000 bpd of oil to enter the US without violating broader sanctions.\n    - source article IDs: [art_politics_20251210_003_873d5dd0], [art_general_20260104_019_7753e31d]\n\n- E2\n    - title: US imposes new sanctions on Maduro's inner circle\n    - date: December 2025\n    - why it matters causally: It reinforced the hostile environment that discouraged any new investment or production expansion beyond Chevron's existing operations.\n    - source article IDs: [art_general_20251220_014_731ac56f], [art_general_20251212_011_12485552]\n\n## Evidence Mapping Table\n| Claim/Event | Article IDs | Date Support | Confidence (0-1) | Notes |\n|---|---|---|---|---|\n| Chevron pumps ~140k-150k bpd under specific license | [art_general_20260104_019_7753e31d], [art_politics_20251210_003_873d5dd0] | Q4 2025 | 0.95 | The core driver of the target outcome. |\n| Broad sanctions restrict wider industry recovery | [art_business_20251230_004_d4398cea], [art_general_20251212_011_12485552] | Q4 2025 | 0.90 | Explains why imports didn't exceed the Chevron ceiling. |\n| Gulf Coast refineries demand dense Venezuelan crude | [art_general_20260106_004_049920ff], [art_general_20260107_007_2df5a038] | Late 2025 | 0.90 | Establishes the economic pull factor for the imports. |\n\n## Uncertainties And Alternative Paths\n- If OFAC had revoked General License 41A/41B during the tightening of sanctions in late 2025, imports would have dropped to near zero.\n- Alternatively, if Maduro had made significant democratic concessions earlier in 2025, broader sanctions relief could have led to a rapid increase in imports, easily surpassing 200,000 bpd.\n",
     "is_polymarket": false,
     "is_overlap": false,
     "market_open": "2025-10-10T00:00:00+00:00",
@@ -592,6 +592,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_business_20251231_011_9d3d94a3",
+        "date": "2025-12-31 00:00",
+        "title": "Chevron maintains exports of roughly 140,000-150,000 bpd to the US through December",
+        "description": "Chevron continues to export roughly 140,000-150,000 bpd to the US under its specific debt-for-oil license through the end of Q4.",
+        "impact": "**Affects:** US imports of Venezuelan crude remain below 100,000 bpd in Q4 2025  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nChevron's steady exports directly resulted in the 142k bpd average.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.staradvertiser.com/2026/01/03/breaking-news/trump-u-s-oil-producers-will-spend-billions-to-revive-venezuelan-industry",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_politics_20260101_010_41c0f5b8",
         "date": "2026-01-01 00:00",
         "title": "Nicolás Maduro captured by US forces",
@@ -626,19 +639,6 @@ var annotationData = [
         "has_impact": false,
         "in_market_window": false,
         "source_url": "https://www.crisisgroup.org/latin-america-caribbean/andes/venezuela/us-venezuela-deal-a-chance-break-political-impasse",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20230101_002_e9d5f2b5",
-        "date": "2023-01-01 00:00",
-        "title": "Venezuelan Political Instability",
-        "description": "Venezuela continues to experience a deep and prolonged political and economic crisis, creating an unstable environment for the oil industry.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.thenewhumanitarian.org/analysis/2024/06/25/hunger-healthcare-schools-reasons-leave-venezuela-maduro-poll-win",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1448,6 +1448,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_politics_20251015_010_6e65a5e2",
+        "date": "2025-10-15 09:00",
+        "title": "DOGE employees depose ChatGPT was used to identify grants",
+        "description": "Depositions from DOGE employees reveal the agency relied on ChatGPT to identify over $100 million in DEI-related grants for cancellation.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHindered the cuts",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_politics_20251021_009_e30a33e4",
         "date": "2025-10-21 09:00",
         "title": "Disbandment of DOGE",
@@ -1456,19 +1469,6 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://time.com/7336327/doge-disbanded-elon-musk",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20251030_006_696de998",
-        "date": "2025-10-30 09:00",
-        "title": "Depositions reveal ChatGPT use",
-        "description": "Depositions reveal DOGE used ChatGPT to identify grants for cancellation.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nChatGPT use revelation damaged credibility.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -1513,40 +1513,40 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251030_007_eea3f3d1",
-        "date": "2025-10-30 09:30",
-        "title": "Public backlash over ChatGPT",
-        "description": "Public and political backlash occurs due to DOGE's use of ChatGPT.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nPublic backlash increased political resistance.",
+        "id": "evt_politics_20250818_003_87cbe12d",
+        "date": "2025-08-18 09:00",
+        "title": "Federal agencies and unions push back against DOGE",
+        "description": "Federal agencies and labor unions intensify their pushback against DOGE's attempts to implement widespread cuts.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHindered the cuts",
         "has_impact": true,
         "in_market_window": true,
-        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
+        "source_url": "https://www.msn.com/en-us/news/opinion/former-doge-employees-give-an-inside-look-at-the-elon-musk-led-agency/ar-AA1YBaPY?ocid=BingNewsVerp",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
       },
       {
-        "id": "evt_politics_20251030_008_ca03835b",
-        "date": "2025-10-30 09:45",
-        "title": "DOGE credibility undermined",
-        "description": "DOGE's credibility is severely undermined by the ChatGPT controversy.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLoss of credibility undermined the entire effort.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20250901_004_0a6ceb1c",
-        "date": "2025-09-01 12:00",
-        "title": "Lawsuits filed against DOGE",
-        "description": "Lawsuits are filed by federal workers and unions against DOGE.",
-        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nLawsuits created legal barriers to the cuts.",
+        "id": "evt_politics_20250916_004_45b66cde",
+        "date": "2025-09-16 09:00",
+        "title": "Federal judges issue injunctions blocking mass terminations",
+        "description": "Federal judges issue injunctions that block the mass terminations proposed by DOGE.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHindered the cuts",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.msn.com/en-us/news/us/a-year-later-experts-say-full-effect-of-doge-cuts-may-never-be-known/ar-AA1WPIsA?ocid=BingNewsVerp",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_politics_20251016_011_a0de0088",
+        "date": "2025-10-16 09:00",
+        "title": "Public and political backlash erupts over ChatGPT use",
+        "description": "Widespread controversy and legal challenges arise following the revelation that DOGE used ChatGPT for critical decision-making.",
+        "impact": "**Affects:** Yes - Will Elon and DOGE cut 150-200k employees in 2025?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nHindered the cuts",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://abc7ny.com/post/doge-depositions-justin-fox-nate-cavanaugh-staffers-elon-musk-agency-say-no-regrets-people-losing-income/18715376",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -1591,11 +1591,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_finance_20260222_008_3d24da81",
-        "date": "2026-02-22 23:30",
-        "title": "NYSE issues advisories confirming normal open",
-        "description": "The exchange officially announces that stock market hours will remain unchanged.",
-        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nAdvisory confirmed normal opening",
+        "id": "evt_finance_20260222_014_4c88d03f",
+        "date": "2026-02-22 23:00",
+        "title": "NYSE management decides to proceed with normal operations",
+        "description": "NYSE management makes the explicit decision to proceed with normal operations despite the blizzard.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nThe management's decision to proceed was the primary driver for the floor opening on time.",
         "has_impact": true,
         "in_market_window": true,
         "source_url": "https://www.bloomberg.com/news/articles/2026-02-23/nyse-and-nasdaq-say-stock-market-hours-unchanged-amid-blizzard",
@@ -1630,6 +1630,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_politics_20260223_010_bd2e6e91",
+        "date": "2026-02-23 00:00",
+        "title": "New York City declares a state of emergency",
+        "description": "New York City declares a state of emergency due to the massive blizzard.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe state of emergency signaled severe disruption, making a delay more likely.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://apnews.com/live/winter-snow-storm-new-york",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_finance_20260221_006_bf4b9278",
         "date": "2026-02-21 22:00",
         "title": "Market speculation of NYSE delay rises",
@@ -1643,6 +1656,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_climate_20260221_009_51fbc51c",
+        "date": "2026-02-21 23:00",
+        "title": "Massive East Coast blizzard strikes New York City",
+        "description": "A severe bomb cyclone and blizzard hits New York City, creating extreme weather conditions.",
+        "impact": "**Affects:** No - NYSE trading floor opening delayed Monday?  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe massive blizzard created extreme weather conditions that hindered normal operations.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.aol.com/east-coast-blizzard-bomb-cyclone-111500530.html",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_climate_20260222_001_efe03744",
         "date": "2026-02-22 00:00",
         "title": "Historic blizzard strikes the U.S. East Coast",
@@ -1651,32 +1677,6 @@ var annotationData = [
         "has_impact": false,
         "in_market_window": false,
         "source_url": "https://www.syracuse.com/news/2026/03/gov-hochul-is-asking-trump-for-federal-disaster-money-after-new-yorks-record-breaking-blizzard.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_general_20260222_001_2ce154f3",
-        "date": "2026-02-22 00:00",
-        "title": "Winter Storm Hernando hits East Coast",
-        "description": "Winter Storm Hernando hits the East Coast with severe weather.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://www.aol.com/east-coast-blizzard-bomb-cyclone-111500530.html",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_politics_20260222_002_7f70c8af",
-        "date": "2026-02-22 12:00",
-        "title": "State of emergency declared in New York City",
-        "description": "Due to the severe blizzard, a state of emergency was declared in New York City, leading to widespread travel bans and disruptions.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": false,
-        "source_url": "https://apnews.com/live/winter-snow-storm-new-york",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

@@ -1664,6 +1664,19 @@ var annotationData = [
     },
     "events": [
       {
+        "id": "evt_culture_20250305_001_e55e542f",
+        "date": "2025-03-05 00:00",
+        "title": "Early buzz around summer blockbusters begins",
+        "description": "Early buzz around summer blockbusters begins, with high hopes for the new James Gunn-directed Superman reboot alongside returning mega-franchises like Jurassic World.",
+        "impact": "**Affects:** Yes - Will 'Superman' have the best domestic opening wee  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEarly buzz indicates high interest, slightly favoring a strong opening.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://www.yahoo.com/entertainment/hollywood-banking-mission-impossible-jurassic-154734357.html?fr=sycsrp_catchall",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_culture_20250327_029_96ccdeeb",
         "date": "2025-03-27 12:00",
         "title": "Positive Buzz from Early 'Superman' Screenings",
@@ -1742,6 +1755,19 @@ var annotationData = [
         "reject_reason": null
       },
       {
+        "id": "evt_business_20250530_002_ef29cd3b",
+        "date": "2025-05-30 00:00",
+        "title": "Superman early box office projections have it overtaking Man of Steel",
+        "description": "Superman early box office projections have it overtaking Man of Steel and Spider-Man Homecoming.",
+        "impact": "**Affects:** Yes - Will 'Superman' have the best domestic opening wee  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nStrong early projections suggest a very high opening weekend is possible.",
+        "has_impact": true,
+        "in_market_window": true,
+        "source_url": "https://thedirect.com/article/superman-2025-early-box-office-overtaking-man-of-steel-spider-man",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
         "id": "evt_business_20250613_010_3cbef0cd",
         "date": "2025-06-13 00:00",
         "title": "Box office projections for 'The Fantastic Four' rise",
@@ -1763,32 +1789,6 @@ var annotationData = [
         "has_impact": false,
         "in_market_window": true,
         "source_url": "https://businessinsider.com/2025-box-office-movie-quality-analysis-2025-12",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250711_008_651ab9e5",
-        "date": "2025-07-11 00:00",
-        "title": "Superman hits theaters",
-        "description": "Superman hits theaters.",
-        "impact": "**Affects:** No - Will 'Superman' have the best domestic opening wee  \n\n**Direction:** Neutral    \n\n**Reasoning:**\nSuperman hitting theaters is a prerequisite but neutral on its own.",
-        "has_impact": true,
-        "in_market_window": true,
-        "source_url": "https://variety.com/2025/film/box-office/superman-box-office-opening-weekend-1236459080?_bhlid=e0377159e9a794da9aca9a0a2b4573393eca090b",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_business_20250712_014_98a59f29",
-        "date": "2025-07-12 00:00",
-        "title": "High financial stakes and expectations for 'Superman'",
-        "description": "With a combined production and marketing budget of over $500M, and early box office projections and test screenings generating positive buzz, the financial stakes and expectations for 'Superman' were incredibly high. This immense pressure framed its solid $125M opening as a relative disappointment, especially in direct comparison to 'The Fantastic Four's' massive success.",
-        "impact": "No impact assessment provided.",
-        "has_impact": false,
-        "in_market_window": true,
-        "source_url": "https://variety.com/2025/film/news/superman-success-budget-cast-salaries-1236462393",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null

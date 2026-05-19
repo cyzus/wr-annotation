@@ -336,11 +336,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260220_004_bd419d95",
-        "date": "2026-02-20 12:00",
-        "title": "Johannes Dale-Skjevdal wins 15km mass start biathlon",
-        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260220_004_bd419d95 had a positive impact on Norway winning.",
+        "id": "evt_sports_20260219_004_5e5c20b3",
+        "date": "2026-02-19 12:00",
+        "title": "Jordan Stolz wins third speedskating gold",
+        "description": "Speedskater Jordan Stolz wins his third gold medal of the Games.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nStolz's three golds significantly boosted the US gold count.",
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
@@ -349,11 +349,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_003_92d0ced9",
-        "date": "2026-02-21 08:30",
-        "title": "Klaebo wins the men's 50km mass start",
-        "description": "Klaebo wins the men's 50km cross-country mass start.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWinning the 50km mass start secured the 18th gold medal, contributing to Norway's win.",
+        "id": "evt_sports_20260221_009_9b897368",
+        "date": "2026-02-21 08:00",
+        "title": "Johannes Hoesflot Klaebo wins his sixth gold medal",
+        "description": "Johannes Hoesflot Klaebo wins his sixth gold medal in the 50km mass start, setting a record for a single Games.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nKlaebo's six golds were a massive contribution to Norway's overall medal count.",
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
@@ -362,11 +362,11 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260222_006_c53fdbc9",
-        "date": "2026-02-22 12:00",
-        "title": "Jordan Stolz wins three speedskating golds",
-        "description": "Jordan Stolz wins three speedskating golds for the US.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nEvent evt_sports_20260222_006_c53fdbc9 had a negative impact on Norway winning.",
+        "id": "evt_sports_20260222_003_aeb273ba",
+        "date": "2026-02-22 11:05",
+        "title": "U.S. men's hockey team wins gold",
+        "description": "The U.S. men's hockey team beats Canada 2-1 in overtime to win the gold medal.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe US men's hockey gold added to the US total, challenging Norway's lead.",
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://heavy.com/sports/olympics/usa-gold-medal-count-today",
@@ -383,6 +383,32 @@ var annotationData = [
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260219_005_c6fb6dc3",
+        "date": "2026-02-19 12:00",
+        "title": "U.S. women's hockey team wins gold",
+        "description": "The U.S. women's hockey team stages a comeback to beat Canada for gold in overtime.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Against outcome    \n\n**Reasoning:**\nThe US women's hockey gold added to the US total.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
+        "current_status": "pending",
+        "reasoning_status": null,
+        "reject_reason": null
+      },
+      {
+        "id": "evt_sports_20260220_004_bd419d95",
+        "date": "2026-02-20 12:00",
+        "title": "Johannes Dale-Skjevdal wins 15km mass start biathlon",
+        "description": "Johannes Dale-Skjevdal hits all 20 targets in the 15-kilometer mass start biathlon, securing Norway's 17th gold medal.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260220_004_bd419d95 had a positive impact on Norway winning.",
+        "has_impact": true,
+        "in_market_window": false,
+        "source_url": "https://www.cbsnews.com/news/olympic-medal-count-2026-winter-games",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -414,40 +440,14 @@ var annotationData = [
         "reject_reason": null
       },
       {
-        "id": "evt_sports_20260221_004_a32ea3f8",
-        "date": "2026-02-21 08:45",
-        "title": "Norway secures its 18th gold medal",
-        "description": "Klaebo's 50km cross-country mass start victory secures Norway's 18th gold medal.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nSecuring the 18th gold directly led to the final record of 18 golds, contributing to Norway's win.",
+        "id": "evt_sports_20260221_003_92d0ced9",
+        "date": "2026-02-21 08:30",
+        "title": "Klaebo wins the men's 50km mass start",
+        "description": "Klaebo wins the men's 50km cross-country mass start.",
+        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nWinning the 50km mass start secured the 18th gold medal, contributing to Norway's win.",
         "has_impact": true,
         "in_market_window": false,
         "source_url": "https://www.cnn.com/sport/live-news/milan-winter-olympics-results-highlights-medals-02-21-26",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260221_003_5d6511de",
-        "date": "2026-02-21 12:00",
-        "title": "Jens Luras Oftebro wins three gold medals",
-        "description": "Jens Luras Oftebro goes undefeated to win three golds in Nordic combined.",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_003_5d6511de had a positive impact on Norway winning.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
-        "current_status": "pending",
-        "reasoning_status": null,
-        "reject_reason": null
-      },
-      {
-        "id": "evt_sports_20260221_005_7f3b7d79",
-        "date": "2026-02-21 12:00",
-        "title": "Norway accumulates 25 medals in cross-country and biathlon",
-        "description": "Norway's dominance in events with numerous medal opportunities (cross-country and biathlon accounted for 25 medals).",
-        "impact": "**Affects:** Option 1: Norway  \n\n**Direction:** Towards outcome    \n\n**Reasoning:**\nEvent evt_sports_20260221_005_7f3b7d79 had a positive impact on Norway winning.",
-        "has_impact": true,
-        "in_market_window": false,
-        "source_url": "https://www.nbcolympics.com/news/final-medal-count-2026-milan-cortina-winter-olympics-and-paralympics",
         "current_status": "pending",
         "reasoning_status": null,
         "reject_reason": null
@@ -457,7 +457,7 @@ var annotationData = [
   {
     "id": "polymarket_0x93e221eee8f2b82a8d61310d98cc4ab233fa1f8886492115824ae562487b2027",
     "title": " The Ring - High Stakes: Ryan Garcia vs. Mario Barrios",
-    "question_type": "binary",
+    "question_type": "mcq",
     "options": [
       "Garcia",
       "Barrios"
